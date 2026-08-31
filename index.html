@@ -35,10 +35,10 @@
       </div>
 
       <div class="target-control" role="group" aria-label="Choose thesis target">
-        <button type="button" data-target="5000" class="target-tab selected">
+        <button type="button" data-target="5000" class="target-tab selected" aria-pressed="true">
           <span>$5K THESIS</span><strong id="tabProb5k">65%</strong><small>by end-2027</small>
         </button>
-        <button type="button" data-target="10000" class="target-tab">
+        <button type="button" data-target="10000" class="target-tab" aria-pressed="false">
           <span>$10K THESIS</span><strong id="tabProb10k">35%</strong><small>by end-2029</small>
         </button>
       </div>
@@ -51,8 +51,8 @@
         <div class="trajectory" aria-label="ETH trajectory from current price to 10 thousand dollars">
           <div class="trajectory-line"><div id="targetFill" class="trajectory-fill"></div></div>
           <div id="currentMarker" class="current-marker"><span>NOW</span></div>
-          <button class="milestone milestone-5 selected" type="button" data-target="5000"><span>$5K</span><small id="distance5k">51% away</small></button>
-          <button class="milestone milestone-10" type="button" data-target="10000"><span>$10K</span><small id="distance10k">76% away</small></button>
+          <button class="milestone milestone-5 selected" type="button" data-target="5000" aria-pressed="true"><span>$5K</span><small id="distance5k">51% away</small></button>
+          <button class="milestone milestone-10" type="button" data-target="10000" aria-pressed="false"><span>$10K</span><small id="distance10k">76% away</small></button>
         </div>
         <div class="trajectory-labels"><span id="currentPriceLabel">$2.45K current</span><span>$603B</span><span>$1.21T</span></div>
       </div>

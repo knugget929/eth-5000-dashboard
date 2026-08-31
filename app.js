@@ -33,7 +33,11 @@ function renderTargetCards(){
   const f5=thesis.targets['5000'],f10=thesis.targets['10000'];
   $('#tabProb5k').textContent=`${f5.probability}%`;
   $('#tabProb10k').textContent=`${f10.probability}%`;
-  document.querySelectorAll('[data-target]').forEach(button=>button.classList.toggle('selected',button.dataset.target===activeTarget));
+  document.querySelectorAll('[data-target]').forEach(button=>{
+    const selected=button.dataset.target===activeTarget;
+    button.classList.toggle('selected',selected);
+    button.setAttribute('aria-pressed',String(selected));
+  });
 }
 
 function renderActiveTarget(){
