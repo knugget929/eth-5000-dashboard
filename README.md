@@ -1,29 +1,34 @@
-# ETH Thesis — $5K / $10K
+# ETH Mission Control — $5K / $10K
 
-A visual, mobile-first Ethereum thesis dashboard tracking two explicit price targets:
+A visual, mobile-first Ethereum thesis dashboard for two explicit scenarios:
 
-- **$5K ETH** — current thesis horizon: Dec. 31, 2027
-- **$10K ETH** — current thesis horizon: Dec. 31, 2029
+- **$5K ETH** — touches $5,000 by Dec. 31, 2027; current thesis estimate **65%**.
+- **$10K ETH** — touches $10,000 by Dec. 31, 2029; current thesis estimate **35%**.
 
-The dashboard is intentionally compact: live ETH price, target probabilities, green/yellow/red catalyst states, and tap-to-open details.
+These are subjective thesis estimates, not market-implied probabilities and not financial advice.
 
 ## Architecture
 
-- `index.html` — UI shell
+- `index.html` — one-page mission-control shell
 - `styles.css` — responsive visual system
-- `app.js` — rendering, target switching, live CoinGecko price refresh
-- `data/thesis.json` — all thesis state, probabilities, catalyst scoring, target paths, and source links
+- `app.js` — rendering, target switching, live-price refresh, fallback behavior, dialogs, history, and change log
+- `data/thesis.json` — source of truth for probabilities, catalysts, target paths, evidence, history, and sources
+- `scripts/build-static.mjs` — produces the static Sites artifact
+- `.openai/hosting.json` — ChatGPT Sites configuration
 
-## Updating the thesis
+## Routine thesis updates
 
-Most updates should only require changing `data/thesis.json`.
+Most updates should change only `data/thesis.json`. See `data/README.md` for the field-level checklist. The latest probability-history entry must match the current target probability.
 
-Each catalyst has separate `$5K` and `$10K` views because the same development can be sufficient for the nearer target but still inadequate for the stretch case.
+Run:
 
-Example: sustained ETF inflows may be green for $5K, while only yellow for $10K until multi-year institutional allocation is established.
+```bash
+npm run check
+npm run build
+```
 
-## Forecast interpretation
+Append `?snapshot=1` during local review to verify the stored-price fallback without relying on an external market API.
 
-Probabilities are subjective thesis estimates, not market-implied probabilities and not financial advice.
+## Publishing
 
-The $10K thesis deliberately requires stronger evidence of **ETH value capture**, not merely Ethereum ecosystem adoption.
+GitHub is the source repository. ChatGPT Sites is the production publishing surface. GitHub Pages is intentionally not configured.

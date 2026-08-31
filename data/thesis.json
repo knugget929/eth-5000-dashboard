@@ -1,6 +1,12 @@
 {
+  "schemaVersion": 2,
   "updatedAt": "2026-08-31",
-  "market": {"price": 2446.53, "change24h": 0.3},
+  "market": {
+    "price": 2446.53,
+    "change24h": 0.3,
+    "capturedAt": "2026-08-31T12:56:00Z",
+    "source": "CoinGecko"
+  },
   "targets": {
     "5000": {
       "display": "$5K",
@@ -10,95 +16,282 @@
       "horizon": "Touches $5,000 by Dec 31, 2027",
       "baseCase": "$4.2K–$5.8K by end-2027, with wide uncertainty.",
       "marketCap": "~$603B",
-      "methodology": "Weighted catalysts with a moderate hurdle: institutional demand and a friendlier macro backdrop can be enough even without full-blown QE.",
+      "overallSignal": "Constructive, macro-constrained",
+      "trend": {"direction": "steady", "delta": 0, "label": "Baseline"},
+      "methodology": "Weighted catalysts with a moderate hurdle. Institutional demand, execution, staking, and tokenization can support $5K even without full QE, but macro and market confirmation still matter.",
+      "probabilityHistory": [
+        {"date": "2026-08-31", "probability": 65, "note": "Structured dashboard baseline established."}
+      ],
       "sources": [
-        {"label":"CoinGecko ETH","url":"https://www.coingecko.com/en/coins/ethereum"},
-        {"label":"Farside ETH ETFs","url":"https://farside.co.uk/eth/"}
+        {"label": "CoinGecko ETH", "url": "https://www.coingecko.com/en/coins/ethereum"},
+        {"label": "Farside ETH ETFs", "url": "https://farside.co.uk/eth/"}
       ],
       "path": [
-        {"label":"$2.45K","note":"Current zone","active":true},
-        {"label":"$3K","note":"Reclaim momentum","active":false},
-        {"label":"$3.5K","note":"Bull thesis broadens","active":false},
-        {"label":"$5K","note":"Price discovery","active":false}
+        {"label": "$2.45K", "note": "Current zone", "active": true},
+        {"label": "$3K", "note": "Momentum returns", "active": false},
+        {"label": "$3.5K", "note": "Bull case broadens", "active": false},
+        {"label": "$5K", "note": "Price discovery", "active": false}
       ]
     },
     "10000": {
       "display": "$10K",
       "probability": 35,
-      "label": "$10K needs a full-cycle bull case",
+      "label": "$10K needs a new regime",
       "shortHorizon": "by end-2029",
       "horizon": "Touches $10,000 by Dec 31, 2029",
-      "baseCase": "$5K–$8K by end-2029; $10K requires multiple structural catalysts to compound.",
+      "baseCase": "$5K–$8K by end-2029; $10K requires several structural catalysts to compound.",
       "marketCap": "~$1.21T",
-      "methodology": "A much higher hurdle than $5K. Institutional ownership must become durable, regulation must normalize on-chain finance, macro must stop fighting risk assets, and Ethereum activity must translate into clear ETH demand/value capture.",
+      "overallSignal": "Possible, evidence threshold unmet",
+      "trend": {"direction": "steady", "delta": 0, "label": "Baseline"},
+      "methodology": "A much higher hurdle than $5K. Institutional ownership must become durable, regulation must normalize on-chain finance, macro must stop fighting risk assets, and Ethereum activity must translate into clear ETH demand and value capture.",
+      "probabilityHistory": [
+        {"date": "2026-08-31", "probability": 35, "note": "Structured dashboard baseline established."}
+      ],
       "sources": [
-        {"label":"CoinGecko ETH","url":"https://www.coingecko.com/en/coins/ethereum"},
-        {"label":"Farside ETH ETFs","url":"https://farside.co.uk/eth/"}
+        {"label": "CoinGecko ETH", "url": "https://www.coingecko.com/en/coins/ethereum"},
+        {"label": "Farside ETH ETFs", "url": "https://farside.co.uk/eth/"}
       ],
       "path": [
-        {"label":"$2.45K","note":"Current zone","active":true},
-        {"label":"$5K","note":"Reclaim prior peak zone","active":false},
-        {"label":"$7.5K","note":"New valuation regime","active":false},
-        {"label":"$10K","note":"~$1.2T ETH","active":false}
+        {"label": "$2.45K", "note": "Current zone", "active": true},
+        {"label": "$5K", "note": "Peak regime reclaimed", "active": false},
+        {"label": "$7.5K", "note": "Institutional regime", "active": false},
+        {"label": "$10K", "note": "~$1.2T ETH", "active": false}
       ]
     }
   },
   "catalysts": [
     {
-      "id":"institutional","icon":"◈","title":"Institutional demand",
-      "sources":[{"label":"Farside ETF flows","url":"https://farside.co.uk/eth/"}],
+      "id": "institutional",
+      "icon": "◈",
+      "title": "Institutional demand",
+      "shortTitle": "Funds",
+      "sources": [{"label": "Farside ETF flows", "url": "https://farside.co.uk/eth/"}],
       "targets": {
-        "5000":{"status":"green","score":0.90,"weight":22,"short":"ETF inflows remain the strongest live signal.","summary":"Traditional capital is repeatedly allocating to ETH through regulated products.","why":"Persistent ETF inflows create marginal buy pressure and make ETH easier for large portfolios to own.","greenTrigger":"Positive flows persist for 1–3 months and continue through ETH pullbacks.","redTrigger":"A multi-week run of large ETF outflows or institutional de-risking."},
-        "10000":{"status":"yellow","score":0.65,"weight":22,"short":"Promising, but $10K needs years of durable allocation.","summary":"The current ETF bid is encouraging, but a $1T+ ETH valuation likely needs ETH to become a standard institutional portfolio asset.","why":"$10K probably requires sustained multi-year ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.","greenTrigger":"ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.","redTrigger":"Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."}
+        "5000": {
+          "status": "green", "score": 0.9, "weight": 20,
+          "short": "ETF accumulation is the strongest live signal.",
+          "summary": "Traditional capital is repeatedly allocating to ETH through regulated products.",
+          "evidence": "Spot ETF demand and broader wealth-platform access have made ETH easier for traditional portfolios to own.",
+          "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
+          "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
+          "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
+        },
+        "10000": {
+          "status": "yellow", "score": 0.65, "weight": 18,
+          "short": "$10K needs years of durable allocation.",
+          "summary": "The current institutional bid is encouraging, but a $1T+ valuation likely needs ETH to become a standard portfolio asset.",
+          "evidence": "Regulated products prove access and demand, but the current evidence does not yet establish multi-year portfolio permanence.",
+          "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
+          "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
+          "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
+        }
       }
     },
     {
-      "id":"macro","icon":"⌁","title":"Fed & liquidity",
-      "sources":[{"label":"Fed — Jackson Hole","url":"https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"}],
+      "id": "macro",
+      "icon": "⌁",
+      "title": "Fed & liquidity",
+      "shortTitle": "Macro",
+      "sources": [{"label": "Federal Reserve", "url": "https://www.federalreserve.gov/monetarypolicy.htm"}],
       "targets": {
-        "5000":{"status":"red","score":0.25,"weight":20,"short":"Sticky inflation + no QE = the main headwind.","summary":"The Fed is still focused on inflation and prefers rates over unconventional stimulus in normal conditions.","why":"ETH generally benefits when yields fall, the dollar weakens, and liquidity expands. The current Fed stance does not provide that full setup.","greenTrigger":"Hike risk fades, inflation trends lower, and markets begin pricing durable easing.","redTrigger":"Additional hikes, higher real yields, or renewed dollar strength."},
-        "10000":{"status":"red","score":0.20,"weight":20,"short":"A $10K cycle is much easier with real global liquidity expansion.","summary":"Current monetary conditions are a major obstacle to the stretch thesis.","why":"A move toward $10K likely needs a sustained risk-on regime: lower real yields, easier dollar liquidity, or a genuine global easing cycle.","greenTrigger":"A multi-quarter easing cycle, falling real yields, weaker dollar, and expanding global liquidity.","redTrigger":"Structurally high real yields, renewed inflation, or repeated tightening cycles."}
+        "5000": {
+          "status": "red", "score": 0.25, "weight": 18,
+          "short": "Rates and no QE remain the main headwind.",
+          "summary": "The macro regime is still more restrictive than the ideal ETH bull-market setup.",
+          "evidence": "Policy remains inflation-sensitive; real yields and dollar liquidity are not yet delivering a decisive risk-asset tailwind.",
+          "why": "ETH generally benefits when yields fall, the dollar weakens, and global liquidity expands.",
+          "greenTrigger": "Hike risk fades, inflation trends lower, and markets price durable easing.",
+          "redTrigger": "Additional hikes, higher real yields, or renewed dollar strength."
+        },
+        "10000": {
+          "status": "red", "score": 0.2, "weight": 16,
+          "short": "$10K is much easier with global easing.",
+          "summary": "Current monetary conditions are a major obstacle to the stretch thesis.",
+          "evidence": "The liquidity environment has not yet shifted into the sustained, broad risk-on regime usually associated with a multi-trillion-dollar crypto expansion.",
+          "why": "$10K likely needs a sustained regime of lower real yields, easier dollar liquidity, or genuine global monetary expansion.",
+          "greenTrigger": "A multi-quarter easing cycle, falling real yields, a weaker dollar, and expanding global liquidity.",
+          "redTrigger": "Structurally high real yields, renewed inflation, or repeated tightening cycles."
+        }
       }
     },
     {
-      "id":"regulation","icon":"⚖","title":"U.S. regulation",
-      "sources":[{"label":"SEC Regulation Crypto Assets","url":"https://www.sec.gov/rules-regulations/2026/08/s7-2026-27"}],
+      "id": "regulation",
+      "icon": "⚖",
+      "title": "U.S. regulation",
+      "shortTitle": "Rules",
+      "sources": [{"label": "SEC crypto assets", "url": "https://www.sec.gov/about/crypto-task-force"}],
       "targets": {
-        "5000":{"status":"yellow","score":0.65,"weight":16,"short":"Direction is better; the biggest pieces are not final.","summary":"SEC rulemaking is becoming more tailored to crypto, while market-structure legislation remains a major pending catalyst.","why":"Clear market structure lowers legal friction for exchanges, token issuance, custody, staking, and on-chain finance.","greenTrigger":"CLARITY or equivalent legislation advances and final SEC rules materially reduce uncertainty.","redTrigger":"Legislation fails and agency policy becomes materially more restrictive."},
-        "10000":{"status":"yellow","score":0.55,"weight":16,"short":"$10K likely needs crypto rules to become boring infrastructure law.","summary":"The stretch case needs durable, bipartisan-enough rules that institutions can plan around for years.","why":"A $1T+ valuation becomes easier if tokenization, staking, custody, and DeFi are normal regulated activities rather than policy experiments.","greenTrigger":"Durable market-structure law plus workable final rules for custody, staking, tokenization, and on-chain finance.","redTrigger":"Policy reversals, fragmented jurisdiction, or restrictions that push major activity offshore."}
+        "5000": {
+          "status": "yellow", "score": 0.65, "weight": 14,
+          "short": "Direction is better; key pieces remain unfinished.",
+          "summary": "Crypto policy is becoming more tailored, while durable market-structure rules remain a major pending catalyst.",
+          "evidence": "Institutional access has improved, but custody, staking, token treatment, market structure, and DeFi still carry unresolved policy risk.",
+          "why": "Clear rules lower legal friction for exchanges, token issuance, custody, staking, and on-chain finance.",
+          "greenTrigger": "CLARITY or equivalent legislation advances and final rules materially reduce uncertainty.",
+          "redTrigger": "Legislation fails and agency policy becomes materially more restrictive."
+        },
+        "10000": {
+          "status": "yellow", "score": 0.55, "weight": 12,
+          "short": "$10K needs crypto rules to become boring law.",
+          "summary": "The stretch case needs durable rules that institutions can plan around for years.",
+          "evidence": "The direction is improving, but the legal foundation is not yet comprehensive or battle-tested enough for a mature on-chain capital market.",
+          "why": "A $1T+ valuation becomes easier if tokenization, staking, custody, and DeFi are normal regulated activities rather than policy experiments.",
+          "greenTrigger": "Durable market-structure law plus workable rules for custody, staking, tokenization, and on-chain finance.",
+          "redTrigger": "Policy reversals, fragmented jurisdiction, or restrictions that push major activity offshore."
+        }
       }
     },
     {
-      "id":"tokenization","icon":"⬡","title":"Tokenization & DeFi",
-      "sources":[],
+      "id": "tokenization",
+      "icon": "⬡",
+      "title": "Tokenization & DeFi",
+      "shortTitle": "RWA",
+      "sources": [{"label": "RWA.xyz", "url": "https://app.rwa.xyz/"}],
       "targets": {
-        "5000":{"status":"green","score":0.80,"weight":14,"short":"Ethereum rails keep moving closer to mainstream finance.","summary":"Stablecoins, tokenized assets, and DeFi remain one of Ethereum’s strongest structural adoption stories.","why":"If more financial assets live on Ethereum and its L2s, Ethereum becomes more important as settlement infrastructure.","greenTrigger":"Large regulated issuers launch meaningful tokenized funds, equities, credit, or payments on Ethereum rails.","redTrigger":"Activity migrates elsewhere without meaningful settlement or value capture for Ethereum."},
-        "10000":{"status":"yellow","score":0.60,"weight":16,"short":"Adoption is not enough; ETH must capture the economics.","summary":"For $10K, Ethereum likely needs to become a dominant settlement layer for real financial assets at meaningful scale.","why":"Tokenization can justify a much larger valuation only if the activity creates recurring demand for ETH through settlement, collateral, staking, fees, or monetary premium.","greenTrigger":"Trillions in tokenized assets/stablecoins settle on Ethereum rails with clear ETH-denominated economic demand.","redTrigger":"L2 and app growth explodes while ETH fee burn, collateral demand, and settlement value remain weak."}
+        "5000": {
+          "status": "green", "score": 0.8, "weight": 12,
+          "short": "Ethereum rails keep moving into finance.",
+          "summary": "Stablecoins, tokenized assets, and DeFi remain one of Ethereum’s strongest structural adoption stories.",
+          "evidence": "Regulated issuers, stablecoins, tokenized funds, and DeFi continue to validate public-chain settlement as a financial primitive.",
+          "why": "More financial activity on Ethereum and its L2s strengthens the network’s importance as settlement infrastructure.",
+          "greenTrigger": "Large issuers launch meaningful tokenized funds, equities, credit, or payments on Ethereum rails.",
+          "redTrigger": "Activity migrates elsewhere without meaningful Ethereum settlement or ETH demand."
+        },
+        "10000": {
+          "status": "yellow", "score": 0.6, "weight": 12,
+          "short": "Adoption must reach institutional scale.",
+          "summary": "For $10K, Ethereum likely needs to become a dominant settlement layer for real financial assets at meaningful scale.",
+          "evidence": "Tokenization validates the direction, but the current asset base and transaction economics are not yet large enough to independently justify a $1.2T ETH valuation.",
+          "why": "Tokenization supports a much larger valuation only if activity creates recurring ETH demand through settlement, collateral, staking, fees, or monetary premium.",
+          "greenTrigger": "Trillions in tokenized assets and stablecoins settle on Ethereum rails with clear ETH-denominated economic demand.",
+          "redTrigger": "L2 and app growth explodes while ETH fee burn, collateral demand, and settlement value remain weak."
+        }
       }
     },
     {
-      "id":"staking","icon":"◇","title":"Staking economics",
-      "sources":[],
+      "id": "staking",
+      "icon": "◇",
+      "title": "Staking economics",
+      "shortTitle": "Stake",
+      "sources": [{"label": "Ethereum staking", "url": "https://ethereum.org/en/staking/"}],
       "targets": {
-        "5000":{"status":"green","score":0.70,"weight":10,"short":"Yield-bearing ETH is becoming easier to package.","summary":"Staking strengthens the case for ETH as productive digital capital, especially when integrated into institutional products.","why":"Staking adds a native yield component and locks ETH into network security, reducing immediately liquid supply.","greenTrigger":"Staking-enabled products gain share and regulatory treatment becomes clearer.","redTrigger":"Risk-free yields stay far above staking yields or staking regulation deteriorates."},
-        "10000":{"status":"yellow","score":0.60,"weight":10,"short":"$10K needs staking to become a mainstream institutional primitive.","summary":"The stretch thesis benefits if ETH is widely understood as productive collateral with native yield.","why":"Large-scale staking can reduce liquid float, deepen ETH’s monetary role, and make ownership economically distinct from non-yielding crypto assets.","greenTrigger":"Institutional staking becomes standard, participation grows safely, and ETH is widely used as collateral.","redTrigger":"Staking centralizes excessively, yields compress without offsetting demand, or regulation limits access."}
+        "5000": {
+          "status": "green", "score": 0.7, "weight": 10,
+          "short": "Yield-bearing ETH is easier to package.",
+          "summary": "Staking strengthens the case for ETH as productive digital capital.",
+          "evidence": "A large share of supply secures the network and earns native yield, while regulated-product access continues to develop.",
+          "why": "Staking adds a native yield component and locks ETH into network security, reducing immediately liquid supply.",
+          "greenTrigger": "Staking-enabled products gain share and regulatory treatment becomes clearer.",
+          "redTrigger": "Risk-free yields stay far above staking yields or staking regulation deteriorates."
+        },
+        "10000": {
+          "status": "yellow", "score": 0.6, "weight": 8,
+          "short": "Staking must become an institutional primitive.",
+          "summary": "The stretch thesis benefits if ETH is widely understood as productive collateral with native yield.",
+          "evidence": "Staking is established inside crypto, but it is not yet a routine portfolio and collateral primitive across mainstream finance.",
+          "why": "Large-scale staking can reduce liquid float, deepen ETH’s monetary role, and make ownership economically distinct from non-yielding assets.",
+          "greenTrigger": "Institutional staking becomes standard, participation grows safely, and ETH is widely used as collateral.",
+          "redTrigger": "Staking centralizes excessively, yields compress without offsetting demand, or regulation limits access."
+        }
       }
     },
     {
-      "id":"protocol","icon":"✦","title":"Ethereum execution",
-      "sources":[{"label":"Ethereum Foundation","url":"https://ethereum.org/"}],
+      "id": "protocol",
+      "icon": "✦",
+      "title": "Ethereum execution",
+      "shortTitle": "Build",
+      "sources": [{"label": "Ethereum roadmap", "url": "https://ethereum.org/en/roadmap/"}],
       "targets": {
-        "5000":{"status":"green","score":0.75,"weight":10,"short":"Scaling roadmap is progressing; execution risk remains.","summary":"Glamsterdam and later upgrades aim to improve throughput, wallet UX, and protocol efficiency.","why":"Successful upgrades make the network more useful and credible as long-term financial infrastructure.","greenTrigger":"Major testnets and mainnet upgrades ship cleanly with measurable capacity gains.","redTrigger":"Serious upgrade delays, instability, or persistent failure to improve value capture."},
-        "10000":{"status":"yellow","score":0.60,"weight":8,"short":"The network must scale without weakening ETH value capture.","summary":"A $10K thesis assumes Ethereum can serve vastly more economic activity while preserving credible neutrality and security.","why":"Technical success has to include both throughput and a convincing economic relationship between L2 growth and ETH demand.","greenTrigger":"Roadmap milestones ship reliably, UX improves dramatically, and L2 settlement creates durable L1/ETH economics.","redTrigger":"Scaling fragments liquidity, value accrues elsewhere, or protocol complexity introduces repeated instability."}
+        "5000": {
+          "status": "green", "score": 0.75, "weight": 9,
+          "short": "Scaling progresses; execution risk remains.",
+          "summary": "Upcoming upgrades aim to improve throughput, wallet UX, and protocol efficiency.",
+          "evidence": "Ethereum continues to ship roadmap upgrades while L2s expand capacity and account-abstraction work improves usability.",
+          "why": "Successful upgrades make the network more useful and credible as long-term financial infrastructure.",
+          "greenTrigger": "Major testnets and mainnet upgrades ship cleanly with measurable capacity gains.",
+          "redTrigger": "Serious upgrade delays, instability, or persistent failure to improve value capture."
+        },
+        "10000": {
+          "status": "yellow", "score": 0.6, "weight": 7,
+          "short": "Scale must not weaken ETH economics.",
+          "summary": "A $10K thesis assumes Ethereum can serve vastly more economic activity while preserving credible neutrality and security.",
+          "evidence": "The roadmap is credible, but the long-run balance among L1 capacity, L2 growth, fragmentation, and ETH economics is still being proven.",
+          "why": "Technical success must include both throughput and a convincing economic relationship between L2 growth and ETH demand.",
+          "greenTrigger": "Roadmap milestones ship reliably, UX improves, and L2 settlement creates durable L1 and ETH economics.",
+          "redTrigger": "Scaling fragments liquidity, value accrues elsewhere, or complexity causes repeated instability."
+        }
       }
     },
     {
-      "id":"market","icon":"↗","title":"Market structure",
-      "sources":[{"label":"CoinGecko ETH","url":"https://www.coingecko.com/en/coins/ethereum"}],
+      "id": "market",
+      "icon": "↗",
+      "title": "Market structure",
+      "shortTitle": "Price",
+      "sources": [{"label": "CoinGecko ETH", "url": "https://www.coingecko.com/en/coins/ethereum"}],
       "targets": {
-        "5000":{"status":"yellow","score":0.55,"weight":8,"short":"Momentum improved, but $3K–$3.5K is the next real test.","summary":"Price has recovered strongly, but ETH still needs to reclaim higher levels before $5K becomes a near-term market target.","why":"A sustained break above prior resistance can attract momentum, re-risking, and broader crypto rotation into ETH.","greenTrigger":"ETH holds above $3K and then reclaims $3.5K on strong spot volume.","redTrigger":"ETH loses the recent breakout and ETF flows weaken simultaneously."},
-        "10000":{"status":"red","score":0.30,"weight":8,"short":"$10K requires a new valuation regime, not just a rally.","summary":"The market has not yet demonstrated willingness to value ETH anywhere near the stretch target.","why":"A durable $10K path likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than short-lived leverage.","greenTrigger":"ETH clears $5K, consolidates above prior highs, and advances with strong spot/ETF demand rather than leverage alone.","redTrigger":"Repeated failure near old highs or a widening performance gap versus BTC and competing smart-contract assets."}
+        "5000": {
+          "status": "yellow", "score": 0.55, "weight": 7,
+          "short": "$3K–$3.5K is the next real test.",
+          "summary": "ETH still needs to reclaim higher levels before $5K becomes a near-term market target.",
+          "evidence": "The market is above its deeper lows but remains well below the target; spot demand and ETH/BTC confirmation still matter.",
+          "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
+          "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
+          "redTrigger": "ETH loses the recent base while ETF demand weakens."
+        },
+        "10000": {
+          "status": "red", "score": 0.3, "weight": 7,
+          "short": "$10K requires a new valuation regime.",
+          "summary": "The market has not demonstrated willingness to value ETH near the stretch target.",
+          "evidence": "ETH remains far below $10K and has not yet sustained price discovery above its prior high on broad spot demand.",
+          "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
+          "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
+          "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
+        }
       }
+    },
+    {
+      "id": "value-capture",
+      "icon": "◎",
+      "title": "ETH value capture",
+      "shortTitle": "Capture",
+      "sources": [
+        {"label": "Ethereum economics", "url": "https://ethereum.org/en/eth/"},
+        {"label": "L2 activity", "url": "https://www.growthepie.com/"}
+      ],
+      "targets": {
+        "5000": {
+          "status": "yellow", "score": 0.58, "weight": 10,
+          "short": "Utility is real; capture is still debated.",
+          "summary": "Ethereum adoption helps the $5K case, but not every unit of ecosystem growth becomes demand for ETH.",
+          "evidence": "ETH remains the staking asset, native collateral, and settlement asset, yet low fees and L2 migration complicate the near-term burn and revenue story.",
+          "why": "$5K does not require perfect capture, but it does require investors to believe ETH retains monetary, collateral, and settlement value.",
+          "greenTrigger": "Staking, collateral use, L1 settlement, blobs, and fee burn strengthen together as activity grows.",
+          "redTrigger": "Usage grows while ETH demand, fee burn, collateral share, and monetary premium stagnate."
+        },
+        "10000": {
+          "status": "red", "score": 0.35, "weight": 20,
+          "short": "The critical $10K proof is not here yet.",
+          "summary": "Ethereum can win as infrastructure while ETH underperforms if the asset captures too little of the network’s economic value.",
+          "evidence": "ETH is essential to security and settlement, but current blob demand, fee burn, and institutional collateral use do not yet prove the capture needed for a durable $1.2T valuation.",
+          "why": "$10K needs ETH to function as widely held productive capital: staked, used as institutional collateral, demanded for settlement, and valued for monetary premium.",
+          "greenTrigger": "Rising settlement and blob demand, durable net burn or scarcity, expanding ETH collateral use, and institutional treatment as productive capital.",
+          "redTrigger": "Ethereum becomes dominant infrastructure while fees, burn, collateral demand, and monetary premium accrue weakly to ETH."
+        }
+      }
+    }
+  ],
+  "changes": [
+    {
+      "date": "2026-08-31",
+      "title": "Mission-control baseline established",
+      "summary": "Strong institutional and tokenization signals are offset by restrictive liquidity and an unresolved ETH value-capture question.",
+      "catalyst": "Baseline",
+      "targets": ["5000", "10000"],
+      "impact": {
+        "5000": {"delta": 0, "direction": "steady"},
+        "10000": {"delta": 0, "direction": "steady"}
+      },
+      "sources": []
     }
   ]
 }

@@ -2,82 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#08080c" />
-  <title>ETH Thesis — $5K / $10K</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#08090d" />
+  <meta name="description" content="A personal Ethereum mission-control dashboard tracking the $5K and $10K theses." />
+  <title>ETH Mission Control — $5K / $10K Thesis</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <main class="shell">
     <header class="topbar">
-      <div>
-        <div class="eyebrow"><span class="live-dot"></span> ETH THESIS</div>
-        <span class="micro">Personal scenario monitor</span>
+      <div class="brand-lockup">
+        <span class="eth-mark" aria-hidden="true">◆</span>
+        <div>
+          <div class="eyebrow"><span class="live-dot"></span>ETH MISSION CONTROL</div>
+          <span class="micro">Personal thesis monitor</span>
+        </div>
       </div>
-      <div class="updated-pill"><span>Updated</span><strong id="updatedAt">Aug 31</strong></div>
+      <div class="updated-pill"><span>THESIS</span><strong id="updatedAt">Aug 31</strong></div>
     </header>
 
-    <section class="mission" aria-label="ETH thesis overview">
-      <div class="mission-copy">
-        <p class="label">Ethereum now</p>
+    <section class="command-deck" aria-label="Ethereum thesis overview">
+      <div class="price-block">
+        <div class="price-kicker"><span>ETH / USD</span><span id="priceFreshness">checking live price…</span></div>
         <div class="price-row">
-          <h1 id="price">$2,446</h1>
+          <h1 id="price">$2,447</h1>
           <span id="change" class="change neutral">+0.3%</span>
         </div>
         <div class="market-meta">
-          <span id="priceStatus">CoinGecko snapshot</span>
-          <span id="distance">51% to $5K</span>
+          <span id="priceStatus"><i></i>Stored snapshot</span>
+          <time id="priceTime" aria-label="Price update time">Aug 31</time>
         </div>
+      </div>
+
+      <div class="target-control" role="group" aria-label="Choose thesis target">
+        <button type="button" data-target="5000" class="target-tab selected" aria-pressed="true">
+          <span>$5K THESIS</span><strong id="tabProb5k">65%</strong><small>by end-2027</small>
+        </button>
+        <button type="button" data-target="10000" class="target-tab" aria-pressed="false">
+          <span>$10K THESIS</span><strong id="tabProb10k">35%</strong><small>by end-2029</small>
+        </button>
       </div>
 
       <div class="trajectory-wrap">
-        <div class="trajectory-title"><span>Road to</span><strong>$5K → $10K</strong></div>
+        <div class="trajectory-head">
+          <span>VALUATION TRAJECTORY</span>
+          <strong id="distance">51% remaining to $5K</strong>
+        </div>
         <div class="trajectory" aria-label="ETH trajectory from current price to 10 thousand dollars">
           <div class="trajectory-line"><div id="targetFill" class="trajectory-fill"></div></div>
           <div id="currentMarker" class="current-marker"><span>NOW</span></div>
-          <button class="milestone milestone-5 selected" type="button" data-target="5000"><span>$5K</span><small id="prob5k">65%</small></button>
-          <button class="milestone milestone-10" type="button" data-target="10000"><span>$10K</span><small id="prob10k">35%</small></button>
+          <button class="milestone milestone-5 selected" type="button" data-target="5000" aria-pressed="true"><span>$5K</span><small id="distance5k">51% away</small></button>
+          <button class="milestone milestone-10" type="button" data-target="10000" aria-pressed="false"><span>$10K</span><small id="distance10k">76% away</small></button>
         </div>
-        <div class="trajectory-labels"><span>$0</span><span id="horizon5k">end-2027</span><span id="horizon10k">end-2029</span></div>
+        <div class="trajectory-labels"><span id="currentPriceLabel">$2.45K current</span><span>$603B</span><span>$1.21T</span></div>
       </div>
-    </section>
 
-    <section class="outlook-grid">
       <article class="forecast-panel">
-        <div class="forecast-ring" id="forecastRing"><div><strong id="probability">65%</strong><span>chance</span></div></div>
+        <div class="forecast-ring" id="forecastRing" role="img" aria-label="Current thesis probability 65 percent">
+          <div><strong id="probability">65%</strong><span>THESIS<br>ESTIMATE</span></div>
+        </div>
         <div class="forecast-copy">
-          <p class="label">My current read</p>
+          <div class="forecast-kicker"><span>CURRENT THESIS ESTIMATE</span><span id="trendBadge" class="trend-badge steady">● BASELINE</span></div>
           <h2 id="forecastLabel">$5K is plausible</h2>
           <p id="forecastHorizon">Touches $5,000 by Dec 31, 2027</p>
-          <button class="text-button" data-modal="forecast" type="button">How this is scored →</button>
+          <div class="forecast-meta">
+            <span><small>IMPLIED VALUE</small><strong id="marketCap">~$603B</strong></span>
+            <span><small>SIGNAL BALANCE</small><strong id="signalText">5 · 2 · 1</strong></span>
+          </div>
         </div>
-      </article>
-
-      <article class="valuation-panel">
-        <div><p class="label">Target valuation</p><strong id="marketCap">~$603B</strong></div>
-        <div class="valuation-divider"></div>
-        <div><p class="label">Signal balance</p><strong id="signalText">4 / 2 / 1</strong><small>supportive / mixed / headwind</small></div>
+        <button class="info-button" data-modal="forecast" type="button" aria-label="How this probability is scored">i</button>
       </article>
     </section>
 
     <section class="signal-rail" aria-label="Catalyst signal rail">
-      <div class="signal-label"><span>THESIS SIGNALS</span><small>tap to inspect</small></div>
+      <div class="signal-label"><span>LIVE SIGNALS</span><small id="overallSignal">Constructive, macro-constrained</small></div>
       <div id="signalRail" class="signal-list"></div>
     </section>
 
     <section class="section-head">
-      <div><p class="label">Catalysts</p><h2 id="catalystHeading">What gets ETH to $5K?</h2></div>
-      <span class="hint">Green helps · red fights it</span>
+      <div><p class="label">Catalyst matrix</p><h2 id="catalystHeading">What gets ETH to $5K?</h2></div>
+      <span class="hint"><i class="dot green"></i> supportive <i class="dot yellow"></i> mixed <i class="dot red"></i> headwind</span>
     </section>
     <section id="catalystGrid" class="catalyst-grid"></section>
 
-    <section class="path-section">
-      <div class="section-head compact"><div><p class="label">Price path</p><h2 id="pathHeading">The shortest route to $5K</h2></div></div>
-      <div class="path" id="path"></div>
+    <section class="lower-grid">
+      <article class="path-panel">
+        <div class="section-head compact"><div><p class="label">Thesis path</p><h2 id="pathHeading">The route to $5K</h2></div></div>
+        <div class="path" id="path"></div>
+      </article>
+
+      <article class="history-panel">
+        <div class="section-head compact"><div><p class="label">Probability history</p><h2 id="historyHeading">$5K thesis · baseline</h2></div><span id="historyDelta" class="history-delta steady">0 pts</span></div>
+        <div id="sparkline" class="sparkline" aria-label="Probability history chart"></div>
+        <div id="historyLabels" class="history-labels"></div>
+      </article>
+    </section>
+
+    <section class="changes-section">
+      <div class="section-head compact"><div><p class="label">Evidence log</p><h2>What changed?</h2></div><span class="hint">Newest first</span></div>
+      <div id="changesList" class="changes-list"></div>
     </section>
 
     <footer>
-      <span>ETH Thesis · $5K / $10K</span>
+      <span>ETH Mission Control · personal scenario monitor</span>
       <button class="text-button" data-modal="methodology" type="button">Methodology & disclaimer</button>
     </footer>
   </main>
