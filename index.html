@@ -3,106 +3,88 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#0a0a0f" />
+  <meta name="theme-color" content="#08080c" />
   <title>ETH Thesis — $5K / $10K</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <main class="shell">
-    <header class="hero">
-      <div class="eyebrow"><span class="live-dot"></span> ETH THESIS MONITOR</div>
-      <div class="hero-grid">
-        <section>
-          <p class="label">Ethereum</p>
-          <div class="price-row">
-            <h1 id="price">$2,446</h1>
-            <span id="change" class="change neutral">+0.3%</span>
-          </div>
-          <div class="target-track" aria-label="Progress toward ETH thesis targets">
-            <div id="targetFill" class="target-fill"></div>
-            <span class="target-marker marker-5k">$5K</span>
-            <span class="target-marker marker-10k">$10K</span>
-          </div>
-          <div class="subrow">
-            <span id="distance">51% to $5K</span>
-            <span id="priceStatus">CoinGecko snapshot</span>
-          </div>
-        </section>
-
-        <section class="target-stack" aria-label="ETH price target outlook">
-          <button id="target5k" class="target-card selected" type="button" data-target="5000">
-            <span class="target-kicker">Base bull thesis</span>
-            <strong>$5K</strong>
-            <span class="target-prob" id="prob5k">65%</span>
-            <small id="horizon5k">by end-2027</small>
-          </button>
-          <button id="target10k" class="target-card" type="button" data-target="10000">
-            <span class="target-kicker">Stretch thesis</span>
-            <strong>$10K</strong>
-            <span class="target-prob" id="prob10k">35%</span>
-            <small id="horizon10k">by end-2029</small>
-          </button>
-        </section>
+    <header class="topbar">
+      <div>
+        <div class="eyebrow"><span class="live-dot"></span> ETH THESIS</div>
+        <span class="micro">Personal scenario monitor</span>
       </div>
-
-      <section class="forecast-card" aria-labelledby="forecast-title">
-        <div class="forecast-ring" id="forecastRing">
-          <div>
-            <strong id="probability">65%</strong>
-            <span>chance</span>
-          </div>
-        </div>
-        <div class="forecast-copy">
-          <p id="forecast-title" class="label">My current read</p>
-          <h2 id="forecastLabel">$5K is plausible</h2>
-          <p id="forecastHorizon">Touches $5,000 by Dec 31, 2027</p>
-          <button class="text-button" data-modal="forecast">How I score this →</button>
-        </div>
-        <div class="valuation-chip">
-          <small>Implied ETH market cap</small>
-          <strong id="marketCap">~$603B</strong>
-        </div>
-      </section>
+      <div class="updated-pill"><span>Updated</span><strong id="updatedAt">Aug 31</strong></div>
     </header>
 
-    <section class="pulse" aria-label="Thesis pulse">
-      <div><span class="pulse-dot green"></span><strong id="greenCount">4</strong><small>supportive</small></div>
-      <div><span class="pulse-dot yellow"></span><strong id="yellowCount">2</strong><small>mixed</small></div>
-      <div><span class="pulse-dot red"></span><strong id="redCount">1</strong><small>headwind</small></div>
-      <div class="updated"><small>Updated</small><strong id="updatedAt">Aug 31</strong></div>
+    <section class="mission" aria-label="ETH thesis overview">
+      <div class="mission-copy">
+        <p class="label">Ethereum now</p>
+        <div class="price-row">
+          <h1 id="price">$2,446</h1>
+          <span id="change" class="change neutral">+0.3%</span>
+        </div>
+        <div class="market-meta">
+          <span id="priceStatus">CoinGecko snapshot</span>
+          <span id="distance">51% to $5K</span>
+        </div>
+      </div>
+
+      <div class="trajectory-wrap">
+        <div class="trajectory-title"><span>Road to</span><strong>$5K → $10K</strong></div>
+        <div class="trajectory" aria-label="ETH trajectory from current price to 10 thousand dollars">
+          <div class="trajectory-line"><div id="targetFill" class="trajectory-fill"></div></div>
+          <div id="currentMarker" class="current-marker"><span>NOW</span></div>
+          <button class="milestone milestone-5 selected" type="button" data-target="5000"><span>$5K</span><small id="prob5k">65%</small></button>
+          <button class="milestone milestone-10" type="button" data-target="10000"><span>$10K</span><small id="prob10k">35%</small></button>
+        </div>
+        <div class="trajectory-labels"><span>$0</span><span id="horizon5k">end-2027</span><span id="horizon10k">end-2029</span></div>
+      </div>
+    </section>
+
+    <section class="outlook-grid">
+      <article class="forecast-panel">
+        <div class="forecast-ring" id="forecastRing"><div><strong id="probability">65%</strong><span>chance</span></div></div>
+        <div class="forecast-copy">
+          <p class="label">My current read</p>
+          <h2 id="forecastLabel">$5K is plausible</h2>
+          <p id="forecastHorizon">Touches $5,000 by Dec 31, 2027</p>
+          <button class="text-button" data-modal="forecast" type="button">How this is scored →</button>
+        </div>
+      </article>
+
+      <article class="valuation-panel">
+        <div><p class="label">Target valuation</p><strong id="marketCap">~$603B</strong></div>
+        <div class="valuation-divider"></div>
+        <div><p class="label">Signal balance</p><strong id="signalText">4 / 2 / 1</strong><small>supportive / mixed / headwind</small></div>
+      </article>
+    </section>
+
+    <section class="signal-rail" aria-label="Catalyst signal rail">
+      <div class="signal-label"><span>THESIS SIGNALS</span><small>tap to inspect</small></div>
+      <div id="signalRail" class="signal-list"></div>
     </section>
 
     <section class="section-head">
-      <div>
-        <p class="label">Catalysts</p>
-        <h2 id="catalystHeading">What gets ETH to $5K?</h2>
-      </div>
-      <span class="hint">Tap any card</span>
+      <div><p class="label">Catalysts</p><h2 id="catalystHeading">What gets ETH to $5K?</h2></div>
+      <span class="hint">Green helps · red fights it</span>
     </section>
-
     <section id="catalystGrid" class="catalyst-grid"></section>
 
-    <section class="section-head thesis-head">
-      <div>
-        <p class="label">Thesis path</p>
-        <h2 id="pathHeading">The shortest route to $5K</h2>
-      </div>
+    <section class="path-section">
+      <div class="section-head compact"><div><p class="label">Price path</p><h2 id="pathHeading">The shortest route to $5K</h2></div></div>
+      <div class="path" id="path"></div>
     </section>
 
-    <section class="path" id="path"></section>
-
     <footer>
-      <span>ETH Thesis — $5K / $10K</span>
-      <button class="text-button" data-modal="methodology">Methodology & disclaimer</button>
+      <span>ETH Thesis · $5K / $10K</span>
+      <button class="text-button" data-modal="methodology" type="button">Methodology & disclaimer</button>
     </footer>
   </main>
 
   <dialog id="detailModal" class="modal">
     <div class="modal-inner">
-      <div class="modal-top">
-        <span id="modalStatus" class="status-pill yellow">MIXED</span>
-        <button id="closeModal" class="close" aria-label="Close">×</button>
-      </div>
+      <div class="modal-top"><span id="modalStatus" class="status-pill yellow">MIXED</span><button id="closeModal" class="close" aria-label="Close" type="button">×</button></div>
       <h2 id="modalTitle"></h2>
       <p id="modalSummary" class="modal-summary"></p>
       <div id="modalBody" class="modal-body"></div>
