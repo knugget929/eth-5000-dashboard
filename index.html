@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <title>ETH Thesis — $5K / $10K</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="eyebrow"><span class="live-dot"></span> ETH THESIS MONITOR</div>
+      <div class="hero-grid">
+        <section>
+          <p class="label">Ethereum</p>
+          <div class="price-row">
+            <h1 id="price">$2,446</h1>
+            <span id="change" class="change neutral">+0.3%</span>
+          </div>
+          <div class="target-track" aria-label="Progress toward ETH thesis targets">
+            <div id="targetFill" class="target-fill"></div>
+            <span class="target-marker marker-5k">$5K</span>
+            <span class="target-marker marker-10k">$10K</span>
+          </div>
+          <div class="subrow">
+            <span id="distance">51% to $5K</span>
+            <span id="priceStatus">CoinGecko snapshot</span>
+          </div>
+        </section>
+
+        <section class="target-stack" aria-label="ETH price target outlook">
+          <button id="target5k" class="target-card selected" type="button" data-target="5000">
+            <span class="target-kicker">Base bull thesis</span>
+            <strong>$5K</strong>
+            <span class="target-prob" id="prob5k">65%</span>
+            <small id="horizon5k">by end-2027</small>
+          </button>
+          <button id="target10k" class="target-card" type="button" data-target="10000">
+            <span class="target-kicker">Stretch thesis</span>
+            <strong>$10K</strong>
+            <span class="target-prob" id="prob10k">35%</span>
+            <small id="horizon10k">by end-2029</small>
+          </button>
+        </section>
+      </div>
+
+      <section class="forecast-card" aria-labelledby="forecast-title">
+        <div class="forecast-ring" id="forecastRing">
+          <div>
+            <strong id="probability">65%</strong>
+            <span>chance</span>
+          </div>
+        </div>
+        <div class="forecast-copy">
+          <p id="forecast-title" class="label">My current read</p>
+          <h2 id="forecastLabel">$5K is plausible</h2>
+          <p id="forecastHorizon">Touches $5,000 by Dec 31, 2027</p>
+          <button class="text-button" data-modal="forecast">How I score this →</button>
+        </div>
+        <div class="valuation-chip">
+          <small>Implied ETH market cap</small>
+          <strong id="marketCap">~$603B</strong>
+        </div>
+      </section>
+    </header>
+
+    <section class="pulse" aria-label="Thesis pulse">
+      <div><span class="pulse-dot green"></span><strong id="greenCount">4</strong><small>supportive</small></div>
+      <div><span class="pulse-dot yellow"></span><strong id="yellowCount">2</strong><small>mixed</small></div>
+      <div><span class="pulse-dot red"></span><strong id="redCount">1</strong><small>headwind</small></div>
+      <div class="updated"><small>Updated</small><strong id="updatedAt">Aug 31</strong></div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="label">Catalysts</p>
+        <h2 id="catalystHeading">What gets ETH to $5K?</h2>
+      </div>
+      <span class="hint">Tap any card</span>
+    </section>
+
+    <section id="catalystGrid" class="catalyst-grid"></section>
+
+    <section class="section-head thesis-head">
+      <div>
+        <p class="label">Thesis path</p>
+        <h2 id="pathHeading">The shortest route to $5K</h2>
+      </div>
+    </section>
+
+    <section class="path" id="path"></section>
+
+    <footer>
+      <span>ETH Thesis — $5K / $10K</span>
+      <button class="text-button" data-modal="methodology">Methodology & disclaimer</button>
+    </footer>
+  </main>
+
+  <dialog id="detailModal" class="modal">
+    <div class="modal-inner">
+      <div class="modal-top">
+        <span id="modalStatus" class="status-pill yellow">MIXED</span>
+        <button id="closeModal" class="close" aria-label="Close">×</button>
+      </div>
+      <h2 id="modalTitle"></h2>
+      <p id="modalSummary" class="modal-summary"></p>
+      <div id="modalBody" class="modal-body"></div>
+      <div id="modalSources" class="sources"></div>
+    </div>
+  </dialog>
+
+  <script src="./app.js"></script>
+</body>
+</html>
