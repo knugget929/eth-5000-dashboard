@@ -1,0 +1,11 @@
+{
+  "name": "eth-thesis-mission-control",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build-static.mjs",
+    "check": "node scripts/validate-thesis.mjs && node scripts/validate-project-state.mjs"
+  }
+}

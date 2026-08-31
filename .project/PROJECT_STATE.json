@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "project": "eth-thesis-mission-control",
+  "repository": "knugget929/eth-5000-dashboard",
+  "integrationBranch": "main",
+  "production": {"provider": "chatgpt-sites", "url": "pending", "status": "pending"},
+  "candidate": {"url": "local-supervised-preview", "status": "verified"},
+  "activeTask": "mission-control-v1",
+  "review": {"gate": "G2", "status": "pending", "reviewedSha": null}
+}

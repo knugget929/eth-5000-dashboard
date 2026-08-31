@@ -1,0 +1,10 @@
+version: 2
+integration_branch: main
+production_surface: chatgpt_sites
+github_pages: forbidden
+github_actions: disabled
+gates:
+  G0: lightweight_validation
+  G1: independent_review
+  G2: independent_review_and_exact_source_preview
+  G3: owner_decision_then_independent_review

@@ -1,0 +1,24 @@
+version: 2
+project: eth-thesis-mission-control
+tasks:
+  - id: mission-control-v1
+    title: Publish ETH Mission Control v1
+    work_type: FEATURE
+    priority: P2
+    review_gate: G2
+    status: in_review
+    dependencies: []
+  - id: history-updates
+    title: Grow real probability history
+    work_type: IMPROVEMENT
+    priority: P3
+    review_gate: G1
+    status: pending
+    dependencies: [mission-control-v1]
+  - id: automated-thesis-refresh
+    title: Automate evidence-to-data refresh
+    work_type: ARCHITECTURE
+    priority: P4
+    review_gate: G3
+    status: pending
+    dependencies: [history-updates]
