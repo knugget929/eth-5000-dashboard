@@ -6,8 +6,9 @@ tasks:
     work_type: FEATURE
     priority: P2
     review_gate: G2
-    status: in_review
+    status: blocked
     dependencies: []
+    blocker: chatgpt_sites_creation_quota
   - id: history-updates
     title: Grow real probability history
     work_type: IMPROVEMENT
