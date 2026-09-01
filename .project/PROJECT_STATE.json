@@ -1,10 +1,21 @@
 {
-  "version": 2,
+  "version": 3,
   "project": "eth-thesis-mission-control",
   "repository": "knugget929/eth-5000-dashboard",
   "integrationBranch": "main",
-  "production": {"provider": "chatgpt-sites", "url": "pending", "status": "blocked", "blocker": "site_hosting_usage_limit_reached"},
-  "candidate": {"url": "local-supervised-preview", "status": "verified"},
-  "activeTask": "mission-control-v1",
-  "review": {"gate": "G2", "status": "verified", "reviewedSha": "01878a39b124d47fc5d3c0d596be8cb5a09b3ff2"}
+  "production": {
+    "provider": "github-pages",
+    "url": "https://knugget929.github.io/eth-5000-dashboard/",
+    "status": "live"
+  },
+  "futureHosting": {
+    "provider": "chatgpt-sites",
+    "status": "optional"
+  },
+  "activeTask": "automated-thesis-refresh",
+  "delivery": {
+    "mode": "direct-main",
+    "reviewRequired": false,
+    "validation": ["npm run check", "npm run build"]
+  }
 }

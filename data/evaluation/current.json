@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "evaluatedAt": "2026-09-01T01:20:00Z",
+  "policyVersion": "2026-09-01",
+  "targets": {
+    "5000": {"probability": 65, "trend": "steady", "weightedSignal": 65},
+    "10000": {"probability": 35, "trend": "steady", "weightedSignal": 48}
+  },
+  "catalysts": {
+    "institutional": {"5000": {"status": "green", "score": 0.9}, "10000": {"status": "yellow", "score": 0.65}},
+    "macro": {"5000": {"status": "red", "score": 0.25}, "10000": {"status": "red", "score": 0.2}},
+    "regulation": {"5000": {"status": "yellow", "score": 0.65}, "10000": {"status": "yellow", "score": 0.55}},
+    "tokenization": {"5000": {"status": "green", "score": 0.8}, "10000": {"status": "yellow", "score": 0.6}},
+    "staking": {"5000": {"status": "green", "score": 0.7}, "10000": {"status": "yellow", "score": 0.6}},
+    "protocol": {"5000": {"status": "green", "score": 0.75}, "10000": {"status": "yellow", "score": 0.6}},
+    "market": {"5000": {"status": "yellow", "score": 0.55}, "10000": {"status": "red", "score": 0.3}},
+    "value-capture": {"5000": {"status": "yellow", "score": 0.58}, "10000": {"status": "red", "score": 0.35}},
+    "debasement": {"5000": {"status": "green", "score": 0.68}, "10000": {"status": "yellow", "score": 0.52}}
+  },
+  "evidenceRefs": {
+    "debasement": ["fiscal-deficit-2026", "public-debt-2036", "real-yield-10y", "eth-monetary-capture"]
+  },
+  "decision": "Added the debasement trade as a distinct structural catalyst. Kept both target probabilities unchanged because the fiscal tailwind is offset by high real yields and unproven ETH-specific monetary capture."
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-09-01T01:15:00Z",
+  "market": {
+    "ethUsd": 2464.48,
+    "change24h": 2.3,
+    "sourceId": "coingecko-eth"
+  },
+  "observations": [
+    {
+      "id": "fiscal-deficit-2026",
+      "catalyst": "debasement",
+      "direction": "supportive",
+      "value": "$1.9T / 5.8% GDP",
+      "summary": "CBO projects a historically large federal deficit for fiscal 2026.",
+      "sourceIds": ["cbo-2026-outlook"]
+    },
+    {
+      "id": "public-debt-2036",
+      "catalyst": "debasement",
+      "direction": "supportive",
+      "value": "120% GDP",
+      "summary": "CBO projects debt held by the public rising from 101% of GDP in 2026 to 120% in 2036.",
+      "sourceIds": ["cbo-2026-outlook"]
+    },
+    {
+      "id": "real-yield-10y",
+      "catalyst": "debasement",
+      "direction": "headwind",
+      "value": "2.42%",
+      "summary": "The positive 10-year real Treasury yield remains a strong tactical counterforce to the debasement trade.",
+      "sourceIds": ["fred-dfii10"]
+    },
+    {
+      "id": "eth-monetary-capture",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Unproven",
+      "summary": "ETH has not yet demonstrated that it captures debasement demand at the scale of BTC or gold.",
+      "sourceIds": ["ethereum-eth"]
+    }
+  ],
+  "sources": {
+    "coingecko-eth": {"label": "CoinGecko ETH", "url": "https://www.coingecko.com/en/coins/ethereum", "accessedAt": "2026-09-01"},
+    "cbo-2026-outlook": {"label": "CBO Budget and Economic Outlook: 2026–2036", "url": "https://www.cbo.gov/publication/62105", "accessedAt": "2026-09-01"},
+    "fred-dfii10": {"label": "FRED 10-Year Real Treasury Yield", "url": "https://fred.stlouisfed.org/series/DFII10", "accessedAt": "2026-09-01"},
+    "fred-dollar": {"label": "FRED Nominal Broad U.S. Dollar Index", "url": "https://fred.stlouisfed.org/series/DTWEXBGS", "accessedAt": "2026-09-01"},
+    "ethereum-eth": {"label": "Ethereum: What is ETH?", "url": "https://ethereum.org/en/eth/", "accessedAt": "2026-09-01"}
+  }
+}

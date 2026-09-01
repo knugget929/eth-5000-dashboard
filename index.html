@@ -68,6 +68,7 @@
           <div class="forecast-meta">
             <span><small>IMPLIED VALUE</small><strong id="marketCap">~$603B</strong></span>
             <span><small>SIGNAL BALANCE</small><strong id="signalText">5 · 2 · 1</strong></span>
+            <span><small>WEIGHTED SIGNAL</small><strong id="weightedScore">65 / 100</strong></span>
           </div>
         </div>
         <button class="info-button" data-modal="forecast" type="button" aria-label="How this probability is scored">i</button>
@@ -84,6 +85,16 @@
       <span class="hint"><i class="dot green"></i> supportive <i class="dot yellow"></i> mixed <i class="dot red"></i> headwind</span>
     </section>
     <section id="catalystGrid" class="catalyst-grid"></section>
+
+    <section id="debasementPanel" class="debasement-panel" aria-labelledby="debasementHeading">
+      <div class="debasement-copy">
+        <div class="debasement-kicker"><span>STRUCTURAL MACRO LENS</span><span id="debasementStatus" class="status-dot yellow">MIXED</span></div>
+        <h2 id="debasementHeading">The debasement trade</h2>
+        <p id="debasementSummary"></p>
+        <button class="text-button" data-modal="debasement" type="button">Inspect the thesis →</button>
+      </div>
+      <div id="debasementSignals" class="debasement-signals"></div>
+    </section>
 
     <section class="lower-grid">
       <article class="path-panel">

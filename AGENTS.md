@@ -2,22 +2,25 @@
 
 ## Product direction
 
-- Preserve the one-page, data-driven architecture.
-- Optimize the first viewport for phone use: price, target distance, selected probability, overall signal, and target switch.
-- Treat `$5K` and `$10K` as distinct thresholds. Never copy a catalyst interpretation between targets without reassessing it.
-- Give ETH value capture special weight in the `$10K` model. Ecosystem growth alone is not sufficient evidence.
-- Keep routine thesis updates inside `data/thesis.json` whenever possible.
+- Preserve the one-page, data-driven dashboard.
+- Optimize the first phone viewport for price, target distance, selected probability, overall signal, and target switching.
+- Evaluate `$5K` and `$10K` independently.
+- Treat ETH value capture as a critical hurdle for `$10K`; ecosystem growth alone is not sufficient.
+- Keep Fed/liquidity and the debasement trade separate: one is cyclical, the other structural.
 
-## Delivery constraints
+## Routine update contract
 
-- GitHub is the source of truth; ChatGPT Sites is the only production surface.
-- Do not add GitHub Pages or GitHub Actions.
-- Favor lightweight validation over extensive automated testing.
-- Respect reduced-motion preferences and preserve keyboard-accessible controls and dialogs.
+- Read `data/thesis-policy.json`, `data/research/latest.json`, `data/evaluation/current.json`, and `data/thesis.json` before updating the thesis.
+- Put sourced observations in `data/research/latest.json`; use `data/research/archive/` for optional dated snapshots.
+- Put current scored judgments in `data/evaluation/current.json`.
+- Keep `data/thesis.json` aligned because it is the dashboard's render payload.
+- Append history and “What changed?” entries when probabilities or catalyst states change.
+- Never commit secrets, API keys, account details, or private research notes; the repository and GitHub Pages site are public.
 
-## Review gates
+## Delivery
 
-- G0: data/docs/build metadata; lightweight validation.
-- G1: bounded behavior or accessibility fix; independent review before merge.
-- G2: visible layout, interaction, or device-behavior change; independent review plus exact-source preview before merge and release.
-- G3: architecture, public access, secrets, paid data sources, storage, or destructive migration; owner decision first.
+- GitHub `main` is the source and GitHub Pages publishing branch.
+- Direct commits to `main` are allowed for this personal project; no PR/reviewer gate is required.
+- Run `npm run check` and `npm run build` before pushing.
+- Keep `.openai/hosting.json` intact so ChatGPT Sites remains an option later.
+- Favor lightweight validation over an extensive test suite.

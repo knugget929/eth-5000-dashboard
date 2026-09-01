@@ -54,6 +54,7 @@ function renderActiveTarget(){
   $('#overallSignal').textContent=forecast.overallSignal;
   renderTrend(forecast);
   renderCatalysts();
+  renderDebasement();
   renderPath(forecast);
   renderHistory(forecast);
   renderChanges();
@@ -69,9 +70,9 @@ function renderTrend(forecast){
 
 function renderCatalysts(){
   const grid=$('#catalystGrid'),rail=$('#signalRail');grid.innerHTML='';rail.innerHTML='';
-  const counts={green:0,yellow:0,red:0};
+  const counts={green:0,yellow:0,red:0};let weighted=0,totalWeight=0;
   thesis.catalysts.forEach(catalyst=>{
-    const view=catalyst.targets[activeTarget];counts[view.status]++;
+    const view=catalyst.targets[activeTarget];counts[view.status]++;weighted+=view.score*view.weight;totalWeight+=view.weight;
     const card=document.createElement('button');
     card.type='button';card.className=`catalyst ${view.status}`;
     card.setAttribute('aria-label',`${catalyst.title}: ${statusLabel(view.status)}, ${Math.round(view.score*100)} out of 100`);
@@ -80,6 +81,14 @@ function renderCatalysts(){
     const chip=document.createElement('button');chip.type='button';chip.className=`signal-chip ${view.status}`;chip.textContent=catalyst.title;chip.dataset.short=catalyst.shortTitle||catalyst.title;chip.addEventListener('click',()=>openCatalyst(catalyst,view));rail.appendChild(chip);
   });
   $('#signalText').textContent=`${counts.green} · ${counts.yellow} · ${counts.red}`;
+  $('#weightedScore').textContent=`${Math.round(weighted/Math.max(1,totalWeight)*100)} / 100`;
+}
+
+function renderDebasement(){
+  const lens=thesis.debasement,view=lens.targets[activeTarget];
+  const status=$('#debasementStatus');status.className=`status-dot ${view.status}`;status.textContent=statusLabel(view.status);
+  $('#debasementSummary').textContent=view.summary;
+  $('#debasementSignals').innerHTML=lens.signals.map(signal=>`<article class="debasement-signal ${signal.status}"><span>${signal.label}</span><strong>${signal.value}</strong><small>${signal.note}</small></article>`).join('');
 }
 
 function renderPath(forecast){
@@ -148,6 +157,12 @@ function openSpecial(kind){
   if(kind==='forecast'){
     $('#modalTitle').textContent=`How the ${forecast.display} estimate works`;$('#modalSummary').textContent=`${forecast.probability}% is the current subjective thesis estimate—not a market-implied probability.`;
     $('#modalBody').innerHTML=`<div class="fact"><b>Horizon</b><span>${forecast.horizon}</span></div><div class="fact"><b>Implied valuation</b><span>${forecast.marketCap} at roughly current circulating supply.</span></div><div class="fact wide"><b>Current base case</b><span>${forecast.baseCase}</span></div><div class="fact wide"><b>Scoring logic</b><span>${forecast.methodology}</span></div>`;
+  }else if(kind==='debasement'){
+    const lens=thesis.debasement,view=lens.targets[activeTarget];
+    $('#modalStatus').className=`status-pill ${view.status}`;$('#modalStatus').textContent=statusLabel(view.status);
+    $('#modalTitle').textContent=`The debasement trade · ${forecast.display}`;$('#modalSummary').textContent=view.summary;
+    $('#modalBody').innerHTML=`<div class="fact wide"><b>Why it matters</b><span>${view.why}</span></div><div class="fact"><b>Current read</b><span>${view.evidence}</span></div><div class="fact"><b>ETH-specific hurdle</b><span>${view.ethHurdle}</span></div><div class="fact"><b>What turns greener</b><span>${view.greenTrigger}</span></div><div class="fact"><b>What turns redder</b><span>${view.redTrigger}</span></div><div class="fact wide"><b>Key distinction</b><span>Fiscal deterioration can support scarce assets while tight liquidity still hurts ETH. This lens is structural; Fed & liquidity remains the cyclical lens.</span></div>`;
+    renderSources(lens.sources||[]);modal.showModal();return;
   }else{
     $('#modalTitle').textContent='Methodology';$('#modalSummary').textContent='A compact personal decision dashboard, not a trading signal.';
     $('#modalBody').innerHTML=`<div class="fact"><b>Supportive</b><span>Currently helps the selected target.</span></div><div class="fact"><b>Mixed</b><span>Early, incomplete, or dependent on future evidence.</span></div><div class="fact"><b>Headwind</b><span>Currently works against the selected target.</span></div><div class="fact"><b>Target logic</b><span>$5K and $10K share catalysts but use different thresholds.</span></div><div class="fact wide"><b>Value capture</b><span>Ethereum ecosystem adoption counts only when it creates credible demand for ETH through staking, collateral, settlement, fees, burn, or monetary premium.</span></div><div class="fact wide"><b>Important</b><span>This is opinionated scenario analysis, not financial advice. Crypto is volatile and estimates can change quickly.</span></div>`;

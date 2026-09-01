@@ -1,18 +1,20 @@
 # Build plan
 
-## Current release — Mission Control v1
+## Current release
 
-Status: implementation complete; review and production publication in progress.
+Status: live on GitHub Pages.
 
-1. Preserve the static, data-driven dashboard.
-2. Strengthen the mobile first-screen hierarchy.
-3. Verify target-aware switching, catalyst evidence panels, and price fallback.
-4. Add initial probability-history and evidence-log structures.
-5. Publish the validated source through ChatGPT Sites.
+- Mobile-first Mission Control overview
+- Independent $5K and $10K thesis modes
+- Target-aware catalyst scores and evidence dialogs
+- Live ETH price with stored-snapshot fallback
+- Probability history and “What changed?” log
+- Separate debasement-trade catalyst and macro lens
+- Structured research → evaluation → render data flow
 
-## Next safe improvements
+## Next improvements
 
-1. Append real probability-history points during meaningful thesis updates.
-2. Add sourced change entries with catalyst state transitions and probability deltas.
+1. Grow the probability history through real thesis changes.
+2. Expand dated research archives only when they add useful audit value.
 3. Refine small-screen density from real phone feedback.
-4. Automate the existing inspect → data update → commit → Sites refresh workflow without changing the UI architecture.
+4. Move to ChatGPT Sites later without changing the thesis data contract.

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "2026-09-01",
+  "purpose": "Stable scoring context for the personal ETH $5K and $10K theses.",
+  "targets": {
+    "5000": {
+      "deadline": "2027-12-31",
+      "hurdle": "Moderate: a strong cycle plus durable institutional demand can be sufficient."
+    },
+    "10000": {
+      "deadline": "2029-12-31",
+      "hurdle": "High: multiple structural catalysts must compound and ETH value capture must be visible."
+    }
+  },
+  "statusBands": {
+    "green": {"minimumScore": 0.67, "meaning": "Supportive for the selected target."},
+    "yellow": {"minimumScore": 0.4, "meaning": "Developing, incomplete, or offset by contrary evidence."},
+    "red": {"minimumScore": 0, "meaning": "A current headwind for the selected target."}
+  },
+  "catalystWeights": {
+    "5000": {
+      "institutional": 18,
+      "macro": 15,
+      "regulation": 12,
+      "tokenization": 11,
+      "staking": 8,
+      "protocol": 8,
+      "market": 7,
+      "value-capture": 11,
+      "debasement": 10
+    },
+    "10000": {
+      "institutional": 16,
+      "macro": 13,
+      "regulation": 10,
+      "tokenization": 11,
+      "staking": 7,
+      "protocol": 7,
+      "market": 6,
+      "value-capture": 20,
+      "debasement": 10
+    }
+  },
+  "interpretationRules": [
+    "$5K and $10K must be evaluated independently.",
+    "Ecosystem growth is not automatically ETH value capture.",
+    "Fed and liquidity measures the cyclical regime; debasement measures the structural fiscal and monetary regime.",
+    "A debasement tailwind for $10K requires evidence that ETH captures monetary, collateral, or productive-capital demand.",
+    "Probabilities are subjective analyst estimates, not market-implied probabilities."
+  ],
+  "notificationThresholds": {
+    "probabilityPoints": 3,
+    "notifyOnCatalystColorChange": true,
+    "notifyOnThesisBreakingEvent": true,
+    "otherwiseSilent": true
+  },
+  "publishing": {
+    "mode": "direct-main",
+    "surface": "github-pages",
+    "url": "https://knugget929.github.io/eth-5000-dashboard/"
+  }
+}
