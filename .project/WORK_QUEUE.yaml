@@ -12,7 +12,7 @@ tasks:
   - id: automated-thesis-refresh
     title: Automate research and thesis updates
     priority: P1
-    status: in_progress
+    status: completed
   - id: history-updates
     title: Grow real probability history
     priority: P2

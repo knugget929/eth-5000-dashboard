@@ -22,3 +22,8 @@ This repository uses a lightweight two-stage workflow.
 - Notify the owner only for a color change, a probability move of at least three points, or a thesis-breaking event.
 
 The workflow has no PR, reviewer, staging, or manual approval gate. Git history is the audit and rollback mechanism.
+
+## Current schedule
+
+- `ETH Daily Research`: daily morning run, Europe/Athens time.
+- `ETH Thesis Publish`: daily afternoon run, Europe/Athens time.

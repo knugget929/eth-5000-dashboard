@@ -12,7 +12,7 @@
     "provider": "chatgpt-sites",
     "status": "optional"
   },
-  "activeTask": "automated-thesis-refresh",
+  "activeTask": "ongoing-thesis-monitoring",
   "delivery": {
     "mode": "direct-main",
     "reviewRequired": false,
