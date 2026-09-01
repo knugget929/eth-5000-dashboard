@@ -25,5 +25,7 @@ The workflow has no PR, reviewer, staging, or manual approval gate. Git history 
 
 ## Current schedule
 
-- `ETH Daily Research`: daily morning run, Europe/Athens time.
+- `Ethereum News & Research`: runs at 08:00 and 19:00, Europe/Athens time. It updates the evidence file and alerts only for major ETH news, a 5% daily move, or a thesis-breaking event.
 - `ETH Thesis Publish`: daily afternoon run, Europe/Athens time.
+
+The older `ETH Daily Research` and hourly `ETH Thesis Watch` automations are paused to avoid duplicate research and alert streams.
