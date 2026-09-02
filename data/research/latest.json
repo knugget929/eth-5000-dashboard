@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-02T05:00:00Z",
+  "researchedAt": "2026-09-02T16:10:00Z",
   "accessDate": "2026-09-02",
   "market": {
-    "ethUsd": 2413.31,
+    "ethUsd": 2389.17,
     "change24h": -2.4,
-    "marketCapUsd": 291223165132,
-    "volume24hUsd": 13361392737.36,
+    "marketCapUsd": 291480266687,
+    "volume24hUsd": 14864273046.49,
     "sourceIds": [
       "coingecko-eth",
       "binance-eth",
       "kraken-eth"
     ],
-    "note": "CoinGecko, Binance, and Kraken clustered near $2.40K-$2.42K during collection; the multi-source reading supersedes an inconsistent generic finance quote."
+    "note": "CoinGecko and its live venue table placed ETH near $2.39K across Binance, Kraken, OKX, and other major exchanges during collection; venue quotes differ slightly and move continuously."
   },
   "observations": [
     {
       "id": "eth-market-2026-09-02",
       "catalyst": "market",
       "direction": "headwind",
-      "value": "$2,413.31 / -2.40% 24h",
-      "summary": "ETH is down about 2.4% over 24 hours, with major venue and aggregator quotes clustered near $2.4K; the move is below the 5% notification threshold.",
+      "value": "$2,389.17 / -2.40% 24h",
+      "summary": "ETH is down about 2.4% over 24 hours, with major-exchange quotes clustered near $2.39K; the move remains below the 5% notification threshold.",
       "sourceIds": [
         "coingecko-eth",
         "binance-eth",
@@ -155,6 +155,18 @@
       "uncertainty": "No September decision has been made; incoming inflation and labor data can change the outcome."
     },
     {
+      "id": "global-bond-oil-shock-2026-09-02",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y 4.8182% / Brent $95.18",
+      "summary": "Escalating U.S.-Iran conflict pushed oil to a five-week high and the U.S. 10-year Treasury yield to its highest since November 2023, while the dollar firmed and global risk assets weakened. This reinforces the short-term liquidity headwind for ETH.",
+      "sourceIds": [
+        "reuters-global-markets-2026-09-02"
+      ],
+      "confirmed": true,
+      "uncertainty": "The geopolitical path, energy-supply impact, and September Fed decision remain uncertain; intraday market levels can reverse quickly."
+    },
+    {
       "id": "real-yield-10y-2026-08-31",
       "catalyst": "macro",
       "direction": "headwind",
@@ -182,7 +194,7 @@
       "id": "eth-value-capture-2026-09-02",
       "catalyst": "value-capture",
       "direction": "mixed",
-      "value": "$422,492 fees / $131,754 revenue over 24h",
+      "value": "$351,199 fees / $60,740.79 revenue over 24h",
       "summary": "Ethereum has large financial activity and staking demand, but current L1 fee and revenue figures remain modest relative to its valuation, so ecosystem growth still does not establish sufficient ETH value capture for the $10K thesis.",
       "sourceIds": [
         "coingecko-eth",
@@ -358,15 +370,20 @@
       "label": "Ethereum.org: What is ETH?",
       "url": "https://ethereum.org/en/eth/",
       "accessedAt": "2026-09-02"
+    },
+    "reuters-global-markets-2026-09-02": {
+      "label": "Reuters: stocks slide and global bond rout deepens",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-02/",
+      "accessedAt": "2026-09-02"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH 24-hour move is below the 5% alert threshold.",
-      "No new thesis-breaking protocol, regulatory, institutional, or liquidity event was confirmed after the previously reported August 31 and September 1 developments.",
-      "Catalyst balance remains strong institutional/staking/tokenization evidence versus restrictive macro conditions and incomplete ETH-specific value capture."
+      "ETH's 24-hour move remains below the 5% alert threshold.",
+      "The oil-and-bond shock materially reinforces the already-red cyclical macro backdrop but does not constitute a thesis-breaking event by itself.",
+      "No new Ethereum protocol failure, enacted U.S. regulatory reversal, collapse in institutional demand, or other major ETH-specific event was confirmed."
     ],
-    "confirmedVsUncertain": "Market prices, ETF flows, filings, official policy statements, and protocol announcements are confirmed as sourced. Future Fed/BOJ decisions, legislative passage, projected staking revenue, and ETH monetary-premium conclusions remain uncertain."
+    "confirmedVsUncertain": "ETH price and exchange quotes, the intraday U.S. 10-year yield, Brent price, ETF flows, filings, official policy statements, and protocol announcements are confirmed as sourced. The duration of the geopolitical shock, future Fed/BOJ decisions, legislative passage, projected staking revenue, and ETH monetary-premium conclusions remain uncertain."
   }
 }
