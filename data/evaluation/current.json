@@ -1,24 +1,148 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-01T01:20:00Z",
+  "evaluatedAt": "2026-09-02T12:39:47Z",
   "policyVersion": "2026-09-01",
   "targets": {
-    "5000": {"probability": 65, "trend": "steady", "weightedSignal": 65},
-    "10000": {"probability": 35, "trend": "steady", "weightedSignal": 48}
+    "5000": {
+      "probability": 65,
+      "trend": "steady",
+      "weightedSignal": 65
+    },
+    "10000": {
+      "probability": 35,
+      "trend": "steady",
+      "weightedSignal": 48
+    }
   },
   "catalysts": {
-    "institutional": {"5000": {"status": "green", "score": 0.9}, "10000": {"status": "yellow", "score": 0.65}},
-    "macro": {"5000": {"status": "red", "score": 0.25}, "10000": {"status": "red", "score": 0.2}},
-    "regulation": {"5000": {"status": "yellow", "score": 0.65}, "10000": {"status": "yellow", "score": 0.55}},
-    "tokenization": {"5000": {"status": "green", "score": 0.8}, "10000": {"status": "yellow", "score": 0.6}},
-    "staking": {"5000": {"status": "green", "score": 0.7}, "10000": {"status": "yellow", "score": 0.6}},
-    "protocol": {"5000": {"status": "green", "score": 0.75}, "10000": {"status": "yellow", "score": 0.6}},
-    "market": {"5000": {"status": "yellow", "score": 0.55}, "10000": {"status": "red", "score": 0.3}},
-    "value-capture": {"5000": {"status": "yellow", "score": 0.58}, "10000": {"status": "red", "score": 0.35}},
-    "debasement": {"5000": {"status": "green", "score": 0.68}, "10000": {"status": "yellow", "score": 0.52}}
+    "institutional": {
+      "5000": {
+        "status": "green",
+        "score": 0.9
+      },
+      "10000": {
+        "status": "yellow",
+        "score": 0.65
+      }
+    },
+    "macro": {
+      "5000": {
+        "status": "red",
+        "score": 0.25
+      },
+      "10000": {
+        "status": "red",
+        "score": 0.2
+      }
+    },
+    "regulation": {
+      "5000": {
+        "status": "yellow",
+        "score": 0.65
+      },
+      "10000": {
+        "status": "yellow",
+        "score": 0.55
+      }
+    },
+    "tokenization": {
+      "5000": {
+        "status": "green",
+        "score": 0.8
+      },
+      "10000": {
+        "status": "yellow",
+        "score": 0.6
+      }
+    },
+    "staking": {
+      "5000": {
+        "status": "green",
+        "score": 0.7
+      },
+      "10000": {
+        "status": "yellow",
+        "score": 0.6
+      }
+    },
+    "protocol": {
+      "5000": {
+        "status": "green",
+        "score": 0.75
+      },
+      "10000": {
+        "status": "yellow",
+        "score": 0.6
+      }
+    },
+    "market": {
+      "5000": {
+        "status": "yellow",
+        "score": 0.55
+      },
+      "10000": {
+        "status": "red",
+        "score": 0.3
+      }
+    },
+    "value-capture": {
+      "5000": {
+        "status": "yellow",
+        "score": 0.58
+      },
+      "10000": {
+        "status": "red",
+        "score": 0.35
+      }
+    },
+    "debasement": {
+      "5000": {
+        "status": "green",
+        "score": 0.68
+      },
+      "10000": {
+        "status": "yellow",
+        "score": 0.52
+      }
+    }
   },
   "evidenceRefs": {
-    "debasement": ["fiscal-deficit-2026", "public-debt-2036", "real-yield-10y", "eth-monetary-capture"]
+    "institutional": [
+      "eth-etf-flow-2026-09-01",
+      "bitmine-eth-holdings-2026-08-30"
+    ],
+    "macro": [
+      "fed-policy-2026-09-01",
+      "real-yield-10y-2026-08-31",
+      "treasury-buybacks-2026-09"
+    ],
+    "regulation": [
+      "sec-regulation-crypto-assets-proposal",
+      "clarity-act-motion-to-proceed"
+    ],
+    "tokenization": [
+      "ethereum-rwa-2026-09-01",
+      "ethereum-defi-2026-09-02"
+    ],
+    "staking": [
+      "bitmine-staked-eth-2026-08-30",
+      "network-staking-2026-09-02"
+    ],
+    "protocol": [
+      "glamsterdam-plataberget-testnet"
+    ],
+    "market": [
+      "eth-market-2026-09-02"
+    ],
+    "value-capture": [
+      "eth-value-capture-2026-09-02"
+    ],
+    "debasement": [
+      "fiscal-deficit-2026",
+      "public-debt-2036",
+      "dollar-and-real-yield-offset",
+      "eth-monetary-capture"
+    ]
   },
-  "decision": "Added the debasement trade as a distinct structural catalyst. Kept both target probabilities unchanged because the fiscal tailwind is offset by high real yields and unproven ETH-specific monetary capture."
+  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. Persistent ETF and corporate treasury demand, high staking participation, tokenization growth, and protocol progress remain constructive, but restrictive Fed policy, a 2.44% 10-year real yield, sub-$3K market structure, and weak fee-based ETH value capture prevent an upgrade. No catalyst crossed a color threshold."
 }
