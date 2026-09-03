@@ -1,43 +1,45 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-03T04:55:00Z",
+  "researchedAt": "2026-09-03T16:15:00Z",
   "accessDate": "2026-09-03",
   "market": {
-    "ethUsd": 2396.91,
-    "change24h": 0.7,
-    "marketCapUsd": 292462000000,
-    "volume24hUsd": 12684000000,
+    "ethUsd": 2494.42,
+    "change24h": 4.2,
+    "marketCapUsd": 304396120280,
+    "volume24hUsd": 13846049806.27,
     "sourceIds": [
       "coingecko-eth",
-      "binance-eth"
+      "coinmarketcap-eth",
+      "coinbase-eth"
     ],
-    "note": "CoinGecko placed ETH at $2,396.91 with a 0.7% 24-hour gain during collection, while Binance quoted $2,391.07 and a -1.12% 24-hour move. Venue timing and methodology differ, but both show a sub-5% move near $2.4K."
+    "note": "CoinGecko showed ETH at $2,494.42, up 4.20% over 24 hours; CoinMarketCap independently showed about $2,490 and +4.23%, while Coinbase showed a roughly 4.08% one-day gain. The move is substantial but remains below the 5% price-alert threshold."
   },
   "observations": [
     {
       "id": "eth-market-2026-09-03",
       "catalyst": "market",
-      "direction": "mixed",
-      "value": "$2,396.91 / +0.70% 24h (CoinGecko)",
-      "summary": "ETH remains near $2.4K. CoinGecko showed a 0.7% 24-hour gain, while Binance showed a 1.12% decline because of differing venue windows; neither reading approaches the 5% notification threshold.",
+      "direction": "supportive",
+      "value": "$2,494.42 / +4.20% 24h",
+      "summary": "ETH rallied back toward $2.5K. CoinGecko showed a 4.20% 24-hour gain, CoinMarketCap 4.23%, and Coinbase about 4.08%; the move is broad across sources but remains below the 5% price-alert threshold.",
       "sourceIds": [
         "coingecko-eth",
-        "binance-eth"
+        "coinmarketcap-eth",
+        "coinbase-eth"
       ],
       "confirmed": true,
-      "uncertainty": "Prices move continuously and 24-hour comparisons vary by venue and collection time."
+      "uncertainty": "Prices move continuously, and exact 24-hour comparisons vary slightly by venue and collection time."
     },
     {
       "id": "eth-etf-flow-2026-09-02",
       "catalyst": "institutional",
       "direction": "headwind",
       "value": "-$48.2M latest day / +$13.018B cumulative",
-      "summary": "U.S. spot ETH ETFs recorded a $48.2M net outflow on September 2, ending the recent positive-flow run. The reversal is a near-term demand softening signal, but it is modest relative to cumulative inflows and the large late-August additions.",
+      "summary": "U.S. spot ETH ETFs recorded a $48.2M net outflow on September 2, ending the recent positive-flow run. The September 3 row was still incomplete during collection, so September 2 remains the latest completed session.",
       "sourceIds": [
         "farside-eth-etf"
       ],
       "confirmed": true,
-      "uncertainty": "Farside updates the table in real time and notes that figures can be revised."
+      "uncertainty": "Farside updates the table in real time; the September 3 row showed placeholders and should not yet be treated as a completed zero-flow day."
     },
     {
       "id": "bitmine-eth-holdings-2026-08-30",
@@ -105,8 +107,8 @@
       "id": "ethereum-rwa-2026-09-03",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$17.57B distributed RWA value / +1.35% 30d",
-      "summary": "RWA.xyz reports $17.57B of distributed tokenized real-world asset value on Ethereum, 267,106 RWA holders, and $14.74B of 30-day RWA transfer volume.",
+      "value": "$17.55B distributed RWA value / $14.85B 30d transfers",
+      "summary": "RWA.xyz reports $17.55B of distributed tokenized real-world asset value on Ethereum, 267,403 RWA holders, and $14.85B of 30-day RWA transfer volume.",
       "sourceIds": [
         "rwa-ethereum"
       ],
@@ -117,8 +119,8 @@
       "id": "ethereum-defi-2026-09-03",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$47.997B DeFi TVL / $147.972B stablecoins",
-      "summary": "DefiLlama reports $47.997B of Ethereum DeFi TVL and $147.972B of stablecoin market capitalization, with 1.93M transactions and $1.268B of DEX volume over 24 hours.",
+      "value": "$48.417B DeFi TVL / $148.021B stablecoins",
+      "summary": "DefiLlama reports $48.417B of Ethereum DeFi TVL and $148.021B of stablecoin market capitalization, with $1.111B of DEX volume over 24 hours.",
       "sourceIds": [
         "defillama-ethereum"
       ],
@@ -192,7 +194,7 @@
       "id": "eth-value-capture-2026-09-03",
       "catalyst": "value-capture",
       "direction": "mixed",
-      "value": "$304,277 chain fees / $60,758 chain revenue over 24h",
+      "value": "$300,455 chain fees / $57,933 chain revenue over 24h",
       "summary": "Ethereum continues to host large financial activity, but current L1 chain fees and revenue remain modest relative to its valuation. The gap between ecosystem scale and direct L1 economics remains a key hurdle for the $10K thesis.",
       "sourceIds": [
         "defillama-ethereum",
@@ -275,6 +277,32 @@
       ],
       "confirmed": true,
       "uncertainty": "The disclosed total covers multiple altcoins, not ETH alone, and does not establish a broader corporate allocation trend."
+    },
+    {
+      "id": "standard-chartered-uae-eth-spot-2026-09-03",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "First G-SIB institutional BTC/ETH spot trading in UAE",
+      "summary": "Standard Chartered launched DFSA-regulated, deliverable Bitcoin and Ether spot trading for eligible institutional clients through its UAE DIFC entity. Clients can trade through the bank's existing electronic FX-style channels and settle with their chosen custodian, adding a major regulated distribution rail for ETH in the Gulf.",
+      "sourceIds": [
+        "standard-chartered-uae-spot",
+        "reuters-standard-chartered-uae-2026-09-03"
+      ],
+      "confirmed": true,
+      "uncertainty": "The bank has not disclosed client volumes, asset mix, or net ETH purchases, and the capability extends an institutional service first launched through its UK branch in July 2025."
+    },
+    {
+      "id": "oil-fed-headwind-2026-09-03-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $97.29 / U.S. 10Y near 4.78% / Fed hike odds 63%",
+      "summary": "Renewed U.S.-Iran tensions lifted Brent crude to a six-week high, while the U.S. 10-year yield remained near a three-year high and markets assigned roughly 63% odds to a September Fed hike. ETH rallied despite this backdrop, but the cyclical liquidity regime remains restrictive.",
+      "sourceIds": [
+        "reuters-oil-2026-09-03",
+        "reuters-india-markets-2026-09-03"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil, yields, and market-implied policy probabilities can reverse quickly; the September Fed decision is not settled."
     }
   ],
   "sources": {
@@ -422,15 +450,40 @@
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
       "accessedAt": "2026-09-03"
+    },
+    "coinmarketcap-eth": {
+      "label": "CoinMarketCap Ethereum market data",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-09-03"
+    },
+    "coinbase-eth": {
+      "label": "Coinbase Ethereum market data",
+      "url": "https://www.coinbase.com/price/ethereum",
+      "accessedAt": "2026-09-03"
+    },
+    "standard-chartered-uae-spot": {
+      "label": "Standard Chartered: institutional Bitcoin and Ether spot trading in the UAE",
+      "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-global-systemically-important-bank-g-sib-to-launch-institutional-bitcoin-and-ether-spot-trading-in-the-uae/",
+      "accessedAt": "2026-09-03"
+    },
+    "reuters-standard-chartered-uae-2026-09-03": {
+      "label": "Reuters: Standard Chartered launches institutional spot crypto trading in UAE",
+      "url": "https://www.reuters.com/legal/transactional/standard-chartered-launches-institutional-spot-crypto-trading-uae-2026-09-03/",
+      "accessedAt": "2026-09-03"
+    },
+    "reuters-india-markets-2026-09-03": {
+      "label": "Reuters: rupee rises as markets track oil, yields, and Fed odds",
+      "url": "https://www.reuters.com/world/india/indias-127-bln-nri-deposits-arm-rbi-with-more-firepower-setting-rupee-up-rally-2026-09-03/",
+      "accessedAt": "2026-09-03"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "ETH's 24-hour move remains well below the 5% alert threshold across the checked market sources.",
-      "The September 2 ETF outflow ended the recent inflow streak but is not large enough to establish a collapse in institutional demand.",
-      "No new Ethereum protocol failure, enacted U.S. regulatory reversal, major institutional unwind, or other thesis-breaking event was confirmed."
+      "Standard Chartered's DFSA-regulated launch makes it the first global systemically important bank to offer institutional deliverable Bitcoin and Ether spot trading in the UAE, a major new regulated access channel for ETH in the Gulf.",
+      "ETH rose about 4.2% over 24 hours across multiple market-data sources, which is substantial but still below the separate 5% price-alert threshold.",
+      "No Ethereum protocol failure, enacted U.S. regulatory reversal, or thesis-breaking institutional unwind was confirmed."
     ],
-    "confirmedVsUncertain": "Current price ranges, the September 2 ETF outflow, staking participation, on-chain financial metrics, official regulatory and protocol indexes, and disclosed corporate treasury actions are confirmed as sourced. Future Fed and BOJ decisions, the duration of geopolitical energy pressure, legislative passage, and whether the ETF reversal persists remain uncertain."
+    "confirmedVsUncertain": "The Standard Chartered launch, its DFSA-regulated DIFC structure, deliverable Ether trading, existing electronic-channel integration, current ETH market move, completed September 2 ETF outflow, staking participation, and on-chain activity metrics are confirmed as sourced. Client trading volumes, net ETH purchases attributable to the new service, persistence of the price rally, September 3 ETF flows, and future Fed decisions remain uncertain."
   }
 }
