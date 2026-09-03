@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-02T12:39:47Z",
+  "evaluatedAt": "2026-09-03T12:08:57Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 65,
-      "trend": "steady",
-      "weightedSignal": 65
+      "probability": 64,
+      "trend": "weaker",
+      "weightedSignal": 64
     },
     "10000": {
-      "probability": 35,
-      "trend": "steady",
-      "weightedSignal": 48
+      "probability": 34,
+      "trend": "weaker",
+      "weightedSignal": 46
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.9
+        "score": 0.88
       },
       "10000": {
         "status": "yellow",
-        "score": 0.65
+        "score": 0.62
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.25
+        "score": 0.2
       },
       "10000": {
         "status": "red",
-        "score": 0.2
+        "score": 0.15
       }
     },
     "regulation": {
@@ -88,11 +88,11 @@
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.58
+        "score": 0.56
       },
       "10000": {
         "status": "red",
-        "score": 0.35
+        "score": 0.33
       }
     },
     "debasement": {
@@ -108,21 +108,24 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-01",
-      "bitmine-eth-holdings-2026-08-30"
+      "eth-etf-flow-2026-09-02",
+      "bitmine-eth-holdings-2026-08-30",
+      "remixpoint-altcoin-exit-2026-09-02"
     ],
     "macro": [
       "fed-policy-2026-09-01",
+      "global-bond-oil-shock-2026-09-02",
       "real-yield-10y-2026-08-31",
-      "treasury-buybacks-2026-09"
+      "treasury-buybacks-2026-09",
+      "boj-fed-tightening-odds-2026-09-03"
     ],
     "regulation": [
       "sec-regulation-crypto-assets-proposal",
       "clarity-act-motion-to-proceed"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-01",
-      "ethereum-defi-2026-09-02"
+      "ethereum-rwa-2026-09-03",
+      "ethereum-defi-2026-09-03"
     ],
     "staking": [
       "bitmine-staked-eth-2026-08-30",
@@ -132,10 +135,10 @@
       "glamsterdam-plataberget-testnet"
     ],
     "market": [
-      "eth-market-2026-09-02"
+      "eth-market-2026-09-03"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-02"
+      "eth-value-capture-2026-09-03"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -144,5 +147,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. Persistent ETF and corporate treasury demand, high staking participation, tokenization growth, and protocol progress remain constructive, but restrictive Fed policy, a 2.44% 10-year real yield, sub-$3K market structure, and weak fee-based ETH value capture prevent an upgrade. No catalyst crossed a color threshold."
+  "decision": "Reduced the $5K estimate from 65% to 64% and the $10K estimate from 35% to 34%. A one-day $48.2M spot-ETF outflow and a small corporate altcoin exit modestly softened the institutional read, while an oil-driven bond selloff, a 4.82% U.S. 10-year yield, elevated real yields, Fed-hike risk, and firmer BOJ tightening expectations intensified the cyclical liquidity headwind. Strong staking participation, tokenization activity, and protocol progress remain intact. ETH-specific value capture is still insufficient for the $10K case. No catalyst crossed a color threshold."
 }
