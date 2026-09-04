@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-03T12:08:57Z",
+  "evaluatedAt": "2026-09-04T12:44:36Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 64,
-      "trend": "weaker",
-      "weightedSignal": 64
+      "probability": 65,
+      "trend": "stronger",
+      "weightedSignal": 65
     },
     "10000": {
-      "probability": 34,
-      "trend": "weaker",
-      "weightedSignal": 46
+      "probability": 35,
+      "trend": "stronger",
+      "weightedSignal": 48
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.88
+        "score": 0.9
       },
       "10000": {
         "status": "yellow",
-        "score": 0.62
+        "score": 0.66
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.2
+        "score": 0.25
       },
       "10000": {
         "status": "red",
-        "score": 0.15
+        "score": 0.2
       }
     },
     "regulation": {
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.55
+        "score": 0.6
       },
       "10000": {
         "status": "red",
-        "score": 0.3
+        "score": 0.34
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.56
+        "score": 0.57
       },
       "10000": {
         "status": "red",
-        "score": 0.33
+        "score": 0.34
       }
     },
     "debasement": {
@@ -108,24 +108,24 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-02",
+      "eth-etf-flow-2026-09-03",
       "bitmine-eth-holdings-2026-08-30",
-      "remixpoint-altcoin-exit-2026-09-02"
+      "remixpoint-altcoin-exit-2026-09-02",
+      "standard-chartered-uae-eth-spot-2026-09-03"
     ],
     "macro": [
+      "macro-repricing-2026-09-04",
+      "real-yield-10y-2026-09-02",
       "fed-policy-2026-09-01",
-      "global-bond-oil-shock-2026-09-02",
-      "real-yield-10y-2026-08-31",
-      "treasury-buybacks-2026-09",
-      "boj-fed-tightening-odds-2026-09-03"
+      "treasury-buybacks-2026-09"
     ],
     "regulation": [
       "sec-regulation-crypto-assets-proposal",
       "clarity-act-motion-to-proceed"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-03",
-      "ethereum-defi-2026-09-03"
+      "ethereum-rwa-2026-09-04",
+      "ethereum-defi-2026-09-04"
     ],
     "staking": [
       "bitmine-staked-eth-2026-08-30",
@@ -135,17 +135,18 @@
       "glamsterdam-plataberget-testnet"
     ],
     "market": [
-      "eth-market-2026-09-03"
+      "eth-market-2026-09-04"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-03"
+      "eth-value-capture-2026-09-04"
     ],
     "debasement": [
       "fiscal-deficit-2026",
       "public-debt-2036",
       "dollar-and-real-yield-offset",
-      "eth-monetary-capture"
+      "eth-monetary-capture",
+      "treasury-safety-premium-2026-09-03"
     ]
   },
-  "decision": "Reduced the $5K estimate from 65% to 64% and the $10K estimate from 35% to 34%. A one-day $48.2M spot-ETF outflow and a small corporate altcoin exit modestly softened the institutional read, while an oil-driven bond selloff, a 4.82% U.S. 10-year yield, elevated real yields, Fed-hike risk, and firmer BOJ tightening expectations intensified the cyclical liquidity headwind. Strong staking participation, tokenization activity, and protocol progress remain intact. ETH-specific value capture is still insufficient for the $10K case. No catalyst crossed a color threshold."
+  "decision": "Raised the $5K estimate from 64% to 65% and the $10K estimate from 34% to 35%, reversing the prior day's small tactical reduction. A $141.4M spot-ETF inflow, Standard Chartered's regulated institutional ETH trading launch, ETH's 4.8% move above $2.5K, and lower Fed-hike odds improved the near-term balance. The upgrade is limited because the 10-year real yield remains about 2.45%, BOJ tightening odds are elevated, oil remains above $95, and current Ethereum fees and revenue still do not prove the ETH-specific value capture required for $10K. No catalyst crossed a color threshold."
 }
