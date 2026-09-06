@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-05T16:27:00Z",
-  "accessDate": "2026-09-05",
+  "researchedAt": "2026-09-06T04:53:00Z",
+  "accessDate": "2026-09-06",
   "market": {
-    "ethUsd": 2460.09,
-    "change24h": 0.3,
-    "marketCapUsd": 300181626296,
-    "volume24hUsd": 6635495753.69,
+    "ethUsd": 2504.81,
+    "change24h": 2.3,
+    "marketCapUsd": 305608000000,
+    "volume24hUsd": 7968000000,
     "sourceIds": [
       "coingecko-eth",
       "coinbase-eth"
     ],
-    "note": "CoinGecko showed ETH at $2,460.09, up 0.30% over 24 hours, with $6.64B of volume. Major exchange quotes were clustered near $2,460 during collection. The move is well below the 5% price-alert threshold."
+    "note": "CoinGecko showed ETH at $2,504.81, up 2.3% over 24 hours, with $7.97B of volume. Binance, OKX, Kraken, and other major exchange quotes were clustered near $2,505 during collection. The move is below the 5% price-alert threshold."
   },
   "observations": [
     {
-      "id": "eth-market-2026-09-05",
+      "id": "eth-market-2026-09-06",
       "catalyst": "market",
-      "direction": "mixed",
-      "value": "$2,460.09 / +0.30% 24h",
-      "summary": "ETH traded near $2.46K with a precise CoinGecko 24-hour gain of 0.30%. Major exchange quotes were closely aligned, leaving the move well below the 5% notification threshold.",
+      "direction": "supportive",
+      "value": "$2,504.81 / +2.30% 24h",
+      "summary": "ETH traded near $2.50K with a precise CoinGecko 24-hour gain of 2.3%. Quotes across Binance, OKX, and Kraken were closely aligned, leaving the move below the 5% notification threshold.",
       "sourceIds": [
         "coingecko-eth",
         "coinbase-eth"
@@ -40,11 +40,11 @@
       "uncertainty": "Farside updates automatically and figures can be revised; two positive sessions do not establish a durable allocation trend."
     },
     {
-      "id": "ethereum-rwa-2026-09-05",
+      "id": "ethereum-rwa-2026-09-06",
       "catalyst": "tokenization",
       "direction": "supportive",
       "value": "$17.67B distributed RWA value / $15.76B 30d transfers",
-      "summary": "RWA.xyz reports $17.67B of distributed tokenized real-world asset value on Ethereum, 268,037 RWA holders, and $15.76B of 30-day RWA transfer volume. Its Ethereum stablecoin measure is $159.73B, with $1.79T of 30-day stablecoin transfer volume.",
+      "summary": "RWA.xyz reports $17.67B of distributed tokenized real-world asset value on Ethereum, 268,037 RWA holders, and $15.76B of 30-day RWA transfer volume. Its Ethereum stablecoin measure is $159.73B, with $1.75T of 30-day stablecoin transfer volume.",
       "sourceIds": [
         "rwa-ethereum"
       ],
@@ -52,22 +52,22 @@
       "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama; ecosystem growth is not automatic ETH value capture."
     },
     {
-      "id": "ethereum-defi-2026-09-05",
+      "id": "ethereum-defi-2026-09-06",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$49.035B DeFi TVL / $147.889B stablecoins",
-      "summary": "DefiLlama reports $49.035B of Ethereum DeFi TVL, down 1.27% over 24 hours, alongside $147.889B of stablecoin market capitalization, $1.19B of 24-hour DEX volume, and $51.48M of net bridge inflows.",
+      "value": "$49.511B DeFi TVL / $147.852B stablecoins",
+      "summary": "DefiLlama reports $49.511B of Ethereum DeFi TVL, up 1.56% over 24 hours, alongside $147.852B of stablecoin market capitalization, $828.43M of 24-hour DEX volume, and $2.83M of net bridge inflows.",
       "sourceIds": [
         "defillama-ethereum"
       ],
       "confirmed": true,
-      "uncertainty": "TVL is price-sensitive and can double-count composable assets; provider methodologies differ."
+      "uncertainty": "TVL is price-sensitive and can double-count composable assets; provider methodologies differ, while weekend activity is often lighter."
     },
     {
-      "id": "eth-value-capture-2026-09-05",
+      "id": "eth-value-capture-2026-09-06",
       "catalyst": "value-capture",
       "direction": "mixed",
-      "value": "$412,672 chain fees / $82,803 chain revenue over 24h",
+      "value": "$262,219 chain fees / $38,868 chain revenue over 24h",
       "summary": "Ethereum retains large settlement, stablecoin, RWA, and DeFi footprints, but DefiLlama's current L1 chain fees and revenue remain modest relative to ETH's valuation. CoinGecko showed $447,355 of fees and $90,361 of revenue, illustrating collection-time and methodology differences.",
       "sourceIds": [
         "defillama-ethereum",
@@ -139,11 +139,11 @@
       "uncertainty": "The company labels projected annualized staking revenue and future MAVAN expansion as forward-looking."
     },
     {
-      "id": "network-staking-2026-09-02",
+      "id": "network-staking-2026-09-06",
       "catalyst": "staking",
       "direction": "supportive",
       "value": "42,632,959 ETH / 34% staked / 2.5% APR",
-      "summary": "Ethereum.org reports roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%.",
+      "summary": "Ethereum.org's live counters continue to report roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%.",
       "sourceIds": [
         "ethereum-staking"
       ],
@@ -188,6 +188,21 @@
       ],
       "confirmed": true,
       "uncertainty": "Testnet availability is progress, not proof that the mainnet upgrade will ship on schedule or without defects."
+    },
+    {
+      "id": "ethrex-privacy-eips-testnet-2026-09-05",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Public multi-EIP privacy testnet active",
+      "summary": "Ethrex and LambdaClass launched a public testnet built on Glamsterdam that implements EIP-8141 Frame Transactions, EIP-8250 Keyed Nonces, EIP-8272 Recent Roots, EIP-7805 FOCIL, and EIP-8369 VOPS profiles. The network allows public syncing, peering, transactions, and faucet-funded testing, providing an integrated proving ground for protocol features tied to Ethereum's privacy, account-abstraction, censorship-resistance, and post-quantum roadmap.",
+      "sourceIds": [
+        "ethrex-privacy-testnet-2026-09-05",
+        "vitalik-privacy-testnet-2026-09-05",
+        "ethereum-privacy-roadmap",
+        "eip-8141"
+      ],
+      "confirmed": true,
+      "uncertainty": "This is an experimental public testnet with permissioned validator entry. The EIPs remain proposals or upgrade candidates; successful testing does not guarantee inclusion in Hegotá, final specifications, or a mainnet date."
     },
     {
       "id": "fed-policy-2026-09-01",
@@ -296,7 +311,7 @@
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -311,7 +326,7 @@
     "farside-eth-etf": {
       "label": "Farside Ethereum ETF flows",
       "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -321,7 +336,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -346,12 +361,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum network dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -366,7 +381,7 @@
     "fed-home": {
       "label": "Federal Reserve monetary policy overview",
       "url": "https://www.federalreserve.gov/",
-      "accessedAt": "2026-09-03"
+      "accessedAt": "2026-09-06"
     },
     "fed-barr-2026-09-01": {
       "label": "Federal Reserve Governor Barr speech",
@@ -396,7 +411,7 @@
     "growthepie-l2-fees": {
       "label": "growthepie Ethereum L2 fee and scaling answers",
       "url": "https://www.growthepie.com/answers",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "cbo-2026-outlook": {
       "label": "CBO Budget and Economic Outlook: 2026-2036",
@@ -431,12 +446,12 @@
     "ethereum-blog-index": {
       "label": "Ethereum Foundation Blog index",
       "url": "https://blog.ethereum.org/",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "sec-press-releases": {
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "coinmarketcap-eth": {
       "label": "CoinMarketCap Ethereum market data",
@@ -446,7 +461,7 @@
     "coinbase-eth": {
       "label": "Coinbase Ethereum market data",
       "url": "https://www.coinbase.com/price/ethereum",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-06"
     },
     "standard-chartered-uae-spot": {
       "label": "Standard Chartered: institutional Bitcoin and Ether spot trading in the UAE",
@@ -492,15 +507,35 @@
       "label": "Reuters: strong August jobs report sends U.S. yields higher",
       "url": "https://www.reuters.com/business/view-strong-august-jobs-report-sends-yields-higher-2026-09-04/",
       "accessedAt": "2026-09-05"
+    },
+    "ethrex-privacy-testnet-2026-09-05": {
+      "label": "Ethrex: public testnet for Ethereum privacy-roadmap EIPs",
+      "url": "https://x.com/ethrex_client/status/2095897077955899638",
+      "accessedAt": "2026-09-06"
+    },
+    "vitalik-privacy-testnet-2026-09-05": {
+      "label": "Vitalik Buterin: update on Frames and privacy-roadmap EIP testnet",
+      "url": "https://x.com/VitalikButerin/status/2096370186094076098",
+      "accessedAt": "2026-09-06"
+    },
+    "ethereum-privacy-roadmap": {
+      "label": "Ethereum.org privacy roadmap",
+      "url": "https://ethereum.org/roadmap/privacy/",
+      "accessedAt": "2026-09-06"
+    },
+    "eip-8141": {
+      "label": "Ethereum Improvement Proposal 8141: Frame Transaction",
+      "url": "https://eips.ethereum.org/EIPS/eip-8141",
+      "accessedAt": "2026-09-06"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH rose 0.30% over 24 hours on CoinGecko's precise reading, well below the 5% notification threshold.",
-      "The September 4 U.S. spot-ETH ETF inflow of $25.9M and the stronger U.S. employment report materially refresh institutional and macro evidence but do not constitute a thesis-breaking or separately major Ethereum event.",
-      "No new Ethereum protocol failure, enacted U.S. crypto-regulatory reversal, major institutional unwind, or other thesis-breaking event was confirmed."
+      "ETH rose 2.3% over 24 hours on CoinGecko's precise reading, below the 5% notification threshold.",
+      "The public Ethrex testnet integrating five privacy-roadmap EIPs is meaningful Ethereum protocol execution evidence, but it remains experimental and does not establish mainnet inclusion, final specifications, or a deployment date.",
+      "Friday's completed U.S. spot-ETH ETF flow remains a $25.9M net inflow; no new weekend ETF session, enacted U.S. regulatory reversal, protocol failure, or major institutional unwind was confirmed."
     ],
-    "confirmedVsUncertain": "The current ETH market reading, completed September 4 ETF flow, August U.S. employment report, latest published 2.42% real yield, and refreshed Ethereum DeFi, RWA, staking, SEC, and protocol-source checks are confirmed as sourced. The durability of ETF demand, September Fed and BOJ decisions, future liquidity conditions, and the degree to which ecosystem growth translates into ETH-specific value capture remain uncertain."
+    "confirmedVsUncertain": "The current ETH market reading, September 4 ETF flow, Ethrex public privacy-EIP testnet, unchanged Ethereum staking counters, and refreshed DeFi, RWA, Ethereum Foundation, SEC, and Federal Reserve source checks are confirmed as sourced. Hegotá inclusion of the tested EIPs, testnet stability, future institutional usage, the next ETF sessions, September Fed and BOJ decisions, and the degree to which ecosystem growth translates into ETH-specific value capture remain uncertain."
   }
 }
