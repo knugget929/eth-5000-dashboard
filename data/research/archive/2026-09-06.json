@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-06T04:53:00Z",
+  "researchedAt": "2026-09-06T15:40:00Z",
   "accessDate": "2026-09-06",
   "market": {
-    "ethUsd": 2504.81,
-    "change24h": 2.3,
-    "marketCapUsd": 305608000000,
-    "volume24hUsd": 7968000000,
+    "ethUsd": 2475.61,
+    "change24h": 0.7,
+    "marketCapUsd": 302215326118,
+    "volume24hUsd": 9440051104.56,
     "sourceIds": [
       "coingecko-eth",
       "coinbase-eth"
     ],
-    "note": "CoinGecko showed ETH at $2,504.81, up 2.3% over 24 hours, with $7.97B of volume. Binance, OKX, Kraken, and other major exchange quotes were clustered near $2,505 during collection. The move is below the 5% price-alert threshold."
+    "note": "CoinGecko showed ETH at $2,475.61, up 0.7% over 24 hours, with $9.44B of volume. A contemporaneous consolidated market quote was $2,477.69, up 0.78%, confirming that venue and collection-window differences were small. The move is below the 5% price-alert threshold."
   },
   "observations": [
     {
       "id": "eth-market-2026-09-06",
       "catalyst": "market",
       "direction": "supportive",
-      "value": "$2,504.81 / +2.30% 24h",
-      "summary": "ETH traded near $2.50K with a precise CoinGecko 24-hour gain of 2.3%. Quotes across Binance, OKX, and Kraken were closely aligned, leaving the move below the 5% notification threshold.",
+      "value": "$2,475.61 / +0.70% 24h",
+      "summary": "ETH traded near $2.48K with a CoinGecko headline 24-hour gain of 0.7%; a contemporaneous consolidated quote showed $2,477.69 and +0.78%. The advance cooled materially from the morning snapshot but remains well below the 5% notification threshold.",
       "sourceIds": [
         "coingecko-eth",
         "coinbase-eth"
       ],
       "confirmed": true,
-      "uncertainty": "Prices move continuously and venue-specific 24-hour windows differ."
+      "uncertainty": "Prices move continuously and venue-specific 24-hour windows differ slightly."
     },
     {
       "id": "eth-etf-flow-2026-09-04",
@@ -55,8 +55,8 @@
       "id": "ethereum-defi-2026-09-06",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$49.511B DeFi TVL / $147.852B stablecoins",
-      "summary": "DefiLlama reports $49.511B of Ethereum DeFi TVL, up 1.56% over 24 hours, alongside $147.852B of stablecoin market capitalization, $828.43M of 24-hour DEX volume, and $2.83M of net bridge inflows.",
+      "value": "$49.531B DeFi TVL / $147.831B stablecoins",
+      "summary": "DefiLlama reports $49.531B of Ethereum DeFi TVL, up 1.60% over 24 hours, alongside $147.831B of stablecoin market capitalization, $827.91M of 24-hour DEX volume, and $2.9M of net bridge inflows.",
       "sourceIds": [
         "defillama-ethereum"
       ],
@@ -68,7 +68,7 @@
       "catalyst": "value-capture",
       "direction": "mixed",
       "value": "$262,219 chain fees / $38,868 chain revenue over 24h",
-      "summary": "Ethereum retains large settlement, stablecoin, RWA, and DeFi footprints, but DefiLlama's current L1 chain fees and revenue remain modest relative to ETH's valuation. CoinGecko showed $447,355 of fees and $90,361 of revenue, illustrating collection-time and methodology differences.",
+      "summary": "Ethereum retains large settlement, stablecoin, RWA, and DeFi footprints, but DefiLlama's current L1 chain fees and revenue remain modest relative to ETH's valuation. CoinGecko showed $263,854 of fees and $38,669.18 of revenue, closely corroborating the current magnitude despite provider methodology differences.",
       "sourceIds": [
         "defillama-ethereum",
         "coingecko-eth",
@@ -532,10 +532,10 @@
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH rose 2.3% over 24 hours on CoinGecko's precise reading, below the 5% notification threshold.",
-      "The public Ethrex testnet integrating five privacy-roadmap EIPs is meaningful Ethereum protocol execution evidence, but it remains experimental and does not establish mainnet inclusion, final specifications, or a deployment date.",
-      "Friday's completed U.S. spot-ETH ETF flow remains a $25.9M net inflow; no new weekend ETF session, enacted U.S. regulatory reversal, protocol failure, or major institutional unwind was confirmed."
+      "ETH was up about 0.7% to 0.78% over 24 hours in the evening market readings, well below the 5% notification threshold.",
+      "The latest completed U.S. spot-ETH ETF session remains September 4's $25.9M net inflow; no weekend ETF session has occurred.",
+      "The Ethrex privacy-roadmap EIP testnet remains the latest meaningful protocol evidence, but no new mainnet commitment, protocol failure, regulatory reversal, or major institutional unwind was confirmed."
     ],
-    "confirmedVsUncertain": "The current ETH market reading, September 4 ETF flow, Ethrex public privacy-EIP testnet, unchanged Ethereum staking counters, and refreshed DeFi, RWA, Ethereum Foundation, SEC, and Federal Reserve source checks are confirmed as sourced. Hegotá inclusion of the tested EIPs, testnet stability, future institutional usage, the next ETF sessions, September Fed and BOJ decisions, and the degree to which ecosystem growth translates into ETH-specific value capture remain uncertain."
+    "confirmedVsUncertain": "The evening ETH market reading, September 4 ETF flow, Ethrex public privacy-EIP testnet, unchanged Ethereum staking counters, and refreshed DeFi and RWA data are confirmed as sourced. Hegotá inclusion of the tested EIPs, testnet stability, future institutional usage, the next ETF sessions, September Fed and BOJ decisions, and the degree to which ecosystem growth translates into ETH-specific value capture remain uncertain."
   }
 }
