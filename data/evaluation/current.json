@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-04T12:44:36Z",
+  "evaluatedAt": "2026-09-06T12:52:05Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
       "probability": 65,
-      "trend": "stronger",
+      "trend": "steady",
       "weightedSignal": 65
     },
     "10000": {
       "probability": 35,
-      "trend": "stronger",
-      "weightedSignal": 48
+      "trend": "steady",
+      "weightedSignal": 47
     }
   },
   "catalysts": {
@@ -28,11 +28,11 @@
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.25
+        "score": 0.22
       },
       "10000": {
         "status": "red",
-        "score": 0.2
+        "score": 0.17
       }
     },
     "regulation": {
@@ -48,11 +48,11 @@
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.8
+        "score": 0.81
       },
       "10000": {
         "status": "yellow",
-        "score": 0.6
+        "score": 0.61
       }
     },
     "staking": {
@@ -68,11 +68,11 @@
     "protocol": {
       "5000": {
         "status": "green",
-        "score": 0.75
+        "score": 0.78
       },
       "10000": {
         "status": "yellow",
-        "score": 0.6
+        "score": 0.62
       }
     },
     "market": {
@@ -88,11 +88,11 @@
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.57
+        "score": 0.55
       },
       "10000": {
         "status": "red",
-        "score": 0.34
+        "score": 0.32
       }
     },
     "debasement": {
@@ -108,14 +108,14 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-03",
+      "eth-etf-flow-2026-09-04",
       "bitmine-eth-holdings-2026-08-30",
       "remixpoint-altcoin-exit-2026-09-02",
       "standard-chartered-uae-eth-spot-2026-09-03"
     ],
     "macro": [
-      "macro-repricing-2026-09-04",
-      "real-yield-10y-2026-09-02",
+      "us-jobs-fed-repricing-2026-09-04",
+      "real-yield-10y-2026-09-03",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
     ],
@@ -124,21 +124,22 @@
       "clarity-act-motion-to-proceed"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-04",
-      "ethereum-defi-2026-09-04"
+      "ethereum-rwa-2026-09-06",
+      "ethereum-defi-2026-09-06"
     ],
     "staking": [
       "bitmine-staked-eth-2026-08-30",
-      "network-staking-2026-09-02"
+      "network-staking-2026-09-06"
     ],
     "protocol": [
-      "glamsterdam-plataberget-testnet"
+      "glamsterdam-plataberget-testnet",
+      "ethrex-privacy-eips-testnet-2026-09-05"
     ],
     "market": [
-      "eth-market-2026-09-04"
+      "eth-market-2026-09-06"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-04"
+      "eth-value-capture-2026-09-06"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -148,5 +149,5 @@
       "treasury-safety-premium-2026-09-03"
     ]
   },
-  "decision": "Raised the $5K estimate from 64% to 65% and the $10K estimate from 34% to 35%, reversing the prior day's small tactical reduction. A $141.4M spot-ETF inflow, Standard Chartered's regulated institutional ETH trading launch, ETH's 4.8% move above $2.5K, and lower Fed-hike odds improved the near-term balance. The upgrade is limited because the 10-year real yield remains about 2.45%, BOJ tightening odds are elevated, oil remains above $95, and current Ethereum fees and revenue still do not prove the ETH-specific value capture required for $10K. No catalyst crossed a color threshold."
+  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. ETH held near $2.5K, spot ETFs added $25.9M, tokenized assets and DeFi remained strong, and a new public multi-EIP testnet improved protocol-execution evidence. Offsetting this, stronger U.S. payrolls lifted September Fed-hike odds toward 59% and the 10-year yield toward 4.78%. L1 fee and revenue capture weakened again, preserving the explicit value-capture penalty in the $10K case. No catalyst crossed a color threshold."
 }
