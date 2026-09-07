@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-06T12:52:05Z",
+  "evaluatedAt": "2026-09-07T12:24:41Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -38,11 +38,11 @@
     "regulation": {
       "5000": {
         "status": "yellow",
-        "score": 0.65
+        "score": 0.66
       },
       "10000": {
         "status": "yellow",
-        "score": 0.55
+        "score": 0.56
       }
     },
     "tokenization": {
@@ -115,31 +115,33 @@
     ],
     "macro": [
       "us-jobs-fed-repricing-2026-09-04",
+      "global-liquidity-2026-09-07",
       "real-yield-10y-2026-09-03",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
     ],
     "regulation": [
       "sec-regulation-crypto-assets-proposal",
-      "clarity-act-motion-to-proceed"
+      "clarity-act-motion-to-proceed",
+      "clarity-nsa-neutral-2026-09-03"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-06",
-      "ethereum-defi-2026-09-06"
+      "ethereum-rwa-2026-09-07",
+      "ethereum-defi-2026-09-07"
     ],
     "staking": [
       "bitmine-staked-eth-2026-08-30",
-      "network-staking-2026-09-06"
+      "network-staking-2026-09-07"
     ],
     "protocol": [
       "glamsterdam-plataberget-testnet",
       "ethrex-privacy-eips-testnet-2026-09-05"
     ],
     "market": [
-      "eth-market-2026-09-06"
+      "eth-market-2026-09-07"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-06"
+      "eth-value-capture-2026-09-07"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -149,5 +151,5 @@
       "treasury-safety-premium-2026-09-03"
     ]
   },
-  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. ETH held near $2.5K, spot ETFs added $25.9M, tokenized assets and DeFi remained strong, and a new public multi-EIP testnet improved protocol-execution evidence. Offsetting this, stronger U.S. payrolls lifted September Fed-hike odds toward 59% and the 10-year yield toward 4.78%. L1 fee and revenue capture weakened again, preserving the explicit value-capture penalty in the $10K case. No catalyst crossed a color threshold."
+  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. ETH was broadly flat near $2.5K, ETF flows remained cumulatively constructive, and tokenization activity stayed strong. The National Sheriffs’ Association's shift from opposition to neutral modestly improved the U.S. regulatory read, but the CLARITY Act is still not enacted. Roughly 58% Fed-hike odds, about 75% BOJ-hike odds, oil near $97, and a 2.42% real yield keep cyclical liquidity restrictive. Low L1 fees and revenue preserve the explicit value-capture penalty for $10K. No catalyst crossed a color threshold."
 }
