@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "updatedAt": "2026-09-04",
   "market": {
-    "price": 2498.2,
-    "change24h": 0.2,
-    "capturedAt": "2026-09-07T04:42:00Z",
-    "source": "CoinGecko / Coinbase snapshot"
+    "price": 2485.21,
+    "change24h": 0.7,
+    "capturedAt": "2026-09-08T04:31:00Z",
+    "source": "CoinGecko / Binance / Coinbase snapshot"
   },
   "targets": {
     "5000": {
@@ -20,7 +20,7 @@
       "trend": {
         "direction": "steady",
         "delta": 0,
-        "label": "Mixed evidence"
+        "label": "Offsetting evidence"
       },
       "methodology": "Weighted catalysts with a moderate hurdle. Institutional demand, execution, staking, and tokenization can support $5K even without full QE, but macro and market confirmation still matter.",
       "probabilityHistory": [
@@ -95,7 +95,7 @@
       "trend": {
         "direction": "steady",
         "delta": 0,
-        "label": "Mixed evidence"
+        "label": "Offsetting evidence"
       },
       "methodology": "A much higher hurdle than $5K. Institutional ownership must become durable, regulation must normalize on-chain finance, macro must stop fighting risk assets, and Ethereum activity must translate into clear ETH demand and value capture.",
       "probabilityHistory": [
@@ -222,22 +222,22 @@
       "targets": {
         "5000": {
           "status": "red",
-          "score": 0.22,
+          "score": 0.2,
           "weight": 15,
-          "short": "Strong jobs revived the tightening headwind.",
+          "short": "Hike risk and carry unwinds remain the main headwind.",
           "summary": "The macro regime is still more restrictive than the ideal ETH bull-market setup.",
-          "evidence": "Strong U.S. payrolls and oil near $97 kept September Fed-hike odds near 58% and BOJ-hike odds around 75%. The dollar was broadly flat near 99.09, but a 2.42% real yield and continued tightening risk remain restrictive.",
+          "evidence": "Markets priced roughly 60% odds of a September Fed hike as the U.S. 10-year yield reached about 4.79% and Brent approached $97.50. A 4.5% weekly yen rally points to carry-trade unwinding, while the weaker dollar offers only a small offset.",
           "why": "ETH generally benefits when yields fall, the dollar weakens, and global liquidity expands.",
           "greenTrigger": "Hike risk fades, inflation trends lower, and markets price durable easing.",
           "redTrigger": "Additional hikes, higher real yields, or renewed dollar strength."
         },
         "10000": {
           "status": "red",
-          "score": 0.17,
+          "score": 0.15,
           "weight": 13,
-          "short": "The easing regime required for $10K is absent.",
+          "short": "Global tightening still blocks the ideal $10K regime.",
           "summary": "Current monetary conditions are a major obstacle to the stretch thesis.",
-          "evidence": "Roughly 58% Fed-hike odds, about 75% BOJ-hike odds, oil near $97, and a 2.42% U.S. real yield remain inconsistent with the sustained global easing regime that would make a $1.2T ETH valuation materially easier.",
+          "evidence": "Roughly 60% Fed-hike odds, a 4.79% nominal 10-year yield, a 2.42% real yield, oil near $97.50, and yen carry unwinds remain inconsistent with the sustained global easing regime that would make a $1.2T ETH valuation materially easier.",
           "why": "$10K likely needs a sustained regime of lower real yields, easier dollar liquidity, or genuine global monetary expansion.",
           "greenTrigger": "A multi-quarter easing cycle, falling real yields, a weaker dollar, and expanding global liquidity.",
           "redTrigger": "Structurally high real yields, renewed inflation, or repeated tightening cycles."
@@ -306,7 +306,7 @@
           "weight": 11,
           "short": "Ethereum rails keep moving into finance.",
           "summary": "Stablecoins, tokenized assets, and DeFi remain one of Ethereum’s strongest structural adoption stories.",
-          "evidence": "Ethereum supports about $17.65B in distributed tokenized real-world assets, $49.53B in DeFi TVL, and $147.72B in stablecoins, with roughly $100M of 24-hour net bridge inflows.",
+          "evidence": "Ethereum supports about $17.63B in distributed tokenized real-world assets, $49.55B in DeFi TVL, and $147.60B in stablecoins, with roughly $46.9M of 24-hour net bridge inflows.",
           "why": "More financial activity on Ethereum and its L2s strengthens the network’s importance as settlement infrastructure.",
           "greenTrigger": "Large issuers launch meaningful tokenized funds, equities, credit, or payments on Ethereum rails.",
           "redTrigger": "Activity migrates elsewhere without meaningful Ethereum settlement or ETH demand."
@@ -317,7 +317,7 @@
           "weight": 11,
           "short": "Adoption must reach institutional scale.",
           "summary": "For $10K, Ethereum likely needs to become a dominant settlement layer for real financial assets at meaningful scale.",
-          "evidence": "Ethereum's $17.65B tokenized-asset base, roughly $49.53B of DeFi TVL, and $147.72B stablecoin base are substantial, but remain below the scale and ETH-denominated demand likely needed to independently support a $1.2T asset valuation.",
+          "evidence": "Ethereum's $17.63B tokenized-asset base, roughly $49.55B of DeFi TVL, and $147.60B stablecoin base are substantial, but remain below the scale and ETH-denominated demand likely needed to independently support a $1.2T asset valuation.",
           "why": "Tokenization supports a much larger valuation only if activity creates recurring ETH demand through settlement, collateral, staking, fees, or monetary premium.",
           "greenTrigger": "Trillions in tokenized assets and stablecoins settle on Ethereum rails with clear ETH-denominated economic demand.",
           "redTrigger": "L2 and app growth explodes while ETH fee burn, collateral demand, and settlement value remain weak."
@@ -378,22 +378,22 @@
       "targets": {
         "5000": {
           "status": "green",
-          "score": 0.78,
+          "score": 0.8,
           "weight": 8,
-          "short": "Public testing broadened across major roadmap features.",
+          "short": "A unified roadmap makes execution more legible.",
           "summary": "Upcoming upgrades aim to improve throughput, wallet UX, and protocol efficiency.",
-          "evidence": "Alongside Platåberget, Ethrex and LambdaClass launched a public Glamsterdam-based multi-EIP testnet covering frame transactions, keyed nonces, recent roots, FOCIL, and VOPS profiles.",
+          "evidence": "The Ethereum Foundation published unified protocol priorities through 2029 and a tiered review of all 62 Hegotá proposals, naming FOCIL and Frame Transactions as must-ship headliners alongside privacy, account security, fast finality, and sustainable state.",
           "why": "Successful upgrades make the network more useful and credible as long-term financial infrastructure.",
           "greenTrigger": "Major testnets and mainnet upgrades ship cleanly with measurable capacity gains.",
           "redTrigger": "Serious upgrade delays, instability, or persistent failure to improve value capture."
         },
         "10000": {
           "status": "yellow",
-          "score": 0.62,
+          "score": 0.65,
           "weight": 7,
-          "short": "Execution is improving; economics still need proof.",
+          "short": "The roadmap is clearer; delivery and economics remain unproven.",
           "summary": "A $10K thesis assumes Ethereum can serve vastly more economic activity while preserving credible neutrality and security.",
-          "evidence": "The new public multi-EIP privacy testnet broadens integrated testing for account abstraction, censorship resistance, privacy, and post-quantum work. Mainnet delivery and the relationship between scaling and ETH demand remain unproven at stretch-target scale.",
+          "evidence": "The unified 2029 roadmap and Hegotá prioritization strengthen execution credibility, including a target for quantum resistance. The $10K case still requires reliable mainnet delivery and proof that scaling creates durable ETH demand rather than only ecosystem activity.",
           "why": "Technical success must include both throughput and a convincing economic relationship between L2 growth and ETH demand.",
           "greenTrigger": "Roadmap milestones ship reliably, UX improves, and L2 settlement creates durable L1 and ETH economics.",
           "redTrigger": "Scaling fragments liquidity, value accrues elsewhere, or complexity causes repeated instability."
@@ -414,22 +414,22 @@
       "targets": {
         "5000": {
           "status": "yellow",
-          "score": 0.6,
+          "score": 0.59,
           "weight": 7,
           "short": "$2.5K reclaimed; $3K–$3.5K is still the test.",
           "summary": "ETH still needs to reclaim higher levels before $5K becomes a near-term market target.",
-          "evidence": "ETH traded near $2,498 and was broadly flat over 24 hours. It remains below the $3K–$3.5K confirmation zone, preserving an improving base without establishing a new market regime.",
+          "evidence": "ETH traded near $2,485 and was broadly flat across provider windows. It remains below the $3K–$3.5K confirmation zone, preserving a base without establishing a new market regime.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
         },
         "10000": {
           "status": "red",
-          "score": 0.34,
+          "score": 0.33,
           "weight": 6,
           "short": "$10K requires a new valuation regime.",
           "summary": "The market has not demonstrated willingness to value ETH near the stretch target.",
-          "evidence": "ETH held near $2.5K but has not reclaimed $5K or sustained price discovery above its prior high. Current market structure does not confirm the valuation regime required for $10K.",
+          "evidence": "ETH remains near $2.48K and has not reclaimed $5K or sustained price discovery above its prior high. Current market structure does not confirm the valuation regime required for $10K.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
@@ -454,22 +454,22 @@
       "targets": {
         "5000": {
           "status": "yellow",
-          "score": 0.55,
+          "score": 0.56,
           "weight": 11,
           "short": "Utility is strong; direct economics remain modest.",
           "summary": "Ethereum adoption helps the $5K case, but not every unit of ecosystem growth becomes demand for ETH.",
-          "evidence": "ETH retains strong staking, collateral, settlement, and bridge activity, but roughly $262K in daily L1 fees and $39K in chain revenue remain modest. The $100M bridge inflow is constructive but does not by itself prove durable ETH demand.",
+          "evidence": "ETH retains strong staking, collateral, settlement, and application activity. Daily L1 fees improved to roughly $383K and chain revenue to $52K, but those figures remain modest relative to ETH's valuation and do not yet imply a large fee-and-burn bid.",
           "why": "$5K does not require perfect capture, but it does require investors to believe ETH retains monetary, collateral, and settlement value.",
           "greenTrigger": "Staking, collateral use, L1 settlement, blobs, and fee burn strengthen together as activity grows.",
           "redTrigger": "Usage grows while ETH demand, fee burn, collateral share, and monetary premium stagnate."
         },
         "10000": {
           "status": "red",
-          "score": 0.32,
+          "score": 0.33,
           "weight": 20,
           "short": "The critical $10K proof remains absent.",
           "summary": "Ethereum can win as infrastructure while ETH underperforms if the asset captures too little of the network’s economic value.",
-          "evidence": "Ethereum hosts growing RWA, DeFi, stablecoin, and bridge activity, yet roughly $262K in daily L1 fees, $39K in chain revenue, and limited institutional collateral use do not prove the ETH-specific value capture required for a durable $1.2T valuation.",
+          "evidence": "Ethereum hosts growing RWA, DeFi, stablecoin, and application activity, yet roughly $383K in daily L1 fees, $52K in chain revenue, and limited institutional collateral use do not prove the ETH-specific value capture required for a durable $1.2T valuation.",
           "why": "$10K needs ETH to function as widely held productive capital: staked, used as institutional collateral, demanded for settlement, and valued for monetary premium.",
           "greenTrigger": "Rising settlement and blob demand, durable net burn or scarcity, expanding ETH collateral use, and institutional treatment as productive capital.",
           "redTrigger": "Ethereum becomes dominant infrastructure while fees, burn, collateral demand, and monetary premium accrue weakly to ETH."

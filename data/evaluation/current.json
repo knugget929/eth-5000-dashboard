@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-07T12:24:41Z",
+  "evaluatedAt": "2026-09-08T12:20:00Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -28,11 +28,11 @@
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.22
+        "score": 0.2
       },
       "10000": {
         "status": "red",
-        "score": 0.17
+        "score": 0.15
       }
     },
     "regulation": {
@@ -68,31 +68,31 @@
     "protocol": {
       "5000": {
         "status": "green",
-        "score": 0.78
+        "score": 0.8
       },
       "10000": {
         "status": "yellow",
-        "score": 0.62
+        "score": 0.65
       }
     },
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.6
+        "score": 0.59
       },
       "10000": {
         "status": "red",
-        "score": 0.34
+        "score": 0.33
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.55
+        "score": 0.56
       },
       "10000": {
         "status": "red",
-        "score": 0.32
+        "score": 0.33
       }
     },
     "debasement": {
@@ -115,7 +115,7 @@
     ],
     "macro": [
       "us-jobs-fed-repricing-2026-09-04",
-      "global-liquidity-2026-09-07",
+      "global-liquidity-2026-09-08",
       "real-yield-10y-2026-09-03",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
@@ -126,8 +126,8 @@
       "clarity-nsa-neutral-2026-09-03"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-07",
-      "ethereum-defi-2026-09-07"
+      "ethereum-rwa-2026-09-08",
+      "ethereum-defi-2026-09-08"
     ],
     "staking": [
       "bitmine-staked-eth-2026-08-30",
@@ -135,13 +135,14 @@
     ],
     "protocol": [
       "glamsterdam-plataberget-testnet",
-      "ethrex-privacy-eips-testnet-2026-09-05"
+      "ethrex-privacy-eips-testnet-2026-09-05",
+      "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-07"
+      "eth-market-2026-09-08"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-07"
+      "eth-value-capture-2026-09-08"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -151,5 +152,5 @@
       "treasury-safety-premium-2026-09-03"
     ]
   },
-  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. ETH was broadly flat near $2.5K, ETF flows remained cumulatively constructive, and tokenization activity stayed strong. The National Sheriffs’ Association's shift from opposition to neutral modestly improved the U.S. regulatory read, but the CLARITY Act is still not enacted. Roughly 58% Fed-hike odds, about 75% BOJ-hike odds, oil near $97, and a 2.42% real yield keep cyclical liquidity restrictive. Low L1 fees and revenue preserve the explicit value-capture penalty for $10K. No catalyst crossed a color threshold."
+  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. The Ethereum Foundation's unified 2029 priorities and tiered Hegotá plan improved protocol-execution evidence, while tokenization and institutional demand stayed constructive. Offsetting this, markets priced about 60% odds of a September Fed hike, the U.S. 10-year yield approached 4.79%, Brent neared $97.50, and yen carry trades continued unwinding. ETH-specific L1 fees and revenue improved from the prior snapshot but remain far too modest to satisfy the $10K value-capture hurdle. No catalyst crossed a color threshold."
 }
