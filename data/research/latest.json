@@ -1,31 +1,33 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-07T15:45:00Z",
-  "accessDate": "2026-09-07",
+  "researchedAt": "2026-09-08T04:31:00Z",
+  "accessDate": "2026-09-08",
   "market": {
-    "ethUsd": 2486.25,
-    "change24h": 0.2,
-    "marketCapUsd": 303333994719,
-    "volume24hUsd": 11250996647.58,
+    "ethUsd": 2485.21,
+    "change24h": 0.7,
+    "marketCapUsd": 303283140603,
+    "volume24hUsd": 10712045826.4,
     "sourceIds": [
       "coingecko-eth",
+      "binance-eth",
       "coinbase-eth"
     ],
-    "note": "CoinGecko showed ETH at $2,486.25, up 0.2% over 24 hours, with a $303.33B market capitalization and $11.25B of volume. A contemporaneous consolidated quote was $2,469.59, down 0.45% from the prior close, reflecting different venue and measurement windows rather than a material dislocation. The move remains well below the 5% price-alert threshold."
+    "note": "CoinGecko showed ETH at $2,485.21 and up 0.7% over 24 hours, with a $303.28B market capitalization and $10.71B of volume. Binance showed $2,481.42 and -0.69% over 24 hours, while Coinbase's AUD page showed a -0.54% one-day move. The providers use different venues and rolling windows, but all readings confirm a sub-1% move, well below the 5% alert threshold."
   },
   "observations": [
     {
-      "id": "eth-market-2026-09-07",
+      "id": "eth-market-2026-09-08",
       "catalyst": "market",
       "direction": "supportive",
-      "value": "$2,486.25 / +0.20% 24h",
-      "summary": "ETH traded near $2.49K with a CoinGecko 24-hour gain of 0.2% and a range of $2,476.05–$2,532.72. A contemporaneous consolidated quote was $2,469.59 and -0.45% from the prior close, confirming a broadly flat market rather than a 5% alert-level move.",
+      "value": "$2,485.21 / +0.70% CoinGecko 24h",
+      "summary": "ETH traded near $2.48K. CoinGecko reported +0.7% over 24 hours with a $2,467.80–$2,512.72 range, while Binance reported -0.69% and Coinbase's AUD page -0.54% over their respective one-day windows. The cross-provider dispersion is modest and every reading remains far below the 5% alert threshold.",
       "sourceIds": [
         "coingecko-eth",
+        "binance-eth",
         "coinbase-eth"
       ],
       "confirmed": true,
-      "uncertainty": "Prices move continuously, while rolling 24-hour changes and previous-close changes use different windows."
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows can produce different percentage changes."
     },
     {
       "id": "eth-etf-flow-2026-09-04",
@@ -40,42 +42,42 @@
       "uncertainty": "Farside updates automatically and figures can be revised; two positive sessions do not establish a durable allocation trend."
     },
     {
-      "id": "ethereum-rwa-2026-09-07",
+      "id": "ethereum-rwa-2026-09-08",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$17.65B distributed RWA value / $15.31B 30d transfers",
-      "summary": "RWA.xyz reports $17.65B of distributed tokenized real-world asset value on Ethereum, 268,233 RWA holders, and $15.31B of 30-day RWA transfer volume. Its Ethereum stablecoin measure is $159.76B, with $1.73T of 30-day stablecoin transfer volume.",
+      "value": "$17.63B distributed RWA value / $15.19B 30d transfers",
+      "summary": "RWA.xyz reports $17.63B of distributed tokenized real-world asset value on Ethereum, 268,714 RWA holders, and $15.19B of 30-day RWA transfer volume. Its Ethereum stablecoin measure is $159.65B, with $2.25T of 30-day stablecoin transfer volume.",
       "sourceIds": [
         "rwa-ethereum"
       ],
       "confirmed": true,
-      "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama; ecosystem growth is not automatic ETH value capture."
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama; rolling 30-day transfer volume can change sharply as large days enter or leave the window, while ecosystem growth is not automatic ETH value capture."
     },
     {
-      "id": "ethereum-defi-2026-09-07",
+      "id": "ethereum-defi-2026-09-08",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$49.531B DeFi TVL / $147.748B stablecoins",
-      "summary": "DefiLlama reports $49.531B of Ethereum DeFi TVL and $147.748B of stablecoin market capitalization, alongside $827.91M of 24-hour DEX volume and $100.1M of net bridge inflows.",
+      "value": "$49.551B DeFi TVL / $147.604B stablecoins",
+      "summary": "DefiLlama reports $49.551B of Ethereum DeFi TVL, down 0.50% over 24 hours, and $147.604B of stablecoin market capitalization. Twenty-four-hour DEX volume was $1.305B, app fees $6.44M, transactions 1.94M, and net bridge inflows $46.85M.",
       "sourceIds": [
         "defillama-ethereum"
       ],
       "confirmed": true,
-      "uncertainty": "TVL is price-sensitive and can double-count composable assets; provider methodologies differ, while weekend activity is often lighter."
+      "uncertainty": "TVL is price-sensitive and can double-count composable assets; provider methodologies differ and one-day activity is volatile."
     },
     {
-      "id": "eth-value-capture-2026-09-07",
+      "id": "eth-value-capture-2026-09-08",
       "catalyst": "value-capture",
       "direction": "mixed",
-      "value": "$262,219 chain fees / $38,868 chain revenue over 24h",
-      "summary": "Ethereum retains large settlement, stablecoin, RWA, and DeFi footprints, but DefiLlama's current L1 chain fees and revenue remain modest relative to ETH's valuation. The $100.1M rolling 24-hour bridge inflow is constructive for capital migration, but it does not by itself establish durable ETH-specific value capture.",
+      "value": "$383,300 chain fees / $51,536 chain revenue over 24h",
+      "summary": "Ethereum's settlement, stablecoin, RWA, and DeFi footprints remain large, and activity improved from the prior snapshot, but DefiLlama's $383,300 of current L1 chain fees and $51,536 of chain revenue remain modest relative to ETH's valuation. Higher DEX and application activity does not by itself prove durable ETH-specific value capture.",
       "sourceIds": [
         "defillama-ethereum",
         "coingecko-eth",
         "growthepie-l2-fees"
       ],
       "confirmed": true,
-      "uncertainty": "Daily fee data is volatile and provider readings differ; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+      "uncertainty": "Daily fee and revenue data is volatile and provider readings differ; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
     },
     {
       "id": "us-jobs-fed-repricing-2026-09-04",
@@ -91,18 +93,18 @@
       "uncertainty": "The employment report is confirmed, but market-implied policy odds move continuously and the Fed has not made its September decision."
     },
     {
-      "id": "global-liquidity-2026-09-07",
+      "id": "global-liquidity-2026-09-08",
       "catalyst": "macro",
       "direction": "headwind",
-      "value": "Fed hike odds 58.4% / BOJ hike odds ~75% / Brent ~$97",
-      "summary": "Reuters reported that strong U.S. payrolls and oil near $97 kept markets pricing roughly a 58.4% chance of a September Fed hike and about a 75% chance of a BOJ hike. These are cyclical liquidity headwinds for ETH, although the dollar index was nearly flat near 99.09 despite the rate repricing.",
+      "value": "Yen +4.5% week / Fed hike odds ~60% / U.S. 10Y 4.788% / Brent $97.49",
+      "summary": "Reuters reported the yen had rallied about 4.5% in a week to roughly 153.32 per dollar as short positions and carry trades unwound ahead of a likely BOJ hike. At the same time, markets priced about a 60% chance of a September Fed hike, the U.S. 10-year yield was near 4.788%, and Brent crude was around $97.49. The weaker dollar offers a small offset, but the carry unwind, high yields, and oil-driven inflation risk remain cyclical liquidity headwinds for ETH.",
       "sourceIds": [
-        "reuters-dollar-2026-09-07",
-        "reuters-global-markets-2026-09-07",
-        "reuters-gold-2026-09-07"
+        "reuters-yen-2026-09-08",
+        "reuters-global-markets-2026-09-08",
+        "reuters-oil-2026-09-08"
       ],
       "confirmed": true,
-      "uncertainty": "Market-implied odds, oil, yields, and currencies move continuously; no Fed, BOJ, or ECB decision has yet occurred."
+      "uncertainty": "Market-implied policy odds, currencies, oil, and yields move continuously; the yen's rally does not prove a disorderly global deleveraging, and no Fed or BOJ decision has yet occurred."
     },
     {
       "id": "real-yield-10y-2026-09-03",
@@ -353,12 +355,12 @@
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
       "url": "https://www.binance.com/en/price/ethereum",
-      "accessedAt": "2026-09-03"
+      "accessedAt": "2026-09-08"
     },
     "kraken-eth": {
       "label": "Kraken Ethereum market data",
@@ -368,7 +370,7 @@
     "farside-eth-etf": {
       "label": "Farside Ethereum ETF flows",
       "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -378,7 +380,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -403,12 +405,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum network dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -423,7 +425,7 @@
     "fed-home": {
       "label": "Federal Reserve monetary policy overview",
       "url": "https://www.federalreserve.gov/",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "fed-barr-2026-09-01": {
       "label": "Federal Reserve Governor Barr speech",
@@ -438,7 +440,7 @@
     "fred-dfii10": {
       "label": "FRED 10-Year Real Treasury Yield",
       "url": "https://fred.stlouisfed.org/series/DFII10",
-      "accessedAt": "2026-09-05"
+      "accessedAt": "2026-09-08"
     },
     "fred-dollar": {
       "label": "FRED Nominal Broad U.S. Dollar Index",
@@ -488,12 +490,12 @@
     "ethereum-blog-index": {
       "label": "Ethereum Foundation Blog index",
       "url": "https://blog.ethereum.org/",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "sec-press-releases": {
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "coinmarketcap-eth": {
       "label": "CoinMarketCap Ethereum market data",
@@ -503,7 +505,7 @@
     "coinbase-eth": {
       "label": "Coinbase Ethereum market data",
       "url": "https://www.coinbase.com/price/ethereum",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-08"
     },
     "standard-chartered-uae-spot": {
       "label": "Standard Chartered: institutional Bitcoin and Ether spot trading in the UAE",
@@ -604,15 +606,30 @@
       "label": "Ethereum Foundation Protocol Cluster: Hegotá EIP Opinion Post and Tier List",
       "url": "https://blog.ethereum.org/2026/09/07/protocol-hegota-eips",
       "accessedAt": "2026-09-07"
+    },
+    "reuters-yen-2026-09-08": {
+      "label": "Reuters: yen extends rally as carry trades unwind ahead of BOJ and U.S. CPI",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-extends-rally-new-seven-month-high-dollar-subdued-ahead-cpi-2026-09-08/",
+      "accessedAt": "2026-09-08"
+    },
+    "reuters-global-markets-2026-09-08": {
+      "label": "Reuters: Asia markets waver as yen surges and oil risks persist",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-08/",
+      "accessedAt": "2026-09-08"
+    },
+    "reuters-oil-2026-09-08": {
+      "label": "Reuters: oil rises as prolonged Middle East conflict threatens supply",
+      "url": "https://www.reuters.com/business/energy/oil-rises-risks-prolonged-mideast-conflict-heighten-supply-worries-2026-09-08/",
+      "accessedAt": "2026-09-08"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "The Ethereum Foundation Protocol cluster published a material, unified multi-fork execution roadmap through 2029 and its first collective Hegotá tier list, qualifying as major Ethereum protocol news.",
-      "FOCIL and Frame Transactions are now the cluster's locked, must-ship Hegotá headliners, while the roadmap explicitly targets quantum resistance across execution, consensus, and data by December 2029.",
-      "ETH was up only 0.2% over 24 hours on CoinGecko, well below the 5% price-alert threshold; the alert is for protocol significance, not price."
+      "ETH moved less than 1% over 24 hours across CoinGecko, Binance, and Coinbase readings, well below the 5% notification threshold.",
+      "The yen's roughly 4.5% weekly rally provides clearer evidence of a carry-trade unwind, but the move remains an incremental macro headwind rather than a thesis-breaking Ethereum event.",
+      "The latest completed U.S. spot-ETH ETF session remains September 4's $25.9M net inflow after the U.S. Labor Day closure; no new official Ethereum, SEC, or Federal Reserve action was published after the prior roadmap update."
     ],
-    "confirmedVsUncertain": "Confirmed: the EF Protocol cluster published the roadmap and 62-EIP tier list; EIP-7805 FOCIL and EIP-8141 Frames are its S-tier Hegotá headliners; the cluster set a December 2029 post-quantum target and described five multi-fork research arcs. Uncertain: EF priorities are not final AllCoreDevs inclusion decisions, the stated fork cadence is aggressive, Hegotá scope beyond S/A tiers can change after devnet evidence, and neither the later fork order nor final delivery dates are guaranteed."
+    "confirmedVsUncertain": "Confirmed: current ETH market readings, unchanged September 4 ETF flow, Ethereum staking counters, refreshed DeFi and RWA metrics, the yen rally, oil near $97, the U.S. 10-year yield near 4.788%, and official Ethereum Foundation, SEC, Federal Reserve, and FRED source checks. Uncertain: the scale and persistence of any carry unwind, September Fed and BOJ decisions, the inflation impact of oil, future ETF flows, and whether higher onchain transfer activity will produce durable ETH-specific value capture."
   }
 }
