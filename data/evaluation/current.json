@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-08T12:20:00Z",
+  "evaluatedAt": "2026-09-09T12:16:04Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -18,7 +18,7 @@
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.9
+        "score": 0.91
       },
       "10000": {
         "status": "yellow",
@@ -28,11 +28,11 @@
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.2
+        "score": 0.18
       },
       "10000": {
         "status": "red",
-        "score": 0.15
+        "score": 0.13
       }
     },
     "regulation": {
@@ -58,11 +58,11 @@
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.7
+        "score": 0.72
       },
       "10000": {
         "status": "yellow",
-        "score": 0.6
+        "score": 0.61
       }
     },
     "protocol": {
@@ -88,35 +88,35 @@
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.56
+        "score": 0.54
       },
       "10000": {
         "status": "red",
-        "score": 0.33
+        "score": 0.3
       }
     },
     "debasement": {
       "5000": {
         "status": "green",
-        "score": 0.68
+        "score": 0.69
       },
       "10000": {
         "status": "yellow",
-        "score": 0.52
+        "score": 0.53
       }
     }
   },
   "evidenceRefs": {
     "institutional": [
       "eth-etf-flow-2026-09-04",
-      "bitmine-eth-holdings-2026-08-30",
+      "bitmine-eth-holdings-2026-09-07",
       "remixpoint-altcoin-exit-2026-09-02",
       "standard-chartered-uae-eth-spot-2026-09-03"
     ],
     "macro": [
       "us-jobs-fed-repricing-2026-09-04",
-      "global-liquidity-2026-09-08",
-      "real-yield-10y-2026-09-03",
+      "global-liquidity-2026-09-09",
+      "real-yield-10y-2026-09-04",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
     ],
@@ -126,11 +126,11 @@
       "clarity-nsa-neutral-2026-09-03"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-08",
-      "ethereum-defi-2026-09-08"
+      "ethereum-rwa-2026-09-09",
+      "ethereum-defi-2026-09-09"
     ],
     "staking": [
-      "bitmine-staked-eth-2026-08-30",
+      "bitmine-staked-eth-2026-09-07",
       "network-staking-2026-09-07"
     ],
     "protocol": [
@@ -139,10 +139,10 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-08"
+      "eth-market-2026-09-09"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-08"
+      "eth-value-capture-2026-09-09"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -152,5 +152,5 @@
       "treasury-safety-premium-2026-09-03"
     ]
   },
-  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. The Ethereum Foundation's unified 2029 priorities and tiered Hegotá plan improved protocol-execution evidence, while tokenization and institutional demand stayed constructive. Offsetting this, markets priced about 60% odds of a September Fed hike, the U.S. 10-year yield approached 4.79%, Brent neared $97.50, and yen carry trades continued unwinding. ETH-specific L1 fees and revenue improved from the prior snapshot but remain far too modest to satisfy the $10K value-capture hurdle. No catalyst crossed a color threshold."
+  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. BitMine disclosed another 28,086 ETH weekly purchase, lifting its treasury to 5.929M ETH, while about 5.067M ETH remains staked. Those institutional and staking gains offset a harsher cyclical backdrop: Brent approached $99.40, Fed-hike odds stayed near 60%, the 10-year real yield held at 2.43%, and yen carry pressure remained active. Ethereum application fees greatly exceeded L1 chain revenue, reinforcing that ecosystem activity still does not automatically become ETH-holder value capture. No catalyst crossed a color threshold."
 }
