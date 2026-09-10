@@ -1,50 +1,50 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-09T16:19:00Z",
-  "accessDate": "2026-09-09",
+  "researchedAt": "2026-09-10T04:37:00Z",
+  "accessDate": "2026-09-10",
   "market": {
-    "ethUsd": 2485.54,
-    "change24h": 0.2,
-    "marketCapUsd": 303529186983,
-    "volume24hUsd": 12435172093,
+    "ethUsd": 2476.02,
+    "change24h": -0.8,
+    "marketCapUsd": 302152251594,
+    "volume24hUsd": 13639827285,
     "sourceIds": [
       "coingecko-eth",
       "binance-eth"
     ],
-    "note": "CoinGecko showed ETH at $2,485.54 and about +0.2% over 24 hours, with a $303.53B market capitalization and $12.44B of volume. Binance showed $2,492.35 and -0.04% over its rolling window. Both readings describe an effectively flat market and remain far below the 5% alert threshold."
+    "note": "CoinGecko showed ETH at $2,476.02 and down about 0.8% over 24 hours, with a $302.15B market capitalization and $13.64B of volume. Binance showed $2,511.74 and +1.61% over its rolling window. The venue readings diverged but both remained far below the 5% alert threshold."
   },
   "observations": [
     {
-      "id": "eth-market-2026-09-09",
+      "id": "eth-market-2026-09-10",
       "catalyst": "market",
       "direction": "mixed",
-      "value": "$2,485.54 / +0.20% CoinGecko 24h",
-      "summary": "ETH traded near $2.49K. CoinGecko reported about +0.2% over 24 hours with a $2,472.65–$2,521.51 range, while Binance reported -0.04% over its rolling window. The USD move was effectively flat and far below the 5% alert threshold.",
+      "value": "$2,476.02 / -0.80% CoinGecko 24h",
+      "summary": "ETH traded near $2.48K. CoinGecko reported about -0.8% over 24 hours with a $2,445.10–$2,521.51 range, while Binance reported +1.61% over its rolling window. Venue timing differed, but neither reading approached the 5% alert threshold.",
       "sourceIds": [
         "coingecko-eth",
         "binance-eth"
       ],
       "confirmed": true,
-      "uncertainty": "Prices move continuously, and venue composition and rolling 24-hour windows can produce different percentage changes."
+      "uncertainty": "Prices move continuously, and venue composition and rolling 24-hour windows can produce materially different percentage changes."
     },
     {
-      "id": "eth-etf-flow-2026-09-08",
+      "id": "eth-etf-flow-2026-09-09",
       "catalyst": "institutional",
-      "direction": "mixed",
-      "value": "-$24.3M latest day / +$13.161B cumulative",
-      "summary": "Farside finalized September 8 U.S. spot ETH ETF flows at a $24.3M net outflow. Fidelity's FETH added $9.9M, while Grayscale ETHE lost $9.6M and Grayscale ETH lost $24.6M; the other funds recorded zero. Cumulative net inflows remain large at $13.161B, so one modest outflow is a cooling signal rather than an institutional-demand reversal.",
+      "direction": "supportive",
+      "value": "+$34.7M latest day / +$13.196B cumulative",
+      "summary": "Farside finalized September 9 U.S. spot ETH ETF flows at a $34.7M net inflow. BlackRock ETHA added $9.7M, BlackRock ETHB $22.9M, and 21Shares TETH $2.1M, with no reported outflows. The inflow reversed September 8's modest $24.3M outflow and lifted cumulative net inflows to $13.196B.",
       "sourceIds": [
         "farside-eth-etf"
       ],
       "confirmed": true,
-      "uncertainty": "Farside updates automatically and figures can be revised. The September 9 row remains unpopulated at this check."
+      "uncertainty": "Farside updates automatically and figures can be revised. One positive session does not by itself establish a renewed multi-week accumulation trend."
     },
     {
-      "id": "ethereum-rwa-2026-09-09",
+      "id": "ethereum-rwa-2026-09-10",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$17.61B distributed RWA value / $15.06B 30d transfers",
-      "summary": "RWA.xyz reports $17.61B of distributed tokenized real-world asset value on Ethereum, 269,305 RWA holders, and $15.06B of 30-day RWA transfer volume. Its Ethereum stablecoin measure is $159.55B, with $2.25T of 30-day stablecoin transfer volume.",
+      "value": "$17.54B distributed RWA value / $15.26B 30d transfers",
+      "summary": "RWA.xyz reports $17.54B of distributed tokenized real-world asset value on Ethereum, 269,796 RWA holders, and $15.26B of 30-day RWA transfer volume. Its Ethereum stablecoin measure is $159.73B, with $2.27T of 30-day stablecoin transfer volume.",
       "sourceIds": [
         "rwa-ethereum"
       ],
@@ -52,11 +52,11 @@
       "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama; rolling transfer volume can change sharply, while ecosystem growth is not automatic ETH value capture."
     },
     {
-      "id": "ethereum-defi-2026-09-09",
+      "id": "ethereum-defi-2026-09-10",
       "catalyst": "tokenization",
-      "direction": "supportive",
-      "value": "$49.6B-range DeFi TVL / $147.641B stablecoins",
-      "summary": "DefiLlama reports $147.641B of stablecoin market capitalization on Ethereum, $1.303B of 24-hour DEX volume, $7.78M of app fees, 1.89M transactions, and $7.65M of net bridge inflows. The broad adoption footprint remains large, but daily activity and inflows were mixed.",
+      "direction": "mixed",
+      "value": "$49.532B DeFi TVL / $147.541B stablecoins / -$16.97M 24h inflows",
+      "summary": "DefiLlama reports $49.532B of DeFi TVL and $147.541B of stablecoin market capitalization on Ethereum, alongside $1.33B of 24-hour DEX volume, $6.92M of app fees, 1.92M transactions, and $16.97M of net bridge outflows. The footprint remains large, but daily capital flow was negative and seven-day DEX volume was down 9.2%.",
       "sourceIds": [
         "defillama-ethereum"
       ],
@@ -64,14 +64,14 @@
       "uncertainty": "TVL and activity measures are price-sensitive and volatile; provider methodologies differ and composable assets can be double-counted."
     },
     {
-      "id": "eth-value-capture-2026-09-09",
+      "id": "eth-value-capture-2026-09-10",
       "catalyst": "value-capture",
       "direction": "mixed",
-      "value": "$311,624 chain fees / $58,736 chain revenue over 24h",
-      "summary": "Ethereum's settlement, stablecoin, RWA, and DeFi footprints remain large, but CoinGecko's $311,624 of current L1 fees and $58,736 of chain revenue remain modest relative to ETH's valuation. Application-level economics remain much larger, underscoring that ecosystem activity does not automatically become ETH-holder value capture.",
+      "value": "$304,717 chain fees / $52,871 chain revenue over 24h",
+      "summary": "DefiLlama reported $304,717 of Ethereum L1 chain fees and $52,871 of chain revenue over 24 hours, compared with $6.92M of application fees. Ethereum's settlement and application footprint remains substantial, but most ecosystem economics still do not flow directly to ETH holders.",
       "sourceIds": [
-        "coingecko-eth",
         "defillama-ethereum",
+        "coingecko-eth",
         "growthepie-l2-fees"
       ],
       "confirmed": true,
@@ -91,30 +91,29 @@
       "uncertainty": "The employment report is confirmed, but market-implied policy odds move continuously and the Fed has not made its September decision."
     },
     {
-      "id": "global-liquidity-2026-09-09",
+      "id": "global-liquidity-2026-09-10",
       "catalyst": "macro",
       "direction": "headwind",
-      "value": "Brent $100.70 / U.S. 10Y up to 4.853% / yen +4% in September",
-      "summary": "Reuters reported Brent above $100 as Middle East supply risks intensified, while the 10-year Treasury yield reached about 4.853%, its highest since November 2023. The yen remained near a seven-month high after a roughly 4% September gain. Higher energy prices and yields increase inflation and global-liquidity pressure on ETH even as the dollar softened slightly.",
+      "value": "Brent $101.10 / U.S. 10Y near 4.84% / yen firm",
+      "summary": "Reuters reported Brent holding above $100 as attacks on tankers and constrained Gulf flows sustained inflation risk. The U.S. 10-year Treasury yield remained near 4.84%, close to its 2023 peak, while a firm yen and expected BOJ tightening kept carry-trade pressure active. This remains a restrictive cyclical backdrop for ETH ahead of U.S. inflation data and next week's Fed and BOJ meetings.",
       "sourceIds": [
-        "reuters-yen-2026-09-09",
-        "reuters-global-markets-2026-09-09",
-        "reuters-treasury-buyback-2026-09-09"
+        "reuters-oil-2026-09-10",
+        "reuters-global-markets-2026-09-10"
       ],
       "confirmed": true,
-      "uncertainty": "Oil, currencies, and yields move continuously; neither the Fed nor BOJ has made its September decision, and a strong yen does not by itself establish a disorderly carry unwind."
+      "uncertainty": "Oil, currencies, and yields move continuously; the U.S. inflation release and September Fed and BOJ decisions remain pending."
     },
     {
-      "id": "real-yield-10y-2026-09-04",
+      "id": "real-yield-10y-2026-09-08",
       "catalyst": "macro",
       "direction": "headwind",
       "value": "2.43%",
-      "summary": "The latest published 10-year real Treasury yield was 2.43% on September 4, effectively unchanged and still strongly positive, keeping the opportunity cost of holding non-sovereign risk assets high.",
+      "summary": "The latest published 10-year real Treasury yield remained 2.43% on September 8, leaving the inflation-adjusted opportunity cost of holding non-sovereign risk assets high.",
       "sourceIds": [
         "fred-dfii10"
       ],
       "confirmed": true,
-      "uncertainty": "The published daily series trails intraday market moves; the next observation is scheduled for September 9."
+      "uncertainty": "The published daily series trails intraday market moves; the next observation is scheduled for September 10."
     },
     {
       "id": "treasury-safety-premium-2026-09-03",
@@ -177,7 +176,7 @@
       "uncertainty": "The company labels projected annualized staking revenue and future MAVAN expansion as forward-looking."
     },
     {
-      "id": "network-staking-2026-09-07",
+      "id": "network-staking-2026-09-10",
       "catalyst": "staking",
       "direction": "supportive",
       "value": "42,632,959 ETH / 34% staked / 2.5% APR",
@@ -288,15 +287,15 @@
       "id": "treasury-buybacks-2026-09",
       "catalyst": "macro",
       "direction": "mixed",
-      "value": "Up to $6B of 10Y–20Y bonds on Sep. 10",
-      "summary": "Treasury's updated schedule sets the September 10 long-end liquidity-support buyback at up to $6B of 10- to 20-year nominal coupons, triple the prior $2B operation and above the previously announced floor of at least $4B. This can improve secondary-market liquidity in older bonds, but it is financed within Treasury's borrowing program and is not Fed QE or reserve creation.",
+      "value": "Up to $6B of 10Y–20Y bonds scheduled Sep. 10",
+      "summary": "Treasury's first enlarged long-end liquidity-support buyback is scheduled for 1:40–2:00 p.m. ET on September 10, with a cap of $6B for 10- to 20-year nominal coupons. At this check the operation had not occurred. It may improve secondary-market liquidity in older bonds, but it is financed within Treasury's borrowing program and is not Fed QE or reserve creation.",
       "sourceIds": [
         "treasury-buybacks-2026",
         "treasury-buyback-schedule-2026-09-09",
         "reuters-treasury-buyback-2026-09-09"
       ],
       "confirmed": true,
-      "uncertainty": "The operation has not occurred at this check; accepted volume, dealer offers, price impact, and persistence of any liquidity improvement remain unknown."
+      "uncertainty": "Accepted volume, dealer offers, price impact, and persistence of any liquidity improvement remain unknown until the operation is completed."
     },
     {
       "id": "fiscal-deficit-2026",
@@ -379,12 +378,12 @@
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
       "url": "https://www.binance.com/en/price/ethereum",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "kraken-eth": {
       "label": "Kraken Ethereum market data",
@@ -394,7 +393,7 @@
     "farside-eth-etf": {
       "label": "Farside Ethereum ETF flows",
       "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -404,7 +403,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -429,12 +428,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum network dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -449,7 +448,7 @@
     "fed-home": {
       "label": "Federal Reserve monetary policy overview",
       "url": "https://www.federalreserve.gov/",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "fed-barr-2026-09-01": {
       "label": "Federal Reserve Governor Barr speech",
@@ -464,17 +463,17 @@
     "fred-dfii10": {
       "label": "FRED 10-Year Real Treasury Yield",
       "url": "https://fred.stlouisfed.org/series/DFII10",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "fred-dollar": {
       "label": "FRED Nominal Broad U.S. Dollar Index",
       "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "treasury-buybacks-2026": {
       "label": "U.S. Treasury long-end liquidity-support buybacks",
       "url": "https://home.treasury.gov/news/press-releases/sb0607",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "growthepie-l2-fees": {
       "label": "growthepie Ethereum L2 fee and scaling answers",
@@ -514,12 +513,12 @@
     "ethereum-blog-index": {
       "label": "Ethereum Foundation Blog index",
       "url": "https://blog.ethereum.org/",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "sec-press-releases": {
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "coinmarketcap-eth": {
       "label": "CoinMarketCap Ethereum market data",
@@ -664,22 +663,33 @@
     "treasury-buyback-schedule-2026-09-09": {
       "label": "U.S. Treasury tentative buyback schedule published September 9, 2026",
       "url": "https://home.treasury.gov/system/files/221/Tentative-Buyback-Schedule.pdf",
-      "accessedAt": "2026-09-09"
+      "accessedAt": "2026-09-10"
     },
     "reuters-treasury-buyback-2026-09-09": {
       "label": "Reuters: U.S. Treasury sets up-to-$6B September 10 long-end buyback",
       "url": "https://www.reuters.com/world/us-treasury-buy-up-6-billion-sept-10-buyback-operation-2026-09-09/",
       "accessedAt": "2026-09-09"
+    },
+    "reuters-oil-2026-09-10": {
+      "label": "Reuters: Brent holds above $100 as tanker attacks deepen supply fear",
+      "url": "https://www.reuters.com/business/energy/brent-holds-above-100-tanker-attacks-deepen-supply-fear-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-global-markets-2026-09-10": {
+      "label": "Reuters: Asian stocks fall as Brent stays above $100 and yields remain elevated",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-10/",
+      "accessedAt": "2026-09-10"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH was effectively flat across CoinGecko and Binance, far below the 5% notification threshold.",
-      "September 8 U.S. spot ETH ETF flows finalized at a modest $24.3M net outflow while cumulative net inflows remained $13.161B; this is a cooling datapoint, not a demand-regime reversal.",
-      "Treasury scheduled up to $6B of 10- to 20-year liquidity-support buybacks for September 10. The larger cap is material research evidence but is not Fed QE, has not yet been executed, and does not by itself change the ETH thesis.",
-      "Oil above $100 and a 10-year Treasury yield near 4.85% deepen the cyclical liquidity headwind, but no new official Ethereum Foundation, SEC, or Federal Reserve action materially altered the structural thesis."
+      "ETH moved less than 2% across current venue readings, well below the 5% notification threshold.",
+      "September 9 U.S. spot ETH ETF flows returned to a modest $34.7M inflow and cumulative net inflows reached $13.196B. This is constructive but not a major new demand regime.",
+      "Ethereum staking, RWA, and DeFi footprints remained broadly stable; daily bridge flows and L1 fee capture were weak enough to preserve the existing value-capture caution.",
+      "Brent above $100 and the 10-year Treasury yield near 4.84% keep the cyclical liquidity backdrop restrictive. The scheduled $6B long-end Treasury buyback had not occurred at this check and is not Fed QE.",
+      "No newer official Ethereum Foundation, SEC, or Federal Reserve action materially altered the thesis."
     ],
-    "confirmedVsUncertain": "Confirmed: current ETH readings; finalized September 8 ETF outflows; Treasury's official September 10 schedule and $6B maximum for 10- to 20-year nominal coupons; oil above $100 and elevated Treasury yields; and no newer official Ethereum Foundation, SEC, or Federal Reserve action. Uncertain: September 9 ETF flows, the Treasury operation's accepted volume and market effect, September Fed and BOJ decisions, the persistence of the yen carry unwind, and whether Ethereum ecosystem activity converts into durable ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: current ETH readings; finalized September 9 ETF inflows; unchanged Ethereum staking counters; refreshed RWA, DeFi, chain-fee, real-yield, oil, and Treasury-yield evidence; Treasury's scheduled September 10 operation; and no newer official Ethereum Foundation, SEC, or Federal Reserve action. Uncertain: the Treasury operation's accepted volume and market effect, U.S. inflation data, September Fed and BOJ decisions, the persistence of yen carry pressure, and whether Ethereum ecosystem activity converts into durable ETH-specific value capture."
   }
 }
