@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-09T12:16:04Z",
+  "evaluatedAt": "2026-09-10T12:07:51Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 65,
-      "trend": "steady",
-      "weightedSignal": 65
+      "probability": 64,
+      "trend": "weaker",
+      "weightedSignal": 64
     },
     "10000": {
-      "probability": 35,
-      "trend": "steady",
-      "weightedSignal": 47
+      "probability": 34,
+      "trend": "weaker",
+      "weightedSignal": 46
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.91
+        "score": 0.92
       },
       "10000": {
         "status": "yellow",
@@ -28,11 +28,11 @@
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.18
+        "score": 0.14
       },
       "10000": {
         "status": "red",
-        "score": 0.13
+        "score": 0.1
       }
     },
     "regulation": {
@@ -48,11 +48,11 @@
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.81
+        "score": 0.8
       },
       "10000": {
         "status": "yellow",
-        "score": 0.61
+        "score": 0.6
       }
     },
     "staking": {
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.59
+        "score": 0.57
       },
       "10000": {
         "status": "red",
-        "score": 0.33
+        "score": 0.32
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.54
+        "score": 0.53
       },
       "10000": {
         "status": "red",
-        "score": 0.3
+        "score": 0.29
       }
     },
     "debasement": {
@@ -108,15 +108,15 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-04",
+      "eth-etf-flow-2026-09-09",
       "bitmine-eth-holdings-2026-09-07",
       "remixpoint-altcoin-exit-2026-09-02",
       "standard-chartered-uae-eth-spot-2026-09-03"
     ],
     "macro": [
       "us-jobs-fed-repricing-2026-09-04",
-      "global-liquidity-2026-09-09",
-      "real-yield-10y-2026-09-04",
+      "global-liquidity-2026-09-10",
+      "real-yield-10y-2026-09-08",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
     ],
@@ -126,12 +126,12 @@
       "clarity-nsa-neutral-2026-09-03"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-09",
-      "ethereum-defi-2026-09-09"
+      "ethereum-rwa-2026-09-10",
+      "ethereum-defi-2026-09-10"
     ],
     "staking": [
       "bitmine-staked-eth-2026-09-07",
-      "network-staking-2026-09-07"
+      "network-staking-2026-09-10"
     ],
     "protocol": [
       "glamsterdam-plataberget-testnet",
@@ -139,10 +139,10 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-09"
+      "eth-market-2026-09-10"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-09"
+      "eth-value-capture-2026-09-10"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -152,5 +152,5 @@
       "treasury-safety-premium-2026-09-03"
     ]
   },
-  "decision": "Kept the $5K estimate at 65% and the $10K estimate at 35%. BitMine disclosed another 28,086 ETH weekly purchase, lifting its treasury to 5.929M ETH, while about 5.067M ETH remains staked. Those institutional and staking gains offset a harsher cyclical backdrop: Brent approached $99.40, Fed-hike odds stayed near 60%, the 10-year real yield held at 2.43%, and yen carry pressure remained active. Ethereum application fees greatly exceeded L1 chain revenue, reinforcing that ecosystem activity still does not automatically become ETH-holder value capture. No catalyst crossed a color threshold."
+  "decision": "Reduced the $5K estimate from 65% to 64% and the $10K estimate from 35% to 34%. Brent above $100, a U.S. 10-year yield near 4.84%, a 2.43% real yield, and prospective Fed/BOJ tightening materially worsened the cyclical risk-asset setup. A $34.7M ETF inflow and BitMine's continued accumulation remain supportive, but Ethereum L1 economics are still weak relative to application activity, preserving the explicit value-capture penalty for $10K. No catalyst crossed a color threshold."
 }
