@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-10T04:37:00Z",
+  "researchedAt": "2026-09-10T15:43:00Z",
   "accessDate": "2026-09-10",
   "market": {
-    "ethUsd": 2476.02,
-    "change24h": -0.8,
-    "marketCapUsd": 302152251594,
-    "volume24hUsd": 13639827285,
+    "ethUsd": 2435.64,
+    "change24h": -1.9,
+    "marketCapUsd": 297192000000,
+    "volume24hUsd": 14516000000,
     "sourceIds": [
       "coingecko-eth",
-      "binance-eth"
+      "coinbase-eth"
     ],
-    "note": "CoinGecko showed ETH at $2,476.02 and down about 0.8% over 24 hours, with a $302.15B market capitalization and $13.64B of volume. Binance showed $2,511.74 and +1.61% over its rolling window. The venue readings diverged but both remained far below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,435.64 and down about 1.9% over 24 hours, with a $297.19B market capitalization and $14.52B of volume. Coinbase showed ETH near $2,433 and down about 2.8% over its daily window. Both readings remained well below the 5% alert threshold."
   },
   "observations": [
     {
       "id": "eth-market-2026-09-10",
       "catalyst": "market",
       "direction": "mixed",
-      "value": "$2,476.02 / -0.80% CoinGecko 24h",
-      "summary": "ETH traded near $2.48K. CoinGecko reported about -0.8% over 24 hours with a $2,445.10–$2,521.51 range, while Binance reported +1.61% over its rolling window. Venue timing differed, but neither reading approached the 5% alert threshold.",
+      "value": "$2,435.64 / about -1.9% CoinGecko 24h",
+      "summary": "ETH traded near $2.44K after the U.S. producer-price release. CoinGecko showed about -1.9% over 24 hours with a $2,410.22–$2,498.19 range; Coinbase showed a roughly 2.8% daily decline. The move remained well below the 5% alert threshold.",
       "sourceIds": [
         "coingecko-eth",
-        "binance-eth"
+        "coinbase-eth"
       ],
       "confirmed": true,
-      "uncertainty": "Prices move continuously, and venue composition and rolling 24-hour windows can produce materially different percentage changes."
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
     },
     {
       "id": "eth-etf-flow-2026-09-09",
@@ -50,6 +50,18 @@
       ],
       "confirmed": true,
       "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama; rolling transfer volume can change sharply, while ecosystem growth is not automatic ETH value capture."
+    },
+    {
+      "id": "nasdaq-kraken-tokenization-2026-09-10",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$100M Nasdaq investment / Nasdaq Equity Tokens targeted Q2 2027",
+      "summary": "Nasdaq Ventures agreed to invest $100M in Payward, Kraken's parent, deepening work on infrastructure for regulated tokenized-equity trading and settlement beyond conventional market hours. The partners target a Q2 2027 launch of Nasdaq Equity Tokens through Kraken's xStocks platform. This is strong evidence that traditional market infrastructure is moving toward tokenization, but the announcement did not identify Ethereum as the settlement network.",
+      "sourceIds": [
+        "reuters-nasdaq-kraken-2026-09-10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The investment and target launch are announced, but delivery, regulatory scope, volumes, underlying blockchain rails, and direct ETH value capture remain uncertain."
     },
     {
       "id": "ethereum-defi-2026-09-10",
@@ -94,14 +106,28 @@
       "id": "global-liquidity-2026-09-10",
       "catalyst": "macro",
       "direction": "headwind",
-      "value": "Brent $101.10 / U.S. 10Y near 4.84% / yen firm",
-      "summary": "Reuters reported Brent holding above $100 as attacks on tankers and constrained Gulf flows sustained inflation risk. The U.S. 10-year Treasury yield remained near 4.84%, close to its 2023 peak, while a firm yen and expected BOJ tightening kept carry-trade pressure active. This remains a restrictive cyclical backdrop for ETH ahead of U.S. inflation data and next week's Fed and BOJ meetings.",
+      "value": "Brent about $105 / U.S. 10Y 4.92% / ECB +25bp / Fed hike odds about 70%",
+      "summary": "The cyclical liquidity backdrop deteriorated further. Reuters reported Brent near $105 after another escalation in shipping disruption, the U.S. 10-year Treasury yield near 4.92%, its highest since 2023, and the ECB raising rates 25 basis points. Combined with hotter annual U.S. producer inflation, traders lifted the implied chance of a September Fed hike to about 70%.",
       "sourceIds": [
-        "reuters-oil-2026-09-10",
-        "reuters-global-markets-2026-09-10"
+        "reuters-fed-ppi-2026-09-10",
+        "reuters-wall-street-2026-09-10",
+        "reuters-ecb-2026-09-10"
       ],
       "confirmed": true,
-      "uncertainty": "Oil, currencies, and yields move continuously; the U.S. inflation release and September Fed and BOJ decisions remain pending."
+      "uncertainty": "Oil, currencies, yields, and policy odds move continuously. The U.S. CPI release and September Fed and BOJ decisions remain pending."
+    },
+    {
+      "id": "us-ppi-fed-repricing-2026-09-10",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "+0.4% m/m / +5.4% y/y PPI / about 70% September Fed-hike odds",
+      "summary": "BLS reported August final-demand producer prices up 0.4% month over month and 5.4% year over year, accelerating from 4.8% in July. Energy prices rose 4.2%, goods prices 1.1%, and the index excluding food, energy, and trade services rose 0.3%. The monthly headline matched consensus, but the annual rate slightly exceeded the Reuters poll and market pricing for a September Fed hike rose from about 65% to roughly 70%.",
+      "sourceIds": [
+        "bls-ppi-2026-08",
+        "reuters-fed-ppi-2026-09-10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The PPI release is confirmed, but Fed-funds futures reprice continuously. September policy remains undecided and the September 11 CPI report is the more important remaining input."
     },
     {
       "id": "real-yield-10y-2026-09-08",
@@ -528,7 +554,7 @@
     "coinbase-eth": {
       "label": "Coinbase Ethereum market data",
       "url": "https://www.coinbase.com/price/ethereum",
-      "accessedAt": "2026-09-08"
+      "accessedAt": "2026-09-10"
     },
     "standard-chartered-uae-spot": {
       "label": "Standard Chartered: institutional Bitcoin and Ether spot trading in the UAE",
@@ -679,17 +705,42 @@
       "label": "Reuters: Asian stocks fall as Brent stays above $100 and yields remain elevated",
       "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-10/",
       "accessedAt": "2026-09-10"
+    },
+    "bls-ppi-2026-08": {
+      "label": "U.S. Bureau of Labor Statistics: Producer Price Indexes, August 2026",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-fed-ppi-2026-09-10": {
+      "label": "Reuters: Fed-hike odds rise after August producer-price report",
+      "url": "https://www.reuters.com/markets/us/fed-eyeing-inflation-data-may-lean-toward-hike-traders-bet-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-wall-street-2026-09-10": {
+      "label": "Reuters: Wall Street slips as producer inflation lifts yields and Fed-hike odds",
+      "url": "https://www.reuters.com/business/sp-500-dow-futures-attempt-recovery-ahead-inflation-report-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-ecb-2026-09-10": {
+      "label": "Reuters: ECB hikes rates as energy-driven inflation pressure rises",
+      "url": "https://www.reuters.com/markets/europe/european-shares-edge-higher-traders-await-ecb-decision-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-nasdaq-kraken-2026-09-10": {
+      "label": "Reuters: Nasdaq invests $100M in Kraken parent for tokenized-equity infrastructure",
+      "url": "https://www.reuters.com/legal/government/nasdaq-invest-100-million-kraken-parent-deepen-tokenization-push-2026-09-10/",
+      "accessedAt": "2026-09-10"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH moved less than 2% across current venue readings, well below the 5% notification threshold.",
-      "September 9 U.S. spot ETH ETF flows returned to a modest $34.7M inflow and cumulative net inflows reached $13.196B. This is constructive but not a major new demand regime.",
-      "Ethereum staking, RWA, and DeFi footprints remained broadly stable; daily bridge flows and L1 fee capture were weak enough to preserve the existing value-capture caution.",
-      "Brent above $100 and the 10-year Treasury yield near 4.84% keep the cyclical liquidity backdrop restrictive. The scheduled $6B long-end Treasury buyback had not occurred at this check and is not Fed QE.",
-      "No newer official Ethereum Foundation, SEC, or Federal Reserve action materially altered the thesis."
+      "ETH was down roughly 2% to 3% across current market readings, below the 5% notification threshold.",
+      "August U.S. producer prices rose 0.4% monthly and 5.4% annually, lifting September Fed-hike pricing to about 70%. This materially worsens the near-term liquidity backdrop but does not by itself constitute a thesis-breaking event.",
+      "Brent near $105, a U.S. 10-year yield near 4.92%, and an ECB rate increase add to global tightening pressure ahead of U.S. CPI and next week's Fed and BOJ decisions.",
+      "Nasdaq's $100M investment in Kraken's parent is constructive evidence for regulated tokenization, but no Ethereum settlement rail or direct ETH demand was confirmed.",
+      "September 10 ETF flow data remained incomplete; the latest finalized session was September 9's $34.7M inflow. No newer official Ethereum Foundation, SEC, or Federal Reserve action materially altered the thesis."
     ],
-    "confirmedVsUncertain": "Confirmed: current ETH readings; finalized September 9 ETF inflows; unchanged Ethereum staking counters; refreshed RWA, DeFi, chain-fee, real-yield, oil, and Treasury-yield evidence; Treasury's scheduled September 10 operation; and no newer official Ethereum Foundation, SEC, or Federal Reserve action. Uncertain: the Treasury operation's accepted volume and market effect, U.S. inflation data, September Fed and BOJ decisions, the persistence of yen carry pressure, and whether Ethereum ecosystem activity converts into durable ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: current ETH readings; August PPI at +0.4% monthly and +5.4% annually; higher market-implied Fed-hike odds; elevated oil and Treasury yields; the ECB's 25-basis-point hike; Nasdaq's announced $100M Payward investment; finalized September 9 ETF inflows; and no newer official Ethereum Foundation, SEC, or Federal Reserve action. Uncertain: September 10 ETF flows, Friday's CPI, the September Fed and BOJ decisions, the Treasury buyback's accepted volume and lasting market effect, Nasdaq Equity Tokens' launch and blockchain rails, and whether tokenization activity converts into durable ETH-specific value capture."
   }
 }
