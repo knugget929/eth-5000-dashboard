@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-11T04:47:00Z",
-  "accessDate": "2026-09-11",
+  "researchedAt": "2026-09-12T16:22:00Z",
+  "accessDate": "2026-09-12",
   "market": {
-    "ethUsd": 2459.41,
-    "change24h": -0.7,
-    "marketCapUsd": 300135000000,
-    "volume24hUsd": 15746000000,
+    "ethUsd": 2533.07,
+    "change24h": 1.3,
+    "marketCapUsd": 309167554989,
+    "volume24hUsd": 11926043142,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,459.41 and down about 0.7% over 24 hours, with a $300.14B market capitalization, $15.75B of volume, and a $2,410.22–$2,482.52 range. The move remained well below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,533.07 and up about 1.3% over 24 hours, with a $309.17B market capitalization, $11.93B of volume, and a $2,508.19–$2,580.20 range. The move remained below the 5% alert threshold."
   },
   "observations": [
     {
@@ -511,13 +511,114 @@
       ],
       "confirmed": true,
       "uncertainty": "Oil and yields move continuously. The September 11 CPI report and next week's Fed and BOJ decisions remain pending."
+    },
+    {
+      "id": "eth-market-2026-09-12",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,533.07 / about +1.3% CoinGecko 24h",
+      "summary": "ETH traded near $2.53K after Friday's sharp post-CPI rally cooled. CoinGecko showed a roughly 1.3% 24-hour gain and a 3.1% seven-day gain, both below the 5% alert threshold for this run. ETH remains below the $3K–$3.5K market-confirmation zone.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and provider rolling windows and venue composition can produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-11",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$216.4M latest session / +$13.382B cumulative",
+      "summary": "Farside finalized September 11 U.S. spot ETH ETF flows at a $216.4M net inflow, led by BlackRock ETHA at $148.8M, BlackRock ETHB at $29.1M, Fidelity FETH at $18.3M, and Bitwise ETHW at $11.4M. No fund reported an outflow, reversing September 10's $29.9M net outflow and lifting cumulative net inflows to $13.382B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside tables update automatically and figures can be revised. One strong session is constructive but does not by itself establish a durable multi-week acceleration."
+    },
+    {
+      "id": "us-cpi-fed-repricing-2026-09-11",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "+0.4% m/m / +3.4% y/y CPI / ~87% September Fed-hike odds",
+      "summary": "BLS reported August headline CPI up 0.4% month over month and 3.4% year over year. Core CPI rose 0.3% month over month and 2.4% year over year. Reuters reported market-implied odds of a quarter-point September Fed hike settled near 87%, up from 72% the prior day, reinforcing the restrictive near-term liquidity regime.",
+      "sourceIds": [
+        "bls-cpi-2026-08",
+        "reuters-us-cpi-2026-09-11"
+      ],
+      "confirmed": true,
+      "uncertainty": "The CPI release is confirmed, but Fed-funds futures reprice continuously and the FOMC has not made its September decision."
+    },
+    {
+      "id": "global-liquidity-2026-09-12",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y 4.97% Friday high / Brent above $104 Friday / Saudi 4–5 mbpd route shut",
+      "summary": "Cyclical liquidity remains restrictive. Reuters reported the U.S. 10-year yield touched roughly 4.99% before closing near 4.92% on Friday, while hotter CPI pushed September Fed-hike odds close to 90%. Oil eased to above $104 on Friday but stayed about 9% higher for the week. On Saturday Saudi Arabia temporarily shut its East-West pipeline after a drone attack; the route had carried 4–5 million barrels per day while Hormuz was largely closed, creating renewed upside risk for oil and inflation.",
+      "sourceIds": [
+        "reuters-us-cpi-2026-09-11",
+        "reuters-wall-street-2026-09-11",
+        "reuters-saudi-pipeline-2026-09-12"
+      ],
+      "confirmed": true,
+      "uncertainty": "The CPI, Friday market closes, and pipeline shutdown are confirmed. The duration of the outage, export impact, oil-price response when markets reopen, and the Fed's September decision remain uncertain."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-12",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.30B distributed RWA value / $15.76B 30d transfers",
+      "summary": "RWA.xyz reported $17.30B of distributed tokenized real-world asset value on Ethereum, 270,879 RWA holders, and $15.76B of 30-day RWA transfer volume. Its Ethereum stablecoin measure was $159.95B, with $2.44T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider definitions differ, rolling transfer volume can change sharply, and ecosystem growth is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-defi-2026-09-12",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$50.243B DeFi TVL / $147.075B stablecoins / +$31.43M 24h inflows",
+      "summary": "DefiLlama reported $50.243B of Ethereum DeFi TVL and $147.075B of stablecoin market capitalization, alongside $1.381B of 24-hour DEX volume, $7.53M of app fees, 2.1M transactions, and $31.43M of net bridge inflows. TVL and bridge flow improved with ETH's rebound, while seven-day DEX volume remained slightly lower.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-12",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$707,549 chain fees / $180,540 chain revenue over 24h",
+      "summary": "DefiLlama reported $707,549 of Ethereum L1 chain fees and $180,540 of chain revenue over 24 hours, versus $7.53M of application fees. Direct L1 economics improved from the prior snapshot but still remained much smaller than application-level fees, leaving the $10K value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth",
+        "growthepie-l2-fees"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue figures are volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "network-staking-2026-09-12",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "42,632,959 ETH / 34% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters continued to report roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters can change as validators enter, exit, and earn rewards."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-12"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -532,7 +633,7 @@
     "farside-eth-etf": {
       "label": "Farside Ethereum ETF flows",
       "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-12"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -542,7 +643,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-12"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -567,12 +668,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum network dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-12"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-12"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -652,12 +753,12 @@
     "ethereum-blog-index": {
       "label": "Ethereum Foundation Blog index",
       "url": "https://blog.ethereum.org/",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-12"
     },
     "sec-press-releases": {
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-12"
     },
     "coinmarketcap-eth": {
       "label": "CoinMarketCap Ethereum market data",
@@ -853,17 +954,37 @@
       "label": "Reuters: bond investors unconsoled by enlarged Treasury buyback",
       "url": "https://www.reuters.com/legal/transactional/edgy-bond-investors-unconsoled-by-bessents-big-buyback-2026-09-10/",
       "accessedAt": "2026-09-11"
+    },
+    "bls-cpi-2026-08": {
+      "label": "U.S. Bureau of Labor Statistics: Consumer Price Index, August 2026",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "accessedAt": "2026-09-12"
+    },
+    "reuters-us-cpi-2026-09-11": {
+      "label": "Reuters: U.S. consumer prices accelerate in August and push Fed closer to hike",
+      "url": "https://www.reuters.com/world/us/us-consumer-inflation-picks-up-august-2026-09-11/",
+      "accessedAt": "2026-09-12"
+    },
+    "reuters-wall-street-2026-09-11": {
+      "label": "Reuters: S&P 500 ends higher as inflation cements rate-hike bets",
+      "url": "https://www.reuters.com/business/wall-st-futures-recover-oil-slides-ahead-inflation-test-2026-09-11/",
+      "accessedAt": "2026-09-12"
+    },
+    "reuters-saudi-pipeline-2026-09-12": {
+      "label": "Reuters: Saudi Arabia shuts East-West oil pipeline after drone attack",
+      "url": "https://www.reuters.com/business/energy/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-2026-09-12/",
+      "accessedAt": "2026-09-12"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH moved less than 1% over 24 hours, well below the 5% notification threshold.",
-      "September 10 U.S. spot ETH ETFs posted a modest $29.9M net outflow, but cumulative net inflows remained $13.166B; this does not establish a major institutional-demand reversal.",
-      "The enlarged Treasury buyback accepted about $5.2B but did not calm the bond selloff. Oil near $109 and long Treasury yields near multi-year highs keep cyclical liquidity restrictive, but this extends an existing red macro regime rather than breaking the thesis.",
-      "Ethereum staking, RWA, and DeFi footprints remained broadly stable; direct L1 fee capture remained weak relative to application activity.",
-      "No new official Ethereum Foundation, SEC, or Federal Reserve action materially altered the thesis before the U.S. CPI release."
+      "ETH was up about 1.3% over 24 hours on CoinGecko, below the 5% notification threshold.",
+      "September 11 U.S. spot ETH ETFs posted a strong $216.4M net inflow with no fund outflows, materially improving the institutional-demand evidence but not yet proving a sustained acceleration.",
+      "August CPI and the new Saudi pipeline outage keep the cyclical liquidity backdrop adverse: Fed-hike odds approached 90%, long yields remained near multi-year highs, and oil-supply risk increased.",
+      "Ethereum staking remained stable, DeFi TVL and direct L1 fees rebounded, and RWA activity remained structurally large; ETH-specific value capture is still unproven at the level required for $10K.",
+      "No new official Ethereum Foundation or SEC action on September 12 materially changed the protocol or regulatory thesis."
     ],
-    "confirmedVsUncertain": "Confirmed: current ETH readings; finalized September 10 ETF outflows; approximately $5.2B accepted in the Treasury buyback; elevated oil and nominal Treasury yields; a 2.46% latest published 10-year real yield; unchanged Ethereum staking counters; refreshed RWA, DeFi, and fee evidence; and no newer official Ethereum Foundation, SEC, or Federal Reserve action. Uncertain: today's CPI, next week's Fed and BOJ decisions, the persistence of the oil and bond selloffs, future Treasury buyback scale, and whether Ethereum ecosystem activity converts into durable ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: current ETH readings; finalized September 11 ETF inflows; August CPI; Friday's high Treasury yields and oil close; the Saudi East-West pipeline shutdown; unchanged Ethereum staking counters; and refreshed RWA, DeFi, and fee evidence. Uncertain: whether Friday's ETF inflow begins a durable streak, how long the Saudi pipeline remains shut, oil's reaction when markets reopen, the September Fed and BOJ decisions, and whether ecosystem growth converts into durable ETH-specific value capture."
   }
 }
