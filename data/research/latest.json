@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-12T16:22:00Z",
-  "accessDate": "2026-09-12",
+  "researchedAt": "2026-09-13T05:18:00Z",
+  "accessDate": "2026-09-13",
   "market": {
-    "ethUsd": 2533.07,
-    "change24h": 1.3,
-    "marketCapUsd": 309167554989,
-    "volume24hUsd": 11926043142,
+    "ethUsd": 2520.97,
+    "change24h": 0.4,
+    "marketCapUsd": 307675402472,
+    "volume24hUsd": 7681085487.51,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,533.07 and up about 1.3% over 24 hours, with a $309.17B market capitalization, $11.93B of volume, and a $2,508.19–$2,580.20 range. The move remained below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,520.97 and up about 0.4% over 24 hours, with a $307.68B market capitalization, $7.68B of volume, and a $2,509.99–$2,543.69 range. The move remained below the 5% alert threshold."
   },
   "observations": [
     {
@@ -612,13 +612,90 @@
       ],
       "confirmed": true,
       "uncertainty": "The live counters can change as validators enter, exit, and earn rewards."
+    },
+    {
+      "id": "eth-market-2026-09-13",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,520.97 / +0.4% CoinGecko 24h",
+      "summary": "ETH traded near $2.52K on Sunday. CoinGecko showed a 0.4% 24-hour gain, a $2,509.99–$2,543.69 range, and a 0.4% seven-day gain. The market remained calm despite a further Middle East oil-supply escalation, and the move stayed well below the 5% notification threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-hormuz-vessel-attack-2026-09-13"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously and venue-specific rolling windows can differ; oil and broader risk markets had not fully reopened when this snapshot was taken."
+    },
+    {
+      "id": "global-liquidity-2026-09-13",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Fresh Hormuz vessel strike / Saudi 4–5 mbpd pipeline still shut / Brent above $100",
+      "summary": "Reuters reported a projectile striking a vessel in the Strait of Hormuz after Saudi Arabia temporarily shut the East-West pipeline following a drone attack. The pipeline had been moving 4–5 million barrels per day, about 4%–5% of global supply, while Hormuz remained largely shut. This deepens the energy-inflation and global-liquidity headwind before the September Fed and BOJ decisions.",
+      "sourceIds": [
+        "reuters-hormuz-vessel-attack-2026-09-13",
+        "reuters-saudi-pipeline-2026-09-12",
+        "reuters-us-cpi-2026-09-11"
+      ],
+      "confirmed": true,
+      "uncertainty": "The vessel's damage and crew status, the pipeline's reopening timetable, the effect on Saudi exports, responsibility for the attacks, and the oil-price reaction when markets reopen were not yet known."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-13",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.30B distributed RWA value / $15.76B 30d transfers / $159.95B stablecoins",
+      "summary": "RWA.xyz reported $17.30B of distributed tokenized real-world asset value on Ethereum, 270,879 RWA holders, and $15.76B of 30-day RWA transfer volume. Its Ethereum stablecoin measure stood at $159.95B with $2.39T of 30-day transfer volume, supporting the structural tokenization thesis even as distributed RWA value was down 1.14% over 30 days.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value and uses a stablecoin methodology that differs from DefiLlama; ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-defi-2026-09-13",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$50.067B DeFi TVL / $147.274B stablecoins / +$12.75M 24h inflows",
+      "summary": "DefiLlama reported $50.067B of DeFi TVL on Ethereum, up 0.20% over 24 hours, with $147.274B of stablecoins, $698.71M of 24-hour DEX volume, $5.69M of app fees, 1.57M transactions, and $12.75M of net inflows. The footprint remained large, but seven-day DEX volume was down 2.0% and stablecoin market capitalization was down 0.38% over seven days.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity metrics are price-sensitive and volatile; provider methodologies differ, and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-13",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$408,324 chain fees / $72,763 chain revenue / $5.69M app fees over 24h",
+      "summary": "DefiLlama reported $408,324 of Ethereum L1 chain fees and $72,763 of chain revenue over 24 hours, compared with $5.69M of application fees. Direct L1 economics remained modest relative to application activity, so Ethereum's ecosystem strength still does not by itself demonstrate the ETH-specific value capture required for the $10K thesis.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth",
+        "growthepie-l2-fees"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blob demand, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "network-staking-2026-09-13",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "42,632,959 ETH / 34% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters remained at roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%. Staking participation remained structurally strong, but the yield stayed below elevated U.S. Treasury yields.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters can change as validators enter, exit, and earn rewards; the nominal APR comparison does not account for ETH price risk or potential ETH appreciation."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-12"
+      "accessedAt": "2026-09-13"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -633,7 +710,7 @@
     "farside-eth-etf": {
       "label": "Farside Ethereum ETF flows",
       "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
-      "accessedAt": "2026-09-12"
+      "accessedAt": "2026-09-13"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -643,7 +720,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-12"
+      "accessedAt": "2026-09-13"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -668,12 +745,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum network dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-12"
+      "accessedAt": "2026-09-13"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-12"
+      "accessedAt": "2026-09-13"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -753,12 +830,12 @@
     "ethereum-blog-index": {
       "label": "Ethereum Foundation Blog index",
       "url": "https://blog.ethereum.org/",
-      "accessedAt": "2026-09-12"
+      "accessedAt": "2026-09-13"
     },
     "sec-press-releases": {
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "accessedAt": "2026-09-12"
+      "accessedAt": "2026-09-13"
     },
     "coinmarketcap-eth": {
       "label": "CoinMarketCap Ethereum market data",
@@ -974,17 +1051,22 @@
       "label": "Reuters: Saudi Arabia shuts East-West oil pipeline after drone attack",
       "url": "https://www.reuters.com/business/energy/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-2026-09-12/",
       "accessedAt": "2026-09-12"
+    },
+    "reuters-hormuz-vessel-attack-2026-09-13": {
+      "label": "Reuters: fresh vessel attack in Strait of Hormuz raises oil-supply fears",
+      "url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/",
+      "accessedAt": "2026-09-13"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH was up about 1.3% over 24 hours on CoinGecko, below the 5% notification threshold.",
-      "September 11 U.S. spot ETH ETFs posted a strong $216.4M net inflow with no fund outflows, materially improving the institutional-demand evidence but not yet proving a sustained acceleration.",
-      "August CPI and the new Saudi pipeline outage keep the cyclical liquidity backdrop adverse: Fed-hike odds approached 90%, long yields remained near multi-year highs, and oil-supply risk increased.",
-      "Ethereum staking remained stable, DeFi TVL and direct L1 fees rebounded, and RWA activity remained structurally large; ETH-specific value capture is still unproven at the level required for $10K.",
-      "No new official Ethereum Foundation or SEC action on September 12 materially changed the protocol or regulatory thesis."
+      "ETH was up about 0.4% over 24 hours on CoinGecko, below the 5% notification threshold.",
+      "The latest completed U.S. spot ETH ETF session remained September 11's strong $216.4M net inflow; no weekend session supplied a new institutional-flow data point.",
+      "A fresh vessel strike in the Strait of Hormuz after the Saudi East-West pipeline shutdown deepened the energy-inflation and cyclical-liquidity headwind, but ETH had not reacted with an alert-sized move.",
+      "Ethereum staking remained stable, RWA and DeFi activity remained structurally large, and direct L1 fee capture remained modest relative to application economics.",
+      "No new official Ethereum Foundation or SEC action on September 13 materially changed the protocol or regulatory thesis."
     ],
-    "confirmedVsUncertain": "Confirmed: current ETH readings; finalized September 11 ETF inflows; August CPI; Friday's high Treasury yields and oil close; the Saudi East-West pipeline shutdown; unchanged Ethereum staking counters; and refreshed RWA, DeFi, and fee evidence. Uncertain: whether Friday's ETF inflow begins a durable streak, how long the Saudi pipeline remains shut, oil's reaction when markets reopen, the September Fed and BOJ decisions, and whether ecosystem growth converts into durable ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: current ETH readings; September 11 ETF flows; the reported vessel strike; the Saudi pipeline shutdown and its recent 4–5 million-barrel-per-day role; unchanged Ethereum staking counters; and refreshed RWA, DeFi, and fee evidence. Uncertain: damage from the vessel strike, the pipeline reopening and export impact, oil and risk-asset reactions when markets reopen, the September Fed and BOJ decisions, whether the ETF inflow becomes a durable streak, and whether ecosystem growth converts into durable ETH-specific value capture."
   }
 }
