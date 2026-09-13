@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-11T12:35:47Z",
+  "evaluatedAt": "2026-09-13T12:43:52Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -18,21 +18,21 @@
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.91
+        "score": 0.92
       },
       "10000": {
         "status": "yellow",
-        "score": 0.65
+        "score": 0.66
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.12
+        "score": 0.1
       },
       "10000": {
         "status": "red",
-        "score": 0.08
+        "score": 0.06
       }
     },
     "regulation": {
@@ -78,11 +78,11 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.56
+        "score": 0.57
       },
       "10000": {
         "status": "red",
-        "score": 0.31
+        "score": 0.32
       }
     },
     "value-capture": {
@@ -108,15 +108,15 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-10",
+      "eth-etf-flow-2026-09-11",
       "bitmine-eth-holdings-2026-09-07",
-      "remixpoint-altcoin-exit-2026-09-02",
-      "standard-chartered-uae-eth-spot-2026-09-03"
+      "standard-chartered-uae-eth-spot-2026-09-03",
+      "remixpoint-altcoin-exit-2026-09-02"
     ],
     "macro": [
-      "global-liquidity-2026-09-11",
+      "global-liquidity-2026-09-13",
+      "us-cpi-fed-repricing-2026-09-11",
       "real-yield-10y-2026-09-09",
-      "us-jobs-fed-repricing-2026-09-04",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
     ],
@@ -126,12 +126,12 @@
       "clarity-nsa-neutral-2026-09-03"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-11",
-      "ethereum-defi-2026-09-11"
+      "ethereum-rwa-2026-09-13",
+      "ethereum-defi-2026-09-13"
     ],
     "staking": [
       "bitmine-staked-eth-2026-09-07",
-      "network-staking-2026-09-11"
+      "network-staking-2026-09-13"
     ],
     "protocol": [
       "glamsterdam-plataberget-testnet",
@@ -139,10 +139,10 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-11"
+      "eth-market-2026-09-13"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-11"
+      "eth-value-capture-2026-09-13"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -152,5 +152,5 @@
       "treasury-safety-premium-2026-09-03"
     ]
   },
-  "decision": "Held the $5K estimate at 64% and the $10K estimate at 34%. Brent near $109, a U.S. 10-year yield near 5%, and a 2.46% real yield deepen the already-red cyclical liquidity regime, but do not establish a new regime beyond the September 10 downgrade. A $29.9M ETF outflow modestly softens institutional momentum while cumulative net inflows remain strong at $13.166B. Ethereum's staking and tokenization footprint remains constructive, but direct L1 fee and revenue capture is still weak relative to application activity, preserving the explicit value-capture penalty for $10K. No catalyst crossed a color threshold."
+  "decision": "Held the $5K estimate at 64% and the $10K estimate at 34%. The September 11 U.S. spot ETH ETF session delivered a strong $216.4M net inflow with no fund outflows, supporting near-term institutional demand. That improvement is offset by the Saudi East-West pipeline shutdown, a fresh Strait of Hormuz vessel strike, Brent above $100, and an approximately 87% market-implied probability of a September Fed hike, which deepen the already-red cyclical liquidity regime. ETH remains near $2.52K and below market-confirmation levels. Ethereum's staking and tokenization footprint remains constructive, but direct L1 fee and revenue capture remains modest relative to application activity, preserving the explicit value-capture penalty for $10K. No catalyst crossed a color threshold."
 }
