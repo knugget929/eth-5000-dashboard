@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-13T05:18:00Z",
+  "researchedAt": "2026-09-13T16:18:00Z",
   "accessDate": "2026-09-13",
   "market": {
-    "ethUsd": 2520.97,
-    "change24h": 0.4,
-    "marketCapUsd": 307675402472,
-    "volume24hUsd": 7681085487.51,
+    "ethUsd": 2489.85,
+    "change24h": -1.7,
+    "marketCapUsd": 303871237806,
+    "volume24hUsd": 8702885577.17,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,520.97 and up about 0.4% over 24 hours, with a $307.68B market capitalization, $7.68B of volume, and a $2,509.99–$2,543.69 range. The move remained below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,489.85 and down about 1.7% over 24 hours, with a $303.87B market capitalization, $8.70B of volume, and a $2,464.63–$2,535.49 range. The move remained below the 5% alert threshold."
   },
   "observations": [
     {
@@ -617,47 +617,47 @@
       "id": "eth-market-2026-09-13",
       "catalyst": "market",
       "direction": "mixed",
-      "value": "$2,520.97 / +0.4% CoinGecko 24h",
-      "summary": "ETH traded near $2.52K on Sunday. CoinGecko showed a 0.4% 24-hour gain, a $2,509.99–$2,543.69 range, and a 0.4% seven-day gain. The market remained calm despite a further Middle East oil-supply escalation, and the move stayed well below the 5% notification threshold.",
+      "value": "$2,489.85 / -1.7% CoinGecko 24h",
+      "summary": "ETH traded near $2.49K on Sunday afternoon. CoinGecko showed a 1.7% 24-hour decline, a $2,464.63–$2,535.49 range, and a 0.1% seven-day decline. ETH weakened as weekend oil-supply risk escalated, but the move remained well below the 5% notification threshold.",
       "sourceIds": [
         "coingecko-eth",
         "reuters-hormuz-vessel-attack-2026-09-13"
       ],
       "confirmed": true,
-      "uncertainty": "Prices move continuously and venue-specific rolling windows can differ; oil and broader risk markets had not fully reopened when this snapshot was taken."
+      "uncertainty": "Prices move continuously and venue-specific rolling windows differ; global oil, bond, equity, and currency markets had not fully reopened when this snapshot was taken."
     },
     {
       "id": "global-liquidity-2026-09-13",
       "catalyst": "macro",
       "direction": "headwind",
-      "value": "Fresh Hormuz vessel strike / Saudi 4–5 mbpd pipeline still shut / Brent above $100",
-      "summary": "Reuters reported a projectile striking a vessel in the Strait of Hormuz after Saudi Arabia temporarily shut the East-West pipeline following a drone attack. The pipeline had been moving 4–5 million barrels per day, about 4%–5% of global supply, while Hormuz remained largely shut. This deepens the energy-inflation and global-liquidity headwind before the September Fed and BOJ decisions.",
+      "value": "Severe Saudi pipeline damage / only 5–7 days of export inventory / up to 4% of global supply at risk",
+      "summary": "Reuters's updated reporting said drone strikes knocked out Saudi Arabia's East-West pipeline, with repair estimates ranging from days to weeks. Saudi buyers and traders said Yanbu inventories could maintain exports for only five to seven days; after that, up to 4% of global oil supply could be jeopardized. A vessel was also struck in Hormuz, causing fire, evacuation, one reported death, and four injuries. The escalation materially deepens the energy-inflation and cyclical-liquidity headwind before the Fed and BOJ meetings.",
       "sourceIds": [
         "reuters-hormuz-vessel-attack-2026-09-13",
         "reuters-saudi-pipeline-2026-09-12",
         "reuters-us-cpi-2026-09-11"
       ],
       "confirmed": true,
-      "uncertainty": "The vessel's damage and crew status, the pipeline's reopening timetable, the effect on Saudi exports, responsibility for the attacks, and the oil-price reaction when markets reopen were not yet known."
+      "uncertainty": "Saudi Arabia has not disclosed the full damage or reopening timetable; repair estimates conflict, Monday's Oman talks may alter the shipping outlook, and global oil and bond markets had not yet priced the weekend developments."
     },
     {
       "id": "ethereum-rwa-2026-09-13",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$17.30B distributed RWA value / $15.76B 30d transfers / $159.95B stablecoins",
-      "summary": "RWA.xyz reported $17.30B of distributed tokenized real-world asset value on Ethereum, 270,879 RWA holders, and $15.76B of 30-day RWA transfer volume. Its Ethereum stablecoin measure stood at $159.95B with $2.39T of 30-day transfer volume, supporting the structural tokenization thesis even as distributed RWA value was down 1.14% over 30 days.",
+      "value": "$17.33B distributed RWA value / $8.49B 30d transfers / $160.14B stablecoins",
+      "summary": "RWA.xyz reported $17.33B of distributed tokenized real-world asset value on Ethereum, 271,182 RWA holders, and $8.49B of rolling 30-day RWA transfer volume. Its Ethereum stablecoin measure stood at $160.14B with $2.43T of 30-day transfer volume. The stablecoin and holder footprint remained structurally supportive, while the sharp rolling-window drop in RWA transfer volume warrants caution.",
       "sourceIds": [
         "rwa-ethereum"
       ],
       "confirmed": true,
-      "uncertainty": "RWA.xyz distinguishes distributed from represented value and uses a stablecoin methodology that differs from DefiLlama; ecosystem scale is not automatic ETH value capture."
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value and uses a stablecoin methodology that differs from DefiLlama; rolling transfer volume can change abruptly when a large prior-day observation exits the window, and ecosystem scale is not automatic ETH value capture."
     },
     {
       "id": "ethereum-defi-2026-09-13",
       "catalyst": "tokenization",
       "direction": "mixed",
-      "value": "$50.067B DeFi TVL / $147.274B stablecoins / +$12.75M 24h inflows",
-      "summary": "DefiLlama reported $50.067B of DeFi TVL on Ethereum, up 0.20% over 24 hours, with $147.274B of stablecoins, $698.71M of 24-hour DEX volume, $5.69M of app fees, 1.57M transactions, and $12.75M of net inflows. The footprint remained large, but seven-day DEX volume was down 2.0% and stablecoin market capitalization was down 0.38% over seven days.",
+      "value": "$49.534B DeFi TVL / $147.261B stablecoins / +$26.17M 24h inflows",
+      "summary": "DefiLlama reported $49.534B of DeFi TVL on Ethereum, down 0.86% over 24 hours, with $147.261B of stablecoins, $828.86M of 24-hour DEX volume, $5.61M of app fees, 1.57M transactions, and $26.17M of net inflows. The footprint remained large and inflows positive, but TVL and weekly DEX activity softened.",
       "sourceIds": [
         "defillama-ethereum"
       ],
@@ -668,8 +668,8 @@
       "id": "eth-value-capture-2026-09-13",
       "catalyst": "value-capture",
       "direction": "mixed",
-      "value": "$408,324 chain fees / $72,763 chain revenue / $5.69M app fees over 24h",
-      "summary": "DefiLlama reported $408,324 of Ethereum L1 chain fees and $72,763 of chain revenue over 24 hours, compared with $5.69M of application fees. Direct L1 economics remained modest relative to application activity, so Ethereum's ecosystem strength still does not by itself demonstrate the ETH-specific value capture required for the $10K thesis.",
+      "value": "$242,900 chain fees / $27,948 chain revenue / $5.61M app fees over 24h",
+      "summary": "DefiLlama reported $242,900 of Ethereum L1 chain fees and $27,948 of chain revenue over 24 hours, compared with $5.61M of application fees. Direct L1 economics weakened from the morning snapshot and remained modest relative to application activity, so ecosystem strength still does not by itself demonstrate the ETH-specific value capture required for the $10K thesis.",
       "sourceIds": [
         "defillama-ethereum",
         "coingecko-eth",
@@ -689,6 +689,20 @@
       ],
       "confirmed": true,
       "uncertainty": "The live counters can change as validators enter, exit, and earn rewards; the nominal APR comparison does not account for ETH price risk or potential ETH appreciation."
+    },
+    {
+      "id": "political-rate-pressure-debasement-2026-09-13",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Trump: U.S. should have world's lowest rate regardless of inflation data",
+      "summary": "President Trump said the United States should pay the lowest interest rate in the world regardless of what inflation and economic data indicate, days before the Fed meeting. The rhetoric strengthens the structural financial-repression and debasement narrative because it favors lower nominal financing costs despite persistent inflation, but it is not a Fed decision, QE, or evidence that real yields have already fallen.",
+      "sourceIds": [
+        "reuters-trump-lowest-rates-2026-09-13",
+        "reuters-us-cpi-2026-09-11",
+        "fed-home"
+      ],
+      "confirmed": true,
+      "uncertainty": "The statement is political preference, not monetary policy. Fed independence, the September decision, future inflation, real yields, the dollar, and any actual easing remain uncertain."
     }
   ],
   "sources": {
@@ -1053,20 +1067,30 @@
       "accessedAt": "2026-09-12"
     },
     "reuters-hormuz-vessel-attack-2026-09-13": {
-      "label": "Reuters: fresh vessel attack in Strait of Hormuz raises oil-supply fears",
+      "label": "Reuters: severe Saudi pipeline damage and fresh Hormuz vessel attack worsen oil disruption",
       "url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/",
+      "accessedAt": "2026-09-13"
+    },
+    "reuters-trump-lowest-rates-2026-09-13": {
+      "label": "Reuters: Trump says U.S. should have world's lowest interest rate",
+      "url": "https://www.reuters.com/world/us/ahead-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-2026-09-13/",
+      "accessedAt": "2026-09-13"
+    },
+    "reuters-saudi-shares-2026-09-13": {
+      "label": "Reuters: Saudi shares fall as pipeline outage threatens global oil supply",
+      "url": "https://www.reuters.com/world/middle-east/saudi-shares-drop-after-drone-attacks-target-key-oil-pipeline-2026-09-13/",
       "accessedAt": "2026-09-13"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH was up about 0.4% over 24 hours on CoinGecko, below the 5% notification threshold.",
+      "ETH was down about 1.7% over 24 hours on CoinGecko, below the 5% notification threshold.",
       "The latest completed U.S. spot ETH ETF session remained September 11's strong $216.4M net inflow; no weekend session supplied a new institutional-flow data point.",
-      "A fresh vessel strike in the Strait of Hormuz after the Saudi East-West pipeline shutdown deepened the energy-inflation and cyclical-liquidity headwind, but ETH had not reacted with an alert-sized move.",
-      "Ethereum staking remained stable, RWA and DeFi activity remained structurally large, and direct L1 fee capture remained modest relative to application economics.",
-      "No new official Ethereum Foundation or SEC action on September 13 materially changed the protocol or regulatory thesis."
+      "Updated reporting materially deepened the oil-supply and cyclical-liquidity headwind: severe Saudi pipeline damage could jeopardize up to 4% of global supply after five to seven days, but global markets had not fully reopened.",
+      "Political pressure for the world's lowest U.S. interest rates strengthens the long-run debasement narrative, but it is rhetoric rather than Fed policy, QE, or falling real yields.",
+      "Ethereum staking stayed stable; RWA and DeFi activity remained structurally large; direct L1 fee capture remained modest; and no new official Ethereum Foundation or SEC action changed the protocol or regulatory thesis."
     ],
-    "confirmedVsUncertain": "Confirmed: current ETH readings; September 11 ETF flows; the reported vessel strike; the Saudi pipeline shutdown and its recent 4–5 million-barrel-per-day role; unchanged Ethereum staking counters; and refreshed RWA, DeFi, and fee evidence. Uncertain: damage from the vessel strike, the pipeline reopening and export impact, oil and risk-asset reactions when markets reopen, the September Fed and BOJ decisions, whether the ETF inflow becomes a durable streak, and whether ecosystem growth converts into durable ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: ETH's current sub-5% move; September 11 ETF flows; the updated Saudi pipeline damage and inventory estimates reported by Reuters; the Hormuz vessel strike and crew evacuation; President Trump's low-rate statement; unchanged staking counters; and refreshed RWA, DeFi, and fee evidence. Uncertain: pipeline repair time and export losses, Monday's Oman talks, oil and bond-market reactions, Fed and BOJ decisions, whether political pressure affects policy, whether the ETF inflow becomes durable, and whether ecosystem growth converts into ETH-specific value capture."
   }
 }
