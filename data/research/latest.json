@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-14T04:39:00Z",
+  "researchedAt": "2026-09-14T15:56:00Z",
   "accessDate": "2026-09-14",
   "market": {
-    "ethUsd": 2511.82,
-    "change24h": -0.4,
-    "marketCapUsd": 306560435212,
-    "volume24hUsd": 10883375733.1,
+    "ethUsd": 2508.18,
+    "change24h": 0.8,
+    "marketCapUsd": 306266464079,
+    "volume24hUsd": 12658282211.61,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,511.82 and down about 0.4% over 24 hours, with a $306.56B market capitalization, $10.88B of volume, and a $2,464.63–$2,522.92 range. The move remained below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,508.18 and up about 0.8% over 24 hours, with a $306.27B market capitalization, $12.66B of volume, and a $2,467.86–$2,531.64 range. The move remained below the 5% alert threshold."
   },
   "observations": [
     {
@@ -708,27 +708,28 @@
       "id": "eth-market-2026-09-14",
       "catalyst": "market",
       "direction": "mixed",
-      "value": "$2,511.82 / about -0.4% CoinGecko 24h",
-      "summary": "ETH traded near $2.51K as global markets reopened into higher oil prices and rising Fed- and BOJ-hike expectations. CoinGecko showed a modest 0.4% 24-hour decline and a $2,464.63–$2,522.92 range, leaving the price move well below the 5% alert threshold.",
+      "value": "$2,508.18 / about +0.8% CoinGecko 24h",
+      "summary": "ETH traded near $2.51K and gained about 0.8% over 24 hours even as U.S. equities weakened, oil and bond yields rose, and Fed-hike pricing increased. CoinGecko showed a $2,467.86–$2,531.64 range and 24-hour volume up materially from the morning snapshot, but the price move remained well below the 5% alert threshold.",
       "sourceIds": [
         "coingecko-eth",
-        "reuters-global-markets-2026-09-14"
+        "reuters-wall-street-2026-09-14"
       ],
       "confirmed": true,
-      "uncertainty": "Crypto prices and rolling 24-hour changes move continuously; the U.S. cash session had not yet opened."
+      "uncertainty": "Crypto prices and rolling 24-hour changes move continuously; the U.S. session was still in progress."
     },
     {
       "id": "global-liquidity-2026-09-14",
       "catalyst": "macro",
       "direction": "headwind",
-      "value": "Brent $107.36 / U.S. 10Y 4.974% / Fed-hike odds 86% / BOJ-hike odds 76%",
-      "summary": "Reuters reported Brent up 2.6% to $107.36 after attacks on Saudi infrastructure and Gulf shipping, while the U.S. 10-year yield held near 4.974%. Markets priced an 86% chance of a 25-basis-point Fed hike on September 16 and roughly 76% odds of a BOJ hike on September 18. This keeps the cyclical liquidity regime restrictive for ETH even though the token's overnight price response was limited.",
+      "value": "Brent $108.83 / U.S. 10Y near 5% / Fed-hike odds nearly 89%",
+      "summary": "The cyclical liquidity headwind intensified during the U.S. session. Reuters reported Brent up about 4% to $108.83, the 10-year Treasury yield around 5%, a stronger safe-haven dollar, and traders assigning nearly 89% odds to a Fed hike on September 16. ETH remained resilient near $2.51K, but the higher-yield, stronger-dollar, energy-inflation mix is adverse for risk-asset liquidity.",
       "sourceIds": [
-        "reuters-global-markets-2026-09-14",
-        "reuters-dollar-fed-boj-2026-09-14"
+        "reuters-wall-street-2026-09-14",
+        "reuters-sterling-dollar-2026-09-14",
+        "reuters-global-markets-2026-09-14"
       ],
       "confirmed": true,
-      "uncertainty": "Oil, yields, currencies, and policy odds move continuously. Neither central bank has made its decision, and the duration of the energy disruption remains unknown."
+      "uncertainty": "Oil, yields, currencies, and policy odds move continuously. The Fed has not made its decision, and the duration of the energy disruption remains unknown."
     },
     {
       "id": "network-staking-2026-09-14",
@@ -796,11 +797,11 @@
       "id": "debasement-market-2026-09-14",
       "catalyst": "debasement",
       "direction": "mixed",
-      "value": "Dollar index 99.22 / U.S. 10Y 4.974% / gold $4,347",
-      "summary": "The structural fiscal and political case for eventual financial repression remains intact, but current market expression is not a clean debasement regime. Reuters reported a firmer dollar index at 99.22, a 10-year Treasury yield near 4.974%, and gold flat near $4,347 as high real and nominal yields competed with scarce assets.",
+      "value": "U.S. 10Y near 5% / Brent $108.83 / safe-haven dollar stronger",
+      "summary": "The structural fiscal and political case for eventual financial repression remains intact, but current price action still reflects a tightening shock rather than a clean debasement trade. Oil near $109, a 10-year Treasury yield around 5%, and safe-haven dollar demand raise the near-term opportunity cost of ETH even as they worsen longer-run debt-service pressures.",
       "sourceIds": [
-        "reuters-dollar-fed-boj-2026-09-14",
-        "reuters-global-markets-2026-09-14",
+        "reuters-wall-street-2026-09-14",
+        "reuters-sterling-dollar-2026-09-14",
         "cbo-2026-outlook"
       ],
       "confirmed": true,
@@ -1197,17 +1198,27 @@
       "label": "Reuters: shares drop as oil rises and Fed and BOJ hikes loom",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-13/",
       "accessedAt": "2026-09-14"
+    },
+    "reuters-wall-street-2026-09-14": {
+      "label": "Reuters: Wall Street falls as oil and Fed-hike expectations rise",
+      "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/",
+      "accessedAt": "2026-09-14"
+    },
+    "reuters-sterling-dollar-2026-09-14": {
+      "label": "Reuters: oil jump and rate expectations boost the dollar",
+      "url": "https://www.reuters.com/business/sterling-hits-one-month-low-oil-price-jump-boosts-dollar-2026-09-14/",
+      "accessedAt": "2026-09-14"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH was down about 0.4% over 24 hours on CoinGecko, below the 5% notification threshold.",
-      "The latest completed U.S. spot ETH ETF session remained September 11's $216.4M net inflow; no weekend session added a new flow print.",
-      "Ethereum.org's live counter rose to 43.07M ETH staked, or 35% of supply, and BlackRock's staking-enabled ETHB product showed $1.052B of net assets.",
-      "Brent near $107.36, the U.S. 10-year yield near 4.974%, and high Fed- and BOJ-hike odds intensified the cyclical-liquidity headwind without triggering an alert-sized ETH move.",
-      "No new official Ethereum Foundation or SEC action materially changed the protocol or regulatory thesis; DeFi, RWA, and value-capture readings remained directionally consistent."
+      "ETH was up about 0.8% over 24 hours on CoinGecko, below the 5% notification threshold.",
+      "Farside's September 14 row remained unfinalized at 0.0 with all issuer fields blank; September 11's $216.4M inflow remained the latest completed ETF session.",
+      "The official staking counter remained 43.07M ETH, or 35% of supply, while no new major institutional ETH announcement appeared.",
+      "Brent near $108.83, the U.S. 10-year yield around 5%, a stronger dollar, and nearly 89% Fed-hike odds deepened the cyclical-liquidity headwind, but ETH remained comparatively stable.",
+      "No new official Ethereum Foundation or SEC action materially changed the protocol or regulatory thesis; morning RWA, DeFi, and value-capture readings remained current."
     ],
-    "confirmedVsUncertain": "Confirmed: the current sub-5% ETH move; September 11 ETF flows; Ethereum.org's 43.07M ETH and 35% staking counters; BlackRock ETHB's September 11 fund facts; current RWA and DeFi metrics; and Reuters' oil, yield, dollar, and policy-pricing data. Uncertain: the duration of Gulf energy disruptions, the September Fed and BOJ decisions, whether ETF demand persists, whether the staking increase is sustained, and whether ecosystem growth converts into durable ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: the current sub-5% ETH move; Farside's still-unfinalized September 14 ETF row; unchanged official staking data; Reuters' intraday oil, bond-yield, dollar, equity, and Fed-pricing readings; and the absence of a newer Ethereum Foundation or SEC release. Uncertain: final September 14 ETF flows, the Fed decision and guidance, the duration of Gulf energy disruptions, and whether the relatively calm ETH response persists after the U.S. close."
   }
 }
