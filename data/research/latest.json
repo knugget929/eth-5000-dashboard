@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-13T16:18:00Z",
-  "accessDate": "2026-09-13",
+  "researchedAt": "2026-09-14T04:39:00Z",
+  "accessDate": "2026-09-14",
   "market": {
-    "ethUsd": 2489.85,
-    "change24h": -1.7,
-    "marketCapUsd": 303871237806,
-    "volume24hUsd": 8702885577.17,
+    "ethUsd": 2511.82,
+    "change24h": -0.4,
+    "marketCapUsd": 306560435212,
+    "volume24hUsd": 10883375733.1,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,489.85 and down about 1.7% over 24 hours, with a $303.87B market capitalization, $8.70B of volume, and a $2,464.63–$2,535.49 range. The move remained below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,511.82 and down about 0.4% over 24 hours, with a $306.56B market capitalization, $10.88B of volume, and a $2,464.63–$2,522.92 range. The move remained below the 5% alert threshold."
   },
   "observations": [
     {
@@ -703,13 +703,115 @@
       ],
       "confirmed": true,
       "uncertainty": "The statement is political preference, not monetary policy. Fed independence, the September decision, future inflation, real yields, the dollar, and any actual easing remain uncertain."
+    },
+    {
+      "id": "eth-market-2026-09-14",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,511.82 / about -0.4% CoinGecko 24h",
+      "summary": "ETH traded near $2.51K as global markets reopened into higher oil prices and rising Fed- and BOJ-hike expectations. CoinGecko showed a modest 0.4% 24-hour decline and a $2,464.63–$2,522.92 range, leaving the price move well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-global-markets-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Crypto prices and rolling 24-hour changes move continuously; the U.S. cash session had not yet opened."
+    },
+    {
+      "id": "global-liquidity-2026-09-14",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $107.36 / U.S. 10Y 4.974% / Fed-hike odds 86% / BOJ-hike odds 76%",
+      "summary": "Reuters reported Brent up 2.6% to $107.36 after attacks on Saudi infrastructure and Gulf shipping, while the U.S. 10-year yield held near 4.974%. Markets priced an 86% chance of a 25-basis-point Fed hike on September 16 and roughly 76% odds of a BOJ hike on September 18. This keeps the cyclical liquidity regime restrictive for ETH even though the token's overnight price response was limited.",
+      "sourceIds": [
+        "reuters-global-markets-2026-09-14",
+        "reuters-dollar-fed-boj-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil, yields, currencies, and policy odds move continuously. Neither central bank has made its decision, and the duration of the energy disruption remains unknown."
+    },
+    {
+      "id": "network-staking-2026-09-14",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,069,664 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters showed 43.07M ETH staked, equal to 35% of supply, at a current APR near 2.5%. That is about 436,705 ETH more than the September 13 reading and moves the displayed participation share from 34% to 35%, strengthening the supply-locking and productive-capital evidence.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change with deposits, exits, and rewards; the comparison uses successive snapshots rather than a formal daily flow series."
+    },
+    {
+      "id": "blackrock-ethb-2026-09-11",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "$1.052B net assets / 1.52% 30-day staking rewards rate",
+      "summary": "BlackRock reported $1.052B of net assets in its iShares Staked Ethereum Trust ETF as of September 11, with a 1.52% 30-day staking rewards rate and 32.16M shares outstanding. The product provides direct evidence that regulated, staking-enabled ETH exposure has reached billion-dollar scale.",
+      "sourceIds": [
+        "blackrock-ethb"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fund assets vary with ETH price and creations or redemptions; the 30-day reward rate is backward-looking and below the network's headline APR after product structure and expenses."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-14",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.33B distributed RWA value / $8.49B 30d RWA transfers / $160.14B stablecoins",
+      "summary": "RWA.xyz reported $17.33B of distributed tokenized real-world asset value on Ethereum, 271,182 RWA holders, and $8.49B of 30-day RWA transfer volume. Its Ethereum stablecoin measure was $160.14B with $2.38T of 30-day stablecoin transfers, reinforcing Ethereum's large tokenized-finance footprint despite weaker rolling RWA transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented assets, and its stablecoin methodology differs from DefiLlama. Thirty-day transfer volumes can change sharply and do not automatically translate into ETH demand."
+    },
+    {
+      "id": "ethereum-defi-2026-09-14",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$49.498B TVL / $147.351B stablecoins / +$7.08M 24h inflows",
+      "summary": "DefiLlama reported $49.498B of Ethereum DeFi TVL, down 1.11% over 24 hours, with $147.351B of stablecoins, $707.23M of 24-hour DEX volume, $4.91M of application fees, 1.48M transactions, and $7.08M of net bridge inflows. The footprint remains structurally large, but activity and TVL were softer.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are volatile and price-sensitive; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-14",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$238,171 chain fees / $27,995 chain revenue / $4.91M app fees over 24h",
+      "summary": "DefiLlama reported $238,171 of Ethereum L1 chain fees and $27,995 of chain revenue over 24 hours versus $4.91M of application fees. Rising staking participation improves ETH's productive-capital case, but direct L1 fee capture remained modest relative to application economics.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "ethereum-staking",
+        "ethereum-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fees are volatile and only one part of ETH value capture, which also includes staking, collateral, settlement, blobs, scarcity, and monetary demand."
+    },
+    {
+      "id": "debasement-market-2026-09-14",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Dollar index 99.22 / U.S. 10Y 4.974% / gold $4,347",
+      "summary": "The structural fiscal and political case for eventual financial repression remains intact, but current market expression is not a clean debasement regime. Reuters reported a firmer dollar index at 99.22, a 10-year Treasury yield near 4.974%, and gold flat near $4,347 as high real and nominal yields competed with scarce assets.",
+      "sourceIds": [
+        "reuters-dollar-fed-boj-2026-09-14",
+        "reuters-global-markets-2026-09-14",
+        "cbo-2026-outlook"
+      ],
+      "confirmed": true,
+      "uncertainty": "The market levels are live and the structural conclusion is an analytical interpretation; this does not establish imminent QE, fiscal dominance, or ETH-specific monetary demand."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-13"
+      "accessedAt": "2026-09-14"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -724,7 +826,7 @@
     "farside-eth-etf": {
       "label": "Farside Ethereum ETF flows",
       "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
-      "accessedAt": "2026-09-13"
+      "accessedAt": "2026-09-14"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -734,7 +836,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-13"
+      "accessedAt": "2026-09-14"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -759,12 +861,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum network dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-13"
+      "accessedAt": "2026-09-14"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-13"
+      "accessedAt": "2026-09-14"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -844,12 +946,12 @@
     "ethereum-blog-index": {
       "label": "Ethereum Foundation Blog index",
       "url": "https://blog.ethereum.org/",
-      "accessedAt": "2026-09-13"
+      "accessedAt": "2026-09-14"
     },
     "sec-press-releases": {
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "accessedAt": "2026-09-13"
+      "accessedAt": "2026-09-14"
     },
     "coinmarketcap-eth": {
       "label": "CoinMarketCap Ethereum market data",
@@ -1080,17 +1182,32 @@
       "label": "Reuters: Saudi shares fall as pipeline outage threatens global oil supply",
       "url": "https://www.reuters.com/world/middle-east/saudi-shares-drop-after-drone-attacks-target-key-oil-pipeline-2026-09-13/",
       "accessedAt": "2026-09-13"
+    },
+    "blackrock-ethb": {
+      "label": "BlackRock iShares Staked Ethereum Trust ETF",
+      "url": "https://www.blackrock.com/us/individual/products/348532/ishares-staked-ethereum-trust-etf",
+      "accessedAt": "2026-09-14"
+    },
+    "reuters-dollar-fed-boj-2026-09-14": {
+      "label": "Reuters: dollar firms as markets brace for Fed and BOJ meetings",
+      "url": "https://www.reuters.com/world/asia-pacific/dollar-steady-yen-near-7-month-high-ahead-fed-boj-meetings-2026-09-14/",
+      "accessedAt": "2026-09-14"
+    },
+    "reuters-global-markets-2026-09-14": {
+      "label": "Reuters: shares drop as oil rises and Fed and BOJ hikes loom",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-13/",
+      "accessedAt": "2026-09-14"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH was down about 1.7% over 24 hours on CoinGecko, below the 5% notification threshold.",
-      "The latest completed U.S. spot ETH ETF session remained September 11's strong $216.4M net inflow; no weekend session supplied a new institutional-flow data point.",
-      "Updated reporting materially deepened the oil-supply and cyclical-liquidity headwind: severe Saudi pipeline damage could jeopardize up to 4% of global supply after five to seven days, but global markets had not fully reopened.",
-      "Political pressure for the world's lowest U.S. interest rates strengthens the long-run debasement narrative, but it is rhetoric rather than Fed policy, QE, or falling real yields.",
-      "Ethereum staking stayed stable; RWA and DeFi activity remained structurally large; direct L1 fee capture remained modest; and no new official Ethereum Foundation or SEC action changed the protocol or regulatory thesis."
+      "ETH was down about 0.4% over 24 hours on CoinGecko, below the 5% notification threshold.",
+      "The latest completed U.S. spot ETH ETF session remained September 11's $216.4M net inflow; no weekend session added a new flow print.",
+      "Ethereum.org's live counter rose to 43.07M ETH staked, or 35% of supply, and BlackRock's staking-enabled ETHB product showed $1.052B of net assets.",
+      "Brent near $107.36, the U.S. 10-year yield near 4.974%, and high Fed- and BOJ-hike odds intensified the cyclical-liquidity headwind without triggering an alert-sized ETH move.",
+      "No new official Ethereum Foundation or SEC action materially changed the protocol or regulatory thesis; DeFi, RWA, and value-capture readings remained directionally consistent."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH's current sub-5% move; September 11 ETF flows; the updated Saudi pipeline damage and inventory estimates reported by Reuters; the Hormuz vessel strike and crew evacuation; President Trump's low-rate statement; unchanged staking counters; and refreshed RWA, DeFi, and fee evidence. Uncertain: pipeline repair time and export losses, Monday's Oman talks, oil and bond-market reactions, Fed and BOJ decisions, whether political pressure affects policy, whether the ETF inflow becomes durable, and whether ecosystem growth converts into ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: the current sub-5% ETH move; September 11 ETF flows; Ethereum.org's 43.07M ETH and 35% staking counters; BlackRock ETHB's September 11 fund facts; current RWA and DeFi metrics; and Reuters' oil, yield, dollar, and policy-pricing data. Uncertain: the duration of Gulf energy disruptions, the September Fed and BOJ decisions, whether ETF demand persists, whether the staking increase is sustained, and whether ecosystem growth converts into durable ETH-specific value capture."
   }
 }
