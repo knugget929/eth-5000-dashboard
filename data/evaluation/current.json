@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-14T12:50:23Z",
+  "evaluatedAt": "2026-09-15T12:26:52Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -18,7 +18,7 @@
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.92
+        "score": 0.93
       },
       "10000": {
         "status": "yellow",
@@ -28,11 +28,11 @@
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.09
+        "score": 0.07
       },
       "10000": {
         "status": "red",
-        "score": 0.05
+        "score": 0.03
       }
     },
     "regulation": {
@@ -48,11 +48,11 @@
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.79
+        "score": 0.78
       },
       "10000": {
         "status": "yellow",
-        "score": 0.59
+        "score": 0.58
       }
     },
     "staking": {
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.57
+        "score": 0.56
       },
       "10000": {
         "status": "red",
-        "score": 0.32
+        "score": 0.31
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.52
+        "score": 0.53
       },
       "10000": {
         "status": "red",
-        "score": 0.28
+        "score": 0.29
       }
     },
     "debasement": {
@@ -108,42 +108,44 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-11",
-      "blackrock-ethb-2026-09-11",
+      "eth-etf-flow-2026-09-14",
+      "blackrock-ethb-2026-09-14",
       "bitmine-eth-holdings-2026-09-07",
       "standard-chartered-uae-eth-spot-2026-09-03"
     ],
     "macro": [
-      "global-liquidity-2026-09-14",
+      "global-liquidity-2026-09-15",
       "us-cpi-fed-repricing-2026-09-11",
       "real-yield-10y-2026-09-09",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
     ],
     "regulation": [
-      "sec-regulation-crypto-assets-proposal",
+      "clarity-final-text-2026-09-15",
       "clarity-act-motion-to-proceed",
-      "clarity-nsa-neutral-2026-09-03"
+      "clarity-nsa-neutral-2026-09-03",
+      "sec-status-2026-09-15"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-14",
-      "ethereum-defi-2026-09-14"
+      "ethereum-rwa-2026-09-15",
+      "ethereum-defi-2026-09-15"
     ],
     "staking": [
-      "network-staking-2026-09-14",
-      "blackrock-ethb-2026-09-11",
+      "network-staking-2026-09-15",
+      "blackrock-ethb-2026-09-14",
       "bitmine-staked-eth-2026-09-07"
     ],
     "protocol": [
       "glamsterdam-plataberget-testnet",
       "ethrex-privacy-eips-testnet-2026-09-05",
-      "ef-protocol-priorities-hegota-2026-09-07"
+      "ef-protocol-priorities-hegota-2026-09-07",
+      "protocol-status-2026-09-15"
     ],
     "market": [
-      "eth-market-2026-09-14"
+      "eth-market-2026-09-15"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-14"
+      "eth-value-capture-2026-09-15"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -153,5 +155,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 64% and the $10K estimate at 34%. Ethereum staking rose to 43.07M ETH, or 35% of supply, and BlackRock's staking-enabled ETHB reached $1.052B of net assets, strengthening productive-capital and regulated-product evidence. That improvement is offset by Brent near $107.36, the U.S. 10-year yield near 4.974%, and high Fed- and BOJ-hike odds, which keep cyclical liquidity deeply adverse. Tokenized-finance scale remains large but activity softened, while roughly $238K of daily L1 fees and $28K of chain revenue versus $4.91M of application fees preserve the explicit value-capture penalty for $10K. Political pressure for lower rates supports the separate structural debasement narrative, but it is not a Fed decision or evidence of falling real yields. No catalyst crossed a color threshold."
+  "decision": "Held the $5K estimate at 64% and the $10K estimate at 34%. U.S. spot ETH ETFs added $121.1M on September 14 and BlackRock's staking-enabled ETHB reached $1.070B, strengthening the $5K institutional case without yet proving the broad, multi-year allocation required for $10K. ETH briefly traded above $2,600 but reversed to about $2,484, leaving market confirmation absent. Brent near $107, a 10-year Treasury yield above 5%, a firmer dollar, and roughly 93% Fed-hike pricing deepen the already-red cyclical liquidity regime. Revised CLARITY Act text is constructive but remains short of a successful procedural vote or final law. Ethereum's staking and tokenized-finance footprint remains large, while direct L1 economics remain too small relative to application fees to clear the $10K value-capture hurdle. No catalyst crossed a color threshold."
 }
