@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-15T05:28:00Z",
+  "researchedAt": "2026-09-15T15:42:00Z",
   "accessDate": "2026-09-15",
   "market": {
-    "ethUsd": 2483.86,
-    "change24h": -1.2,
-    "marketCapUsd": 303058909598,
-    "volume24hUsd": 16413381513.56,
+    "ethUsd": 2410.64,
+    "change24h": -3.7,
+    "marketCapUsd": 294219535102,
+    "volume24hUsd": 17551964245.82,
     "sourceIds": [
       "coingecko-eth",
       "coindesk-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,483.86 and down about 1.2% over 24 hours after trading as high as $2,607.56, with a $303.06B market capitalization and $16.41B of volume. CoinDesk independently showed $2,483.76 and -1.26%. ETH therefore did print above $2,600 intraday, but the rolling 24-hour move did not reach the 5% alert threshold and the breakout had reversed by the research cutoff."
+    "note": "CoinGecko showed ETH near $2,410.64 and down 3.7% over 24 hours, with a $294.22B market capitalization, $17.55B of volume, and a $2,390.89–$2,607.56 range. The earlier print above $2,600 was followed by a sharp reversal, but the rolling 24-hour decline remained below the 5% alert threshold."
   },
   "observations": [
     {
@@ -811,15 +811,15 @@
     {
       "id": "eth-market-2026-09-15",
       "catalyst": "market",
-      "direction": "mixed",
-      "value": "$2,483.86 / -1.2% 24h / $2,607.56 intraday high",
-      "summary": "ETH briefly traded above $2,600, confirming the user's observation, but reversed to about $2,484 by the research cutoff. CoinGecko's rolling 24-hour range was $2,481.76–$2,607.56 and its 24-hour return was -1.2%; CoinDesk showed -1.26%. The episode is a sharp intraday rejection rather than a sustained 5% 24-hour rally.",
+      "direction": "headwind",
+      "value": "$2,410.64 / -3.7% 24h / $2,390.89–$2,607.56 range",
+      "summary": "ETH's earlier move above $2,600 fully reversed, with CoinGecko showing about $2,411 and -3.7% over 24 hours by the afternoon cutoff. The $217 intraday range and 40% day-over-day increase in trading volume show materially elevated volatility, but the rolling decline had not reached the 5% alert threshold.",
       "sourceIds": [
         "coingecko-eth",
         "coindesk-eth"
       ],
       "confirmed": true,
-      "uncertainty": "Crypto prices and rolling 24-hour percentages update continuously. The $2,600 print is confirmed, but its immediate cause cannot be established from price data alone."
+      "uncertainty": "Prices and rolling returns update continuously. Broad risk-off conditions are consistent with the reversal, but price data alone cannot prove a single cause."
     },
     {
       "id": "eth-etf-flow-2026-09-14",
@@ -861,27 +861,28 @@
       "id": "clarity-final-text-2026-09-15",
       "catalyst": "regulation",
       "direction": "mixed",
-      "value": "Revised text with 126 requested changes / procedural vote pending",
-      "summary": "Senate sponsors released revised CLARITY Act text that they said incorporated 126 substantive changes requested by Democrats, including stronger officeholder-ethics provisions. Reuters reported that it was still unclear whether the bill had the 60 votes needed for the September 15 procedural vote, while bank groups remained opposed to stablecoin-rewards language. The Senate floor schedule confirms the cloture motion ripens September 15.",
+      "value": "60-vote procedural test expected shortly after 2 p.m. EDT",
+      "summary": "Reuters reported that the Senate's CLARITY Act procedural vote was expected shortly after 2 p.m. EDT. At the research cutoff, no outcome had been published. The revised bill would tighten officeholder-conflict rules, but bank groups continued to oppose its treatment of stablecoin rewards.",
       "sourceIds": [
-        "reuters-clarity-2026-09-14",
+        "reuters-clarity-vote-2026-09-15",
         "senate-floor-clarity-2026-09-15"
       ],
       "confirmed": true,
-      "uncertainty": "The revised text and scheduled procedural step are confirmed; passage, vote timing within the permitted window, final language, and enactment remain uncertain."
+      "uncertainty": "The vote outcome, subsequent amendment process, final text, and enactment remain unresolved."
     },
     {
       "id": "global-liquidity-2026-09-15",
       "catalyst": "macro",
       "direction": "headwind",
-      "value": "Brent $106.93 / U.S. 10Y above 5% / 93% Fed-hike probability / DXY 99.55",
-      "summary": "Reuters reported Brent near $106.93 after attacks disrupted Saudi energy infrastructure, the 10-year Treasury yield above 5%, the dollar index near a two-week high at 99.55, and Fed-funds markets assigning about a 93% probability to a September 16 rate increase. These conditions raise ETH's opportunity cost and tighten global financial conditions.",
+      "value": "Brent $107.73 / U.S. 10Y 5.0019% / 93% Fed-hike probability",
+      "summary": "Reuters reported Brent at $107.73, the 10-year Treasury yield at about 5.002% after reaching its highest level since 2007, and traders assigning a 93% probability to a September 16 Fed rate increase. Stocks weakened and ETH reversed sharply, consistent with a hostile cyclical-liquidity backdrop.",
       "sourceIds": [
         "reuters-oil-2026-09-15",
+        "reuters-wall-street-2026-09-15",
         "reuters-dollar-fed-2026-09-15"
       ],
       "confirmed": true,
-      "uncertainty": "Market levels and policy probabilities move continuously. The Fed has not yet announced its decision, and the duration of the Saudi pipeline disruption is unknown."
+      "uncertainty": "Market levels and policy probabilities move continuously. The Fed decision and forward guidance remain pending, and the duration of the oil-supply disruption is uncertain."
     },
     {
       "id": "ethereum-rwa-2026-09-15",
@@ -944,6 +945,18 @@
       ],
       "confirmed": true,
       "uncertainty": "The index can update later in the day; the proposal's final terms and adoption timetable remain unresolved."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-15",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "September 15 row unfinalized at 0.0 / September 14 +$121.1M",
+      "summary": "Farside's September 15 row remained blank across issuers and displayed 0.0, so no same-day ETF conclusion was available. September 14's $121.1M inflow remained the latest completed session, with cumulative net inflows at about $13.503B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "The September 15 row is an unfinalized placeholder and can change as issuer data is posted."
     }
   ],
   "sources": {
@@ -1376,17 +1389,27 @@
       "label": "Ethereum Foundation: Protocol Reddit AMA announcement",
       "url": "https://blog.ethereum.org/2026/09/09/reddit-ama",
       "accessedAt": "2026-09-15"
+    },
+    "reuters-clarity-vote-2026-09-15": {
+      "label": "Reuters: U.S. Senate to vote on advancing landmark crypto bill",
+      "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/",
+      "accessedAt": "2026-09-15"
+    },
+    "reuters-wall-street-2026-09-15": {
+      "label": "Reuters: Wall Street wobbles as oil and Treasury yields rise",
+      "url": "https://www.reuters.com/business/wall-st-futures-slip-rising-oil-treasury-yields-compound-ai-anxiety-2026-09-15/",
+      "accessedAt": "2026-09-15"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH did trade above $2,600 intraday, but CoinGecko showed about -1.2% over the rolling 24 hours at the research cutoff, below the 5% notification threshold.",
-      "The $2,607.56 high reversed rapidly to about $2,484, making this a volatility and failed-breakout observation rather than a sustained price alert.",
-      "September 14 U.S. spot ETH ETF flows finalized at a supportive +$121.1M, and BlackRock ETHB reached about $1.070B in net assets, but neither development alone is a major thesis-changing event.",
-      "The revised CLARITY Act text and pending cloture vote are material evidence, but the procedural outcome is not yet known.",
-      "Oil near $107, a 10-year Treasury yield above 5%, a firmer dollar, and roughly 93% Fed-hike pricing remain major cyclical headwinds; no new thesis-breaking event or major Ethereum protocol announcement was confirmed."
+      "ETH fell to about $2,410.64 and -3.7% over 24 hours after trading above $2,600, a sharp reversal but still below the 5% notification threshold.",
+      "The September 15 ETF row remained unfinalized; September 14's +$121.1M inflow remained the latest confirmed institutional-flow reading.",
+      "The CLARITY Act vote was imminent but had not occurred by the cutoff, so no regulatory outcome could yet be recorded.",
+      "Brent near $107.73, the 10-year Treasury yield around 5.002%, and 93% Fed-hike pricing reinforced the existing macro headwind without creating a new thesis-breaking event.",
+      "No new official Ethereum Foundation protocol release or crypto-specific SEC action appeared."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH's intraday print above $2,600 and reversal to about $2,484; a sub-5% rolling 24-hour move; September 14's +$121.1M ETF inflow; ETHB's $1.070B net assets and 1.53% staking rate; 43.108M ETH staked; revised CLARITY text and a pending procedural vote; and the latest macro, DeFi, RWA, SEC, and EF snapshots. Uncertain: the cause and durability of the intraday ETH spike, the CLARITY vote outcome, the Fed decision and guidance, and the duration of energy-market disruptions."
+    "confirmedVsUncertain": "Confirmed: ETH's reversal from above $2,600 to about $2,411, a -3.7% rolling 24-hour move, the unfinalized September 15 ETF row, the scheduled CLARITY procedural vote, and the latest oil, yield, equity, and Fed-pricing readings. Uncertain: the final September 15 ETF flows, the CLARITY vote outcome, the Fed decision and guidance, and whether ETH's decline reaches or recovers from the 5% alert threshold later."
   }
 }
