@@ -1,68 +1,68 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-15T12:26:52Z",
+  "evaluatedAt": "2026-09-16T12:54:00Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 64,
+      "probability": 61,
       "trend": "weaker",
-      "weightedSignal": 63
+      "weightedSignal": 58
     },
     "10000": {
-      "probability": 34,
+      "probability": 31,
       "trend": "weaker",
-      "weightedSignal": 45
+      "weightedSignal": 42
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.93
+        "score": 0.9
       },
       "10000": {
         "status": "yellow",
-        "score": 0.66
+        "score": 0.64
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.07
+        "score": 0.04
       },
       "10000": {
         "status": "red",
-        "score": 0.03
+        "score": 0.02
       }
     },
     "regulation": {
       "5000": {
-        "status": "yellow",
-        "score": 0.66
+        "status": "red",
+        "score": 0.36
       },
       "10000": {
-        "status": "yellow",
-        "score": 0.56
+        "status": "red",
+        "score": 0.35
       }
     },
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.78
+        "score": 0.76
       },
       "10000": {
         "status": "yellow",
-        "score": 0.58
+        "score": 0.57
       }
     },
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.74
+        "score": 0.75
       },
       "10000": {
         "status": "yellow",
-        "score": 0.63
+        "score": 0.64
       }
     },
     "protocol": {
@@ -78,11 +78,11 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.56
+        "score": 0.51
       },
       "10000": {
         "status": "red",
-        "score": 0.31
+        "score": 0.27
       }
     },
     "value-capture": {
@@ -98,54 +98,53 @@
     "debasement": {
       "5000": {
         "status": "green",
-        "score": 0.69
+        "score": 0.68
       },
       "10000": {
         "status": "yellow",
-        "score": 0.53
+        "score": 0.52
       }
     }
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-14",
-      "blackrock-ethb-2026-09-14",
-      "bitmine-eth-holdings-2026-09-07",
+      "eth-etf-flow-2026-09-15",
+      "blackrock-ethb-2026-09-15",
+      "bitmine-eth-holdings-2026-09-13",
       "standard-chartered-uae-eth-spot-2026-09-03"
     ],
     "macro": [
-      "global-liquidity-2026-09-15",
+      "global-liquidity-2026-09-16",
       "us-cpi-fed-repricing-2026-09-11",
       "real-yield-10y-2026-09-09",
       "fed-policy-2026-09-01",
       "treasury-buybacks-2026-09"
     ],
     "regulation": [
-      "clarity-final-text-2026-09-15",
-      "clarity-act-motion-to-proceed",
-      "clarity-nsa-neutral-2026-09-03",
-      "sec-status-2026-09-15"
+      "clarity-act-failed-2026-09-15",
+      "sec-status-2026-09-16",
+      "clarity-nsa-neutral-2026-09-03"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-15",
-      "ethereum-defi-2026-09-15"
+      "ethereum-rwa-2026-09-16",
+      "ethereum-defi-2026-09-16"
     ],
     "staking": [
-      "network-staking-2026-09-15",
-      "blackrock-ethb-2026-09-14",
-      "bitmine-staked-eth-2026-09-07"
+      "network-staking-2026-09-16",
+      "blackrock-ethb-2026-09-15",
+      "bitmine-staked-eth-2026-09-13"
     ],
     "protocol": [
       "glamsterdam-plataberget-testnet",
       "ethrex-privacy-eips-testnet-2026-09-05",
       "ef-protocol-priorities-hegota-2026-09-07",
-      "protocol-status-2026-09-15"
+      "protocol-status-2026-09-16"
     ],
     "market": [
-      "eth-market-2026-09-15"
+      "eth-market-2026-09-16"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-15"
+      "eth-value-capture-2026-09-16"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -155,5 +154,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 64% and the $10K estimate at 34%. U.S. spot ETH ETFs added $121.1M on September 14 and BlackRock's staking-enabled ETHB reached $1.070B, strengthening the $5K institutional case without yet proving the broad, multi-year allocation required for $10K. ETH briefly traded above $2,600 but reversed to about $2,484, leaving market confirmation absent. Brent near $107, a 10-year Treasury yield above 5%, a firmer dollar, and roughly 93% Fed-hike pricing deepen the already-red cyclical liquidity regime. Revised CLARITY Act text is constructive but remains short of a successful procedural vote or final law. Ethereum's staking and tokenized-finance footprint remains large, while direct L1 economics remain too small relative to application fees to clear the $10K value-capture hurdle. No catalyst crossed a color threshold."
+  "decision": "Reduced the $5K estimate from 64% to 61% and the $10K estimate from 34% to 31%. The Senate rejected CLARITY Act cloture 49–50, ten votes short of the required 60, moving U.S. regulation from developing to a current headwind for both targets. The setback arrived alongside a $142.3M ETF outflow, ETH's 3.9% decline to about $2.40K, a 5.041% nominal 10-year yield, a 2.60% real yield, and Brent near $108. BitMine's 5.956M ETH treasury, BlackRock ETHB's roughly $1.03B of assets, 35% network staking, and Ethereum's large tokenized-finance footprint remain meaningful counterweights. The $10K case retains an additional penalty because direct L1 revenue remains small relative to application activity. Regulation crossed from yellow to red for both targets."
 }
