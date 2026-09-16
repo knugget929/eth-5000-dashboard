@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-15T15:42:00Z",
-  "accessDate": "2026-09-15",
+  "researchedAt": "2026-09-16T04:45:00Z",
+  "accessDate": "2026-09-16",
   "market": {
-    "ethUsd": 2410.64,
-    "change24h": -3.7,
-    "marketCapUsd": 294219535102,
-    "volume24hUsd": 17551964245.82,
+    "ethUsd": 2400.95,
+    "change24h": -3.9,
+    "marketCapUsd": 293053303804,
+    "volume24hUsd": 19025572841.15,
     "sourceIds": [
-      "coingecko-eth",
-      "coindesk-eth"
+      "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,410.64 and down 3.7% over 24 hours, with a $294.22B market capitalization, $17.55B of volume, and a $2,390.89–$2,607.56 range. The earlier print above $2,600 was followed by a sharp reversal, but the rolling 24-hour decline remained below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,400.95 and down 3.9% over 24 hours, with a $293.05B market capitalization, $19.03B of volume, and a $2,361.16–$2,499.43 range. The price move remained below the 5% threshold, but the failed CLARITY Act vote triggered a major-news alert."
   },
   "observations": [
     {
@@ -949,21 +948,174 @@
     {
       "id": "eth-etf-flow-2026-09-15",
       "catalyst": "institutional",
-      "direction": "mixed",
-      "value": "September 15 row unfinalized at 0.0 / September 14 +$121.1M",
-      "summary": "Farside's September 15 row remained blank across issuers and displayed 0.0, so no same-day ETF conclusion was available. September 14's $121.1M inflow remained the latest completed session, with cumulative net inflows at about $13.503B.",
+      "direction": "headwind",
+      "value": "-$142.3M latest completed day / +$13.361B cumulative",
+      "summary": "Farside finalized September 15 U.S. spot ETH ETF flows at a $142.3M net outflow. BlackRock ETHA lost $98.0M, Fidelity FETH lost $34.4M, Grayscale ETHE lost $17.5M, and Grayscale's mini trust lost $7.2M; ETHB added $12.4M and 21Shares TETH added $2.4M. Cumulative net inflows fell to about $13.361B.",
       "sourceIds": [
         "farside-eth-etf"
       ],
       "confirmed": true,
-      "uncertainty": "The September 15 row is an unfinalized placeholder and can change as issuer data is posted."
+      "uncertainty": "Farside figures can be revised. One negative session does not establish a durable institutional-outflow trend."
+    },
+    {
+      "id": "eth-market-2026-09-16",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$2,400.95 / -3.9% 24h / $2,361.16–$2,499.43 range",
+      "summary": "ETH traded near $2,401 after the Senate failed to advance the CLARITY Act. CoinGecko showed a 3.9% rolling 24-hour decline and higher trading activity, while ETH/BTC also weakened. The decline remained below the 5% price-alert threshold but was consistent with a broader crypto risk-off reaction.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-clarity-failure-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling returns change continuously. Regulatory disappointment and macro stress are plausible drivers, but the exact contribution of each cannot be isolated."
+    },
+    {
+      "id": "clarity-act-failed-2026-09-15",
+      "catalyst": "regulation",
+      "direction": "headwind",
+      "value": "Cloture rejected 49–50 / 60 votes required",
+      "summary": "The official Senate roll call shows cloture on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act, was rejected 49–50 on September 15, well short of the 60 votes required. Reuters reported that four Republicans joined Democrats in opposition and that the result effectively puts the bill on ice ahead of the election recess. Thom Tillis switched his vote for procedural reasons, preserving the possibility of reconsideration.",
+      "sourceIds": [
+        "senate-rollcall-234-2026",
+        "senate-wrapup-2026-09-15",
+        "reuters-clarity-failure-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "The failed vote is final for this attempt, but reconsideration remains procedurally possible. The timing and shape of any future bill, and the extent to which SEC/CFTC rulemaking can substitute for legislation, are uncertain."
+    },
+    {
+      "id": "bitmine-eth-holdings-2026-09-13",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "5,956,378 ETH / 4.9% of supply / +27,180 ETH from prior disclosure",
+      "summary": "BitMine's September 14 SEC-filed exhibit disclosed 5.956M ETH as of September 13, up 27,180 ETH from its prior 5.929M disclosure. The company says it is 98% of the way to its 5%-of-supply target and continues weekly purchases.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "The holdings are company-disclosed in an SEC-filed exhibit. Concentration supports demand while accumulation continues but increases financing and reversal risk if strategy changes."
+    },
+    {
+      "id": "bitmine-staked-eth-2026-09-13",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "5,067,309 ETH staked / 85% of holdings / 2.62% reported yield",
+      "summary": "BitMine reported 5.067M ETH staked, equal to about 85% of its 5.956M ETH treasury, with a 2.62% seven-day annualized yield and projected annualized staking revenue of $334M. The staked balance was unchanged from the September 7 disclosure.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "The staked balance is disclosed, while yield and revenue figures extrapolate a short observation window and are forward-looking."
+    },
+    {
+      "id": "network-staking-2026-09-16",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,162,677 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters showed 43.163M ETH staked, equal to 35% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The counters change continuously as validators enter, exit, and earn rewards."
+    },
+    {
+      "id": "blackrock-ethb-2026-09-15",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "$1.026B net assets / 1.57% 30-day staking reward rate",
+      "summary": "BlackRock reported ETHB net assets of $1.026B and 33.16M shares outstanding as of September 15, with a 1.57% 30-day staking reward rate. Fund assets fell with ETH's price, while shares outstanding increased from the prior snapshot.",
+      "sourceIds": [
+        "blackrock-ethb"
+      ],
+      "confirmed": true,
+      "uncertainty": "Net assets reflect both ETH price and creations/redemptions. The 30-day staking rate is backward-looking and can change."
+    },
+    {
+      "id": "global-liquidity-2026-09-16",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "10Y nominal 5.041% / 10Y real 2.60% / about 93% Fed-hike probability / Brent $107.82",
+      "summary": "The 10-year Treasury yield reached 5.041%, its highest since July 2007, while the latest official 10-year real yield was 2.60%. Markets priced roughly a 93% chance of a September 16 Fed hike. Brent remained near $108 despite a pullback on higher U.S. inventories, leaving the near-term liquidity backdrop hostile to ETH.",
+      "sourceIds": [
+        "reuters-treasuries-2026-09-15",
+        "fred-dfii10",
+        "reuters-oil-2026-09-16",
+        "fed-home"
+      ],
+      "confirmed": true,
+      "uncertainty": "Yields, oil, and policy probabilities move continuously. The Fed decision and dot plot remain pending, and the Saudi pipeline repair timeline is uncertain."
+    },
+    {
+      "id": "ethereum-defi-2026-09-16",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "about $48B TVL / $147.172B stablecoins / -$36.53M 24h inflows",
+      "summary": "DefiLlama showed Ethereum DeFi TVL near $48B, $147.172B of stablecoins, $1.801B of 24-hour DEX volume, 1.89M transactions, and $36.53M of net bridge outflows. Activity remained substantial, but falling token prices and negative flows reduced dollar-denominated TVL.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity are volatile, price-sensitive, and methodology-dependent; composable assets can be double-counted."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-16",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.21B distributed RWA value / $160.54B stablecoins / $2.41T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $17.21B of distributed tokenized real-world assets on Ethereum, 271,695 RWA holders, $160.54B of stablecoin market capitalization, and $2.41T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider definitions distinguish distributed from represented value and differ from DefiLlama. Ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-16",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$424,489 chain fees / $82,311 chain revenue / $6.85M app fees over 24h",
+      "summary": "DefiLlama reported $424,489 of Ethereum L1 chain fees and $82,311 of chain revenue over 24 hours, compared with $6.85M of application fees. L1 fees rose modestly, but direct ETH-linked revenue remained small relative to the broader application layer.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand."
+    },
+    {
+      "id": "protocol-status-2026-09-16",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "No new EF protocol release / AMA scheduled for 14:00 UTC",
+      "summary": "The Ethereum Foundation blog showed no newer protocol publication after the September 9 AMA announcement. The Protocol cluster's Reddit AMA was scheduled for September 16 at 14:00 UTC, after this research cutoff.",
+      "sourceIds": [
+        "ethereum-blog-index",
+        "ethereum-reddit-ama-2026-09-09"
+      ],
+      "confirmed": true,
+      "uncertainty": "The AMA may provide useful clarification but is not itself a fork decision or delivery milestone."
+    },
+    {
+      "id": "sec-status-2026-09-16",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "No new crypto-specific SEC action after Aug. 18 proposal",
+      "summary": "The SEC press-release index showed no new crypto-specific action after the August 18 Regulation Crypto Assets proposal. With CLARITY stalled, agency rulemaking becomes more important but remains more politically and legally reversible than legislation.",
+      "sourceIds": [
+        "sec-press-releases",
+        "sec-regulation-crypto-assets",
+        "reuters-clarity-failure-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Future SEC/CFTC actions and court challenges are uncertain, and agency rules cannot fully replicate a statutory market-structure framework."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -978,7 +1130,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -988,12 +1140,12 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
       "url": "https://www.sec.gov/rules-regulations/2026/08/s7-2026-27",
-      "accessedAt": "2026-09-07"
+      "accessedAt": "2026-09-16"
     },
     "sec-comments-calendar": {
       "label": "SEC public comment deadlines",
@@ -1013,12 +1165,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -1033,7 +1185,7 @@
     "fed-home": {
       "label": "Federal Reserve monetary policy overview",
       "url": "https://www.federalreserve.gov/",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-16"
     },
     "fed-barr-2026-09-01": {
       "label": "Federal Reserve Governor Barr speech",
@@ -1048,7 +1200,7 @@
     "fred-dfii10": {
       "label": "FRED 10-Year Real Treasury Yield",
       "url": "https://fred.stlouisfed.org/series/DFII10",
-      "accessedAt": "2026-09-11"
+      "accessedAt": "2026-09-16"
     },
     "fred-dollar": {
       "label": "FRED Nominal Broad U.S. Dollar Index",
@@ -1098,12 +1250,12 @@
     "ethereum-blog-index": {
       "label": "Ethereum Foundation Blog index",
       "url": "https://blog.ethereum.org/",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "sec-press-releases": {
       "label": "SEC press releases index",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "coinmarketcap-eth": {
       "label": "CoinMarketCap Ethereum market data",
@@ -1338,7 +1490,7 @@
     "blackrock-ethb": {
       "label": "BlackRock iShares Staked Ethereum Trust ETF",
       "url": "https://www.blackrock.com/us/individual/products/348532/ishares-staked-ethereum-trust-etf",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "reuters-dollar-fed-boj-2026-09-14": {
       "label": "Reuters: dollar firms as markets brace for Fed and BOJ meetings",
@@ -1388,7 +1540,7 @@
     "ethereum-reddit-ama-2026-09-09": {
       "label": "Ethereum Foundation: Protocol Reddit AMA announcement",
       "url": "https://blog.ethereum.org/2026/09/09/reddit-ama",
-      "accessedAt": "2026-09-15"
+      "accessedAt": "2026-09-16"
     },
     "reuters-clarity-vote-2026-09-15": {
       "label": "Reuters: U.S. Senate to vote on advancing landmark crypto bill",
@@ -1399,17 +1551,47 @@
       "label": "Reuters: Wall Street wobbles as oil and Treasury yields rise",
       "url": "https://www.reuters.com/business/wall-st-futures-slip-rising-oil-treasury-yields-compound-ai-anxiety-2026-09-15/",
       "accessedAt": "2026-09-15"
+    },
+    "senate-rollcall-234-2026": {
+      "label": "U.S. Senate roll call vote 234 on H.R. 3633 cloture",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm",
+      "accessedAt": "2026-09-16"
+    },
+    "senate-wrapup-2026-09-15": {
+      "label": "Senate Democratic Caucus: Wrap Up for September 15, 2026",
+      "url": "https://www.democrats.senate.gov/2026/09/15/wrap-up-for-tuesday-september-15-2026",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-clarity-failure-2026-09-15": {
+      "label": "Reuters: Senate fails to advance sweeping cryptocurrency bill",
+      "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/",
+      "accessedAt": "2026-09-16"
+    },
+    "bitmine-sec-8k-exhibit-2026-09-14": {
+      "label": "BitMine September 14, 2026 Form 8-K Exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226042492/ex99-1.htm",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-treasuries-2026-09-15": {
+      "label": "Reuters: U.S. 10-year Treasury yield reaches highest since 2007",
+      "url": "https://www.livemint.com/market/treasuries10year-note-climbs-to-19-year-high-with-fed-decision-on-deck-11789498155754.html",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-oil-2026-09-16": {
+      "label": "Reuters: oil falls on U.S. inventory build despite Saudi supply concerns",
+      "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
+      "accessedAt": "2026-09-16"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "ETH fell to about $2,410.64 and -3.7% over 24 hours after trading above $2,600, a sharp reversal but still below the 5% notification threshold.",
-      "The September 15 ETF row remained unfinalized; September 14's +$121.1M inflow remained the latest confirmed institutional-flow reading.",
-      "The CLARITY Act vote was imminent but had not occurred by the cutoff, so no regulatory outcome could yet be recorded.",
-      "Brent near $107.73, the 10-year Treasury yield around 5.002%, and 93% Fed-hike pricing reinforced the existing macro headwind without creating a new thesis-breaking event.",
-      "No new official Ethereum Foundation protocol release or crypto-specific SEC action appeared."
+      "The U.S. Senate rejected cloture on the CLARITY Act 49–50, ten votes short of the 60 required, materially delaying durable federal digital-asset market-structure legislation.",
+      "ETH traded near $2,401 and down about 3.9% over 24 hours, below the 5% price trigger; the alert is for major regulatory news rather than the price threshold.",
+      "September 15 U.S. spot ETH ETF flows reversed to a $142.3M net outflow, adding a near-term demand headwind.",
+      "Counterweights remain: BitMine increased holdings to 5.956M ETH, BlackRock ETHB retained roughly $1.03B of assets, and 43.16M ETH remained staked.",
+      "The Fed decision, policy path, and Ethereum Foundation AMA are still pending; no new Ethereum protocol failure or thesis-breaking technical event occurred."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH's reversal from above $2,600 to about $2,411, a -3.7% rolling 24-hour move, the unfinalized September 15 ETF row, the scheduled CLARITY procedural vote, and the latest oil, yield, equity, and Fed-pricing readings. Uncertain: the final September 15 ETF flows, the CLARITY vote outcome, the Fed decision and guidance, and whether ETH's decline reaches or recovers from the 5% alert threshold later."
+    "confirmedVsUncertain": "Confirmed: the official 49–50 failed CLARITY cloture vote; ETH near $2,401 and -3.9% over 24 hours; September 15's $142.3M ETF outflow; BitMine's 5.956M ETH holding; ETHB's $1.026B net assets; 43.163M ETH staked; and the latest macro, DeFi, RWA, SEC, and EF snapshots. Uncertain: whether Senate leaders will use the preserved reconsideration option, when durable market-structure legislation can return, how much SEC/CFTC rulemaking can fill the statutory gap, and the Fed's decision and forward guidance."
   }
 }
