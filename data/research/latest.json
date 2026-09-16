@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-16T04:45:00Z",
+  "researchedAt": "2026-09-16T15:55:00Z",
   "accessDate": "2026-09-16",
   "market": {
-    "ethUsd": 2400.95,
-    "change24h": -3.9,
-    "marketCapUsd": 293053303804,
-    "volume24hUsd": 19025572841.15,
+    "ethUsd": 2396.09,
+    "change24h": -1.3,
+    "marketCapUsd": 291867665091,
+    "volume24hUsd": 16644210639.75,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,400.95 and down 3.9% over 24 hours, with a $293.05B market capitalization, $19.03B of volume, and a $2,361.16–$2,499.43 range. The price move remained below the 5% threshold, but the failed CLARITY Act vote triggered a major-news alert."
+    "note": "CoinGecko showed ETH near $2,396.09 and down 1.3% over 24 hours, with a $291.87B market capitalization, $16.64B of volume, and a $2,361.16–$2,445.14 range. The move was below the 5% price threshold; the major-news alert was triggered by Circle Arc's confirmed public-mainnet launch as a direct institutional stablecoin and tokenization competitor that does not use ETH for gas."
   },
   "observations": [
     {
@@ -1109,6 +1109,56 @@
       ],
       "confirmed": true,
       "uncertainty": "Future SEC/CFTC actions and court challenges are uncertain, and agency rules cannot fully replicate a statutory market-structure framework."
+    },
+    {
+      "id": "circle-arc-mainnet-2026-09-16",
+      "catalyst": "value-capture",
+      "direction": "headwind",
+      "value": "Public mainnet live / USDC gas / 100+ applications and institutional builders",
+      "summary": "Circle launched Arc's public mainnet as a purpose-built Layer 1 for payments, FX, trading, lending, tokenized assets, and agentic commerce. Arc pays gas in USDC rather than a volatile native token and launched with more than 100 applications and more than 100 institutional and ecosystem builders. Day-one markets include Uniswap and tokenized assets such as USYC and BUIDL; founding validators announced ahead of launch include BlackRock, DTCC, ICE, Mastercard, Standard Chartered, and Visa. This validates the broader tokenization thesis but is a direct warning for ETH value capture because major stablecoin and institutional activity can grow on a non-Ethereum settlement layer without generating demand for ETH.",
+      "sourceIds": [
+        "circle-arc-mainnet-2026-09-16",
+        "circle-arc-validators-2026-08-05"
+      ],
+      "confirmed": true,
+      "uncertainty": "Public launch and listed integrations are confirmed by Circle, but Arc has not disclosed sustained transaction volume, assets, fees, or institutional production usage. Some privacy and AgentVM capabilities remain in development, and planned token deployments or integrations may not achieve meaningful adoption."
+    },
+    {
+      "id": "deutsche-bank-eth-custody-2026-09-16",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Planned 2026 European institutional custody / Ether included at launch",
+      "summary": "Deutsche Bank announced a digital-asset custody service for European institutional and corporate clients, targeting first-client go-live in 2026. The initial supported set is expected to include Ether, Bitcoin, USDC, EURC, and EURAU, with wallet and private-key management and third-party transfers. This lowers operational and custody friction for institutions seeking direct ETH exposure through an established global bank.",
+      "sourceIds": [
+        "deutsche-bank-custody-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The service is announced but remains subject to regulatory completion, internal approvals, client onboarding, and the bank's risk appetite. Deutsche Bank disclosed no client commitments, ETH balances, launch date, fees, or expected custody volume."
+    },
+    {
+      "id": "boj-tightening-expectation-2026-09-16",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "1.25% policy rate expected September 18 / first hike in three months",
+      "summary": "Reuters reports the Bank of Japan is widely expected to raise its policy rate from 1.0% to 1.25% on September 18, a 31-year high, with markets nearly fully pricing the move. A higher yen funding rate adds another global-liquidity headwind and can pressure leveraged carry positions alongside expected Federal Reserve tightening.",
+      "sourceIds": [
+        "reuters-boj-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The September 18 decision and Governor Ueda's guidance have not occurred. The rate path and market reaction remain uncertain even if the expected 25-basis-point hike is delivered."
+    },
+    {
+      "id": "ef-protocol-ama-live-2026-09-16",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF Protocol AMA opened at 14:00 UTC; no new fork decision confirmed at cutoff",
+      "summary": "The Ethereum Foundation Protocol cluster's scheduled Reddit AMA opened with questions covering Glamsterdam testing, Hegotá scope, FOCIL, Frame Transactions, L1 privacy, post-quantum accounts, fast slots, state management, client funding, and staking composition. At the research cutoff, the live thread had not produced a new final AllCoreDevs inclusion decision or mainnet date beyond the previously recorded roadmap.",
+      "sourceIds": [
+        "ethereum-reddit-ama-2026-09-09",
+        "ethereum-reddit-ama-thread-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The AMA was still live at the cutoff, and later developer answers may add useful evidence or clarify delivery risks."
     }
   ],
   "sources": {
@@ -1581,17 +1631,42 @@
       "label": "Reuters: oil falls on U.S. inventory build despite Saudi supply concerns",
       "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
       "accessedAt": "2026-09-16"
+    },
+    "circle-arc-mainnet-2026-09-16": {
+      "label": "Circle: Arc public mainnet launch",
+      "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+      "accessedAt": "2026-09-16"
+    },
+    "circle-arc-validators-2026-08-05": {
+      "label": "Circle: Arc founding validators and institutional integrations",
+      "url": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
+      "accessedAt": "2026-09-16"
+    },
+    "deutsche-bank-custody-2026-09-16": {
+      "label": "Deutsche Bank: planned digital-asset custody service for institutional and corporate clients",
+      "url": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-boj-2026-09-16": {
+      "label": "Reuters: BOJ expected to raise rates to a 31-year high",
+      "url": "https://www.reuters.com/world/asia-pacific/boj-set-raise-interest-rates-31-year-high-inflation-risks-loom-2026-09-16/",
+      "accessedAt": "2026-09-16"
+    },
+    "ethereum-reddit-ama-thread-2026-09-16": {
+      "label": "r/ethereum: EF Protocol AMA, September 16, 2026",
+      "url": "https://www.reddit.com/r/ethereum/comments/1wf48x3/ama_we_are_ef_protocol_pt_15_16_september_2026/",
+      "accessedAt": "2026-09-16"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "The U.S. Senate rejected cloture on the CLARITY Act 49–50, ten votes short of the 60 required, materially delaying durable federal digital-asset market-structure legislation.",
-      "ETH traded near $2,401 and down about 3.9% over 24 hours, below the 5% price trigger; the alert is for major regulatory news rather than the price threshold.",
-      "September 15 U.S. spot ETH ETF flows reversed to a $142.3M net outflow, adding a near-term demand headwind.",
-      "Counterweights remain: BitMine increased holdings to 5.956M ETH, BlackRock ETHB retained roughly $1.03B of assets, and 43.16M ETH remained staked.",
-      "The Fed decision, policy path, and Ethereum Foundation AMA are still pending; no new Ethereum protocol failure or thesis-breaking technical event occurred."
+      "Circle launched Arc's public mainnet with USDC gas, more than 100 applications, more than 100 institutional and ecosystem builders, and high-profile financial-institution validators, creating a material competitive test for Ethereum's stablecoin, tokenization, and ETH value-capture thesis.",
+      "Deutsche Bank announced planned regulated custody support for Ether and selected stablecoins for European institutional and corporate clients, providing a meaningful institutional-access counterweight.",
+      "ETH traded near $2,396 and down about 1.3% over 24 hours, below the 5% price trigger; the alert is for major thesis-relevant infrastructure news rather than price.",
+      "The Federal Reserve decision remained pending at the cutoff, and the Bank of Japan was widely expected to raise its policy rate to 1.25% on September 18.",
+      "The EF Protocol AMA was live but had not yet produced a new final fork decision or mainnet date at the cutoff."
     ],
-    "confirmedVsUncertain": "Confirmed: the official 49–50 failed CLARITY cloture vote; ETH near $2,401 and -3.9% over 24 hours; September 15's $142.3M ETF outflow; BitMine's 5.956M ETH holding; ETHB's $1.026B net assets; 43.163M ETH staked; and the latest macro, DeFi, RWA, SEC, and EF snapshots. Uncertain: whether Senate leaders will use the preserved reconsideration option, when durable market-structure legislation can return, how much SEC/CFTC rulemaking can fill the statutory gap, and the Fed's decision and forward guidance."
+    "confirmedVsUncertain": "Confirmed: Circle Arc's public-mainnet launch, its USDC gas model, stated day-one application and builder counts, announced validator cohort and integrations; Deutsche Bank's custody announcement naming Ether; ETH near $2,396 and -1.3% over 24 hours; the pending Fed decision; and the live EF Protocol AMA. Uncertain: whether Arc captures sustained institutional volume or meaningfully displaces Ethereum settlement and ETH demand; Deutsche Bank's exact launch date, client volumes, and regulatory completion; the Fed and BOJ outcomes and forward guidance; and any later AMA answers or AllCoreDevs decisions."
   }
 }
