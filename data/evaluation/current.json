@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-16T12:54:00Z",
+  "evaluatedAt": "2026-09-17T12:15:41Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
       "probability": 61,
       "trend": "weaker",
-      "weightedSignal": 58
+      "weightedSignal": 57
     },
     "10000": {
       "probability": 31,
       "trend": "weaker",
-      "weightedSignal": 42
+      "weightedSignal": 40
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.9
+        "score": 0.85
       },
       "10000": {
         "status": "yellow",
-        "score": 0.64
+        "score": 0.61
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.04
+        "score": 0.01
       },
       "10000": {
         "status": "red",
-        "score": 0.02
+        "score": 0
       }
     },
     "regulation": {
@@ -48,11 +48,11 @@
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.76
+        "score": 0.77
       },
       "10000": {
         "status": "yellow",
-        "score": 0.57
+        "score": 0.58
       }
     },
     "staking": {
@@ -68,31 +68,31 @@
     "protocol": {
       "5000": {
         "status": "green",
-        "score": 0.8
+        "score": 0.82
       },
       "10000": {
         "status": "yellow",
-        "score": 0.65
+        "score": 0.66
       }
     },
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.51
+        "score": 0.52
       },
       "10000": {
         "status": "red",
-        "score": 0.27
+        "score": 0.28
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.53
+        "score": 0.48
       },
       "10000": {
         "status": "red",
-        "score": 0.29
+        "score": 0.22
       }
     },
     "debasement": {
@@ -108,17 +108,16 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-15",
+      "eth-etf-flow-2026-09-16",
+      "deutsche-bank-eth-custody-2026-09-16",
       "blackrock-ethb-2026-09-15",
-      "bitmine-eth-holdings-2026-09-13",
-      "standard-chartered-uae-eth-spot-2026-09-03"
+      "bitmine-eth-holdings-2026-09-13"
     ],
     "macro": [
+      "fed-rate-hike-2026-09-16",
+      "boj-tightening-expectation-2026-09-16",
       "global-liquidity-2026-09-16",
-      "us-cpi-fed-repricing-2026-09-11",
-      "real-yield-10y-2026-09-09",
-      "fed-policy-2026-09-01",
-      "treasury-buybacks-2026-09"
+      "real-yield-10y-2026-09-09"
     ],
     "regulation": [
       "clarity-act-failed-2026-09-15",
@@ -126,33 +125,34 @@
       "clarity-nsa-neutral-2026-09-03"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-16",
-      "ethereum-defi-2026-09-16"
+      "ethereum-rwa-2026-09-17",
+      "ethereum-defi-2026-09-17",
+      "circle-arc-mainnet-2026-09-16"
     ],
     "staking": [
-      "network-staking-2026-09-16",
+      "network-staking-2026-09-17",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
     ],
     "protocol": [
-      "glamsterdam-plataberget-testnet",
-      "ethrex-privacy-eips-testnet-2026-09-05",
-      "ef-protocol-priorities-hegota-2026-09-07",
-      "protocol-status-2026-09-16"
+      "ethereum-mpbc-mainnet-2026-09-16",
+      "ef-protocol-ama-live-2026-09-16",
+      "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-16"
+      "eth-market-2026-09-17"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-16"
+      "eth-value-capture-2026-09-17",
+      "circle-arc-mainnet-2026-09-16"
     ],
     "debasement": [
       "fiscal-deficit-2026",
       "public-debt-2036",
+      "debasement-fed-2026-09-17",
       "political-rate-pressure-debasement-2026-09-13",
-      "debasement-market-2026-09-14",
       "eth-monetary-capture"
     ]
   },
-  "decision": "Reduced the $5K estimate from 64% to 61% and the $10K estimate from 34% to 31%. The Senate rejected CLARITY Act cloture 49–50, ten votes short of the required 60, moving U.S. regulation from developing to a current headwind for both targets. The setback arrived alongside a $142.3M ETF outflow, ETH's 3.9% decline to about $2.40K, a 5.041% nominal 10-year yield, a 2.60% real yield, and Brent near $108. BitMine's 5.956M ETH treasury, BlackRock ETHB's roughly $1.03B of assets, 35% network staking, and Ethereum's large tokenized-finance footprint remain meaningful counterweights. The $10K case retains an additional penalty because direct L1 revenue remains small relative to application activity. Regulation crossed from yellow to red for both targets."
+  "decision": "Held the $5K estimate at 61% and the $10K estimate at 31% after the prior day's downgrade. The Fed's 25-basis-point hike to 3.75%–4.00% and higher projected policy path confirm the already-near-floor cyclical macro score rather than create a second independent probability shock. Two-session ETH ETF outflows reached $366.4M, partly offset by Deutsche Bank's planned institutional ETH custody service, BitMine accumulation, and persistent 35% network staking. Ethereum's production launch of multi-party block construction strengthens execution evidence. Circle Arc's institutional, USDC-gas mainnet validates tokenization demand but demonstrates that major stablecoin and RWA activity can grow outside Ethereum without creating ETH demand, lowering the explicit value-capture scores—especially for $10K. No catalyst crossed a color threshold."
 }
