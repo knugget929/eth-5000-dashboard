@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-16T15:55:00Z",
-  "accessDate": "2026-09-16",
+  "researchedAt": "2026-09-17T05:05:00Z",
+  "accessDate": "2026-09-17",
   "market": {
-    "ethUsd": 2396.09,
-    "change24h": -1.3,
-    "marketCapUsd": 291867665091,
-    "volume24hUsd": 16644210639.75,
+    "ethUsd": 2436.58,
+    "change24h": 1.4,
+    "marketCapUsd": 297297949780,
+    "volume24hUsd": 16251483306.93,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,396.09 and down 1.3% over 24 hours, with a $291.87B market capitalization, $16.64B of volume, and a $2,361.16–$2,445.14 range. The move was below the 5% price threshold; the major-news alert was triggered by Circle Arc's confirmed public-mainnet launch as a direct institutional stablecoin and tokenization competitor that does not use ETH for gas."
+    "note": "CoinGecko showed ETH near $2,436.58 and up 1.4% over 24 hours, with a $297.30B market capitalization, $16.25B of volume, and a $2,371.36–$2,440.69 range. The move was below the 5% price threshold. The major-news alert was triggered by the Federal Reserve's first rate increase since 2023, the FOMC's higher projected policy path, and the production launch of multi-party block construction on Ethereum mainnet."
   },
   "observations": [
     {
@@ -1159,6 +1159,119 @@
       ],
       "confirmed": true,
       "uncertainty": "The AMA was still live at the cutoff, and later developer answers may add useful evidence or clarify delivery risks."
+    },
+    {
+      "id": "eth-market-2026-09-17",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,436.58 / +1.4% CoinGecko 24h",
+      "summary": "ETH traded near $2.44K and gained 1.4% over 24 hours after the Federal Reserve raised rates. The rolling range was $2,371.36–$2,440.69 and the move remained below the 5% price-alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows can produce different percentage changes."
+    },
+    {
+      "id": "fed-rate-hike-2026-09-16",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "+25bp to 3.75%–4.00% / unanimous / median 4.1% end-2026",
+      "summary": "The FOMC unanimously raised the federal-funds target range by 25 basis points to 3.75%–4.00%, its first rate increase since 2023. The statement said inflation remains elevated and the action is intended to support a timelier return to 2%. The September projections lifted median 2026 PCE inflation to 3.7%, core PCE to 3.4%, and the median end-2026 policy rate to 4.1%, implying another 25-basis-point increase from the new midpoint. Chair Kevin Warsh said recent inflation readings had not meaningfully improved and that price stability remained the predominant focus.",
+      "sourceIds": [
+        "fed-fomc-statement-2026-09-16",
+        "fed-sep-2026-09-16",
+        "reuters-warsh-inflation-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The September action and published projections are confirmed, but the next rate decision remains data-dependent. Individual projections are not a binding Committee commitment, and geopolitical and energy conditions can change."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-16",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$224.1M day / -$366.4M over two sessions / +$13.137B cumulative",
+      "summary": "Farside finalized September 16 U.S. spot ETH ETF flows at a $224.1M net outflow, following the $142.3M outflow on September 15. BlackRock ETHA lost $110.0M, ETHB $19.8M, Bitwise ETHW $55.6M, 21Shares TETH $10.8M, CETH $14.0M, and Grayscale ETHE $13.9M. The two-session outflow totaled $366.4M, while cumulative net inflows remained strongly positive at $13.137B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. Two large outflow sessions show near-term demand weakness but do not by themselves establish a lasting institutional reversal."
+    },
+    {
+      "id": "ethereum-mpbc-mainnet-2026-09-16",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "First production multi-party block construction live on mainnet",
+      "summary": "Blockspace Forum launched the first production implementation of multi-party block construction on Ethereum mainnet. The initial append-only design lets additional builders contribute eligible transactions or blobs after an initial builder assembles a block, while preserving the existing proposer-builder auction and allowing conventional single-builder blocks. Infrastructure participants reported support from builders representing about 85% of the connected pipeline and more than 90% of connected validators. The design can broaden blockspace competition and improve resilience against a single builder excluding transactions, while remaining compatible with longer-term ePBS and FOCIL work.",
+      "sourceIds": [
+        "blockspace-forum-mpbc-2026-09-16",
+        "cryptotimes-mpbc-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The production launch and participating infrastructure are confirmed, but coverage figures apply to connected rollout participants rather than all Ethereum validators. MPBC is an infrastructure-layer deployment, not an Ethereum consensus fork; its censorship-resistance, revenue, latency, and decentralization effects require live operating data."
+    },
+    {
+      "id": "network-staking-2026-09-17",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,162,677 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters continued to show 43.163M ETH staked, equal to 35% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The counters change continuously as validators enter, exit, and earn rewards. A 2.5% staking APR remains well below current U.S. Treasury yields before considering ETH price risk."
+    },
+    {
+      "id": "ethereum-defi-2026-09-17",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$49.257B TVL / $146.906B stablecoins / +$53.82M 24h inflows",
+      "summary": "DefiLlama reported $49.257B of Ethereum DeFi TVL, $146.906B of stablecoin market capitalization, $1.507B of 24-hour DEX volume, 1.96M transactions, and $53.82M of net inflows. Dollar TVL and flows improved over the prior snapshot, while stablecoin capitalization remained broadly flat.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive, volatile, and methodology-dependent; composable assets can be double-counted."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-17",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.01B distributed RWA value / $160.13B stablecoins / $2.37T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $17.01B of distributed tokenized real-world assets on Ethereum, 271,896 RWA holders, $160.13B of stablecoin market capitalization, and $2.37T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider definitions distinguish distributed from represented value and differ from DefiLlama. Ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-17",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$368,714 chain fees / $72,699 chain revenue / $6.72M app fees over 24h",
+      "summary": "DefiLlama reported $368,714 of Ethereum L1 chain fees and $72,699 of chain revenue over 24 hours, compared with $6.72M of application fees. Ethereum's application and settlement footprint remained substantial, but direct L1 economic capture was still small relative to application-layer activity.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "debasement-fed-2026-09-17",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "First Fed hike since 2023; no QE or monetization signal",
+      "summary": "The Fed hike and higher projected policy path are a near-term headwind for the dollar-debasement and crypto-liquidity trade: they raise cash and Treasury yields, strengthen the dollar, and make ETH staking less competitive. They do not invalidate the longer-run fiscal-debasement thesis, because higher refinancing costs can worsen debt-service pressure over time, but the September decision provides no evidence of imminent QE, yield suppression, or fiscal monetization.",
+      "sourceIds": [
+        "fed-fomc-statement-2026-09-16",
+        "fed-sep-2026-09-16",
+        "reuters-warsh-inflation-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The near-term tightening action is confirmed. The longer-run fiscal response is an inference rather than announced policy, and future inflation, growth, Treasury demand, and political choices will determine whether financial repression or monetary easing emerges."
     }
   ],
   "sources": {
@@ -1656,17 +1769,42 @@
       "label": "r/ethereum: EF Protocol AMA, September 16, 2026",
       "url": "https://www.reddit.com/r/ethereum/comments/1wf48x3/ama_we_are_ef_protocol_pt_15_16_september_2026/",
       "accessedAt": "2026-09-16"
+    },
+    "fed-fomc-statement-2026-09-16": {
+      "label": "Federal Reserve: September 16, 2026 FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "accessedAt": "2026-09-17"
+    },
+    "fed-sep-2026-09-16": {
+      "label": "Federal Reserve: September 2026 Summary of Economic Projections",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+      "accessedAt": "2026-09-17"
+    },
+    "reuters-warsh-inflation-2026-09-16": {
+      "label": "Reuters: Warsh says Fed focus will stay on inflation",
+      "url": "https://www.reuters.com/business/warsh-says-fed-focus-stay-inflation-underlying-trends-have-not-meaningfully-improved-2026-09-16/",
+      "accessedAt": "2026-09-17"
+    },
+    "blockspace-forum-mpbc-2026-09-16": {
+      "label": "Blockspace Forum: Multi-Party Blocks Are Live on Ethereum Mainnet",
+      "url": "https://x.com/i/article/2100205968311148676",
+      "accessedAt": "2026-09-17"
+    },
+    "cryptotimes-mpbc-2026-09-16": {
+      "label": "Crypto Times: Ethereum deploys multi-party block construction on mainnet",
+      "url": "https://www.cryptotimes.io/2026/09/16/ethereum-deploys-multi-party-block-construction-on-mainnet/",
+      "accessedAt": "2026-09-17"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "Circle launched Arc's public mainnet with USDC gas, more than 100 applications, more than 100 institutional and ecosystem builders, and high-profile financial-institution validators, creating a material competitive test for Ethereum's stablecoin, tokenization, and ETH value-capture thesis.",
-      "Deutsche Bank announced planned regulated custody support for Ether and selected stablecoins for European institutional and corporate clients, providing a meaningful institutional-access counterweight.",
-      "ETH traded near $2,396 and down about 1.3% over 24 hours, below the 5% price trigger; the alert is for major thesis-relevant infrastructure news rather than price.",
-      "The Federal Reserve decision remained pending at the cutoff, and the Bank of Japan was widely expected to raise its policy rate to 1.25% on September 18.",
-      "The EF Protocol AMA was live but had not yet produced a new final fork decision or mainnet date at the cutoff."
+      "The Federal Reserve unanimously raised the federal-funds target range by 25 basis points to 3.75%–4.00%, its first increase since 2023, and the September projections imply a further 25-basis-point increase in the median end-2026 path.",
+      "U.S. spot ETH ETFs recorded a $224.1M net outflow on September 16 after a $142.3M outflow on September 15, a two-session total of $366.4M.",
+      "Multi-party block construction entered production on Ethereum mainnet, a meaningful execution-layer infrastructure development intended to broaden block-building participation and transaction inclusion.",
+      "ETH traded near $2,436.58 and up 1.4% over 24 hours, below the 5% price trigger.",
+      "Staking remained near 35% of supply and Ethereum's DeFi and tokenized-asset footprint remained large, while direct L1 fee and revenue capture stayed modest."
     ],
-    "confirmedVsUncertain": "Confirmed: Circle Arc's public-mainnet launch, its USDC gas model, stated day-one application and builder counts, announced validator cohort and integrations; Deutsche Bank's custody announcement naming Ether; ETH near $2,396 and -1.3% over 24 hours; the pending Fed decision; and the live EF Protocol AMA. Uncertain: whether Arc captures sustained institutional volume or meaningfully displaces Ethereum settlement and ETH demand; Deutsche Bank's exact launch date, client volumes, and regulatory completion; the Fed and BOJ outcomes and forward guidance; and any later AMA answers or AllCoreDevs decisions."
+    "confirmedVsUncertain": "Confirmed: the Fed's 25-basis-point hike to 3.75%–4.00%, unanimous vote, published September projections, Warsh's inflation-focused guidance, the $224.1M September 16 ETH ETF outflow, MPBC's production launch, ETH near $2,436.58 and +1.4% over 24 hours, and current staking/DeFi/RWA metrics. Uncertain: whether the Fed delivers the additional tightening implied by the median projection; whether two ETF outflow sessions become a sustained reversal; and whether MPBC materially improves censorship resistance, builder competition, latency, or value capture at scale."
   }
 }
