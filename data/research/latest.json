@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-18T05:25:00Z",
-  "accessDate": "2026-09-18",
+  "researchedAt": "2026-09-19T16:30:00Z",
+  "accessDate": "2026-09-19",
   "market": {
-    "ethUsd": 2474.93,
-    "change24h": 1.6,
-    "marketCapUsd": 302088000000,
-    "volume24hUsd": 12780000000,
+    "ethUsd": 2644.57,
+    "change24h": 2.3,
+    "marketCapUsd": 322892000000,
+    "volume24hUsd": 15543000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,474.93 and up 1.6% over 24 hours, with an approximately $302.09B market capitalization, $12.78B of volume, and a $2,426.65–$2,479.41 range. The move was below the 5% price threshold. The major-news alert was triggered by the Bank of Japan's 25-basis-point increase to 1.25%, its highest policy rate in 31 years, adding a second major global tightening event after the Federal Reserve's September 16 hike."
+    "note": "CoinGecko showed ETH near $2,644.57 and up about 2.3% over 24 hours, with an approximately $322.89B market capitalization, $15.54B of volume, and a $2,586.10–$2,655.71 range. The move was below the 5% alert threshold. Friday's U.S. spot ETH ETF inflow of $143.7M reversed three consecutive outflow sessions, while no new major Ethereum protocol, U.S. regulatory, or thesis-breaking event was identified."
   },
   "observations": [
     {
@@ -1421,13 +1421,113 @@
       ],
       "confirmed": true,
       "uncertainty": "The longer-run interaction among Japanese fiscal policy, inflation, central-bank tightening, and currency markets remains uncertain; Governor Ueda's press conference was pending."
+    },
+    {
+      "id": "eth-market-2026-09-19",
+      "catalyst": "market",
+      "direction": "supportive",
+      "value": "$2,644.57 / about +2.3% CoinGecko 24h",
+      "summary": "ETH traded near $2.64K, up about 2.3% over 24 hours and 4.0% over seven days. The move held above $2.6K despite a firmer dollar and recent Fed/BOJ tightening, but remained below the 5% price-alert threshold and below the $3K–$3.5K confirmation zone.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues. Weekend liquidity can exaggerate short-term moves, and holding above $2.6K has not yet established a new valuation regime."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-18",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$143.7M latest day / +$13.279B cumulative",
+      "summary": "Farside finalized September 18 U.S. spot ETH ETF flows at a $143.7M net inflow. BlackRock ETHA added $114.3M and Fidelity FETH added $26.2M, reversing three consecutive outflow sessions totaling $405.4M and lifting cumulative net inflows to approximately $13.279B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside's table updates automatically and can be revised. One strong inflow session reverses the immediate streak but does not yet prove a durable renewed accumulation trend."
+    },
+    {
+      "id": "boj-followthrough-2026-09-19",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "BOJ 1.25% / USDJPY briefly 158.05 / dollar index near 7-week high",
+      "summary": "The market follow-through to the BOJ hike remained restrictive but disorderly carry-unwind risk stayed muted. Reuters reported the yen weakened after the divided 7-2 decision and noncommittal future guidance, while the dollar index rose about 1.2% for the week to near a seven-week high. Markets placed roughly 55% odds on another Fed hike at the next meeting.",
+      "sourceIds": [
+        "reuters-yen-boj-2026-09-18"
+      ],
+      "confirmed": true,
+      "uncertainty": "FX and policy probabilities move continuously. Japan's reported rate checks raise intervention risk, and the pace of future BOJ and Fed tightening remains uncertain."
+    },
+    {
+      "id": "network-staking-2026-09-19",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,270,719 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org continued to report about 43.27M ETH staked, equal to 35% of supply, at a current APR near 2.5%. Participation remains high despite policy rates that offer stronger nominal competition.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters can change as validators enter, exit, and earn rewards. High participation supports security and supply lock-up but can raise operator-concentration questions."
+    },
+    {
+      "id": "ethereum-defi-2026-09-19",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$52.704B DeFi TVL / $146.985B stablecoins / +$47.91M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $52.704B, up 5.78% over 24 hours, with $146.985B in stablecoins, $47.91M of net bridge inflows, $1.455B of DEX volume, 616,395 active addresses, and 2.05M transactions. The rebound in TVL and positive inflows supported the ecosystem-demand signal.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is price-sensitive and rose alongside ETH. Daily bridge flows and activity are volatile, provider methodologies differ, and ecosystem expansion is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-19",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$16.68B distributed RWA / $160.03B stablecoins / $2.49T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $16.68B of distributed tokenized real-world assets on Ethereum, down 4.73% over 30 days, while represented assets rose to $44.63M. Stablecoin market capitalization reached $160.03B and 30-day stablecoin transfer volume rose to $2.49T, reinforcing Ethereum's settlement scale despite softer distributed-RWA value and transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama. Changes can reflect asset prices, redemptions, issuance, and data classification."
+    },
+    {
+      "id": "eth-value-capture-2026-09-19",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$511,682 chain fees / $156,654 chain revenue / $7.89M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $511,682 and chain revenue of $156,654 over 24 hours, up from the prior snapshot but still far below $7.89M of application fees. The network's economic footprint improved with TVL and activity, while direct ETH-holder capture remained modest relative to application-layer economics.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fees and revenue are volatile. ETH value capture also includes staking, collateral, settlement, blobs, scarcity, and monetary demand beyond L1 revenue."
+    },
+    {
+      "id": "debasement-followthrough-2026-09-19",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Dollar near 7-week high after Fed and BOJ hikes",
+      "summary": "The post-hike market reinforced the distinction between cyclical liquidity and the structural debasement thesis. A firmer dollar and possible further Fed tightening are near-term headwinds for ETH, while the longer-run fiscal and debt-service case for scarce assets remains unchanged. No new QE, monetization, or financial-repression signal appeared.",
+      "sourceIds": [
+        "reuters-yen-boj-2026-09-18",
+        "cbo-2026-outlook",
+        "fred-dfii10",
+        "fred-dollar"
+      ],
+      "confirmed": true,
+      "uncertainty": "The structural debasement thesis is a long-horizon interpretation, not a current policy action. Future real yields, the dollar, fiscal policy, and whether ETH captures monetary demand remain uncertain."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-18"
+      "accessedAt": "2026-09-19"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -1442,7 +1542,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-09-18"
+      "accessedAt": "2026-09-19"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -1452,7 +1552,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-18"
+      "accessedAt": "2026-09-19"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -1477,12 +1577,12 @@
     "rwa-ethereum": {
       "label": "RWA.xyz Ethereum dashboard",
       "url": "https://app.rwa.xyz/networks/ethereum",
-      "accessedAt": "2026-09-18"
+      "accessedAt": "2026-09-19"
     },
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-18"
+      "accessedAt": "2026-09-19"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -1512,12 +1612,12 @@
     "fred-dfii10": {
       "label": "FRED 10-Year Real Treasury Yield",
       "url": "https://fred.stlouisfed.org/series/DFII10",
-      "accessedAt": "2026-09-16"
+      "accessedAt": "2026-09-19"
     },
     "fred-dollar": {
       "label": "FRED Nominal Broad U.S. Dollar Index",
       "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
-      "accessedAt": "2026-09-10"
+      "accessedAt": "2026-09-19"
     },
     "treasury-buybacks-2026": {
       "label": "U.S. Treasury long-end liquidity-support buybacks",
@@ -1532,7 +1632,7 @@
     "cbo-2026-outlook": {
       "label": "CBO Budget and Economic Outlook: 2026-2036",
       "url": "https://www.cbo.gov/publication/62105",
-      "accessedAt": "2026-09-03"
+      "accessedAt": "2026-09-19"
     },
     "ethereum-eth": {
       "label": "Ethereum.org: What is ETH?",
@@ -1968,17 +2068,22 @@
       "label": "Reuters: Bank of Japan lifts rates to 31-year high",
       "url": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
       "accessedAt": "2026-09-18"
+    },
+    "reuters-yen-boj-2026-09-18": {
+      "label": "Reuters: dollar advances as BOJ dissent clouds rate-hike outlook",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/",
+      "accessedAt": "2026-09-19"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "The Bank of Japan raised its policy rate 25 basis points to 1.25%, the highest in 31 years, by a 7-2 vote and stated that further increases remain possible.",
-      "The BOJ action adds another global tightening channel after the Federal Reserve's September 16 increase, but the yen weakened and risk assets remained resilient because the move was expected and two policymakers dissented.",
-      "ETH traded near $2,474.93 and up 1.6% over 24 hours, below the 5% price trigger.",
-      "U.S. spot ETH ETFs posted a third consecutive outflow session, with $39.3M leaving on September 17 and three-session outflows reaching $405.4M.",
-      "Staking, DeFi TVL, tokenized-asset scale, and protocol execution remained structurally constructive, while direct L1 fee capture remained modest."
+      "ETH traded near $2,644.57 and up about 2.3% over 24 hours, below the 5% price trigger.",
+      "U.S. spot ETH ETFs recorded a $143.7M September 18 inflow, reversing three consecutive outflow sessions and lifting cumulative flows to about $13.279B.",
+      "DeFi TVL and bridge flows rebounded, but direct L1 fee capture remained modest relative to application fees.",
+      "The BOJ follow-through left the dollar firm and global liquidity restrictive, while the feared immediate yen carry unwind did not materialize.",
+      "No new major Ethereum protocol event, U.S. regulatory action, or thesis-breaking development was identified."
     ],
-    "confirmedVsUncertain": "Confirmed: the BOJ's 25-basis-point increase to 1.25%, 7-2 vote, September 24 effective date, guidance that further tightening can continue, the yen's initial weakening, ETH near $2,474.93 and +1.6% over 24 hours, the $39.3M September 17 ETH ETF outflow, and current staking/DeFi/RWA metrics. Uncertain: Governor Ueda's still-pending press-conference guidance, the pace of future BOJ hikes, whether a material yen carry unwind develops, whether three ETF outflow sessions become a sustained institutional reversal, and how long ETH can remain resilient under synchronized global tightening."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,644.57 and about +2.3% over 24 hours, the finalized $143.7M September 18 ETF inflow, cumulative ETF flows near $13.279B, current staking/DeFi/RWA metrics, and the post-BOJ yen and dollar reaction. Uncertain: whether ETF inflows persist, whether ETH can hold above $2.6K in weekend liquidity, the pace of future Fed and BOJ hikes, and whether improving ecosystem activity translates into durable ETH value capture."
   }
 }
