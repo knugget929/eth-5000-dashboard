@@ -25,11 +25,11 @@
       "id": "eth-etf-flow-2026-09-18",
       "catalyst": "institutional",
       "direction": "supportive",
-      "value": "+$143.7M latest day / +$13.279B cumulative",
-      "summary": "Farside finalized September 18 U.S. spot ETH ETF flows at a $143.7M net inflow. BlackRock ETHA added $114.3M, Fidelity FETH $26.2M, Bitwise ETHW $1.3M, and VanEck ETHV $1.9M, reversing the prior three-session outflow streak.",
+      "value": "+$29.4M latest day / +$13.165B cumulative",
+      "summary": "Farside's current September 18 table shows a $29.4M net inflow for U.S. spot ETH ETFs, led by Fidelity FETH at $26.2M, Bitwise ETHW at $1.3M, and VanEck ETHV at $1.9M. The table currently shows dashes rather than reported values for BlackRock ETHA and ETHB on September 18. The positive total ended the prior three-session outflow streak, but it recovered only a small portion of the $405.4M withdrawn from September 15 through 17.",
       "sourceIds": ["farside-eth-etf"],
       "confirmed": true,
-      "uncertainty": "Farside updates automatically and figures can be revised. One strong inflow session does not by itself establish a durable renewed accumulation trend."
+      "uncertainty": "Farside updates automatically and figures can be revised. The current September 18 row has missing entries for ETHA and ETHB, so the published total may change if late data is added. One positive session does not establish a durable renewed accumulation trend."
     },
     {
       "id": "network-staking-2026-09-19",
@@ -122,11 +122,11 @@
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH rose 5.8% over 24 hours, crossing the 5% notification threshold.",
-      "September 18 U.S. spot ETH ETFs posted a $143.7M net inflow, reversing the prior three-session outflow streak.",
+      "ETH rose 5.8% over 24 hours at the original snapshot time, crossing the 5% notification threshold.",
+      "Farside's current September 18 table shows $29.4M of U.S. spot ETH ETF net inflows, reversing the prior three-session outflow streak but recovering only a small share of the preceding $405.4M outflow.",
       "Ethereum DeFi TVL rose 5.30% to $52.478B, partly reflecting the ETH price rally, while staking remained near 35% of supply.",
       "The macro backdrop remains restrictive with U.S. Treasury yields above 5%, crude above $100, and markets still pricing another Fed hike as a meaningful possibility."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,614.62 and +5.8% over 24 hours on CoinGecko; $143.7M of September 18 U.S. spot ETH ETF net inflows on Farside; 43.27M ETH staked at about 35% with a 2.5% APR on ethereum.org; current DefiLlama and RWA.xyz metrics; and the SEC's five-year conditional tokenized-stock trading exemption. Uncertain: how durable the price rally and ETF-flow reversal are, how much of the rally is attributable to regulatory optimism versus broader risk appetite, and whether tokenization growth will produce Ethereum-specific demand and durable ETH value capture."
+    "confirmedVsUncertain": "Confirmed: ETH was near $2,614.62 and +5.8% over 24 hours at the original CoinGecko snapshot; Farside's current September 18 row reports $29.4M of U.S. spot ETH ETF net inflows from reported issuers and shows missing entries for ETHA and ETHB; 43.27M ETH was staked at about 35% with a 2.5% APR on ethereum.org; current DefiLlama and RWA.xyz metrics; and the SEC's five-year conditional tokenized-stock trading exemption. Uncertain: whether Farside's September 18 row will be revised as late issuer data is added, how durable the price rally and ETF-flow reversal are, how much of the rally is attributable to regulatory optimism versus broader risk appetite, and whether tokenization growth will produce Ethereum-specific demand and durable ETH value capture."
   }
 }
