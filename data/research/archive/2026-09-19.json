@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-09-19T05:02:58Z",
+  "accessDate": "2026-09-19",
+  "market": {
+    "ethUsd": 2614.62,
+    "change24h": 5.8,
+    "marketCapUsd": 319219283624,
+    "volume24hUsd": 22966490842,
+    "sourceIds": ["coingecko-eth"],
+    "note": "CoinGecko showed ETH near $2,614.62, up 5.8% over 24 hours and 4.2% over seven days. The 24-hour move crossed the research job's 5% user-alert threshold."
+  },
+  "observations": [
+    {
+      "id": "eth-market-2026-09-19",
+      "catalyst": "market",
+      "direction": "supportive",
+      "value": "$2,614.62 / +5.8% CoinGecko 24h",
+      "summary": "ETH rose above $2.6K with a 5.8% 24-hour gain. The move crossed the 5% notification threshold and occurred during a broader crypto rally after the SEC's tokenized-stock exemption and renewed ETF inflows, but the exact contribution of each catalyst cannot be isolated.",
+      "sourceIds": ["coingecko-eth", "reuters-wall-street-2026-09-18", "sec-tokenized-stock-exemption-2026-09-17"],
+      "confirmed": true,
+      "uncertainty": "Crypto prices and rolling 24-hour changes move continuously. Market commentary can identify coincident catalysts but cannot prove a single cause for the rally."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-18",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$143.7M latest day / +$13.279B cumulative",
+      "summary": "Farside finalized September 18 U.S. spot ETH ETF flows at a $143.7M net inflow. BlackRock ETHA added $114.3M, Fidelity FETH $26.2M, Bitwise ETHW $1.3M, and VanEck ETHV $1.9M, reversing the prior three-session outflow streak.",
+      "sourceIds": ["farside-eth-etf"],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. One strong inflow session does not by itself establish a durable renewed accumulation trend."
+    },
+    {
+      "id": "network-staking-2026-09-19",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,270,719 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org reported 43.27M ETH staked, equal to about 35% of supply, with a current APR near 2.5%. The staking base remained structurally supportive for network security and supply lock-up.",
+      "sourceIds": ["ethereum-staking"],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards."
+    },
+    {
+      "id": "ethereum-defi-2026-09-19",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$52.478B TVL / $147.012B stablecoins / +$47.87M 24h inflows",
+      "summary": "DefiLlama showed Ethereum DeFi TVL at $52.478B, up 5.30% over 24 hours, with $147.012B of stablecoins, $1.552B of 24-hour DEX volume, $7.74M of application fees, 2.05M transactions, and $47.87M of net inflows.",
+      "sourceIds": ["defillama-ethereum"],
+      "confirmed": true,
+      "uncertainty": "TVL is price-sensitive, so part of the 24-hour increase reflects ETH appreciation rather than new capital. Provider methodologies can also differ."
+    },
+    {
+      "id": "eth-value-capture-2026-09-19",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$487,800 chain fees / $141,095 chain revenue / $7.74M app fees over 24h",
+      "summary": "DefiLlama reported $487,800 of Ethereum chain fees and $141,095 of chain revenue over 24 hours versus $7.74M of application fees. Direct L1 economics improved from the prior snapshot but remain much smaller than the application layer, so the $10K value-capture hurdle remains unresolved.",
+      "sourceIds": ["defillama-ethereum"],
+      "confirmed": true,
+      "uncertainty": "Daily fees and revenue are volatile, and ETH value capture also includes staking, collateral, settlement, blobs, burn, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-19",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$16.58B distributed RWA value / $159.93B stablecoins / $2.43T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $16.58B of distributed tokenized real-world assets on Ethereum, 272,951 RWA holders, $7.81B of 30-day RWA transfer volume, and $159.93B of stablecoin market capitalization with $2.43T of 30-day stablecoin transfer volume. The stablecoin footprint remained large while distributed RWA value was lower than the prior day's snapshot.",
+      "sourceIds": ["rwa-ethereum"],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, rolling transfer windows can shift abruptly, and ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "macro-risk-2026-09-19",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y above 5% / crude above $100 / 55.4% October Fed-hike probability",
+      "summary": "Reuters reported benchmark U.S. Treasury yields above 5%, crude oil still above $100 per barrel, and markets pricing a 55.4% probability of another Federal Reserve hike in October. This remains a restrictive liquidity backdrop even as crypto prices rebounded sharply.",
+      "sourceIds": ["reuters-wall-street-2026-09-18"],
+      "confirmed": true,
+      "uncertainty": "Yields, oil prices, and policy probabilities move continuously and can change materially before the next Fed meeting."
+    }
+  ],
+  "sources": {
+    "coingecko-eth": {
+      "label": "CoinGecko Ethereum market data",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-09-19"
+    },
+    "farside-eth-etf": {
+      "label": "Farside Investors: U.S. Ethereum ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-09-19"
+    },
+    "ethereum-staking": {
+      "label": "Ethereum.org staking dashboard",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-09-19"
+    },
+    "defillama-ethereum": {
+      "label": "DefiLlama Ethereum chain dashboard",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-09-19"
+    },
+    "rwa-ethereum": {
+      "label": "RWA.xyz Ethereum dashboard",
+      "url": "https://app.rwa.xyz/networks/ethereum",
+      "accessedAt": "2026-09-19"
+    },
+    "sec-tokenized-stock-exemption-2026-09-17": {
+      "label": "SEC: Innovation Exemption for tokenized NMS stock trading",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+      "accessedAt": "2026-09-19"
+    },
+    "reuters-wall-street-2026-09-18": {
+      "label": "Reuters: U.S. markets end volatile week with yields above 5% and oil above $100",
+      "url": "https://www.reuters.com/business/nasdaq-futures-lead-wall-st-gains-oil-retreat-eases-inflation-worries-2026-09-18/",
+      "accessedAt": "2026-09-19"
+    }
+  },
+  "assessment": {
+    "alertTriggered": true,
+    "reasons": [
+      "ETH rose 5.8% over 24 hours, crossing the 5% notification threshold.",
+      "September 18 U.S. spot ETH ETFs posted a $143.7M net inflow, reversing the prior three-session outflow streak.",
+      "Ethereum DeFi TVL rose 5.30% to $52.478B, partly reflecting the ETH price rally, while staking remained near 35% of supply.",
+      "The macro backdrop remains restrictive with U.S. Treasury yields above 5%, crude above $100, and markets still pricing another Fed hike as a meaningful possibility."
+    ],
+    "confirmedVsUncertain": "Confirmed: ETH near $2,614.62 and +5.8% over 24 hours on CoinGecko; $143.7M of September 18 U.S. spot ETH ETF net inflows on Farside; 43.27M ETH staked at about 35% with a 2.5% APR on ethereum.org; current DefiLlama and RWA.xyz metrics; and the SEC's five-year conditional tokenized-stock trading exemption. Uncertain: how durable the price rally and ETF-flow reversal are, how much of the rally is attributable to regulatory optimism versus broader risk appetite, and whether tokenization growth will produce Ethereum-specific demand and durable ETH value capture."
+  }
+}
