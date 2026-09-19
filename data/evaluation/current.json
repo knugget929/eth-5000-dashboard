@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-17T12:15:41Z",
+  "evaluatedAt": "2026-09-19T12:39:25Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -18,17 +18,17 @@
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.85
+        "score": 0.82
       },
       "10000": {
         "status": "yellow",
-        "score": 0.61
+        "score": 0.6
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.01
+        "score": 0
       },
       "10000": {
         "status": "red",
@@ -38,27 +38,27 @@
     "regulation": {
       "5000": {
         "status": "red",
-        "score": 0.36
+        "score": 0.38
       },
       "10000": {
         "status": "red",
-        "score": 0.35
+        "score": 0.36
       }
     },
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.77
+        "score": 0.79
       },
       "10000": {
         "status": "yellow",
-        "score": 0.58
+        "score": 0.6
       }
     },
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.75
+        "score": 0.76
       },
       "10000": {
         "status": "yellow",
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.52
+        "score": 0.54
       },
       "10000": {
         "status": "red",
-        "score": 0.28
+        "score": 0.29
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.48
+        "score": 0.49
       },
       "10000": {
         "status": "red",
-        "score": 0.22
+        "score": 0.23
       }
     },
     "debasement": {
@@ -108,29 +108,30 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-16",
+      "eth-etf-flow-2026-09-17",
+      "sp-global-openzeppelin-2026-09-17",
       "deutsche-bank-eth-custody-2026-09-16",
-      "blackrock-ethb-2026-09-15",
       "bitmine-eth-holdings-2026-09-13"
     ],
     "macro": [
+      "boj-rate-hike-2026-09-18",
+      "yen-market-reaction-2026-09-18",
       "fed-rate-hike-2026-09-16",
-      "boj-tightening-expectation-2026-09-16",
-      "global-liquidity-2026-09-16",
-      "real-yield-10y-2026-09-09"
+      "global-liquidity-2026-09-16"
     ],
     "regulation": [
       "clarity-act-failed-2026-09-15",
-      "sec-status-2026-09-16",
-      "clarity-nsa-neutral-2026-09-03"
+      "sec-tokenized-securities-exemption-2026-09-17",
+      "sec-status-2026-09-16"
     ],
     "tokenization": [
-      "ethereum-rwa-2026-09-17",
-      "ethereum-defi-2026-09-17",
+      "ethereum-rwa-2026-09-18",
+      "ethereum-defi-2026-09-18",
+      "sec-tokenized-securities-exemption-2026-09-17",
       "circle-arc-mainnet-2026-09-16"
     ],
     "staking": [
-      "network-staking-2026-09-17",
+      "network-staking-2026-09-18",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
     ],
@@ -140,19 +141,19 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-17"
+      "eth-market-2026-09-18"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-17",
+      "eth-value-capture-2026-09-18",
       "circle-arc-mainnet-2026-09-16"
     ],
     "debasement": [
       "fiscal-deficit-2026",
       "public-debt-2036",
+      "debasement-boj-2026-09-18",
       "debasement-fed-2026-09-17",
-      "political-rate-pressure-debasement-2026-09-13",
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 61% and the $10K estimate at 31% after the prior day's downgrade. The Fed's 25-basis-point hike to 3.75%–4.00% and higher projected policy path confirm the already-near-floor cyclical macro score rather than create a second independent probability shock. Two-session ETH ETF outflows reached $366.4M, partly offset by Deutsche Bank's planned institutional ETH custody service, BitMine accumulation, and persistent 35% network staking. Ethereum's production launch of multi-party block construction strengthens execution evidence. Circle Arc's institutional, USDC-gas mainnet validates tokenization demand but demonstrates that major stablecoin and RWA activity can grow outside Ethereum without creating ETH demand, lowering the explicit value-capture scores—especially for $10K. No catalyst crossed a color threshold."
+  "decision": "Held the $5K estimate at 61% and the $10K estimate at 31%. The Bank of Japan's 25-basis-point hike to 1.25%, following the Federal Reserve's increase, confirms synchronized global tightening and keeps cyclical macro scores at the floor. ETH nevertheless held near $2.47K, network staking increased to 43.27M ETH, and Ethereum's DeFi and tokenized-asset footprint remained large. Three-session ETF outflows reached $405.4M, but cumulative inflows remained about $13.14B and traditional-finance adoption continued through S&P Global's OpenZeppelin acquisition agreement. The SEC's five-year tokenized-securities exemption provides a concrete but narrow operating path after CLARITY failed, so regulation improves modestly without leaving red. Direct L1 economics remain small relative to application activity and non-Ethereum settlement competition preserves the explicit $10K value-capture penalty. No catalyst crossed a color threshold."
 }
