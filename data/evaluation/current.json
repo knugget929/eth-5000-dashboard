@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-20T12:56:36Z",
+  "evaluatedAt": "2026-09-21T12:07:48Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,16 +108,15 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-status-2026-09-20",
+      "eth-etf-status-2026-09-21",
       "eth-etf-flow-2026-09-18",
       "sp-global-openzeppelin-2026-09-17",
       "bitmine-eth-holdings-2026-09-13"
     ],
     "macro": [
-      "boj-followthrough-2026-09-19",
+      "global-liquidity-2026-09-21",
       "boj-rate-hike-2026-09-18",
-      "fed-rate-hike-2026-09-16",
-      "global-liquidity-2026-09-16"
+      "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
       "clarity-act-failed-2026-09-15",
@@ -125,13 +124,13 @@
       "sec-status-2026-09-16"
     ],
     "tokenization": [
+      "ethereum-defi-2026-09-21",
       "ethereum-rwa-2026-09-20",
-      "ethereum-defi-2026-09-20",
       "sec-tokenized-securities-exemption-2026-09-17",
       "circle-arc-mainnet-2026-09-16"
     ],
     "staking": [
-      "network-staking-2026-09-20",
+      "network-staking-2026-09-21",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
     ],
@@ -141,19 +140,18 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-20"
+      "eth-market-2026-09-21"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-20",
+      "eth-value-capture-2026-09-21",
       "circle-arc-mainnet-2026-09-16"
     ],
     "debasement": [
       "fiscal-deficit-2026",
       "public-debt-2036",
-      "debasement-followthrough-2026-09-19",
-      "debasement-boj-2026-09-18",
+      "debasement-followthrough-2026-09-21",
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 61% and the $10K estimate at 31%. Friday's $143.7M ETF inflow reversed three outflow sessions, staking rose to 43.32M ETH, and Ethereum recorded positive bridge inflows, supporting small score increases for institutional demand, staking, tokenization, and market structure. The weekend pullback to about $2.58K did not confirm a new price regime. Fed and BOJ tightening, a firm dollar, and possible further hikes keep cyclical liquidity at the floor; these conditions are evaluated separately from the unchanged long-run fiscal debasement thesis. Ethereum's L1 revenue remained small relative to application fees, so the explicit ETH value-capture penalty for $10K remains. No catalyst crossed a color threshold and neither probability changed."
+  "decision": "Held the $5K estimate at 61% and the $10K estimate at 31%, with catalyst scores and colors unchanged. ETH's rebound to about $2.65K, rising DeFi TVL, positive bridge flows, and 43.36M ETH staked are constructive but remain continuation evidence rather than a new regime. The latest finalized ETF session is still September 18, so institutional demand cannot yet be upgraded. Roughly even odds of another Fed hike, high front-end yields, and a firm dollar keep cyclical liquidity at the floor; this remains separate from the unchanged structural fiscal-debasement case. L1 chain revenue fell to about $44K versus $5.29M of application fees, preserving the explicit ETH value-capture penalty for $10K. No catalyst crossed a color threshold, neither probability moved, and no thesis-breaking event occurred."
 }

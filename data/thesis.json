@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "updatedAt": "2026-09-16",
   "market": {
-    "price": 2581.87,
-    "change24h": -1.4,
-    "capturedAt": "2026-09-20T05:15:00Z",
+    "price": 2653.59,
+    "change24h": 2.7,
+    "capturedAt": "2026-09-21T04:45:00Z",
     "source": "CoinGecko snapshot"
   },
   "targets": {
@@ -72,7 +72,7 @@
       ],
       "path": [
         {
-          "label": "$2.58K",
+          "label": "$2.65K",
           "note": "Current zone",
           "active": true
         },
@@ -157,7 +157,7 @@
       ],
       "path": [
         {
-          "label": "$2.58K",
+          "label": "$2.65K",
           "note": "Current zone",
           "active": true
         },
@@ -200,9 +200,9 @@
           "status": "green",
           "score": 0.84,
           "weight": 18,
-          "short": "Friday's ETF rebound restored part of the institutional bid.",
+          "short": "Friday's ETF rebound remains constructive but unconfirmed.",
           "summary": "Traditional capital is repeatedly allocating to ETH through regulated products.",
-          "evidence": "U.S. spot ETH ETFs drew $143.7M on September 18, reversing three consecutive outflow sessions and lifting cumulative inflows to about $13.279B. One rebound session is constructive but does not yet establish a renewed accumulation streak.",
+          "evidence": "The latest finalized U.S. spot ETH ETF session remains September 18's $143.7M inflow, which reversed three outflow sessions and left cumulative inflows near $13.279B. A new session is needed to confirm renewed accumulation.",
           "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
           "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
           "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
@@ -213,7 +213,7 @@
           "weight": 16,
           "short": "Institutional rails are deepening, but sustained allocation is unproven.",
           "summary": "The current institutional bid is encouraging, but a $1T+ valuation likely needs ETH to become a standard portfolio asset.",
-          "evidence": "The latest $143.7M ETF inflow reversed a three-session outflow run, while cumulative inflows remained about $13.279B. S&P Global's OpenZeppelin deal, BitMine's treasury, and BlackRock's staking product broaden the long-run case, but multi-cycle allocation is still unproven.",
+          "evidence": "Cumulative spot ETF inflows remain about $13.279B, while S&P Global's OpenZeppelin deal, BitMine's treasury, and BlackRock's staking product broaden the long-run case. One rebound session is not yet a multi-cycle allocation regime.",
           "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
           "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
           "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
@@ -244,9 +244,9 @@
           "status": "red",
           "score": 0,
           "weight": 15,
-          "short": "Fed and BOJ tightening keep cyclical liquidity at the floor.",
+          "short": "High yields and further hike risk keep liquidity hostile.",
           "summary": "The macro regime is still more restrictive than the ideal ETH bull-market setup.",
-          "evidence": "The BOJ policy rate is 1.25% after the Federal Reserve also tightened. A dollar index near a seven-week high and roughly 55% market odds of another Fed hike remain hostile to ETH, even though a disorderly carry unwind has not emerged.",
+          "evidence": "The U.S. two-year yield was about 4.76% and markets assigned roughly 56% odds to another October Fed hike. Brent eased toward $101.63, but a firm dollar and continued tightening risk remain adverse for ETH.",
           "why": "ETH generally benefits when yields fall, the dollar weakens, and global liquidity expands.",
           "greenTrigger": "Hike risk fades, inflation trends lower, and markets price durable easing.",
           "redTrigger": "Additional hikes, higher real yields, or renewed dollar strength."
@@ -257,7 +257,7 @@
           "weight": 13,
           "short": "The durable easing regime needed for $10K is absent.",
           "summary": "Current monetary conditions are a major obstacle to the stretch thesis.",
-          "evidence": "Synchronized Fed and BOJ tightening, a firm dollar, and material odds of another Fed hike are the opposite of the sustained global liquidity expansion that would make a $1.2T ETH valuation materially easier.",
+          "evidence": "High front-end yields, a firm dollar, and material odds of another Fed hike are the opposite of the sustained global liquidity expansion that would make a $1.2T ETH valuation materially easier.",
           "why": "$10K likely needs a sustained regime of lower real yields, easier dollar liquidity, or genuine global monetary expansion.",
           "greenTrigger": "A multi-quarter easing cycle, falling real yields, a weaker dollar, and expanding global liquidity.",
           "redTrigger": "Structurally high real yields, renewed inflation, or repeated tightening cycles."
@@ -328,9 +328,9 @@
           "status": "green",
           "score": 0.8,
           "weight": 11,
-          "short": "Ethereum's financial footprint stayed large with strong bridge inflows.",
+          "short": "Ethereum's financial footprint expanded with positive bridge flows.",
           "summary": "Stablecoins, tokenized assets, and DeFi remain one of Ethereum’s strongest structural adoption stories.",
-          "evidence": "Ethereum supports about $52.53B in DeFi TVL, $146.60B in stablecoins on DefiLlama, and $16.68B in distributed tokenized assets on RWA.xyz. Daily bridge inflows reached about $225M, while distributed RWA value remained softer over 30 days.",
+          "evidence": "Ethereum DeFi TVL rose to about $53.43B, stablecoins were about $146.69B, and net bridge inflows were positive at roughly $27.7M. Seven-day DEX volume also strengthened, although TVL remains price-sensitive.",
           "why": "More financial activity on Ethereum and its L2s strengthens the network’s importance as settlement infrastructure.",
           "greenTrigger": "Large issuers launch meaningful tokenized funds, equities, credit, or payments on Ethereum rails.",
           "redTrigger": "Activity migrates elsewhere without meaningful Ethereum settlement or ETH demand."
@@ -341,7 +341,7 @@
           "weight": 11,
           "short": "Settlement scale is large; ETH-specific capture remains incomplete.",
           "summary": "For $10K, Ethereum likely needs to become a dominant settlement layer for real financial assets at meaningful scale.",
-          "evidence": "Ethereum's DeFi, stablecoin, and tokenized-asset footprint remains substantial, including roughly $2.41T of 30-day stablecoin transfers on RWA.xyz. Competing rails and the decline in distributed RWA value keep adoption from automatically implying a $1.2T ETH valuation.",
+          "evidence": "Ethereum's DeFi and stablecoin footprint remains substantial, with TVL near $53.43B and higher seven-day DEX volume. Ecosystem growth still does not prove the durable ETH demand required for a $1.2T valuation.",
           "why": "Tokenization supports a much larger valuation only if activity creates recurring ETH demand through settlement, collateral, staking, fees, or monetary premium.",
           "greenTrigger": "Trillions in tokenized assets and stablecoins settle on Ethereum rails with clear ETH-denominated economic demand.",
           "redTrigger": "L2 and app growth explodes while ETH fee burn, collateral demand, and settlement value remain weak."
@@ -370,7 +370,7 @@
           "weight": 8,
           "short": "Staked ETH kept rising despite high policy rates.",
           "summary": "Staking strengthens the case for ETH as productive digital capital.",
-          "evidence": "Ethereum.org reported about 43.32M ETH staked, equal to 35% of supply, near a 2.5% APR. The balance increased by about 53,000 ETH from the prior snapshot despite restrictive global policy rates.",
+          "evidence": "Ethereum.org reported about 43.36M ETH staked, equal to 35% of supply, near a 2.5% APR. The balance increased by roughly 40,000 ETH from the prior daily snapshot despite restrictive global policy rates.",
           "why": "Staking adds a native yield component and locks ETH into network security, reducing immediately liquid supply.",
           "greenTrigger": "Staking-enabled products gain share and regulatory treatment becomes clearer.",
           "redTrigger": "Risk-free yields stay far above staking yields or staking regulation deteriorates."
@@ -381,7 +381,7 @@
           "weight": 7,
           "short": "Participation is strong, but staking is not yet a universal primitive.",
           "summary": "The stretch thesis benefits if ETH is widely understood as productive collateral with native yield.",
-          "evidence": "Approximately 43.32M ETH is staked and BlackRock's product broadens institutional access. For $10K, staking still must become a durable portfolio and collateral primitive while managing concentration, liquidity, and regulatory risks.",
+          "evidence": "Approximately 43.36M ETH is staked and institutional access is broadening. For $10K, staking still must become a durable portfolio and collateral primitive while managing concentration, liquidity, and yield-compression risks.",
           "why": "Large-scale staking can reduce liquid float, deepen ETH’s monetary role, and make ownership economically distinct from non-yielding assets.",
           "greenTrigger": "Institutional staking becomes standard, participation grows safely, and ETH is widely used as collateral.",
           "redTrigger": "Staking centralizes excessively, yields compress without offsetting demand, or regulation limits access."
@@ -440,9 +440,9 @@
           "status": "yellow",
           "score": 0.56,
           "weight": 7,
-          "short": "ETH's rebound improved the base but did not confirm a new regime.",
+          "short": "ETH rebounded toward $2.65K without confirming a new regime.",
           "summary": "ETH still needs to reclaim higher levels before $5K becomes a near-term market target.",
-          "evidence": "ETH eased to about $2.58K after trading above $2.65K, down roughly 1.4% over 24 hours but still positive over seven days. It remains below the $3K–$3.5K confirmation zone.",
+          "evidence": "ETH gained about 2.7% to roughly $2.65K and briefly traded above $2.70K, with volume near $13.75B. It remains below the $3K–$3.5K confirmation zone and has not sustained the breakout.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
@@ -453,7 +453,7 @@
           "weight": 6,
           "short": "The rebound remains far from stretch-target confirmation.",
           "summary": "The market has not demonstrated willingness to value ETH near the stretch target.",
-          "evidence": "ETH near $2.58K does not alter the absence of a sustained move above $5K or price discovery beyond prior highs. The weekend reversal reinforces the need for durable spot and ETF demand.",
+          "evidence": "ETH near $2.65K does not alter the absence of a sustained move above $5K or price discovery beyond prior highs. The stretch case still requires durable spot and ETF demand.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
@@ -482,7 +482,7 @@
           "weight": 11,
           "short": "Application growth still exceeds direct ETH economics.",
           "summary": "Ethereum adoption helps the $5K case, but not every unit of ecosystem growth becomes demand for ETH.",
-          "evidence": "Ethereum generated about $467K in L1 fees and $114K in chain revenue versus $5.56M in application fees. Positive bridge inflows and rising staking support demand, but direct holder capture remains modest.",
+          "evidence": "Ethereum generated about $313K in L1 fees and only $44K in chain revenue versus $5.29M in application fees. Higher TVL and staking help the demand case, but direct holder capture remains modest.",
           "why": "$5K does not require perfect capture, but it does require investors to believe ETH retains monetary, collateral, and settlement value.",
           "greenTrigger": "Staking, collateral use, L1 settlement, blobs, and fee burn strengthen together as activity grows.",
           "redTrigger": "Usage grows while ETH demand, fee burn, collateral share, and monetary premium stagnate."
@@ -493,7 +493,7 @@
           "weight": 20,
           "short": "The explicit $10K value-capture hurdle remains unresolved.",
           "summary": "Ethereum can win as infrastructure while ETH underperforms if the asset captures too little of the network’s economic value.",
-          "evidence": "About $114K in daily chain revenue versus $5.56M of application fees shows why ecosystem growth cannot automatically support a $1.2T ETH valuation. The stretch case still requires durable settlement, collateral, staking, scarcity, and monetary demand for ETH itself.",
+          "evidence": "About $44K in daily chain revenue versus $5.29M of application fees shows why ecosystem growth cannot automatically support a $1.2T ETH valuation. The stretch case still requires durable settlement, collateral, staking, scarcity, and monetary demand for ETH itself.",
           "why": "$10K needs ETH to function as widely held productive capital: staked, used as institutional collateral, demanded for settlement, and valued for monetary premium.",
           "greenTrigger": "Rising settlement and blob demand, durable net burn or scarcity, expanding ETH collateral use, and institutional treatment as productive capital.",
           "redTrigger": "Ethereum becomes dominant infrastructure while fees, burn, collateral demand, and monetary premium accrue weakly to ETH."
@@ -526,7 +526,7 @@
           "weight": 10,
           "short": "The structural fiscal thesis persists outside today's tight liquidity.",
           "summary": "Large structural deficits and rising debt support the long-run case for scarce assets, even while positive real yields delay the cleanest expression of that trade.",
-          "evidence": "A dollar near a seven-week high and Fed/BOJ tightening are cyclical liquidity headwinds, not evidence that the long-run fiscal thesis has reversed. No new QE, monetization, or financial-repression signal appeared.",
+          "evidence": "A dollar index near 100.23 and further Fed-hike risk are cyclical liquidity headwinds, not evidence that the long-run fiscal thesis has reversed. No new QE, monetization, or financial-repression signal appeared.",
           "why": "$5K does not require a monetary crisis. A broader portfolio shift toward scarce, productive digital assets could add a durable bid alongside institutional adoption.",
           "greenTrigger": "Debt-service pressure rises while real yields and the dollar fall, and ETH participates in flows toward scarce assets.",
           "redTrigger": "Fiscal consolidation gains credibility, real yields stay structurally high, or the debasement bid flows almost entirely to BTC and gold."
@@ -592,7 +592,7 @@
         "status": "green",
         "summary": "Structurally supportive for $5K, but not a clean signal while real yields remain high.",
         "why": "Persistent deficits and rising debt can push portfolios toward scarce assets. ETH adds staking yield and digital collateral utility to that case.",
-        "evidence": "The long-run fiscal path remains supportive, while a firm dollar and synchronized Fed/BOJ tightening are current cyclical counterforces. No new QE or monetization signal appeared.",
+        "evidence": "The long-run fiscal path remains supportive, while a firm dollar, high front-end yields, and further Fed-hike risk are current cyclical counterforces. No new QE or monetization signal appeared.",
         "ethHurdle": "ETH must participate in the scarce-asset bid rather than trade only as leveraged technology beta.",
         "greenTrigger": "Falling real yields, a softer dollar, and visible ETH fund or treasury demand tied to reserve diversification.",
         "redTrigger": "Durably high real yields or a debasement trade captured almost entirely by BTC and gold."
