@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-21T04:45:00Z",
+  "researchedAt": "2026-09-21T15:50:00Z",
   "accessDate": "2026-09-21",
   "market": {
-    "ethUsd": 2653.59,
-    "change24h": 2.7,
-    "marketCapUsd": 323943000000,
-    "volume24hUsd": 13747000000,
+    "ethUsd": 2731.04,
+    "change24h": 5.1,
+    "marketCapUsd": 333371000000,
+    "volume24hUsd": 23919000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,653.59 and up about 2.7% over 24 hours, with an approximately $323.94B market capitalization, $13.75B of volume, and a $2,568.64–$2,702.20 range. The move remained below the 5% alert threshold. No new major Ethereum protocol, U.S. regulatory, institutional, or thesis-breaking event was identified."
+    "note": "CoinGecko showed ETH near $2,731.04 and up about 5.1% over 24 hours, with an approximately $333.37B market capitalization, $23.92B of volume, and a $2,596.03–$2,751.07 range. The move crossed the 5% price-alert threshold. The rally occurred alongside a 5.3% Bitcoin advance, lower oil prices, and the U.S. 10-year yield slipping below 5%; no single ETH-specific cause was confirmed."
   },
   "observations": [
     {
@@ -1599,44 +1599,45 @@
       "id": "eth-market-2026-09-21",
       "catalyst": "market",
       "direction": "supportive",
-      "value": "$2,653.59 / about +2.7% CoinGecko 24h",
-      "summary": "ETH rebounded to about $2.65K and gained roughly 2.7% over 24 hours, trading between $2,568.64 and $2,702.20. Volume rose to about $13.75B and ETH outperformed BTC over the same window, but the move remained below the 5% alert threshold and did not establish a new valuation regime.",
+      "value": "$2,731.04 / about +5.1% CoinGecko 24h",
+      "summary": "ETH rallied to about $2.73K and gained roughly 5.1% over 24 hours, crossing the monitoring alert threshold. Trading volume increased to about $23.92B and ETH gained against BTC over the rolling window. The move coincided with Bitcoin reaching a seven-month high, lower oil prices, and the U.S. 10-year yield falling below 5%, indicating a broad crypto and risk-asset rally rather than a confirmed single Ethereum-specific catalyst.",
       "sourceIds": [
-        "coingecko-eth"
+        "coingecko-eth",
+        "reuters-wall-street-2026-09-21"
       ],
       "confirmed": true,
-      "uncertainty": "Prices and rolling 24-hour changes move continuously across venues. A move through $2.7K has not yet been sustained, and weekend-to-Monday liquidity can amplify reversals."
+      "uncertainty": "Prices and rolling changes move continuously. Short covering, Bitcoin-led risk appetite, staking demand, whale activity, and improving macro conditions may all have contributed, but the available authoritative sources do not isolate one dominant ETH-specific cause or prove the move is durable."
     },
     {
       "id": "eth-etf-status-2026-09-21",
       "catalyst": "institutional",
-      "direction": "supportive",
-      "value": "Latest finalized session +$143.7M / +$13.279B cumulative",
-      "summary": "Before U.S. markets reopened, Farside's latest finalized spot ETH ETF session remained September 18's $143.7M net inflow, leaving cumulative net inflows near $13.279B. The session reversed three consecutive outflow days, but no new Monday flow was yet available.",
+      "direction": "mixed",
+      "value": "September 21 provisional 0.0 / latest finalized +$143.7M / +$13.279B cumulative",
+      "summary": "Farside added a September 21 row showing zero while every issuer field remained blank, indicating an incomplete session rather than a confirmed flat result. The latest finalized session therefore remained September 18's $143.7M net inflow, with cumulative net inflows near $13.279B.",
       "sourceIds": [
         "farside-eth-etf"
       ],
       "confirmed": true,
-      "uncertainty": "The September 21 session is not finalized. One positive session does not establish a renewed accumulation streak, and Farside figures may be revised."
+      "uncertainty": "September 21 issuer flows are not finalized. The zero total should not be interpreted as confirmed absence of demand until the underlying fund entries populate."
     },
     {
       "id": "network-staking-2026-09-21",
       "catalyst": "staking",
       "direction": "supportive",
       "value": "43,363,736 ETH / 35% staked / 2.5% APR",
-      "summary": "Ethereum.org reported approximately 43.36M ETH staked, equal to 35% of supply, at a current APR near 2.5%. The staked balance increased by about 40,000 ETH from the prior daily snapshot despite policy rates remaining restrictive.",
+      "summary": "Ethereum.org reported approximately 43.36M ETH staked, equal to 35% of supply, at a current APR near 2.5%. The high participation rate continued to support network security and reduce liquid supply during the price rally.",
       "sourceIds": [
         "ethereum-staking"
       ],
       "confirmed": true,
-      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards. Rising participation supports security and supply lock-up while concentration and yield compression remain longer-term risks."
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards. Staking supports supply lock-up, but concentration and yield compression remain longer-term risks."
     },
     {
       "id": "ethereum-defi-2026-09-21",
       "catalyst": "tokenization",
       "direction": "supportive",
-      "value": "$53.428B DeFi TVL / $146.687B stablecoins / +$27.69M 24h inflows",
-      "summary": "DefiLlama reported Ethereum DeFi TVL at $53.428B, up 1.61% over 24 hours, with $146.687B in stablecoins and $27.69M of net bridge inflows. DEX volume was $1.228B, seven-day DEX volume rose 16.81%, active addresses reached 492,654, and transactions were about 1.7M.",
+      "value": "$54.077B DeFi TVL / $146.687B stablecoins / +$34.5M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $54.077B, up 2.84% over 24 hours, with $146.687B in stablecoins and $34.5M of net bridge inflows. DEX volume reached $1.406B and seven-day DEX volume rose 20%, adding activity confirmation to the price-led increase in dollar TVL.",
       "sourceIds": [
         "defillama-ethereum"
       ],
@@ -1647,43 +1648,55 @@
       "id": "eth-value-capture-2026-09-21",
       "catalyst": "value-capture",
       "direction": "mixed",
-      "value": "$313,132 chain fees / $44,436 chain revenue / $5.29M app fees over 24h",
-      "summary": "DefiLlama showed Ethereum L1 chain fees of about $313,132 and chain revenue of $44,436 over 24 hours, versus $5.29M of application fees. The network and application footprint remained substantial, but direct L1 capture weakened from the prior snapshot and stayed modest relative to application-layer economics.",
+      "value": "$396,236 chain fees / $63,050 chain revenue / $5.41M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $396,236 and chain revenue of $63,050 over 24 hours, versus $5.41M of application fees. Direct L1 economics improved from the morning snapshot but remained modest relative to application-layer economics, leaving the central $10K value-capture hurdle unresolved.",
       "sourceIds": [
         "defillama-ethereum",
         "coingecko-eth"
       ],
       "confirmed": true,
-      "uncertainty": "Daily fees and revenue are volatile, especially around weekends. ETH value capture also includes staking, collateral, settlement, blobs, scarcity, and monetary demand beyond L1 revenue."
+      "uncertainty": "Daily fees and revenue are volatile. ETH value capture also includes staking, collateral, settlement, blobs, scarcity, and monetary demand beyond L1 revenue."
     },
     {
       "id": "global-liquidity-2026-09-21",
       "catalyst": "macro",
-      "direction": "headwind",
-      "value": "U.S. 2Y 4.7604% / 56% October Fed-hike odds / Brent $101.63",
-      "summary": "Reuters reported the U.S. two-year yield at 4.7604%, a 56% market-implied chance of another Fed hike in October, and expectations for further tightening by year-end. Brent eased 2.1% to $101.63 as Middle East exports improved, offering some inflation relief, but the high-yield and firm-dollar regime remained a headwind for ETH liquidity and relative staking economics.",
+      "direction": "mixed",
+      "value": "U.S. 10Y below 5% / oil down more than 3% / ~50% October Fed-hike odds",
+      "summary": "Reuters reported that falling oil prices and the U.S. 10-year Treasury yield slipping below 5% eased immediate pressure on risk assets and helped lift equities and crypto. The relief remained incomplete: markets still assigned about a 50% chance to another October Fed hike and broader policy guidance remained hawkish.",
       "sourceIds": [
-        "reuters-global-markets-2026-09-21",
-        "reuters-yen-2026-09-21"
+        "reuters-wall-street-2026-09-21",
+        "reuters-gold-2026-09-21"
       ],
       "confirmed": true,
-      "uncertainty": "Policy-implied probabilities, yields, oil, and currencies move continuously. The Fed has not committed to an October hike, and geopolitical supply conditions remain unstable."
+      "uncertainty": "Oil, yields, the dollar, and policy odds move continuously. The Fed has not committed to an October increase, and geopolitical supply conditions remain unstable."
     },
     {
       "id": "debasement-followthrough-2026-09-21",
       "catalyst": "debasement",
       "direction": "mixed",
-      "value": "Dollar index 100.23 / no new QE or monetization signal",
-      "summary": "The structural fiscal-debasement thesis remained distinct from the current cycle. The dollar index held near 100.23 after last week's Fed hike and markets priced additional tightening, which is a near-term ETH headwind. Deficit-related bond pressure persisted, but no new QE, monetization, financial-repression, or dollar-debasement policy signal appeared.",
+      "value": "Risk rally despite firm dollar; no new QE or monetization signal",
+      "summary": "The rally reflected improved short-term risk appetite as oil and Treasury yields eased, not a confirmed dollar-debasement policy turn. The Fed still signaled potential further tightening and gold weakened as the dollar stayed firm. The long-run fiscal thesis remains intact, but no new QE, monetization, or financial-repression signal appeared.",
       "sourceIds": [
-        "reuters-global-markets-2026-09-21",
-        "reuters-yen-2026-09-21",
+        "reuters-wall-street-2026-09-21",
+        "reuters-gold-2026-09-21",
         "cbo-2026-outlook",
         "fred-dfii10",
         "fred-dollar"
       ],
       "confirmed": true,
-      "uncertainty": "The long-run debasement thesis is an interpretation of fiscal constraints rather than a current policy action. Future real yields, the dollar, fiscal policy, and whether ETH captures monetary demand remain uncertain."
+      "uncertainty": "The structural debasement thesis is a long-horizon interpretation, not a current policy action. Future real yields, the dollar, fiscal policy, and whether ETH captures monetary demand remain uncertain."
+    },
+    {
+      "id": "ecb-pontes-2026-09-21",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "ECB Pontes live / central-bank-money settlement for blockchain markets",
+      "summary": "The European Central Bank launched Pontes, linking Eurosystem payment infrastructure to blockchain-based financial markets so banks and investors can settle tokenized transactions in ECB-backed euros. Deutsche Bank, Santander, and Clearstream were among the initial onboarded users, and the ECB said it would invest a small portion of its own funds in highly rated euro-denominated blockchain securities. This is important validation for institutional tokenization, but it is blockchain-neutral and may compete with private stablecoin settlement rather than create demand for ETH.",
+      "sourceIds": [
+        "reuters-ecb-pontes-2026-09-21"
+      ],
+      "confirmed": true,
+      "uncertainty": "The launch and initial users are confirmed, but transaction volumes, network choices, interoperability, and any eventual Ethereum or ETH value capture are not yet disclosed."
     }
   ],
   "sources": {
@@ -2246,16 +2259,31 @@
       "label": "Reuters: volatile yen draws intervention watch",
       "url": "https://www.reuters.com/world/asia-pacific/volatile-yen-draws-intervention-watch-other-currencies-subdued-2026-09-21/",
       "accessedAt": "2026-09-21"
+    },
+    "reuters-wall-street-2026-09-21": {
+      "label": "Reuters: AI stocks lift Wall Street as oil falls and Treasury yields decline",
+      "url": "https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/",
+      "accessedAt": "2026-09-21"
+    },
+    "reuters-gold-2026-09-21": {
+      "label": "Reuters: gold eases as Fed-hike odds and dollar rise",
+      "url": "https://www.reuters.com/world/india/gold-eases-firmer-dollar-profit-taking-mideast-conflict-focus-2026-09-21/",
+      "accessedAt": "2026-09-21"
+    },
+    "reuters-ecb-pontes-2026-09-21": {
+      "label": "Reuters: ECB opens blockchain link to financial markets",
+      "url": "https://www.reuters.com/business/finance/ecb-opens-blockchain-link-financial-markets-2026-09-21/",
+      "accessedAt": "2026-09-21"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,653.59 and up about 2.7% over 24 hours, below the 5% price trigger.",
-      "The latest finalized U.S. ETF session remained September 18's $143.7M inflow and cumulative flows near $13.279B; no new session was yet available.",
-      "Staked ETH rose to about 43.36M and DeFi TVL increased to about $53.43B, while direct L1 revenue remained modest relative to application fees.",
-      "Markets priced roughly even odds of another October Fed hike, but no new policy action, major protocol release, U.S. regulatory action, or thesis-breaking event was identified."
+      "ETH traded near $2,731.04 and up about 5.1% over 24 hours, crossing the 5% price trigger.",
+      "Bitcoin also gained about 5.3% to a seven-month high while lower oil prices and a U.S. 10-year yield below 5% improved risk appetite; the move appears broad-market rather than tied to one confirmed ETH-specific catalyst.",
+      "The ECB launched Pontes for central-bank-money settlement of blockchain transactions, materially validating institutional tokenization but without confirmed Ethereum or ETH value capture.",
+      "September 21 U.S. spot ETH ETF flows were incomplete; the latest finalized session remained September 18's $143.7M inflow."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,653.59 and about +2.7% over 24 hours, the unchanged finalized ETF table through September 18, approximately 43.36M ETH staked, current DeFi/value-capture metrics, and Reuters-reported macro market pricing. Uncertain: whether ETH sustains a move above $2.7K, whether Friday's ETF inflow persists when the next session finalizes, whether the Fed hikes again in October, and whether ecosystem growth translates into durable ETH value capture."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,731.04 and about +5.1% over 24 hours, Bitcoin's concurrent 5.3% rally, easing oil and Treasury yields, approximately 43.36M ETH staked, stronger DeFi metrics, the ECB Pontes launch, and an incomplete September 21 ETF row. Uncertain: the relative contribution of short covering, Bitcoin-led rotation, whale or staking demand, whether ETH holds above $2.7K, final September 21 ETF flows, and whether Pontes activity settles on Ethereum or creates demand for ETH."
   }
 }
