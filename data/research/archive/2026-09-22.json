@@ -1,0 +1,2453 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-09-22T16:30:00Z",
+  "accessDate": "2026-09-22",
+  "market": {
+    "ethUsd": 2743.88,
+    "change24h": -0.4,
+    "marketCapUsd": 334946988442,
+    "volume24hUsd": 18379883359.59,
+    "sourceIds": [
+      "coingecko-eth"
+    ],
+    "note": "CoinGecko showed ETH near $2,743.88 and down about 0.4% over 24 hours, with an approximately $334.95B market capitalization, $18.38B of volume, and a $2,716.11-$2,804.42 range. ETH remained about 14% higher over seven days, but the rolling move was below the 5% alert threshold after the prior session's breakout."
+  },
+  "observations": [
+    {
+      "id": "eth-market-2026-09-10",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,435.64 / about -1.9% CoinGecko 24h",
+      "summary": "ETH traded near $2.44K after the U.S. producer-price release. CoinGecko showed about -1.9% over 24 hours with a $2,410.22–$2,498.19 range; Coinbase showed a roughly 2.8% daily decline. The move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "coinbase-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-09",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$34.7M latest day / +$13.196B cumulative",
+      "summary": "Farside finalized September 9 U.S. spot ETH ETF flows at a $34.7M net inflow. BlackRock ETHA added $9.7M, BlackRock ETHB $22.9M, and 21Shares TETH $2.1M, with no reported outflows. The inflow reversed September 8's modest $24.3M outflow and lifted cumulative net inflows to $13.196B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. One positive session does not by itself establish a renewed multi-week accumulation trend."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-10",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.54B distributed RWA value / $15.26B 30d transfers",
+      "summary": "RWA.xyz reports $17.54B of distributed tokenized real-world asset value on Ethereum, 269,796 RWA holders, and $15.26B of 30-day RWA transfer volume. Its Ethereum stablecoin measure is $159.73B, with $2.27T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama; rolling transfer volume can change sharply, while ecosystem growth is not automatic ETH value capture."
+    },
+    {
+      "id": "nasdaq-kraken-tokenization-2026-09-10",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$100M Nasdaq investment / Nasdaq Equity Tokens targeted Q2 2027",
+      "summary": "Nasdaq Ventures agreed to invest $100M in Payward, Kraken's parent, deepening work on infrastructure for regulated tokenized-equity trading and settlement beyond conventional market hours. The partners target a Q2 2027 launch of Nasdaq Equity Tokens through Kraken's xStocks platform. This is strong evidence that traditional market infrastructure is moving toward tokenization, but the announcement did not identify Ethereum as the settlement network.",
+      "sourceIds": [
+        "reuters-nasdaq-kraken-2026-09-10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The investment and target launch are announced, but delivery, regulatory scope, volumes, underlying blockchain rails, and direct ETH value capture remain uncertain."
+    },
+    {
+      "id": "ethereum-defi-2026-09-10",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$49.532B DeFi TVL / $147.541B stablecoins / -$16.97M 24h inflows",
+      "summary": "DefiLlama reports $49.532B of DeFi TVL and $147.541B of stablecoin market capitalization on Ethereum, alongside $1.33B of 24-hour DEX volume, $6.92M of app fees, 1.92M transactions, and $16.97M of net bridge outflows. The footprint remains large, but daily capital flow was negative and seven-day DEX volume was down 9.2%.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-10",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$304,717 chain fees / $52,871 chain revenue over 24h",
+      "summary": "DefiLlama reported $304,717 of Ethereum L1 chain fees and $52,871 of chain revenue over 24 hours, compared with $6.92M of application fees. Ethereum's settlement and application footprint remains substantial, but most ecosystem economics still do not flow directly to ETH holders.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth",
+        "growthepie-l2-fees"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "us-jobs-fed-repricing-2026-09-04",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "+162K payrolls / 4.1% unemployment / ~59% Fed hike odds / U.S. 10Y 4.776%",
+      "summary": "The August U.S. employment report was substantially stronger than expected, with payrolls up 162,000 and unemployment at 4.1%. Markets raised the implied probability of a September Fed hike to about 59%, and the 10-year Treasury yield rose to roughly 4.776%, reversing part of the prior Waller-driven relief.",
+      "sourceIds": [
+        "bls-employment-2026-08",
+        "reuters-us-jobs-2026-09-04"
+      ],
+      "confirmed": true,
+      "uncertainty": "The employment report is confirmed, but market-implied policy odds move continuously and the Fed has not made its September decision."
+    },
+    {
+      "id": "global-liquidity-2026-09-10",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent about $105 / U.S. 10Y 4.92% / ECB +25bp / Fed hike odds about 70%",
+      "summary": "The cyclical liquidity backdrop deteriorated further. Reuters reported Brent near $105 after another escalation in shipping disruption, the U.S. 10-year Treasury yield near 4.92%, its highest since 2023, and the ECB raising rates 25 basis points. Combined with hotter annual U.S. producer inflation, traders lifted the implied chance of a September Fed hike to about 70%.",
+      "sourceIds": [
+        "reuters-fed-ppi-2026-09-10",
+        "reuters-wall-street-2026-09-10",
+        "reuters-ecb-2026-09-10"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil, currencies, yields, and policy odds move continuously. The U.S. CPI release and September Fed and BOJ decisions remain pending."
+    },
+    {
+      "id": "us-ppi-fed-repricing-2026-09-10",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "+0.4% m/m / +5.4% y/y PPI / about 70% September Fed-hike odds",
+      "summary": "BLS reported August final-demand producer prices up 0.4% month over month and 5.4% year over year, accelerating from 4.8% in July. Energy prices rose 4.2%, goods prices 1.1%, and the index excluding food, energy, and trade services rose 0.3%. The monthly headline matched consensus, but the annual rate slightly exceeded the Reuters poll and market pricing for a September Fed hike rose from about 65% to roughly 70%.",
+      "sourceIds": [
+        "bls-ppi-2026-08",
+        "reuters-fed-ppi-2026-09-10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The PPI release is confirmed, but Fed-funds futures reprice continuously. September policy remains undecided and the September 11 CPI report is the more important remaining input."
+    },
+    {
+      "id": "real-yield-10y-2026-09-08",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "2.43%",
+      "summary": "The latest published 10-year real Treasury yield remained 2.43% on September 8, leaving the inflation-adjusted opportunity cost of holding non-sovereign risk assets high.",
+      "sourceIds": [
+        "fred-dfii10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The published daily series trails intraday market moves; the next observation is scheduled for September 10."
+    },
+    {
+      "id": "treasury-safety-premium-2026-09-03",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Waller: Treasury safety premium largely gone",
+      "summary": "Governor Waller said fiscal concerns and competition for capital have eroded the premium investors once assigned to safe, liquid U.S. government debt and pushed his neutral-rate estimate higher. This reinforces structural fiscal-risk concerns but is tactically adverse for ETH because it implies higher equilibrium yields.",
+      "sourceIds": [
+        "reuters-waller-2026-09-03"
+      ],
+      "confirmed": true,
+      "uncertainty": "This is one policymaker's assessment rather than an official FOMC finding, and it does not imply imminent monetization, QE, or dollar debasement."
+    },
+    {
+      "id": "bitmine-eth-holdings-2026-09-07",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "5,929,198 ETH / 4.9% of supply / +28,086 ETH week",
+      "summary": "BitMine's September 8 SEC-filed exhibit disclosed 5.929M ETH as of September 7 after another 28,086 ETH weekly purchase. The company says it has bought ETH every week since launching the treasury strategy in June 2025 and is 97% of the way to its stated 5%-of-supply target.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit-2026-09-08"
+      ],
+      "confirmed": true,
+      "uncertainty": "The holding is confirmed by the company filing, but it remains below the stated 5% target. Concentration supports demand while purchases continue and increases reversal risk if financing or strategy changes."
+    },
+    {
+      "id": "bitmine-eth-holdings-2026-08-30",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "5,901,112 ETH / 4.9% of supply",
+      "summary": "BitMine disclosed 5.90M ETH as of August 30 after acquiring 53,501 ETH during the week, showing unusually concentrated and persistent corporate demand.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit"
+      ],
+      "confirmed": true,
+      "uncertainty": "The concentration is supportive while accumulation continues but creates single-holder financing and reversal risk."
+    },
+    {
+      "id": "bitmine-staked-eth-2026-09-07",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "5,067,309 ETH staked / 85% of holdings / 2.61% reported 7-day annualized yield",
+      "summary": "BitMine reported 5.067M ETH staked, unchanged in absolute terms but now equal to about 85% of its larger treasury. The filing cites a 2.61% seven-day annualized yield and $330M of projected annualized revenue at current participation.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit-2026-09-08"
+      ],
+      "confirmed": true,
+      "uncertainty": "The ETH balance and staked amount are disclosed; revenue projections extrapolate a short yield window and remain forward-looking."
+    },
+    {
+      "id": "bitmine-staked-eth-2026-08-30",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "5,067,309 ETH staked / 2.67% reported 7-day annualized yield",
+      "summary": "BitMine reported that about 86% of its ETH holdings are staked, directly linking a major corporate treasury position to Ethereum security and ETH-denominated yield.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit"
+      ],
+      "confirmed": true,
+      "uncertainty": "The company labels projected annualized staking revenue and future MAVAN expansion as forward-looking."
+    },
+    {
+      "id": "network-staking-2026-09-10",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "42,632,959 ETH / 34% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters continue to report roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters can change as validators enter, exit, and earn rewards."
+    },
+    {
+      "id": "sec-regulation-crypto-assets-proposal",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "Proposed rule / comments due Oct. 20, 2026",
+      "summary": "The SEC's tailored Regulation Crypto Assets framework remains a proposal rather than final law, so direction is constructive but implementation and final terms remain uncertain.",
+      "sourceIds": [
+        "sec-regulation-crypto-assets",
+        "sec-comments-calendar"
+      ],
+      "confirmed": true,
+      "uncertainty": "The final rule may differ after public comment or may not be adopted on the current timetable."
+    },
+    {
+      "id": "clarity-act-motion-to-proceed",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "Senate motion to proceed filed",
+      "summary": "The Senate record shows a motion to proceed on H.R. 3633. A September 3 National Sheriffs’ Association letter moved the group from opposition to neutral, removing a prominent law-enforcement objection while leaving the bill unenacted and material details unresolved.",
+      "sourceIds": [
+        "govinfo-clarity-motion",
+        "govinfo-clarity-bill",
+        "nsa-clarity-neutral-2026-09-03",
+        "coindesk-clarity-nsa-2026-09-04"
+      ],
+      "confirmed": true,
+      "uncertainty": "Passage timing, final negotiated language, ethics provisions, and the House-Senate calendar remain unresolved."
+    },
+    {
+      "id": "clarity-nsa-neutral-2026-09-03",
+      "catalyst": "regulation",
+      "direction": "supportive",
+      "value": "National Sheriffs’ Association: opposition → neutral",
+      "summary": "The National Sheriffs’ Association formally told Senate leaders that it was changing its CLARITY Act position to neutral and would allow the legislative process to proceed. This removes one organized law-enforcement obstacle but is not an endorsement or enactment.",
+      "sourceIds": [
+        "nsa-clarity-neutral-2026-09-03",
+        "coindesk-clarity-nsa-2026-09-04"
+      ],
+      "confirmed": true,
+      "uncertainty": "The association cited unresolved details, and other political, ethics, procedural, and calendar obstacles remain."
+    },
+    {
+      "id": "glamsterdam-plataberget-testnet",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Public early testnet active",
+      "summary": "The Ethereum Foundation opened Platåberget as Glamsterdam's early public testing ground and published application guidance for breaking gas-pricing changes.",
+      "sourceIds": [
+        "ethereum-plataberget",
+        "ethereum-glamsterdam-repricing"
+      ],
+      "confirmed": true,
+      "uncertainty": "Testnet availability is progress, not proof that the mainnet upgrade will ship on schedule or without defects."
+    },
+    {
+      "id": "ethrex-privacy-eips-testnet-2026-09-05",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Public multi-EIP privacy testnet active",
+      "summary": "Ethrex and LambdaClass launched a public testnet built on Glamsterdam that implements EIP-8141 Frame Transactions, EIP-8250 Keyed Nonces, EIP-8272 Recent Roots, EIP-7805 FOCIL, and EIP-8369 VOPS profiles. The network allows public syncing, peering, transactions, and faucet-funded testing, providing an integrated proving ground for protocol features tied to Ethereum's privacy, account-abstraction, censorship-resistance, and post-quantum roadmap.",
+      "sourceIds": [
+        "ethrex-privacy-testnet-2026-09-05",
+        "vitalik-privacy-testnet-2026-09-05",
+        "ethereum-privacy-roadmap",
+        "eip-8141"
+      ],
+      "confirmed": true,
+      "uncertainty": "This is an experimental public testnet with permissioned validator entry. The EIPs remain proposals or upgrade candidates; successful testing does not guarantee inclusion in Hegotá, final specifications, or a mainnet date."
+    },
+    {
+      "id": "ef-protocol-priorities-hegota-2026-09-07",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Unified 2029 roadmap / FOCIL + Frames locked as Hegotá headliners",
+      "summary": "The Ethereum Foundation Protocol cluster published its first unified priorities through 2029 and a tiered review of all 62 Hegotá proposals. It fixed a December 2029 target for quantum resistance across execution, consensus, and data; made EIP-7805 FOCIL and EIP-8141 Frame Transactions the must-ship Hegotá headliners; and prioritized privacy, censorship resistance, account security, fast finality, sustainable state, and an eventual L1 zkEVM.",
+      "sourceIds": [
+        "ethereum-protocol-priorities-2026-09-07",
+        "ethereum-hegota-tier-list-2026-09-07"
+      ],
+      "confirmed": true,
+      "uncertainty": "This is the EF Protocol cluster's engineering priority and delivery framework, not a final AllCoreDevs fork specification or proof of delivery. The December 2029 cadence is explicitly aggressive; Hegotá scope beyond S/A tiers, later fork ordering, and final mainnet dates can change."
+    },
+    {
+      "id": "fed-policy-2026-09-01",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "3.50%-3.75% target range / hike still possible",
+      "summary": "Fed policy remains restrictive and inflation-sensitive; Governor Barr said the September meeting should allow more time only if inflation moderates, otherwise the Fed should raise rates decisively.",
+      "sourceIds": [
+        "fed-home",
+        "fed-barr-2026-09-01",
+        "fed-warsh-2026-08-28"
+      ],
+      "confirmed": true,
+      "uncertainty": "No September decision has been made; incoming inflation and labor data can change the outcome."
+    },
+    {
+      "id": "treasury-buybacks-2026-09",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "Up to $6B of 10Y–20Y bonds scheduled Sep. 10",
+      "summary": "Treasury's first enlarged long-end liquidity-support buyback is scheduled for 1:40–2:00 p.m. ET on September 10, with a cap of $6B for 10- to 20-year nominal coupons. At this check the operation had not occurred. It may improve secondary-market liquidity in older bonds, but it is financed within Treasury's borrowing program and is not Fed QE or reserve creation.",
+      "sourceIds": [
+        "treasury-buybacks-2026",
+        "treasury-buyback-schedule-2026-09-09",
+        "reuters-treasury-buyback-2026-09-09"
+      ],
+      "confirmed": true,
+      "uncertainty": "Accepted volume, dealer offers, price impact, and persistence of any liquidity improvement remain unknown until the operation is completed."
+    },
+    {
+      "id": "treasury-buyback-result-2026-09-10",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "$5.2B accepted of $6B cap / U.S. 10Y near 5%",
+      "summary": "Treasury's first enlarged 10- to 20-year liquidity-support buyback accepted about $5.2B, below its $6B cap. The operation did not calm the broader bond selloff: the 10-year yield approached 5% and the 30-year yield reached about 5.37%. This reinforces that Treasury buybacks can help liquidity in older securities but do not change the fiscal supply-demand fundamentals and are not Fed QE.",
+      "sourceIds": [
+        "ft-global-bonds-2026-09-11",
+        "reuters-treasury-buyback-analysis-2026-09-10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The accepted amount and market reaction are reported, but the persistence of elevated yields and whether Treasury increases future buyback sizes remain uncertain."
+    },
+    {
+      "id": "fiscal-deficit-2026",
+      "catalyst": "debasement",
+      "direction": "supportive",
+      "value": "$1.9T / 5.8% GDP",
+      "summary": "CBO projects a historically large federal deficit for fiscal 2026, supporting the structural case for diversification away from long-duration fiat claims.",
+      "sourceIds": [
+        "cbo-2026-outlook"
+      ],
+      "confirmed": true,
+      "uncertainty": "The projection changes with legislation, growth, inflation, and interest costs."
+    },
+    {
+      "id": "public-debt-2036",
+      "catalyst": "debasement",
+      "direction": "supportive",
+      "value": "120% GDP",
+      "summary": "CBO projects debt held by the public rising from 101% of GDP in 2026 to 120% in 2036.",
+      "sourceIds": [
+        "cbo-2026-outlook"
+      ],
+      "confirmed": true,
+      "uncertainty": "Long-range fiscal projections are scenario-dependent."
+    },
+    {
+      "id": "dollar-and-real-yield-offset",
+      "catalyst": "debasement",
+      "direction": "headwind",
+      "value": "Broad dollar 118.0732 / 10Y real yield 2.43%",
+      "summary": "The Fed's broad-dollar index eased to 118.0732 on September 4, a modest improvement for the debasement/liquidity trade, but the 10-year real yield remained strongly positive at 2.43%, leaving a substantial tactical counterforce.",
+      "sourceIds": [
+        "fred-dollar",
+        "fred-dfii10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The official broad-dollar and real-yield series are published with a lag and can diverge from intraday market moves."
+    },
+    {
+      "id": "eth-monetary-capture",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Still unproven at BTC/gold scale",
+      "summary": "ETH combines scarcity mechanics, staking, collateral, and settlement utility, but current evidence does not yet show that it captures debasement demand at the scale of BTC or gold.",
+      "sourceIds": [
+        "ethereum-eth",
+        "ethereum-staking",
+        "bitmine-sec-8k-exhibit"
+      ],
+      "confirmed": false,
+      "uncertainty": "This is an analytical inference from observed usage and ownership rather than a directly measurable fact."
+    },
+    {
+      "id": "remixpoint-altcoin-exit-2026-09-02",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "¥878.8M altcoin sale / Bitcoin-only treasury",
+      "summary": "Japan-listed Remixpoint disclosed the sale of all its ETH, SOL, XRP, and DOGE holdings and shifted to a Bitcoin-only crypto treasury. The transaction is a useful counterexample to the corporate ETH adoption trend but is small relative to ETF flows and BitMine's ETH position.",
+      "sourceIds": [
+        "decrypt-remixpoint-2026-09-02"
+      ],
+      "confirmed": true,
+      "uncertainty": "The disclosed total covers multiple altcoins, not ETH alone, and does not establish a broader corporate allocation trend."
+    },
+    {
+      "id": "standard-chartered-uae-eth-spot-2026-09-03",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "First G-SIB institutional BTC/ETH spot trading in UAE",
+      "summary": "Standard Chartered launched DFSA-regulated, deliverable Bitcoin and Ether spot trading for eligible institutional clients through its UAE DIFC entity. Clients can trade through the bank's existing electronic FX-style channels and settle with their chosen custodian, adding a major regulated distribution rail for ETH in the Gulf.",
+      "sourceIds": [
+        "standard-chartered-uae-spot",
+        "reuters-standard-chartered-uae-2026-09-03"
+      ],
+      "confirmed": true,
+      "uncertainty": "The bank has not disclosed client volumes, asset mix, or net ETH purchases, and the capability extends an institutional service first launched through its UK branch in July 2025."
+    },
+    {
+      "id": "eth-market-2026-09-11",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,459.41 / about -0.7% CoinGecko 24h",
+      "summary": "ETH traded near $2.46K after absorbing hotter U.S. producer inflation, a renewed bond selloff, and oil near $109. Its roughly 0.7% daily decline remained well below the 5% price-alert threshold and did not establish a new market regime.",
+      "sourceIds": [
+        "coingecko-eth",
+        "ft-global-bonds-2026-09-11"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and provider rolling windows can differ."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-10",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "-$29.9M latest day / +$13.166B cumulative",
+      "summary": "Farside finalized September 10 U.S. spot ETH ETF flows at a $29.9M net outflow. BlackRock ETHA lost $18.6M, Fidelity FETH gained $13.9M, Bitwise ETHW lost $25.2M, Grayscale ETHE lost $7.7M, and Grayscale ETH gained $7.7M. Cumulative net inflows remained strongly positive at $13.166B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. A single modest outflow does not establish a durable reversal in institutional demand."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-11",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.47B distributed RWA value / $15.66B 30d transfers",
+      "summary": "RWA.xyz reported $17.47B of distributed tokenized real-world asset value on Ethereum, 270,099 RWA holders, and $15.66B of 30-day RWA transfer volume. Its Ethereum stablecoin measure was $159.70B, with $2.47T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider definitions differ, rolling transfer volume can change sharply, and ecosystem growth is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-defi-2026-09-11",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$48.799B DeFi TVL / $147.536B stablecoins / -$25.15M 24h inflows",
+      "summary": "DefiLlama reported $48.799B of Ethereum DeFi TVL and $147.536B of stablecoin market capitalization, alongside $1.369B of 24-hour DEX volume, $12.38M of app fees, 2.1M transactions, and $25.15M of net bridge outflows. The footprint remains large, but TVL and daily capital flow softened.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-11",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$304,600 chain fees / $62,471 chain revenue over 24h",
+      "summary": "DefiLlama reported $304,600 of Ethereum L1 chain fees and $62,471 of chain revenue over 24 hours, versus $12.38M of application fees. Ethereum's application economy remained active, but the gap continues to show why ecosystem growth cannot be treated as automatic ETH-holder value capture.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth",
+        "growthepie-l2-fees"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue figures are volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "network-staking-2026-09-11",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "42,632,959 ETH / 34% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters continued to report roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards."
+    },
+    {
+      "id": "real-yield-10y-2026-09-09",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "2.46%",
+      "summary": "The latest published 10-year real Treasury yield rose to 2.46% on September 9 from 2.43% on September 8, increasing the inflation-adjusted opportunity cost of holding non-sovereign risk assets.",
+      "sourceIds": [
+        "fred-dfii10"
+      ],
+      "confirmed": true,
+      "uncertainty": "The official daily series trails intraday market moves and had not yet incorporated September 10's bond selloff."
+    },
+    {
+      "id": "global-liquidity-2026-09-11",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent near $109 / U.S. 10Y near 5% / 30Y about 5.37%",
+      "summary": "Overnight macro conditions remained restrictive for ETH. Brent approached $109 as Middle East supply disruptions intensified, while the U.S. 10-year yield neared 5% and the 30-year yield reached about 5.37%. The hotter producer-price backdrop and failure of the enlarged Treasury buyback to calm bonds leave the near-term liquidity engine firmly adverse ahead of today's U.S. CPI release.",
+      "sourceIds": [
+        "ft-global-bonds-2026-09-11",
+        "reuters-treasury-buyback-analysis-2026-09-10",
+        "bls-ppi-2026-08"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil and yields move continuously. The September 11 CPI report and next week's Fed and BOJ decisions remain pending."
+    },
+    {
+      "id": "eth-market-2026-09-12",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,533.07 / about +1.3% CoinGecko 24h",
+      "summary": "ETH traded near $2.53K after Friday's sharp post-CPI rally cooled. CoinGecko showed a roughly 1.3% 24-hour gain and a 3.1% seven-day gain, both below the 5% alert threshold for this run. ETH remains below the $3K–$3.5K market-confirmation zone.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and provider rolling windows and venue composition can produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-11",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$216.4M latest session / +$13.382B cumulative",
+      "summary": "Farside finalized September 11 U.S. spot ETH ETF flows at a $216.4M net inflow, led by BlackRock ETHA at $148.8M, BlackRock ETHB at $29.1M, Fidelity FETH at $18.3M, and Bitwise ETHW at $11.4M. No fund reported an outflow, reversing September 10's $29.9M net outflow and lifting cumulative net inflows to $13.382B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside tables update automatically and figures can be revised. One strong session is constructive but does not by itself establish a durable multi-week acceleration."
+    },
+    {
+      "id": "us-cpi-fed-repricing-2026-09-11",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "+0.4% m/m / +3.4% y/y CPI / ~87% September Fed-hike odds",
+      "summary": "BLS reported August headline CPI up 0.4% month over month and 3.4% year over year. Core CPI rose 0.3% month over month and 2.4% year over year. Reuters reported market-implied odds of a quarter-point September Fed hike settled near 87%, up from 72% the prior day, reinforcing the restrictive near-term liquidity regime.",
+      "sourceIds": [
+        "bls-cpi-2026-08",
+        "reuters-us-cpi-2026-09-11"
+      ],
+      "confirmed": true,
+      "uncertainty": "The CPI release is confirmed, but Fed-funds futures reprice continuously and the FOMC has not made its September decision."
+    },
+    {
+      "id": "global-liquidity-2026-09-12",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y 4.97% Friday high / Brent above $104 Friday / Saudi 4–5 mbpd route shut",
+      "summary": "Cyclical liquidity remains restrictive. Reuters reported the U.S. 10-year yield touched roughly 4.99% before closing near 4.92% on Friday, while hotter CPI pushed September Fed-hike odds close to 90%. Oil eased to above $104 on Friday but stayed about 9% higher for the week. On Saturday Saudi Arabia temporarily shut its East-West pipeline after a drone attack; the route had carried 4–5 million barrels per day while Hormuz was largely closed, creating renewed upside risk for oil and inflation.",
+      "sourceIds": [
+        "reuters-us-cpi-2026-09-11",
+        "reuters-wall-street-2026-09-11",
+        "reuters-saudi-pipeline-2026-09-12"
+      ],
+      "confirmed": true,
+      "uncertainty": "The CPI, Friday market closes, and pipeline shutdown are confirmed. The duration of the outage, export impact, oil-price response when markets reopen, and the Fed's September decision remain uncertain."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-12",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.30B distributed RWA value / $15.76B 30d transfers",
+      "summary": "RWA.xyz reported $17.30B of distributed tokenized real-world asset value on Ethereum, 270,879 RWA holders, and $15.76B of 30-day RWA transfer volume. Its Ethereum stablecoin measure was $159.95B, with $2.44T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider definitions differ, rolling transfer volume can change sharply, and ecosystem growth is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-defi-2026-09-12",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$50.243B DeFi TVL / $147.075B stablecoins / +$31.43M 24h inflows",
+      "summary": "DefiLlama reported $50.243B of Ethereum DeFi TVL and $147.075B of stablecoin market capitalization, alongside $1.381B of 24-hour DEX volume, $7.53M of app fees, 2.1M transactions, and $31.43M of net bridge inflows. TVL and bridge flow improved with ETH's rebound, while seven-day DEX volume remained slightly lower.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-12",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$707,549 chain fees / $180,540 chain revenue over 24h",
+      "summary": "DefiLlama reported $707,549 of Ethereum L1 chain fees and $180,540 of chain revenue over 24 hours, versus $7.53M of application fees. Direct L1 economics improved from the prior snapshot but still remained much smaller than application-level fees, leaving the $10K value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth",
+        "growthepie-l2-fees"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue figures are volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "network-staking-2026-09-12",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "42,632,959 ETH / 34% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters continued to report roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters can change as validators enter, exit, and earn rewards."
+    },
+    {
+      "id": "eth-market-2026-09-13",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,489.85 / -1.7% CoinGecko 24h",
+      "summary": "ETH traded near $2.49K on Sunday afternoon. CoinGecko showed a 1.7% 24-hour decline, a $2,464.63–$2,535.49 range, and a 0.1% seven-day decline. ETH weakened as weekend oil-supply risk escalated, but the move remained well below the 5% notification threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-hormuz-vessel-attack-2026-09-13"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously and venue-specific rolling windows differ; global oil, bond, equity, and currency markets had not fully reopened when this snapshot was taken."
+    },
+    {
+      "id": "global-liquidity-2026-09-13",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Severe Saudi pipeline damage / only 5–7 days of export inventory / up to 4% of global supply at risk",
+      "summary": "Reuters's updated reporting said drone strikes knocked out Saudi Arabia's East-West pipeline, with repair estimates ranging from days to weeks. Saudi buyers and traders said Yanbu inventories could maintain exports for only five to seven days; after that, up to 4% of global oil supply could be jeopardized. A vessel was also struck in Hormuz, causing fire, evacuation, one reported death, and four injuries. The escalation materially deepens the energy-inflation and cyclical-liquidity headwind before the Fed and BOJ meetings.",
+      "sourceIds": [
+        "reuters-hormuz-vessel-attack-2026-09-13",
+        "reuters-saudi-pipeline-2026-09-12",
+        "reuters-us-cpi-2026-09-11"
+      ],
+      "confirmed": true,
+      "uncertainty": "Saudi Arabia has not disclosed the full damage or reopening timetable; repair estimates conflict, Monday's Oman talks may alter the shipping outlook, and global oil and bond markets had not yet priced the weekend developments."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-13",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.33B distributed RWA value / $8.49B 30d transfers / $160.14B stablecoins",
+      "summary": "RWA.xyz reported $17.33B of distributed tokenized real-world asset value on Ethereum, 271,182 RWA holders, and $8.49B of rolling 30-day RWA transfer volume. Its Ethereum stablecoin measure stood at $160.14B with $2.43T of 30-day transfer volume. The stablecoin and holder footprint remained structurally supportive, while the sharp rolling-window drop in RWA transfer volume warrants caution.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value and uses a stablecoin methodology that differs from DefiLlama; rolling transfer volume can change abruptly when a large prior-day observation exits the window, and ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-defi-2026-09-13",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$49.534B DeFi TVL / $147.261B stablecoins / +$26.17M 24h inflows",
+      "summary": "DefiLlama reported $49.534B of DeFi TVL on Ethereum, down 0.86% over 24 hours, with $147.261B of stablecoins, $828.86M of 24-hour DEX volume, $5.61M of app fees, 1.57M transactions, and $26.17M of net inflows. The footprint remained large and inflows positive, but TVL and weekly DEX activity softened.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity metrics are price-sensitive and volatile; provider methodologies differ, and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-13",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$242,900 chain fees / $27,948 chain revenue / $5.61M app fees over 24h",
+      "summary": "DefiLlama reported $242,900 of Ethereum L1 chain fees and $27,948 of chain revenue over 24 hours, compared with $5.61M of application fees. Direct L1 economics weakened from the morning snapshot and remained modest relative to application activity, so ecosystem strength still does not by itself demonstrate the ETH-specific value capture required for the $10K thesis.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth",
+        "growthepie-l2-fees"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blob demand, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "network-staking-2026-09-13",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "42,632,959 ETH / 34% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters remained at roughly 42.6M ETH staked, equal to 34% of supply, with a current APR near 2.5%. Staking participation remained structurally strong, but the yield stayed below elevated U.S. Treasury yields.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters can change as validators enter, exit, and earn rewards; the nominal APR comparison does not account for ETH price risk or potential ETH appreciation."
+    },
+    {
+      "id": "political-rate-pressure-debasement-2026-09-13",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Trump: U.S. should have world's lowest rate regardless of inflation data",
+      "summary": "President Trump said the United States should pay the lowest interest rate in the world regardless of what inflation and economic data indicate, days before the Fed meeting. The rhetoric strengthens the structural financial-repression and debasement narrative because it favors lower nominal financing costs despite persistent inflation, but it is not a Fed decision, QE, or evidence that real yields have already fallen.",
+      "sourceIds": [
+        "reuters-trump-lowest-rates-2026-09-13",
+        "reuters-us-cpi-2026-09-11",
+        "fed-home"
+      ],
+      "confirmed": true,
+      "uncertainty": "The statement is political preference, not monetary policy. Fed independence, the September decision, future inflation, real yields, the dollar, and any actual easing remain uncertain."
+    },
+    {
+      "id": "eth-market-2026-09-14",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,508.18 / about +0.8% CoinGecko 24h",
+      "summary": "ETH traded near $2.51K and gained about 0.8% over 24 hours even as U.S. equities weakened, oil and bond yields rose, and Fed-hike pricing increased. CoinGecko showed a $2,467.86–$2,531.64 range and 24-hour volume up materially from the morning snapshot, but the price move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-wall-street-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Crypto prices and rolling 24-hour changes move continuously; the U.S. session was still in progress."
+    },
+    {
+      "id": "global-liquidity-2026-09-14",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $108.83 / U.S. 10Y near 5% / Fed-hike odds nearly 89%",
+      "summary": "The cyclical liquidity headwind intensified during the U.S. session. Reuters reported Brent up about 4% to $108.83, the 10-year Treasury yield around 5%, a stronger safe-haven dollar, and traders assigning nearly 89% odds to a Fed hike on September 16. ETH remained resilient near $2.51K, but the higher-yield, stronger-dollar, energy-inflation mix is adverse for risk-asset liquidity.",
+      "sourceIds": [
+        "reuters-wall-street-2026-09-14",
+        "reuters-sterling-dollar-2026-09-14",
+        "reuters-global-markets-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil, yields, currencies, and policy odds move continuously. The Fed has not made its decision, and the duration of the energy disruption remains unknown."
+    },
+    {
+      "id": "network-staking-2026-09-14",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,069,664 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters showed 43.07M ETH staked, equal to 35% of supply, at a current APR near 2.5%. That is about 436,705 ETH more than the September 13 reading and moves the displayed participation share from 34% to 35%, strengthening the supply-locking and productive-capital evidence.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change with deposits, exits, and rewards; the comparison uses successive snapshots rather than a formal daily flow series."
+    },
+    {
+      "id": "blackrock-ethb-2026-09-11",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "$1.052B net assets / 1.52% 30-day staking rewards rate",
+      "summary": "BlackRock reported $1.052B of net assets in its iShares Staked Ethereum Trust ETF as of September 11, with a 1.52% 30-day staking rewards rate and 32.16M shares outstanding. The product provides direct evidence that regulated, staking-enabled ETH exposure has reached billion-dollar scale.",
+      "sourceIds": [
+        "blackrock-ethb"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fund assets vary with ETH price and creations or redemptions; the 30-day reward rate is backward-looking and below the network's headline APR after product structure and expenses."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-14",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.33B distributed RWA value / $8.49B 30d RWA transfers / $160.14B stablecoins",
+      "summary": "RWA.xyz reported $17.33B of distributed tokenized real-world asset value on Ethereum, 271,182 RWA holders, and $8.49B of 30-day RWA transfer volume. Its Ethereum stablecoin measure was $160.14B with $2.38T of 30-day stablecoin transfers, reinforcing Ethereum's large tokenized-finance footprint despite weaker rolling RWA transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented assets, and its stablecoin methodology differs from DefiLlama. Thirty-day transfer volumes can change sharply and do not automatically translate into ETH demand."
+    },
+    {
+      "id": "ethereum-defi-2026-09-14",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$49.498B TVL / $147.351B stablecoins / +$7.08M 24h inflows",
+      "summary": "DefiLlama reported $49.498B of Ethereum DeFi TVL, down 1.11% over 24 hours, with $147.351B of stablecoins, $707.23M of 24-hour DEX volume, $4.91M of application fees, 1.48M transactions, and $7.08M of net bridge inflows. The footprint remains structurally large, but activity and TVL were softer.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are volatile and price-sensitive; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-14",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$238,171 chain fees / $27,995 chain revenue / $4.91M app fees over 24h",
+      "summary": "DefiLlama reported $238,171 of Ethereum L1 chain fees and $27,995 of chain revenue over 24 hours versus $4.91M of application fees. Rising staking participation improves ETH's productive-capital case, but direct L1 fee capture remained modest relative to application economics.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "ethereum-staking",
+        "ethereum-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fees are volatile and only one part of ETH value capture, which also includes staking, collateral, settlement, blobs, scarcity, and monetary demand."
+    },
+    {
+      "id": "debasement-market-2026-09-14",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "U.S. 10Y near 5% / Brent $108.83 / safe-haven dollar stronger",
+      "summary": "The structural fiscal and political case for eventual financial repression remains intact, but current price action still reflects a tightening shock rather than a clean debasement trade. Oil near $109, a 10-year Treasury yield around 5%, and safe-haven dollar demand raise the near-term opportunity cost of ETH even as they worsen longer-run debt-service pressures.",
+      "sourceIds": [
+        "reuters-wall-street-2026-09-14",
+        "reuters-sterling-dollar-2026-09-14",
+        "cbo-2026-outlook"
+      ],
+      "confirmed": true,
+      "uncertainty": "The market levels are live and the structural conclusion is an analytical interpretation; this does not establish imminent QE, fiscal dominance, or ETH-specific monetary demand."
+    },
+    {
+      "id": "eth-market-2026-09-15",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$2,410.64 / -3.7% 24h / $2,390.89–$2,607.56 range",
+      "summary": "ETH's earlier move above $2,600 fully reversed, with CoinGecko showing about $2,411 and -3.7% over 24 hours by the afternoon cutoff. The $217 intraday range and 40% day-over-day increase in trading volume show materially elevated volatility, but the rolling decline had not reached the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "coindesk-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling returns update continuously. Broad risk-off conditions are consistent with the reversal, but price data alone cannot prove a single cause."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-14",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$121.1M latest completed day / +$13.503B cumulative",
+      "summary": "Farside finalized September 14 U.S. spot ETH ETF flows at a $121.1M net inflow. BlackRock ETHA led with $80.5M; ETHB added $14.4M, Grayscale's mini trust $8.9M, Bitwise $6.5M, and other funds added smaller amounts, partly offset by a $5.4M outflow from 21Shares. Cumulative net inflows reached about $13.503B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside figures can be revised. One strong session supports demand but does not alone establish a durable multi-week trend."
+    },
+    {
+      "id": "blackrock-ethb-2026-09-14",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "$1.070B net assets / 1.53% 30-day staking reward rate",
+      "summary": "BlackRock reported ETHB net assets of $1.0697B as of September 14, with 32.72M shares outstanding and a 1.53% 30-day staking rewards rate. This confirms continued scaling of regulated staking-enabled ETH exposure.",
+      "sourceIds": [
+        "blackrock-ethb"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fund assets vary with ETH's price as well as creations and redemptions; the 30-day staking rate is backward-looking and can change."
+    },
+    {
+      "id": "network-staking-2026-09-15",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,107,910 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live staking counters showed 43.108M ETH staked, equal to 35% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The counters change continuously as validators enter, exit, and earn rewards."
+    },
+    {
+      "id": "clarity-final-text-2026-09-15",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "60-vote procedural test expected shortly after 2 p.m. EDT",
+      "summary": "Reuters reported that the Senate's CLARITY Act procedural vote was expected shortly after 2 p.m. EDT. At the research cutoff, no outcome had been published. The revised bill would tighten officeholder-conflict rules, but bank groups continued to oppose its treatment of stablecoin rewards.",
+      "sourceIds": [
+        "reuters-clarity-vote-2026-09-15",
+        "senate-floor-clarity-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "The vote outcome, subsequent amendment process, final text, and enactment remain unresolved."
+    },
+    {
+      "id": "global-liquidity-2026-09-15",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $107.73 / U.S. 10Y 5.0019% / 93% Fed-hike probability",
+      "summary": "Reuters reported Brent at $107.73, the 10-year Treasury yield at about 5.002% after reaching its highest level since 2007, and traders assigning a 93% probability to a September 16 Fed rate increase. Stocks weakened and ETH reversed sharply, consistent with a hostile cyclical-liquidity backdrop.",
+      "sourceIds": [
+        "reuters-oil-2026-09-15",
+        "reuters-wall-street-2026-09-15",
+        "reuters-dollar-fed-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Market levels and policy probabilities move continuously. The Fed decision and forward guidance remain pending, and the duration of the oil-supply disruption is uncertain."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-15",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.35B distributed RWA value / $160.25B stablecoins / $2.37T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $17.35B of distributed tokenized real-world assets on Ethereum, 271,390 RWA holders, $160.25B of stablecoin market capitalization, and $2.37T of 30-day stablecoin transfer volume as of September 15.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider definitions distinguish distributed from represented value and may differ from other sources. Ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-defi-2026-09-15",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "about $50B DeFi TVL / $147.672B stablecoins / -$345.67M 24h inflows",
+      "summary": "DefiLlama showed Ethereum DeFi TVL near $50B, $147.672B of stablecoins, $1.253B of 24-hour DEX volume, 1.91M transactions, and $345.67M of net bridge outflows over 24 hours. The ecosystem footprint remains large, but the daily capital-flow reading was negative.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL, flows, and activity are volatile and methodology-sensitive; composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-15",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$381,323 chain fees / $96,559 chain revenue / $8.79M app fees over 24h",
+      "summary": "DefiLlama reported $381,323 of Ethereum L1 chain fees and $96,559 of chain revenue over 24 hours, compared with $8.79M of application fees. L1 economics improved from the prior snapshot but remain small relative to application-layer fee generation, keeping direct ETH value capture mixed.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blob demand, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "protocol-status-2026-09-15",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "No new EF protocol release since Sep. 9 / AMA scheduled Sep. 16",
+      "summary": "The Ethereum Foundation blog showed no newer protocol publication after the September 9 AMA announcement. The previously published 2029 roadmap and Hegotá priorities remain the current official protocol baseline.",
+      "sourceIds": [
+        "ethereum-blog-index",
+        "ethereum-reddit-ama-2026-09-09"
+      ],
+      "confirmed": true,
+      "uncertainty": "The September 16 AMA may provide additional clarification, but it is not itself a protocol decision or delivery milestone."
+    },
+    {
+      "id": "sec-status-2026-09-15",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "No newer crypto-specific SEC action after Aug. 18 proposal",
+      "summary": "The SEC press-release index was current through September 14 and still listed the August 18 Regulation Crypto Assets proposal as its latest crypto-specific rulemaking announcement.",
+      "sourceIds": [
+        "sec-press-releases",
+        "sec-regulation-crypto-assets"
+      ],
+      "confirmed": true,
+      "uncertainty": "The index can update later in the day; the proposal's final terms and adoption timetable remain unresolved."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-15",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$142.3M latest completed day / +$13.361B cumulative",
+      "summary": "Farside finalized September 15 U.S. spot ETH ETF flows at a $142.3M net outflow. BlackRock ETHA lost $98.0M, Fidelity FETH lost $34.4M, Grayscale ETHE lost $17.5M, and Grayscale's mini trust lost $7.2M; ETHB added $12.4M and 21Shares TETH added $2.4M. Cumulative net inflows fell to about $13.361B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside figures can be revised. One negative session does not establish a durable institutional-outflow trend."
+    },
+    {
+      "id": "eth-market-2026-09-16",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$2,400.95 / -3.9% 24h / $2,361.16–$2,499.43 range",
+      "summary": "ETH traded near $2,401 after the Senate failed to advance the CLARITY Act. CoinGecko showed a 3.9% rolling 24-hour decline and higher trading activity, while ETH/BTC also weakened. The decline remained below the 5% price-alert threshold but was consistent with a broader crypto risk-off reaction.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-clarity-failure-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling returns change continuously. Regulatory disappointment and macro stress are plausible drivers, but the exact contribution of each cannot be isolated."
+    },
+    {
+      "id": "clarity-act-failed-2026-09-15",
+      "catalyst": "regulation",
+      "direction": "headwind",
+      "value": "Cloture rejected 49–50 / 60 votes required",
+      "summary": "The official Senate roll call shows cloture on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act, was rejected 49–50 on September 15, well short of the 60 votes required. Reuters reported that four Republicans joined Democrats in opposition and that the result effectively puts the bill on ice ahead of the election recess. Thom Tillis switched his vote for procedural reasons, preserving the possibility of reconsideration.",
+      "sourceIds": [
+        "senate-rollcall-234-2026",
+        "senate-wrapup-2026-09-15",
+        "reuters-clarity-failure-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "The failed vote is final for this attempt, but reconsideration remains procedurally possible. The timing and shape of any future bill, and the extent to which SEC/CFTC rulemaking can substitute for legislation, are uncertain."
+    },
+    {
+      "id": "bitmine-eth-holdings-2026-09-13",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "5,956,378 ETH / 4.9% of supply / +27,180 ETH from prior disclosure",
+      "summary": "BitMine's September 14 SEC-filed exhibit disclosed 5.956M ETH as of September 13, up 27,180 ETH from its prior 5.929M disclosure. The company says it is 98% of the way to its 5%-of-supply target and continues weekly purchases.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "The holdings are company-disclosed in an SEC-filed exhibit. Concentration supports demand while accumulation continues but increases financing and reversal risk if strategy changes."
+    },
+    {
+      "id": "bitmine-staked-eth-2026-09-13",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "5,067,309 ETH staked / 85% of holdings / 2.62% reported yield",
+      "summary": "BitMine reported 5.067M ETH staked, equal to about 85% of its 5.956M ETH treasury, with a 2.62% seven-day annualized yield and projected annualized staking revenue of $334M. The staked balance was unchanged from the September 7 disclosure.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit-2026-09-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "The staked balance is disclosed, while yield and revenue figures extrapolate a short observation window and are forward-looking."
+    },
+    {
+      "id": "network-staking-2026-09-16",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,162,677 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters showed 43.163M ETH staked, equal to 35% of supply, with a current APR near 2.5%.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The counters change continuously as validators enter, exit, and earn rewards."
+    },
+    {
+      "id": "blackrock-ethb-2026-09-15",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "$1.026B net assets / 1.57% 30-day staking reward rate",
+      "summary": "BlackRock reported ETHB net assets of $1.026B and 33.16M shares outstanding as of September 15, with a 1.57% 30-day staking reward rate. Fund assets fell with ETH's price, while shares outstanding increased from the prior snapshot.",
+      "sourceIds": [
+        "blackrock-ethb"
+      ],
+      "confirmed": true,
+      "uncertainty": "Net assets reflect both ETH price and creations/redemptions. The 30-day staking rate is backward-looking and can change."
+    },
+    {
+      "id": "global-liquidity-2026-09-16",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "10Y nominal 5.041% / 10Y real 2.60% / about 93% Fed-hike probability / Brent $107.82",
+      "summary": "The 10-year Treasury yield reached 5.041%, its highest since July 2007, while the latest official 10-year real yield was 2.60%. Markets priced roughly a 93% chance of a September 16 Fed hike. Brent remained near $108 despite a pullback on higher U.S. inventories, leaving the near-term liquidity backdrop hostile to ETH.",
+      "sourceIds": [
+        "reuters-treasuries-2026-09-15",
+        "fred-dfii10",
+        "reuters-oil-2026-09-16",
+        "fed-home"
+      ],
+      "confirmed": true,
+      "uncertainty": "Yields, oil, and policy probabilities move continuously. The Fed decision and dot plot remain pending, and the Saudi pipeline repair timeline is uncertain."
+    },
+    {
+      "id": "ethereum-defi-2026-09-16",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "about $48B TVL / $147.172B stablecoins / -$36.53M 24h inflows",
+      "summary": "DefiLlama showed Ethereum DeFi TVL near $48B, $147.172B of stablecoins, $1.801B of 24-hour DEX volume, 1.89M transactions, and $36.53M of net bridge outflows. Activity remained substantial, but falling token prices and negative flows reduced dollar-denominated TVL.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity are volatile, price-sensitive, and methodology-dependent; composable assets can be double-counted."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-16",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.21B distributed RWA value / $160.54B stablecoins / $2.41T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $17.21B of distributed tokenized real-world assets on Ethereum, 271,695 RWA holders, $160.54B of stablecoin market capitalization, and $2.41T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider definitions distinguish distributed from represented value and differ from DefiLlama. Ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-16",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$424,489 chain fees / $82,311 chain revenue / $6.85M app fees over 24h",
+      "summary": "DefiLlama reported $424,489 of Ethereum L1 chain fees and $82,311 of chain revenue over 24 hours, compared with $6.85M of application fees. L1 fees rose modestly, but direct ETH-linked revenue remained small relative to the broader application layer.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand."
+    },
+    {
+      "id": "protocol-status-2026-09-16",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "No new EF protocol release / AMA scheduled for 14:00 UTC",
+      "summary": "The Ethereum Foundation blog showed no newer protocol publication after the September 9 AMA announcement. The Protocol cluster's Reddit AMA was scheduled for September 16 at 14:00 UTC, after this research cutoff.",
+      "sourceIds": [
+        "ethereum-blog-index",
+        "ethereum-reddit-ama-2026-09-09"
+      ],
+      "confirmed": true,
+      "uncertainty": "The AMA may provide useful clarification but is not itself a fork decision or delivery milestone."
+    },
+    {
+      "id": "sec-status-2026-09-16",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "No new crypto-specific SEC action after Aug. 18 proposal",
+      "summary": "The SEC press-release index showed no new crypto-specific action after the August 18 Regulation Crypto Assets proposal. With CLARITY stalled, agency rulemaking becomes more important but remains more politically and legally reversible than legislation.",
+      "sourceIds": [
+        "sec-press-releases",
+        "sec-regulation-crypto-assets",
+        "reuters-clarity-failure-2026-09-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Future SEC/CFTC actions and court challenges are uncertain, and agency rules cannot fully replicate a statutory market-structure framework."
+    },
+    {
+      "id": "circle-arc-mainnet-2026-09-16",
+      "catalyst": "value-capture",
+      "direction": "headwind",
+      "value": "Public mainnet live / USDC gas / 100+ applications and institutional builders",
+      "summary": "Circle launched Arc's public mainnet as a purpose-built Layer 1 for payments, FX, trading, lending, tokenized assets, and agentic commerce. Arc pays gas in USDC rather than a volatile native token and launched with more than 100 applications and more than 100 institutional and ecosystem builders. Day-one markets include Uniswap and tokenized assets such as USYC and BUIDL; founding validators announced ahead of launch include BlackRock, DTCC, ICE, Mastercard, Standard Chartered, and Visa. This validates the broader tokenization thesis but is a direct warning for ETH value capture because major stablecoin and institutional activity can grow on a non-Ethereum settlement layer without generating demand for ETH.",
+      "sourceIds": [
+        "circle-arc-mainnet-2026-09-16",
+        "circle-arc-validators-2026-08-05"
+      ],
+      "confirmed": true,
+      "uncertainty": "Public launch and listed integrations are confirmed by Circle, but Arc has not disclosed sustained transaction volume, assets, fees, or institutional production usage. Some privacy and AgentVM capabilities remain in development, and planned token deployments or integrations may not achieve meaningful adoption."
+    },
+    {
+      "id": "deutsche-bank-eth-custody-2026-09-16",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Planned 2026 European institutional custody / Ether included at launch",
+      "summary": "Deutsche Bank announced a digital-asset custody service for European institutional and corporate clients, targeting first-client go-live in 2026. The initial supported set is expected to include Ether, Bitcoin, USDC, EURC, and EURAU, with wallet and private-key management and third-party transfers. This lowers operational and custody friction for institutions seeking direct ETH exposure through an established global bank.",
+      "sourceIds": [
+        "deutsche-bank-custody-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The service is announced but remains subject to regulatory completion, internal approvals, client onboarding, and the bank's risk appetite. Deutsche Bank disclosed no client commitments, ETH balances, launch date, fees, or expected custody volume."
+    },
+    {
+      "id": "boj-tightening-expectation-2026-09-16",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "1.25% policy rate expected September 18 / first hike in three months",
+      "summary": "Reuters reports the Bank of Japan is widely expected to raise its policy rate from 1.0% to 1.25% on September 18, a 31-year high, with markets nearly fully pricing the move. A higher yen funding rate adds another global-liquidity headwind and can pressure leveraged carry positions alongside expected Federal Reserve tightening.",
+      "sourceIds": [
+        "reuters-boj-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The September 18 decision and Governor Ueda's guidance have not occurred. The rate path and market reaction remain uncertain even if the expected 25-basis-point hike is delivered."
+    },
+    {
+      "id": "ef-protocol-ama-live-2026-09-16",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF Protocol AMA opened at 14:00 UTC; no new fork decision confirmed at cutoff",
+      "summary": "The Ethereum Foundation Protocol cluster's scheduled Reddit AMA opened with questions covering Glamsterdam testing, Hegotá scope, FOCIL, Frame Transactions, L1 privacy, post-quantum accounts, fast slots, state management, client funding, and staking composition. At the research cutoff, the live thread had not produced a new final AllCoreDevs inclusion decision or mainnet date beyond the previously recorded roadmap.",
+      "sourceIds": [
+        "ethereum-reddit-ama-2026-09-09",
+        "ethereum-reddit-ama-thread-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The AMA was still live at the cutoff, and later developer answers may add useful evidence or clarify delivery risks."
+    },
+    {
+      "id": "eth-market-2026-09-17",
+      "catalyst": "market",
+      "direction": "supportive",
+      "value": "$2,470.19 / +3.0% CoinGecko 24h",
+      "summary": "ETH traded near $2.47K, up 3.0% over 24 hours and close to the top of its $2,371.36–$2,478.98 daily range. ETH/BTC was near 0.03224 and up about 1.9%, showing relative strength, but the dollar price move remained below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, market capitalization, volume, and rolling 24-hour changes move continuously and differ somewhat across venues."
+    },
+    {
+      "id": "fed-rate-hike-2026-09-16",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "+25bp to 3.75%–4.00% / unanimous / median 4.1% end-2026",
+      "summary": "The FOMC unanimously raised the federal-funds target range by 25 basis points to 3.75%–4.00%, its first rate increase since 2023. The statement said inflation remains elevated and the action is intended to support a timelier return to 2%. The September projections lifted median 2026 PCE inflation to 3.7%, core PCE to 3.4%, and the median end-2026 policy rate to 4.1%, implying another 25-basis-point increase from the new midpoint. Chair Kevin Warsh said recent inflation readings had not meaningfully improved and that price stability remained the predominant focus.",
+      "sourceIds": [
+        "fed-fomc-statement-2026-09-16",
+        "fed-sep-2026-09-16",
+        "reuters-warsh-inflation-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The September action and published projections are confirmed, but the next rate decision remains data-dependent. Individual projections are not a binding Committee commitment, and geopolitical and energy conditions can change."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-16",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$224.1M day / -$366.4M over two sessions / +$13.137B cumulative",
+      "summary": "Farside finalized September 16 U.S. spot ETH ETF flows at a $224.1M net outflow, following the $142.3M outflow on September 15. BlackRock ETHA lost $110.0M, ETHB $19.8M, Bitwise ETHW $55.6M, 21Shares TETH $10.8M, CETH $14.0M, and Grayscale ETHE $13.9M. The two-session outflow totaled $366.4M, while cumulative net inflows remained strongly positive at $13.137B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. Two large outflow sessions show near-term demand weakness but do not by themselves establish a lasting institutional reversal."
+    },
+    {
+      "id": "ethereum-mpbc-mainnet-2026-09-16",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "First production multi-party block construction live on mainnet",
+      "summary": "Blockspace Forum launched the first production implementation of multi-party block construction on Ethereum mainnet. The initial append-only design lets additional builders contribute eligible transactions or blobs after an initial builder assembles a block, while preserving the existing proposer-builder auction and allowing conventional single-builder blocks. Infrastructure participants reported support from builders representing about 85% of the connected pipeline and more than 90% of connected validators. The design can broaden blockspace competition and improve resilience against a single builder excluding transactions, while remaining compatible with longer-term ePBS and FOCIL work.",
+      "sourceIds": [
+        "blockspace-forum-mpbc-2026-09-16",
+        "cryptotimes-mpbc-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The production launch and participating infrastructure are confirmed, but coverage figures apply to connected rollout participants rather than all Ethereum validators. MPBC is an infrastructure-layer deployment, not an Ethereum consensus fork; its censorship-resistance, revenue, latency, and decentralization effects require live operating data."
+    },
+    {
+      "id": "network-staking-2026-09-17",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,229,533 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters reported 43.23M ETH staked, equal to about 35% of supply, with a current APR near 2.5%. Staked ETH increased by roughly 66,900 from the morning check, supporting supply lock-up and network security despite the yield remaining below U.S. policy rates.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The counters change as validators enter, exit, and earn rewards; the incremental change does not establish a durable acceleration."
+    },
+    {
+      "id": "ethereum-defi-2026-09-17",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$49.741B TVL / $146.912B stablecoins / +$58.91M 24h inflows",
+      "summary": "DefiLlama reported $49.741B of Ethereum DeFi TVL, $146.912B of stablecoin market capitalization, $1.782B of 24-hour DEX volume, $6.62M of application fees, 1.96M transactions, and $58.91M of net bridge inflows. The footprint remained large and daily capital flow was positive.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL, activity, and bridge-flow measures are volatile and price-sensitive; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-17",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.07B distributed RWA value / $159.62B stablecoins / $2.43T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $17.07B of distributed tokenized real-world asset value on Ethereum, 272,732 RWA holders, $7.81B of 30-day RWA transfer volume, and $159.62B of stablecoin market capitalization with $2.43T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, provider methodologies differ, and large tokenized-asset or stablecoin activity does not automatically translate into ETH fee burn, collateral demand, or price appreciation."
+    },
+    {
+      "id": "eth-value-capture-2026-09-17",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$374,634 chain fees / $77,907 chain revenue / $6.62M app fees over 24h",
+      "summary": "DefiLlama reported $374,634 of Ethereum L1 chain fees and $77,907 of chain revenue over 24 hours, versus $6.62M of application fees. The SEC tokenization exemption and S&P/OpenZeppelin transaction strengthen the ecosystem-demand thesis, but current direct L1 fee capture remains modest and both developments are blockchain-neutral.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "reuters-sec-tokenization-exemption-2026-09-17",
+        "sp-global-openzeppelin-2026-09-17"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also depends on staking, collateral, settlement, blobs, burn, and monetary demand. Future tokenized securities could settle on Ethereum, L2s, or competing networks."
+    },
+    {
+      "id": "debasement-fed-2026-09-17",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "First Fed hike since 2023; no QE or monetization signal",
+      "summary": "The Fed hike and higher projected policy path are a near-term headwind for the dollar-debasement and crypto-liquidity trade: they raise cash and Treasury yields, strengthen the dollar, and make ETH staking less competitive. They do not invalidate the longer-run fiscal-debasement thesis, because higher refinancing costs can worsen debt-service pressure over time, but the September decision provides no evidence of imminent QE, yield suppression, or fiscal monetization.",
+      "sourceIds": [
+        "fed-fomc-statement-2026-09-16",
+        "fed-sep-2026-09-16",
+        "reuters-warsh-inflation-2026-09-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "The near-term tightening action is confirmed. The longer-run fiscal response is an inference rather than announced policy, and future inflation, growth, Treasury demand, and political choices will determine whether financial repression or monetary easing emerges."
+    },
+    {
+      "id": "sec-tokenized-securities-exemption-2026-09-17",
+      "catalyst": "regulation",
+      "direction": "supportive",
+      "value": "Five-year conditional exchange and dealer exemptions for tokenized securities",
+      "summary": "The SEC unveiled a five-year Innovation Exemption allowing qualifying platforms to facilitate trading in tokenized stocks and other securities with relief from many exchange rules, while liquidity providers receive conditional relief from dealer-registration requirements. Platforms must notify issuers and cannot proceed if an issuer objects; synthetic stock tokens are excluded, and tokenized shares must preserve conventional shareholder rights including dividends and voting. The action creates a concrete U.S. operating path for onchain securities after the Senate failed to advance the CLARITY Act, but it is blockchain-neutral and does not direct activity to Ethereum.",
+      "sourceIds": [
+        "reuters-sec-tokenization-exemption-2026-09-17",
+        "sec-atkins-innovation-exemption-2026-04-21"
+      ],
+      "confirmed": true,
+      "uncertainty": "Platform uptake, issuer participation, transaction volumes, the networks chosen, litigation risk, and the permanent rules that replace or follow the five-year exemptions remain uncertain. Tokenization growth does not automatically create ETH demand or value capture."
+    },
+    {
+      "id": "sp-global-openzeppelin-2026-09-17",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Agreement to acquire OpenZeppelin / $37T+ value transferred / 900+ engagements",
+      "summary": "S&P Global agreed to acquire OpenZeppelin to expand its digital-asset risk assessment into the onchain technology-risk layer and develop security assessments and benchmarks for tokenized markets. S&P says OpenZeppelin Contracts underpin more than $37T of value transferred and that the company has completed more than 900 security engagements. The transaction is a material traditional-finance endorsement of smart-contract security infrastructure; OpenZeppelin is important to Ethereum and EVM ecosystems but operates across chains.",
+      "sourceIds": [
+        "sp-global-openzeppelin-2026-09-17"
+      ],
+      "confirmed": true,
+      "uncertainty": "The transaction remains subject to closing conditions, financial terms were not disclosed, the $37T and engagement figures are company-provided, and the acquisition does not guarantee Ethereum-specific adoption or ETH value capture."
+    },
+    {
+      "id": "eth-etf-status-2026-09-17-evening",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "September 17 incomplete / September 16 -$224.1M / +$13.137B cumulative",
+      "summary": "Farside had not yet finalized September 17 U.S. spot ETH ETF flows at this check. The latest completed session remained September 16's $224.1M net outflow, following a $142.3M September 15 outflow, while cumulative net flows remained approximately $13.137B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "September 17 figures were incomplete and should not be interpreted as a zero-flow day. The table updates automatically and prior figures can be revised."
+    },
+    {
+      "id": "eth-market-2026-09-18",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,474.93 / +1.6% CoinGecko 24h / 0.03200 BTC",
+      "summary": "ETH traded near $2.47K and gained 1.6% over 24 hours despite the BOJ rate increase. It remained near the top of its $2,426.65–$2,479.41 range, while ETH/BTC was about 0.03200 and up 0.3%. The move remained below the 5% price-alert threshold and did not establish a new price regime.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, market capitalization, volume, and rolling 24-hour changes move continuously and differ somewhat across venues."
+    },
+    {
+      "id": "boj-rate-hike-2026-09-18",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "BOJ +25bp to 1.25% / 7-2 vote / highest in 31 years",
+      "summary": "The Bank of Japan raised its policy rate from 1.0% to 1.25% by a 7-2 vote, effective September 24. Its official statement said underlying inflation is approaching 2%, warned of an upward inflation deviation, and said it will continue raising rates as economic, price, and financial conditions warrant. The move adds another global tightening channel after the Fed's September 16 hike and can reduce the attractiveness of yen-funded carry trades.",
+      "sourceIds": [
+        "boj-guideline-2026-09-18",
+        "reuters-boj-hike-2026-09-18"
+      ],
+      "confirmed": true,
+      "uncertainty": "The hike was widely anticipated. Governor Ueda's press conference was still pending at this check, two members dissented, and the pace and extent of future tightening remain data-dependent."
+    },
+    {
+      "id": "yen-market-reaction-2026-09-18",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "Yen weakened to about ¥156.91/$ after BOJ hike",
+      "summary": "The yen weakened after the BOJ decision rather than strengthening, as markets focused on two dovish dissenters and the absence of explicitly faster tightening guidance. That muted the immediate carry-unwind shock even though Japan's funding rate is structurally higher.",
+      "sourceIds": [
+        "reuters-boj-hike-2026-09-18"
+      ],
+      "confirmed": true,
+      "uncertainty": "Foreign-exchange markets can reverse sharply after Governor Ueda's press conference or changes in global risk sentiment."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-17",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$39.3M latest day / -$405.4M three sessions / +$13.135B cumulative",
+      "summary": "Farside finalized September 17 U.S. spot ETH ETF flows at a $39.3M net outflow. BlackRock ETHA lost $42.9M, while Fidelity FETH and Bitwise ETHW each added $1.8M. Combined outflows for September 15–17 reached $405.4M, while cumulative net inflows remained strongly positive at approximately $13.135B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. Three negative sessions are a near-term demand headwind but do not by themselves establish a lasting institutional reversal."
+    },
+    {
+      "id": "network-staking-2026-09-18",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,270,719 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters reported 43.27M ETH staked, equal to about 35% of supply, with a current APR near 2.5%. Participation continued to edge higher, supporting supply lock-up and network security, although the yield remains below major developed-market policy rates.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The counters change as validators enter, exit, and earn rewards. A high staked share supports security and lock-up but can also intensify concentration and liquidity considerations."
+    },
+    {
+      "id": "ethereum-defi-2026-09-18",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$50.283B TVL / $146.917B stablecoins / -$21.53M 24h inflows",
+      "summary": "DefiLlama reported $50.283B of Ethereum DeFi TVL, up 2.22% over 24 hours, alongside $146.917B of stablecoin market capitalization, $1.465B of 24-hour DEX volume, $11.44M of application fees, 599,384 active addresses, and 1.96M transactions. Net bridge inflows were negative by $21.53M.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-18",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$17.09B distributed RWA value / $159.61B stablecoins / $2.38T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $17.09B of distributed tokenized real-world asset value on Ethereum, 272,732 RWA holders, $7.87B of 30-day RWA transfer volume, and $159.61B of stablecoin market capitalization with $2.38T of 30-day stablecoin transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, provider methodologies differ, and ecosystem scale does not automatically translate into ETH demand or value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-18",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$348,346 chain fees / $91,711 chain revenue / $11.44M app fees over 24h",
+      "summary": "DefiLlama reported $348,346 of Ethereum L1 chain fees and $91,711 of chain revenue over 24 hours, versus $11.44M of application fees. TVL and application activity remained large, but the gap between application economics and direct L1 revenue continued to illustrate the explicit ETH value-capture hurdle.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, burn, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "debasement-boj-2026-09-18",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "BOJ tightening delays liquidity impulse; structural fiscal thesis unchanged",
+      "summary": "The BOJ hike is a near-term liquidity headwind rather than a debasement impulse. The bank still described Japanese financial conditions as accommodative and the yen weakened after the move, but that reaction is not evidence of imminent fiscal dominance or monetization. The long-run debt and currency-debasement thesis remains separate from the current synchronized tightening cycle.",
+      "sourceIds": [
+        "boj-guideline-2026-09-18",
+        "reuters-boj-hike-2026-09-18"
+      ],
+      "confirmed": true,
+      "uncertainty": "The longer-run interaction among Japanese fiscal policy, inflation, central-bank tightening, and currency markets remains uncertain; Governor Ueda's press conference was pending."
+    },
+    {
+      "id": "eth-market-2026-09-19",
+      "catalyst": "market",
+      "direction": "supportive",
+      "value": "$2,644.57 / about +2.3% CoinGecko 24h",
+      "summary": "ETH traded near $2.64K, up about 2.3% over 24 hours and 4.0% over seven days. The move held above $2.6K despite a firmer dollar and recent Fed/BOJ tightening, but remained below the 5% price-alert threshold and below the $3K–$3.5K confirmation zone.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues. Weekend liquidity can exaggerate short-term moves, and holding above $2.6K has not yet established a new valuation regime."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-18",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$143.7M latest day / +$13.279B cumulative",
+      "summary": "Farside finalized September 18 U.S. spot ETH ETF flows at a $143.7M net inflow. BlackRock ETHA added $114.3M and Fidelity FETH added $26.2M, reversing three consecutive outflow sessions totaling $405.4M and lifting cumulative net inflows to approximately $13.279B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside's table updates automatically and can be revised. One strong inflow session reverses the immediate streak but does not yet prove a durable renewed accumulation trend."
+    },
+    {
+      "id": "boj-followthrough-2026-09-19",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "BOJ 1.25% / USDJPY briefly 158.05 / dollar index near 7-week high",
+      "summary": "The market follow-through to the BOJ hike remained restrictive but disorderly carry-unwind risk stayed muted. Reuters reported the yen weakened after the divided 7-2 decision and noncommittal future guidance, while the dollar index rose about 1.2% for the week to near a seven-week high. Markets placed roughly 55% odds on another Fed hike at the next meeting.",
+      "sourceIds": [
+        "reuters-yen-boj-2026-09-18"
+      ],
+      "confirmed": true,
+      "uncertainty": "FX and policy probabilities move continuously. Japan's reported rate checks raise intervention risk, and the pace of future BOJ and Fed tightening remains uncertain."
+    },
+    {
+      "id": "network-staking-2026-09-19",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,270,719 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org continued to report about 43.27M ETH staked, equal to 35% of supply, at a current APR near 2.5%. Participation remains high despite policy rates that offer stronger nominal competition.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters can change as validators enter, exit, and earn rewards. High participation supports security and supply lock-up but can raise operator-concentration questions."
+    },
+    {
+      "id": "ethereum-defi-2026-09-19",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$52.704B DeFi TVL / $146.985B stablecoins / +$47.91M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $52.704B, up 5.78% over 24 hours, with $146.985B in stablecoins, $47.91M of net bridge inflows, $1.455B of DEX volume, 616,395 active addresses, and 2.05M transactions. The rebound in TVL and positive inflows supported the ecosystem-demand signal.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is price-sensitive and rose alongside ETH. Daily bridge flows and activity are volatile, provider methodologies differ, and ecosystem expansion is not automatic ETH value capture."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-19",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$16.68B distributed RWA / $160.03B stablecoins / $2.49T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $16.68B of distributed tokenized real-world assets on Ethereum, down 4.73% over 30 days, while represented assets rose to $44.63M. Stablecoin market capitalization reached $160.03B and 30-day stablecoin transfer volume rose to $2.49T, reinforcing Ethereum's settlement scale despite softer distributed-RWA value and transfer volume.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama. Changes can reflect asset prices, redemptions, issuance, and data classification."
+    },
+    {
+      "id": "eth-value-capture-2026-09-19",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$511,682 chain fees / $156,654 chain revenue / $7.89M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $511,682 and chain revenue of $156,654 over 24 hours, up from the prior snapshot but still far below $7.89M of application fees. The network's economic footprint improved with TVL and activity, while direct ETH-holder capture remained modest relative to application-layer economics.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fees and revenue are volatile. ETH value capture also includes staking, collateral, settlement, blobs, scarcity, and monetary demand beyond L1 revenue."
+    },
+    {
+      "id": "debasement-followthrough-2026-09-19",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Dollar near 7-week high after Fed and BOJ hikes",
+      "summary": "The post-hike market reinforced the distinction between cyclical liquidity and the structural debasement thesis. A firmer dollar and possible further Fed tightening are near-term headwinds for ETH, while the longer-run fiscal and debt-service case for scarce assets remains unchanged. No new QE, monetization, or financial-repression signal appeared.",
+      "sourceIds": [
+        "reuters-yen-boj-2026-09-18",
+        "cbo-2026-outlook",
+        "fred-dfii10",
+        "fred-dollar"
+      ],
+      "confirmed": true,
+      "uncertainty": "The structural debasement thesis is a long-horizon interpretation, not a current policy action. Future real yields, the dollar, fiscal policy, and whether ETH captures monetary demand remain uncertain."
+    },
+    {
+      "id": "eth-market-2026-09-20",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,581.87 / about -1.4% CoinGecko 24h",
+      "summary": "ETH eased to about $2.58K after briefly trading above $2.65K, down roughly 1.4% over 24 hours and still up about 2.6% over seven days. The weekend reversal remained below the 5% alert threshold and did not establish a new market regime.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling 24-hour changes move continuously across venues. Weekend liquidity can amplify swings, and the $2.6K area has not yet been confirmed as durable support."
+    },
+    {
+      "id": "eth-etf-status-2026-09-20",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Latest finalized session +$143.7M / +$13.279B cumulative",
+      "summary": "No new U.S. spot ETH ETF session was available over the weekend. Farside's latest finalized data remained September 18's $143.7M net inflow, which reversed three consecutive outflow sessions and left cumulative net inflows near $13.279B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "The next U.S. trading session is required to determine whether Friday's rebound begins a renewed accumulation streak or was a one-day reversal."
+    },
+    {
+      "id": "network-staking-2026-09-20",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,323,677 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org reported approximately 43.32M ETH staked, equal to 35% of supply, at a current APR near 2.5%. The staked balance increased by about 53,000 ETH from the prior snapshot despite restrictive global policy rates.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards. Rising participation supports security and supply lock-up while concentration and yield compression remain longer-term risks."
+    },
+    {
+      "id": "ethereum-defi-2026-09-20",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$52.531B DeFi TVL / $146.604B stablecoins / +$225.42M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $52.531B, up 0.50% over 24 hours, with $146.604B in stablecoins and $225.42M of net bridge inflows. DEX volume was $1.14B, active addresses 451,997, and transactions 1.75M. Strong inflows offset softer weekend trading activity.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is price-sensitive, bridge flows are volatile, and weekend activity is typically lower. Ecosystem scale does not automatically translate into ETH-holder value."
+    },
+    {
+      "id": "ethereum-rwa-2026-09-20",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$16.68B distributed RWA / $160.03B stablecoins / $2.41T 30d stablecoin transfers",
+      "summary": "RWA.xyz reported $16.68B of distributed tokenized real-world assets on Ethereum, down 4.50% over 30 days, alongside $44.63M of represented assets. Stablecoin market capitalization remained $160.03B and 30-day stablecoin transfer volume was $2.41T, confirming large settlement scale while tokenized-asset value and RWA transfer volume stayed softer.",
+      "sourceIds": [
+        "rwa-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "RWA.xyz distinguishes distributed from represented value, and its stablecoin methodology differs from DefiLlama. Rolling transfer volumes and asset valuations can change with prices, issuance, redemptions, and classification."
+    },
+    {
+      "id": "eth-value-capture-2026-09-20",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$466,590 chain fees / $114,002 chain revenue / $5.56M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $466,590 and chain revenue of $114,002 over 24 hours, versus $5.56M of application fees. The direct capture signal remained modest relative to the economic activity generated by applications, despite positive capital inflows and more ETH staked.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fees and revenue are volatile, especially on weekends. ETH value capture also includes staking, collateral, settlement, blobs, scarcity, and monetary demand beyond L1 revenue."
+    },
+    {
+      "id": "eth-market-2026-09-21",
+      "catalyst": "market",
+      "direction": "supportive",
+      "value": "$2,731.04 / about +5.1% CoinGecko 24h",
+      "summary": "ETH rallied to about $2.73K and gained roughly 5.1% over 24 hours, crossing the monitoring alert threshold. Trading volume increased to about $23.92B and ETH gained against BTC over the rolling window. The move coincided with Bitcoin reaching a seven-month high, lower oil prices, and the U.S. 10-year yield falling below 5%, indicating a broad crypto and risk-asset rally rather than a confirmed single Ethereum-specific catalyst.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-wall-street-2026-09-21"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling changes move continuously. Short covering, Bitcoin-led risk appetite, staking demand, whale activity, and improving macro conditions may all have contributed, but the available authoritative sources do not isolate one dominant ETH-specific cause or prove the move is durable."
+    },
+    {
+      "id": "eth-etf-status-2026-09-21",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "September 21 provisional 0.0 / latest finalized +$143.7M / +$13.279B cumulative",
+      "summary": "Farside added a September 21 row showing zero while every issuer field remained blank, indicating an incomplete session rather than a confirmed flat result. The latest finalized session therefore remained September 18's $143.7M net inflow, with cumulative net inflows near $13.279B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "September 21 issuer flows are not finalized. The zero total should not be interpreted as confirmed absence of demand until the underlying fund entries populate."
+    },
+    {
+      "id": "network-staking-2026-09-21",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,363,736 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org reported approximately 43.36M ETH staked, equal to 35% of supply, at a current APR near 2.5%. The high participation rate continued to support network security and reduce liquid supply during the price rally.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards. Staking supports supply lock-up, but concentration and yield compression remain longer-term risks."
+    },
+    {
+      "id": "ethereum-defi-2026-09-21",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$54.077B DeFi TVL / $146.687B stablecoins / +$34.5M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $54.077B, up 2.84% over 24 hours, with $146.687B in stablecoins and $34.5M of net bridge inflows. DEX volume reached $1.406B and seven-day DEX volume rose 20%, adding activity confirmation to the price-led increase in dollar TVL.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is price-sensitive and rose alongside ETH. Bridge flows and activity are volatile, provider methodologies differ, and ecosystem expansion is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-21",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$396,236 chain fees / $63,050 chain revenue / $5.41M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $396,236 and chain revenue of $63,050 over 24 hours, versus $5.41M of application fees. Direct L1 economics improved from the morning snapshot but remained modest relative to application-layer economics, leaving the central $10K value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fees and revenue are volatile. ETH value capture also includes staking, collateral, settlement, blobs, scarcity, and monetary demand beyond L1 revenue."
+    },
+    {
+      "id": "global-liquidity-2026-09-21",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "U.S. 10Y below 5% / oil down more than 3% / ~50% October Fed-hike odds",
+      "summary": "Reuters reported that falling oil prices and the U.S. 10-year Treasury yield slipping below 5% eased immediate pressure on risk assets and helped lift equities and crypto. The relief remained incomplete: markets still assigned about a 50% chance to another October Fed hike and broader policy guidance remained hawkish.",
+      "sourceIds": [
+        "reuters-wall-street-2026-09-21",
+        "reuters-gold-2026-09-21"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil, yields, the dollar, and policy odds move continuously. The Fed has not committed to an October increase, and geopolitical supply conditions remain unstable."
+    },
+    {
+      "id": "debasement-followthrough-2026-09-21",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Risk rally despite firm dollar; no new QE or monetization signal",
+      "summary": "The rally reflected improved short-term risk appetite as oil and Treasury yields eased, not a confirmed dollar-debasement policy turn. The Fed still signaled potential further tightening and gold weakened as the dollar stayed firm. The long-run fiscal thesis remains intact, but no new QE, monetization, or financial-repression signal appeared.",
+      "sourceIds": [
+        "reuters-wall-street-2026-09-21",
+        "reuters-gold-2026-09-21",
+        "cbo-2026-outlook",
+        "fred-dfii10",
+        "fred-dollar"
+      ],
+      "confirmed": true,
+      "uncertainty": "The structural debasement thesis is a long-horizon interpretation, not a current policy action. Future real yields, the dollar, fiscal policy, and whether ETH captures monetary demand remain uncertain."
+    },
+    {
+      "id": "ecb-pontes-2026-09-21",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "ECB Pontes live / central-bank-money settlement for blockchain markets",
+      "summary": "The European Central Bank launched Pontes, linking Eurosystem payment infrastructure to blockchain-based financial markets so banks and investors can settle tokenized transactions in ECB-backed euros. Deutsche Bank, Santander, and Clearstream were among the initial onboarded users, and the ECB said it would invest a small portion of its own funds in highly rated euro-denominated blockchain securities. This is important validation for institutional tokenization, but it is blockchain-neutral and may compete with private stablecoin settlement rather than create demand for ETH.",
+      "sourceIds": [
+        "reuters-ecb-pontes-2026-09-21"
+      ],
+      "confirmed": true,
+      "uncertainty": "The launch and initial users are confirmed, but transaction volumes, network choices, interoperability, and any eventual Ethereum or ETH value capture are not yet disclosed."
+    },
+    {
+      "id": "eth-market-2026-09-22-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,743.88 / about -0.4% CoinGecko 24h / +14% 7d",
+      "summary": "ETH consolidated near $2.74K after briefly reaching about $2.80K, down roughly 0.4% over the rolling 24-hour window while retaining a 14% seven-day gain. Volume remained elevated near $18.38B. The move stayed below the 5% alert threshold and did not establish a new ETH-specific valuation regime.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues. Holding the breakout zone is constructive, but durability and the relative contribution of ETF buying, treasury accumulation, leverage, and broad risk appetite remain uncertain."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-21-final",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$270.0M latest finalized day / +$13.549B cumulative",
+      "summary": "Farside finalized September 21 U.S. spot ETH ETF flows at a $270.0M net inflow, led by $110.1M for ETHA, $73.0M for FETH, and $59.3M for Grayscale ETH. All reported issuer flows were non-negative. Combined with September 18's $143.7M inflow, the two latest completed sessions added $413.7M and lifted cumulative net inflows to approximately $13.549B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. Two strong sessions improve the demand signal but do not yet establish a durable multi-week accumulation regime."
+    },
+    {
+      "id": "eth-etf-status-2026-09-22",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "September 22 provisional 0.0 / all issuer fields blank",
+      "summary": "Farside added a September 22 row showing zero while every issuer field remained blank, indicating an incomplete session rather than a confirmed flat result. The latest finalized session therefore remained September 21's $270.0M inflow.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "September 22 issuer flows are not finalized. The provisional zero should not be interpreted as confirmed absence of demand until the underlying fund entries populate."
+    },
+    {
+      "id": "network-staking-2026-09-22",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,367,920 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org reported approximately 43.37M ETH staked, equal to 35% of supply, at a current APR near 2.5%. Participation remained high despite cash and sovereign yields that compete with staking on a nominal basis.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards. Staking supports security and supply lock-up, while concentration, liquidity, and yield compression remain longer-term risks."
+    },
+    {
+      "id": "ethereum-defi-2026-09-22-evening",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "$54.284B DeFi TVL / $146.465B stablecoins / +$311.24M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $54.284B, up 1.74% over 24 hours, with $146.465B in stablecoins and $311.24M of net bridge inflows. DEX volume reached $2.141B, seven-day DEX volume rose 30.72%, and active addresses were 613,624, adding activity confirmation beyond the price-led increase in dollar TVL.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is price-sensitive, bridge flows and activity are volatile, and provider methodologies differ. Ecosystem expansion is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-22-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$602,494 chain fees / $198,795 chain revenue / $8.5M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $602,494 and chain revenue of $198,795 over 24 hours, versus $8.5M of application fees. Direct L1 economics improved alongside activity but remained small relative to application-layer economics, leaving the central $10K value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fees and revenue are volatile. ETH value capture also includes staking, collateral, settlement, blobs, scarcity, and monetary demand beyond L1 revenue."
+    },
+    {
+      "id": "circle-binance-investment-2026-09-22",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "$100M Binance investment in Circle / USDC promotion agreement",
+      "summary": "Circle disclosed that Binance purchased approximately 1.24M shares for $100M and agreed to promote USDC on its platform. The transaction strengthens stablecoin distribution and institutional commitment to dollar-denominated onchain finance, but it does not establish Ethereum usage or ETH value capture; Circle's Arc network and multichain USDC distribution can route activity outside Ethereum.",
+      "sourceIds": [
+        "reuters-circle-binance-2026-09-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "The investment and promotional agreement are confirmed, but future USDC issuance, exchange volumes, network distribution, Arc adoption, and any resulting demand for ETH remain undisclosed."
+    },
+    {
+      "id": "eu-stablecoin-rules-2026-09-22",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "ESCB recommends replacing MiCA's 30%-60% bank-deposit reserve requirement",
+      "summary": "The ECB and EU national central banks recommended dropping MiCA's rule that stablecoin issuers hold 30%, or 60% for major issuers, of reserves as bank deposits. They proposed minimum holdings of assets maturing within one to five working days instead, while reiterating opposition to unsafeguarded multi-issuance models and warning of enforcement gaps. The proposal could improve reserve flexibility but is not final law and is not Ethereum-specific.",
+      "sourceIds": [
+        "reuters-ecb-stablecoin-rules-2026-09-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "The consultation response is confirmed, but final MiCA amendments, timing, implementation details, issuer behavior, and any effect on Ethereum-based stablecoins remain uncertain."
+    },
+    {
+      "id": "fed-discount-window-2026-09-22",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "Faster discount-window access / same-day Treasury collateral / recent quarter-end usage",
+      "summary": "Fed Vice Chair Philip Jefferson said modernization has made discount-window borrowing faster and less operationally burdensome, with more than 60% of requests now submitted online. He emphasized same-day lending against Treasury collateral, its role alongside standing repo operations, and recent increases in use during temporary quarter-end money-market pressure. This strengthens the financial-stability backstop but is ordinary liquidity infrastructure, not QE, rate easing, or a debasement policy turn.",
+      "sourceIds": [
+        "fed-jefferson-discount-window-2026-09-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "The operational improvements and recent usage are confirmed, but Jefferson spoke for himself, disclosed no new emergency program or balance-sheet expansion, and did not indicate a change in the policy-rate path."
+    },
+    {
+      "id": "global-liquidity-2026-09-22-evening",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "U.S. 10Y 4.961% / Brent $99.92 / further rate hikes still priced",
+      "summary": "Reuters reported that Brent fell below $100 and the U.S. 10-year Treasury yield eased to about 4.961%, supporting risk appetite as Middle East supply conditions improved. The relief remained incomplete because markets continued to price another round of rate hikes from major central banks and the dollar remained firm.",
+      "sourceIds": [
+        "reuters-global-markets-2026-09-22",
+        "reuters-saudi-pipeline-2026-09-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil, yields, currencies, and policy expectations move continuously. Geopolitical developments can quickly reverse the energy-price relief, and central banks have not committed to their next moves."
+    },
+    {
+      "id": "debasement-followthrough-2026-09-22-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Financial-stability backstops improved; no new QE or monetization signal",
+      "summary": "The Fed's discount-window modernization improves the system's ability to absorb Treasury and money-market stress, but it does not constitute QE, fiscal monetization, or a weaker-dollar policy. Lower oil and yields offered cyclical relief while the long-run fiscal thesis remained unchanged; the current rally still cannot be attributed to a confirmed debasement policy turn.",
+      "sourceIds": [
+        "fed-jefferson-discount-window-2026-09-22",
+        "reuters-global-markets-2026-09-22",
+        "cbo-2026-outlook",
+        "fred-dfii10",
+        "fred-dollar"
+      ],
+      "confirmed": true,
+      "uncertainty": "The structural debasement thesis is a long-horizon interpretation, not a current policy action. Future real yields, the dollar, fiscal policy, and whether ETH captures monetary demand remain uncertain."
+    }
+  ],
+  "sources": {
+    "coingecko-eth": {
+      "label": "CoinGecko Ethereum market data",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-09-22"
+    },
+    "binance-eth": {
+      "label": "Binance Ethereum market data",
+      "url": "https://www.binance.com/en/price/ethereum",
+      "accessedAt": "2026-09-10"
+    },
+    "kraken-eth": {
+      "label": "Kraken Ethereum market data",
+      "url": "https://www.kraken.com/prices/ethereum",
+      "accessedAt": "2026-09-02"
+    },
+    "farside-eth-etf": {
+      "label": "Farside Investors: U.S. Ethereum ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-09-22"
+    },
+    "bitmine-sec-8k-exhibit": {
+      "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226040741/ex99-1.htm",
+      "accessedAt": "2026-09-02"
+    },
+    "ethereum-staking": {
+      "label": "Ethereum.org staking dashboard",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-09-22"
+    },
+    "sec-regulation-crypto-assets": {
+      "label": "SEC Regulation Crypto Assets proposal",
+      "url": "https://www.sec.gov/rules-regulations/2026/08/s7-2026-27",
+      "accessedAt": "2026-09-16"
+    },
+    "sec-comments-calendar": {
+      "label": "SEC public comment deadlines",
+      "url": "https://www.sec.gov/rules-regulations/submit-public-comments",
+      "accessedAt": "2026-09-03"
+    },
+    "govinfo-clarity-motion": {
+      "label": "Congressional Record: motion to proceed on H.R. 3633",
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4557-4.htm",
+      "accessedAt": "2026-09-02"
+    },
+    "govinfo-clarity-bill": {
+      "label": "GovInfo H.R. 3633 Senate-reported text",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr3633rs",
+      "accessedAt": "2026-09-02"
+    },
+    "rwa-ethereum": {
+      "label": "RWA.xyz Ethereum dashboard",
+      "url": "https://app.rwa.xyz/networks/ethereum",
+      "accessedAt": "2026-09-20"
+    },
+    "defillama-ethereum": {
+      "label": "DefiLlama Ethereum chain dashboard",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-09-22"
+    },
+    "ethereum-plataberget": {
+      "label": "Ethereum Foundation: Platåberget testnet",
+      "url": "https://blog.ethereum.org/2026/08/17/plataberget-testnet",
+      "accessedAt": "2026-09-03"
+    },
+    "ethereum-glamsterdam-repricing": {
+      "label": "Ethereum Foundation: Glamsterdam repricing impact",
+      "url": "https://blog.ethereum.org/2026/08/24/glamsterdam-repricing-testing",
+      "accessedAt": "2026-09-03"
+    },
+    "fed-home": {
+      "label": "Federal Reserve monetary policy overview",
+      "url": "https://www.federalreserve.gov/",
+      "accessedAt": "2026-09-20"
+    },
+    "fed-barr-2026-09-01": {
+      "label": "Federal Reserve Governor Barr speech",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
+      "accessedAt": "2026-09-02"
+    },
+    "fed-warsh-2026-08-28": {
+      "label": "Federal Reserve Chair Warsh Jackson Hole remarks",
+      "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+      "accessedAt": "2026-09-02"
+    },
+    "fred-dfii10": {
+      "label": "FRED 10-Year Real Treasury Yield",
+      "url": "https://fred.stlouisfed.org/series/DFII10",
+      "accessedAt": "2026-09-20"
+    },
+    "fred-dollar": {
+      "label": "FRED Nominal Broad U.S. Dollar Index",
+      "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+      "accessedAt": "2026-09-20"
+    },
+    "treasury-buybacks-2026": {
+      "label": "U.S. Treasury long-end liquidity-support buybacks",
+      "url": "https://home.treasury.gov/news/press-releases/sb0607",
+      "accessedAt": "2026-09-10"
+    },
+    "growthepie-l2-fees": {
+      "label": "growthepie Ethereum L2 fee and scaling answers",
+      "url": "https://www.growthepie.com/answers",
+      "accessedAt": "2026-09-06"
+    },
+    "cbo-2026-outlook": {
+      "label": "CBO Budget and Economic Outlook: 2026-2036",
+      "url": "https://www.cbo.gov/publication/62105",
+      "accessedAt": "2026-09-20"
+    },
+    "ethereum-eth": {
+      "label": "Ethereum.org: What is ETH?",
+      "url": "https://ethereum.org/en/eth/",
+      "accessedAt": "2026-09-03"
+    },
+    "reuters-global-markets-2026-09-02": {
+      "label": "Reuters: stocks slide and global bond rout deepens",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-02/",
+      "accessedAt": "2026-09-02"
+    },
+    "reuters-yen-2026-09-03": {
+      "label": "Reuters: yen climbs on hawkish BOJ repricing",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-spotlight-after-sudden-jump-2026-09-03/",
+      "accessedAt": "2026-09-03"
+    },
+    "reuters-oil-2026-09-03": {
+      "label": "Reuters: oil edges down as investors weigh U.S.-Iran strikes",
+      "url": "https://www.reuters.com/business/energy/oil-edges-down-investors-weigh-uncertainty-over-us-iran-strikes-2026-09-03/",
+      "accessedAt": "2026-09-03"
+    },
+    "decrypt-remixpoint-2026-09-02": {
+      "label": "Decrypt: Remixpoint shifts to Bitcoin-only treasury",
+      "url": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only",
+      "accessedAt": "2026-09-03"
+    },
+    "ethereum-blog-index": {
+      "label": "Ethereum Foundation Blog index",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-09-20"
+    },
+    "sec-press-releases": {
+      "label": "SEC press releases index",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-09-20"
+    },
+    "coinmarketcap-eth": {
+      "label": "CoinMarketCap Ethereum market data",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-09-03"
+    },
+    "coinbase-eth": {
+      "label": "Coinbase Ethereum market data",
+      "url": "https://www.coinbase.com/price/ethereum",
+      "accessedAt": "2026-09-10"
+    },
+    "standard-chartered-uae-spot": {
+      "label": "Standard Chartered: institutional Bitcoin and Ether spot trading in the UAE",
+      "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-global-systemically-important-bank-g-sib-to-launch-institutional-bitcoin-and-ether-spot-trading-in-the-uae/",
+      "accessedAt": "2026-09-03"
+    },
+    "reuters-standard-chartered-uae-2026-09-03": {
+      "label": "Reuters: Standard Chartered launches institutional spot crypto trading in UAE",
+      "url": "https://www.reuters.com/legal/transactional/standard-chartered-launches-institutional-spot-crypto-trading-uae-2026-09-03/",
+      "accessedAt": "2026-09-03"
+    },
+    "reuters-india-markets-2026-09-03": {
+      "label": "Reuters: rupee rises as markets track oil, yields, and Fed odds",
+      "url": "https://www.reuters.com/world/india/indias-127-bln-nri-deposits-arm-rbi-with-more-firepower-setting-rupee-up-rally-2026-09-03/",
+      "accessedAt": "2026-09-03"
+    },
+    "fed-waller-2026-09-03": {
+      "label": "Federal Reserve Governor Waller: economic outlook and policy communication",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+      "accessedAt": "2026-09-04"
+    },
+    "reuters-waller-2026-09-03": {
+      "label": "Reuters: Waller says Treasury safety premium is gone",
+      "url": "https://www.reuters.com/business/feds-waller-says-safety-premium-treasuries-is-gone-pushing-neutral-rate-higher-2026-09-03/",
+      "accessedAt": "2026-09-04"
+    },
+    "reuters-global-markets-2026-09-04": {
+      "label": "Reuters: Asian shares rise as Waller cools Fed-hike fears",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-04/",
+      "accessedAt": "2026-09-04"
+    },
+    "reuters-yen-2026-09-04": {
+      "label": "Reuters: yen gains as BOJ tightening bets rise",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-headed-strongest-week-month-dollar-flat-ahead-payroll-data-2026-09-04/",
+      "accessedAt": "2026-09-04"
+    },
+    "bls-employment-2026-08": {
+      "label": "U.S. Bureau of Labor Statistics: Employment Situation, August 2026",
+      "url": "https://www.bls.gov/news.Release/pdf/empsit.Pdf",
+      "accessedAt": "2026-09-05"
+    },
+    "reuters-us-jobs-2026-09-04": {
+      "label": "Reuters: strong August jobs report sends U.S. yields higher",
+      "url": "https://www.reuters.com/business/view-strong-august-jobs-report-sends-yields-higher-2026-09-04/",
+      "accessedAt": "2026-09-05"
+    },
+    "ethrex-privacy-testnet-2026-09-05": {
+      "label": "Ethrex: public testnet for Ethereum privacy-roadmap EIPs",
+      "url": "https://x.com/ethrex_client/status/2095897077955899638",
+      "accessedAt": "2026-09-06"
+    },
+    "vitalik-privacy-testnet-2026-09-05": {
+      "label": "Vitalik Buterin: update on Frames and privacy-roadmap EIP testnet",
+      "url": "https://x.com/VitalikButerin/status/2096370186094076098",
+      "accessedAt": "2026-09-06"
+    },
+    "ethereum-privacy-roadmap": {
+      "label": "Ethereum.org privacy roadmap",
+      "url": "https://ethereum.org/roadmap/privacy/",
+      "accessedAt": "2026-09-06"
+    },
+    "eip-8141": {
+      "label": "Ethereum Improvement Proposal 8141: Frame Transaction",
+      "url": "https://eips.ethereum.org/EIPS/eip-8141",
+      "accessedAt": "2026-09-06"
+    },
+    "nsa-clarity-neutral-2026-09-03": {
+      "label": "National Sheriffs’ Association letter changing CLARITY Act position to neutral",
+      "url": "https://cdn.sanity.io/files/ifn0l6bs/production/4d55f93dc3887ab7b158a824fd70588c7e6b7742.pdf",
+      "accessedAt": "2026-09-07"
+    },
+    "coindesk-clarity-nsa-2026-09-04": {
+      "label": "CoinDesk: National Sheriffs’ Association shifts CLARITY Act stance to neutral",
+      "url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
+      "accessedAt": "2026-09-07"
+    },
+    "reuters-dollar-2026-09-07": {
+      "label": "Reuters: dollar gets little lift from higher Fed-hike expectations",
+      "url": "https://www.reuters.com/world/asia-pacific/dollar-gets-little-lift-boost-fed-hike-expectations-2026-09-07/",
+      "accessedAt": "2026-09-07"
+    },
+    "reuters-global-markets-2026-09-07": {
+      "label": "Reuters: Asia technology shares rally while oil and rate risks persist",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-07/",
+      "accessedAt": "2026-09-07"
+    },
+    "reuters-gold-2026-09-07": {
+      "label": "Reuters: gold eases as payrolls raise Fed-hike odds",
+      "url": "https://www.reuters.com/world/india/gold-eases-robust-us-payrolls-boost-rate-hike-bets-inflation-data-focus-2026-09-07/",
+      "accessedAt": "2026-09-07"
+    },
+    "ethereum-protocol-priorities-2026-09-07": {
+      "label": "Ethereum Foundation Protocol Cluster: Current and Emerging Priorities",
+      "url": "https://blog.ethereum.org/2026/09/07/protocol-priorities",
+      "accessedAt": "2026-09-07"
+    },
+    "ethereum-hegota-tier-list-2026-09-07": {
+      "label": "Ethereum Foundation Protocol Cluster: Hegotá EIP Opinion Post and Tier List",
+      "url": "https://blog.ethereum.org/2026/09/07/protocol-hegota-eips",
+      "accessedAt": "2026-09-07"
+    },
+    "reuters-yen-2026-09-08": {
+      "label": "Reuters: yen extends rally as carry trades unwind ahead of BOJ and U.S. CPI",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-extends-rally-new-seven-month-high-dollar-subdued-ahead-cpi-2026-09-08/",
+      "accessedAt": "2026-09-08"
+    },
+    "reuters-global-markets-2026-09-08": {
+      "label": "Reuters: Asia markets waver as yen surges and oil risks persist",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-08/",
+      "accessedAt": "2026-09-08"
+    },
+    "reuters-oil-2026-09-08": {
+      "label": "Reuters: oil rises as prolonged Middle East conflict threatens supply",
+      "url": "https://www.reuters.com/business/energy/oil-rises-risks-prolonged-mideast-conflict-heighten-supply-worries-2026-09-08/",
+      "accessedAt": "2026-09-08"
+    },
+    "bitmine-sec-8k-exhibit-2026-09-08": {
+      "label": "BitMine September 8, 2026 Form 8-K Exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226041713/ex99-1.htm",
+      "accessedAt": "2026-09-09"
+    },
+    "reuters-yen-2026-09-09": {
+      "label": "Reuters: yen stands tall as oil approaches $100",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-stands-tall-dollar-wobbles-oils-run-towards-100-chills-sentiment-2026-09-09/",
+      "accessedAt": "2026-09-09"
+    },
+    "reuters-global-markets-2026-09-09": {
+      "label": "Reuters: oil heads for $100 as global markets turn cautious",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-09/",
+      "accessedAt": "2026-09-09"
+    },
+    "treasury-buyback-schedule-2026-09-09": {
+      "label": "U.S. Treasury tentative buyback schedule published September 9, 2026",
+      "url": "https://home.treasury.gov/system/files/221/Tentative-Buyback-Schedule.pdf",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-treasury-buyback-2026-09-09": {
+      "label": "Reuters: U.S. Treasury sets up-to-$6B September 10 long-end buyback",
+      "url": "https://www.reuters.com/world/us-treasury-buy-up-6-billion-sept-10-buyback-operation-2026-09-09/",
+      "accessedAt": "2026-09-09"
+    },
+    "reuters-oil-2026-09-10": {
+      "label": "Reuters: Brent holds above $100 as tanker attacks deepen supply fear",
+      "url": "https://www.reuters.com/business/energy/brent-holds-above-100-tanker-attacks-deepen-supply-fear-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-global-markets-2026-09-10": {
+      "label": "Reuters: Asian stocks fall as Brent stays above $100 and yields remain elevated",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "bls-ppi-2026-08": {
+      "label": "U.S. Bureau of Labor Statistics: Producer Price Indexes, August 2026",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-fed-ppi-2026-09-10": {
+      "label": "Reuters: Fed-hike odds rise after August producer-price report",
+      "url": "https://www.reuters.com/markets/us/fed-eyeing-inflation-data-may-lean-toward-hike-traders-bet-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-wall-street-2026-09-10": {
+      "label": "Reuters: Wall Street slips as producer inflation lifts yields and Fed-hike odds",
+      "url": "https://www.reuters.com/business/sp-500-dow-futures-attempt-recovery-ahead-inflation-report-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-ecb-2026-09-10": {
+      "label": "Reuters: ECB hikes rates as energy-driven inflation pressure rises",
+      "url": "https://www.reuters.com/markets/europe/european-shares-edge-higher-traders-await-ecb-decision-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "reuters-nasdaq-kraken-2026-09-10": {
+      "label": "Reuters: Nasdaq invests $100M in Kraken parent for tokenized-equity infrastructure",
+      "url": "https://www.reuters.com/legal/government/nasdaq-invest-100-million-kraken-parent-deepen-tokenization-push-2026-09-10/",
+      "accessedAt": "2026-09-10"
+    },
+    "ft-global-bonds-2026-09-11": {
+      "label": "Financial Times: global bond selloff reignites as oil jumps to $109",
+      "url": "https://www.ft.com/content/49e8c693-0064-4ef9-917f-5f2be97458fc",
+      "accessedAt": "2026-09-11"
+    },
+    "reuters-treasury-buyback-analysis-2026-09-10": {
+      "label": "Reuters: bond investors unconsoled by enlarged Treasury buyback",
+      "url": "https://www.reuters.com/legal/transactional/edgy-bond-investors-unconsoled-by-bessents-big-buyback-2026-09-10/",
+      "accessedAt": "2026-09-11"
+    },
+    "bls-cpi-2026-08": {
+      "label": "U.S. Bureau of Labor Statistics: Consumer Price Index, August 2026",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "accessedAt": "2026-09-12"
+    },
+    "reuters-us-cpi-2026-09-11": {
+      "label": "Reuters: U.S. consumer prices accelerate in August and push Fed closer to hike",
+      "url": "https://www.reuters.com/world/us/us-consumer-inflation-picks-up-august-2026-09-11/",
+      "accessedAt": "2026-09-12"
+    },
+    "reuters-wall-street-2026-09-11": {
+      "label": "Reuters: S&P 500 ends higher as inflation cements rate-hike bets",
+      "url": "https://www.reuters.com/business/wall-st-futures-recover-oil-slides-ahead-inflation-test-2026-09-11/",
+      "accessedAt": "2026-09-12"
+    },
+    "reuters-saudi-pipeline-2026-09-12": {
+      "label": "Reuters: Saudi Arabia shuts East-West oil pipeline after drone attack",
+      "url": "https://www.reuters.com/business/energy/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-2026-09-12/",
+      "accessedAt": "2026-09-12"
+    },
+    "reuters-hormuz-vessel-attack-2026-09-13": {
+      "label": "Reuters: severe Saudi pipeline damage and fresh Hormuz vessel attack worsen oil disruption",
+      "url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/",
+      "accessedAt": "2026-09-13"
+    },
+    "reuters-trump-lowest-rates-2026-09-13": {
+      "label": "Reuters: Trump says U.S. should have world's lowest interest rate",
+      "url": "https://www.reuters.com/world/us/ahead-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-2026-09-13/",
+      "accessedAt": "2026-09-13"
+    },
+    "reuters-saudi-shares-2026-09-13": {
+      "label": "Reuters: Saudi shares fall as pipeline outage threatens global oil supply",
+      "url": "https://www.reuters.com/world/middle-east/saudi-shares-drop-after-drone-attacks-target-key-oil-pipeline-2026-09-13/",
+      "accessedAt": "2026-09-13"
+    },
+    "blackrock-ethb": {
+      "label": "BlackRock iShares Staked Ethereum Trust ETF",
+      "url": "https://www.blackrock.com/us/individual/products/348532/ishares-staked-ethereum-trust-etf",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-dollar-fed-boj-2026-09-14": {
+      "label": "Reuters: dollar firms as markets brace for Fed and BOJ meetings",
+      "url": "https://www.reuters.com/world/asia-pacific/dollar-steady-yen-near-7-month-high-ahead-fed-boj-meetings-2026-09-14/",
+      "accessedAt": "2026-09-14"
+    },
+    "reuters-global-markets-2026-09-14": {
+      "label": "Reuters: shares drop as oil rises and Fed and BOJ hikes loom",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-13/",
+      "accessedAt": "2026-09-14"
+    },
+    "reuters-wall-street-2026-09-14": {
+      "label": "Reuters: Wall Street falls as oil and Fed-hike expectations rise",
+      "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/",
+      "accessedAt": "2026-09-14"
+    },
+    "reuters-sterling-dollar-2026-09-14": {
+      "label": "Reuters: oil jump and rate expectations boost the dollar",
+      "url": "https://www.reuters.com/business/sterling-hits-one-month-low-oil-price-jump-boosts-dollar-2026-09-14/",
+      "accessedAt": "2026-09-14"
+    },
+    "coindesk-eth": {
+      "label": "CoinDesk Ethereum market data",
+      "url": "https://www.coindesk.com/price/ethereum",
+      "accessedAt": "2026-09-15"
+    },
+    "reuters-clarity-2026-09-14": {
+      "label": "Reuters: Senate Republicans release revised CLARITY Act text",
+      "url": "https://www.reuters.com/legal/government/senate-republicans-new-crypto-bill-text-adds-new-ethics-language-2026-09-14/",
+      "accessedAt": "2026-09-15"
+    },
+    "senate-floor-clarity-2026-09-15": {
+      "label": "U.S. Senate Daily Press: September 15 floor schedule and CLARITY cloture",
+      "url": "https://www.dailypress.senate.gov/thursday-september-10-2026/",
+      "accessedAt": "2026-09-15"
+    },
+    "reuters-oil-2026-09-15": {
+      "label": "Reuters: oil rises after Saudi pipeline outage and fresh attacks",
+      "url": "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/",
+      "accessedAt": "2026-09-15"
+    },
+    "reuters-dollar-fed-2026-09-15": {
+      "label": "Reuters: dollar near two-week high as oil lifts yields and Fed-hike bets",
+      "url": "https://www.reuters.com/world/africa/dollar-near-two-week-high-oil-surge-lifts-yields-fed-hike-bets-2026-09-15/",
+      "accessedAt": "2026-09-15"
+    },
+    "ethereum-reddit-ama-2026-09-09": {
+      "label": "Ethereum Foundation: Protocol Reddit AMA announcement",
+      "url": "https://blog.ethereum.org/2026/09/09/reddit-ama",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-clarity-vote-2026-09-15": {
+      "label": "Reuters: U.S. Senate to vote on advancing landmark crypto bill",
+      "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/",
+      "accessedAt": "2026-09-15"
+    },
+    "reuters-wall-street-2026-09-15": {
+      "label": "Reuters: Wall Street wobbles as oil and Treasury yields rise",
+      "url": "https://www.reuters.com/business/wall-st-futures-slip-rising-oil-treasury-yields-compound-ai-anxiety-2026-09-15/",
+      "accessedAt": "2026-09-15"
+    },
+    "senate-rollcall-234-2026": {
+      "label": "U.S. Senate roll call vote 234 on H.R. 3633 cloture",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm",
+      "accessedAt": "2026-09-16"
+    },
+    "senate-wrapup-2026-09-15": {
+      "label": "Senate Democratic Caucus: Wrap Up for September 15, 2026",
+      "url": "https://www.democrats.senate.gov/2026/09/15/wrap-up-for-tuesday-september-15-2026",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-clarity-failure-2026-09-15": {
+      "label": "Reuters: Senate fails to advance sweeping cryptocurrency bill",
+      "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/",
+      "accessedAt": "2026-09-16"
+    },
+    "bitmine-sec-8k-exhibit-2026-09-14": {
+      "label": "BitMine September 14, 2026 Form 8-K Exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226042492/ex99-1.htm",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-treasuries-2026-09-15": {
+      "label": "Reuters: U.S. 10-year Treasury yield reaches highest since 2007",
+      "url": "https://www.livemint.com/market/treasuries10year-note-climbs-to-19-year-high-with-fed-decision-on-deck-11789498155754.html",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-oil-2026-09-16": {
+      "label": "Reuters: oil falls on U.S. inventory build despite Saudi supply concerns",
+      "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
+      "accessedAt": "2026-09-16"
+    },
+    "circle-arc-mainnet-2026-09-16": {
+      "label": "Circle: Arc public mainnet launch",
+      "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+      "accessedAt": "2026-09-16"
+    },
+    "circle-arc-validators-2026-08-05": {
+      "label": "Circle: Arc founding validators and institutional integrations",
+      "url": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
+      "accessedAt": "2026-09-16"
+    },
+    "deutsche-bank-custody-2026-09-16": {
+      "label": "Deutsche Bank: planned digital-asset custody service for institutional and corporate clients",
+      "url": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
+      "accessedAt": "2026-09-16"
+    },
+    "reuters-boj-2026-09-16": {
+      "label": "Reuters: BOJ expected to raise rates to a 31-year high",
+      "url": "https://www.reuters.com/world/asia-pacific/boj-set-raise-interest-rates-31-year-high-inflation-risks-loom-2026-09-16/",
+      "accessedAt": "2026-09-16"
+    },
+    "ethereum-reddit-ama-thread-2026-09-16": {
+      "label": "r/ethereum: EF Protocol AMA, September 16, 2026",
+      "url": "https://www.reddit.com/r/ethereum/comments/1wf48x3/ama_we_are_ef_protocol_pt_15_16_september_2026/",
+      "accessedAt": "2026-09-16"
+    },
+    "fed-fomc-statement-2026-09-16": {
+      "label": "Federal Reserve: September 16, 2026 FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "accessedAt": "2026-09-17"
+    },
+    "fed-sep-2026-09-16": {
+      "label": "Federal Reserve: September 2026 Summary of Economic Projections",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+      "accessedAt": "2026-09-17"
+    },
+    "reuters-warsh-inflation-2026-09-16": {
+      "label": "Reuters: Warsh says Fed focus will stay on inflation",
+      "url": "https://www.reuters.com/business/warsh-says-fed-focus-stay-inflation-underlying-trends-have-not-meaningfully-improved-2026-09-16/",
+      "accessedAt": "2026-09-17"
+    },
+    "blockspace-forum-mpbc-2026-09-16": {
+      "label": "Blockspace Forum: Multi-Party Blocks Are Live on Ethereum Mainnet",
+      "url": "https://x.com/i/article/2100205968311148676",
+      "accessedAt": "2026-09-17"
+    },
+    "cryptotimes-mpbc-2026-09-16": {
+      "label": "Crypto Times: Ethereum deploys multi-party block construction on mainnet",
+      "url": "https://www.cryptotimes.io/2026/09/16/ethereum-deploys-multi-party-block-construction-on-mainnet/",
+      "accessedAt": "2026-09-17"
+    },
+    "reuters-sec-tokenization-exemption-2026-09-17": {
+      "label": "Reuters: SEC rolls out five-year exemption for tokenized stock trading",
+      "url": "https://www.reuters.com/world/us-securities-regulator-rolls-out-five-year-exemption-tokenized-stock-trading-2026-09-17/",
+      "accessedAt": "2026-09-17"
+    },
+    "sec-atkins-innovation-exemption-2026-04-21": {
+      "label": "SEC Chair Paul Atkins: Innovation Exemption framework remarks",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-keynote-remarks-economic-club-washington-042126",
+      "accessedAt": "2026-09-17"
+    },
+    "sp-global-openzeppelin-2026-09-17": {
+      "label": "S&P Global: Agreement to acquire OpenZeppelin",
+      "url": "https://investor.spglobal.com/news-releases/news-details/2026/SP-Global-Announces-Agreement-to-Acquire-OpenZeppelin/default.aspx",
+      "accessedAt": "2026-09-17"
+    },
+    "boj-guideline-2026-09-18": {
+      "label": "Bank of Japan: Change in the Guideline for Money Market Operations, September 18, 2026",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
+      "accessedAt": "2026-09-18"
+    },
+    "reuters-boj-hike-2026-09-18": {
+      "label": "Reuters: Bank of Japan lifts rates to 31-year high",
+      "url": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
+      "accessedAt": "2026-09-18"
+    },
+    "reuters-yen-boj-2026-09-18": {
+      "label": "Reuters: dollar advances as BOJ dissent clouds rate-hike outlook",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/",
+      "accessedAt": "2026-09-19"
+    },
+    "reuters-global-markets-2026-09-21": {
+      "label": "Reuters: tech leads Asian shares higher as oil slips",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-21/",
+      "accessedAt": "2026-09-21"
+    },
+    "reuters-yen-2026-09-21": {
+      "label": "Reuters: volatile yen draws intervention watch",
+      "url": "https://www.reuters.com/world/asia-pacific/volatile-yen-draws-intervention-watch-other-currencies-subdued-2026-09-21/",
+      "accessedAt": "2026-09-21"
+    },
+    "reuters-wall-street-2026-09-21": {
+      "label": "Reuters: AI stocks lift Wall Street as oil falls and Treasury yields decline",
+      "url": "https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/",
+      "accessedAt": "2026-09-21"
+    },
+    "reuters-gold-2026-09-21": {
+      "label": "Reuters: gold eases as Fed-hike odds and dollar rise",
+      "url": "https://www.reuters.com/world/india/gold-eases-firmer-dollar-profit-taking-mideast-conflict-focus-2026-09-21/",
+      "accessedAt": "2026-09-21"
+    },
+    "reuters-ecb-pontes-2026-09-21": {
+      "label": "Reuters: ECB opens blockchain link to financial markets",
+      "url": "https://www.reuters.com/business/finance/ecb-opens-blockchain-link-financial-markets-2026-09-21/",
+      "accessedAt": "2026-09-21"
+    },
+    "reuters-circle-binance-2026-09-22": {
+      "label": "Reuters: Binance buys $100 million stake in Circle and expands partnership",
+      "url": "https://www.reuters.com/legal/transactional/binance-buys-100-million-stake-circle-expands-partnership-2026-09-22/",
+      "accessedAt": "2026-09-22"
+    },
+    "reuters-ecb-stablecoin-rules-2026-09-22": {
+      "label": "Reuters: ECB and EU central banks recommend changes to MiCA stablecoin reserve rules",
+      "url": "https://www.reuters.com/business/finance/ecb-eu-central-banks-oppose-stablecoin-bank-deposit-rule-2026-09-22/",
+      "accessedAt": "2026-09-22"
+    },
+    "fed-jefferson-discount-window-2026-09-22": {
+      "label": "Federal Reserve: Vice Chair Jefferson on discount-window modernization and Treasury market functioning",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm",
+      "accessedAt": "2026-09-22"
+    },
+    "reuters-global-markets-2026-09-22": {
+      "label": "Reuters: Nasdaq reaches record high as oil falls below $100",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-22/",
+      "accessedAt": "2026-09-22"
+    },
+    "reuters-saudi-pipeline-2026-09-22": {
+      "label": "Reuters: Saudi Arabia restarts East-West oil pipeline",
+      "url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/",
+      "accessedAt": "2026-09-22"
+    }
+  },
+  "assessment": {
+    "alertTriggered": false,
+    "reasons": [
+      "ETH traded near $2,743.88 and down about 0.4% over 24 hours, below the 5% price trigger after the prior session's alert.",
+      "September 21 U.S. spot ETH ETF flows finalized at a broad-based $270.0M net inflow, taking two-session inflows to $413.7M and cumulative net inflows to approximately $13.549B; September 22 remained incomplete.",
+      "Ethereum staking and DeFi activity stayed constructive, but L1 revenue remained small relative to application fees and the $10K value-capture hurdle was unchanged.",
+      "Binance's $100M Circle investment and the EU central-bank stablecoin proposal are important for onchain-dollar infrastructure but do not confirm Ethereum settlement or ETH demand.",
+      "The Fed improved Treasury and money-market liquidity backstops, while lower oil and yields offered tactical relief; no new QE, monetization, protocol event, SEC crypto action, or thesis-breaking development was identified."
+    ],
+    "confirmedVsUncertain": "Confirmed: ETH near $2,743.88 and about -0.4% over 24 hours, a finalized $270.0M September 21 U.S. spot ETH ETF inflow, cumulative ETF flows near $13.549B, approximately 43.37M ETH staked, stronger DeFi activity and bridge inflows, Binance's $100M Circle investment, the EU central-bank stablecoin consultation position, Fed discount-window modernization, Brent below $100, and the U.S. 10-year near 4.961%. Uncertain: September 22 ETF flows, whether ETF demand persists, whether ETH holds the breakout, how stablecoin growth is distributed across networks, the timing of further central-bank tightening, and whether growing onchain activity produces durable ETH-holder value capture."
+  }
+}
