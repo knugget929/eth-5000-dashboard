@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-21T12:07:48Z",
+  "evaluatedAt": "2026-09-22T12:51:06Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 61,
-      "trend": "weaker",
-      "weightedSignal": 57
+      "probability": 62,
+      "trend": "improving",
+      "weightedSignal": 59
     },
     "10000": {
       "probability": 31,
-      "trend": "weaker",
-      "weightedSignal": 41
+      "trend": "steady",
+      "weightedSignal": 42
     }
   },
   "catalysts": {
@@ -28,11 +28,11 @@
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0
+        "score": 0.05
       },
       "10000": {
         "status": "red",
-        "score": 0
+        "score": 0.05
       }
     },
     "regulation": {
@@ -48,11 +48,11 @@
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.8
+        "score": 0.82
       },
       "10000": {
         "status": "yellow",
-        "score": 0.6
+        "score": 0.61
       }
     },
     "staking": {
@@ -78,11 +78,11 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.56
+        "score": 0.6
       },
       "10000": {
         "status": "red",
-        "score": 0.3
+        "score": 0.33
       }
     },
     "value-capture": {
@@ -115,8 +115,8 @@
     ],
     "macro": [
       "global-liquidity-2026-09-21",
-      "boj-rate-hike-2026-09-18",
-      "fed-rate-hike-2026-09-16"
+      "fed-rate-hike-2026-09-16",
+      "boj-rate-hike-2026-09-18"
     ],
     "regulation": [
       "clarity-act-failed-2026-09-15",
@@ -124,9 +124,9 @@
       "sec-status-2026-09-16"
     ],
     "tokenization": [
+      "ecb-pontes-2026-09-21",
       "ethereum-defi-2026-09-21",
       "ethereum-rwa-2026-09-20",
-      "sec-tokenized-securities-exemption-2026-09-17",
       "circle-arc-mainnet-2026-09-16"
     ],
     "staking": [
@@ -144,6 +144,7 @@
     ],
     "value-capture": [
       "eth-value-capture-2026-09-21",
+      "ecb-pontes-2026-09-21",
       "circle-arc-mainnet-2026-09-16"
     ],
     "debasement": [
@@ -153,5 +154,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 61% and the $10K estimate at 31%, with catalyst scores and colors unchanged. ETH's rebound to about $2.65K, rising DeFi TVL, positive bridge flows, and 43.36M ETH staked are constructive but remain continuation evidence rather than a new regime. The latest finalized ETF session is still September 18, so institutional demand cannot yet be upgraded. Roughly even odds of another Fed hike, high front-end yields, and a firm dollar keep cyclical liquidity at the floor; this remains separate from the unchanged structural fiscal-debasement case. L1 chain revenue fell to about $44K versus $5.29M of application fees, preserving the explicit ETH value-capture penalty for $10K. No catalyst crossed a color threshold, neither probability moved, and no thesis-breaking event occurred."
+  "decision": "Raised the $5K estimate one point to 62% and held the $10K estimate at 31%. ETH's 5.1% rally to about $2.73K, higher volume, lower oil, and a U.S. 10-year yield below 5% modestly improved the path toward $3K, but the move was broad-market and did not confirm a new ETH valuation regime. The ECB's Pontes launch strengthens the institutional-tokenization signal while remaining blockchain-neutral. ETF data for September 21 was incomplete, and high yields plus meaningful odds of another Fed hike keep cyclical liquidity red; this remains separate from the unchanged structural debasement thesis. Ethereum L1 revenue remained small relative to application fees, so the explicit ETH value-capture penalty keeps the $10K probability unchanged. No catalyst crossed a color threshold and no thesis-breaking event occurred."
 }
