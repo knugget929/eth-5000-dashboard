@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-23T05:15:00Z",
+  "researchedAt": "2026-09-23T15:40:00Z",
   "accessDate": "2026-09-23",
   "market": {
-    "ethUsd": 2772.55,
-    "change24h": 1.6,
-    "marketCapUsd": 338507279634,
-    "volume24hUsd": 16039254041.54,
+    "ethUsd": 2669.05,
+    "change24h": -2.7,
+    "marketCapUsd": 326001808591,
+    "volume24hUsd": 18363440548.11,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,772.55 and up about 1.6% over 24 hours, with an approximately $338.51B market capitalization, $16.04B of volume, and a $2,716.11-$2,786.60 range. ETH remained 15.8% higher over seven days, but the rolling move stayed below the 5% alert threshold."
+    "note": "CoinGecko showed ETH near $2,669.05 and down about 2.7% over 24 hours, with an approximately $326.00B market capitalization, $18.36B of volume, and a $2,650.73-$2,786.60 range. ETH remained 11.8% higher over seven days, while the rolling decline stayed below the 5% alert threshold."
   },
   "observations": [
     {
@@ -1897,6 +1897,56 @@
       ],
       "confirmed": true,
       "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, and monetary demand beyond direct L1 revenue."
+    },
+    {
+      "id": "eth-market-2026-09-23-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,669.05 / about -2.7% CoinGecko 24h / +11.8% 7d",
+      "summary": "ETH retraced to about $2.67K after trading near $2.77K earlier in the day. CoinGecko showed a 2.7% rolling 24-hour decline, an $18.36B volume figure, and a $2,650.73-$2,786.60 range. The price remained roughly level with the prior $2,661.52 technical breakout area and the move stayed below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "reuters-eth-technicals-2026-09-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues. Holding near a technical breakout level does not confirm that the breakout will persist or identify a fundamental driver."
+    },
+    {
+      "id": "eth-etf-status-2026-09-23",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "September 23 provisional row incomplete / September 22 +$162.2M finalized / +$13.711B cumulative",
+      "summary": "Farside displayed a September 23 row with every issuer field still blank and a provisional 0.0 total. This should not be interpreted as a finalized zero-flow session. The latest completed session remained September 22's broad-based $162.2M inflow, which lifted cumulative U.S. spot ETH ETF flows to approximately $13.711B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "September 23 issuer data were incomplete at the snapshot time and can populate later. The final daily total and whether the recent inflow streak continues are not yet known."
+    },
+    {
+      "id": "ethereum-defi-2026-09-23-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$54.086B DeFi TVL / $146.709B stablecoins / +$179.78M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $54.086B, down 0.71% over 24 hours, with $146.709B in stablecoins and $179.78M of net bridge inflows. DEX volume was $1.348B, seven-day DEX volume remained up 27.84%, and the network recorded about 638,679 active addresses and 2.09M transactions. Activity remained constructive while the price-sensitive TVL measure eased with ETH.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is price-sensitive, bridge flows and activity are volatile, and provider methodologies differ. Ecosystem expansion is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-23-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$592,434 chain fees / $181,611 chain revenue / $7.13M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $592,434 and chain revenue of $181,611 over 24 hours, versus $7.13M of application fees and $1.58M of application revenue. Direct L1 economics improved from the morning snapshot but remained small relative to application-layer economics, leaving the central ETH value-capture question unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, and monetary demand beyond direct L1 revenue."
     }
   ],
   "sources": {
@@ -2509,12 +2559,12 @@
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,772.55 and up about 1.6% over 24 hours, below the 5% price trigger while holding above the prior breakout level.",
-      "September 22 U.S. spot ETH ETF flows finalized at a broad-based $162.2M net inflow, taking two-session inflows to $432.2M and cumulative net inflows to approximately $13.711B.",
-      "Reuters technical analysis identified a bull-flag breakout above $2,661.52, but this is market structure rather than a fundamental Ethereum catalyst.",
-      "Ethereum staking and DeFi activity stayed constructive, but L1 revenue remained small relative to application fees and the $10K value-capture hurdle was unchanged.",
+      "ETH traded near $2,669.05 and down about 2.7% over 24 hours, below the 5% price trigger after retracing the morning advance.",
+      "The September 23 U.S. spot ETH ETF row was incomplete; September 22 remained the latest finalized session at a broad-based $162.2M inflow and approximately $13.711B cumulative.",
+      "ETH remained near the prior $2,661.52 technical breakout area, but this is market structure rather than a fundamental Ethereum catalyst.",
+      "Ethereum bridge inflows and seven-day DEX activity stayed constructive, but price-sensitive TVL eased and L1 revenue remained small relative to application fees.",
       "No new protocol event, SEC crypto action, debasement-policy turn, or thesis-breaking development was identified."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,772.55 and about +1.6% over 24 hours, a finalized $162.2M September 22 U.S. spot ETH ETF inflow, two-session ETF inflows of $432.2M, cumulative ETF flows near $13.711B, approximately 43.42M ETH staked, positive Ethereum bridge inflows, and stronger seven-day DEX activity. Uncertain: whether the ETF inflow streak persists, whether ETH holds the breakout and reaches Reuters' technical targets, the timing of further central-bank tightening, and whether growing onchain activity produces durable ETH-holder value capture."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,669.05 and about -2.7% over 24 hours, a finalized $162.2M September 22 U.S. spot ETH ETF inflow, cumulative ETF flows near $13.711B, approximately 43.42M ETH staked, positive Ethereum bridge inflows, and stronger seven-day DEX activity. Uncertain: September 23's final ETF total, whether the recent inflow streak persists, whether ETH holds the breakout area, the timing of further central-bank tightening, and whether growing onchain activity produces durable ETH-holder value capture."
   }
 }
