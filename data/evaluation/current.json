@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-22T12:51:06Z",
+  "evaluatedAt": "2026-09-23T12:48:52Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 62,
+      "probability": 63,
       "trend": "improving",
-      "weightedSignal": 59
+      "weightedSignal": 60
     },
     "10000": {
       "probability": 31,
       "trend": "steady",
-      "weightedSignal": 42
+      "weightedSignal": 43
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.84
+        "score": 0.88
       },
       "10000": {
         "status": "yellow",
-        "score": 0.61
+        "score": 0.64
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.05
+        "score": 0.08
       },
       "10000": {
         "status": "red",
-        "score": 0.05
+        "score": 0.08
       }
     },
     "regulation": {
@@ -48,21 +48,21 @@
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.82
+        "score": 0.83
       },
       "10000": {
         "status": "yellow",
-        "score": 0.61
+        "score": 0.62
       }
     },
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.77
+        "score": 0.78
       },
       "10000": {
         "status": "yellow",
-        "score": 0.65
+        "score": 0.66
       }
     },
     "protocol": {
@@ -78,11 +78,11 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.6
+        "score": 0.64
       },
       "10000": {
         "status": "red",
-        "score": 0.33
+        "score": 0.36
       }
     },
     "value-capture": {
@@ -108,29 +108,30 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-status-2026-09-21",
-      "eth-etf-flow-2026-09-18",
+      "eth-etf-flow-2026-09-22-final",
+      "circle-binance-investment-2026-09-22",
       "sp-global-openzeppelin-2026-09-17",
       "bitmine-eth-holdings-2026-09-13"
     ],
     "macro": [
-      "global-liquidity-2026-09-21",
+      "global-liquidity-2026-09-22-evening",
+      "fed-discount-window-2026-09-22",
       "fed-rate-hike-2026-09-16",
       "boj-rate-hike-2026-09-18"
     ],
     "regulation": [
+      "eu-stablecoin-rules-2026-09-22",
       "clarity-act-failed-2026-09-15",
-      "sec-tokenized-securities-exemption-2026-09-17",
-      "sec-status-2026-09-16"
+      "sec-tokenized-securities-exemption-2026-09-17"
     ],
     "tokenization": [
+      "ethereum-defi-2026-09-23-morning",
       "ecb-pontes-2026-09-21",
-      "ethereum-defi-2026-09-21",
       "ethereum-rwa-2026-09-20",
-      "circle-arc-mainnet-2026-09-16"
+      "circle-binance-investment-2026-09-22"
     ],
     "staking": [
-      "network-staking-2026-09-21",
+      "network-staking-2026-09-23",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
     ],
@@ -140,19 +141,20 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-09-23-morning",
       "eth-market-2026-09-21"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-21",
+      "eth-value-capture-2026-09-23-morning",
       "ecb-pontes-2026-09-21",
       "circle-arc-mainnet-2026-09-16"
     ],
     "debasement": [
       "fiscal-deficit-2026",
       "public-debt-2036",
-      "debasement-followthrough-2026-09-21",
+      "debasement-followthrough-2026-09-22-evening",
       "eth-monetary-capture"
     ]
   },
-  "decision": "Raised the $5K estimate one point to 62% and held the $10K estimate at 31%. ETH's 5.1% rally to about $2.73K, higher volume, lower oil, and a U.S. 10-year yield below 5% modestly improved the path toward $3K, but the move was broad-market and did not confirm a new ETH valuation regime. The ECB's Pontes launch strengthens the institutional-tokenization signal while remaining blockchain-neutral. ETF data for September 21 was incomplete, and high yields plus meaningful odds of another Fed hike keep cyclical liquidity red; this remains separate from the unchanged structural debasement thesis. Ethereum L1 revenue remained small relative to application fees, so the explicit ETH value-capture penalty keeps the $10K probability unchanged. No catalyst crossed a color threshold and no thesis-breaking event occurred."
+  "decision": "Raised the $5K estimate one point to 63% and held the $10K estimate at 31%. ETH held above the prior breakout near $2.77K, remained up 15.8% over seven days, and received $432.2M of broad-based U.S. spot ETF inflows across the two latest sessions. Rising staking, positive bridge flows, and stronger DEX activity add confirmation for the nearer target. Oil below $100 and a sub-5% U.S. 10-year yield provide tactical liquidity relief, but further central-bank tightening remains priced and the macro catalyst stays red. The Fed's improved discount-window operations are a stability backstop, not QE or a debasement turn. Direct L1 revenue remained small relative to application fees, and blockchain-neutral institutional rails do not establish ETH-specific value capture, so the $10K probability remains unchanged. No catalyst crossed a color threshold and no thesis-breaking event occurred."
 }
