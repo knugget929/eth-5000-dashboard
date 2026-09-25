@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-25T04:20:00Z",
+  "researchedAt": "2026-09-25T16:58:55Z",
   "accessDate": "2026-09-25",
   "market": {
-    "ethUsd": 2675.58,
-    "change24h": 0.3,
-    "marketCapUsd": 326631000000,
-    "volume24hUsd": 14621000000,
+    "ethUsd": 2675.88,
+    "change24h": -0.2,
+    "marketCapUsd": 326668868590,
+    "volume24hUsd": 14779522490.1,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,675.58 and up about 0.3% over 24 hours, with an approximately $326.63B market capitalization, $14.62B of volume, and a $2,634.74-$2,700.84 range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,675.88 and down about 0.2% over 24 hours, with an approximately $326.67B market capitalization, $14.78B of volume, and a $2,634.74-$2,700.84 range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2171,6 +2171,30 @@
       ],
       "confirmed": true,
       "uncertainty": "These are proposals subject to a public-comment period, not final rules. Issuer uptake, implementation details, litigation risk, the blockchains used, and any resulting ETH value capture remain uncertain."
+    },
+    {
+      "id": "ark-securitize-venture-ethereum-2026-09-24",
+      "catalyst": "tokenization",
+      "direction": "supportive",
+      "value": "ARK Venture Fund tokenized on Ethereum via Securitize",
+      "summary": "ARK Invest and Securitize announced tokenized interests in the ARK Venture Fund on Ethereum. The regulated fund includes exposure to private and public technology companies. This is direct evidence of a major asset manager choosing Ethereum for fund tokenization, while direct ETH fee demand and holder value capture remain unproven.",
+      "sourceIds": [
+        "securitize-ark-venture-2026-09-24"
+      ],
+      "confirmed": true,
+      "uncertainty": "Investor adoption, assets actually tokenized onchain, transaction volume, liquidity, fee generation, and direct ETH demand are not yet established."
+    },
+    {
+      "id": "global-liquidity-2026-09-25",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y 5.2297% / 30Y 5.5252%",
+      "summary": "Reuters reported the U.S. 10-year Treasury yield reaching 5.2297%, its highest since 2007, and the 30-year reaching 5.5252%, its highest since 2004, while markets continued to price further Federal Reserve tightening. Higher long-duration yields remain a cyclical headwind for ETH.",
+      "sourceIds": [
+        "reuters-global-markets-2026-09-25"
+      ],
+      "confirmed": true,
+      "uncertainty": "Yields and rate expectations move continuously; further Fed tightening is market pricing rather than a committed policy path."
     }
   ],
   "sources": {
@@ -2788,17 +2812,27 @@
       "label": "Federal Reserve: proposed payment-stablecoin framework under the GENIUS Act",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
       "accessedAt": "2026-09-25"
+    },
+    "securitize-ark-venture-2026-09-24": {
+      "label": "Securitize: ARK Invest tokenizes ARK Venture Fund on Ethereum",
+      "url": "https://investors.securitize.io/news/news-details/2026/ARK-Invest-Tokenizes-ARK-Venture-Fund-ARKVX-with-Securitize/default.aspx",
+      "accessedAt": "2026-09-25"
+    },
+    "reuters-global-markets-2026-09-25": {
+      "label": "Reuters: Bond yields hit multi-decade highs despite oil pullback",
+      "url": "https://www.reuters.com/world/china/global-markets-warpup-1-pix-2026-09-25/",
+      "accessedAt": "2026-09-25"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,675.58 and up about 0.3% over 24 hours, well below the 5% price trigger.",
-      "Farside finalized September 24 U.S. spot ETH ETF flows at +$66.1M; September 21-24 totaled +$602.8M and displayed cumulative flows reached approximately $13.882B, extending the institutional-demand recovery to four completed sessions.",
-      "The Federal Reserve proposed reserve, capital, risk-management, custody, and application rules for Board-supervised payment-stablecoin issuers under the GENIUS Act. This supports regulated stablecoin infrastructure but is proposed, blockchain-neutral, and not direct evidence of ETH value capture.",
-      "Staked ETH rose to approximately 43.53M and direct L1 fees improved, while negative bridge flows and the much larger application-fee pool kept the value-capture picture mixed.",
-      "No new major Ethereum protocol event, debasement-policy turn, 5% price move, or thesis-breaking development was identified; restrictive global rates remain the principal cyclical headwind."
+      "ETH traded near $2,675.88 and down about 0.2% over 24 hours, well below the 5% price trigger.",
+      "ARK Invest and Securitize launched tokenized interests in the ARK Venture Fund on Ethereum, a direct institutional-tokenization win for the network.",
+      "Farside's latest completed session remains September 24 at +$66.1M for U.S. spot ETH ETFs; the September 25 row was still unfinalized during this run.",
+      "The U.S. 10-year Treasury yield reached 5.2297% and the 30-year 5.5252%, keeping restrictive liquidity as the dominant cyclical headwind.",
+      "No thesis-breaking Ethereum protocol event or 5% price move was identified."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,675.58 and about +0.3% over 24 hours; a finalized $66.1M September 24 U.S. spot ETH ETF inflow; $602.8M of net inflows across September 21-24; displayed cumulative ETF flows near $13.882B; approximately 43.53M ETH staked; approximately $53.501B of Ethereum DeFi TVL; and the Federal Reserve's published stablecoin-rule proposals. Uncertain: whether the ETF inflow streak persists, the final form and adoption of the Fed rules, which blockchains capture regulated stablecoin growth, whether the Fed delivers another hike, and whether growing onchain activity produces durable ETH-holder value capture."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,675.88 and about -0.2% over 24 hours; ARK Venture Fund tokenized interests launched on Ethereum through Securitize; September 24 U.S. spot ETH ETF flows finalized at +$66.1M; and U.S. 10-year and 30-year Treasury yields reached 5.2297% and 5.5252%. Uncertain: the scale of ARKVX adoption and onchain assets, whether tokenization creates durable ETH fee demand or monetary value capture, the final September 25 ETF flow, and whether current rate pressure persists."
   }
 }
