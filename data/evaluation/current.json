@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-24T12:51:23Z",
+  "evaluatedAt": "2026-09-25T12:44:15Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
       "probability": 62,
-      "trend": "weaker",
-      "weightedSignal": 58
+      "trend": "steady",
+      "weightedSignal": 59
     },
     "10000": {
       "probability": 30,
-      "trend": "weaker",
-      "weightedSignal": 41
+      "trend": "steady",
+      "weightedSignal": 43
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.85
+        "score": 0.9
       },
       "10000": {
         "status": "yellow",
-        "score": 0.62
+        "score": 0.66
       }
     },
     "macro": {
@@ -38,11 +38,11 @@
     "regulation": {
       "5000": {
         "status": "red",
-        "score": 0.38
+        "score": 0.39
       },
       "10000": {
         "status": "red",
-        "score": 0.36
+        "score": 0.38
       }
     },
     "tokenization": {
@@ -58,7 +58,7 @@
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.79
+        "score": 0.8
       },
       "10000": {
         "status": "yellow",
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.57
+        "score": 0.58
       },
       "10000": {
         "status": "red",
-        "score": 0.31
+        "score": 0.32
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.51
+        "score": 0.53
       },
       "10000": {
         "status": "red",
-        "score": 0.25
+        "score": 0.27
       }
     },
     "debasement": {
@@ -108,9 +108,9 @@
   },
   "evidenceRefs": {
     "institutional": [
-      "eth-etf-flow-2026-09-23-provisional",
-      "eth-etf-flow-2026-09-22-final",
+      "eth-etf-flow-2026-09-24-final",
       "circle-binance-investment-2026-09-22",
+      "sp-global-openzeppelin-2026-09-17",
       "bitmine-eth-holdings-2026-09-13"
     ],
     "macro": [
@@ -120,18 +120,19 @@
       "boj-rate-hike-2026-09-18"
     ],
     "regulation": [
+      "us-stablecoin-regulation-2026-09-24",
       "eu-stablecoin-rules-2026-09-22",
       "clarity-act-failed-2026-09-15",
       "sec-tokenized-securities-exemption-2026-09-17"
     ],
     "tokenization": [
-      "ethereum-defi-2026-09-24-morning",
+      "ethereum-defi-2026-09-25-morning",
       "ecb-pontes-2026-09-21",
       "ethereum-rwa-2026-09-20",
       "circle-binance-investment-2026-09-22"
     ],
     "staking": [
-      "network-staking-2026-09-24",
+      "network-staking-2026-09-25",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
     ],
@@ -141,11 +142,11 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-24-morning",
-      "eth-market-2026-09-23-morning"
+      "eth-market-2026-09-25-morning",
+      "eth-market-2026-09-24-morning"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-24-morning",
+      "eth-value-capture-2026-09-25-morning",
       "ecb-pontes-2026-09-21",
       "circle-arc-mainnet-2026-09-16"
     ],
@@ -156,5 +157,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Reduced both estimates by one point, to 62% for $5K and 30% for $10K. The U.S. 10-year yield rose to 5.106%, its highest since 2007, the dollar strengthened, oil returned above $100, and markets priced a 66% chance of another October Fed hike. ETH fell about 4% to $2.67K and Ethereum recorded $231M of daily bridge outflows, reversing part of the prior breakout confirmation. The latest ETF session remained incomplete after two strong inflow days, while staking continued to rise and L1 revenue improved modestly. Cyclical liquidity therefore returns to the score floor, separately from the unchanged structural fiscal-debasement thesis. Direct L1 economics remain small relative to application fees, preserving the explicit $10K value-capture penalty. No catalyst crossed a color threshold and no thesis-breaking event occurred."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30%. Four consecutive finalized ETF inflow sessions added $602.8M, staking rose to 43.53M ETH, and daily L1 fees and revenue improved materially, strengthening institutional demand and the nearer-term value-capture score. The Federal Reserve's proposed GENIUS Act rules provide a clearer path for regulated stablecoin issuers, but remain proposed and blockchain-neutral. ETH stayed near $2.68K, while negative bridge flows and the much larger application-fee pool limited the upgrade. Restrictive global rates remain the main cyclical headwind and are assessed separately from the unchanged structural fiscal-debasement thesis. The evidence improves weighted signals without resolving the explicit ETH value-capture hurdle for $10K, so neither probability changes. No catalyst crossed a color threshold and no thesis-breaking event occurred."
 }
