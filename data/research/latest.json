@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-25T16:58:55Z",
-  "accessDate": "2026-09-25",
+  "researchedAt": "2026-09-26T05:31:15Z",
+  "accessDate": "2026-09-26",
   "market": {
-    "ethUsd": 2675.88,
-    "change24h": -0.2,
-    "marketCapUsd": 326668868590,
-    "volume24hUsd": 14779522490.1,
+    "ethUsd": 2688.46,
+    "change24h": 0.4,
+    "marketCapUsd": 328206961912,
+    "volume24hUsd": 13297999860.32,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,675.88 and down about 0.2% over 24 hours, with an approximately $326.67B market capitalization, $14.78B of volume, and a $2,634.74-$2,700.84 range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,688.46 and up about 0.4% over 24 hours, with an approximately $328.21B market capitalization, $13.30B of volume, and a $2,667.16-$2,739.52 range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2195,13 +2195,102 @@
       ],
       "confirmed": true,
       "uncertainty": "Yields and rate expectations move continuously; further Fed tightening is market pricing rather than a committed policy path."
+    },
+    {
+      "id": "eth-market-2026-09-26",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,688.46 / about +0.4% CoinGecko 24h / +2.7% 7d",
+      "summary": "ETH traded near $2.69K and was up about 0.4% over 24 hours. CoinGecko showed a $2,667.16-$2,739.52 range, approximately $13.30B in volume, and a 2.7% seven-day gain. The move remained well below the 5% price-alert threshold despite the major Bitget security incident.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-25-final",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$87.0M September 25 / +$689.8M five-session inflows / +$13.969B cumulative",
+      "summary": "Farside finalized September 25 U.S. spot ETH ETF flows at a $87.0M net inflow. BlackRock ETHA added $50.4M, BlackRock ETHB $31.9M, and Fidelity FETH $4.7M. September 21-25 produced $689.8M of net inflows, lifting displayed cumulative flows to approximately $13.969B and extending the recovery to five consecutive completed sessions.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and historical figures can be revised. Five strong sessions improve the demand signal but do not guarantee a durable multi-week trend."
+    },
+    {
+      "id": "sec-crypto-faq-liquid-staking-2026-09-25",
+      "catalyst": "regulation",
+      "direction": "supportive",
+      "value": "SEC staff: qualifying staking-receipt tokens can be digital tools or digital commodities",
+      "summary": "The SEC Division of Corporation Finance published FAQs stating that a staking-receipt token backed by a digital commodity not subject to an investment contract is a digital tool, and that a receipt issued by a protocol-based liquid-staking provider may itself be a digital commodity. The staff also said continued security, maintenance, improvement, and network-effect work on a functional crypto system generally is not an essential managerial effort under Howey. This materially improves U.S. regulatory clarity for qualifying Ethereum liquid-staking structures and continued protocol development.",
+      "sourceIds": [
+        "sec-crypto-faq-2026-09-25"
+      ],
+      "confirmed": true,
+      "uncertainty": "The FAQs are staff views, not a Commission rule, safe harbor, or binding law. Classification remains facts-and-circumstances dependent, particularly where a provider can lend, pledge, rehypothecate, or otherwise use deposited assets."
+    },
+    {
+      "id": "bitget-hot-wallet-hack-2026-09-24",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$387.5M confirmed unauthorized transfers / more than 63,000 ETH reported in exploiter addresses",
+      "summary": "Bitget confirmed approximately $387.5M of assets were transferred to attacker-controlled addresses from affected wallet infrastructure across Ethereum and other networks. Reuters reported that withdrawals were suspended, while Bitget said the vulnerability was remediated, the incident contained, user balances unaffected, and the loss covered by its protection fund. Bitget scheduled phased withdrawals, including ETH withdrawals on September 29. CoinDesk reported that more than 63,000 ETH remained in exploiter-linked addresses after only about $318,000 of stablecoins was frozen. This is a major centralized-exchange security and custody event, not an Ethereum protocol failure.",
+      "sourceIds": [
+        "bitget-security-update-2026-09-25",
+        "bitget-withdrawal-resumption-2026-09-26",
+        "reuters-bitget-hack-2026-09-25",
+        "coindesk-bitget-freeze-2026-09-25"
+      ],
+      "confirmed": true,
+      "uncertainty": "Bitget's investigation and recovery remain ongoing; the final loss and recovered amount may change. Attribution to any specific attacker remains unconfirmed in the cited primary and Reuters reporting."
+    },
+    {
+      "id": "network-staking-2026-09-26",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,537,066 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org reported approximately 43.54M ETH staked, equal to 35% of supply, at a current APR near 2.5%. The balance was broadly stable from the prior snapshot, while the new SEC staff FAQs improved the regulatory treatment of qualifying staking-receipt structures.",
+      "sourceIds": [
+        "ethereum-staking",
+        "sec-crypto-faq-2026-09-25"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live staking counters change as validators enter, exit, and earn rewards. The SEC FAQs are nonbinding staff guidance and do not automatically cover every liquid-staking arrangement."
+    },
+    {
+      "id": "ethereum-defi-2026-09-26",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$53.585B DeFi TVL / $146.658B stablecoins / -$148.78M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL at $53.585B, nearly flat over 24 hours, with $146.658B in stablecoins, $13.485B of active RWA value, and $148.78M of net bridge outflows. DEX volume was $1.292B and seven-day DEX volume remained up 17.69%. The footprint remained large, but bridge flows stayed negative.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-09-26",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$589,295 chain fees / $234,202 chain revenue / $7.84M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $589,295 and chain revenue of $234,202 over 24 hours, versus $7.84M of application fees and $1.58M of application revenue. Direct L1 economics remained much smaller than application-layer economics, leaving the central ETH value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, and monetary demand beyond direct L1 revenue."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-25"
+      "accessedAt": "2026-09-26"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2216,7 +2305,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-09-25"
+      "accessedAt": "2026-09-26"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -2226,7 +2315,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-25"
+      "accessedAt": "2026-09-26"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2256,7 +2345,7 @@
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-25"
+      "accessedAt": "2026-09-26"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -2822,17 +2911,42 @@
       "label": "Reuters: Bond yields hit multi-decade highs despite oil pullback",
       "url": "https://www.reuters.com/world/china/global-markets-warpup-1-pix-2026-09-25/",
       "accessedAt": "2026-09-25"
+    },
+    "sec-crypto-faq-2026-09-25": {
+      "label": "SEC Division of Corporation Finance: Crypto asset FAQs",
+      "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/faqs-crypto-assets",
+      "accessedAt": "2026-09-26"
+    },
+    "bitget-security-update-2026-09-25": {
+      "label": "Bitget: Security incident tracing and recovery update",
+      "url": "https://www.bitget.com/support/articles/12560603896108",
+      "accessedAt": "2026-09-26"
+    },
+    "bitget-withdrawal-resumption-2026-09-26": {
+      "label": "Bitget: Phased withdrawal-resumption schedule",
+      "url": "https://www.bitget.com/support/articles/12560603896110",
+      "accessedAt": "2026-09-26"
+    },
+    "reuters-bitget-hack-2026-09-25": {
+      "label": "Reuters: Bitget pauses withdrawals after $351.6M theft",
+      "url": "https://www.ksl.com/article/51628533/crypto-exchange-bitget-pauses-withdrawals-after-350-million-stolen-in-hack",
+      "accessedAt": "2026-09-26"
+    },
+    "coindesk-bitget-freeze-2026-09-25": {
+      "label": "CoinDesk: Stablecoin issuers freeze part of Bitget hack proceeds",
+      "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+      "accessedAt": "2026-09-26"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,675.88 and down about 0.2% over 24 hours, well below the 5% price trigger.",
-      "ARK Invest and Securitize launched tokenized interests in the ARK Venture Fund on Ethereum, a direct institutional-tokenization win for the network.",
-      "Farside's latest completed session remains September 24 at +$66.1M for U.S. spot ETH ETFs; the September 25 row was still unfinalized during this run.",
-      "The U.S. 10-year Treasury yield reached 5.2297% and the 30-year 5.5252%, keeping restrictive liquidity as the dominant cyclical headwind.",
-      "No thesis-breaking Ethereum protocol event or 5% price move was identified."
+      "ETH traded near $2,688.46 and up about 0.4% over 24 hours, well below the 5% price trigger.",
+      "SEC Corporation Finance staff said qualifying staking-receipt tokens can be digital tools or digital commodities and that continued work on a functional crypto system generally is not an essential managerial effort under Howey.",
+      "Bitget confirmed approximately $387.5M of unauthorized transfers across Ethereum and other networks; the incident is contained and phased withdrawals are scheduled, but recovery remains ongoing.",
+      "Farside finalized September 25 U.S. spot ETH ETF flows at +$87.0M, extending the recovery to five completed sessions totaling +$689.8M.",
+      "The U.S. 10-year Treasury yield remained the dominant cyclical headwind, while no Ethereum protocol failure or 5% ETH price move was identified."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,675.88 and about -0.2% over 24 hours; ARK Venture Fund tokenized interests launched on Ethereum through Securitize; September 24 U.S. spot ETH ETF flows finalized at +$66.1M; and U.S. 10-year and 30-year Treasury yields reached 5.2297% and 5.5252%. Uncertain: the scale of ARKVX adoption and onchain assets, whether tokenization creates durable ETH fee demand or monetary value capture, the final September 25 ETF flow, and whether current rate pressure persists."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,688.46 and about +0.4% over 24 hours; SEC staff published new crypto-asset FAQs covering staking-receipt tokens and ongoing protocol work; Bitget confirmed approximately $387.5M of unauthorized transfers, said the vulnerability was remediated and the incident contained, and scheduled phased withdrawals; September 25 U.S. spot ETH ETF flows finalized at +$87.0M; and approximately 43.54M ETH remained staked. Uncertain: the legal durability and scope of the nonbinding SEC staff views, Bitget's final recovered amount and attacker attribution, whether exploiter-held ETH is sold, whether ETF inflows persist, and whether ecosystem growth creates durable ETH monetary value capture."
   }
 }
