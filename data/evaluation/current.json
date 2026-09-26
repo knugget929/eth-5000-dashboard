@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-25T12:44:15Z",
+  "evaluatedAt": "2026-09-26T12:01:10Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
       "probability": 62,
       "trend": "steady",
-      "weightedSignal": 59
+      "weightedSignal": 60
     },
     "10000": {
       "probability": 30,
@@ -37,12 +37,12 @@
     },
     "regulation": {
       "5000": {
-        "status": "red",
-        "score": 0.39
+        "status": "yellow",
+        "score": 0.46
       },
       "10000": {
-        "status": "red",
-        "score": 0.38
+        "status": "yellow",
+        "score": 0.44
       }
     },
     "tokenization": {
@@ -108,9 +108,9 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-flow-2026-09-25-final",
       "eth-etf-flow-2026-09-24-final",
       "circle-binance-investment-2026-09-22",
-      "sp-global-openzeppelin-2026-09-17",
       "bitmine-eth-holdings-2026-09-13"
     ],
     "macro": [
@@ -120,19 +120,20 @@
       "boj-rate-hike-2026-09-18"
     ],
     "regulation": [
+      "sec-crypto-faq-liquid-staking-2026-09-25",
       "us-stablecoin-regulation-2026-09-24",
-      "eu-stablecoin-rules-2026-09-22",
       "clarity-act-failed-2026-09-15",
       "sec-tokenized-securities-exemption-2026-09-17"
     ],
     "tokenization": [
-      "ethereum-defi-2026-09-25-morning",
+      "ethereum-defi-2026-09-26",
+      "ark-securitize-venture-ethereum-2026-09-24",
       "ecb-pontes-2026-09-21",
-      "ethereum-rwa-2026-09-20",
-      "circle-binance-investment-2026-09-22"
+      "ethereum-rwa-2026-09-20"
     ],
     "staking": [
-      "network-staking-2026-09-25",
+      "network-staking-2026-09-26",
+      "sec-crypto-faq-liquid-staking-2026-09-25",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
     ],
@@ -142,11 +143,11 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-25-morning",
-      "eth-market-2026-09-24-morning"
+      "eth-market-2026-09-26",
+      "eth-market-2026-09-25-morning"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-25-morning",
+      "eth-value-capture-2026-09-26",
       "ecb-pontes-2026-09-21",
       "circle-arc-mainnet-2026-09-16"
     ],
@@ -157,5 +158,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30%. Four consecutive finalized ETF inflow sessions added $602.8M, staking rose to 43.53M ETH, and daily L1 fees and revenue improved materially, strengthening institutional demand and the nearer-term value-capture score. The Federal Reserve's proposed GENIUS Act rules provide a clearer path for regulated stablecoin issuers, but remain proposed and blockchain-neutral. ETH stayed near $2.68K, while negative bridge flows and the much larger application-fee pool limited the upgrade. Restrictive global rates remain the main cyclical headwind and are assessed separately from the unchanged structural fiscal-debasement thesis. The evidence improves weighted signals without resolving the explicit ETH value-capture hurdle for $10K, so neither probability changes. No catalyst crossed a color threshold and no thesis-breaking event occurred."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30%. SEC Corporation Finance staff guidance materially reduced legal uncertainty for qualifying staking-receipt tokens and continued development of functional crypto networks, moving the U.S. regulation catalyst from red to yellow for both targets. The guidance is nonbinding staff guidance, broader CLARITY legislation still failed to advance, and the macro regime remains restrictive. Five consecutive finalized U.S. spot ETH ETF sessions added $689.8M and network staking remained near 43.54M ETH, but direct ETH value capture is still insufficient for the $10K hurdle. The evidence improves the regulatory catalyst without warranting a probability change."
 }
