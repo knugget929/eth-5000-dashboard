@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "updatedAt": "2026-09-26",
   "market": {
-    "price": 2688.46,
-    "change24h": 0.4,
-    "capturedAt": "2026-09-26T05:31:15Z",
+    "price": 2696.3,
+    "change24h": 0.3,
+    "capturedAt": "2026-09-27T05:59:09Z",
     "source": "CoinGecko snapshot"
   },
   "targets": {
