@@ -92,7 +92,7 @@
       ],
       "path": [
         {
-          "label": "$2.69K",
+          "label": "$2.70K",
           "note": "Current zone",
           "active": true
         },
@@ -197,7 +197,7 @@
       ],
       "path": [
         {
-          "label": "$2.69K",
+          "label": "$2.70K",
           "note": "Current zone",
           "active": true
         },
@@ -242,7 +242,7 @@
           "weight": 18,
           "short": "Five ETF inflow sessions materially strengthened regulated demand.",
           "summary": "Traditional capital is repeatedly allocating to ETH through regulated products.",
-          "evidence": "U.S. spot ETH ETFs drew $87.0M on September 25, extending the recovery to five completed sessions and $689.8M of combined inflows. Displayed cumulative inflows reached approximately $13.969B.",
+          "evidence": "U.S. spot ETH ETFs drew $87.0M on September 25, extending the recovery to five completed sessions and $689.8M of combined inflows. BitMine also disclosed 5.984M ETH—about 4.9% of supply—after another 27,562 ETH weekly purchase.",
           "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
           "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
           "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
@@ -253,7 +253,7 @@
           "weight": 16,
           "short": "ETF demand is broadening, but a multi-cycle allocation regime remains unproven.",
           "summary": "The current institutional bid is encouraging, but a $1T+ valuation likely needs ETH to become a standard portfolio asset.",
-          "evidence": "Five consecutive inflow sessions and cumulative flows near $13.969B strengthen institutional adoption. The $10K case still needs this demand to persist across months and years and expand across multiple allocator channels.",
+          "evidence": "Five consecutive ETF inflow sessions, cumulative flows near $13.969B, and BitMine's 5.984M ETH treasury strengthen institutional adoption. The $10K case still needs this demand to persist across months and years and broaden beyond concentrated buyers.",
           "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
           "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
           "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
@@ -484,9 +484,9 @@
           "status": "yellow",
           "score": 0.58,
           "weight": 7,
-          "short": "ETH held near $2.69K despite the Bitget security incident.",
+          "short": "ETH held near $2.70K with a positive seven-day trend.",
           "summary": "ETH still needs to reclaim higher levels before $5K becomes a near-term market target.",
-          "evidence": "ETH traded near $2.69K, up about 0.4% over 24 hours and 2.7% over seven days. The market absorbed Bitget's reported cross-network security incident without a 5% move, but ETH still needs to reclaim $3K and then $3.5K.",
+          "evidence": "ETH traded near $2.70K, up about 0.3% over 24 hours and 4.1% over seven days. The rolling move remained below the 5% alert threshold, and ETH still needs to reclaim $3K and then $3.5K.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
@@ -497,7 +497,7 @@
           "weight": 6,
           "short": "Price resilience helps, but remains far from stretch-target confirmation.",
           "summary": "The market has not demonstrated willingness to value ETH near the stretch target.",
-          "evidence": "ETH near $2.69K and continued ETF inflows support the base, but the market has not demonstrated a sustained move above $5K or price discovery beyond prior highs. The Bitget incident remains contained rather than thesis-breaking.",
+          "evidence": "ETH near $2.70K, a 4.1% seven-day gain, and continued institutional demand support the base, but the market has not demonstrated a sustained move above $5K or price discovery beyond prior highs.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
