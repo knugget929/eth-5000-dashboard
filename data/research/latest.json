@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-27T05:59:09Z",
+  "researchedAt": "2026-09-27T16:57:57Z",
   "accessDate": "2026-09-27",
   "market": {
-    "ethUsd": 2696.3,
-    "change24h": 0.3,
-    "marketCapUsd": 329178582927,
-    "volume24hUsd": 6167920637.96,
+    "ethUsd": 2690.91,
+    "change24h": 0.1,
+    "marketCapUsd": 328542000000,
+    "volume24hUsd": 8164000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,696.30 and up about 0.3% over 24 hours, with an approximately $329.18B market capitalization, $6.17B of 24-hour volume, and a 4.1% seven-day gain. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,690.91, up about 0.1% over 24 hours, with an approximately $328.54B market capitalization, $8.16B of 24-hour volume, a $2,666.72-$2,720.75 24-hour range, and a 4.1% seven-day gain. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2308,6 +2308,44 @@
       ],
       "confirmed": true,
       "uncertainty": "The holdings and weekly acquisition are company-disclosed in an SEC-filed exhibit. Continued buying depends on financing and strategy, while concentration increases reversal risk if the treasury policy changes."
+    },
+    {
+      "id": "eth-market-2026-09-27-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,690.91 / about +0.1% CoinGecko 24h / +4.1% 7d",
+      "summary": "ETH traded near $2.69K late on September 27 and was essentially flat over 24 hours. CoinGecko showed a $2,666.72-$2,720.75 daily range, about $8.16B of volume, and a 4.1% seven-day gain. The rolling move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues, and weekend liquidity can amplify short-term moves."
+    },
+    {
+      "id": "network-staking-2026-09-27",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,558,895 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org reported approximately 43.56M ETH staked, equal to 35% of supply, with a current APR near 2.5%. The balance increased modestly from the September 26 snapshot, preserving the strong participation and supply-locking signal.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards; high participation does not by itself resolve centralization, liquidity, or yield-competition risks."
+    },
+    {
+      "id": "vitalik-cryptographic-world-computer-2026-09-27",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Post-Hegotá roadmap emphasizes recursive STARKs, formal verification, optimized consensus, and quantum safety",
+      "summary": "Vitalik Buterin published a long-horizon architecture note describing Ethereum's transition toward a 'cryptographic world computer.' He said Hegotá, planned for 2027, is likely to be the last conventional fork before the roadmap increasingly centers on recursive STARKs, automated formal verification, highly optimized proof-of-stake, quantum-safe cryptography, and stronger decentralized off-chain components. The post reinforces the direction of Ethereum's 2029-2030 protocol roadmap but does not itself represent a shipped upgrade or finalized fork scope.",
+      "sourceIds": [
+        "vitalik-world-computer-2026-09-27",
+        "ethereum-hegota",
+        "ethereum-quantum-resistance"
+      ],
+      "confirmed": true,
+      "uncertainty": "The architecture is a forward-looking roadmap and research direction. Timelines, exact EIP inclusion, implementation complexity, security properties, and economic value capture remain uncertain."
     }
   ],
   "sources": {
@@ -2339,7 +2377,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-26"
+      "accessedAt": "2026-09-27"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2965,17 +3003,32 @@
       "label": "BitMine September 21, 2026 Form 8-K Exhibit 99.1",
       "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226043486/ex99-1.htm",
       "accessedAt": "2026-09-27"
+    },
+    "vitalik-world-computer-2026-09-27": {
+      "label": "Vitalik Buterin: The cryptographic world computer",
+      "url": "https://vitalik.eth.limo/general/2026/09/27/the_cryptographic_world_computer.html",
+      "accessedAt": "2026-09-27"
+    },
+    "ethereum-hegota": {
+      "label": "ethereum.org: Hegotá roadmap",
+      "url": "https://ethereum.org/roadmap/hegota/",
+      "accessedAt": "2026-09-27"
+    },
+    "ethereum-quantum-resistance": {
+      "label": "ethereum.org: Post-quantum cryptography on Ethereum",
+      "url": "https://ethereum.org/roadmap/security/quantum-resistance/",
+      "accessedAt": "2026-09-27"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,696.30 and up about 0.3% over 24 hours, well below the 5% price trigger.",
-      "BitMine disclosed 5,983,940 ETH as of September 20 after acquiring another 27,562 ETH during the week, extending supportive corporate treasury demand without changing the thesis on its own.",
+      "ETH traded near $2,690.91 and up about 0.1% over 24 hours, well below the 5% price trigger.",
+      "Vitalik Buterin published a significant long-horizon protocol architecture note, but it is a roadmap direction rather than a shipped upgrade, finalized fork scope, or thesis-breaking event.",
+      "Ethereum staking remained strong at about 43.56M ETH, 35% of supply, with a roughly 2.5% APR.",
       "The latest finalized U.S. spot ETH ETF session remains September 25's +$87.0M inflow; no weekend session exists to update.",
-      "The September 25 SEC staff crypto FAQs remain the latest material U.S. staking-regulatory development; no newer thesis-breaking protocol or regulatory event was identified.",
-      "The Bitget incident remains a centralized-exchange custody event rather than an Ethereum protocol failure, with ETH withdrawals scheduled to resume September 29."
+      "The September 25 SEC staff crypto FAQs remain the latest material U.S. staking-regulatory development."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,696.30 and about +0.3% over 24 hours; BitMine disclosed 5,983,940 ETH as of September 20 and a 27,562 ETH weekly purchase in an SEC-filed exhibit; September 25 U.S. spot ETH ETF flows finalized at +$87.0M; and the SEC staff crypto FAQs published September 25 remain in effect as nonbinding staff guidance. Uncertain: whether BitMine continues accumulating after nearing its 5% target, whether ETF inflows persist when markets reopen, the durability of the SEC staff position, and whether ecosystem growth produces durable ETH monetary value capture."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,690.91 and about +0.1% over 24 hours late September 27; ethereum.org showed about 43.56M ETH staked, 35% of supply, at roughly 2.5% APR; Vitalik Buterin published a September 27 roadmap note describing a post-Hegotá shift toward recursive STARKs, formal verification, optimized consensus, and quantum safety; and the latest finalized U.S. spot ETH ETF session remains September 25's +$87.0M inflow. Uncertain: exact post-Hegotá fork contents and timelines, whether these technical directions translate into durable ETH value capture, whether ETF inflows persist when markets reopen, and whether staking growth continues."
   }
 }
