@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-26T05:31:15Z",
-  "accessDate": "2026-09-26",
+  "researchedAt": "2026-09-27T05:59:09Z",
+  "accessDate": "2026-09-27",
   "market": {
-    "ethUsd": 2688.46,
-    "change24h": 0.4,
-    "marketCapUsd": 328206961912,
-    "volume24hUsd": 13297999860.32,
+    "ethUsd": 2696.3,
+    "change24h": 0.3,
+    "marketCapUsd": 329178582927,
+    "volume24hUsd": 6167920637.96,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,688.46 and up about 0.4% over 24 hours, with an approximately $328.21B market capitalization, $13.30B of volume, and a $2,667.16-$2,739.52 range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,696.30 and up about 0.3% over 24 hours, with an approximately $329.18B market capitalization, $6.17B of 24-hour volume, and a 4.1% seven-day gain. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2284,13 +2284,37 @@
       ],
       "confirmed": true,
       "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, and monetary demand beyond direct L1 revenue."
+    },
+    {
+      "id": "eth-market-2026-09-27",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,696.30 / about +0.3% CoinGecko 24h / +4.1% 7d",
+      "summary": "ETH traded near $2.70K and was up about 0.3% over 24 hours. CoinGecko showed approximately $6.17B of 24-hour volume and a 4.1% seven-day gain. The rolling move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues; weekend liquidity can amplify short-term moves."
+    },
+    {
+      "id": "bitmine-eth-holdings-2026-09-20",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "5,983,940 ETH / 4.9% of supply / +27,562 ETH week / 98% toward 5% target",
+      "summary": "BitMine's September 21 SEC-filed exhibit disclosed 5.984M ETH as of September 20 after another 27,562 ETH weekly purchase. The company said the position equals 4.9% of the 122.1M ETH supply and is 98% of the way to its stated 5%-of-supply accumulation target, extending the pattern of persistent corporate treasury demand.",
+      "sourceIds": [
+        "bitmine-sec-8k-exhibit-2026-09-21"
+      ],
+      "confirmed": true,
+      "uncertainty": "The holdings and weekly acquisition are company-disclosed in an SEC-filed exhibit. Continued buying depends on financing and strategy, while concentration increases reversal risk if the treasury policy changes."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-26"
+      "accessedAt": "2026-09-27"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2936,17 +2960,22 @@
       "label": "CoinDesk: Stablecoin issuers freeze part of Bitget hack proceeds",
       "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
       "accessedAt": "2026-09-26"
+    },
+    "bitmine-sec-8k-exhibit-2026-09-21": {
+      "label": "BitMine September 21, 2026 Form 8-K Exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226043486/ex99-1.htm",
+      "accessedAt": "2026-09-27"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,688.46 and up about 0.4% over 24 hours, well below the 5% price trigger.",
-      "SEC Corporation Finance staff said qualifying staking-receipt tokens can be digital tools or digital commodities and that continued work on a functional crypto system generally is not an essential managerial effort under Howey.",
-      "Bitget confirmed approximately $387.5M of unauthorized transfers across Ethereum and other networks; the incident is contained and phased withdrawals are scheduled, but recovery remains ongoing.",
-      "Farside finalized September 25 U.S. spot ETH ETF flows at +$87.0M, extending the recovery to five completed sessions totaling +$689.8M.",
-      "The U.S. 10-year Treasury yield remained the dominant cyclical headwind, while no Ethereum protocol failure or 5% ETH price move was identified."
+      "ETH traded near $2,696.30 and up about 0.3% over 24 hours, well below the 5% price trigger.",
+      "BitMine disclosed 5,983,940 ETH as of September 20 after acquiring another 27,562 ETH during the week, extending supportive corporate treasury demand without changing the thesis on its own.",
+      "The latest finalized U.S. spot ETH ETF session remains September 25's +$87.0M inflow; no weekend session exists to update.",
+      "The September 25 SEC staff crypto FAQs remain the latest material U.S. staking-regulatory development; no newer thesis-breaking protocol or regulatory event was identified.",
+      "The Bitget incident remains a centralized-exchange custody event rather than an Ethereum protocol failure, with ETH withdrawals scheduled to resume September 29."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,688.46 and about +0.4% over 24 hours; SEC staff published new crypto-asset FAQs covering staking-receipt tokens and ongoing protocol work; Bitget confirmed approximately $387.5M of unauthorized transfers, said the vulnerability was remediated and the incident contained, and scheduled phased withdrawals; September 25 U.S. spot ETH ETF flows finalized at +$87.0M; and approximately 43.54M ETH remained staked. Uncertain: the legal durability and scope of the nonbinding SEC staff views, Bitget's final recovered amount and attacker attribution, whether exploiter-held ETH is sold, whether ETF inflows persist, and whether ecosystem growth creates durable ETH monetary value capture."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,696.30 and about +0.3% over 24 hours; BitMine disclosed 5,983,940 ETH as of September 20 and a 27,562 ETH weekly purchase in an SEC-filed exhibit; September 25 U.S. spot ETH ETF flows finalized at +$87.0M; and the SEC staff crypto FAQs published September 25 remain in effect as nonbinding staff guidance. Uncertain: whether BitMine continues accumulating after nearing its 5% target, whether ETF inflows persist when markets reopen, the durability of the SEC staff position, and whether ecosystem growth produces durable ETH monetary value capture."
   }
 }
