@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "updatedAt": "2026-09-26",
   "market": {
-    "price": 2696.3,
-    "change24h": 0.3,
-    "capturedAt": "2026-09-27T05:59:09Z",
+    "price": 2690.91,
+    "change24h": 0.1,
+    "capturedAt": "2026-09-27T16:57:57Z",
     "source": "CoinGecko snapshot"
   },
   "targets": {
@@ -92,7 +92,7 @@
       ],
       "path": [
         {
-          "label": "$2.70K",
+          "label": "$2.69K",
           "note": "Current zone",
           "active": true
         },
@@ -197,7 +197,7 @@
       ],
       "path": [
         {
-          "label": "$2.70K",
+          "label": "$2.69K",
           "note": "Current zone",
           "active": true
         },
@@ -414,7 +414,7 @@
           "weight": 8,
           "short": "Staking participation held strong as U.S. legal clarity improved.",
           "summary": "Staking strengthens the case for ETH as productive digital capital.",
-          "evidence": "Ethereum.org reported about 43.54M ETH staked, equal to 35% of supply, near a 2.5% APR. SEC staff guidance materially improved the treatment of qualifying staking-receipt structures, although the views are nonbinding.",
+          "evidence": "Ethereum.org reported about 43.56M ETH staked, equal to 35% of supply, near a 2.5% APR. Participation increased modestly, while SEC staff guidance continues to improve the treatment of qualifying staking-receipt structures, although the views are nonbinding.",
           "why": "Staking adds a native yield component and locks ETH into network security, reducing immediately liquid supply.",
           "greenTrigger": "Staking-enabled products gain share and regulatory treatment becomes clearer.",
           "redTrigger": "Risk-free yields stay far above staking yields or staking regulation deteriorates."
@@ -425,7 +425,7 @@
           "weight": 7,
           "short": "Participation is strong; durable institutional treatment is still developing.",
           "summary": "The stretch thesis benefits if ETH is widely understood as productive collateral with native yield.",
-          "evidence": "Approximately 43.54M ETH is staked and qualifying receipt structures gained useful SEC staff clarity. The stretch case still needs staking to become a durable institutional portfolio and collateral primitive despite concentration, liquidity, and yield competition.",
+          "evidence": "Approximately 43.56M ETH is staked and qualifying receipt structures have useful SEC staff clarity. The stretch case still needs staking to become a durable institutional portfolio and collateral primitive despite concentration, liquidity, and yield competition.",
           "why": "Large-scale staking can reduce liquid float, deepen ETH’s monetary role, and make ownership economically distinct from non-yielding assets.",
           "greenTrigger": "Institutional staking becomes standard, participation grows safely, and ETH is widely used as collateral.",
           "redTrigger": "Staking centralizes excessively, yields compress without offsetting demand, or regulation limits access."
@@ -450,7 +450,7 @@
           "weight": 8,
           "short": "Multi-party block construction reached production mainnet.",
           "summary": "Upcoming upgrades aim to improve throughput, wallet UX, and protocol efficiency.",
-          "evidence": "Ethereum's first production multi-party block-construction implementation launched with broad builder and validator support. It can improve blockspace competition and transaction-inclusion resilience while remaining compatible with longer-term FOCIL and ePBS work.",
+          "evidence": "Production multi-party block construction remains a meaningful resilience milestone. Vitalik Buterin's September 27 architecture note also outlines a post-Hegotá path centered on recursive STARKs, formal verification, optimized consensus, and quantum safety, but it is roadmap direction rather than a shipped upgrade or finalized fork scope.",
           "why": "Successful upgrades make the network more useful and credible as long-term financial infrastructure.",
           "greenTrigger": "Major testnets and mainnet upgrades ship cleanly with measurable capacity gains.",
           "redTrigger": "Serious upgrade delays, instability, or persistent failure to improve value capture."
@@ -461,7 +461,7 @@
           "weight": 7,
           "short": "Execution credibility improved; economic capture remains separate.",
           "summary": "A $10K thesis assumes Ethereum can serve vastly more economic activity while preserving credible neutrality and security.",
-          "evidence": "Production multi-party block construction is a meaningful infrastructure milestone for resilience and builder competition. The stretch thesis still requires protocol improvements to translate into durable settlement demand and ETH economics.",
+          "evidence": "Production multi-party block construction supports execution credibility, and the post-Hegotá architecture note reinforces Ethereum's long-horizon technical direction. The stretch thesis still requires those plans to ship reliably and translate into durable settlement demand and ETH economics.",
           "why": "Technical success must include both throughput and a convincing economic relationship between L2 growth and ETH demand.",
           "greenTrigger": "Roadmap milestones ship reliably, UX improves, and L2 settlement creates durable L1 and ETH economics.",
           "redTrigger": "Scaling fragments liquidity, value accrues elsewhere, or complexity causes repeated instability."
@@ -484,9 +484,9 @@
           "status": "yellow",
           "score": 0.58,
           "weight": 7,
-          "short": "ETH held near $2.70K with a positive seven-day trend.",
+          "short": "ETH held near $2.69K with a positive seven-day trend.",
           "summary": "ETH still needs to reclaim higher levels before $5K becomes a near-term market target.",
-          "evidence": "ETH traded near $2.70K, up about 0.3% over 24 hours and 4.1% over seven days. The rolling move remained below the 5% alert threshold, and ETH still needs to reclaim $3K and then $3.5K.",
+          "evidence": "ETH traded near $2.69K, up about 0.1% over 24 hours and 4.1% over seven days. The rolling move remained below the 5% alert threshold, and ETH still needs to reclaim $3K and then $3.5K.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
@@ -497,7 +497,7 @@
           "weight": 6,
           "short": "Price resilience helps, but remains far from stretch-target confirmation.",
           "summary": "The market has not demonstrated willingness to value ETH near the stretch target.",
-          "evidence": "ETH near $2.70K, a 4.1% seven-day gain, and continued institutional demand support the base, but the market has not demonstrated a sustained move above $5K or price discovery beyond prior highs.",
+          "evidence": "ETH near $2.69K, a 4.1% seven-day gain, and continued institutional demand support the base, but the market has not demonstrated a sustained move above $5K or price discovery beyond prior highs.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-27T05:59:09Z",
+  "evaluatedAt": "2026-09-27T16:57:57Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -132,19 +132,20 @@
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
-      "network-staking-2026-09-26",
+      "network-staking-2026-09-27",
       "sec-crypto-faq-liquid-staking-2026-09-25",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
     ],
     "protocol": [
+      "vitalik-cryptographic-world-computer-2026-09-27",
       "ethereum-mpbc-mainnet-2026-09-16",
       "ef-protocol-ama-live-2026-09-16",
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-27",
-      "eth-market-2026-09-26"
+      "eth-market-2026-09-27-evening",
+      "eth-market-2026-09-27"
     ],
     "value-capture": [
       "eth-value-capture-2026-09-26",
@@ -158,5 +159,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the September 27 research refresh. ETH traded near $2.70K with a modest 24-hour move, the latest finalized U.S. spot ETF session remained positive, BitMine disclosed continued treasury accumulation, and the September 25 SEC staff staking guidance remained the latest material regulatory development. None of the new evidence changed a catalyst color, moved either probability by at least three points, or resolved the $10K ETH value-capture hurdle."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the late-September 27 research refresh. ETH remained near $2.69K with a flat 24-hour move, staking increased modestly to about 43.56M ETH, and Vitalik Buterin's post-Hegotá architecture note strengthened the long-horizon protocol direction without representing a shipped upgrade or finalized fork scope. No catalyst changed color, neither probability moved, and the explicit $10K ETH value-capture hurdle remains unresolved."
 }
