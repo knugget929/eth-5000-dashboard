@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-27T16:57:57Z",
-  "accessDate": "2026-09-27",
+  "researchedAt": "2026-09-28T16:55:40Z",
+  "accessDate": "2026-09-28",
   "market": {
-    "ethUsd": 2690.91,
-    "change24h": 0.1,
-    "marketCapUsd": 328542000000,
-    "volume24hUsd": 8164000000,
+    "ethUsd": 2673.26,
+    "change24h": -0.7,
+    "marketCapUsd": 326430439749,
+    "volume24hUsd": 9506900733.39,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,690.91, up about 0.1% over 24 hours, with an approximately $328.54B market capitalization, $8.16B of 24-hour volume, a $2,666.72-$2,720.75 24-hour range, and a 4.1% seven-day gain. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,673.26, down about 0.7% over 24 hours, with an approximately $326.43B market capitalization, $9.51B of 24-hour volume, a $2,667.25-$2,720.75 24-hour range, and a 1.1% seven-day gain. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2346,13 +2346,37 @@
       ],
       "confirmed": true,
       "uncertainty": "The architecture is a forward-looking roadmap and research direction. Timelines, exact EIP inclusion, implementation complexity, security properties, and economic value capture remain uncertain."
+    },
+    {
+      "id": "eth-market-2026-09-28",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,673.26 / about -0.7% CoinGecko 24h / +1.1% 7d",
+      "summary": "ETH traded near $2.67K on September 28, down about 0.7% over 24 hours. CoinGecko showed a $2,667.25-$2,720.75 daily range, about $9.51B in volume, and a 1.1% seven-day gain. The rolling move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues and provider windows."
+    },
+    {
+      "id": "global-liquidity-2026-09-28",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $107.86 / U.S. 10Y 5.26% / 30Y 5.576% / ~70% October Fed-hike odds",
+      "summary": "Reuters reported Brent at $107.86, the U.S. 10-year Treasury yield near 5.26%, and the 30-year yield near 5.576% as the U.S.-Iran stalemate kept oil and inflation risk elevated. Markets priced roughly a 70% chance of another Fed hike in October. This reinforces the restrictive liquidity backdrop for ETH without constituting a thesis-breaking event.",
+      "sourceIds": [
+        "reuters-global-markets-2026-09-28"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil prices, Treasury yields, and market-implied Fed probabilities move continuously. U.S. PCE and payrolls later this week could materially reprice the path."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-27"
+      "accessedAt": "2026-09-28"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -3018,17 +3042,21 @@
       "label": "ethereum.org: Post-quantum cryptography on Ethereum",
       "url": "https://ethereum.org/roadmap/security/quantum-resistance/",
       "accessedAt": "2026-09-27"
+    },
+    "reuters-global-markets-2026-09-28": {
+      "label": "Reuters: Stocks fall as oil and Treasury yields rise",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/",
+      "accessedAt": "2026-09-28"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,690.91 and up about 0.1% over 24 hours, well below the 5% price trigger.",
-      "Vitalik Buterin published a significant long-horizon protocol architecture note, but it is a roadmap direction rather than a shipped upgrade, finalized fork scope, or thesis-breaking event.",
-      "Ethereum staking remained strong at about 43.56M ETH, 35% of supply, with a roughly 2.5% APR.",
-      "The latest finalized U.S. spot ETH ETF session remains September 25's +$87.0M inflow; no weekend session exists to update.",
-      "The September 25 SEC staff crypto FAQs remain the latest material U.S. staking-regulatory development."
+      "ETH traded near $2,673.26 and down about 0.7% over 24 hours, well below the 5% price trigger.",
+      "Brent near $107.86, a U.S. 10-year yield near 5.26%, and roughly 70% market-implied odds of another October Fed hike reinforced the macro headwind, but did not create a thesis-breaking event.",
+      "No finalized September 28 U.S. spot ETH ETF flow was available at research time, so no new institutional-flow conclusion was recorded.",
+      "Vitalik Buterin's September 27 cryptographic-world-computer roadmap remains a long-horizon protocol direction rather than a shipped upgrade or finalized fork scope."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,690.91 and about +0.1% over 24 hours late September 27; ethereum.org showed about 43.56M ETH staked, 35% of supply, at roughly 2.5% APR; Vitalik Buterin published a September 27 roadmap note describing a post-Hegotá shift toward recursive STARKs, formal verification, optimized consensus, and quantum safety; and the latest finalized U.S. spot ETH ETF session remains September 25's +$87.0M inflow. Uncertain: exact post-Hegotá fork contents and timelines, whether these technical directions translate into durable ETH value capture, whether ETF inflows persist when markets reopen, and whether staking growth continues."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,673.26 and about -0.7% over 24 hours; Reuters reported Brent at $107.86, the U.S. 10-year yield near 5.26%, the 30-year near 5.576%, and markets pricing roughly a 70% chance of another October Fed hike. Uncertain: how this week's PCE and payrolls alter the Fed path, whether oil and yields remain elevated, whether September 28 ETF flows finish positive or negative, and whether the long-horizon protocol roadmap translates into stronger ETH value capture."
   }
 }
