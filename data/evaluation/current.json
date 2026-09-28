@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-27T16:57:57Z",
+  "evaluatedAt": "2026-09-28T16:55:40Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -114,10 +114,10 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "global-liquidity-2026-09-28",
       "global-liquidity-2026-09-23-close",
       "fed-discount-window-2026-09-22",
-      "fed-rate-hike-2026-09-16",
-      "boj-rate-hike-2026-09-18"
+      "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
       "sec-crypto-faq-liquid-staking-2026-09-25",
@@ -144,8 +144,8 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-27-evening",
-      "eth-market-2026-09-27"
+      "eth-market-2026-09-28",
+      "eth-market-2026-09-27-evening"
     ],
     "value-capture": [
       "eth-value-capture-2026-09-26",
@@ -159,5 +159,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the late-September 27 research refresh. ETH remained near $2.69K with a flat 24-hour move, staking increased modestly to about 43.56M ETH, and Vitalik Buterin's post-Hegotá architecture note strengthened the long-horizon protocol direction without representing a shipped upgrade or finalized fork scope. No catalyst changed color, neither probability moved, and the explicit $10K ETH value-capture hurdle remains unresolved."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the September 28 research refresh. ETH traded near $2.67K with a modest 24-hour decline while Brent near $108, a U.S. 10-year yield near 5.26%, and roughly 70% implied odds of another October Fed hike reinforced the macro headwind. No catalyst changed color, neither probability moved, and the explicit $10K ETH value-capture hurdle remains unresolved."
 }
