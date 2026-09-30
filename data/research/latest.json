@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-28T16:55:40Z",
-  "accessDate": "2026-09-28",
+  "researchedAt": "2026-09-30T04:46:50Z",
+  "accessDate": "2026-09-30",
   "market": {
-    "ethUsd": 2673.26,
-    "change24h": -0.7,
-    "marketCapUsd": 326430439749,
-    "volume24hUsd": 9506900733.39,
+    "ethUsd": 2673.65,
+    "change24h": 0.1,
+    "marketCapUsd": 326433424863,
+    "volume24hUsd": 15367801731.9,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,673.26, down about 0.7% over 24 hours, with an approximately $326.43B market capitalization, $9.51B of 24-hour volume, a $2,667.25-$2,720.75 24-hour range, and a 1.1% seven-day gain. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,673.65, up about 0.1% over 24 hours, with an approximately $326.43B market capitalization, $15.37B of 24-hour volume, a $2,656.59-$2,742.68 24-hour range, and a 3.3% seven-day decline. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2370,13 +2370,99 @@
       ],
       "confirmed": true,
       "uncertainty": "Oil prices, Treasury yields, and market-implied Fed probabilities move continuously. U.S. PCE and payrolls later this week could materially reprice the path."
+    },
+    {
+      "id": "eth-market-2026-09-30",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,673.65 / about +0.1% CoinGecko 24h / -3.3% 7d",
+      "summary": "ETH traded near $2.67K on September 30 and was essentially flat over 24 hours. CoinGecko showed a $2,656.59-$2,742.68 daily range, about $15.37B in volume, and a 3.3% seven-day decline. The rolling move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and rolling percentage changes move continuously across venues and provider windows."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-29",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "-$2.8M latest day / +$13.983B cumulative",
+      "summary": "Farside finalized September 29 U.S. spot ETH ETF flows at a modest $2.8M net outflow. BlackRock ETHA lost $8.9M and Fidelity FETH lost $6.7M, partly offset by a $12.8M inflow to Grayscale ETH. Cumulative net inflows remained strong at approximately $13.983B, but the result ended the recent positive run.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. A single near-flat negative session does not establish a persistent reversal in institutional demand."
+    },
+    {
+      "id": "bitget-eth-withdrawal-delay-2026-09-30",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "Official incident page: ETH withdrawals still Pending after Sep. 29 08:00 UTC target",
+      "summary": "Bitget's official incident page still marked ETH withdrawals on Ethereum, BSC, Arbitrum, Base, and Optimism as Pending on September 30, more than a day after the stated September 29 08:00 UTC resumption target. Bitcoin withdrawals were marked Resumed. The delay extends the centralized-exchange custody and market-structure concern from the September 24 hack, but it is not an Ethereum protocol failure.",
+      "sourceIds": [
+        "bitget-incident-hub-2026-09-30"
+      ],
+      "confirmed": true,
+      "uncertainty": "Bitget has not published a revised ETH-withdrawal time on the cited incident page. The status may change quickly, and the page does not establish insolvency or a loss of customer balances."
+    },
+    {
+      "id": "network-staking-2026-09-30",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,661,005 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org reported approximately 43.66M ETH staked, equal to 35% of supply, with a current APR near 2.5%. Participation remained high and continued to lock a large share of ETH supply, although the yield stayed below prevailing U.S. Treasury yields.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards. High participation does not by itself resolve centralization, liquidity, or yield-competition risks."
+    },
+    {
+      "id": "ethereum-defi-2026-09-30",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$53.245B DeFi TVL / $146.321B stablecoins / -$285.94M 24h inflows",
+      "summary": "DefiLlama reported $53.245B of Ethereum DeFi TVL, $146.321B of stablecoin market capitalization, $13.909B of active RWA AUM, $2.175B of 24-hour DEX volume, and $285.94M of net 24-hour bridge outflows. The onchain footprint remained large, but the negative bridge flow and declining weekly trading volumes tempered the adoption signal.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL, bridge flows, and activity metrics are volatile and methodology-dependent; ecosystem growth is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-09-30",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$1.29M chain fees / $617,511 chain revenue / $9.09M app fees over 24h",
+      "summary": "DefiLlama showed Ethereum L1 chain fees of about $1.29M and chain revenue of $617,511 over 24 hours, versus $9.09M of application fees and $2.2M of application revenue. Direct L1 economics improved from the prior snapshot but remained much smaller than application-layer economics, leaving the central ETH value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, and monetary demand beyond direct L1 revenue."
+    },
+    {
+      "id": "global-liquidity-2026-09-30",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y 5.2383% / dollar +2% in September / Brent $103.16 / October hike odds 51.5%",
+      "summary": "Reuters reported the U.S. 10-year Treasury yield near 5.2383%, close to its highest level since 2007, while the dollar was headed for a 2% monthly gain and Brent traded near $103.16. Separately, October Fed-hike odds eased to 51.5% after New York Fed President John Williams emphasized patience. The level of yields and the firmer dollar remain a substantial cyclical headwind for ETH even as immediate hike odds moderated.",
+      "sourceIds": [
+        "reuters-global-markets-2026-09-30",
+        "reuters-us-markets-2026-09-29"
+      ],
+      "confirmed": true,
+      "uncertainty": "Treasury yields, oil, the dollar, and policy probabilities move continuously. PCE and payroll data later this week may materially reprice the path."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-28"
+      "accessedAt": "2026-09-30"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2391,7 +2477,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-09-26"
+      "accessedAt": "2026-09-30"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -2401,7 +2487,7 @@
     "ethereum-staking": {
       "label": "Ethereum.org staking dashboard",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-27"
+      "accessedAt": "2026-09-30"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2431,7 +2517,7 @@
     "defillama-ethereum": {
       "label": "DefiLlama Ethereum chain dashboard",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-26"
+      "accessedAt": "2026-09-30"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -3047,16 +3133,32 @@
       "label": "Reuters: Stocks fall as oil and Treasury yields rise",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/",
       "accessedAt": "2026-09-28"
+    },
+    "bitget-incident-hub-2026-09-30": {
+      "label": "Bitget: 2026 security incident official updates and withdrawal status",
+      "url": "https://www.bitget.com/campaigns/bitget-security-incident-2026",
+      "accessedAt": "2026-09-30"
+    },
+    "reuters-global-markets-2026-09-30": {
+      "label": "Reuters: Global bonds set for worst month in years as yields stay elevated",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-30/",
+      "accessedAt": "2026-09-30"
+    },
+    "reuters-us-markets-2026-09-29": {
+      "label": "Reuters: U.S. equities slip as Treasury yields remain near multi-decade highs",
+      "url": "https://www.reuters.com/business/us-stock-futures-flat-tech-bounce-meets-crude-driven-caution-2026-09-29/",
+      "accessedAt": "2026-09-30"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,673.26 and down about 0.7% over 24 hours, well below the 5% price trigger.",
-      "Brent near $107.86, a U.S. 10-year yield near 5.26%, and roughly 70% market-implied odds of another October Fed hike reinforced the macro headwind, but did not create a thesis-breaking event.",
-      "No finalized September 28 U.S. spot ETH ETF flow was available at research time, so no new institutional-flow conclusion was recorded.",
-      "Vitalik Buterin's September 27 cryptographic-world-computer roadmap remains a long-horizon protocol direction rather than a shipped upgrade or finalized fork scope."
+      "ETH traded near $2,673.65 and up about 0.1% over 24 hours, well below the 5% price trigger.",
+      "September 29 U.S. spot ETH ETF flows were nearly flat at -$2.8M, leaving cumulative net inflows strong at about $13.983B.",
+      "Bitget's official incident page still marked ETH withdrawals Pending after the stated September 29 resumption time; this extends the exchange-security concern but is not an Ethereum protocol failure or confirmed insolvency.",
+      "The U.S. 10-year yield near 5.24% and a 2% September dollar gain remained cyclical headwinds, while no new QE, monetization, or deliberate dollar-debasement policy turn appeared.",
+      "No new major Ethereum protocol, U.S. regulatory, tokenization, or thesis-breaking event was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,673.26 and about -0.7% over 24 hours; Reuters reported Brent at $107.86, the U.S. 10-year yield near 5.26%, the 30-year near 5.576%, and markets pricing roughly a 70% chance of another October Fed hike. Uncertain: how this week's PCE and payrolls alter the Fed path, whether oil and yields remain elevated, whether September 28 ETF flows finish positive or negative, and whether the long-horizon protocol roadmap translates into stronger ETH value capture."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,673.65 and about +0.1% over 24 hours; September 29 ETF flows at -$2.8M and cumulative flows near $13.983B; Ethereum.org at 43.66M ETH staked, 35% of supply, and 2.5% APR; Bitget's official incident page still showing ETH withdrawals as Pending; Reuters reporting the U.S. 10-year near 5.2383%, the dollar headed for a 2% September gain, and October hike odds easing to 51.5%. Uncertain: when Bitget will actually resume ETH withdrawals, whether the delay reflects further technical work or a deeper issue, whether recent ETF demand persists, and how upcoming PCE and payroll data change the Fed path."
   }
 }
