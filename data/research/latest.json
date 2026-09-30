@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-30T04:46:50Z",
+  "researchedAt": "2026-09-30T16:17:00Z",
   "accessDate": "2026-09-30",
   "market": {
-    "ethUsd": 2673.65,
-    "change24h": 0.1,
-    "marketCapUsd": 326433424863,
-    "volume24hUsd": 15367801731.9,
+    "ethUsd": 2683.05,
+    "change24h": 0.4,
+    "marketCapUsd": 327546212368,
+    "volume24hUsd": 14299462238.62,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,673.65, up about 0.1% over 24 hours, with an approximately $326.43B market capitalization, $15.37B of 24-hour volume, a $2,656.59-$2,742.68 24-hour range, and a 3.3% seven-day decline. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,683.05, up about 0.4% over 24 hours, with an approximately $327.55B market capitalization, $14.30B of 24-hour volume, a $2,657.67-$2,736.98 24-hour range, and a 1.4% seven-day decline. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2456,6 +2456,42 @@
       ],
       "confirmed": true,
       "uncertainty": "Treasury yields, oil, the dollar, and policy probabilities move continuously. PCE and payroll data later this week may materially reprice the path."
+    },
+    {
+      "id": "eth-market-2026-09-30-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,683.05 / about +0.4% CoinGecko 24h",
+      "summary": "ETH traded near $2.68K. CoinGecko showed an approximately 0.4% 24-hour gain, a $2,657.67-$2,736.98 daily range, and a 1.4% seven-day decline. The move remained well below the 5% notification threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
+    },
+    {
+      "id": "bitget-eth-withdrawals-resumed-2026-09-30",
+      "catalyst": "market",
+      "direction": "supportive",
+      "value": "Official incident hub: ETH withdrawals Resumed",
+      "summary": "Bitget's official security-incident hub now marks ETH withdrawals as Resumed across Ethereum, BSC, Arbitrum, Base, and Optimism. This resolves the temporary withdrawal-delay concern recorded earlier on September 30. The broader investigation and asset-recovery process after the exchange hack remain ongoing, but the incident still does not indicate an Ethereum protocol failure.",
+      "sourceIds": [
+        "bitget-incident-hub-2026-09-30"
+      ],
+      "confirmed": true,
+      "uncertainty": "The status is confirmed by Bitget's live incident hub. Full recovery of stolen assets, any further operational restrictions, and the final incident findings remain uncertain."
+    },
+    {
+      "id": "us-pce-fed-repricing-2026-09-30",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "PCE +0.3% m/m / +3.4% y/y; core +3.0% y/y; October hike odds 34.9%",
+      "summary": "August U.S. PCE inflation rose 0.3% month over month and 3.4% year over year, while core PCE rose 0.2% and 3.0%, softer than expected. Reuters reported implied odds of an October Fed hike falling to 34.9% from 51.5% before the release, providing tactical liquidity relief. Consumer spending nevertheless surged 0.9% and inflation remained above target, so this is not evidence of a QE, monetization, or structural dollar-debasement turn.",
+      "sourceIds": [
+        "reuters-us-pce-2026-09-30"
+      ],
+      "confirmed": true,
+      "uncertainty": "The PCE data is confirmed, but market-implied policy odds move continuously. Strong consumption and future labor and inflation data could still support another 2026 rate increase."
     }
   ],
   "sources": {
@@ -3148,17 +3184,22 @@
       "label": "Reuters: U.S. equities slip as Treasury yields remain near multi-decade highs",
       "url": "https://www.reuters.com/business/us-stock-futures-flat-tech-bounce-meets-crude-driven-caution-2026-09-29/",
       "accessedAt": "2026-09-30"
+    },
+    "reuters-us-pce-2026-09-30": {
+      "label": "Reuters: U.S. inflation rises less than expected as consumer spending surges",
+      "url": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/",
+      "accessedAt": "2026-09-30"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,673.65 and up about 0.1% over 24 hours, well below the 5% price trigger.",
-      "September 29 U.S. spot ETH ETF flows were nearly flat at -$2.8M, leaving cumulative net inflows strong at about $13.983B.",
-      "Bitget's official incident page still marked ETH withdrawals Pending after the stated September 29 resumption time; this extends the exchange-security concern but is not an Ethereum protocol failure or confirmed insolvency.",
-      "The U.S. 10-year yield near 5.24% and a 2% September dollar gain remained cyclical headwinds, while no new QE, monetization, or deliberate dollar-debasement policy turn appeared.",
+      "ETH traded near $2,683.05 and up about 0.4% over 24 hours, well below the 5% price trigger.",
+      "September 30 U.S. spot ETH ETF flows remained incomplete; the latest finalized session was September 29 at -$2.8M, leaving cumulative net inflows near $13.983B.",
+      "Bitget's official incident hub now marks ETH withdrawals Resumed, removing the temporary delay concern recorded earlier in the day; the broader hack investigation and recovery remain exchange-level risks rather than an Ethereum protocol failure.",
+      "Softer-than-expected PCE reduced implied October Fed-hike odds to 34.9%, offering tactical liquidity relief, but inflation remained above target and consumer spending rose 0.9%, so no QE or structural debasement turn was confirmed.",
       "No new major Ethereum protocol, U.S. regulatory, tokenization, or thesis-breaking event was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,673.65 and about +0.1% over 24 hours; September 29 ETF flows at -$2.8M and cumulative flows near $13.983B; Ethereum.org at 43.66M ETH staked, 35% of supply, and 2.5% APR; Bitget's official incident page still showing ETH withdrawals as Pending; Reuters reporting the U.S. 10-year near 5.2383%, the dollar headed for a 2% September gain, and October hike odds easing to 51.5%. Uncertain: when Bitget will actually resume ETH withdrawals, whether the delay reflects further technical work or a deeper issue, whether recent ETF demand persists, and how upcoming PCE and payroll data change the Fed path."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,683.05 and about +0.4% over 24 hours; September 29 ETF flows at -$2.8M and cumulative flows near $13.983B, with September 30 still incomplete; Bitget's official incident hub showing ETH withdrawals Resumed; August PCE at +0.3% month over month and +3.4% year over year, core PCE at +3.0% year over year, consumer spending at +0.9%, and Reuters reporting October hike odds at 34.9%. Uncertain: final September 30 ETF flows, full recovery from the Bitget hack, whether lower rate-hike odds persist, and whether subsequent labor and inflation data permit another 2026 Fed increase."
   }
 }
