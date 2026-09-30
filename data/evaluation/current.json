@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-28T16:55:40Z",
+  "evaluatedAt": "2026-09-30T04:46:50Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.58
+        "score": 0.56
       },
       "10000": {
         "status": "red",
-        "score": 0.32
+        "score": 0.3
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.53
+        "score": 0.55
       },
       "10000": {
         "status": "red",
-        "score": 0.27
+        "score": 0.28
       }
     },
     "debasement": {
@@ -108,16 +108,16 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-flow-2026-09-29",
       "eth-etf-flow-2026-09-25-final",
-      "eth-etf-flow-2026-09-24-final",
       "circle-binance-investment-2026-09-22",
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "global-liquidity-2026-09-30",
       "global-liquidity-2026-09-28",
-      "global-liquidity-2026-09-23-close",
-      "fed-discount-window-2026-09-22",
-      "fed-rate-hike-2026-09-16"
+      "fed-rate-hike-2026-09-16",
+      "boj-rate-hike-2026-09-18"
     ],
     "regulation": [
       "sec-crypto-faq-liquid-staking-2026-09-25",
@@ -126,13 +126,13 @@
       "sec-tokenized-securities-exemption-2026-09-17"
     ],
     "tokenization": [
-      "ethereum-defi-2026-09-26",
+      "ethereum-defi-2026-09-30",
       "ark-securitize-venture-ethereum-2026-09-24",
       "ecb-pontes-2026-09-21",
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
-      "network-staking-2026-09-27",
+      "network-staking-2026-09-30",
       "sec-crypto-faq-liquid-staking-2026-09-25",
       "blackrock-ethb-2026-09-15",
       "bitmine-staked-eth-2026-09-13"
@@ -144,11 +144,12 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-28",
-      "eth-market-2026-09-27-evening"
+      "eth-market-2026-09-30",
+      "bitget-eth-withdrawal-delay-2026-09-30",
+      "bitget-hot-wallet-hack-2026-09-24"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-26",
+      "eth-value-capture-2026-09-30",
       "ecb-pontes-2026-09-21",
       "circle-arc-mainnet-2026-09-16"
     ],
@@ -159,5 +160,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the September 28 research refresh. ETH traded near $2.67K with a modest 24-hour decline while Brent near $108, a U.S. 10-year yield near 5.26%, and roughly 70% implied odds of another October Fed hike reinforced the macro headwind. No catalyst changed color, neither probability moved, and the explicit $10K ETH value-capture hurdle remains unresolved."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the September 30 research refresh. The nearly flat ETF session, 3.3% seven-day ETH decline, and delayed Bitget ETH withdrawals modestly weakened the market-structure scores, while improved daily L1 fees and chain revenue slightly strengthened value-capture scores. Those changes offset within the weighted model: $5K remained 60 and $10K remained 43. No catalyst changed color, neither probability moved, and the explicit $10K ETH value-capture hurdle remains unresolved."
 }
