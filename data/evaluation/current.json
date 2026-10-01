@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-09-30T04:46:50Z",
+  "evaluatedAt": "2026-10-01T05:08:00Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
       "probability": 62,
       "trend": "steady",
-      "weightedSignal": 60
+      "weightedSignal": 59
     },
     "10000": {
       "probability": 30,
@@ -18,11 +18,11 @@
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.9
+        "score": 0.88
       },
       "10000": {
         "status": "yellow",
-        "score": 0.66
+        "score": 0.64
       }
     },
     "macro": {
@@ -58,11 +58,11 @@
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.8
+        "score": 0.74
       },
       "10000": {
         "status": "yellow",
-        "score": 0.66
+        "score": 0.6
       }
     },
     "protocol": {
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.56
+        "score": 0.57
       },
       "10000": {
         "status": "red",
-        "score": 0.3
+        "score": 0.31
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.55
+        "score": 0.53
       },
       "10000": {
         "status": "red",
-        "score": 0.28
+        "score": 0.27
       }
     },
     "debasement": {
@@ -108,16 +108,16 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-flow-2026-09-30",
       "eth-etf-flow-2026-09-29",
       "eth-etf-flow-2026-09-25-final",
-      "circle-binance-investment-2026-09-22",
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "global-liquidity-2026-10-01",
+      "us-pce-fed-repricing-2026-09-30",
       "global-liquidity-2026-09-30",
-      "global-liquidity-2026-09-28",
-      "fed-rate-hike-2026-09-16",
-      "boj-rate-hike-2026-09-18"
+      "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
       "sec-crypto-faq-liquid-staking-2026-09-25",
@@ -126,16 +126,16 @@
       "sec-tokenized-securities-exemption-2026-09-17"
     ],
     "tokenization": [
-      "ethereum-defi-2026-09-30",
+      "ethereum-defi-2026-10-01",
       "ark-securitize-venture-ethereum-2026-09-24",
       "ecb-pontes-2026-09-21",
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
-      "network-staking-2026-09-30",
+      "metamask-staking-security-incident-2026-09-30",
+      "network-staking-2026-10-01",
       "sec-crypto-faq-liquid-staking-2026-09-25",
-      "blackrock-ethb-2026-09-15",
-      "bitmine-staked-eth-2026-09-13"
+      "blackrock-ethb-2026-09-15"
     ],
     "protocol": [
       "vitalik-cryptographic-world-computer-2026-09-27",
@@ -144,12 +144,12 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-09-30",
-      "bitget-eth-withdrawal-delay-2026-09-30",
-      "bitget-hot-wallet-hack-2026-09-24"
+      "eth-market-2026-10-01",
+      "bitget-eth-withdrawals-resumed-2026-09-30",
+      "eth-market-2026-09-30-evening"
     ],
     "value-capture": [
-      "eth-value-capture-2026-09-30",
+      "eth-value-capture-2026-10-01",
       "ecb-pontes-2026-09-21",
       "circle-arc-mainnet-2026-09-16"
     ],
@@ -160,5 +160,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the September 30 research refresh. The nearly flat ETF session, 3.3% seven-day ETH decline, and delayed Bitget ETH withdrawals modestly weakened the market-structure scores, while improved daily L1 fees and chain revenue slightly strengthened value-capture scores. Those changes offset within the weighted model: $5K remained 60 and $10K remained 43. No catalyst changed color, neither probability moved, and the explicit $10K ETH value-capture hurdle remains unresolved."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 1 research refresh. MetaMask’s infrastructure incident and validator exits reduced staking scores, while a second ETF outflow session modestly weakened institutional scores. Bitget’s resumed ETH withdrawals and a positive ETH session slightly improved market scores, while lower daily L1 economics reduced value-capture scores. The weighted $5K signal moved from 60 to 59; $10K remained 43. No catalyst changed color, neither probability moved, and the incident is not an Ethereum protocol failure or confirmed loss of staker principal."
 }
