@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-01T05:08:00Z",
+  "researchedAt": "2026-10-01T15:32:00Z",
   "accessDate": "2026-10-01",
   "market": {
-    "ethUsd": 2696.35,
-    "change24h": 0.9,
-    "marketCapUsd": 329205869710,
-    "volume24hUsd": 14000000000,
+    "ethUsd": 2693.25,
+    "change24h": 0.7,
+    "marketCapUsd": 328824459497,
+    "volume24hUsd": 12955611272.75,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,696.35, up about 0.9% over 24 hours, with an approximately $329.21B market capitalization, roughly $14B of 24-hour volume, and a $2,657.67-$2,736.98 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,693.25, up about 0.7% over 24 hours, with an approximately $328.82B market capitalization, $12.96B of 24-hour volume, and a $2,667.89-$2,720.25 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2521,14 +2521,15 @@
       "id": "metamask-staking-security-incident-2026-09-30",
       "catalyst": "staking",
       "direction": "headwind",
-      "value": "Affected validators exiting / final exits expected by Oct. 7 / restaking cycle up to ~45 days",
-      "summary": "MetaMask disclosed an ongoing security incident affecting part of its infrastructure and is proactively exiting affected validators from its non-custodial staking operations. MetaMask said it identified no immediate threat to MetaMask wallets and does not control client withdrawal keys. Lido said MetaMask Staking began exiting its Ethereum validators in the Lido protocol; the final affected validators are expected to exit by October 7, with ETH returning gradually through an exit, withdrawal, and re-entry cycle that may take up to about 45 days. This is a material staking-infrastructure and operational-concentration warning, but not an Ethereum protocol failure or a confirmed loss of staker principal.",
+      "value": "Affected validators exiting; external estimate ~17,000 validators / ~523,000 ETH / ~0.36 ETH rewards diverted",
+      "summary": "MetaMask's October 1 update said its investigation had found no indication that MetaMask wallets or customer funds were affected and that affected validators were exited as a precaution. Lido said no action is required from stETH holders, final affected validators are expected to exit by October 7, and the full exit, withdrawal, and re-entry cycle may take up to about 45 days. CoinDesk reported an Ethereum security researcher's onchain estimate that roughly 17,000 validators holding about 523,000 ETH were being exited and about 0.36 ETH of block-production payments had been diverted to an unexpected address. The estimated scale makes this a material staking-operator concentration event, while the limited reported reward diversion and protected withdrawal credentials distinguish it from a loss of staker principal or Ethereum protocol failure.",
       "sourceIds": [
         "metamask-user-update-2026-09-30",
-        "cointelegraph-metamask-validators-2026-10-01"
+        "lido-metamask-disclosure-2026-09-30",
+        "coindesk-metamask-incident-2026-10-01"
       ],
       "confirmed": true,
-      "uncertainty": "MetaMask has not disclosed the cause, scope, number of validators or ETH affected, whether validator keys were exposed, or whether any losses or slashing occurred. Lido's timing is an estimate and re-entry depends on Ethereum's validator queue."
+      "uncertainty": "MetaMask has not confirmed the external estimates of validator count, ETH affected, or diverted rewards, and has not disclosed the compromise vector or whether validator signing keys were exposed. Neither MetaMask nor Lido has reported slashing or loss of staker principal."
     },
     {
       "id": "network-staking-2026-10-01",
@@ -2578,6 +2579,30 @@
       ],
       "confirmed": true,
       "uncertainty": "Treasury yields, oil, and policy probabilities move continuously. September payrolls are due October 2 and could materially reprice the expected Fed path."
+    },
+    {
+      "id": "eth-market-2026-10-01-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,693.25 / about +0.7% CoinGecko 24h",
+      "summary": "ETH traded near $2.69K. CoinGecko showed an approximately 0.7% 24-hour gain and a $2,667.89-$2,720.25 daily range. The move remained well below the 5% notification threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
+    },
+    {
+      "id": "citi-eth-forecast-2026-10-01",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "$3,028 12-month ETH target / $5B aggregate crypto inflow forecast",
+      "summary": "Citigroup raised its 12-month Ether forecast to $3,028 from $2,240, citing stronger crypto activity, a supportive macro backdrop, and expected resumption of ETF inflows. Citi forecast $5B of aggregate crypto inflows over the next 12 months and said allocations should grow more slowly but steadily. The revision is supportive evidence of improving institutional sentiment, but it is an analyst forecast rather than committed capital and remains well below the dashboard's $5K target.",
+      "sourceIds": [
+        "reuters-citi-crypto-forecasts-2026-10-01"
+      ],
+      "confirmed": true,
+      "uncertainty": "The forecast is confirmed as Citi's published view, but actual ETF demand, asset allocation, regulatory progress, and ETH price performance can differ materially."
     }
   ],
   "sources": {
@@ -3295,17 +3320,33 @@
       "label": "Reuters: Goldman Sachs pushes Fed rate hike forecast to December",
       "url": "https://www.reuters.com/business/goldman-sachs-pushes-fed-rate-hike-forecast-december-2026-10-01/",
       "accessedAt": "2026-10-01"
+    },
+    "lido-metamask-disclosure-2026-09-30": {
+      "label": "Lido Governance: MetaMask Staking precautionary out-of-order exits",
+      "url": "https://research.lido.fi/t/security-disclosure-metamask-staking-precautionary-out-of-order-exits/11961",
+      "accessedAt": "2026-10-01"
+    },
+    "coindesk-metamask-incident-2026-10-01": {
+      "label": "CoinDesk: MetaMask security incident forces Ethereum staking exits",
+      "url": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
+      "accessedAt": "2026-10-01"
+    },
+    "reuters-citi-crypto-forecasts-2026-10-01": {
+      "label": "Reuters: Citi raises bitcoin and ether forecasts on strong crypto activity",
+      "url": "https://www.reuters.com/business/finance/citi-raises-bitcoin-ether-forecasts-strong-crypto-activity-2026-10-01/",
+      "accessedAt": "2026-10-01"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,696.35 and up about 0.9% over 24 hours, well below the 5% price trigger.",
-      "MetaMask disclosed an infrastructure security incident and began precautionary exits of affected non-custodial staking validators, including Lido validators. The event is a major Ethereum staking-infrastructure development even though no immediate wallet threat, staker-principal loss, or Ethereum protocol failure has been confirmed.",
-      "September 30 U.S. spot ETH ETFs recorded a $59.6M net outflow, leaving cumulative net inflows strong at approximately $13.924B but extending the late-September softening.",
-      "Softer inflation reduced near-term Fed-hike odds, but the U.S. 10-year yield reached 5.306% and Brent remained near $98, so the cyclical liquidity backdrop is still restrictive and no structural debasement turn is confirmed.",
-      "No new Ethereum consensus failure, finalized adverse U.S. regulation, or other thesis-breaking event was confirmed."
+      "ETH traded near $2,693.25 and up about 0.7% over 24 hours, well below the 5% price trigger.",
+      "MetaMask strengthened its safety assessment, saying its investigation found no indication that wallets or customer funds were affected; Lido said stETH holders need take no action.",
+      "The MetaMask incident's estimated scope became materially clearer: an external Ethereum security researcher estimated roughly 17,000 validators holding about 523,000 ETH were being exited and about 0.36 ETH of validator rewards had been diverted. MetaMask has not confirmed those figures, and no staker-principal loss or slashing has been reported.",
+      "October 1 U.S. spot ETH ETF flows remained incomplete; the latest finalized session was September 30 at -$59.6M, with cumulative net inflows near $13.924B.",
+      "Citi raised its 12-month ETH forecast to $3,028 and expects $5B of aggregate crypto inflows, a supportive sentiment signal but not committed demand or evidence for the $5K target.",
+      "No Ethereum protocol failure, finalized adverse U.S. regulation, or other thesis-breaking event was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,696.35 and about +0.9% over 24 hours; September 30 ETF flows at -$59.6M and cumulative flows near $13.924B; MetaMask's disclosure of an infrastructure security incident, precautionary exits of affected non-custodial staking validators, no identified immediate threat to MetaMask wallets, and its lack of control over client withdrawal keys; Lido's reported validator-exit process and up-to-45-day exit, withdrawal, and re-entry estimate; 43.745M ETH staked, 35% of supply, at roughly 2.5% APR; and the U.S. 10-year yield at 5.306% with October hike odds near 38%. Uncertain: the MetaMask incident's cause, scope, number of validators or ETH affected, any validator-key exposure, losses, or slashing; whether the restaking cycle completes on schedule; whether ETF outflows persist; and how the October 2 payroll report changes the Fed path."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,693.25 and about +0.7% over 24 hours; MetaMask's statement that its investigation found no indication wallets or customer funds were affected; Lido's statement that stETH holders need take no action, with final validator exits expected by October 7 and a full cycle potentially taking up to 45 days; September 30 ETF flows at -$59.6M and cumulative flows near $13.924B, with October 1 still incomplete; and Citi's $3,028 12-month Ether forecast. Reported but not confirmed by MetaMask: an external estimate of roughly 17,000 validators, 523,000 ETH, and about 0.36 ETH of diverted block-production payments. Uncertain: the compromise vector, whether signing keys were exposed, the final validator and ETH scope, any eventual slashing or penalties, and whether ETF demand resumes."
   }
 }
