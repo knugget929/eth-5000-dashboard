@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-30T16:17:00Z",
-  "accessDate": "2026-09-30",
+  "researchedAt": "2026-10-01T05:08:00Z",
+  "accessDate": "2026-10-01",
   "market": {
-    "ethUsd": 2683.05,
-    "change24h": 0.4,
-    "marketCapUsd": 327546212368,
-    "volume24hUsd": 14299462238.62,
+    "ethUsd": 2696.35,
+    "change24h": 0.9,
+    "marketCapUsd": 329205869710,
+    "volume24hUsd": 14000000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,683.05, up about 0.4% over 24 hours, with an approximately $327.55B market capitalization, $14.30B of 24-hour volume, a $2,657.67-$2,736.98 24-hour range, and a 1.4% seven-day decline. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,696.35, up about 0.9% over 24 hours, with an approximately $329.21B market capitalization, roughly $14B of 24-hour volume, and a $2,657.67-$2,736.98 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2492,13 +2492,99 @@
       ],
       "confirmed": true,
       "uncertainty": "The PCE data is confirmed, but market-implied policy odds move continuously. Strong consumption and future labor and inflation data could still support another 2026 rate increase."
+    },
+    {
+      "id": "eth-market-2026-10-01",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,696.35 / about +0.9% CoinGecko 24h",
+      "summary": "ETH traded near $2.70K. CoinGecko showed an approximately 0.9% 24-hour gain and a $2,657.67-$2,736.98 daily range. The move remained well below the 5% notification threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-09-30",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$59.6M latest day / about +$13.924B cumulative",
+      "summary": "Farside finalized September 30 U.S. spot ETH ETF flows at a $59.6M net outflow. Fidelity FETH lost $26.6M, Grayscale ETHE lost $7.5M, and Grayscale ETH lost $25.5M; the other listed funds were flat. Cumulative net inflows remained strongly positive at approximately $13.924B, but the result extended the late-September softening after September 29's $2.8M outflow.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. Two negative sessions after a strong inflow streak do not yet establish a persistent institutional outflow trend."
+    },
+    {
+      "id": "metamask-staking-security-incident-2026-09-30",
+      "catalyst": "staking",
+      "direction": "headwind",
+      "value": "Affected validators exiting / final exits expected by Oct. 7 / restaking cycle up to ~45 days",
+      "summary": "MetaMask disclosed an ongoing security incident affecting part of its infrastructure and is proactively exiting affected validators from its non-custodial staking operations. MetaMask said it identified no immediate threat to MetaMask wallets and does not control client withdrawal keys. Lido said MetaMask Staking began exiting its Ethereum validators in the Lido protocol; the final affected validators are expected to exit by October 7, with ETH returning gradually through an exit, withdrawal, and re-entry cycle that may take up to about 45 days. This is a material staking-infrastructure and operational-concentration warning, but not an Ethereum protocol failure or a confirmed loss of staker principal.",
+      "sourceIds": [
+        "metamask-user-update-2026-09-30",
+        "cointelegraph-metamask-validators-2026-10-01"
+      ],
+      "confirmed": true,
+      "uncertainty": "MetaMask has not disclosed the cause, scope, number of validators or ETH affected, whether validator keys were exposed, or whether any losses or slashing occurred. Lido's timing is an estimate and re-entry depends on Ethereum's validator queue."
+    },
+    {
+      "id": "network-staking-2026-10-01",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,745,460 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters reported 43.745M ETH staked, equal to 35% of supply, with a current APR near 2.5%. The network-wide staking base remains deep despite the MetaMask operator incident.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, and earn rewards. The MetaMask validator exits had only just begun and their scale was not disclosed."
+    },
+    {
+      "id": "ethereum-defi-2026-10-01",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$53.15B DeFi TVL / $146.246B stablecoins / -$51.41M 24h inflows",
+      "summary": "DefiLlama reported $53.15B of Ethereum DeFi TVL, $146.246B of stablecoin market capitalization, $13.906B of active RWA AUM, $1.279B of 24-hour DEX volume, and $51.41M of net bridge outflows. Ethereum's onchain footprint remained large, but daily capital flow was negative and seven-day DEX volume was down 12.64%.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-10-01",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$551,211 chain fees / $185,381 chain revenue over 24h",
+      "summary": "DefiLlama reported $551,211 of Ethereum L1 chain fees and $185,381 of chain revenue over 24 hours, compared with $9.0M of application fees. Ethereum's settlement and application footprint remains substantial, but direct L1 fee capture is still modest relative to the broader application economy.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "global-liquidity-2026-10-01",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "U.S. 10Y 5.306% / October hike odds 38% / Brent $98.15",
+      "summary": "Reuters reported the U.S. 10-year Treasury yield reaching 5.306%, its highest since June 2007, and Brent near $98.15, keeping the cost-of-capital backdrop restrictive. Softer August PCE and New York Fed President John Williams saying there was no urgency for another move reduced implied October hike odds to 38%; Goldman Sachs shifted its next-hike forecast to December and said further hikes may ultimately prove unnecessary. This offers tactical liquidity relief but is not a QE, monetization, or structural dollar-debasement turn.",
+      "sourceIds": [
+        "reuters-global-markets-2026-10-01",
+        "reuters-goldman-fed-2026-10-01"
+      ],
+      "confirmed": true,
+      "uncertainty": "Treasury yields, oil, and policy probabilities move continuously. September payrolls are due October 2 and could materially reprice the expected Fed path."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-09-30"
+      "accessedAt": "2026-10-01"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2513,7 +2599,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-09-30"
+      "accessedAt": "2026-10-01"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -2521,9 +2607,9 @@
       "accessedAt": "2026-09-02"
     },
     "ethereum-staking": {
-      "label": "Ethereum.org staking dashboard",
+      "label": "ethereum.org: Ethereum staking",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-09-30"
+      "accessedAt": "2026-10-01"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2551,9 +2637,9 @@
       "accessedAt": "2026-09-20"
     },
     "defillama-ethereum": {
-      "label": "DefiLlama Ethereum chain dashboard",
+      "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-09-30"
+      "accessedAt": "2026-10-01"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -3189,17 +3275,37 @@
       "label": "Reuters: U.S. inflation rises less than expected as consumer spending surges",
       "url": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/",
       "accessedAt": "2026-09-30"
+    },
+    "metamask-user-update-2026-09-30": {
+      "label": "MetaMask: User update on infrastructure security incident and validator exits",
+      "url": "https://metamask.io/news/user-update",
+      "accessedAt": "2026-10-01"
+    },
+    "cointelegraph-metamask-validators-2026-10-01": {
+      "label": "Cointelegraph: MetaMask exits Ethereum validators amid security incident",
+      "url": "https://cointelegraph.com/news/metamask-exits-lido-validators-as-it-investigates-security-incident",
+      "accessedAt": "2026-10-01"
+    },
+    "reuters-global-markets-2026-10-01": {
+      "label": "Reuters: Asian stocks dip as global bonds remain under pressure",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-01/",
+      "accessedAt": "2026-10-01"
+    },
+    "reuters-goldman-fed-2026-10-01": {
+      "label": "Reuters: Goldman Sachs pushes Fed rate hike forecast to December",
+      "url": "https://www.reuters.com/business/goldman-sachs-pushes-fed-rate-hike-forecast-december-2026-10-01/",
+      "accessedAt": "2026-10-01"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,683.05 and up about 0.4% over 24 hours, well below the 5% price trigger.",
-      "September 30 U.S. spot ETH ETF flows remained incomplete; the latest finalized session was September 29 at -$2.8M, leaving cumulative net inflows near $13.983B.",
-      "Bitget's official incident hub now marks ETH withdrawals Resumed, removing the temporary delay concern recorded earlier in the day; the broader hack investigation and recovery remain exchange-level risks rather than an Ethereum protocol failure.",
-      "Softer-than-expected PCE reduced implied October Fed-hike odds to 34.9%, offering tactical liquidity relief, but inflation remained above target and consumer spending rose 0.9%, so no QE or structural debasement turn was confirmed.",
-      "No new major Ethereum protocol, U.S. regulatory, tokenization, or thesis-breaking event was confirmed."
+      "ETH traded near $2,696.35 and up about 0.9% over 24 hours, well below the 5% price trigger.",
+      "MetaMask disclosed an infrastructure security incident and began precautionary exits of affected non-custodial staking validators, including Lido validators. The event is a major Ethereum staking-infrastructure development even though no immediate wallet threat, staker-principal loss, or Ethereum protocol failure has been confirmed.",
+      "September 30 U.S. spot ETH ETFs recorded a $59.6M net outflow, leaving cumulative net inflows strong at approximately $13.924B but extending the late-September softening.",
+      "Softer inflation reduced near-term Fed-hike odds, but the U.S. 10-year yield reached 5.306% and Brent remained near $98, so the cyclical liquidity backdrop is still restrictive and no structural debasement turn is confirmed.",
+      "No new Ethereum consensus failure, finalized adverse U.S. regulation, or other thesis-breaking event was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,683.05 and about +0.4% over 24 hours; September 29 ETF flows at -$2.8M and cumulative flows near $13.983B, with September 30 still incomplete; Bitget's official incident hub showing ETH withdrawals Resumed; August PCE at +0.3% month over month and +3.4% year over year, core PCE at +3.0% year over year, consumer spending at +0.9%, and Reuters reporting October hike odds at 34.9%. Uncertain: final September 30 ETF flows, full recovery from the Bitget hack, whether lower rate-hike odds persist, and whether subsequent labor and inflation data permit another 2026 Fed increase."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,696.35 and about +0.9% over 24 hours; September 30 ETF flows at -$59.6M and cumulative flows near $13.924B; MetaMask's disclosure of an infrastructure security incident, precautionary exits of affected non-custodial staking validators, no identified immediate threat to MetaMask wallets, and its lack of control over client withdrawal keys; Lido's reported validator-exit process and up-to-45-day exit, withdrawal, and re-entry estimate; 43.745M ETH staked, 35% of supply, at roughly 2.5% APR; and the U.S. 10-year yield at 5.306% with October hike odds near 38%. Uncertain: the MetaMask incident's cause, scope, number of validators or ETH affected, any validator-key exposure, losses, or slashing; whether the restaking cycle completes on schedule; whether ETF outflows persist; and how the October 2 payroll report changes the Fed path."
   }
 }
