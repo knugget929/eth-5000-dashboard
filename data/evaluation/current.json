@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-01T05:08:00Z",
+  "evaluatedAt": "2026-10-02T12:01:30Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,15 +108,15 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-flow-2026-10-01",
+      "citi-eth-forecast-2026-10-01",
       "eth-etf-flow-2026-09-30",
-      "eth-etf-flow-2026-09-29",
-      "eth-etf-flow-2026-09-25-final",
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "global-liquidity-2026-10-02",
       "global-liquidity-2026-10-01",
       "us-pce-fed-repricing-2026-09-30",
-      "global-liquidity-2026-09-30",
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
@@ -126,14 +126,14 @@
       "sec-tokenized-securities-exemption-2026-09-17"
     ],
     "tokenization": [
-      "ethereum-defi-2026-10-01",
+      "ethereum-defi-2026-10-02",
       "ark-securitize-venture-ethereum-2026-09-24",
       "ecb-pontes-2026-09-21",
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
+      "network-staking-2026-10-02",
       "metamask-staking-security-incident-2026-09-30",
-      "network-staking-2026-10-01",
       "sec-crypto-faq-liquid-staking-2026-09-25",
       "blackrock-ethb-2026-09-15"
     ],
@@ -144,14 +144,14 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-10-01",
+      "eth-market-2026-10-02",
       "bitget-eth-withdrawals-resumed-2026-09-30",
-      "eth-market-2026-09-30-evening"
+      "eth-market-2026-10-01-evening"
     ],
     "value-capture": [
-      "eth-value-capture-2026-10-01",
-      "ecb-pontes-2026-09-21",
-      "circle-arc-mainnet-2026-09-16"
+      "eth-value-capture-2026-10-02",
+      "ethereum-zkapi-2026-10-01",
+      "ecb-pontes-2026-09-21"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -160,5 +160,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 1 research refresh. MetaMask’s infrastructure incident and validator exits reduced staking scores, while a second ETF outflow session modestly weakened institutional scores. Bitget’s resumed ETH withdrawals and a positive ETH session slightly improved market scores, while lower daily L1 economics reduced value-capture scores. The weighted $5K signal moved from 60 to 59; $10K remained 43. No catalyst changed color, neither probability moved, and the incident is not an Ethereum protocol failure or confirmed loss of staker principal."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 2 research refresh. A $55.4M October 1 spot-ETF outflow and Citi's higher $3,028 12-month ETH forecast point in opposite directions, leaving the institutional scores unchanged. ETH near $2.73K, rising network staking, and improved daily L1 economics are constructive at the margin, but negative bridge flows, unresolved MetaMask operator risk, and weak direct ETH value capture keep the existing catalyst colors and scores intact. The U.S. 10-year yield remained near 5.25% after touching 5.34% and the dollar stayed near a 17-month high; lower October hike odds provide only partial relief. No catalyst changed color, neither probability moved, and no thesis-breaking event was identified."
 }
