@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-02T05:20:00Z",
+  "researchedAt": "2026-10-02T15:45:00Z",
   "accessDate": "2026-10-02",
   "market": {
-    "ethUsd": 2733.32,
-    "change24h": 0.9,
-    "marketCapUsd": 333735000000,
-    "volume24hUsd": 15287000000,
+    "ethUsd": 2695.88,
+    "change24h": 0.8,
+    "marketCapUsd": 329144873234,
+    "volume24hUsd": 17720024157.48,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,733.32, up about 0.9% over 24 hours, with an approximately $333.74B market capitalization, $15.29B of 24-hour volume, and a $2,674.08-$2,744.54 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,695.88, up about 0.8% over 24 hours, with an approximately $329.14B market capitalization, $17.72B of 24-hour volume, and a $2,674.36-$2,768.44 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2691,6 +2691,44 @@
       ],
       "confirmed": true,
       "uncertainty": "Treasury yields and policy odds move continuously, and the pending payroll report could materially reprice both. A lower October-hike probability is not evidence of monetary easing, QE, or a structural debasement turn."
+    },
+    {
+      "id": "eth-market-2026-10-02-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,695.88 / about +0.8% CoinGecko 24h",
+      "summary": "ETH traded near $2.70K after briefly reaching about $2,768. CoinGecko showed roughly +0.8% over 24 hours, a $2,674.36-$2,768.44 range, $17.72B of 24-hour volume, and a $329.14B market capitalization. The move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows can produce different percentage changes."
+    },
+    {
+      "id": "sec-crypto-custody-proposal-2026-10-01",
+      "catalyst": "regulation",
+      "direction": "supportive",
+      "value": "SEC tailored adviser/fund crypto-custody proposal / 60-day comment period",
+      "summary": "The SEC proposed a tailored custody framework for crypto assets held by registered investment advisers, registered investment companies, and business development companies. The proposal would remove barriers to crypto investment advice and fund strategies, permit state trust companies to serve as custodians, and allow self-custody under specified circumstances. This is a material potential institutional-access tailwind for ETH, but it remains proposed rulemaking rather than a final or legally effective framework.",
+      "sourceIds": [
+        "sec-crypto-custody-proposal-2026-10-01",
+        "sec-atkins-crypto-custody-statement-2026-10-01"
+      ],
+      "confirmed": true,
+      "uncertainty": "The Commission has proposed the framework, but final text, qualifying conditions, implementation timing, litigation risk, industry uptake, asset coverage, and resulting demand for ETH remain uncertain. The public comment period runs for 60 days after Federal Register publication."
+    },
+    {
+      "id": "us-jobs-fed-repricing-2026-10-02",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "+29K payrolls / 4.2% unemployment / 3.0% wage growth / about 20% October-hike odds",
+      "summary": "BLS reported September payroll growth of 29,000, well below the Reuters consensus of 90,000, while unemployment rose to 4.2% and annual wage growth slowed to 3.0%. July and August were revised down by a combined 60,000 jobs. Treasury yields fell and Reuters reported October Fed-hike odds near 20%, offering near-term liquidity relief, but the 10-year yield remained above 5% and a later hike was still possible.",
+      "sourceIds": [
+        "bls-employment-2026-09",
+        "reuters-wall-street-2026-10-02"
+      ],
+      "confirmed": true,
+      "uncertainty": "The data are preliminary and subject to revision. Seasonal-adjustment effects may have depressed September payrolls, inflation remains above target, and the report does not establish an easing cycle, QE, or a structural debasement turn."
     }
   ],
   "sources": {
@@ -3443,18 +3481,38 @@
       "label": "Reuters: Fed policymakers lean against October rate hike",
       "url": "https://www.reuters.com/business/fed-may-take-time-make-next-interest-rate-move-jefferson-says-2026-10-01/",
       "accessedAt": "2026-10-02"
+    },
+    "sec-crypto-custody-proposal-2026-10-01": {
+      "label": "SEC: Proposed crypto-asset custody framework for investment advisers and regulated funds",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "accessedAt": "2026-10-02"
+    },
+    "sec-atkins-crypto-custody-statement-2026-10-01": {
+      "label": "SEC Chair Paul Atkins: Statement on proposed crypto custody framework",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-crypto-custody-100126-statement-proposal-address-custody-crypto-assets-under-investment-advisers-act-investment-company",
+      "accessedAt": "2026-10-02"
+    },
+    "bls-employment-2026-09": {
+      "label": "U.S. Bureau of Labor Statistics: September 2026 Employment Situation",
+      "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "accessedAt": "2026-10-02"
+    },
+    "reuters-wall-street-2026-10-02": {
+      "label": "Reuters: Nasdaq hits record high after softer jobs data cuts rate-hike bets",
+      "url": "https://www.reuters.com/business/wall-st-futures-gain-yields-oil-prices-ease-ahead-jobs-report-2026-10-02/",
+      "accessedAt": "2026-10-02"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,733.32 and up about 0.9% over 24 hours, well below the 5% price trigger.",
-      "October 1 U.S. spot ETH ETFs recorded a $55.4M net outflow, reducing cumulative net inflows to approximately $13.868B; this is a near-term demand headwind but not a thesis break.",
-      "Ethereum staking participation remained near 43.786M ETH, 35% of supply, at about 2.5% APR; no new MetaMask disclosure showed wallet loss, customer-fund loss, slashing, or broader protocol impact.",
-      "The Ethereum Foundation's zkAPI is live on mainnet and demonstrates privacy-preserving metered API payments, but adoption and material ETH value capture are unproven.",
-      "The 10-year Treasury yield remained near 5.25% and the dollar near a 17-month high. Lower October Fed-hike odds provide partial relief, but the macro backdrop remains restrictive and the September payroll report is pending.",
-      "No major Ethereum protocol failure, finalized adverse U.S. regulatory action, or other thesis-breaking event was confirmed."
+      "ETH traded near $2,695.88 and up about 0.8% over 24 hours, well below the 5% price trigger.",
+      "The SEC proposed a dedicated crypto-custody framework for registered advisers and regulated funds, including conditional self-custody and state-trust-company custody. This materially improves the potential compliant pathway for institutional ETH exposure, but it is not yet final law.",
+      "September U.S. payrolls rose only 29,000, unemployment increased to 4.2%, annual wage growth slowed to 3.0%, and prior months were revised down by 60,000. Markets reduced October Fed-hike odds to about 20%, providing near-term liquidity relief without establishing an easing or debasement regime.",
+      "October 2 U.S. spot ETH ETF reporting remained incomplete; the latest finalized session was October 1 at -$55.4M, with cumulative net inflows near $13.868B.",
+      "MetaMask published no new incident update on October 2. Its latest official position remained that no wallet or customer funds were indicated as affected, while the compromise vector and final validator scope were still undisclosed.",
+      "No Ethereum protocol failure, finalized adverse U.S. regulatory action, or other thesis-breaking event was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,733.32 and about +0.9% over 24 hours; October 1 U.S. spot ETH ETF flows at -$55.4M and cumulative flows near $13.868B; about 43.786M ETH staked at roughly 2.5% APR; zkAPI operating on Ethereum mainnet; and the U.S. 10-year yield near 5.25% with October-hike odds around 25%-28%. Uncertain: the September payroll outcome and resulting rate repricing; whether ETF outflows persist; zkAPI adoption and direct ETH demand; and the still-undisclosed MetaMask compromise vector and final validator scope."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,695.88 and about +0.8% over 24 hours; the SEC's October 1 proposal for a tailored adviser and regulated-fund crypto-custody framework, conditional self-custody, state-trust-company custodians, and a 60-day comment period after Federal Register publication; September payrolls at +29,000, unemployment at 4.2%, annual wage growth at 3.0%, and 60,000 of combined downward revisions to July and August; October Fed-hike odds near 20%; and October 1 ETF flows at -$55.4M, with October 2 reporting incomplete. Uncertain: the SEC proposal's final text, adoption date, asset coverage, litigation risk, and effect on ETH demand; whether the soft payroll print survives revisions or changes the December policy path; today's final ETF flows; and the MetaMask compromise method and final validator scope."
   }
 }
