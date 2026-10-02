@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-01T15:32:00Z",
-  "accessDate": "2026-10-01",
+  "researchedAt": "2026-10-02T05:20:00Z",
+  "accessDate": "2026-10-02",
   "market": {
-    "ethUsd": 2693.25,
-    "change24h": 0.7,
-    "marketCapUsd": 328824459497,
-    "volume24hUsd": 12955611272.75,
+    "ethUsd": 2733.32,
+    "change24h": 0.9,
+    "marketCapUsd": 333735000000,
+    "volume24hUsd": 15287000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,693.25, up about 0.7% over 24 hours, with an approximately $328.82B market capitalization, $12.96B of 24-hour volume, and a $2,667.89-$2,720.25 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,733.32, up about 0.9% over 24 hours, with an approximately $333.74B market capitalization, $15.29B of 24-hour volume, and a $2,674.08-$2,744.54 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2603,13 +2603,101 @@
       ],
       "confirmed": true,
       "uncertainty": "The forecast is confirmed as Citi's published view, but actual ETF demand, asset allocation, regulatory progress, and ETH price performance can differ materially."
+    },
+    {
+      "id": "eth-market-2026-10-02",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,733.32 / about +0.9% CoinGecko 24h",
+      "summary": "ETH traded near $2.73K after a modest overnight advance. CoinGecko showed about +0.9% over 24 hours with a $2,674.08-$2,744.54 range, $15.29B of 24-hour volume, and a $333.74B market capitalization. The move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows can produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-01",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$55.4M latest day / +$13.868B cumulative",
+      "summary": "Farside finalized October 1 U.S. spot ETH ETF flows at a $55.4M net outflow. Fidelity FETH lost $23.5M, VanEck ETHV $6.9M, Franklin EZET $6.1M, and Grayscale ETHE $20.4M, partly offset by a $1.5M inflow to Grayscale ETH. Cumulative net inflows declined to approximately $13.868B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. One negative session does not by itself establish a durable institutional-distribution trend."
+    },
+    {
+      "id": "network-staking-2026-10-02",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,785,868 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters reported about 43.786M ETH staked, equal to 35% of supply, with a current APR near 2.5%. Aggregate participation continued to rise despite MetaMask's precautionary validator exits, supporting the network-security and supply-lockup thesis.",
+      "sourceIds": [
+        "ethereum-staking",
+        "metamask-user-update-2026-09-30"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, and earn rewards. Aggregate growth does not resolve the still-undisclosed MetaMask compromise vector or the final number of affected validators."
+    },
+    {
+      "id": "ethereum-defi-2026-10-02",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "about $53.7B DeFi TVL / $146.266B stablecoins / -$122.53M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL around $53.7B, stablecoin market capitalization of $146.266B, $1.166B of 24-hour DEX volume, 2.04M transactions, and $122.53M of net 24-hour bridge outflows. The onchain financial footprint remains large, but near-term capital flow was negative and seven-day DEX volume was down 14.7%.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; provider methodologies differ, composable assets can be double-counted, and one day of bridge flow is not a trend."
+    },
+    {
+      "id": "eth-value-capture-2026-10-02",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$792,137 chain fees / $374,621 chain revenue over 24h",
+      "summary": "DefiLlama reported $792,137 of Ethereum L1 chain fees and $374,621 of chain revenue over 24 hours, compared with $11.61M of application fees and $2.49M of application revenue. L1 economics improved from the prior snapshot but remained small relative to application-layer activity, preserving the central value-capture question.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile. ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "ethereum-zkapi-2026-10-01",
+      "catalyst": "value-capture",
+      "direction": "supportive",
+      "value": "zkAPI live on Ethereum mainnet / private metered API payments",
+      "summary": "The Ethereum Foundation's dAI team and the Open Anonymity Project introduced zkAPI, a live mainnet system that lets users deposit ETH, USDC, or other credits into an Ethereum vault and authorize bounded API usage with zero-knowledge proofs instead of linking requests to an identity. It is a concrete privacy-preserving payment use case for Ethereum, but it is an application-layer R&D deployment rather than a protocol upgrade or demonstrated source of material ETH demand.",
+      "sourceIds": [
+        "ethereum-zkapi-2026-10-01"
+      ],
+      "confirmed": true,
+      "uncertainty": "The system is live, but usage, provider adoption, transaction volume, fee generation, security under broader deployment, and direct ETH value capture have not been demonstrated."
+    },
+    {
+      "id": "global-liquidity-2026-10-02",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y about 5.247% / October hike odds about 25%-28% / payrolls pending",
+      "summary": "The 10-year Treasury yield remained near 5.25% after touching a 24-year high of 5.34%, and the dollar hovered near a 17-month high. Fed officials pushed the implied probability of an October hike down to roughly 25%-28%, but markets still expected another increase by year-end. September payrolls were forecast at +90,000 with 4.1% unemployment and were due later October 2. High real and nominal yields remain a valuation and staking-spread headwind, while the lower near-term hike probability offers only partial relief.",
+      "sourceIds": [
+        "reuters-global-markets-2026-10-02",
+        "reuters-us-jobs-2026-10-02",
+        "reuters-fed-policy-2026-10-01"
+      ],
+      "confirmed": true,
+      "uncertainty": "Treasury yields and policy odds move continuously, and the pending payroll report could materially reprice both. A lower October-hike probability is not evidence of monetary easing, QE, or a structural debasement turn."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-10-01"
+      "accessedAt": "2026-10-02"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2624,7 +2712,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-01"
+      "accessedAt": "2026-10-02"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -2634,7 +2722,7 @@
     "ethereum-staking": {
       "label": "ethereum.org: Ethereum staking",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-10-01"
+      "accessedAt": "2026-10-02"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2664,7 +2752,7 @@
     "defillama-ethereum": {
       "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-10-01"
+      "accessedAt": "2026-10-02"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -3304,7 +3392,7 @@
     "metamask-user-update-2026-09-30": {
       "label": "MetaMask: User update on infrastructure security incident and validator exits",
       "url": "https://metamask.io/news/user-update",
-      "accessedAt": "2026-10-01"
+      "accessedAt": "2026-10-02"
     },
     "cointelegraph-metamask-validators-2026-10-01": {
       "label": "Cointelegraph: MetaMask exits Ethereum validators amid security incident",
@@ -3335,18 +3423,38 @@
       "label": "Reuters: Citi raises bitcoin and ether forecasts on strong crypto activity",
       "url": "https://www.reuters.com/business/finance/citi-raises-bitcoin-ether-forecasts-strong-crypto-activity-2026-10-01/",
       "accessedAt": "2026-10-01"
+    },
+    "ethereum-zkapi-2026-10-01": {
+      "label": "Ethereum Foundation: Introducing zkAPI, private usage credits for any API",
+      "url": "https://blog.ethereum.org/2026/10/01/introducing-zkapi",
+      "accessedAt": "2026-10-02"
+    },
+    "reuters-global-markets-2026-10-02": {
+      "label": "Reuters: Morning Bid — Treasuries and markets ahead of U.S. payrolls",
+      "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-10-02/",
+      "accessedAt": "2026-10-02"
+    },
+    "reuters-us-jobs-2026-10-02": {
+      "label": "Reuters: U.S. September payrolls preview",
+      "url": "https://www.reuters.com/business/us-job-growth-expected-slow-september-unemployment-rate-likely-steady-2026-10-02/",
+      "accessedAt": "2026-10-02"
+    },
+    "reuters-fed-policy-2026-10-01": {
+      "label": "Reuters: Fed policymakers lean against October rate hike",
+      "url": "https://www.reuters.com/business/fed-may-take-time-make-next-interest-rate-move-jefferson-says-2026-10-01/",
+      "accessedAt": "2026-10-02"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,693.25 and up about 0.7% over 24 hours, well below the 5% price trigger.",
-      "MetaMask strengthened its safety assessment, saying its investigation found no indication that wallets or customer funds were affected; Lido said stETH holders need take no action.",
-      "The MetaMask incident's estimated scope became materially clearer: an external Ethereum security researcher estimated roughly 17,000 validators holding about 523,000 ETH were being exited and about 0.36 ETH of validator rewards had been diverted. MetaMask has not confirmed those figures, and no staker-principal loss or slashing has been reported.",
-      "October 1 U.S. spot ETH ETF flows remained incomplete; the latest finalized session was September 30 at -$59.6M, with cumulative net inflows near $13.924B.",
-      "Citi raised its 12-month ETH forecast to $3,028 and expects $5B of aggregate crypto inflows, a supportive sentiment signal but not committed demand or evidence for the $5K target.",
-      "No Ethereum protocol failure, finalized adverse U.S. regulation, or other thesis-breaking event was confirmed."
+      "ETH traded near $2,733.32 and up about 0.9% over 24 hours, well below the 5% price trigger.",
+      "October 1 U.S. spot ETH ETFs recorded a $55.4M net outflow, reducing cumulative net inflows to approximately $13.868B; this is a near-term demand headwind but not a thesis break.",
+      "Ethereum staking participation remained near 43.786M ETH, 35% of supply, at about 2.5% APR; no new MetaMask disclosure showed wallet loss, customer-fund loss, slashing, or broader protocol impact.",
+      "The Ethereum Foundation's zkAPI is live on mainnet and demonstrates privacy-preserving metered API payments, but adoption and material ETH value capture are unproven.",
+      "The 10-year Treasury yield remained near 5.25% and the dollar near a 17-month high. Lower October Fed-hike odds provide partial relief, but the macro backdrop remains restrictive and the September payroll report is pending.",
+      "No major Ethereum protocol failure, finalized adverse U.S. regulatory action, or other thesis-breaking event was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,693.25 and about +0.7% over 24 hours; MetaMask's statement that its investigation found no indication wallets or customer funds were affected; Lido's statement that stETH holders need take no action, with final validator exits expected by October 7 and a full cycle potentially taking up to 45 days; September 30 ETF flows at -$59.6M and cumulative flows near $13.924B, with October 1 still incomplete; and Citi's $3,028 12-month Ether forecast. Reported but not confirmed by MetaMask: an external estimate of roughly 17,000 validators, 523,000 ETH, and about 0.36 ETH of diverted block-production payments. Uncertain: the compromise vector, whether signing keys were exposed, the final validator and ETH scope, any eventual slashing or penalties, and whether ETF demand resumes."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,733.32 and about +0.9% over 24 hours; October 1 U.S. spot ETH ETF flows at -$55.4M and cumulative flows near $13.868B; about 43.786M ETH staked at roughly 2.5% APR; zkAPI operating on Ethereum mainnet; and the U.S. 10-year yield near 5.25% with October-hike odds around 25%-28%. Uncertain: the September payroll outcome and resulting rate repricing; whether ETF outflows persist; zkAPI adoption and direct ETH demand; and the still-undisclosed MetaMask compromise vector and final validator scope."
   }
 }
