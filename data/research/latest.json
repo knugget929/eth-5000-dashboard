@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-02T15:45:00Z",
-  "accessDate": "2026-10-02",
+  "researchedAt": "2026-10-03T05:31:49.005Z",
+  "accessDate": "2026-10-03",
   "market": {
-    "ethUsd": 2695.88,
-    "change24h": 0.8,
-    "marketCapUsd": 329144873234,
-    "volume24hUsd": 17720024157.48,
+    "ethUsd": 2675.2,
+    "change24h": -2.1,
+    "marketCapUsd": 326587000000,
+    "volume24hUsd": 16714000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,695.88, up about 0.8% over 24 hours, with an approximately $329.14B market capitalization, $17.72B of 24-hour volume, and a $2,674.36-$2,768.44 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,675.20, down about 2.1% over 24 hours, with an approximately $326.59B market capitalization, $16.71B of 24-hour volume, and a $2,652.62-$2,768.44 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2729,6 +2729,105 @@
       ],
       "confirmed": true,
       "uncertainty": "The data are preliminary and subject to revision. Seasonal-adjustment effects may have depressed September payrolls, inflation remains above target, and the report does not establish an easing cycle, QE, or a structural debasement turn."
+    },
+    {
+      "id": "eth-market-2026-10-03",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,675.20 / about -2.1% CoinGecko 24h",
+      "summary": "ETH traded near $2.68K after the prior session's softer U.S. payroll data. CoinGecko showed about -2.1% over 24 hours with a $2,652.62-$2,768.44 range. The decline remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-02",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$17.3M latest day / +$13.851B cumulative",
+      "summary": "Farside finalized October 2 U.S. spot ETH ETF flows at a $17.3M net outflow, entirely from Fidelity FETH. This was the fourth consecutive negative session and brought the September 29-October 2 withdrawal streak to $135.1M, while cumulative net inflows remained strongly positive at approximately $13.851B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. A four-session outflow streak is a near-term demand headwind but does not establish a structural reversal."
+    },
+    {
+      "id": "network-staking-2026-10-03",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,825,966 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters reported about 43.83M ETH staked, equal to 35% of supply, with current APR near 2.5%. Participation remains high despite a large negative spread to long-dated U.S. Treasury yields.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, and earn rewards; displayed APR is variable and excludes operator costs and liquidity risk."
+    },
+    {
+      "id": "ethereum-defi-2026-10-03",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$53.423B DeFi TVL / $145.971B stablecoins / -$70.58M 24h inflows",
+      "summary": "DefiLlama reported $53.423B of Ethereum DeFi TVL, $145.971B of stablecoins, $13.909B of active RWA value, $1.302B of 24-hour DEX volume, 1.88M transactions, and $70.58M of net bridge outflows. The ecosystem footprint remained large, but weekly DEX volume was down 9.66%.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-10-03",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$475,895 chain fees / $132,713 chain revenue over 24h",
+      "summary": "DefiLlama reported $475,895 of Ethereum L1 chain fees and $132,713 of chain revenue over 24 hours, compared with about $7.0M of application fees and $1.38M of application revenue. Ethereum's settlement footprint remains substantial, but most ecosystem economics still do not flow directly to ETH holders.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "blast-l2-wind-down-2026-10-02",
+      "catalyst": "value-capture",
+      "direction": "headwind",
+      "value": "Blast L2 winding down / users asked to withdraw to Ethereum by Oct. 26 / TVL about $32M",
+      "summary": "Blast announced that it will wind down its Ethereum Layer 2 because operating costs exceed revenue and it sees no credible path to sustainable economics. Users are being directed to withdraw assets to Ethereum mainnet through the normal interface by October 26; afterward, recovery will require direct interaction with bridge contracts. Blast's TVL had fallen to roughly $32M from more than $2B before mainnet launch.",
+      "sourceIds": [
+        "blast-winddown-x-2026-10-02",
+        "theblock-blast-winddown-2026-10-02"
+      ],
+      "confirmed": true,
+      "uncertainty": "The shutdown timetable is announced, but the final withdrawal completion rate, bridge-support experience, developer migration, and any spillover to other L2s remain uncertain. This is an individual L2 business-model failure, not an Ethereum protocol failure."
+    },
+    {
+      "id": "us-crypto-trust-charter-lawsuit-2026-10-02",
+      "catalyst": "regulation",
+      "direction": "headwind",
+      "value": "ICBA lawsuit challenges OCC national trust charters for crypto firms",
+      "summary": "The Independent Community Bankers of America sued the OCC in federal court, arguing that limited national trust bank charters granted to crypto firms exceed the regulator's authority and lack safeguards. The action targets a pathway used for custody, asset management, and settlement but does not itself revoke any charter or prohibit crypto custody.",
+      "sourceIds": [
+        "reuters-crypto-trust-charter-lawsuit-2026-10-02"
+      ],
+      "confirmed": true,
+      "uncertainty": "The lawsuit is newly filed; the court has not ruled, the OCC has not withdrawn its rule or guidance, and the implications for specific ETH custodians remain uncertain."
+    },
+    {
+      "id": "metamask-staking-incident-resolution-2026-10-03",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "Incident remediated / validator keys rotated / wallet and user funds unaffected",
+      "summary": "Consensys founder Joseph Lubin said the MetaMask-related infrastructure security incident had been addressed and remediated. He said MetaMask wallets, seed phrases, private keys, and user funds were not affected, and validator keys were rotated as a precaution; staking withdrawal keys remained separate and were not held by the service.",
+      "sourceIds": [
+        "joseph-lubin-metamask-incident-2026-10-03",
+        "techflow-metamask-resolution-2026-10-03",
+        "metamask-user-update-2026-09-30"
+      ],
+      "confirmed": true,
+      "uncertainty": "The remediation and fund-safety statements are attributable to Consensys leadership, but a full technical postmortem, root-cause disclosure, final validator count, and total foregone rewards have not been published."
     }
   ],
   "sources": {
@@ -3501,18 +3600,43 @@
       "label": "Reuters: Nasdaq hits record high after softer jobs data cuts rate-hike bets",
       "url": "https://www.reuters.com/business/wall-st-futures-gain-yields-oil-prices-ease-ahead-jobs-report-2026-10-02/",
       "accessedAt": "2026-10-02"
+    },
+    "blast-winddown-x-2026-10-02": {
+      "label": "Blast: Official network wind-down announcement",
+      "url": "https://x.com/blast/status/2106032805280891073",
+      "accessedAt": "2026-10-03"
+    },
+    "theblock-blast-winddown-2026-10-02": {
+      "label": "The Block: Blast Layer 2 to wind down as costs exceed revenue",
+      "url": "https://www.theblock.co/news/business/2026-10-02-blast-ethereum-layer-2-shutting-down-417583",
+      "accessedAt": "2026-10-03"
+    },
+    "reuters-crypto-trust-charter-lawsuit-2026-10-02": {
+      "label": "Reuters: Community banks sue OCC over crypto-firm trust charters",
+      "url": "https://www.reuters.com/world/community-banks-sue-us-regulator-over-crypto-firm-charters-2026-10-02/",
+      "accessedAt": "2026-10-03"
+    },
+    "joseph-lubin-metamask-incident-2026-10-03": {
+      "label": "Joseph Lubin: MetaMask infrastructure incident remediation statement",
+      "url": "https://x.com/ethereumJoseph/status/2106162207298072928",
+      "accessedAt": "2026-10-03"
+    },
+    "techflow-metamask-resolution-2026-10-03": {
+      "label": "TechFlow: Joseph Lubin says MetaMask infrastructure incident resolved",
+      "url": "https://www.techflowpost.com/en-US/newsletter/138696",
+      "accessedAt": "2026-10-03"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,695.88 and up about 0.8% over 24 hours, well below the 5% price trigger.",
-      "The SEC proposed a dedicated crypto-custody framework for registered advisers and regulated funds, including conditional self-custody and state-trust-company custody. This materially improves the potential compliant pathway for institutional ETH exposure, but it is not yet final law.",
-      "September U.S. payrolls rose only 29,000, unemployment increased to 4.2%, annual wage growth slowed to 3.0%, and prior months were revised down by 60,000. Markets reduced October Fed-hike odds to about 20%, providing near-term liquidity relief without establishing an easing or debasement regime.",
-      "October 2 U.S. spot ETH ETF reporting remained incomplete; the latest finalized session was October 1 at -$55.4M, with cumulative net inflows near $13.868B.",
-      "MetaMask published no new incident update on October 2. Its latest official position remained that no wallet or customer funds were indicated as affected, while the compromise vector and final validator scope were still undisclosed.",
-      "No Ethereum protocol failure, finalized adverse U.S. regulatory action, or other thesis-breaking event was confirmed."
+      "ETH traded near $2,675.20 and down about 2.1% over 24 hours, well below the 5% price trigger.",
+      "Blast, once an Ethereum L2 with more than $2B of pre-launch TVL, announced a network wind-down because operating costs exceed revenue and no credible sustainable path remains. Users were directed to withdraw to Ethereum mainnet by October 26.",
+      "The event is a material warning about individual L2 economics and incentive-driven TVL, but it is not an Ethereum protocol failure; Blast now holds only about $32M of TVL and bridged assets remain recoverable through Ethereum contracts.",
+      "MetaMask's infrastructure incident was reported remediated, with validator keys rotated and no MetaMask wallets, withdrawal keys, or user funds affected.",
+      "October 2 U.S. spot ETH ETFs recorded a $17.3M outflow, the fourth consecutive negative session, while cumulative net inflows remained approximately $13.851B.",
+      "No thesis-breaking Ethereum protocol, custody, or settlement failure was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,695.88 and about +0.8% over 24 hours; the SEC's October 1 proposal for a tailored adviser and regulated-fund crypto-custody framework, conditional self-custody, state-trust-company custodians, and a 60-day comment period after Federal Register publication; September payrolls at +29,000, unemployment at 4.2%, annual wage growth at 3.0%, and 60,000 of combined downward revisions to July and August; October Fed-hike odds near 20%; and October 1 ETF flows at -$55.4M, with October 2 reporting incomplete. Uncertain: the SEC proposal's final text, adoption date, asset coverage, litigation risk, and effect on ETH demand; whether the soft payroll print survives revisions or changes the December policy path; today's final ETF flows; and the MetaMask compromise method and final validator scope."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,675.20 and about -2.1% over 24 hours; Blast's announced wind-down because costs exceed revenue, the request for users to withdraw to Ethereum mainnet by October 26, and Blast TVL near $32M versus more than $2B before mainnet launch; MetaMask incident remediation, precautionary validator-key rotation, and the stated separation of staking withdrawal keys; October 2 ETF flows at -$17.3M and cumulative flows near +$13.851B. Uncertain: the final Blast withdrawal and developer-migration outcomes, whether other L2s face similar economics, a complete MetaMask technical postmortem and final reward loss, and whether the recent ETF outflow streak persists."
   }
 }
