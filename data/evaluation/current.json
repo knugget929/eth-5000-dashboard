@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-02T05:20:00Z",
+  "evaluatedAt": "2026-10-03T05:31:49.005Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -11,58 +11,58 @@
     "10000": {
       "probability": 30,
       "trend": "steady",
-      "weightedSignal": 42
+      "weightedSignal": 41
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.84
+        "score": 0.81
       },
       "10000": {
         "status": "yellow",
-        "score": 0.61
+        "score": 0.58
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0
+        "score": 0.05
       },
       "10000": {
         "status": "red",
-        "score": 0
+        "score": 0.04
       }
     },
     "regulation": {
       "5000": {
         "status": "yellow",
-        "score": 0.46
+        "score": 0.5
       },
       "10000": {
         "status": "yellow",
-        "score": 0.44
+        "score": 0.48
       }
     },
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.79
+        "score": 0.78
       },
       "10000": {
         "status": "yellow",
-        "score": 0.59
+        "score": 0.58
       }
     },
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.74
+        "score": 0.78
       },
       "10000": {
         "status": "yellow",
-        "score": 0.6
+        "score": 0.64
       }
     },
     "protocol": {
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.58
+        "score": 0.55
       },
       "10000": {
         "status": "red",
-        "score": 0.32
+        "score": 0.29
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.55
+        "score": 0.48
       },
       "10000": {
         "status": "red",
-        "score": 0.28
+        "score": 0.22
       }
     },
     "debasement": {
@@ -108,34 +108,34 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-flow-2026-10-02",
       "eth-etf-flow-2026-10-01",
-      "eth-etf-flow-2026-09-30",
       "citi-eth-forecast-2026-10-01",
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "us-jobs-fed-repricing-2026-10-02",
       "global-liquidity-2026-10-02",
       "global-liquidity-2026-10-01",
-      "us-pce-fed-repricing-2026-09-30",
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
+      "sec-crypto-custody-proposal-2026-10-01",
+      "us-crypto-trust-charter-lawsuit-2026-10-02",
       "sec-crypto-faq-liquid-staking-2026-09-25",
-      "us-stablecoin-regulation-2026-09-24",
-      "clarity-act-failed-2026-09-15",
-      "sec-tokenized-securities-exemption-2026-09-17"
+      "clarity-act-failed-2026-09-15"
     ],
     "tokenization": [
-      "ethereum-defi-2026-10-02",
+      "ethereum-defi-2026-10-03",
       "ark-securitize-venture-ethereum-2026-09-24",
       "ecb-pontes-2026-09-21",
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
+      "metamask-staking-incident-resolution-2026-10-03",
       "metamask-staking-security-incident-2026-09-30",
-      "network-staking-2026-10-02",
-      "sec-crypto-faq-liquid-staking-2026-09-25",
-      "blackrock-ethb-2026-09-15"
+      "network-staking-2026-10-03",
+      "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
       "vitalik-cryptographic-world-computer-2026-09-27",
@@ -144,15 +144,15 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
-      "eth-market-2026-10-02",
-      "bitget-eth-withdrawals-resumed-2026-09-30",
-      "eth-market-2026-09-30-evening"
+      "eth-market-2026-10-03",
+      "eth-market-2026-10-02-evening",
+      "bitget-eth-withdrawals-resumed-2026-09-30"
     ],
     "value-capture": [
-      "eth-value-capture-2026-10-02",
+      "blast-l2-wind-down-2026-10-02",
+      "eth-value-capture-2026-10-03",
       "ethereum-zkapi-2026-10-01",
-      "ecb-pontes-2026-09-21",
-      "circle-arc-mainnet-2026-09-16"
+      "ecb-pontes-2026-09-21"
     ],
     "debasement": [
       "fiscal-deficit-2026",
@@ -161,5 +161,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 2 research refresh. A third consecutive U.S. spot ETF outflow reduced institutional scores, and weaker weekly DEX activity plus negative bridge flow modestly reduced tokenization scores. ETH’s move near $2.73K, improved daily L1 economics, and the live zkAPI use case slightly strengthened market and value-capture scores, but zkAPI adoption and material ETH demand remain unproven. The weighted $5K signal remained 59; $10K moved from 43 to 42. No catalyst changed color, neither probability moved, and no thesis-breaking event was confirmed."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 3 research refresh. Blast’s announced L2 wind-down reduced value-capture scores because operating costs exceeded revenue and incentive-driven TVL proved transient; this is an individual L2 business-model failure, not an Ethereum protocol or settlement failure. A fourth ETF outflow session and ETH’s 2.1% decline weakened institutional and market scores. Softer U.S. payrolls, the SEC’s proposed custody framework, and remediation of the MetaMask staking incident provided partial offsets. The weighted $5K signal remained 59 and $10K remained 42. No catalyst changed color, neither probability moved, and no thesis-breaking event was confirmed."
 }
