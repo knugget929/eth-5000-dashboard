@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-03T05:31:49.005Z",
-  "accessDate": "2026-10-03",
+  "researchedAt": "2026-10-04T16:58:11Z",
+  "accessDate": "2026-10-04",
   "market": {
-    "ethUsd": 2675.2,
-    "change24h": -2.1,
-    "marketCapUsd": 326587000000,
-    "volume24hUsd": 16714000000,
+    "ethUsd": 2698.47,
+    "change24h": 0.6,
+    "marketCapUsd": 329322860930,
+    "volume24hUsd": 4805110851,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,675.20, down about 2.1% over 24 hours, with an approximately $326.59B market capitalization, $16.71B of 24-hour volume, and a $2,652.62-$2,768.44 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,698.47, up about 0.6% over 24 hours, with an approximately $329.32B market capitalization, $4.81B of 24-hour volume, and a $2,680.69-$2,706.35 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2828,13 +2828,74 @@
       ],
       "confirmed": true,
       "uncertainty": "The remediation and fund-safety statements are attributable to Consensys leadership, but a full technical postmortem, root-cause disclosure, final validator count, and total foregone rewards have not been published."
+    },
+    {
+      "id": "eth-market-2026-10-04",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,698.47 / about +0.6% CoinGecko 24h",
+      "summary": "ETH traded near $2.70K on Sunday. CoinGecko showed about +0.6% over 24 hours with a $2,680.69-$2,706.35 range, roughly $4.81B of 24-hour volume, and an approximately $329.32B market capitalization. The move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition and rolling 24-hour windows can produce different percentage changes."
+    },
+    {
+      "id": "network-staking-2026-10-04",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,908,736 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters reported about 43.91M ETH staked, equal to 35% of supply, with a current APR near 2.5%. Participation remained deep and increased from the prior research snapshot.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards."
+    },
+    {
+      "id": "ethereum-defi-2026-10-04",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$53.737B DeFi TVL / $146.127B stablecoins / -$168.08M 24h inflows",
+      "summary": "DefiLlama reported Ethereum DeFi TVL around $53.74B, stablecoin market capitalization near $146.13B, active RWA value around $13.97B, $491.8M of 24-hour DEX volume, 1.56M transactions, and $168.08M of net 24-hour bridge outflows. The ecosystem footprint remains large, while the negative bridge flow and roughly 10.9% weekly decline in DEX volume temper the near-term read.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL, bridge flows, activity, and fee metrics are volatile and provider methodology can change; ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-10-04",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$274,367 chain fees / $54,135 chain revenue over 24h",
+      "summary": "DefiLlama reported about $274K of Ethereum L1 chain fees and $54K of chain revenue over 24 hours, versus roughly $5.7M of application fees and $1.07M of application revenue. Ethereum's application and settlement footprint remains substantial, but most ecosystem economics still do not flow directly to ETH holders.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, and monetary demand beyond L1 fees."
+    },
+    {
+      "id": "glamsterdam-sepolia-schedule-2026-09-28",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Sepolia activation scheduled Oct. 6, 2026 at 13:53:36 UTC / Hoodi and mainnet TBD",
+      "summary": "The Ethereum Foundation scheduled Glamsterdam to activate on Sepolia at epoch 353,024 on October 6, 2026 at 13:53:36 UTC. The upgrade includes enshrined proposer-builder separation, block-level access lists, and gas-pricing changes; Hoodi and mainnet activation dates remain undecided.",
+      "sourceIds": [
+        "ethereum-glamsterdam-testnet-2026-09-28"
+      ],
+      "confirmed": true,
+      "uncertainty": "Sepolia scheduling is confirmed, but successful testnet activation is not guaranteed and no Hoodi or mainnet activation date has been set."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-04"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2849,7 +2910,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-04"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -2859,7 +2920,7 @@
     "ethereum-staking": {
       "label": "ethereum.org: Ethereum staking",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-04"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2888,8 +2949,8 @@
     },
     "defillama-ethereum": {
       "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
-      "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-10-02"
+      "url": "https://enterprise.defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-04"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -3625,6 +3686,11 @@
       "label": "TechFlow: Joseph Lubin says MetaMask infrastructure incident resolved",
       "url": "https://www.techflowpost.com/en-US/newsletter/138696",
       "accessedAt": "2026-10-03"
+    },
+    "ethereum-glamsterdam-testnet-2026-09-28": {
+      "label": "Ethereum Foundation: Glamsterdam Testnet Announcement",
+      "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement",
+      "accessedAt": "2026-10-04"
     }
   },
   "assessment": {
