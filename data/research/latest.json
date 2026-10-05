@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-03T05:31:49.005Z",
-  "accessDate": "2026-10-03",
+  "researchedAt": "2026-10-05T05:01:10.000Z",
+  "accessDate": "2026-10-05",
   "market": {
-    "ethUsd": 2675.2,
-    "change24h": -2.1,
-    "marketCapUsd": 326587000000,
-    "volume24hUsd": 16714000000,
+    "ethUsd": 2701.08,
+    "change24h": 0.3,
+    "marketCapUsd": 329894127448,
+    "volume24hUsd": 8005128972.32,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,675.20, down about 2.1% over 24 hours, with an approximately $326.59B market capitalization, $16.71B of 24-hour volume, and a $2,652.62-$2,768.44 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,701.08, up about 0.3% over 24 hours, with an approximately $329.89B market capitalization, $8.01B of 24-hour volume, and a $2,690.98-$2,736.97 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2828,13 +2828,85 @@
       ],
       "confirmed": true,
       "uncertainty": "The remediation and fund-safety statements are attributable to Consensys leadership, but a full technical postmortem, root-cause disclosure, final validator count, and total foregone rewards have not been published."
+    },
+    {
+      "id": "eth-market-2026-10-05",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,701.08 / about +0.3% CoinGecko 24h",
+      "summary": "ETH traded near $2.70K. CoinGecko showed about +0.3% over 24 hours, a $2,690.98-$2,736.97 range, about $8.01B of 24-hour volume, and an approximately $329.89B market capitalization. The move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows can produce different percentage changes."
+    },
+    {
+      "id": "network-staking-2026-10-05",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "43,908,736 ETH / 35% staked / 2.5% APR",
+      "summary": "Ethereum.org's live counters reported 43.909M ETH staked, equal to 35% of supply, with current APR near 2.5%. Participation increased from the October 3 snapshot and remains a strong network-security and supply-lockup signal despite yields below long-duration U.S. Treasuries.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counters change as validators enter, exit, consolidate, and earn rewards; displayed APR is variable and excludes operator costs, liquidity risk, and provider-specific fees."
+    },
+    {
+      "id": "ethereum-defi-2026-10-05",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$54.341B DeFi TVL / $146.314B stablecoins / +$30.17M 24h inflows",
+      "summary": "DefiLlama reported $54.341B of Ethereum DeFi TVL, $146.314B of stablecoins, $13.97B of active RWA AUM, $536.9M of 24-hour DEX volume, 1.53M transactions, and $30.17M of net 24-hour inflows. TVL and bridge flow improved from the prior snapshot, while seven-day DEX volume remained down 9.24%.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and volatile; provider methodologies differ and composable assets can be double-counted."
+    },
+    {
+      "id": "eth-value-capture-2026-10-05",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$385,906 chain fees / $67,516 chain revenue over 24h",
+      "summary": "DefiLlama reported $385,906 of Ethereum L1 chain fees and $67,516 of chain revenue over 24 hours, compared with $5.81M of application fees and $1.21M of application revenue. Ethereum's application economy remains much larger than direct L1 revenue, leaving the central ETH value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue data is volatile; ETH value capture also includes staking, collateral, settlement, blobs, burn, and monetary demand beyond direct L1 fees."
+    },
+    {
+      "id": "glamsterdam-sepolia-2026-10-06-scheduled",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Sepolia activation scheduled Oct. 6, 2026 at 13:53:36 UTC",
+      "summary": "The Ethereum Foundation scheduled Glamsterdam to activate on Sepolia at epoch 353,024, slot 11,296,768 on October 6 at 13:53:36 UTC. The upgrade advances enshrined proposer-builder separation, block-level access lists, and gas-pricing changes intended to support greater L1 throughput.",
+      "sourceIds": [
+        "ethereum-glamsterdam-testnet-2026-09-28"
+      ],
+      "confirmed": true,
+      "uncertainty": "The Sepolia schedule is confirmed, but successful activation is not yet observed. Hoodi and mainnet activation dates remain undecided, and application compatibility issues from gas repricing still require testing."
+    },
+    {
+      "id": "global-liquidity-2026-10-05",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "October Fed-hike odds below 20% / Brent about $101.52 / long yields still elevated",
+      "summary": "Reuters reported that softer September U.S. payrolls pushed implied odds of an October Fed hike below 20%, offering tactical liquidity relief. At the same time, long-duration sovereign yields remained elevated and Brent traded near $101.52, so the cost-of-capital backdrop for ETH remains restrictive despite lower immediate tightening odds.",
+      "sourceIds": [
+        "reuters-global-markets-2026-10-05"
+      ],
+      "confirmed": true,
+      "uncertainty": "Market-implied Fed probabilities, Treasury yields, oil, and the dollar move continuously. A lower October-hike probability does not establish an easing cycle, QE, or a structural debasement turn."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2849,7 +2921,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -2859,7 +2931,7 @@
     "ethereum-staking": {
       "label": "ethereum.org: Ethereum staking",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2889,7 +2961,7 @@
     "defillama-ethereum": {
       "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -3625,18 +3697,28 @@
       "label": "TechFlow: Joseph Lubin says MetaMask infrastructure incident resolved",
       "url": "https://www.techflowpost.com/en-US/newsletter/138696",
       "accessedAt": "2026-10-03"
+    },
+    "ethereum-glamsterdam-testnet-2026-09-28": {
+      "label": "Ethereum Foundation: Glamsterdam Testnet Announcement",
+      "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement",
+      "accessedAt": "2026-10-05"
+    },
+    "reuters-global-markets-2026-10-05": {
+      "label": "Reuters: Stocks upbeat, dollar rises at euro's expense",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
+      "accessedAt": "2026-10-05"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "ETH traded near $2,675.20 and down about 2.1% over 24 hours, well below the 5% price trigger.",
-      "Blast, once an Ethereum L2 with more than $2B of pre-launch TVL, announced a network wind-down because operating costs exceed revenue and no credible sustainable path remains. Users were directed to withdraw to Ethereum mainnet by October 26.",
-      "The event is a material warning about individual L2 economics and incentive-driven TVL, but it is not an Ethereum protocol failure; Blast now holds only about $32M of TVL and bridged assets remain recoverable through Ethereum contracts.",
-      "MetaMask's infrastructure incident was reported remediated, with validator keys rotated and no MetaMask wallets, withdrawal keys, or user funds affected.",
-      "October 2 U.S. spot ETH ETFs recorded a $17.3M outflow, the fourth consecutive negative session, while cumulative net inflows remained approximately $13.851B.",
-      "No thesis-breaking Ethereum protocol, custody, or settlement failure was confirmed."
+      "ETH traded near $2,701.08 and up about 0.3% over 24 hours, well below the 5% price trigger.",
+      "Glamsterdam is scheduled to activate on Sepolia on October 6 at 13:53:36 UTC; this is supportive protocol-execution evidence but not yet a successful testnet activation or a mainnet date.",
+      "Ethereum staking rose to about 43.91M ETH, while DeFi TVL was about $54.34B and 24-hour bridge inflows were positive.",
+      "Direct L1 chain revenue remained modest relative to application-layer fees and revenue, leaving ETH value capture unresolved.",
+      "The latest completed Farside session remains October 2's $17.3M ETF outflow; no newer completed U.S. trading session was available at this snapshot.",
+      "No major thesis-breaking Ethereum protocol, custody, settlement, or regulatory event was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,675.20 and about -2.1% over 24 hours; Blast's announced wind-down because costs exceed revenue, the request for users to withdraw to Ethereum mainnet by October 26, and Blast TVL near $32M versus more than $2B before mainnet launch; MetaMask incident remediation, precautionary validator-key rotation, and the stated separation of staking withdrawal keys; October 2 ETF flows at -$17.3M and cumulative flows near +$13.851B. Uncertain: the final Blast withdrawal and developer-migration outcomes, whether other L2s face similar economics, a complete MetaMask technical postmortem and final reward loss, and whether the recent ETF outflow streak persists."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,701.08 and about +0.3% over 24 hours; 43.909M ETH staked at a displayed 2.5% APR; Ethereum DeFi TVL near $54.341B with $30.17M of 24-hour inflows; Glamsterdam's Sepolia activation scheduled for October 6 at 13:53:36 UTC; the latest completed Farside ETF session remains October 2 at -$17.3M. Uncertain: whether Sepolia activates cleanly, Hoodi and mainnet timing, whether recent ETF outflows persist when U.S. markets reopen, and whether stronger ecosystem activity translates into materially better ETH value capture."
   }
 }
