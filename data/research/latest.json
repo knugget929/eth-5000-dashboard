@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-03T05:31:49.005Z",
-  "accessDate": "2026-10-03",
+  "researchedAt": "2026-10-05T16:57:48.000Z",
+  "accessDate": "2026-10-05",
   "market": {
-    "ethUsd": 2675.2,
-    "change24h": -2.1,
-    "marketCapUsd": 326587000000,
-    "volume24hUsd": 16714000000,
+    "ethUsd": 2700.94,
+    "change24h": 0.1,
+    "marketCapUsd": 329656108367,
+    "volume24hUsd": 10972969067,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,675.20, down about 2.1% over 24 hours, with an approximately $326.59B market capitalization, $16.71B of 24-hour volume, and a $2,652.62-$2,768.44 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,700.94, up about 0.1% over 24 hours, with an approximately $329.66B market capitalization, $10.97B of 24-hour volume, and a $2,694.91-$2,736.97 24-hour range. The rolling move remained well below the 5% notification threshold."
   },
   "observations": [
     {
@@ -2746,13 +2746,13 @@
       "id": "eth-etf-flow-2026-10-02",
       "catalyst": "institutional",
       "direction": "headwind",
-      "value": "-$17.3M latest day / +$13.851B cumulative",
-      "summary": "Farside finalized October 2 U.S. spot ETH ETF flows at a $17.3M net outflow, entirely from Fidelity FETH. This was the fourth consecutive negative session and brought the September 29-October 2 withdrawal streak to $135.1M, while cumulative net inflows remained strongly positive at approximately $13.851B.",
+      "value": "-$37.4M latest finalized day / +$13.831B cumulative",
+      "summary": "Farside finalized October 2 U.S. spot ETH ETF flows at a $37.4M net outflow: $20.1M from BlackRock ETHA and $17.3M from Fidelity FETH. This was the fourth consecutive negative session and brought the September 29-October 2 withdrawal streak to $155.2M, while cumulative net inflows remained strongly positive at approximately $13.831B.",
       "sourceIds": [
         "farside-eth-etf"
       ],
       "confirmed": true,
-      "uncertainty": "Farside updates automatically and figures can be revised. A four-session outflow streak is a near-term demand headwind but does not establish a structural reversal."
+      "uncertainty": "Farside updates automatically and figures can be revised. October 5 data were still unfinalized at the time of this check, and a four-session outflow streak does not establish a structural reversal."
     },
     {
       "id": "network-staking-2026-10-03",
@@ -2828,13 +2828,100 @@
       ],
       "confirmed": true,
       "uncertainty": "The remediation and fund-safety statements are attributable to Consensys leadership, but a full technical postmortem, root-cause disclosure, final validator count, and total foregone rewards have not been published."
+    },
+    {
+      "id": "eth-market-2026-10-05",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,700.94 / about +0.1% CoinGecko 24h",
+      "summary": "ETH traded near $2.70K. CoinGecko showed about +0.1% over 24 hours with a $2,694.91-$2,736.97 range. The move remained well below the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows produce different percentage changes."
+    },
+    {
+      "id": "cftc-crypto-market-framework-2026-10-05",
+      "catalyst": "regulation",
+      "direction": "supportive",
+      "value": "CFTC ANPRM for a uniform federal framework covering retail crypto commodity transactions",
+      "summary": "The CFTC published an Advanced Notice of Proposed Rulemaking seeking comment on a comprehensive federal framework for retail commodity transactions involving crypto assets under section 2(c)(2)(D) of the Commodity Exchange Act. Reuters reported the proposal would create a pathway for qualifying crypto platforms to operate under a uniform federal regime with market-integrity and customer-protection requirements. This is constructive for U.S. regulatory clarity after Congress failed to pass comprehensive market-structure legislation, but it is not a final rule.",
+      "sourceIds": [
+        "cftc-crypto-markets-anprm-2026-10-05",
+        "reuters-cftc-crypto-rules-2026-10-05"
+      ],
+      "confirmed": true,
+      "uncertainty": "The CFTC has opened a rulemaking process, not adopted final rules. The final scope, timing, legal durability, exchange participation, and direct effect on ETH market access remain uncertain."
+    },
+    {
+      "id": "bitmine-eth-holdings-2026-10-04",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "6,016,414 ETH / 4.9% of supply / +15,112 ETH week / 99% toward 5% target",
+      "summary": "BitMine reported 6.016M ETH held as of October 4, up 15,112 ETH over the week. The company said the position equals 4.9% of Ethereum's roughly 122.1M supply and puts it about 99% of the way to its stated 5%-of-supply accumulation target, extending an unusually concentrated corporate treasury demand trend.",
+      "sourceIds": [
+        "bitmine-company-announcement-2026-10-05",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "The figures are company-reported and consistent with CoinGecko's treasury table. Continued accumulation depends on financing and strategy, while concentration increases reversal risk if the treasury policy changes."
+    },
+    {
+      "id": "bitmine-staked-eth-2026-10-04",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "5,067,309 ETH staked / about 84% of holdings / 2.63% reported 7-day annualized yield",
+      "summary": "BitMine reported 5.067M ETH staked, about 84% of its 6.016M ETH treasury, with a 2.63% seven-day annualized staking yield. The staked balance was unchanged from recent disclosures while the treasury grew.",
+      "sourceIds": [
+        "bitmine-company-announcement-2026-10-05"
+      ],
+      "confirmed": true,
+      "uncertainty": "The staked balance is company-reported. The yield is a short-window annualized figure and can change with network participation, validator performance, and fee conditions."
+    },
+    {
+      "id": "glamsterdam-sepolia-2026-10-05",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Sepolia activation scheduled Oct. 6, 2026 at 13:53:36 UTC",
+      "summary": "The Ethereum Foundation scheduled Glamsterdam to activate on Sepolia at epoch 353,024 and slot 11,296,768 on October 6 at 13:53:36 UTC. The upgrade combines the Amsterdam execution-layer changes with the Gloas consensus-layer changes, including enshrined proposer-builder separation and block-level access lists. Hoodi and mainnet activation dates remain undecided.",
+      "sourceIds": [
+        "ethereum-glamsterdam-sepolia-2026-09-28"
+      ],
+      "confirmed": true,
+      "uncertainty": "The Sepolia schedule is confirmed, but successful testnet activation and stability must precede later deployments. Hoodi and mainnet timing remain TBD."
+    },
+    {
+      "id": "ethereum-defi-2026-10-05",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$54.336B DeFi TVL / $146.305B stablecoins / +$32.65M 24h inflows",
+      "summary": "DefiLlama reported $54.336B of Ethereum DeFi TVL, $146.305B of stablecoin market capitalization, $13.976B of active RWA AUM, $790.12M of 24-hour DEX volume, 1.53M transactions, and $32.65M of net 24-hour bridge inflows. TVL and daily flows improved from the October 3 snapshot, while seven-day DEX volume remained down 9.24%.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL, bridge flows, and activity metrics are volatile and methodology-dependent; ecosystem growth is not automatic ETH value capture."
+    },
+    {
+      "id": "eth-value-capture-2026-10-05",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$376,129 chain fees / $70,001 chain revenue / $5.88M app fees over 24h",
+      "summary": "DefiLlama reported $376,129 of Ethereum L1 chain fees and $70,001 of chain revenue over 24 hours, versus $5.88M of application fees and $1.22M of application revenue. The ecosystem footprint remained substantial, but direct L1 economics were still much smaller than application-layer economics, leaving the central ETH value-capture hurdle unresolved.",
+      "sourceIds": [
+        "defillama-ethereum",
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, scarcity, and monetary demand beyond direct L1 revenue."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2849,7 +2936,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -2859,7 +2946,7 @@
     "ethereum-staking": {
       "label": "ethereum.org: Ethereum staking",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -2889,7 +2976,7 @@
     "defillama-ethereum": {
       "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-10-02"
+      "accessedAt": "2026-10-05"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -3625,6 +3712,26 @@
       "label": "TechFlow: Joseph Lubin says MetaMask infrastructure incident resolved",
       "url": "https://www.techflowpost.com/en-US/newsletter/138696",
       "accessedAt": "2026-10-03"
+    },
+    "cftc-crypto-markets-anprm-2026-10-05": {
+      "label": "CFTC: Advanced Notice of Proposed Rulemaking on Crypto Asset Transactions and Crypto Asset Markets",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9307-26",
+      "accessedAt": "2026-10-05"
+    },
+    "reuters-cftc-crypto-rules-2026-10-05": {
+      "label": "Reuters: U.S. commodities regulator proposes new federal crypto oversight rules",
+      "url": "https://www.reuters.com/world/us-commodities-regulator-proposes-new-federal-crypto-oversight-rules-2026-10-05/",
+      "accessedAt": "2026-10-05"
+    },
+    "ethereum-glamsterdam-sepolia-2026-09-28": {
+      "label": "Ethereum Foundation: Glamsterdam Testnet Announcement",
+      "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement",
+      "accessedAt": "2026-10-05"
+    },
+    "bitmine-company-announcement-2026-10-05": {
+      "label": "BitMine: October 5 ETH treasury holdings announcement",
+      "url": "https://markets.ft.com/data/announce/detail?dockey=600-202610050830PR_NEWS_USPRX____NY63400-1",
+      "accessedAt": "2026-10-05"
     }
   },
   "assessment": {
