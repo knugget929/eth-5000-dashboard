@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "updatedAt": "2026-09-26",
   "market": {
-    "price": 2675.2,
-    "change24h": -2.1,
-    "capturedAt": "2026-10-03T05:31:49.005Z",
+    "price": 2700.94,
+    "change24h": 0.1,
+    "capturedAt": "2026-10-05T16:57:48.000Z",
     "source": "CoinGecko snapshot"
   },
   "targets": {
@@ -20,7 +20,7 @@
       "trend": {
         "direction": "steady",
         "delta": 0,
-        "label": "L2 economics and ETF outflows offset policy relief"
+        "label": "Policy and treasury demand offset ETF outflows and weak capture"
       },
       "methodology": "Weighted catalysts with a moderate hurdle. Institutional demand, execution, staking, and tokenization can support $5K even without full QE, but macro and market confirmation still matter.",
       "probabilityHistory": [
@@ -92,7 +92,7 @@
       ],
       "path": [
         {
-          "label": "$2.68K",
+          "label": "$2.70K",
           "note": "Current zone",
           "active": true
         },
@@ -125,7 +125,7 @@
       "trend": {
         "direction": "steady",
         "delta": 0,
-        "label": "Blast reinforces the value-capture constraint"
+        "label": "Adoption improves; the value-capture hurdle remains"
       },
       "methodology": "A much higher hurdle than $5K. Institutional ownership must become durable, regulation must normalize on-chain finance, macro must stop fighting risk assets, and Ethereum activity must translate into clear ETH demand and value capture.",
       "probabilityHistory": [
@@ -197,7 +197,7 @@
       ],
       "path": [
         {
-          "label": "$2.68K",
+          "label": "$2.70K",
           "note": "Current zone",
           "active": true
         },
@@ -227,33 +227,33 @@
       "shortTitle": "Funds",
       "sources": [
         {
-          "label": "Farside ETF flows",
+          "label": "Farside Investors: U.S. Ethereum ETF flows",
           "url": "https://farside.co.uk/eth/"
         },
         {
-          "label": "BitMine SEC exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226040741/ex99-1.htm"
+          "label": "BitMine: October 5 ETH treasury holdings announcement",
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202610050830PR_NEWS_USPRX____NY63400-1"
         }
       ],
       "targets": {
         "5000": {
           "status": "green",
-          "score": 0.81,
+          "score": 0.82,
           "weight": 18,
-          "short": "Four ETF outflow sessions weaken the near-term bid, while cumulative demand remains strong.",
+          "short": "BitMine accumulation offsets a four-session ETF outflow streak.",
           "summary": "Traditional capital is repeatedly allocating to ETH through regulated products.",
-          "evidence": "U.S. spot ETH ETFs lost $17.3M on October 2, extending the September 29–October 2 outflow streak to $135.1M. Cumulative net inflows remained about $13.851B, so the recent weakness is a near-term headwind rather than a structural reversal.",
+          "evidence": "BitMine reported 6.016M ETH, up 15,112 ETH for the week and about 99% of the way to its 5%-of-supply target. U.S. spot ETH ETFs lost $155.2M across September 29–October 2, while cumulative inflows remained about $13.831B.",
           "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
           "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
           "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
         },
         "10000": {
           "status": "yellow",
-          "score": 0.58,
+          "score": 0.59,
           "weight": 16,
-          "short": "The ETF outflow streak reinforces that a multi-cycle allocation regime remains unproven.",
+          "short": "Treasury demand is strong, but broad multi-cycle allocation remains unproven.",
           "summary": "The current institutional bid is encouraging, but a $1T+ valuation likely needs ETH to become a standard portfolio asset.",
-          "evidence": "Cumulative ETF inflows near $13.851B and large treasury holdings remain constructive, but four consecutive outflow sessions show softer marginal demand. The $10K case still needs allocations to persist across years and broaden materially.",
+          "evidence": "BitMine’s 6.016M ETH treasury shows unusually concentrated corporate demand, while four finalized ETF-outflow sessions show softer marginal fund demand. The $10K case still needs ownership to broaden and persist across years.",
           "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
           "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
           "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
@@ -311,45 +311,37 @@
       "shortTitle": "Rules",
       "sources": [
         {
-          "label": "SEC crypto-asset custody proposal",
+          "label": "CFTC: Advanced Notice of Proposed Rulemaking on Crypto Asset Transactions and Crypto Asset Markets",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9307-26"
+        },
+        {
+          "label": "SEC: Proposed crypto-asset custody framework for investment advisers and regulated funds",
           "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
         },
         {
-          "label": "SEC CorpFin: crypto asset FAQs (Sept. 25, 2026)",
+          "label": "SEC Division of Corporation Finance: Crypto asset FAQs",
           "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/faqs-crypto-assets"
-        },
-        {
-          "label": "U.S. Senate roll call vote 234",
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm"
-        },
-        {
-          "label": "Reuters: Senate fails to advance sweeping cryptocurrency bill",
-          "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/"
-        },
-        {
-          "label": "SEC Regulation Crypto Assets proposal",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-proposes-regulation-crypto-assets"
         }
       ],
       "targets": {
         "5000": {
           "status": "yellow",
-          "score": 0.5,
+          "score": 0.52,
           "weight": 12,
-          "short": "A proposed custody framework helps, but durable U.S. rules remain incomplete.",
+          "short": "CFTC and SEC rulemaking are constructive, but neither framework is final.",
           "summary": "U.S. crypto policy is more workable for qualifying staking structures and functional networks, while comprehensive statutory clarity remains unresolved.",
-          "evidence": "The SEC proposed a tailored crypto-custody framework for advisers and regulated funds, including specified self-custody and state-trust-company pathways. It remains proposed rulemaking, while an ICBA lawsuit challenges OCC trust-charter pathways and broader market-structure legislation remains stalled.",
+          "evidence": "The CFTC opened an ANPRM for a uniform federal framework covering retail crypto commodity transactions, while the SEC proposed tailored adviser and fund custody rules. Both improve the policy direction, but they remain proposals and the OCC trust-charter lawsuit adds legal uncertainty.",
           "why": "Clearer treatment of staking and functional-network development lowers legal friction for Ethereum participation, while durable legislation still matters for broader institutional activity.",
           "greenTrigger": "CLARITY or equivalent legislation advances, and final rules make custody, staking, tokenization, and on-chain finance durably workable.",
           "redTrigger": "Agency guidance reverses, staking treatment becomes materially more restrictive, or broader legislation remains blocked while enforcement uncertainty rises."
         },
         "10000": {
           "status": "yellow",
-          "score": 0.48,
+          "score": 0.5,
           "weight": 10,
-          "short": "Custody access may improve, but the framework is proposed and litigation risk remains.",
+          "short": "Agency progress helps, but durable market-structure law is still missing.",
           "summary": "The $10K case gained useful staking clarity, while still needing comprehensive rules institutions can rely on across cycles.",
-          "evidence": "The SEC proposal could reduce institutional custody friction, but it is not final or legally effective. The OCC trust-charter lawsuit and stalled comprehensive legislation leave the durable, cross-cycle regulatory framework required for $10K incomplete.",
+          "evidence": "The CFTC ANPRM and SEC custody proposal could improve regulated access, yet neither is final and Congress has not enacted comprehensive market structure. The $10K case still needs durable rules for custody, staking, tokenization, and on-chain finance.",
           "why": "A $1T+ valuation becomes easier if staking, custody, tokenization, and DeFi are normal regulated activities and ETH can be held as productive institutional collateral.",
           "greenTrigger": "Durable market-structure law plus workable final rules for custody, staking, tokenization, and on-chain finance.",
           "redTrigger": "Policy reversals, fragmented jurisdiction, or restrictions that push major activity offshore."
@@ -363,33 +355,33 @@
       "shortTitle": "RWA",
       "sources": [
         {
-          "label": "RWA.xyz Ethereum",
-          "url": "https://app.rwa.xyz/networks/ethereum"
+          "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
+          "url": "https://defillama.com/chain/ethereum"
         },
         {
-          "label": "DefiLlama Ethereum",
-          "url": "https://defillama.com/chain/ethereum"
+          "label": "RWA.xyz Ethereum dashboard",
+          "url": "https://app.rwa.xyz/networks/ethereum"
         }
       ],
       "targets": {
         "5000": {
           "status": "green",
-          "score": 0.78,
+          "score": 0.79,
           "weight": 11,
-          "short": "Ethereum's footprint remains large despite softer weekly activity and bridge outflows.",
+          "short": "TVL and bridge flows improved while weekly trading remained soft.",
           "summary": "Stablecoins, tokenized assets, and DeFi remain one of Ethereum’s strongest structural adoption stories.",
-          "evidence": "Ethereum DeFi TVL was about $53.42B, stablecoins about $145.97B, active RWA value about $13.91B, and 24-hour DEX volume about $1.30B. Net bridge outflows near $71M and a 9.66% weekly decline in DEX volume tempered the structural footprint.",
+          "evidence": "Ethereum DeFi TVL rose to about $54.34B, stablecoins to $146.31B, active RWA AUM to $13.98B, and 24-hour bridge flows turned positive by $32.65M. Seven-day DEX volume was still down 9.24%.",
           "why": "More financial activity on Ethereum and its L2s strengthens the network’s importance as settlement infrastructure.",
           "greenTrigger": "Large issuers launch meaningful tokenized funds, equities, credit, or payments on Ethereum rails.",
           "redTrigger": "Activity migrates elsewhere without meaningful Ethereum settlement or ETH demand."
         },
         "10000": {
           "status": "yellow",
-          "score": 0.58,
+          "score": 0.59,
           "weight": 11,
-          "short": "Tokenization is advancing; ecosystem scale still does not guarantee ETH capture.",
+          "short": "Ecosystem scale improved; direct ETH capture remains the stretch hurdle.",
           "summary": "For $10K, Ethereum likely needs to become a dominant settlement layer for real financial assets at meaningful scale.",
-          "evidence": "Ethereum retains about $53.42B of DeFi TVL, $145.97B of stablecoins, and $13.91B of active RWA value. Negative bridge flow and softer weekly trading reinforce that ecosystem growth alone is insufficient for a $1.2T ETH valuation.",
+          "evidence": "Ethereum’s $54.34B DeFi TVL, $146.31B stablecoin base, and $13.98B of active RWA AUM remain structurally important. The $10K case still requires that scale to create recurring ETH-denominated settlement, collateral, staking, and monetary demand.",
           "why": "Tokenization supports a much larger valuation only if activity creates recurring ETH demand through settlement, collateral, staking, fees, or monetary premium.",
           "greenTrigger": "Trillions in tokenized assets and stablecoins settle on Ethereum rails with clear ETH-denominated economic demand.",
           "redTrigger": "L2 and app growth explodes while ETH fee burn, collateral demand, and settlement value remain weak."
@@ -403,37 +395,37 @@
       "shortTitle": "Stake",
       "sources": [
         {
-          "label": "MetaMask incident update",
-          "url": "https://metamask.io/news/user-update"
-        },
-        {
-          "label": "Ethereum staking",
+          "label": "ethereum.org: Ethereum staking",
           "url": "https://ethereum.org/staking/"
         },
         {
-          "label": "BitMine SEC exhibit",
-          "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226040741/ex99-1.htm"
+          "label": "BitMine: October 5 ETH treasury holdings announcement",
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202610050830PR_NEWS_USPRX____NY63400-1"
+        },
+        {
+          "label": "MetaMask: User update on infrastructure security incident and validator exits",
+          "url": "https://metamask.io/news/user-update"
         }
       ],
       "targets": {
         "5000": {
           "status": "green",
-          "score": 0.78,
+          "score": 0.79,
           "weight": 8,
-          "short": "Participation remains deep and the MetaMask incident was remediated.",
+          "short": "Deep participation and BitMine staking reinforce productive-capital demand.",
           "summary": "Staking strengthens the case for ETH as productive digital capital.",
-          "evidence": "Ethereum.org reported about 43.83M ETH staked, equal to 35% of supply, near a 2.5% APR. Consensys said the MetaMask incident was remediated, validator keys were rotated, and wallets, withdrawal keys, and user funds were unaffected; a full technical postmortem remains outstanding.",
+          "evidence": "Ethereum had about 43.83M ETH staked, equal to 35% of supply. BitMine reported 5.067M ETH staked, about 84% of its treasury, at a 2.63% seven-day annualized yield; long-duration Treasury yields still offer strong competition.",
           "why": "Staking adds a native yield component and locks ETH into network security, reducing immediately liquid supply.",
           "greenTrigger": "Staking-enabled products gain share and regulatory treatment becomes clearer.",
           "redTrigger": "Risk-free yields stay far above staking yields or staking regulation deteriorates."
         },
         "10000": {
           "status": "yellow",
-          "score": 0.64,
+          "score": 0.65,
           "weight": 7,
-          "short": "Incident remediation helps, while institutional durability and yield competition remain unresolved.",
+          "short": "Institutional staking is growing, but yield competition remains severe.",
           "summary": "The stretch thesis benefits if ETH is widely understood as productive collateral with native yield.",
-          "evidence": "Approximately 43.83M ETH is staked and the MetaMask incident was reported remediated without user-fund or withdrawal-key impact. The stretch case still needs durable operator resilience, institutional treatment, and staking economics that compete with long-duration yields.",
+          "evidence": "BitMine’s 5.067M staked ETH is meaningful evidence of institutional productive-capital demand. The stretch case still needs broader adoption, durable operator resilience, and staking economics that remain attractive against high sovereign yields.",
           "why": "Large-scale staking can reduce liquid float, deepen ETH’s monetary role, and make ownership economically distinct from non-yielding assets.",
           "greenTrigger": "Institutional staking becomes standard, participation grows safely, and ETH is widely used as collateral.",
           "redTrigger": "Staking centralizes excessively, yields compress without offsetting demand, or regulation limits access."
@@ -447,8 +439,12 @@
       "shortTitle": "Build",
       "sources": [
         {
-          "label": "Ethereum Platåberget testnet",
-          "url": "https://blog.ethereum.org/2026/08/17/plataberget-testnet"
+          "label": "Ethereum Foundation: Glamsterdam Testnet Announcement",
+          "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement"
+        },
+        {
+          "label": "Vitalik Buterin: The cryptographic world computer",
+          "url": "https://vitalik.eth.limo/general/2026/09/27/the_cryptographic_world_computer.html"
         }
       ],
       "targets": {
@@ -456,9 +452,9 @@
           "status": "green",
           "score": 0.82,
           "weight": 8,
-          "short": "Multi-party block construction reached production mainnet.",
+          "short": "Glamsterdam is scheduled for Sepolia; mainnet timing remains open.",
           "summary": "Upcoming upgrades aim to improve throughput, wallet UX, and protocol efficiency.",
-          "evidence": "Production multi-party block construction remains a meaningful resilience milestone. Vitalik Buterin's September 27 architecture note also outlines a post-Hegotá path centered on recursive STARKs, formal verification, optimized consensus, and quantum safety, but it is roadmap direction rather than a shipped upgrade or finalized fork scope.",
+          "evidence": "The Ethereum Foundation scheduled Glamsterdam for Sepolia on October 6, combining Amsterdam execution changes with Gloas consensus changes such as enshrined proposer-builder separation and block-level access lists. Hoodi and mainnet dates remain undecided.",
           "why": "Successful upgrades make the network more useful and credible as long-term financial infrastructure.",
           "greenTrigger": "Major testnets and mainnet upgrades ship cleanly with measurable capacity gains.",
           "redTrigger": "Serious upgrade delays, instability, or persistent failure to improve value capture."
@@ -467,9 +463,9 @@
           "status": "yellow",
           "score": 0.66,
           "weight": 7,
-          "short": "Execution credibility improved; economic capture remains separate.",
+          "short": "The roadmap is advancing, but testnet success and economic capture still must follow.",
           "summary": "A $10K thesis assumes Ethereum can serve vastly more economic activity while preserving credible neutrality and security.",
-          "evidence": "Production multi-party block construction supports execution credibility, and the post-Hegotá architecture note reinforces Ethereum's long-horizon technical direction. The stretch thesis still requires those plans to ship reliably and translate into durable settlement demand and ETH economics.",
+          "evidence": "Glamsterdam’s scheduled Sepolia activation advances L1 scaling and block-production architecture. The stretch thesis still requires stable testnet performance, a clean mainnet release, and measurable settlement demand that accrues to ETH.",
           "why": "Technical success must include both throughput and a convincing economic relationship between L2 growth and ETH demand.",
           "greenTrigger": "Roadmap milestones ship reliably, UX improves, and L2 settlement creates durable L1 and ETH economics.",
           "redTrigger": "Scaling fragments liquidity, value accrues elsewhere, or complexity causes repeated instability."
@@ -483,29 +479,33 @@
       "shortTitle": "Price",
       "sources": [
         {
-          "label": "CoinGecko ETH",
+          "label": "CoinGecko Ethereum market data",
           "url": "https://www.coingecko.com/en/coins/ethereum"
+        },
+        {
+          "label": "Farside Investors: U.S. Ethereum ETF flows",
+          "url": "https://farside.co.uk/eth/"
         }
       ],
       "targets": {
         "5000": {
           "status": "yellow",
-          "score": 0.55,
+          "score": 0.56,
           "weight": 7,
-          "short": "ETH fell back near $2.68K and remains below momentum-confirmation levels.",
+          "short": "ETH is near $2.70K and remains below momentum-confirmation levels.",
           "summary": "ETH still needs to reclaim higher levels before $5K becomes a near-term market target.",
-          "evidence": "ETH traded near $2.68K, down about 2.1% over 24 hours with roughly $16.71B of volume. The move stayed below the 5% alert threshold and below the $3K and $3.5K levels used to confirm the $5K path.",
+          "evidence": "ETH traded near $2,700.94, up about 0.1% over 24 hours with roughly $10.97B of volume. The move stayed below the 5% alert threshold and below the $3K and $3.5K levels used to confirm the $5K path.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
         },
         "10000": {
           "status": "red",
-          "score": 0.29,
+          "score": 0.3,
           "weight": 6,
-          "short": "The pullback remains far from stretch-target confirmation.",
+          "short": "Price remains far from stretch-target confirmation.",
           "summary": "The market has not demonstrated willingness to value ETH near the stretch target.",
-          "evidence": "ETH near $2.68K and a 2.1% daily decline provide no stretch-target confirmation. The market still has not demonstrated a sustained move above $5K or price discovery.",
+          "evidence": "ETH near $2.70K and a flat daily move provide no stretch-target confirmation. The market still has not demonstrated a sustained move above $5K or durable price discovery.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
@@ -519,37 +519,33 @@
       "shortTitle": "Capture",
       "sources": [
         {
-          "label": "Blast wind-down announcement",
+          "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
+          "url": "https://defillama.com/chain/ethereum"
+        },
+        {
+          "label": "Blast: Official network wind-down announcement",
           "url": "https://x.com/blast/status/2106032805280891073"
-        },
-        {
-          "label": "Ethereum economics",
-          "url": "https://ethereum.org/en/eth/"
-        },
-        {
-          "label": "L2 activity",
-          "url": "https://www.growthepie.com/"
         }
       ],
       "targets": {
         "5000": {
           "status": "yellow",
-          "score": 0.48,
+          "score": 0.47,
           "weight": 11,
-          "short": "Blast's shutdown exposes weak L2 economics, while Ethereum settlement remains intact.",
+          "short": "Ecosystem activity improved, but direct L1 economics remain weak.",
           "summary": "Ethereum adoption helps the $5K case, but not every unit of ecosystem growth becomes demand for ETH.",
-          "evidence": "Blast is winding down because operating costs exceed revenue after TVL fell from more than $2B before launch to about $32M. Users can withdraw to Ethereum mainnet, so this is not a protocol failure, but it warns that incentive-driven L2 activity may not create durable Ethereum economics. Daily L1 revenue fell to about $133K versus $7.0M of application fees.",
+          "evidence": "Ethereum generated about $376K of L1 fees and $70K of chain revenue over 24 hours versus $5.88M of application fees. Blast’s wind-down remains a warning that incentive-driven L2 activity can fail to create durable economics, even though Ethereum settlement stayed intact.",
           "why": "$5K does not require perfect capture, but it does require investors to believe ETH retains monetary, collateral, and settlement value.",
           "greenTrigger": "Staking, collateral use, L1 settlement, blobs, and fee burn strengthen together as activity grows.",
           "redTrigger": "Usage grows while ETH demand, fee burn, collateral share, and monetary premium stagnate."
         },
         "10000": {
           "status": "red",
-          "score": 0.22,
+          "score": 0.21,
           "weight": 20,
-          "short": "Blast reinforces the explicit $10K value-capture hurdle.",
+          "short": "The explicit $10K value-capture hurdle remains unresolved.",
           "summary": "Ethereum can win as infrastructure while ETH underperforms if the asset captures too little of the network’s economic value.",
-          "evidence": "Blast's failure to find sustainable L2 economics and Ethereum's roughly $133K of daily chain revenue versus $7.0M of application fees underscore that ecosystem activity can grow without enough durable demand accruing to ETH. The settlement layer worked, but the $1.2T valuation hurdle remains unresolved.",
+          "evidence": "Roughly $70K of daily chain revenue versus $5.88M of application fees, together with Blast’s unsustainable L2 economics, shows that ecosystem importance can outpace value accruing to ETH. The $1.2T valuation case still needs stronger settlement, blob, collateral, burn, and monetary demand.",
           "why": "$10K needs ETH to function as widely held productive capital: staked, used as institutional collateral, demanded for settlement, and valued for monetary premium.",
           "greenTrigger": "Rising settlement and blob demand, durable net burn or scarcity, expanding ETH collateral use, and institutional treatment as productive capital.",
           "redTrigger": "Ethereum becomes dominant infrastructure while fees, burn, collateral demand, and monetary premium accrue weakly to ETH."

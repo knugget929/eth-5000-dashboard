@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-03T05:31:49.005Z",
+  "evaluatedAt": "2026-10-05T16:57:48.000Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -11,18 +11,18 @@
     "10000": {
       "probability": 30,
       "trend": "steady",
-      "weightedSignal": 41
+      "weightedSignal": 42
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "green",
-        "score": 0.81
+        "score": 0.82
       },
       "10000": {
         "status": "yellow",
-        "score": 0.58
+        "score": 0.59
       }
     },
     "macro": {
@@ -38,31 +38,31 @@
     "regulation": {
       "5000": {
         "status": "yellow",
-        "score": 0.5
+        "score": 0.52
       },
       "10000": {
         "status": "yellow",
-        "score": 0.48
+        "score": 0.5
       }
     },
     "tokenization": {
       "5000": {
         "status": "green",
-        "score": 0.78
+        "score": 0.79
       },
       "10000": {
         "status": "yellow",
-        "score": 0.58
+        "score": 0.59
       }
     },
     "staking": {
       "5000": {
         "status": "green",
-        "score": 0.78
+        "score": 0.79
       },
       "10000": {
         "status": "yellow",
-        "score": 0.64
+        "score": 0.65
       }
     },
     "protocol": {
@@ -78,21 +78,21 @@
     "market": {
       "5000": {
         "status": "yellow",
-        "score": 0.55
+        "score": 0.56
       },
       "10000": {
         "status": "red",
-        "score": 0.29
+        "score": 0.3
       }
     },
     "value-capture": {
       "5000": {
         "status": "yellow",
-        "score": 0.48
+        "score": 0.47
       },
       "10000": {
         "status": "red",
-        "score": 0.22
+        "score": 0.21
       }
     },
     "debasement": {
@@ -108,8 +108,8 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "bitmine-eth-holdings-2026-10-04",
       "eth-etf-flow-2026-10-02",
-      "eth-etf-flow-2026-10-01",
       "citi-eth-forecast-2026-10-01",
       "bitmine-eth-holdings-2026-09-20"
     ],
@@ -120,37 +120,37 @@
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
+      "cftc-crypto-market-framework-2026-10-05",
       "sec-crypto-custody-proposal-2026-10-01",
       "us-crypto-trust-charter-lawsuit-2026-10-02",
-      "sec-crypto-faq-liquid-staking-2026-09-25",
-      "clarity-act-failed-2026-09-15"
+      "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
-      "ethereum-defi-2026-10-03",
+      "ethereum-defi-2026-10-05",
       "ark-securitize-venture-ethereum-2026-09-24",
       "ecb-pontes-2026-09-21",
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
+      "bitmine-staked-eth-2026-10-04",
       "metamask-staking-incident-resolution-2026-10-03",
-      "metamask-staking-security-incident-2026-09-30",
       "network-staking-2026-10-03",
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
+      "glamsterdam-sepolia-2026-10-05",
       "vitalik-cryptographic-world-computer-2026-09-27",
       "ethereum-mpbc-mainnet-2026-09-16",
-      "ef-protocol-ama-live-2026-09-16",
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-10-05",
       "eth-market-2026-10-03",
-      "eth-market-2026-10-02-evening",
-      "bitget-eth-withdrawals-resumed-2026-09-30"
+      "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-value-capture-2026-10-05",
       "blast-l2-wind-down-2026-10-02",
-      "eth-value-capture-2026-10-03",
       "ethereum-zkapi-2026-10-01",
       "ecb-pontes-2026-09-21"
     ],
@@ -161,5 +161,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 3 research refresh. Blast’s announced L2 wind-down reduced value-capture scores because operating costs exceeded revenue and incentive-driven TVL proved transient; this is an individual L2 business-model failure, not an Ethereum protocol or settlement failure. A fourth ETF outflow session and ETH’s 2.1% decline weakened institutional and market scores. Softer U.S. payrolls, the SEC’s proposed custody framework, and remediation of the MetaMask staking incident provided partial offsets. The weighted $5K signal remained 59 and $10K remained 42. No catalyst changed color, neither probability moved, and no thesis-breaking event was confirmed."
+  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 5 research refresh. BitMine extended corporate accumulation to 6.016M ETH, the CFTC opened a constructive federal crypto-market rulemaking, Ethereum DeFi TVL and bridge flows improved, and Glamsterdam approached its Sepolia activation. Those gains were offset by four finalized ETF-outflow sessions and direct L1 economics of about $70K in daily chain revenue versus $5.88M of application fees. Fed/liquidity remains a cyclical headwind separate from the structural debasement case, and the explicit $10K ETH value-capture hurdle remains unresolved. Weighted signals are 59 for $5K and 42 for $10K. No catalyst changed color, neither probability moved, and no thesis-breaking event was confirmed."
 }
