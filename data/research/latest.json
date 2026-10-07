@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-05T16:57:48.000Z",
-  "accessDate": "2026-10-05",
+  "researchedAt": "2026-10-07T05:56:01.000Z",
+  "accessDate": "2026-10-07",
   "market": {
-    "ethUsd": 2700.94,
-    "change24h": 0.1,
-    "marketCapUsd": 329656108367,
-    "volume24hUsd": 10972969067,
+    "ethUsd": 2606.4,
+    "change24h": -3.49,
+    "marketCapUsd": 318397277196.56,
+    "volume24hUsd": 15299838804.48,
     "sourceIds": [
-      "coingecko-eth"
+      "coinbase-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,700.94, up about 0.1% over 24 hours, with an approximately $329.66B market capitalization, $10.97B of 24-hour volume, and a $2,694.91-$2,736.97 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "Coinbase showed ETH at $2,606.40 on October 7, down about 3.49% over 24 hours, with approximately $318.40B market capitalization and $15.30B of 24-hour volume. The rolling decline remained below the 5% price-notification threshold."
   },
   "observations": [
     {
@@ -2915,6 +2915,79 @@
       ],
       "confirmed": true,
       "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, scarcity, and monetary demand beyond direct L1 revenue."
+    },
+    {
+      "id": "eth-market-2026-10-07",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$2,606.40 / about -3.49% Coinbase 24h",
+      "summary": "ETH traded near $2.61K. Coinbase showed about a 3.49% decline over 24 hours with a $2,591.70-$2,725.07 range. Trading volume rose to about $15.30B. The move remained below the 5% price-alert threshold.",
+      "sourceIds": [
+        "coinbase-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition and rolling 24-hour windows can produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-05",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$50.8M October 5 / fifth consecutive negative session",
+      "summary": "Farside finalized October 5 U.S. spot ETH ETF flows at a $50.8M net outflow, with $31.9M leaving BlackRock ETHA and $18.9M leaving Fidelity FETH. This extended the withdrawal streak to five consecutive completed sessions.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily ETF flows are volatile and historical figures can be revised. A multi-session outflow streak can reverse quickly."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-06",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$201.9M October 6 / six-session outflow streak / +$13.578B cumulative",
+      "summary": "Farside reported a $201.9M net outflow from U.S. spot ETH ETFs on October 6, entirely from BlackRock ETHA in the displayed table. It was the sixth consecutive negative session and brought cumulative net outflows from September 29 through October 6 to about $407.9M, while lifetime cumulative net inflows remained positive at approximately $13.578B.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and can revise figures. The outflow is large and the streak is material, but it does not by itself establish a durable structural reversal in institutional ETH demand."
+    },
+    {
+      "id": "glamsterdam-sepolia-live-2026-10-06",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Glamsterdam activated on Sepolia October 6 at 13:53:36 UTC",
+      "summary": "Alchemy reported that Ethereum's Glamsterdam upgrade went live on Sepolia on October 6 at 13:53:36 UTC. The public testnet is now exercising enshrined proposer-builder separation, block-level access lists, gas repricing, and a much higher gas-limit target before later deployment stages.",
+      "sourceIds": [
+        "ethereum-glamsterdam-sepolia-2026-09-28",
+        "alchemy-glamsterdam-live-2026-10-06"
+      ],
+      "confirmed": true,
+      "uncertainty": "Sepolia activation is a positive protocol milestone, but Hoodi and mainnet dates remain undecided and the upgrade still needs sustained multi-client testnet stability before mainnet readiness is established."
+    },
+    {
+      "id": "eez-atomic-l1-l2-2026-10-06",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "0.001 ETH atomic L1-to-L2 mainnet proof transaction",
+      "summary": "The Ethereum Economic Zone demonstrated an atomic transaction linking Ethereum mainnet and a Layer 2, moving 0.001 ETH while updating rollup state in an all-or-nothing operation. The on-chain proof is a concrete step toward reducing cross-rollup fragmentation and bridge-dependent workflows.",
+      "sourceIds": [
+        "arkham-eez-atomic-2026-10-06"
+      ],
+      "confirmed": true,
+      "uncertainty": "This was a small technical demonstration, not production-scale adoption. It does not yet prove throughput, security, economic sustainability, or broad rollup integration."
+    },
+    {
+      "id": "global-liquidity-2026-10-07",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent about $101.65 / energy-supply risks elevated",
+      "summary": "Reuters reported Brent around $101.65 as a Gulf of Mexico storm and escalating Saudi-Houthi conflict raised supply concerns. The renewed energy-risk premium keeps inflation and long-duration yield pressure elevated, preserving a restrictive macro backdrop for crypto even as markets await further Federal Reserve guidance.",
+      "sourceIds": [
+        "reuters-global-markets-2026-10-07"
+      ],
+      "confirmed": true,
+      "uncertainty": "Oil prices, Treasury yields, and policy expectations move continuously; actual storm damage, Middle East supply disruption, and subsequent Fed repricing remain uncertain."
     }
   ],
   "sources": {
@@ -2936,7 +3009,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-05"
+      "accessedAt": "2026-10-07"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -3070,8 +3143,8 @@
     },
     "coinbase-eth": {
       "label": "Coinbase Ethereum market data",
-      "url": "https://www.coinbase.com/price/ethereum",
-      "accessedAt": "2026-09-10"
+      "url": "https://www.coinbase.com/converter/eth/usd",
+      "accessedAt": "2026-10-07"
     },
     "standard-chartered-uae-spot": {
       "label": "Standard Chartered: institutional Bitcoin and Ether spot trading in the UAE",
@@ -3732,18 +3805,33 @@
       "label": "BitMine: October 5 ETH treasury holdings announcement",
       "url": "https://markets.ft.com/data/announce/detail?dockey=600-202610050830PR_NEWS_USPRX____NY63400-1",
       "accessedAt": "2026-10-05"
+    },
+    "alchemy-glamsterdam-live-2026-10-06": {
+      "label": "Alchemy: Glamsterdam on Sepolia",
+      "url": "https://www.alchemy.com/blog/glamsterdam-ethereum-upgrade",
+      "accessedAt": "2026-10-07"
+    },
+    "arkham-eez-atomic-2026-10-06": {
+      "label": "Arkham: Ethereum L1-to-L2 atomic transaction successful",
+      "url": "https://info.arkm.com/research/ethereum-l1-to-l2-atomic-transaction-successful",
+      "accessedAt": "2026-10-07"
+    },
+    "reuters-global-markets-2026-10-07": {
+      "label": "Reuters: Asia shares weaker as oil rises on supply risks",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-07/",
+      "accessedAt": "2026-10-07"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,675.20 and down about 2.1% over 24 hours, well below the 5% price trigger.",
-      "Blast, once an Ethereum L2 with more than $2B of pre-launch TVL, announced a network wind-down because operating costs exceed revenue and no credible sustainable path remains. Users were directed to withdraw to Ethereum mainnet by October 26.",
-      "The event is a material warning about individual L2 economics and incentive-driven TVL, but it is not an Ethereum protocol failure; Blast now holds only about $32M of TVL and bridged assets remain recoverable through Ethereum contracts.",
-      "MetaMask's infrastructure incident was reported remediated, with validator keys rotated and no MetaMask wallets, withdrawal keys, or user funds affected.",
-      "October 2 U.S. spot ETH ETFs recorded a $17.3M outflow, the fourth consecutive negative session, while cumulative net inflows remained approximately $13.851B.",
+      "ETH traded near $2,606.40 and down about 3.49% over 24 hours, below the 5% price trigger.",
+      "U.S. spot ETH ETFs posted a $201.9M net outflow on October 6, extending the withdrawal streak to six consecutive sessions and about $407.9M since September 29. Lifetime cumulative net inflows remained positive at about $13.578B.",
+      "Glamsterdam activated on Sepolia, a constructive protocol milestone, while Hoodi and mainnet timing remain undecided.",
+      "The Ethereum Economic Zone completed a small atomic L1-to-L2 mainnet proof transaction, showing cross-layer synchronous composability in practice but not yet at production scale.",
+      "The macro backdrop remains restrictive as oil trades above $100 amid fresh supply risks.",
       "No thesis-breaking Ethereum protocol, custody, or settlement failure was confirmed."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,675.20 and about -2.1% over 24 hours; Blast's announced wind-down because costs exceed revenue, the request for users to withdraw to Ethereum mainnet by October 26, and Blast TVL near $32M versus more than $2B before mainnet launch; MetaMask incident remediation, precautionary validator-key rotation, and the stated separation of staking withdrawal keys; October 2 ETF flows at -$17.3M and cumulative flows near +$13.851B. Uncertain: the final Blast withdrawal and developer-migration outcomes, whether other L2s face similar economics, a complete MetaMask technical postmortem and final reward loss, and whether the recent ETF outflow streak persists."
+    "confirmedVsUncertain": "Confirmed: ETH near $2,606.40 and about -3.49% over 24 hours on Coinbase; Farside's October 6 ETH ETF flow at -$201.9M, a sixth consecutive negative session, with cumulative net inflows still about +$13.578B; Glamsterdam activation on Sepolia; and an on-chain 0.001 ETH atomic L1-to-L2 proof transaction. Uncertain: whether ETF redemptions persist or reverse, whether Sepolia testing exposes material multi-client issues before mainnet, how quickly atomic cross-layer infrastructure reaches production scale, and how long the current energy-driven macro tightening lasts."
   }
 }
