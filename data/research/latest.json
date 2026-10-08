@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-05T16:57:48.000Z",
-  "accessDate": "2026-10-05",
+  "researchedAt": "2026-10-08T12:48:56.000Z",
+  "accessDate": "2026-10-08",
   "market": {
-    "ethUsd": 2700.94,
-    "change24h": 0.1,
-    "marketCapUsd": 329656108367,
-    "volume24hUsd": 10972969067,
+    "ethUsd": 2560.31,
+    "change24h": -1.8,
+    "marketCapUsd": 312783015386,
+    "volume24hUsd": 15482444931,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,700.94, up about 0.1% over 24 hours, with an approximately $329.66B market capitalization, $10.97B of 24-hour volume, and a $2,694.91-$2,736.97 24-hour range. The rolling move remained well below the 5% notification threshold."
+    "note": "CoinGecko showed ETH near $2,560.31, down about 1.8% over 24 hours, with an approximately $312.78B market capitalization and $15.48B of 24-hour volume. ETH was about 5.2% below the October 5 stored snapshot, breaking the recent $2.7K base while ETF demand and the liquidity backdrop weakened."
   },
   "observations": [
     {
@@ -2915,13 +2915,51 @@
       ],
       "confirmed": true,
       "uncertainty": "Daily fee and revenue figures are volatile and vary by methodology. ETH value capture also includes staking, collateral, settlement, blob demand, burn, scarcity, and monetary demand beyond direct L1 revenue."
+    },
+    {
+      "id": "eth-market-2026-10-08",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$2,560.31 / about -1.8% CoinGecko 24h / about -5.2% from Oct. 5 snapshot",
+      "summary": "ETH traded near $2.56K, about 5.2% below the October 5 stored snapshot and below the recent $2.7K base. CoinGecko showed an approximately 1.8% rolling 24-hour decline, a $312.78B market capitalization, and $15.48B of volume. The combination of weaker price structure, persistent ETF withdrawals, and tighter macro conditions materially weakened the near-term path to both targets.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows can produce different percentage changes."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-07",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$160.9M latest day / -$568.8M seven-session streak / +$13.417B cumulative",
+      "summary": "Farside finalized October 7 U.S. spot ETH ETF flows at a $160.9M net outflow after $201.9M left BlackRock ETHA on October 6. The September 29-October 7 run totaled approximately $568.8M of net withdrawals across seven consecutive sessions. Cumulative flows remained positive at about $13.417B and BitMine's 6.016M ETH treasury remained supportive, but the sustained public-fund distribution materially weakened the current institutional-demand signal.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and figures can be revised. The streak is material but does not erase cumulative ETF inflows or prove a permanent reversal in institutional allocation."
+    },
+    {
+      "id": "global-liquidity-2026-10-08",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y about 5.34% / Brent about $104.75 / dollar index about 102.40",
+      "summary": "The cyclical liquidity backdrop tightened again. The U.S. 10-year yield stayed near 5.34% after reaching a 24-year high, Brent rose about 4.5% to roughly $104.75, and the dollar index approached an 18-month high near 102.40 after hawkish Federal Reserve minutes. This combination raises discount rates, keeps the sovereign-yield alternative to staking unusually strong, and pressures risk assets. It is a cyclical Fed/liquidity headwind, not evidence that the separate structural debasement thesis has failed.",
+      "sourceIds": [
+        "reuters-us-treasuries-2026-10-07",
+        "reuters-dollar-fed-2026-10-08",
+        "reuters-oil-2026-10-08"
+      ],
+      "confirmed": true,
+      "uncertainty": "Yields, oil, currencies, and policy expectations move continuously. The October Fed meeting remains ahead, and geopolitical supply shocks can reverse quickly."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-10-05"
+      "accessedAt": "2026-10-08"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -2936,7 +2974,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-05"
+      "accessedAt": "2026-10-08"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -3732,6 +3770,21 @@
       "label": "BitMine: October 5 ETH treasury holdings announcement",
       "url": "https://markets.ft.com/data/announce/detail?dockey=600-202610050830PR_NEWS_USPRX____NY63400-1",
       "accessedAt": "2026-10-05"
+    },
+    "reuters-us-treasuries-2026-10-07": {
+      "label": "Reuters: U.S. bond selloff eases after 10-year yield reaches 24-year high",
+      "url": "https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/",
+      "accessedAt": "2026-10-08"
+    },
+    "reuters-dollar-fed-2026-10-08": {
+      "label": "Reuters: Dollar nears 18-month high after hawkish Fed minutes",
+      "url": "https://www.reuters.com/world/africa/dollar-edges-back-18-month-high-after-fomc-minutes-2026-10-08/",
+      "accessedAt": "2026-10-08"
+    },
+    "reuters-oil-2026-10-08": {
+      "label": "Reuters: Oil jumps on Middle East supply concerns",
+      "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-concerns-persist-amid-shipping-attacks-2026-10-08/",
+      "accessedAt": "2026-10-08"
     }
   },
   "assessment": {

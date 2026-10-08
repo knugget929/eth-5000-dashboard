@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-05T16:57:48.000Z",
+  "evaluatedAt": "2026-10-08T12:48:56.000Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 62,
-      "trend": "steady",
-      "weightedSignal": 59
+      "probability": 58,
+      "trend": "down",
+      "weightedSignal": 54
     },
     "10000": {
-      "probability": 30,
-      "trend": "steady",
-      "weightedSignal": 42
+      "probability": 27,
+      "trend": "down",
+      "weightedSignal": 39
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
-        "status": "green",
-        "score": 0.82
+        "status": "yellow",
+        "score": 0.62
       },
       "10000": {
         "status": "yellow",
-        "score": 0.59
+        "score": 0.45
       }
     },
     "macro": {
       "5000": {
         "status": "red",
-        "score": 0.05
+        "score": 0.02
       },
       "10000": {
         "status": "red",
-        "score": 0.04
+        "score": 0.01
       }
     },
     "regulation": {
@@ -77,12 +77,12 @@
     },
     "market": {
       "5000": {
-        "status": "yellow",
-        "score": 0.56
+        "status": "red",
+        "score": 0.38
       },
       "10000": {
         "status": "red",
-        "score": 0.3
+        "score": 0.19
       }
     },
     "value-capture": {
@@ -108,12 +108,14 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-flow-2026-10-07",
       "bitmine-eth-holdings-2026-10-04",
       "eth-etf-flow-2026-10-02",
       "citi-eth-forecast-2026-10-01",
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "global-liquidity-2026-10-08",
       "us-jobs-fed-repricing-2026-10-02",
       "global-liquidity-2026-10-02",
       "global-liquidity-2026-10-01",
@@ -144,6 +146,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-10-08",
       "eth-market-2026-10-05",
       "eth-market-2026-10-03",
       "eth-market-2026-10-02-evening"
@@ -161,5 +164,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Held the $5K estimate at 62% and the $10K estimate at 30% after evaluating the October 5 research refresh. BitMine extended corporate accumulation to 6.016M ETH, the CFTC opened a constructive federal crypto-market rulemaking, Ethereum DeFi TVL and bridge flows improved, and Glamsterdam approached its Sepolia activation. Those gains were offset by four finalized ETF-outflow sessions and direct L1 economics of about $70K in daily chain revenue versus $5.88M of application fees. Fed/liquidity remains a cyclical headwind separate from the structural debasement case, and the explicit $10K ETH value-capture hurdle remains unresolved. Weighted signals are 59 for $5K and 42 for $10K. No catalyst changed color, neither probability moved, and no thesis-breaking event was confirmed."
+  "decision": "Reduced the $5K estimate from 62% to 58% and the $10K estimate from 30% to 27% after seven consecutive U.S. spot ETH ETF outflow sessions removed about $568.8M, ETH fell roughly 5.2% from the October 5 snapshot to about $2.56K, and the cyclical liquidity backdrop tightened with the 10-year Treasury yield near 5.34%, Brent near $104.75, and the dollar close to an 18-month high. Institutional demand moved from green to yellow for $5K, while market structure moved from yellow to red; both remain more demanding for $10K. BitMine's 6.016M ETH treasury, staking depth, tokenization activity, regulation, and protocol execution remain constructive offsets. Fed/liquidity remains separate from the still-supportive structural debasement lens, and the explicit $10K ETH value-capture hurdle remains red. Weighted signals are 54 for $5K and 39 for $10K."
 }
