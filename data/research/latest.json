@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-08T12:48:56.000Z",
+  "researchedAt": "2026-10-08T16:03:03.000Z",
   "accessDate": "2026-10-08",
   "market": {
-    "ethUsd": 2560.31,
-    "change24h": -1.8,
-    "marketCapUsd": 312783015386,
-    "volume24hUsd": 15482444931,
+    "ethUsd": 2433.01,
+    "change24h": -5.3,
+    "marketCapUsd": 297109000000,
+    "volume24hUsd": 16468000000,
     "sourceIds": [
-      "coingecko-eth"
+      "coingecko-eth",
+      "coinbase-eth-2026-10-08"
     ],
-    "note": "CoinGecko showed ETH near $2,560.31, down about 1.8% over 24 hours, with an approximately $312.78B market capitalization and $15.48B of 24-hour volume. ETH was about 5.2% below the October 5 stored snapshot, breaking the recent $2.7K base while ETF demand and the liquidity backdrop weakened."
+    "note": "CoinGecko showed ETH near $2,433.01 with an approximately 5.3% decline, $297.11B market cap and $16.47B 24-hour volume; Coinbase's KRW price showed an approximately 5% 24-hour decline. This exceeds the 5% notification threshold. Live venues and feed refresh times differ (some CoinMarketCap language pages showed higher prices), so treat these as source-time observations rather than an exchange-wide synchronized close."
   },
   "observations": [
     {
@@ -2920,13 +2921,14 @@
       "id": "eth-market-2026-10-08",
       "catalyst": "market",
       "direction": "headwind",
-      "value": "$2,560.31 / about -1.8% CoinGecko 24h / about -5.2% from Oct. 5 snapshot",
-      "summary": "ETH traded near $2.56K, about 5.2% below the October 5 stored snapshot and below the recent $2.7K base. CoinGecko showed an approximately 1.8% rolling 24-hour decline, a $312.78B market capitalization, and $15.48B of volume. The combination of weaker price structure, persistent ETF withdrawals, and tighter macro conditions materially weakened the near-term path to both targets.",
+      "value": "$2,433.01 / approximately -5.3% 24h CoinGecko, ~-5% Coinbase KRW",
+      "summary": "CoinGecko's live market page showed ETH near $2,433 and down approximately 5.3% over 24 hours, below the October 5 $2.7K snapshot. Coinbase independently displayed a roughly 5% decline over 24 hours in KRW. The short-term drawdown crossed the 5% notification rule; ETF outflows and restrictive financial conditions remain headwinds, but this is not evidence of an Ethereum network failure.",
       "sourceIds": [
-        "coingecko-eth"
+        "coingecko-eth",
+        "coinbase-eth-2026-10-08"
       ],
       "confirmed": true,
-      "uncertainty": "Prices move continuously, and venue composition, currency conversion, and rolling 24-hour windows can produce different percentage changes."
+      "uncertainty": "Quotes vary by retrieval time and venue. CoinMarketCap's localized currency pages showed a materially higher USD quote and smaller rolling decline, so the exact current market-wide 24-hour move is not uniformly corroborated."
     },
     {
       "id": "eth-etf-flow-2026-10-07",
@@ -2953,6 +2955,19 @@
       ],
       "confirmed": true,
       "uncertainty": "Yields, oil, currencies, and policy expectations move continuously. The October Fed meeting remains ahead, and geopolitical supply shocks can reverse quickly."
+    },
+    {
+      "id": "ethereum-ai-cryptography-warning-2026-10-08",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "Researchers raise potential AI-assisted ECDSA cryptography risk; no known practical signature break",
+      "summary": "Ethereum researcher Justin Drake urged preparation for a possible future AI-assisted attack against elliptic-curve signatures, and Vitalik Buterin argued for taking AI-driven cryptanalysis risk seriously while warning that rushed wallet migrations can themselves lose funds. These are precautionary risk scenarios, not a confirmed practical break of Ethereum wallet security. A potential early break would have major custody implications; actual feasibility and timing remain unproven.",
+      "sourceIds": [
+        "coindesk-ethereum-cryptography-2026-10-08",
+        "theblock-vitalik-2026-10-08"
+      ],
+      "confirmed": true,
+      "uncertainty": "No ECDSA break or ETH-wallet compromise caused by a cryptanalytic breakthrough has been demonstrated. Worst-case timelines are speculative; media headlines can overstate the near-term risk."
     }
   ],
   "sources": {
@@ -3785,18 +3800,31 @@
       "label": "Reuters: Oil jumps on Middle East supply concerns",
       "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-concerns-persist-amid-shipping-attacks-2026-10-08/",
       "accessedAt": "2026-10-08"
+    },
+    "coinbase-eth-2026-10-08": {
+      "label": "Coinbase: Ethereum price and 24-hour change (KRW market presentation)",
+      "url": "https://www.coinbase.com/price/ethereum",
+      "accessedAt": "2026-10-08"
+    },
+    "coindesk-ethereum-cryptography-2026-10-08": {
+      "label": "CoinDesk: Researchers discuss AI cryptography risks and wallet precautions",
+      "url": "https://www.coindesk.com/tech/2026/10/08/bitcoin-and-ether-holders-urged-to-prepare-bunker-mode-against-possible-ai-attacks",
+      "accessedAt": "2026-10-08"
+    },
+    "theblock-vitalik-2026-10-08": {
+      "label": "The Block: Vitalik cautions against hasty wallet migrations",
+      "url": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007",
+      "accessedAt": "2026-10-08"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,675.20 and down about 2.1% over 24 hours, well below the 5% price trigger.",
-      "Blast, once an Ethereum L2 with more than $2B of pre-launch TVL, announced a network wind-down because operating costs exceed revenue and no credible sustainable path remains. Users were directed to withdraw to Ethereum mainnet by October 26.",
-      "The event is a material warning about individual L2 economics and incentive-driven TVL, but it is not an Ethereum protocol failure; Blast now holds only about $32M of TVL and bridged assets remain recoverable through Ethereum contracts.",
-      "MetaMask's infrastructure incident was reported remediated, with validator keys rotated and no MetaMask wallets, withdrawal keys, or user funds affected.",
-      "October 2 U.S. spot ETH ETFs recorded a $17.3M outflow, the fourth consecutive negative session, while cumulative net inflows remained approximately $13.851B.",
-      "No thesis-breaking Ethereum protocol, custody, or settlement failure was confirmed."
+      "At source-check time ETH was near $2,433 on CoinGecko, with an approximately -5.3% reported daily move; Coinbase's KRW presentation showed an approximately -5% 24-hour move. This meets the 5% price alert threshold, although data providers disagree on the exact contemporaneous quote.",
+      "Justin Drake and Vitalik Buterin raised forward-looking concerns about AI-assisted cryptanalysis of wallet signatures. Their statements warrant research attention, but no practical ECDSA break or major Ethereum protocol compromise has been demonstrated.",
+      "Farside finalized October 7 U.S. spot ETH ETF net flows at -$160.9M, continuing a seven-session $568.8M outflow streak. The October 8 row is incomplete, not a zero-flow confirmation.",
+      "The previously reported oil, yield and liquidity squeeze still creates a macro headwind; it does not confirm failure of the long-term ETH thesis."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,675.20 and about -2.1% over 24 hours; Blast's announced wind-down because costs exceed revenue, the request for users to withdraw to Ethereum mainnet by October 26, and Blast TVL near $32M versus more than $2B before mainnet launch; MetaMask incident remediation, precautionary validator-key rotation, and the stated separation of staking withdrawal keys; October 2 ETF flows at -$17.3M and cumulative flows near +$13.851B. Uncertain: the final Blast withdrawal and developer-migration outcomes, whether other L2s face similar economics, a complete MetaMask technical postmortem and final reward loss, and whether the recent ETF outflow streak persists."
+    "confirmedVsUncertain": "Confirmed from checked sources: CoinGecko quoted ETH near $2,433 and a ~5.3% decline; Coinbase displayed a ~5% 24h decline in KRW; Justin Drake and Vitalik Buterin discussed potential AI-assisted cryptographic risks; CoinDesk reported no demonstrated practical key-recovery attack; Farside showed October 7 net ETF outflows of $160.9M and no completed October 8 ETF data. Uncertain: synchronized venue-level ETH pricing, whether the reported risk can become a practical attack, its timeline, and whether ETF withdrawals continue."
   }
 }
