@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-08T12:48:56.000Z",
-  "accessDate": "2026-10-08",
+  "researchedAt": "2026-10-09T05:57:58.000Z",
+  "accessDate": "2026-10-09",
   "market": {
-    "ethUsd": 2560.31,
-    "change24h": -1.8,
-    "marketCapUsd": 312783015386,
-    "volume24hUsd": 15482444931,
+    "ethUsd": 2489.35,
+    "change24h": -2.9,
+    "marketCapUsd": 303996000000,
+    "volume24hUsd": 18427000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko showed ETH near $2,560.31, down about 1.8% over 24 hours, with an approximately $312.78B market capitalization and $15.48B of 24-hour volume. ETH was about 5.2% below the October 5 stored snapshot, breaking the recent $2.7K base while ETF demand and the liquidity backdrop weakened."
+    "note": "CoinGecko showed ETH near $2,489.35, down approximately 2.9% over a rolling 24-hour window as of the October 9 Athens morning research. The 24-hour range was $2,409.36–$2,574.82, capitalization about $303.996B and volume about $18.427B. This is below the 5% rolling-24h price alert threshold; the eight-session ETF outflow streak remains the more persistent market headwind."
   },
   "observations": [
     {
@@ -2953,6 +2953,55 @@
       ],
       "confirmed": true,
       "uncertainty": "Yields, oil, currencies, and policy expectations move continuously. The October Fed meeting remains ahead, and geopolitical supply shocks can reverse quickly."
+    },
+    {
+      "id": "eth-market-2026-10-09",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$2,489.35 / about -2.9% CoinGecko 24h",
+      "summary": "CoinGecko quoted ETH at about $2,489.35, down 2.9% in the rolling 24-hour window, with $303.996B market cap, $18.427B trading volume and a $2,409.36–$2,574.82 intraday range. ETH remains well below the $2.7K recent base while global yields remain restrictive; the daily percentage change did not reach the 5% alert trigger.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live prices and 24-hour moves change continuously and can vary across exchanges and timestamps."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-08",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$72.5M latest day / -$641.3M eight-session streak / +$13.345B cumulative",
+      "summary": "Farside Investors finalized October 8 US spot ETH ETF flows at a $72.5M net outflow, with BlackRock ETHA -$71.1M partially offset by Fidelity FETH +$5.5M. This was the eighth consecutive negative session since September 29, taking eight-session withdrawals to approximately $641.3M and leaving cumulative net inflows around $13.345B. Sustained distribution remains a significant headwind but does not eliminate the long-run cumulative institutional asset base.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside tables update automatically and could be revised. A week of redemptions does not establish permanent institutional capitulation."
+    },
+    {
+      "id": "thailand-sec-crypto-etfs-2026-10-08",
+      "catalyst": "regulation",
+      "direction": "supportive",
+      "value": "Thailand SEC issued 11 crypto ETF rules / ETH and BTC initially eligible / effective 2026-10-16",
+      "summary": "Thailand's Securities and Exchange Commission formally announced a domestic crypto ETF framework on October 8 with 11 notifications effective October 16. Bitcoin and Ethereum are the initial eligible underlyings. Funds must be passive and primarily invested in one asset, listed on the Stock Exchange of Thailand, and use regulated local custodians; brokers may not offer margin loans to buy them. This creates a new regulated access route to ETH but no Thai spot ETH ETF has yet launched, and investment flows or direct ETH economic capture are unproven.",
+      "sourceIds": [
+        "thai-sec-crypto-etf-2026-10-08",
+        "cointelegraph-thai-crypto-etf-2026-10-09"
+      ],
+      "confirmed": true,
+      "uncertainty": "The legal framework is official, but fund launch dates, investor demand, custody implementation, and eventual ETH purchasing volumes are unknown."
+    },
+    {
+      "id": "oct9-oil-geopolitical-easing-2026-10-09",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "Brent around $102.91 / WTI around $90.40 on easing Iran strike risk",
+      "summary": "Reuters reported Brent down about $1.37 to $102.91 and WTI down about $1.09 to $90.40 on October 9 after US officials signaled no new strike on Iran before November elections. The pullback offers modest short-term inflation relief but oil remains expensive, 62.9% of Gulf offshore oil output was shut in ahead of Hurricane Isaias, and high yields still constrain risk appetite. This is a cyclical liquidity update, not evidence of a structural debasement reversal.",
+      "sourceIds": [
+        "reuters-oil-2026-10-09"
+      ],
+      "confirmed": true,
+      "uncertainty": "Commodity prices are intraday, Iran talks are uncompleted, and storm-related disruptions may persist."
     }
   ],
   "sources": {
@@ -3785,18 +3834,31 @@
       "label": "Reuters: Oil jumps on Middle East supply concerns",
       "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-concerns-persist-amid-shipping-attacks-2026-10-08/",
       "accessedAt": "2026-10-08"
+    },
+    "thai-sec-crypto-etf-2026-10-08": {
+      "label": "Thailand SEC official news no. 216/2569: domestic crypto ETF framework",
+      "url": "https://www.sec.or.th/TH/Pages/News_Detail.aspx?SECID=13410",
+      "accessedAt": "2026-10-09"
+    },
+    "cointelegraph-thai-crypto-etf-2026-10-09": {
+      "label": "Cointelegraph: Thailand finalizes Bitcoin and Ether ETF rules",
+      "url": "https://www.tradingview.com/news/cointelegraph%3Af6e8751cf094b%3A0-thailand-finalizes-rules-paving-way-for-bitcoin-ether-etfs/",
+      "accessedAt": "2026-10-09"
+    },
+    "reuters-oil-2026-10-09": {
+      "label": "Reuters: Oil falls as Trump comments on Iran talks ease supply concerns",
+      "url": "https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/",
+      "accessedAt": "2026-10-09"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH traded near $2,675.20 and down about 2.1% over 24 hours, well below the 5% price trigger.",
-      "Blast, once an Ethereum L2 with more than $2B of pre-launch TVL, announced a network wind-down because operating costs exceed revenue and no credible sustainable path remains. Users were directed to withdraw to Ethereum mainnet by October 26.",
-      "The event is a material warning about individual L2 economics and incentive-driven TVL, but it is not an Ethereum protocol failure; Blast now holds only about $32M of TVL and bridged assets remain recoverable through Ethereum contracts.",
-      "MetaMask's infrastructure incident was reported remediated, with validator keys rotated and no MetaMask wallets, withdrawal keys, or user funds affected.",
-      "October 2 U.S. spot ETH ETFs recorded a $17.3M outflow, the fourth consecutive negative session, while cumulative net inflows remained approximately $13.851B.",
-      "No thesis-breaking Ethereum protocol, custody, or settlement failure was confirmed."
+      "Thailand's SEC finalized an ETF framework on October 8 permitting domestically listed products tracking ETH from October 16, a meaningful regulatory-access development; no ETH product has launched yet.",
+      "Farside recorded $72.5M US spot ETH ETF net outflows on October 8, extending the streak to eight sessions totaling about $641.3M.",
+      "ETH traded near $2,489.35, down about 2.9% over 24h on CoinGecko; the standalone 5% price alert threshold was not reached.",
+      "No verified Ethereum protocol failure, persistent wallet compromise, or other thesis-breaking event appeared."
     ],
-    "confirmedVsUncertain": "Confirmed: ETH near $2,675.20 and about -2.1% over 24 hours; Blast's announced wind-down because costs exceed revenue, the request for users to withdraw to Ethereum mainnet by October 26, and Blast TVL near $32M versus more than $2B before mainnet launch; MetaMask incident remediation, precautionary validator-key rotation, and the stated separation of staking withdrawal keys; October 2 ETF flows at -$17.3M and cumulative flows near +$13.851B. Uncertain: the final Blast withdrawal and developer-migration outcomes, whether other L2s face similar economics, a complete MetaMask technical postmortem and final reward loss, and whether the recent ETF outflow streak persists."
+    "confirmedVsUncertain": "Confirmed: Thai SEC official Oct 8 domestic crypto ETF rules, effective Oct 16, initially permitting Bitcoin and ETH underlyings; Farside Oct 8 net ETH ETF flows of -$72.5M; CoinGecko ETH approximately $2,489.35 and -2.9% 24h at access. Uncertain: launch timing and uptake of new Thai funds, ETF flow persistence, live ETH price and whether temporary geopolitical relief is durable."
   }
 }
