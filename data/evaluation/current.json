@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-08T12:48:56.000Z",
+  "evaluatedAt": "2026-10-10T05:06:36.301Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-flow-2026-10-09",
       "eth-etf-flow-2026-10-07",
       "bitmine-eth-holdings-2026-10-04",
       "eth-etf-flow-2026-10-02",
@@ -115,6 +116,7 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "global-liquidity-2026-10-09",
       "global-liquidity-2026-10-08",
       "us-jobs-fed-repricing-2026-10-02",
       "global-liquidity-2026-10-02",
@@ -128,6 +130,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "ethereum-defi-2026-10-10",
       "ethereum-defi-2026-10-05",
       "ark-securitize-venture-ethereum-2026-09-24",
       "ecb-pontes-2026-09-21",
@@ -146,12 +149,14 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-10-10",
       "eth-market-2026-10-08",
       "eth-market-2026-10-05",
       "eth-market-2026-10-03",
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-value-capture-2026-10-10",
       "eth-value-capture-2026-10-05",
       "blast-l2-wind-down-2026-10-02",
       "ethereum-zkapi-2026-10-01",
@@ -164,5 +169,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Reduced the $5K estimate from 62% to 58% and the $10K estimate from 30% to 27% after seven consecutive U.S. spot ETH ETF outflow sessions removed about $568.8M, ETH fell roughly 5.2% from the October 5 snapshot to about $2.56K, and the cyclical liquidity backdrop tightened with the 10-year Treasury yield near 5.34%, Brent near $104.75, and the dollar close to an 18-month high. Institutional demand moved from green to yellow for $5K, while market structure moved from yellow to red; both remain more demanding for $10K. BitMine's 6.016M ETH treasury, staking depth, tokenization activity, regulation, and protocol execution remain constructive offsets. Fed/liquidity remains separate from the still-supportive structural debasement lens, and the explicit $10K ETH value-capture hurdle remains red. Weighted signals are 54 for $5K and 39 for $10K."
+  "decision": "Kept the $5K estimate at 58% and the $10K estimate at 27%. October 10 evidence extends, rather than changes, the October 8 regime: U.S. spot ETH ETFs have now posted nine consecutive outflow sessions totaling about $697.4M and ETH remains below the former $2.7K base near $2.49K. The latest 24-hour price move was near flat, cumulative ETF flows remain positive, the 10-year Treasury yield eased slightly from its weekly high while staying restrictive near 5.26%, and no new protocol, regulation, or custody failure was confirmed. Catalyst colors and scores therefore remain unchanged. Fed/liquidity remains a cyclical red headwind separate from the structurally supportive debasement lens; the explicit $10K ETH value-capture hurdle remains red. Weighted signals remain 54 for $5K and 39 for $10K."
 }
