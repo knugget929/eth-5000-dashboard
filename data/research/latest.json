@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-10T05:06:36.301Z",
-  "accessDate": "2026-10-10",
+  "researchedAt": "2026-10-13T05:00:22.000Z",
+  "accessDate": "2026-10-13",
   "market": {
-    "ethUsd": 2492.91,
-    "change24h": 0.3,
-    "marketCapUsd": 304447000000,
-    "volume24hUsd": 8397000000,
+    "ethUsd": 2516.57,
+    "change24h": 1.6,
+    "marketCapUsd": 307350000000,
+    "volume24hUsd": 16521000000,
     "sourceIds": [
       "coingecko-eth"
     ],
-    "note": "CoinGecko displayed ETH near $2,492.91 and approximately +0.3% at retrieval on October 10, with a $304.447B market cap, $8.397B in reported 24-hour volume, and a $2,473.24–$2,512.13 daily range. The new rolling move is below the 5% alert threshold, while ETH remains roughly 2.6% below the October 8 research snapshot."
+    "note": "CoinGecko's October 13 retrieval showed ETH at approximately $2,516.57, with the rolling 24-hour table near +1.6% (prominent quote +1.7%), a $2,411.24–$2,575.42 daily range, about $307.35B market capitalization and $16.521B 24-hour volume. The 24-hour change is below the 5% alert threshold. Quotes are live and can vary with retrieval time."
   },
   "observations": [
     {
@@ -3013,13 +3013,85 @@
       ],
       "confirmed": true,
       "uncertainty": "Friday closing observations are not live Saturday quotes; yields, energy prices and Fed expectations can reprice when markets reopen."
+    },
+    {
+      "id": "eth-market-2026-10-13-0800",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,516.57 / approximately +1.6% CoinGecko rolling 24h",
+      "summary": "On October 13, CoinGecko displayed ETH near $2.52K, around +1.6% on its rolling 24-hour table (+1.7% in the prominent quote), within a $2,411.24–$2,575.42 daily range. Market capitalization was around $307.35B and 24-hour volume about $16.521B. The rolling 24-hour move did not trigger the 5% notification threshold.",
+      "sourceIds": [
+        "coingecko-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live quotes and rolling windows vary by time and source; this is a retrieval snapshot, not an official close."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-12",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "-$85.4M Oct. 12 / 10 consecutive negative sessions / approximately -$782.8M streak",
+      "summary": "Farside listed net U.S. spot ETH ETF flows of -$85.4M on October 12, primarily -$75.1M at BlackRock ETHA and -$10.3M at Grayscale ETH. This extended a 10-session negative streak from September 29 totaling roughly -$782.8M. The cumulative total remained positive at approximately +$13.203B. A secondary aggregator listed -$10.3M for the day, apparently omitting ETHA's outflow; this observation uses Farside's complete per-fund line and total.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live fund-flow tables can be revised, and provider coverage or timing can differ; fund-level redemptions are not identical to spot exchange market orders."
+    },
+    {
+      "id": "network-staking-2026-10-13",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "44,049,037 ETH staked / about 35% supply / 2.5% current APR",
+      "summary": "Ethereum.org's live staking counter showed approximately 44.049M ETH staked (35% of supply) and 2.5% current APR. Network staking participation continues to rise; however the prevailing government-bond yields offer a much higher nominal yield for investors, and staking participation is not a short-term ETH price guarantee.",
+      "sourceIds": [
+        "ethereum-staking"
+      ],
+      "confirmed": true,
+      "uncertainty": "The live counter and displayed APR change as validators enter or exit and rewards vary; comparison to Treasuries ignores different asset risks."
+    },
+    {
+      "id": "ethereum-defi-2026-10-13",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$50.608B DeFi TVL / $145.702B stablecoins / $14.17B active RWA AUM",
+      "summary": "DefiLlama displayed Ethereum DeFi TVL near $50.608B, stablecoins near $145.702B, active real-world-asset AUM near $14.17B, 24-hour DEX volume around $1.204B and about $41.78M of net 24-hour bridge outflows. The Ethereum ecosystem remains large, but TVL declined since the October 10 snapshot and these ecosystem balances do not by themselves establish ETH token value capture.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is affected by asset prices and composition; bridge flows and AUM are live estimates with varying classifications."
+    },
+    {
+      "id": "eth-value-capture-2026-10-13",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$361,064 L1 chain fees / $73,434 chain revenue / $7.14M app fees (24h)",
+      "summary": "DefiLlama showed about $361K in Ethereum L1 chain fees, about $73K in chain revenue and about $7.14M in application fees ($1.71M application revenue) over 24 hours. Network use remains substantial, but direct L1 revenue is small relative to the application economy; the dashboard's $10K ETH-specific value-capture hurdle remains unresolved.",
+      "sourceIds": [
+        "defillama-ethereum"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fees and revenue are volatile and sensitive to methodology; ETH capture also occurs through staking, collateral utility and monetary demand, not solely reported L1 revenue."
+    },
+    {
+      "id": "global-liquidity-2026-10-13",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. 10Y yield about 5.195% / Brent about $105.90 / Fed hold odds about 80.6%",
+      "summary": "Reuters reported that in Asian trade on October 13 the U.S. 10-year Treasury yield stood around 5.195%, Brent crude near $105.90 and market-implied odds of an October Fed hold about 80.6%. The high cost of capital and energy-driven inflation risk remain cyclical headwinds for risk assets. This does not resolve or disprove the separate structural fiscal/debasement argument.",
+      "sourceIds": [
+        "reuters-global-markets-2026-10-13"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and policy probabilities update continuously and do not guarantee a Fed decision."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-10-10"
+      "accessedAt": "2026-10-13"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -3034,7 +3106,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-10"
+      "accessedAt": "2026-10-13"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -3044,7 +3116,7 @@
     "ethereum-staking": {
       "label": "ethereum.org: Ethereum staking",
       "url": "https://ethereum.org/staking/",
-      "accessedAt": "2026-10-05"
+      "accessedAt": "2026-10-13"
     },
     "sec-regulation-crypto-assets": {
       "label": "SEC Regulation Crypto Assets proposal",
@@ -3074,7 +3146,7 @@
     "defillama-ethereum": {
       "label": "DefiLlama: Ethereum DeFi TVL, fees, revenue, stablecoins, and activity",
       "url": "https://defillama.com/chain/ethereum",
-      "accessedAt": "2026-10-10"
+      "accessedAt": "2026-10-13"
     },
     "ethereum-plataberget": {
       "label": "Ethereum Foundation: Platåberget testnet",
@@ -3850,16 +3922,21 @@
       "label": "Associated Press: Wall Street finishes record-setting week, October 9",
       "url": "https://apnews.com/article/5d0f953dbf96febb0690c1aef23fa8a9",
       "accessedAt": "2026-10-10"
+    },
+    "reuters-global-markets-2026-10-13": {
+      "label": "Reuters: Asian stocks dive on AI jitters ahead of US bank earnings, October 13",
+      "url": "https://www.reuters.com/world/asia-pacific/global-markets-wrapup-1-2026-10-13/",
+      "accessedAt": "2026-10-13"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "At retrieval, ETH was about $2,492.91 and near +0.3% over 24 hours; the current 24-hour move is below the 5% alert threshold.",
-      "Farside reported -$56.1M on October 9, extending spot ETH ETF withdrawals to nine consecutive trading sessions totaling about -$697.4M; the continued trend is a serious demand headwind, but not a newly confirmed thesis-breaking event.",
-      "DeFi and RWA activity remains substantial, while direct Ethereum L1 revenue remains small relative to the application economy.",
-      "Treasury yields remained high and oil elevated after the October 9 U.S. close; no confirmed major Ethereum-specific protocol failure, regulatory decision, or sharp 24-hour price move was verified."
+      "CoinGecko's rolling 24-hour ETH move was approximately +1.6%, below the 5% notification threshold.",
+      "Farside published -$85.4M of ETH ETF outflows for October 12, extending the existing institutional withdrawal trend to 10 sessions, but this is not an independently confirmed thesis-breaking event.",
+      "Ethereum staking and tokenization/DeFi activity remain significant while ETH-specific L1 value capture is still small versus application fees.",
+      "Reuters reported continuing oil- and yield-related macro headwinds but no newly confirmed severe Ethereum protocol break, transformative regulatory decision, or 5% 24-hour move."
     ],
-    "confirmedVsUncertain": "Confirmed at October 10 access: CoinGecko's approximately $2,492.91 ETH quote; Farside's October 9 -$56.1M ETH ETF outflow and nine-session streak; DefiLlama's observed Ethereum TVL/fees and app measures; October 9 U.S. market-close Treasury and oil backdrop. Uncertain: live price and data revisions, whether ETF selling persists, future protocol activation, final regulatory actions, and eventual ETH value capture."
+    "confirmedVsUncertain": "Confirmed at October 13 access: CoinGecko's approximate market snapshot, Farside's October 12 listed fund flows, ethereum.org's staking counter, DefiLlama activity/fees and Reuters's October 13 yield/oil report. Uncertain: prices, fund-flow revisions, future protocol changes, Fed decisions, and eventual ETH-specific value capture."
   }
 }
