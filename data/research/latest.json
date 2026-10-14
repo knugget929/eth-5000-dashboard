@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-13T05:00:22.000Z",
-  "accessDate": "2026-10-13",
+  "researchedAt": "2026-10-14T05:04:22.000Z",
+  "accessDate": "2026-10-14",
   "market": {
-    "ethUsd": 2516.57,
-    "change24h": 1.6,
-    "marketCapUsd": 307350000000,
-    "volume24hUsd": 16521000000,
+    "ethUsd": 2514,
+    "change24h": 1.1,
+    "marketCapUsd": 307037000000,
+    "volume24hUsd": 10576000000,
     "sourceIds": [
-      "coingecko-eth"
+      "coingecko-eth",
+      "coinbase-eth"
     ],
-    "note": "CoinGecko's October 13 retrieval showed ETH at approximately $2,516.57, with the rolling 24-hour table near +1.6% (prominent quote +1.7%), a $2,411.24–$2,575.42 daily range, about $307.35B market capitalization and $16.521B 24-hour volume. The 24-hour change is below the 5% alert threshold. Quotes are live and can vary with retrieval time."
+    "note": "Oct 14 morning retrieval: CoinGecko ~$2,514, rolling 24h +1.1%, market cap ~$307.04B, 24h range $2,487.48–$2,535.36; Coinbase ~$2,505 and aggregate 24h volume ~$10.58B. Figures are source-specific live snapshots and may differ; no >=5% 24h move."
   },
   "observations": [
     {
@@ -3085,13 +3086,50 @@
       ],
       "confirmed": true,
       "uncertainty": "Prices and policy probabilities update continuously and do not guarantee a Fed decision."
+    },
+    {
+      "id": "eth-market-2026-10-14-0800",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,514 / +1.1% CoinGecko rolling 24h",
+      "summary": "CoinGecko's October 14 retrieval showed ETH around $2,514, approximately +1.1% over the rolling 24-hour table (the prominent price quote rounded differently), a $2,487.48–$2,535.36 range and roughly $307.04B market cap. Coinbase independently showed a nearby $2,505 quote and about $10.58B aggregate 24-hour volume. Neither price source indicated a move near the 5% alert threshold.",
+      "sourceIds": [
+        "coingecko-eth",
+        "coinbase-eth"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider prices, calculation windows, and aggregate volume methods differ and update continuously."
+    },
+    {
+      "id": "eth-etf-flow-2026-10-13-preliminary",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "+$24.8M reported October 13 / ETHA and ETHB unreported",
+      "summary": "Farside's October 13 U.S. spot ETH ETF row currently totals a provisional +$24.8M, with +$8.1M Fidelity FETH and +$16.7M Grayscale ETH. Both BlackRock ETHA and ETHB entries are still dashes, so a final positive day or the end of the prior 10-session outflow streak cannot yet be confirmed. The displayed cumulative amount is about +$13.228B, also provisional.",
+      "sourceIds": [
+        "farside-eth-etf"
+      ],
+      "confirmed": true,
+      "uncertainty": "The October 13 fund table is incomplete. Later BlackRock reporting or revisions could change the total and whether the streak ended."
+    },
+    {
+      "id": "interactive-brokers-ethereum-staking-2026-10-13",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Interactive Brokers launches ETH staking for eligible Interactive Brokers LLC clients",
+      "summary": "Interactive Brokers announced on October 13 that eligible Interactive Brokers LLC customers can stake and unstake ETH within the Client Portal, with staking provided by zerohash and eligible rewards compounded as staked ETH. This meaningfully broadens traditional brokerage distribution for ETH staking and reduces customer friction; the announcement did not quantify client enrollment, volumes, staking yield, platform fees or incremental ETH purchases.",
+      "sourceIds": [
+        "interactive-brokers-staking-2026-10-13"
+      ],
+      "confirmed": true,
+      "uncertainty": "Country/affiliate eligibility varies, and the announcement does not demonstrate new net ETH demand, protocol fee gains, or a lasting change in ETH price."
     }
   ],
   "sources": {
     "coingecko-eth": {
       "label": "CoinGecko Ethereum market data",
       "url": "https://www.coingecko.com/en/coins/ethereum",
-      "accessedAt": "2026-10-13"
+      "accessedAt": "2026-10-14"
     },
     "binance-eth": {
       "label": "Binance Ethereum market data",
@@ -3106,7 +3144,7 @@
     "farside-eth-etf": {
       "label": "Farside Investors: U.S. Ethereum ETF flows",
       "url": "https://farside.co.uk/eth/",
-      "accessedAt": "2026-10-13"
+      "accessedAt": "2026-10-14"
     },
     "bitmine-sec-8k-exhibit": {
       "label": "BitMine August 31, 2026 Form 8-K Exhibit 99.1",
@@ -3239,9 +3277,9 @@
       "accessedAt": "2026-09-03"
     },
     "coinbase-eth": {
-      "label": "Coinbase Ethereum market data",
+      "label": "Coinbase Ethereum market overview",
       "url": "https://www.coinbase.com/price/ethereum",
-      "accessedAt": "2026-09-10"
+      "accessedAt": "2026-10-14"
     },
     "standard-chartered-uae-spot": {
       "label": "Standard Chartered: institutional Bitcoin and Ether spot trading in the UAE",
@@ -3927,16 +3965,21 @@
       "label": "Reuters: Asian stocks dive on AI jitters ahead of US bank earnings, October 13",
       "url": "https://www.reuters.com/world/asia-pacific/global-markets-wrapup-1-2026-10-13/",
       "accessedAt": "2026-10-13"
+    },
+    "interactive-brokers-staking-2026-10-13": {
+      "label": "Interactive Brokers announcement: Cryptocurrency Staking launch, 13 Oct 2026",
+      "url": "https://investors.interactivebrokers.com/en/general/about/mediaRelations/10-13-26.php",
+      "accessedAt": "2026-10-14"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "CoinGecko's rolling 24-hour ETH move was approximately +1.6%, below the 5% notification threshold.",
-      "Farside published -$85.4M of ETH ETF outflows for October 12, extending the existing institutional withdrawal trend to 10 sessions, but this is not an independently confirmed thesis-breaking event.",
-      "Ethereum staking and tokenization/DeFi activity remain significant while ETH-specific L1 value capture is still small versus application fees.",
-      "Reuters reported continuing oil- and yield-related macro headwinds but no newly confirmed severe Ethereum protocol break, transformative regulatory decision, or 5% 24-hour move."
+      "Interactive Brokers' October 13 official launch of Ethereum staking for eligible brokerage clients is a notable traditional-finance distribution milestone, without demonstrated take-up or new net demand.",
+      "CoinGecko's rolling 24-hour ETH move was about +1.1%, below the 5% price alert threshold.",
+      "Farside's October 13 +$24.8M headline remains incomplete because two BlackRock funds are not reported; a confirmed reversal of the 10-session outflow streak cannot yet be concluded.",
+      "No evidence verified in this research pass calls for catalyst scores, probabilities or policy changes."
     ],
-    "confirmedVsUncertain": "Confirmed at October 13 access: CoinGecko's approximate market snapshot, Farside's October 12 listed fund flows, ethereum.org's staking counter, DefiLlama activity/fees and Reuters's October 13 yield/oil report. Uncertain: prices, fund-flow revisions, future protocol changes, Fed decisions, and eventual ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: October 13 Interactive Brokers press release, Oct 14 CoinGecko and Coinbase snapshots, and Farside's partial October 13 row. Uncertain: ultimate net ETF flows, staking customer adoption and incremental ETH demand, ongoing protocol and macro conditions."
   }
 }
