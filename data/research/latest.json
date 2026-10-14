@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-13T05:00:22.000Z",
-  "accessDate": "2026-10-13",
+  "researchedAt": "2026-10-14T18:54:33Z",
+  "accessDate": "2026-10-14",
   "market": {
-    "ethUsd": 2516.57,
-    "change24h": 1.6,
-    "marketCapUsd": 307350000000,
-    "volume24hUsd": 16521000000,
+    "ethUsd": 2422.39,
+    "change24h": -3.2,
+    "marketCapUsd": 295854946664,
+    "volume24hUsd": 12236460220.5,
     "sourceIds": [
-      "coingecko-eth"
+      "coingecko-eth-2026-10-14"
     ],
-    "note": "CoinGecko's October 13 retrieval showed ETH at approximately $2,516.57, with the rolling 24-hour table near +1.6% (prominent quote +1.7%), a $2,411.24–$2,575.42 daily range, about $307.35B market capitalization and $16.521B 24-hour volume. The 24-hour change is below the 5% alert threshold. Quotes are live and can vary with retrieval time."
+    "note": "October 14 CoinGecko textual market snapshot: $2,422.39, -3.20% over 24 hours, -5.30% over seven days. Different live page components vary slightly; use this internally consistent textual snapshot. Below the 5% daily-move threshold."
   },
   "observations": [
     {
@@ -3085,6 +3085,129 @@
       ],
       "confirmed": true,
       "uncertainty": "Prices and policy probabilities update continuously and do not guarantee a Fed decision."
+    },
+    {
+      "id": "institutional-access-2026-10-14",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Standard Chartered UAE Ether trading; IBKR Ethereum staking",
+      "summary": "Standard Chartered announced bank-account BTC/ETH trading for eligible UAE Professional Investors on October 14, with custody and settlement in its ecosystem. Interactive Brokers announced ETH staking through zerohash on October 13. These expand regulated distribution and staking access, not verified net ETH buying.",
+      "sourceIds": [
+        "sc-eth-access-2026-10-14",
+        "ibkr-staking-2026-10-13"
+      ],
+      "confirmed": true,
+      "uncertainty": "Product availability and client eligibility are limited; neither release quantifies adoption, inflows or price impact."
+    },
+    {
+      "id": "etf-flows-2026-10-14",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "October 13 +$24.8M net inflows",
+      "summary": "Farside lists +$24.8M on October 13 after ten consecutive negative sessions. October 14 fund cells are unreported hyphens; the displayed total is not a verified zero-flow day.",
+      "sourceIds": [
+        "farside-eth-2026-10-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "One positive day does not establish a durable demand reversal; flow records may be revised."
+    },
+    {
+      "id": "network-staking-2026-10-14",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "43,950,553 ETH staked / about 35% / 2.5% APR",
+      "summary": "Ethereum.org displayed 43.951M staked ETH, 35% participation and 2.5% APR, below the prior 44.049M counter. Broad participation remains; do not describe the latest counter as increasing.",
+      "sourceIds": [
+        "ethereum-staking-2026-10-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live counters and APR vary; no cause for the counter change was independently established."
+    },
+    {
+      "id": "defi-tokenization-2026-10-14",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$50.121B TVL / $144.664B stablecoins / $14.12B active RWA AUM",
+      "summary": "DefiLlama shows substantial Ethereum ecosystem balances alongside -$289.91M net 24-hour inflows. TVL is price-sensitive and tokenized balances are not automatically ETH revenue.",
+      "sourceIds": [
+        "defillama-eth-2026-10-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live estimates and classification differences limit causal interpretation."
+    },
+    {
+      "id": "eth-capture-2026-10-14",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$354,748 chain fees / $75,211 chain revenue / $7.55M app fees",
+      "summary": "DefiLlama's 24-hour chain revenue remains much smaller than application fees ($1.52M app revenue). The $10K ETH-specific value-capture hurdle remains unresolved despite ecosystem scale.",
+      "sourceIds": [
+        "defillama-eth-2026-10-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fees and revenue methodology differ across providers; ETH monetary and collateral demand are separate."
+    },
+    {
+      "id": "market-structure-2026-10-14",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH -3.2% 24h; Ethereum DEX weekly volume -13.07%",
+      "summary": "The ETH daily move is below the alert gate. DefiLlama reports $1.262B daily DEX volume and $8.035B weekly volume, down 13.07%; this is not evidence of forced deleveraging by itself.",
+      "sourceIds": [
+        "coingecko-eth-2026-10-14",
+        "defillama-eth-2026-10-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live data do not establish liquidation size, leverage or causation."
+    },
+    {
+      "id": "macro-beige-book-2026-10-14",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Intensifying price pressure; low-hire/low-fire economy",
+      "summary": "Reuters reports that the October 14 Fed Beige Book found fuel-cost pass-through and intensifying inflation in parts of the country, with subdued hiring. Tightening risk remains a cyclical ETH headwind.",
+      "sourceIds": [
+        "reuters-beige-book-2026-10-14"
+      ],
+      "confirmed": true,
+      "uncertainty": "Survey collected by October 5; next Fed decision is not established."
+    },
+    {
+      "id": "protocol-review-2026-10-14",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "Official EF blog reviewed; no fresh mainnet-outcome claim",
+      "summary": "The official archive's newest listed posts concern transaction assertions and zkAPI. Existing upgrade evidence is retained; no new successful activation or severe protocol failure is asserted from this limited review.",
+      "sourceIds": [
+        "ef-blog-2026-10-14"
+      ],
+      "confirmed": false,
+      "uncertainty": "Archive coverage is not a live chain-health audit."
+    },
+    {
+      "id": "us-regulation-review-2026-10-14",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "CFTC/SEC release listings reviewed; existing policy evidence retained",
+      "summary": "The CFTC listing retains its October 5 crypto rulemaking consultation, not a final adopted rule. No new sweeping US Ethereum legal outcome was verified in this review; the UAE bank launch does not establish US policy change.",
+      "sourceIds": [
+        "cftc-releases-2026-10-14",
+        "sec-releases-2026-10-14"
+      ],
+      "confirmed": false,
+      "uncertainty": "Release-page review is not exhaustive legal surveillance."
+    },
+    {
+      "id": "debasement-lens-2026-10-14",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Structural thesis remains distinct from cyclical tightening",
+      "summary": "Elevated price pressures and restrictive-policy risk do not themselves prove persistent monetary debasement or ETH demand capture. Retain the prior fiscal lens without assigning a new probability or conflating inflation with a confirmed ETH monetary premium.",
+      "sourceIds": [
+        "reuters-beige-book-2026-10-14"
+      ],
+      "confirmed": false,
+      "uncertainty": "No new primary long-run fiscal measurement was added; eventual ETH-specific capture remains uncertain."
     }
   ],
   "sources": {
@@ -3927,16 +4050,65 @@
       "label": "Reuters: Asian stocks dive on AI jitters ahead of US bank earnings, October 13",
       "url": "https://www.reuters.com/world/asia-pacific/global-markets-wrapup-1-2026-10-13/",
       "accessedAt": "2026-10-13"
+    },
+    "coingecko-eth-2026-10-14": {
+      "label": "CoinGecko: ETH live market snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-14"
+    },
+    "farside-eth-2026-10-14": {
+      "label": "Farside: US ETH ETF flows, October 13 reporting",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-14"
+    },
+    "ethereum-staking-2026-10-14": {
+      "label": "Ethereum.org live staking counter",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-14"
+    },
+    "defillama-eth-2026-10-14": {
+      "label": "DefiLlama: Ethereum activity and value capture",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-14"
+    },
+    "ibkr-staking-2026-10-13": {
+      "label": "Interactive Brokers: ETH staking launch October 13",
+      "url": "https://www.interactivebrokers.com/en/general/about/mediaRelations/10-13-26.php",
+      "accessedAt": "2026-10-14"
+    },
+    "sc-eth-access-2026-10-14": {
+      "label": "Standard Chartered: UAE crypto trading launch October 14",
+      "url": "https://www.sc.com/en/press-release/standard-chartered-unveils-first-of-its-kind-cryptocurrency-trading-solution-for-affluent-clients/",
+      "accessedAt": "2026-10-14"
+    },
+    "reuters-beige-book-2026-10-14": {
+      "label": "Reuters: Fed Beige Book price pressure and hiring",
+      "url": "https://www.reuters.com/business/fed-survey-shows-price-pressures-intensifying-amid-rise-fuel-costs-2026-10-14/",
+      "accessedAt": "2026-10-14"
+    },
+    "ef-blog-2026-10-14": {
+      "label": "Ethereum Foundation blog archive, accessed October 14",
+      "url": "https://blog.ethereum.org/archive",
+      "accessedAt": "2026-10-14"
+    },
+    "cftc-releases-2026-10-14": {
+      "label": "CFTC official press releases, accessed October 14",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "accessedAt": "2026-10-14"
+    },
+    "sec-releases-2026-10-14": {
+      "label": "SEC official press releases, accessed October 14",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-14"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "CoinGecko's rolling 24-hour ETH move was approximately +1.6%, below the 5% notification threshold.",
-      "Farside published -$85.4M of ETH ETF outflows for October 12, extending the existing institutional withdrawal trend to 10 sessions, but this is not an independently confirmed thesis-breaking event.",
-      "Ethereum staking and tokenization/DeFi activity remain significant while ETH-specific L1 value capture is still small versus application fees.",
-      "Reuters reported continuing oil- and yield-related macro headwinds but no newly confirmed severe Ethereum protocol break, transformative regulatory decision, or 5% 24-hour move."
+      "Confirmed Standard Chartered UAE bank-integrated Ether access and Interactive Brokers ETH staking are significant institutional distribution developments.",
+      "ETH's -3.20% daily move is below the 5% price alert threshold; the alert is for verified access expansion, not price.",
+      "One positive ETF-flow session does not erase prior withdrawals; adoption, actual inflows and price consequences remain unknown."
     ],
-    "confirmedVsUncertain": "Confirmed at October 13 access: CoinGecko's approximate market snapshot, Farside's October 12 listed fund flows, ethereum.org's staking counter, DefiLlama activity/fees and Reuters's October 13 yield/oil report. Uncertain: prices, fund-flow revisions, future protocol changes, Fed decisions, and eventual ETH-specific value capture."
+    "confirmedVsUncertain": "Confirmed: dated bank/broker product announcements and retrieved market/ETF/staking/DeFi observations. Inferred: access expansion is supportive to distribution. Unknown: customer uptake, net ETH purchases, persistence of ETF inflows, future Fed decisions and ETH-specific monetary/value capture. Official release/EF reviews are limited, not exhaustive."
   }
 }
