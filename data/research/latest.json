@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-15T05:53:11Z",
+  "researchedAt": "2026-10-15T19:07:04Z",
   "accessDate": "2026-10-15",
   "market": {
-    "ethUsd": 2360.05,
-    "change24h": -5.8,
-    "marketCapUsd": 288257185663,
-    "volume24hUsd": 17786320498.04,
+    "ethUsd": 2447.56,
+    "change24h": 0.7,
+    "marketCapUsd": 298923766086,
+    "volume24hUsd": 20285116250.1,
     "sourceIds": [
-      "coingecko-eth-2026-10-15"
+      "coingecko-eth-2026-10-15-evening"
     ],
-    "note": "CoinGecko October 15 textual snapshot: $2,360.05, -5.80% over 24 hours and -7.00% over seven days, $288.257B market cap and $17.786B 24-hour volume. This breaches the absolute 5% daily alert threshold. Live page components and providers can differ; use this internally consistent textual snapshot."
+    "note": "October15 evening CoinGecko textual snapshot: $2,447.56, +0.70% rolling24h and +1.30% seven-day; market cap $298.924B and volume $20.285B. Live page components differ in timing/currency; retain this internally consistent USD paragraph. DefiLlama separately quoted about $2,444. Neither the quote nor a rebound alone identifies buying/covering or reverses the scored thesis."
   },
   "observations": [
     {
@@ -3329,6 +3329,152 @@
       ],
       "confirmed": false,
       "uncertainty": "No new primary fiscal measurement was added; ETH-specific capture remains uncertain."
+    },
+    {
+      "id": "eth-market-2026-10-15-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,447.56 / +0.70% 24h",
+      "summary": "The rolling change is now below the existing absolute5% alert gate; the morning's -5.80% snapshot remains preserved rather than overwritten. Different rolling windows do not establish a durable trend reversal.",
+      "sourceIds": [
+        "coingecko-eth-2026-10-15-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider components update asynchronously; causation and leverage are not established."
+    },
+    {
+      "id": "etf-flows-2026-10-15-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October14 -$129.5M; October15 unreported",
+      "summary": "Farside still reports October14 outflows of $129.5M and cumulative flows near $13.098B. October15 fund cells remain hyphens; their displayed total is not verified zero flow.",
+      "sourceIds": [
+        "farside-eth-2026-10-15-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Unreported current-day cells cannot establish demand or no change."
+    },
+    {
+      "id": "staking-counter-2026-10-15-evening",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "43,948,738 ETH /35% /2.5% APR",
+      "summary": "The official page displays 43.949M staked ETH, slightly below the morning counter. The display lacks a fresh block-level measurement time, so no flow cause or validator-movement total is inferred.",
+      "sourceIds": [
+        "ethereum-staking-2026-10-15-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Page metrics may be cached and are not a queue audit."
+    },
+    {
+      "id": "kr1-stvault-2026-10-15",
+      "catalyst": "staking",
+      "direction": "supportive",
+      "value": "10 initial validators; up to6,000 ETH target",
+      "summary": "Lido announced KR1's dedicated P2P.org-operated Ethereum stVault on October15. The launch starts with ten validators; up to6,000 ETH is a near-term target, not verified deployed stake. KR1 retains vault controls and may mint stETH.",
+      "sourceIds": [
+        "lido-kr1-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Issuer/operator announcement, not independently audited net inflow; entry-queue timing and staking risks remain."
+    },
+    {
+      "id": "metamask-staking-vote-2026-10-15",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "October14 Lido vote to halt new operator allocations",
+      "summary": "A fresh review of the existing September30 incident thread finds an October14 update: vote206 proposes zero soft target limits for MetaMask Staking in CMv1/CMv2. It is a containment/governance proposal, not proof of completed execution or a new chain-wide failure.",
+      "sourceIds": [
+        "lido-metamask-vote-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "The forum reports voting through October17; final vote outcome and execution were not independently verified."
+    },
+    {
+      "id": "defi-tokenization-2026-10-15-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$50.199B TVL /$144.498B stablecoins /$14.114B RWA",
+      "summary": "DefiLlama's evening balances remain substantial. TVL is down1.41% over24h and net daily inflows are -$80.99M. Price-sensitive balances are not direct ETH-holder income.",
+      "sourceIds": [
+        "defillama-eth-2026-10-15-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live provider estimates and methodology vary."
+    },
+    {
+      "id": "eth-capture-2026-10-15-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$541,188 chain fees /$122,050 chain revenue /$8.01M app fees",
+      "summary": "Daily chain revenue improved from the morning retrieval but remains far below application fees ($2.06M app revenue). DEX volume is $1.597B daily and $7.8B weekly, down17.16%. One day does not resolve sustained ETH value capture.",
+      "sourceIds": [
+        "defillama-eth-2026-10-15-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "These measures differ from ETH-holder income; collateral, staking and monetary utility remain separate."
+    },
+    {
+      "id": "ppi-release-2026-10-15",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "September final-demand PPI +1.3% monthly /+6.3% yearly",
+      "summary": "BLS's October15 release shows the largest monthly final-demand PPI increase since March2022. Excluding foods, energy and trade services, prices rose0.5% monthly and5.0% yearly. This is restrictive-policy context, not an announced Fed action.",
+      "sourceIds": [
+        "bls-ppi-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Producer inflation is not consumer inflation or a known future policy decision."
+    },
+    {
+      "id": "ai-credit-risk-2026-10-15",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "CoreWeave five-year CDS above1,100bps",
+      "summary": "Reuters reports this credit-protection spread and a2031 bond yield peaking at16% before retreating near14%. This is financing stress around AI, not a confirmed default or Ethereum failure.",
+      "sourceIds": [
+        "reuters-ai-credit-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Market quotations change; transmission to ETH is uncertain."
+    },
+    {
+      "id": "regulatory-review-2026-10-15-evening",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC/CFTC listings reviewed; proposals remain proposals",
+      "summary": "Official lists retain the SEC's October1 crypto-custody proposal and CFTC's October5 consultation. This limited review establishes no new final ETH-wide US legal outcome.",
+      "sourceIds": [
+        "sec-releases-2026-10-15-evening",
+        "cftc-releases-2026-10-15-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Release listings do not provide exhaustive legal surveillance."
+    },
+    {
+      "id": "protocol-review-2026-10-15-evening",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF archive reviewed; no new execution conclusion",
+      "summary": "The archive retains prior roadmap/testnet material; no new activation success or chain-wide failure is inferred. Aggregated third-party headlines without primary confirmation were not promoted to facts.",
+      "sourceIds": [
+        "ef-archive-2026-10-15-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Archive review is not a live network-health audit."
+    },
+    {
+      "id": "debasement-review-2026-10-15-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Inflation and credit stress are not monetary debasement proof",
+      "summary": "The new PPI and financing-risk observations describe cyclical risks, not new primary long-run fiscal measurements or a verified ETH monetary premium. Preserve the structural fiscal evidence and keep it distinct from Fed/liquidity.",
+      "sourceIds": [
+        "bls-ppi-2026-10-15",
+        "reuters-ai-credit-2026-10-15"
+      ],
+      "confirmed": false,
+      "uncertainty": "No new debt/deficit measurement or enduring ETH-specific monetary capture was established."
     }
   ],
   "sources": {
@@ -4266,15 +4412,70 @@
       "label": "CFTC press releases, October 15 review",
       "url": "https://www.cftc.gov/PressRoom/PressReleases",
       "accessedAt": "2026-10-15"
+    },
+    "coingecko-eth-2026-10-15-evening": {
+      "label": "CoinGecko ETH evening textual snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-15"
+    },
+    "farside-eth-2026-10-15-evening": {
+      "label": "Farside US Ethereum ETF flows evening review",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-15"
+    },
+    "ethereum-staking-2026-10-15-evening": {
+      "label": "ethereum.org staking evening counters",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-15"
+    },
+    "defillama-eth-2026-10-15-evening": {
+      "label": "DefiLlama Ethereum evening metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-15"
+    },
+    "lido-kr1-2026-10-15": {
+      "label": "Lido: KR1 dedicated Ethereum validators",
+      "url": "https://blog.lido.fi/lido-v3-kr1-x-p2p-org-london-stock-exchange-listed-company-launches-dedicated-ethereum-validators-on-stvaults/",
+      "accessedAt": "2026-10-15"
+    },
+    "lido-metamask-vote-2026-10-15": {
+      "label": "Lido governance: MetaMask staking precautionary exits and vote update",
+      "url": "https://research.lido.fi/t/security-disclosure-metamask-staking-precautionary-out-of-order-exits/11961",
+      "accessedAt": "2026-10-15"
+    },
+    "bls-ppi-2026-10-15": {
+      "label": "BLS September 2026 PPI released October15",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "accessedAt": "2026-10-15"
+    },
+    "reuters-ai-credit-2026-10-15": {
+      "label": "Reuters: AI credit insurance and bonds October15",
+      "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/",
+      "accessedAt": "2026-10-15"
+    },
+    "ef-archive-2026-10-15-evening": {
+      "label": "Ethereum Foundation blog evening review",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-15"
+    },
+    "sec-releases-2026-10-15-evening": {
+      "label": "SEC release listing evening review",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-15"
+    },
+    "cftc-releases-2026-10-15-evening": {
+      "label": "CFTC release listing evening review",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "accessedAt": "2026-10-15"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "CoinGecko's -5.80% rolling 24-hour ETH move breaches the existing 5% alert threshold.",
-      "Newly reported October 14 ETH ETF outflows of $129.5M replace yesterday's unreported row and reverse the prior positive day.",
-      "Broader risk aversion and ETF withdrawals are verified context; they do not prove sole causation, a severe protocol break or a long-run thesis failure."
+      "Evening rolling ETH change of +0.70% is below the existing5% daily-move threshold; the morning alert is preserved and not repeated.",
+      "KR1's limited initial staking launch and the Lido containment vote are evidence updates, not independently major market-wide ETH or thesis-breaking events.",
+      "New PPI and AI-credit observations are macro context; neither establishes a Fed decision, protocol failure or automatic thesis change."
     ],
-    "confirmedVsUncertain": "Confirmed at October 15 retrieval: sourced ETH quote and ETF record, displayed staking metrics and DeFi activity, Reuters macro observations. Unknown: precise causes, liquidation exposure, customer uptake of yesterday's distribution launches, future Fed policy, live protocol health beyond release-page review, and enduring ETH monetary/value capture. Prior evidence and every probability/score are preserved."
+    "confirmedVsUncertain": "Confirmed at evening retrieval: sourced USD textual market snapshot, last reported ETF session, displayed staking/DeFi counters, Lido announcements and BLS/Reuters observations. Unknown: today's ETF flows, live consensus health beyond archive review, final governance execution, actual target staking rollout, future Fed policy, market causation and durable ETH value capture. Every old observation/source and all scored judgments remain unchanged."
   }
 }
