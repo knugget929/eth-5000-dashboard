@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-14T18:54:33Z",
-  "accessDate": "2026-10-14",
+  "researchedAt": "2026-10-15T05:53:11Z",
+  "accessDate": "2026-10-15",
   "market": {
-    "ethUsd": 2422.39,
-    "change24h": -3.2,
-    "marketCapUsd": 295854946664,
-    "volume24hUsd": 12236460220.5,
+    "ethUsd": 2360.05,
+    "change24h": -5.8,
+    "marketCapUsd": 288257185663,
+    "volume24hUsd": 17786320498.04,
     "sourceIds": [
-      "coingecko-eth-2026-10-14"
+      "coingecko-eth-2026-10-15"
     ],
-    "note": "October 14 CoinGecko textual market snapshot: $2,422.39, -3.20% over 24 hours, -5.30% over seven days. Different live page components vary slightly; use this internally consistent textual snapshot. Below the 5% daily-move threshold."
+    "note": "CoinGecko October 15 textual snapshot: $2,360.05, -5.80% over 24 hours and -7.00% over seven days, $288.257B market cap and $17.786B 24-hour volume. This breaches the absolute 5% daily alert threshold. Live page components and providers can differ; use this internally consistent textual snapshot."
   },
   "observations": [
     {
@@ -3208,6 +3208,127 @@
       ],
       "confirmed": false,
       "uncertainty": "No new primary long-run fiscal measurement was added; eventual ETH-specific capture remains uncertain."
+    },
+    {
+      "id": "eth-price-alert-2026-10-15",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH $2,360.05 / -5.80% 24h",
+      "summary": "CoinGecko's quoted daily decline crosses the existing 5% notification gate. The move alone is not a protocol failure or proof of a broken long-run thesis.",
+      "sourceIds": [
+        "coingecko-eth-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Rolling quotes vary; causation and leverage are not established by price alone."
+    },
+    {
+      "id": "etf-flows-2026-10-15",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 14 -$129.5M US ETH ETF flows",
+      "summary": "Farside now reports October 14 outflows of $129.5M, reversing October 13's $24.8M inflow. The previously unreported October 14 row is now populated; cumulative reported flows are about $13.098B. One positive day did not establish a durable reversal.",
+      "sourceIds": [
+        "farside-eth-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Aggregated provider values may be revised; ETF flows are not the entire institutional market."
+    },
+    {
+      "id": "staking-review-2026-10-15",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "43,950,553 ETH / 35% / 2.5% APR displayed",
+      "summary": "The official staking page still displays 43.951M ETH, 35% and 2.5% APR. The same counter as yesterday is not evidence of zero validator movement; the page does not provide a fresh block-level measurement timestamp.",
+      "sourceIds": [
+        "ethereum-staking-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Displayed metrics may be cached; no independently dated queue or validator-flow observation was obtained."
+    },
+    {
+      "id": "defi-tokenization-2026-10-15",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$49.753B TVL / $144.495B stablecoins / $14.102B active RWA",
+      "summary": "DefiLlama displays sizeable Ethereum balances but TVL down 2.28% over 24 hours and net daily inflows of -$108.84M. This is ecosystem activity, not directly ETH-holder income.",
+      "sourceIds": [
+        "defillama-eth-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live estimates and price-sensitive balances do not identify underlying causes."
+    },
+    {
+      "id": "eth-capture-2026-10-15",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$453,315 chain fees / $103,906 chain revenue / $7.91M app fees",
+      "summary": "DefiLlama chain fees and revenue rose from the previous retrieval; application fees remain much larger ($2.04M app revenue). DEX volume is $1.256B daily and $7.8B weekly, down 17.16%. One day's activity does not resolve the $10K token-capture hurdle.",
+      "sourceIds": [
+        "defillama-eth-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Reported revenue differs by methodology; monetary, collateral and staking utility are separate."
+    },
+    {
+      "id": "macro-risk-off-2026-10-15",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Asian equity selloff; safe-haven Treasury demand",
+      "summary": "Reuters reports sharp Asian equity losses, including Korea's KOSPI near -8% and Nikkei near -4.8% in the cited intraday report. Risk aversion broadens beyond ETH; this is context, not proof that one macro release caused the crypto move.",
+      "sourceIds": [
+        "reuters-asia-risk-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Intraday prices may change; AI valuation and financing concerns are competing explanations."
+    },
+    {
+      "id": "fed-liquidity-2026-10-15",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "10Y Treasury yield touched 5.0933%; dollar eased",
+      "summary": "Reuters reports safe-haven bond buying and cautious Fed remarks tempered October hike bets. Lower yields in a risk-off episode are not an announced liquidity expansion or rate cut.",
+      "sourceIds": [
+        "reuters-dollar-yields-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "The next Fed decision and persistence of the bond rally remain unknown."
+    },
+    {
+      "id": "regulatory-review-2026-10-15",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC/CFTC official release listings checked",
+      "summary": "The SEC list retains the October 1 proposed crypto-custody framework; CFTC retains the October 5 crypto consultation. No new final ETH-wide US legal outcome is established from these listings.",
+      "sourceIds": [
+        "sec-releases-2026-10-15",
+        "cftc-releases-2026-10-15"
+      ],
+      "confirmed": false,
+      "uncertainty": "A proposed framework is not a final rule; listings are not exhaustive legal surveillance."
+    },
+    {
+      "id": "protocol-review-2026-10-15",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "Official archive reviewed; prior upgrade evidence preserved",
+      "summary": "No new protocol execution success or chain-wide failure is inferred from the archive review. Existing observations retain their dates; a market decline is not execution-layer failure evidence.",
+      "sourceIds": [
+        "ef-archive-2026-10-15"
+      ],
+      "confirmed": false,
+      "uncertainty": "Archive retrieval is not a live consensus or chain-health audit."
+    },
+    {
+      "id": "debasement-review-2026-10-15",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Structural fiscal lens separate from cyclical risk aversion",
+      "summary": "The Treasury rally and dollar retreat do not independently confirm persistent monetary debasement or a durable ETH monetary premium. Retain prior structural evidence without changing policy, scores or target probabilities.",
+      "sourceIds": [
+        "reuters-dollar-yields-2026-10-15"
+      ],
+      "confirmed": false,
+      "uncertainty": "No new primary fiscal measurement was added; ETH-specific capture remains uncertain."
     }
   ],
   "sources": {
@@ -4100,15 +4221,60 @@
       "label": "SEC official press releases, accessed October 14",
       "url": "https://www.sec.gov/newsroom/press-releases",
       "accessedAt": "2026-10-14"
+    },
+    "coingecko-eth-2026-10-15": {
+      "label": "CoinGecko ETH market snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-15"
+    },
+    "farside-eth-2026-10-15": {
+      "label": "Farside October 14 US ETH ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-15"
+    },
+    "ethereum-staking-2026-10-15": {
+      "label": "Ethereum.org staking counter, October 15 retrieval",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-15"
+    },
+    "defillama-eth-2026-10-15": {
+      "label": "DefiLlama Ethereum activity, October 15 retrieval",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-15"
+    },
+    "reuters-asia-risk-2026-10-15": {
+      "label": "Reuters Asian equities risk-off selloff October 15",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-15/",
+      "accessedAt": "2026-10-15"
+    },
+    "reuters-dollar-yields-2026-10-15": {
+      "label": "Reuters Treasury rally and cautious Fed remarks October 15",
+      "url": "https://www.reuters.com/world/asia-pacific/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials-temper-hike-bets-2026-10-15/",
+      "accessedAt": "2026-10-15"
+    },
+    "ef-archive-2026-10-15": {
+      "label": "Ethereum Foundation archive, October 15 review",
+      "url": "https://blog.ethereum.org/archive",
+      "accessedAt": "2026-10-15"
+    },
+    "sec-releases-2026-10-15": {
+      "label": "SEC press releases, October 15 review",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-15"
+    },
+    "cftc-releases-2026-10-15": {
+      "label": "CFTC press releases, October 15 review",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "accessedAt": "2026-10-15"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "Confirmed Standard Chartered UAE bank-integrated Ether access and Interactive Brokers ETH staking are significant institutional distribution developments.",
-      "ETH's -3.20% daily move is below the 5% price alert threshold; the alert is for verified access expansion, not price.",
-      "One positive ETF-flow session does not erase prior withdrawals; adoption, actual inflows and price consequences remain unknown."
+      "CoinGecko's -5.80% rolling 24-hour ETH move breaches the existing 5% alert threshold.",
+      "Newly reported October 14 ETH ETF outflows of $129.5M replace yesterday's unreported row and reverse the prior positive day.",
+      "Broader risk aversion and ETF withdrawals are verified context; they do not prove sole causation, a severe protocol break or a long-run thesis failure."
     ],
-    "confirmedVsUncertain": "Confirmed: dated bank/broker product announcements and retrieved market/ETF/staking/DeFi observations. Inferred: access expansion is supportive to distribution. Unknown: customer uptake, net ETH purchases, persistence of ETF inflows, future Fed decisions and ETH-specific monetary/value capture. Official release/EF reviews are limited, not exhaustive."
+    "confirmedVsUncertain": "Confirmed at October 15 retrieval: sourced ETH quote and ETF record, displayed staking metrics and DeFi activity, Reuters macro observations. Unknown: precise causes, liquidation exposure, customer uptake of yesterday's distribution launches, future Fed policy, live protocol health beyond release-page review, and enduring ETH monetary/value capture. Prior evidence and every probability/score are preserved."
   }
 }
