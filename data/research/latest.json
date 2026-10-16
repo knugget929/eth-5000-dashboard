@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-16T05:53:36Z",
+  "researchedAt": "2026-10-16T18:52:39Z",
   "accessDate": "2026-10-16",
   "market": {
-    "ethUsd": 2444.72,
-    "change24h": 3.6,
-    "marketCapUsd": 298602937457,
-    "volume24hUsd": 14804256358.07,
+    "ethUsd": 2414.83,
+    "change24h": -1.1,
+    "marketCapUsd": 294993080256,
+    "volume24hUsd": 12560387756.86,
     "sourceIds": [
-      "coingecko-eth-2026-10-16-morning"
+      "coingecko-eth-2026-10-16-evening"
     ],
-    "note": "October16 morning CoinGecko textual snapshot: $2,444.72, +3.60% rolling24h and -2.00% seven-day, market cap $298.603B and volume $14.804B. Other live page components have different observation times; retain this internally consistent paragraph snapshot, not a synchronized trade or attribution of cause."
+    "note": "October16 evening CoinGecko textual paragraph snapshot: $2,414.83, -1.10% rolling24h and -3.30%7d; market cap $294.993B, volume $12.560B. Components elsewhere on the live page differ in timing. The rolling change is not a return between automation runs, and no cause is inferred."
   },
   "observations": [
     {
@@ -3598,6 +3598,152 @@
       ],
       "confirmed": false,
       "uncertainty": "No new structural fiscal measurement was established in this bounded review."
+    },
+    {
+      "id": "eth-market-2026-10-16-evening",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$2,414.83; -1.10%24h; -3.30%7d",
+      "summary": "The internally consistent textual paragraph gives $12.560B24h volume and $294.993B capitalization. The absolute rolling move is below the unchanged5% alert threshold and is not itself evidence of a protocol or long-run thesis break.",
+      "sourceIds": [
+        "coingecko-eth-2026-10-16-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live quotation components differ in observation time; no between-run return or causation claim."
+    },
+    {
+      "id": "eth-etf-2026-10-16-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October15 -$60.3M; October16 unreported",
+      "summary": "Farside retains October15 ETHA -$44.4M, FETH +$2.4M and ETHE -$18.3M, total -$60.3M. October16 fund cells are dashes; the displayed0.0 total is not evidence of zero net flows. Cumulative reported total remains $13.038B.",
+      "sourceIds": [
+        "farside-eth-2026-10-16-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "October16 US trading is incomplete at retrieval and final fund flows are unknown."
+    },
+    {
+      "id": "eth-staking-2026-10-16-evening",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "43,948,738ETH;35%;2.5%APR displayed",
+      "summary": "The official page still shows the same counters. The page-update label is old and does not timestamp the staking measurement. No zero-flow, validator-queue or governance-execution conclusion is inferred from an unchanged display.",
+      "sourceIds": [
+        "ethereum-staking-2026-10-16-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Counter freshness and block-level measurement time are unverified."
+    },
+    {
+      "id": "eth-defi-2026-10-16-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$49.990B;stablecoins$144.476B;RWA$13.960B",
+      "summary": "DefiLlama displays TVL -0.08%24h, stablecoins -0.54%7d, DEX$1.229B24h/$7.773B7d (weekly -21.33%) and net inflows -$271.48M24h. Balances retain a substantial footprint but are not ETH-holder income.",
+      "sourceIds": [
+        "defillama-eth-2026-10-16-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live provider counters differ in timing, asset prices and methodology."
+    },
+    {
+      "id": "eth-capture-2026-10-16-evening",
+      "catalyst": "value-capture",
+      "direction": "headwind",
+      "value": "Chain fees$364,520;chain revenue$70,06924h",
+      "summary": "Application fees are $13.47M and application revenue $2.72M24h. Chain revenue weakened versus the morning display; one daily observation does not establish a durable trend or resolve ETH capture through settlement, collateral, staking or burn.",
+      "sourceIds": [
+        "defillama-eth-2026-10-16-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "These provider measures are distinct from holder income; no scored judgment changes in this research job."
+    },
+    {
+      "id": "eth-regulation-2026-10-16-evening",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "No new final ETH-wide outcome established",
+      "summary": "The SEC list retains its October1 crypto-custody proposal; CFTC retains its October5 ANPRM. Other listed announcements do not establish a new final ETH-wide outcome. Proposals remain proposals in this bounded review.",
+      "sourceIds": [
+        "sec-releases-2026-10-16-evening",
+        "cftc-releases-2026-10-16-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Release listings are not exhaustive legal surveillance."
+    },
+    {
+      "id": "eth-protocol-2026-10-16-evening",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "Roadmap evidence is not live activation proof",
+      "summary": "The EF archive retains existing roadmap/zkAPI material. Nillion's September26 instructions schedule migration and an October5 launch; they alone do not verify completed activation or current usage. Resurfacing aggregator headlines are not promoted to a new chain-wide event.",
+      "sourceIds": [
+        "ef-archive-2026-10-16-evening",
+        "nillion-migration-2026-09-26"
+      ],
+      "confirmed": false,
+      "uncertainty": "No live consensus audit, independently verified launch outcome or quantified new ETH demand was established."
+    },
+    {
+      "id": "import-inflation-2026-10-16-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "September import prices +1.1%monthly/+8.1%yearly",
+      "summary": "BLS's October16 release also reports nonfuel imports +0.7%monthly/+6.0%yearly. Pressure is not confined to fuel; pass-through to consumer inflation and the next Fed decision remain uncertain.",
+      "sourceIds": [
+        "bls-import-prices-2026-10-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "Import-price growth is not CPI growth or an announced monetary-policy action."
+    },
+    {
+      "id": "industrial-production-2026-10-16-evening",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "September IP+0.7%;manufacturing+0.3%monthly",
+      "summary": "The Federal Reserve's October16 release reports utilities+3.5%, mining+0.2% and capacity utilization76.9%, below its long-run average. Output resilience is not evidence of monetary easing or uniformly strong manufacturing demand.",
+      "sourceIds": [
+        "fed-ip-2026-10-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "Preliminary output measures are revised; the utility contribution limits broad growth inference."
+    },
+    {
+      "id": "oil-supply-risk-2026-10-16-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Reuters: Brent$109.34,+3.2% at16:41UTC",
+      "summary": "Reuters reports WTI$100.67 and continued supply concerns, including a reported refinery-unit shutdown. Oil quotations and the scale of disruptions remain uncertain; no ETH-specific causation is established.",
+      "sourceIds": [
+        "reuters-oil-2026-10-16-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Dated intraday prices, not settlement; future supply and inflation transmission are unknown."
+    },
+    {
+      "id": "eu-trade-proposal-2026-10-16-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "EU Commission plans broader China import safeguards",
+      "summary": "Reuters reports plans for additional safeguards and a rapid market-access instrument. These are announced proposals, not implemented sector-wide restrictions; timing, scope and retaliation remain uncertain.",
+      "sourceIds": [
+        "reuters-eu-trade-2026-10-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "No enacted blanket ban or quantified ETH transmission is asserted."
+    },
+    {
+      "id": "reported-fiscal-result-2026-10-16-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Reuters: FY2026 deficit$1.99T; debt service$1.36T",
+      "summary": "Reuters attributes these figures to Treasury's October16 release. They are reported fiscal results, distinct from prior CBO projections; direct Treasury document retrieval was unavailable. Fiscal pressure alone does not prove monetization or an ETH monetary premium.",
+      "sourceIds": [
+        "reuters-us-deficit-2026-10-16"
+      ],
+      "confirmed": false,
+      "uncertainty": "Primary figures were not independently retrieved; retain attribution, prior dated projections and cyclical/structural separation."
     }
   ],
   "sources": {
@@ -4640,15 +4786,80 @@
       "label": "MSCI Indonesia standalone-status consultation release",
       "url": "https://ir.msci.com/node/22961/pdf",
       "accessedAt": "2026-10-16"
+    },
+    "coingecko-eth-2026-10-16-evening": {
+      "label": "CoinGecko Ethereum textual USD snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-16"
+    },
+    "farside-eth-2026-10-16-evening": {
+      "label": "Farside US spot ETH ETF flow table",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-16"
+    },
+    "ethereum-staking-2026-10-16-evening": {
+      "label": "Ethereum.org staking displayed counters",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-16"
+    },
+    "defillama-eth-2026-10-16-evening": {
+      "label": "DefiLlama Ethereum TVL and economics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-16"
+    },
+    "ef-archive-2026-10-16-evening": {
+      "label": "Ethereum Foundation archive",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-16"
+    },
+    "nillion-migration-2026-09-26": {
+      "label": "Nillion September26 Blacklight migration instructions",
+      "url": "https://nillion.com/news/blacklight-node-migration-the-move-to-ethereum-l1",
+      "accessedAt": "2026-10-16"
+    },
+    "sec-releases-2026-10-16-evening": {
+      "label": "SEC press-release list",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-16"
+    },
+    "cftc-releases-2026-10-16-evening": {
+      "label": "CFTC press-release list",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "accessedAt": "2026-10-16"
+    },
+    "bls-import-prices-2026-10-16": {
+      "label": "BLS September import/export prices, October16 release",
+      "url": "https://www.bls.gov/news.release/ximpim.nr0.htm",
+      "accessedAt": "2026-10-16"
+    },
+    "fed-ip-2026-10-16": {
+      "label": "Federal Reserve September industrial production, October16 release",
+      "url": "https://www.federalreserve.gov/releases/g17/current/",
+      "accessedAt": "2026-10-16"
+    },
+    "reuters-oil-2026-10-16-evening": {
+      "label": "Reuters oil trading and supply risks, October16",
+      "url": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/",
+      "accessedAt": "2026-10-16"
+    },
+    "reuters-eu-trade-2026-10-16": {
+      "label": "Reuters EU proposed China import safeguards, October16",
+      "url": "https://www.reuters.com/world/china/eu-propose-import-curbs-other-chinese-sectors-says-eu-chief-2026-10-16/",
+      "accessedAt": "2026-10-16"
+    },
+    "reuters-us-deficit-2026-10-16": {
+      "label": "Reuters Treasury FY2026 deficit report, October16",
+      "url": "https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/",
+      "accessedAt": "2026-10-16"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "The sourced +3.60% rolling24h move is below the unchanged absolute5% alert gate.",
-      "The newly reported October15 ETF outflow is an ordinary evidence update; this review establishes no independently major ETH-specific or thesis-breaking event.",
-      "New Indonesia consultation and Fed commentary are macro context, not a confirmed ETH protocol failure, legal outcome or automatic thesis change."
+      "The sourced -1.10% rolling24h ETH move is below the unchanged absolute5% alert threshold.",
+      "October15 ETF outflows are already recorded; October16 dashes are incomplete data, not zero flows.",
+      "Macro/fiscal/trade developments and daily economics are new evidence context, not independently major ETH-specific or thesis-breaking news in this review."
     ],
-    "confirmedVsUncertain": "Confirmed at retrieval: textual market snapshot, reported October15 ETF row, displayed staking/DeFi counters, official consultation/listings and Reuters commentary. Uncertain: live counter freshness, October16 ETF totals, exhaustive network/legal health, future policy, realized Indonesia outflows and durable ETH capture. All previous observations/source records and all scored judgments remain unchanged."
+    "confirmedVsUncertain": "Confirmed at retrieval: textual ETH quote, last reported ETF row and incomplete next row, displayed staking/DeFi metrics, BLS/Fed releases and attributed Reuters reports. Uncertain: final ETF session flows, counter freshness, exhaustive legal/network health, executed proposed rules, future Fed action and durable ETH monetary capture. Treasury fiscal results remain Reuters-attributed because primary retrieval was unavailable. All historical observations/source records and every thesis score/probability/policy/UI byte remain unchanged."
   }
 }
