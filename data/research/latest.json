@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-15T19:07:04Z",
-  "accessDate": "2026-10-15",
+  "researchedAt": "2026-10-16T05:53:36Z",
+  "accessDate": "2026-10-16",
   "market": {
-    "ethUsd": 2447.56,
-    "change24h": 0.7,
-    "marketCapUsd": 298923766086,
-    "volume24hUsd": 20285116250.1,
+    "ethUsd": 2444.72,
+    "change24h": 3.6,
+    "marketCapUsd": 298602937457,
+    "volume24hUsd": 14804256358.07,
     "sourceIds": [
-      "coingecko-eth-2026-10-15-evening"
+      "coingecko-eth-2026-10-16-morning"
     ],
-    "note": "October15 evening CoinGecko textual snapshot: $2,447.56, +0.70% rolling24h and +1.30% seven-day; market cap $298.924B and volume $20.285B. Live page components differ in timing/currency; retain this internally consistent USD paragraph. DefiLlama separately quoted about $2,444. Neither the quote nor a rebound alone identifies buying/covering or reverses the scored thesis."
+    "note": "October16 morning CoinGecko textual snapshot: $2,444.72, +3.60% rolling24h and -2.00% seven-day, market cap $298.603B and volume $14.804B. Other live page components have different observation times; retain this internally consistent paragraph snapshot, not a synchronized trade or attribution of cause."
   },
   "observations": [
     {
@@ -3475,6 +3475,129 @@
       ],
       "confirmed": false,
       "uncertainty": "No new debt/deficit measurement or enduring ETH-specific monetary capture was established."
+    },
+    {
+      "id": "eth-market-2026-10-16-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$2,444.72; +3.60% rolling24h; -2.00%7d",
+      "summary": "The sourced USD textual snapshot remains below the unchanged absolute5% daily-move alert gate. This rolling change does not establish a return between this run and the previous run.",
+      "sourceIds": [
+        "coingecko-eth-2026-10-16-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live quotation timing differs across page components; no market-causation claim."
+    },
+    {
+      "id": "eth-etf-2026-10-16-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October15 US spot ETH ETF net flow -$60.3M",
+      "summary": "Farside now reports October15 ETHA -$44.4M, FETH +$2.4M and ETHE -$18.3M, other funds zero. October14 remains -$129.5M; cumulative reported net flow is $13.038B. The previously unavailable October15 row is now evidence, without rewriting its earlier historical observation.",
+      "sourceIds": [
+        "farside-eth-2026-10-16-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Flow tables may be revised; October16 US session is not yet a completed reported session."
+    },
+    {
+      "id": "eth-staking-2026-10-16-morning",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Displayed43,948,738ETH;35%;2.5%APR",
+      "summary": "Ethereum.org displays the same staking figures as the prior review. Its old page-update label is not a dated block-level measurement; an unchanged counter does not prove zero staking flows.",
+      "sourceIds": [
+        "ethereum-staking-2026-10-16-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Counter freshness and exact measurement block are not established."
+    },
+    {
+      "id": "eth-adoption-2026-10-16-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$50.069B; stablecoins$144.424B; RWA$13.973B",
+      "summary": "DefiLlama displays TVL +0.08%24h, stablecoins -0.58%7d and active RWA AUM $13.973B. DEX volume is $1.599B24h/$7.773B7d, weekly -21.33%; net inflows are -$268.08M24h.",
+      "sourceIds": [
+        "defillama-eth-2026-10-16-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live counters differ in timing and methodology; do not infer an ecosystem-wide causal change."
+    },
+    {
+      "id": "eth-capture-2026-10-16-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chain fees$467,282; chain revenue$112,16024h",
+      "summary": "DefiLlama reports app fees $12.51M and app revenue $2.7M24h. Application activity and chain fees are distinct from ETH-holder capture; ecosystem scale alone does not clear the $10K monetary-premium hurdle.",
+      "sourceIds": [
+        "defillama-eth-2026-10-16-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily activity does not establish durable burn, staking economics or monetary premium."
+    },
+    {
+      "id": "eth-regulation-2026-10-16-morning",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC/CFTC proposals remain proposals",
+      "summary": "The official listings retain the SEC October1 custody proposal and CFTC October5 consultation. This bounded review establishes no new final ETH-wide US legal outcome.",
+      "sourceIds": [
+        "sec-releases-2026-10-16-morning",
+        "cftc-releases-2026-10-16-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Release-list review is not exhaustive legal surveillance."
+    },
+    {
+      "id": "eth-protocol-2026-10-16-morning",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF archive checked; no new activation conclusion",
+      "summary": "The archive does not establish a new activation success or chain-wide failure. No unverified aggregator headline is treated as a confirmed protocol incident.",
+      "sourceIds": [
+        "ef-archive-2026-10-16-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "An archive review is not a live consensus/network-health audit."
+    },
+    {
+      "id": "fed-liquidity-2026-10-16-morning",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "Warsh offers no next-decision signal",
+      "summary": "Reuters reports resilience optimism and inflation concerns, but no hint about the next policy decision. No new cut, hold or easing outcome is inferred.",
+      "sourceIds": [
+        "reuters-warsh-2026-10-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "Future policy and its transmission to ETH remain uncertain."
+    },
+    {
+      "id": "global-risk-2026-10-16-morning",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "Asian rebound; Indonesia index-consultation risk",
+      "summary": "Reuters reports gains in Japan and South Korea alongside an approximately11% intraday Indonesian equity decline. MSCI's October15 release proposes Emerging-to-Standalone reclassification, not a completed downgrade; final decision is due on or before June30,2027.",
+      "sourceIds": [
+        "reuters-global-2026-10-16",
+        "msci-indonesia-2026-10-15"
+      ],
+      "confirmed": true,
+      "uncertainty": "Consultation outcomes, realized capital outflows and transmission to ETH are uncertain."
+    },
+    {
+      "id": "structural-debasement-2026-10-16-morning",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "No new primary long-run fiscal measurement",
+      "summary": "Today's risk and policy observations are cyclical context, not new debt/deficit evidence or proof of an enduring ETH monetary premium. Preserve the prior structural evidence separately from Fed/liquidity.",
+      "sourceIds": [
+        "reuters-warsh-2026-10-16",
+        "msci-indonesia-2026-10-15"
+      ],
+      "confirmed": false,
+      "uncertainty": "No new structural fiscal measurement was established in this bounded review."
     }
   ],
   "sources": {
@@ -4467,15 +4590,65 @@
       "label": "CFTC release listing evening review",
       "url": "https://www.cftc.gov/PressRoom/PressReleases",
       "accessedAt": "2026-10-15"
+    },
+    "coingecko-eth-2026-10-16-morning": {
+      "label": "CoinGecko Ethereum USD textual snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-16"
+    },
+    "farside-eth-2026-10-16-morning": {
+      "label": "Farside US spot Ethereum ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-16"
+    },
+    "ethereum-staking-2026-10-16-morning": {
+      "label": "Ethereum.org staking displayed counters",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-16"
+    },
+    "defillama-eth-2026-10-16-morning": {
+      "label": "DefiLlama Ethereum chain metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-16"
+    },
+    "sec-releases-2026-10-16-morning": {
+      "label": "SEC press-release listing",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-16"
+    },
+    "cftc-releases-2026-10-16-morning": {
+      "label": "CFTC press-release listing",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "accessedAt": "2026-10-16"
+    },
+    "ef-archive-2026-10-16-morning": {
+      "label": "Ethereum Foundation blog archive",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-16"
+    },
+    "reuters-warsh-2026-10-16": {
+      "label": "Reuters: Warsh gives no hint of October policy decision",
+      "url": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/",
+      "accessedAt": "2026-10-16"
+    },
+    "reuters-global-2026-10-16": {
+      "label": "Reuters global markets October16",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-16/",
+      "accessedAt": "2026-10-16"
+    },
+    "msci-indonesia-2026-10-15": {
+      "label": "MSCI Indonesia standalone-status consultation release",
+      "url": "https://ir.msci.com/node/22961/pdf",
+      "accessedAt": "2026-10-16"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "Evening rolling ETH change of +0.70% is below the existing5% daily-move threshold; the morning alert is preserved and not repeated.",
-      "KR1's limited initial staking launch and the Lido containment vote are evidence updates, not independently major market-wide ETH or thesis-breaking events.",
-      "New PPI and AI-credit observations are macro context; neither establishes a Fed decision, protocol failure or automatic thesis change."
+      "The sourced +3.60% rolling24h move is below the unchanged absolute5% alert gate.",
+      "The newly reported October15 ETF outflow is an ordinary evidence update; this review establishes no independently major ETH-specific or thesis-breaking event.",
+      "New Indonesia consultation and Fed commentary are macro context, not a confirmed ETH protocol failure, legal outcome or automatic thesis change."
     ],
-    "confirmedVsUncertain": "Confirmed at evening retrieval: sourced USD textual market snapshot, last reported ETF session, displayed staking/DeFi counters, Lido announcements and BLS/Reuters observations. Unknown: today's ETF flows, live consensus health beyond archive review, final governance execution, actual target staking rollout, future Fed policy, market causation and durable ETH value capture. Every old observation/source and all scored judgments remain unchanged."
+    "confirmedVsUncertain": "Confirmed at retrieval: textual market snapshot, reported October15 ETF row, displayed staking/DeFi counters, official consultation/listings and Reuters commentary. Uncertain: live counter freshness, October16 ETF totals, exhaustive network/legal health, future policy, realized Indonesia outflows and durable ETH capture. All previous observations/source records and all scored judgments remain unchanged."
   }
 }
