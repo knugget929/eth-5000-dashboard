@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-16T18:52:39Z",
-  "accessDate": "2026-10-16",
+  "researchedAt": "2026-10-17T05:48:35Z",
+  "accessDate": "2026-10-17",
   "market": {
-    "ethUsd": 2414.83,
-    "change24h": -1.1,
-    "marketCapUsd": 294993080256,
-    "volume24hUsd": 12560387756.86,
+    "ethUsd": 2425.06,
+    "change24h": -0.9,
+    "marketCapUsd": 296203002042,
+    "volume24hUsd": 11667528461.19,
     "sourceIds": [
-      "coingecko-eth-2026-10-16-evening"
+      "coingecko-eth-2026-10-17-morning"
     ],
-    "note": "October16 evening CoinGecko textual paragraph snapshot: $2,414.83, -1.10% rolling24h and -3.30%7d; market cap $294.993B, volume $12.560B. Components elsewhere on the live page differ in timing. The rolling change is not a return between automation runs, and no cause is inferred."
+    "note": "October17 morning CoinGecko textual paragraph: -0.90% rolling24h and -2.70%7d. Other page widgets have asynchronous values; these four fields use one paragraph. No causal claim or inter-run return inference."
   },
   "observations": [
     {
@@ -3744,6 +3744,126 @@
       ],
       "confirmed": false,
       "uncertainty": "Primary figures were not independently retrieved; retain attribution, prior dated projections and cyclical/structural separation."
+    },
+    {
+      "id": "eth-market-2026-10-17-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH$2,425.06;-0.90%24h",
+      "summary": "The single CoinGecko paragraph reports volume$11.668B and cap$296.203B. The absolute rolling daily move is below5%; no cause is established.",
+      "sourceIds": [
+        "coingecko-eth-2026-10-17-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live components differ by capture time; this is not a return since yesterday's run."
+    },
+    {
+      "id": "etf-session-2026-10-17-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October16 ETF net outflow$69.7M",
+      "summary": "Farside now reports October16 as -$69.7M, all attributed to ETHA, replacing the previously observed dash placeholders. October14 and15 remain -$129.5M and -$60.3M. Daily flows do not prove persistent long-term allocation.",
+      "sourceIds": [
+        "farside-eth-2026-10-17-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider figures can be revised; no weekend session flow is invented."
+    },
+    {
+      "id": "staking-display-2026-10-17-morning",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Displayed43,948,738ETH;35%;2.5%APR",
+      "summary": "ethereum.org displays these staking counters, unchanged from the previous capture. Access time is not evidence of the counters' measurement time or realized holder yield.",
+      "sourceIds": [
+        "ethereum-staking-2026-10-17-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Counter freshness unverified; page last-update label is historical."
+    },
+    {
+      "id": "defi-tokenization-2026-10-17-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$49.711B;stablecoins$144.438B;RWA$13.955B",
+      "summary": "October17 DefiLlama snapshot shows TVL-0.91%24h,stablecoin cap+0.31%7d,DEXvolume$995.93M24h/$7.89B7d(-15.75%), and net inflows-$250.29M. RWA activeAUM is provider-defined, not interchangeable with other tokenization measures.",
+      "sourceIds": [
+        "defillama-eth-2026-10-17-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD valuations and provider coverage change; ecosystem balances do not establish ETH monetary capture."
+    },
+    {
+      "id": "eth-capture-2026-10-17-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chainfees$288,696;revenue$52,23624h",
+      "summary": "DefiLlama also reports chainREV$611,579,appfees$6.09M and apprevenue$1.33M. Chain fees,chain revenue,REV and application revenue are different measures and are not all ETH-holder cash flow.",
+      "sourceIds": [
+        "defillama-eth-2026-10-17-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No new sustained supply deflation, monetary premium or tokenholder capture is established."
+    },
+    {
+      "id": "glamsterdam-hoodi-2026-10-17-morning",
+      "catalyst": "protocol",
+      "direction": "supportive",
+      "value": "Hoodi scheduledOctober26,17:42:48UTC;200Mgas",
+      "summary": "The EF's October16 announcement schedules Glamsterdam on Hoodi at epoch132352,slot4235264, with a200Mgas limit. It reports Sepolia activation on October6. This newly retrieved dated milestone supersedes earlier evidence that Hoodi timing was undecided. ePBS and block-level access lists advance scaling tests, not proven mainnet capacity.",
+      "sourceIds": [
+        "ef-hoodi-2026-10-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "Mainnet date remainsTBD; testnet activation is future, client availability incomplete, and successful execution or fee-demand gains are not proven."
+    },
+    {
+      "id": "us-regulatory-review-2026-10-17-morning",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC index:latestdatedOctober14",
+      "summary": "The inspected release index lists October14 small-business advisory material and the existing October1 crypto-custody proposal. No newly enacted broad ETH-specific regime was established in this bounded index review.",
+      "sourceIds": [
+        "sec-index-2026-10-17"
+      ],
+      "confirmed": false,
+      "uncertainty": "An index review is not an exhaustive legal search; proposals are not final rules."
+    },
+    {
+      "id": "db-custody-rollout-2026-10-17-morning",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Reuters:Germancrypto custody weeksaway",
+      "summary": "Reuters' October16 interview reports Deutsche Bank expects its initial German service within weeks, with bitcoin and ether supported initially and Asia expansion planned nextyear. This updates the already-recorded custody plan; it is not proof of launch, customer assets or new ETH purchases.",
+      "sourceIds": [
+        "reuters-db-custody-2026-10-16"
+      ],
+      "confirmed": false,
+      "uncertainty": "Bank-executive plan attributed to Reuters; go-live, approvals and realized demand not independently verified."
+    },
+    {
+      "id": "russia-waiver-2026-10-17-morning",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "October16 order waives specified newRussia sanctions/tariffs",
+      "summary": "The WhiteHouse order waives GrahamAct duties under sections112/113 and specified new sanctions/restrictions. Earlier executive-order sanctions remain unaffected. This removes a prospective escalation, not existing oil-supply disruptions or allRussia restrictions; no Fed action follows automatically.",
+      "sourceIds": [
+        "whitehouse-graham-waiver-2026-10-16"
+      ],
+      "confirmed": true,
+      "uncertainty": "Actual energy prices, additional supply and inflation impact remain uncertain. This is cyclical macro context, not proof of structural ETH monetary demand."
+    },
+    {
+      "id": "structural-separation-2026-10-17-morning",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "No new independentlyverifiedETHmonetary-capture event",
+      "summary": "The sanctions waiver is a trade/energy policy event, not debt monetization. Previously dated fiscal observations are retained with their original attribution and uncertainty; no fresh structural fiscal estimate or automatic ETH benefit is inferred.",
+      "sourceIds": [
+        "whitehouse-graham-waiver-2026-10-16"
+      ],
+      "confirmed": false,
+      "uncertainty": "No new primary fiscal outturn or durable ETH monetary premium was established in this review."
     }
   ],
   "sources": {
@@ -4851,15 +4971,55 @@
       "label": "Reuters Treasury FY2026 deficit report, October16",
       "url": "https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/",
       "accessedAt": "2026-10-16"
+    },
+    "coingecko-eth-2026-10-17-morning": {
+      "label": "CoinGecko October17 morning textual snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-17"
+    },
+    "farside-eth-2026-10-17-morning": {
+      "label": "Farside October16 US Ethereum ETF session",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-17"
+    },
+    "defillama-eth-2026-10-17-morning": {
+      "label": "DefiLlama Ethereum October17 metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-17"
+    },
+    "ethereum-staking-2026-10-17-morning": {
+      "label": "ethereum.org displayed staking figures; counter timestamp unverified",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-17"
+    },
+    "ef-hoodi-2026-10-16": {
+      "label": "Ethereum Foundation October16 Glamsterdam Hoodi announcement",
+      "url": "https://blog.ethereum.org/2026/10/16/glamsterdam-hoodi-announcement",
+      "accessedAt": "2026-10-17"
+    },
+    "sec-index-2026-10-17": {
+      "label": "SEC press release index inspected October17",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-17"
+    },
+    "reuters-db-custody-2026-10-16": {
+      "label": "Reuters October16 Deutsche Bank custody rollout interview",
+      "url": "https://www.reuters.com/business/finance/deutsche-bank-prepares-crypto-custody-launch-targets-asia-growth-2026-10-16/",
+      "accessedAt": "2026-10-17"
+    },
+    "whitehouse-graham-waiver-2026-10-16": {
+      "label": "White House October16 Graham Act implementation order",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+      "accessedAt": "2026-10-17"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "The sourced -1.10% rolling24h ETH move is below the unchanged absolute5% alert threshold.",
-      "October15 ETF outflows are already recorded; October16 dashes are incomplete data, not zero flows.",
-      "Macro/fiscal/trade developments and daily economics are new evidence context, not independently major ETH-specific or thesis-breaking news in this review."
+      "New official Glamsterdam Hoodi scheduling is a material protocol-roadmap milestone; it is a future testnet upgrade, not mainnet activation.",
+      "ETH-0.90%rolling24h remains below5%;ETFoutflows and dailymetrics do not independently cross the alert threshold.",
+      "All existing scores,probabilities,policy,evaluation and UI remain untouched."
     ],
-    "confirmedVsUncertain": "Confirmed at retrieval: textual ETH quote, last reported ETF row and incomplete next row, displayed staking/DeFi metrics, BLS/Fed releases and attributed Reuters reports. Uncertain: final ETF session flows, counter freshness, exhaustive legal/network health, executed proposed rules, future Fed action and durable ETH monetary capture. Treasury fiscal results remain Reuters-attributed because primary retrieval was unavailable. All historical observations/source records and every thesis score/probability/policy/UI byte remain unchanged."
+    "confirmedVsUncertain": "Confirmed at retrieval: consistent textual market snapshot,reportedOctober16ETFrow,displayedDeFi metrics,officialdatedHoodischedule and sanctionswaiver. Uncertain: successfulfuturetestnet execution,mainnet date,stakingcounterfreshness,exhaustivelegal/networkhealth,custodygo-live and futureETHcapture. Historical observations and source records retained unchanged; new observations explicitly update prior pending/dash information."
   }
 }
