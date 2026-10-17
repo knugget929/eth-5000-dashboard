@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-16T13:43:41Z",
+  "evaluatedAt": "2026-10-17T13:39:01Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,8 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "etf-session-2026-10-17-morning",
+      "db-custody-rollout-2026-10-17-morning",
       "eth-etf-2026-10-16-morning",
       "etf-flows-2026-10-15",
       "institutional-access-2026-10-14",
@@ -120,6 +122,10 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "russia-waiver-2026-10-17-morning",
+      "import-inflation-2026-10-16-evening",
+      "industrial-production-2026-10-16-evening",
+      "oil-supply-risk-2026-10-16-evening",
       "fed-liquidity-2026-10-16-morning",
       "global-risk-2026-10-16-morning",
       "ppi-release-2026-10-15",
@@ -136,6 +142,7 @@
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
+      "us-regulatory-review-2026-10-17-morning",
       "eth-regulation-2026-10-16-morning",
       "regulatory-review-2026-10-15",
       "cftc-crypto-market-framework-2026-10-05",
@@ -144,6 +151,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "defi-tokenization-2026-10-17-morning",
       "eth-adoption-2026-10-16-morning",
       "defi-tokenization-2026-10-15",
       "ethereum-defi-2026-10-13",
@@ -153,6 +161,7 @@
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
+      "staking-display-2026-10-17-morning",
       "eth-staking-2026-10-16-morning",
       "kr1-stvault-2026-10-15",
       "metamask-staking-vote-2026-10-15",
@@ -164,6 +173,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
+      "glamsterdam-hoodi-2026-10-17-morning",
       "eth-protocol-2026-10-16-morning",
       "protocol-review-2026-10-15",
       "glamsterdam-sepolia-2026-10-05",
@@ -172,6 +182,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-10-17-morning",
       "eth-market-2026-10-16-morning",
       "eth-price-alert-2026-10-15",
       "eth-market-2026-10-13-0800",
@@ -181,6 +192,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-10-17-morning",
       "eth-capture-2026-10-16-morning",
       "eth-capture-2026-10-15",
       "eth-value-capture-2026-10-13",
@@ -190,6 +202,8 @@
       "ecb-pontes-2026-09-21"
     ],
     "debasement": [
+      "structural-separation-2026-10-17-morning",
+      "reported-fiscal-result-2026-10-16-evening",
       "structural-debasement-2026-10-16-morning",
       "debasement-review-2026-10-15",
       "fiscal-deficit-2026",
@@ -198,5 +212,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Independently maintained $5K at 58% and $10K at 27%, all catalyst colors/scores and policy-weighted signals unchanged (54 and 39). October16 05:53 UTC stored research quotes ETH at $2,444.72, +3.60% rolling24h: a rebound below the lost $2.7K base, not a confirmed regime reversal. October15 ETF withdrawals of $60.3M follow October14's $129.5M outflow; cumulative reported flows of $13.038B remain constructive but insufficient to establish sustained allocation. For $5K, substantial DeFi/RWA balances and broad staking still support the moderate hurdle, while restrictive liquidity and negative flows constrain it. For $10K, chain revenue of $112,160 versus $12.51M application fees does not demonstrate the required durable ETH capture, and cyclical macro remains adverse. KR1's ten initial validators and Lido's proposed operator containment do not establish a market-wide staking regime change; the target rollout and final vote execution remain unverified. Warsh's commentary announces no new rate decision; Indonesia's MSCI consultation is a proposal, not a completed downgrade. Structural debasement retains prior fiscal evidence separately from cyclical risk and has no new primary fiscal measurement or proven ETH monetary premium. Refresh evidence links, explanations and the research-dated market fallback; preserve October8 probability histories and What Changed log because no probability or catalyst-state change is warranted."
+  "decision": "Independently maintain $5K58% and $10K27%, all18 catalyst scores/colors and weighted signals54/39. The October17 stored$2,425.06(-0.90%rolling24h) remains below the lost$2.7K base. October14–16 ETF sessions removed$259.5M; planned Deutsche Bank custody is not observed buying. For $5K, broad staking, large DeFi/RWA balances and dated Hoodi progress support the moderate hurdle, offset by fund withdrawals and restrictive cyclical conditions. For $10K, future testnet capacity is not mainnet success or durable ETH capture; chainrevenue$52,236 versus appfees$6.09M does not resolve that hurdle. The specified Russia-related sanctions/tariff waiver removes one prospective escalation but neither existing oil disruptions nor restrictive-policy risk, and is not a Fed decision. Fiscal results remain Reuters-attributed because primary Treasury retrieval was unavailable; keep prior CBO forecasts and structural debasement separate from cyclical liquidity. Refresh evidence references/explanations and research-dated market fallback. Preserve October8 probability histories and What Changed log because no probability, score or color change is warranted."
 }
