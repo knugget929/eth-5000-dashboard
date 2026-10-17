@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-17T05:48:35Z",
+  "researchedAt": "2026-10-17T18:19:04Z",
   "accessDate": "2026-10-17",
   "market": {
-    "ethUsd": 2425.06,
-    "change24h": -0.9,
-    "marketCapUsd": 296203002042,
-    "volume24hUsd": 11667528461.19,
+    "ethUsd": 2412.65,
+    "change24h": 0.2,
+    "marketCapUsd": 294687101454,
+    "volume24hUsd": 6333812778.32,
     "sourceIds": [
-      "coingecko-eth-2026-10-17-morning"
+      "coingecko-eth-2026-10-17-evening"
     ],
-    "note": "October17 morning CoinGecko textual paragraph: -0.90% rolling24h and -2.70%7d. Other page widgets have asynchronous values; these four fields use one paragraph. No causal claim or inter-run return inference."
+    "note": "October17 evening single CoinGecko paragraph: +0.20% rolling24h and -3.80%7d; all four market fields use that paragraph. Other widgets are asynchronous. The rolling change is not a return between runs, and no news cause is inferred."
   },
   "observations": [
     {
@@ -3864,6 +3864,139 @@
       ],
       "confirmed": false,
       "uncertainty": "No new primary fiscal outturn or durable ETH monetary premium was established in this review."
+    },
+    {
+      "id": "eth-market-2026-10-17-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,412.65; +0.20%24h",
+      "summary": "The textual market paragraph reports $6.334B24h volume and $294.687B market cap. The absolute rolling daily move remains below5%; the quote does not establish reversal of the lost price base or identify buyers.",
+      "sourceIds": [
+        "coingecko-eth-2026-10-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Live widgets differ in timing; no inter-run return or causal claim."
+    },
+    {
+      "id": "etf-session-2026-10-17-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "Latest reported session remains October16: -$69.7M",
+      "summary": "Farside still reports -$69.7M on October16 after -$129.5M and -$60.3M on October14–15, a three-session sum of -$259.5M. No new weekend ETF session is invented; this is a recheck of already recorded evidence.",
+      "sourceIds": [
+        "farside-eth-2026-10-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Automated flow figures may be revised; no persistent future allocation is established."
+    },
+    {
+      "id": "schwab-availability-2026-10-17-evening",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "Official Schwab page verifies current BTC/ETH trading availability",
+      "summary": "Schwab's current page offers bitcoin and ether through a crypto account linked to a brokerage account. Its official how-to guide is dated October13. This independently verifies access infrastructure, not a new launch today, universal eligibility, client participation or measured ETH inflows.",
+      "sourceIds": [
+        "schwab-crypto-2026-10-17",
+        "schwab-crypto-guide-2026-10-13"
+      ],
+      "confirmed": true,
+      "uncertainty": "The current product page has no newly established launch date in this review. Country/account restrictions apply; customer balances and incremental buying are unknown."
+    },
+    {
+      "id": "staking-display-2026-10-17-evening",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Displayed 43,948,738ETH;35%;2.5%APR",
+      "summary": "ethereum.org retains the same displayed participation and APR. Retrieval time is not counter measurement time or realized holder return; no new staking-regime conclusion follows.",
+      "sourceIds": [
+        "ethereum-staking-2026-10-17-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Counter timestamp unverified; the page carries an older last-update label."
+    },
+    {
+      "id": "defi-tokenization-2026-10-17-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL $49.739B; stablecoins $144.426B; RWA $13.951B",
+      "summary": "DefiLlama displays TVL-0.84%24h, stablecoin cap+0.30%7d, DEXvolume$714.47M24h/$7.89B7d(-15.74%), and net inflows-$250.1M. Provider-defined balances remain large but do not prove ETH monetary demand.",
+      "sourceIds": [
+        "defillama-eth-2026-10-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD marks and coverage vary; RWA activeAUM is not interchangeable with other tokenization totals."
+    },
+    {
+      "id": "eth-capture-2026-10-17-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chain fees $237,584; revenue $49,53424h",
+      "summary": "DefiLlama separately reports chainREV$416,656, application fees$6.13M and application revenue$1.32M. These are distinct measures, not interchangeable ETH-holder income. A daily snapshot does not demonstrate durable scarcity or capture.",
+      "sourceIds": [
+        "defillama-eth-2026-10-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "No independently established new sustained net burn, collateral premium or holder cash flow."
+    },
+    {
+      "id": "protocol-review-2026-10-17-evening",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "Latest listed EF announcement remains the dated Hoodi schedule",
+      "summary": "The EF index retains October16's Glamsterdam Hoodi announcement, already recorded this morning: future testnet activation on October26 at17:42:48UTC, with mainnet date undecided. Rechecking the announcement does not prove future activation or an additional protocol event.",
+      "sourceIds": [
+        "ef-index-2026-10-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "No independent live consensus-health audit or successful future rollout is claimed."
+    },
+    {
+      "id": "regulatory-review-2026-10-17-evening",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "No new final ETH-wide outcome established in bounded SEC index review",
+      "summary": "The SEC listing still starts with October14 small-business committee material and retains the October1 crypto-custody proposal. Listing coverage is limited and proposals are not enacted broad legal certainty.",
+      "sourceIds": [
+        "sec-index-2026-10-17-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "This is not an exhaustive legal/filing search."
+    },
+    {
+      "id": "canada-inflation-2026-10-17-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Reuters: BoC expects significant upward inflation-forecast revision",
+      "summary": "Macklem said persistent oil and petroleum prices would significantly lift the quarterly forecast; October28 is the next decision date. These are reported outlook comments, not a new rate decision.",
+      "sourceIds": [
+        "reuters-boc-inflation-2026-10-17"
+      ],
+      "confirmed": true,
+      "uncertainty": "Final forecast magnitudes and the rate decision remain unknown; no direct ETH causation is established."
+    },
+    {
+      "id": "ecb-financing-2026-10-17-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "ECB: financing tightened beyond September assumptions",
+      "summary": "Lagarde's October17 IMFC statement says higher long-term rates will slow growth and reduce energy pass-through more than projected. It also reports continued private-credit outflows/redemption gates but limits the inference: euro-area direct exposure is limited and private credit alone is not judged a systemic source for now. No new policy action is announced.",
+      "sourceIds": [
+        "ecb-imfc-2026-10-17"
+      ],
+      "confirmed": true,
+      "uncertainty": "Future inflation, credit transmission and policy remain uncertain. This is cyclical conditions, not proof of a general banking crisis."
+    },
+    {
+      "id": "fiscal-separation-2026-10-17-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "No new verified ETH monetary premium from macro stress",
+      "summary": "The ECB's fiscal sustainability warnings and tighter financing are not debt monetization or proof that ETH captures a scarce-asset bid. Previously stored CBO forecasts and Reuters-attributed fiscal outturns remain separately dated and unchanged.",
+      "sourceIds": [
+        "ecb-imfc-2026-10-17"
+      ],
+      "confirmed": false,
+      "uncertainty": "Structural ETH reserve/collateral demand remains unproven; the Fed index retrieval attempt failed and establishes no new Fed decision."
     }
   ],
   "sources": {
@@ -5011,15 +5144,70 @@
       "label": "White House October16 Graham Act implementation order",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
       "accessedAt": "2026-10-17"
+    },
+    "coingecko-eth-2026-10-17-evening": {
+      "label": "CoinGecko October17 evening textual paragraph snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-17"
+    },
+    "farside-eth-2026-10-17-evening": {
+      "label": "Farside US Ethereum ETF table checked October17 evening",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-17"
+    },
+    "defillama-eth-2026-10-17-evening": {
+      "label": "DefiLlama Ethereum October17 evening snapshot",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-17"
+    },
+    "ethereum-staking-2026-10-17-evening": {
+      "label": "ethereum.org staking display; measurement time unverified",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-17"
+    },
+    "ef-index-2026-10-17-evening": {
+      "label": "Ethereum Foundation blog checked October17 evening",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-17"
+    },
+    "sec-index-2026-10-17-evening": {
+      "label": "SEC press-release index checked October17 evening",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-17"
+    },
+    "schwab-crypto-2026-10-17": {
+      "label": "Schwab Crypto official current product availability",
+      "url": "https://www.schwab.com/cryptocurrency",
+      "accessedAt": "2026-10-17"
+    },
+    "schwab-crypto-guide-2026-10-13": {
+      "label": "Schwab October13 official trading guide",
+      "url": "https://www.schwab.com/learn/story/how-to-buy-and-sell-crypto-on-schwabcom",
+      "accessedAt": "2026-10-17"
+    },
+    "ecb-imfc-2026-10-17": {
+      "label": "ECB President October17 IMFC statement (English text on French page)",
+      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.fr.html",
+      "accessedAt": "2026-10-17"
+    },
+    "reuters-boc-inflation-2026-10-17": {
+      "label": "Reuters October17 Macklem inflation-outlook comments",
+      "url": "https://www.reuters.com/world/americas/bank-canada-sees-sharply-higher-inflation-outlook-oil-surges-macklem-says-2026-10-17/",
+      "accessedAt": "2026-10-17"
+    },
+    "fed-monetary-index-attempt-2026-10-17": {
+      "label": "Federal Reserve monetary-release index retrieval attempt unavailable",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary2026.htm",
+      "accessedAt": "2026-10-17"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "New official Glamsterdam Hoodi scheduling is a material protocol-roadmap milestone; it is a future testnet upgrade, not mainnet activation.",
-      "ETH-0.90%rolling24h remains below5%;ETFoutflows and dailymetrics do not independently cross the alert threshold.",
-      "All existing scores,probabilities,policy,evaluation and UI remain untouched."
+      "The sourced +0.20% rolling24h ETH move is below the unchanged absolute5% threshold.",
+      "The Hoodi schedule and October16 ETF flows were already recorded/alerted as applicable; rechecks are not new events.",
+      "Schwab's official pages newly verify availability in this research, but do not establish a fresh launch date or measured inflows; macro comments are not independently a major ETH-specific or thesis-breaking development."
     ],
-    "confirmedVsUncertain": "Confirmed at retrieval: consistent textual market snapshot,reportedOctober16ETFrow,displayedDeFi metrics,officialdatedHoodischedule and sanctionswaiver. Uncertain: successfulfuturetestnet execution,mainnet date,stakingcounterfreshness,exhaustivelegal/networkhealth,custodygo-live and futureETHcapture. Historical observations and source records retained unchanged; new observations explicitly update prior pending/dash information."
+    "confirmedVsUncertain": "Confirmed at retrieval: consistent textual ETH quote, latest ETF row, displayed DeFi metrics, official Schwab availability and ECB statement, and Reuters-attributed BoC remarks. Uncertain: staking-counter freshness, exhaustive legal/network health, launch timing/client inflows, future testnet success/mainnet timing, future policy and ETH monetary capture. Fed monetary-index retrieval was unavailable, not evidence of no policy change. All309 prior observations/source records and all scores, probabilities, policy, evaluation and UI remain unchanged."
   }
 }
