@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-18T05:16:13Z",
+  "researchedAt": "2026-10-18T18:30:25Z",
   "accessDate": "2026-10-18",
   "market": {
-    "ethUsd": 2413.6,
-    "change24h": -0.4,
-    "marketCapUsd": 294806620815,
-    "volume24hUsd": 6716602807.4,
+    "ethUsd": 2363.02,
+    "change24h": -2.2,
+    "marketCapUsd": 288599549461,
+    "volume24hUsd": 7547677933.58,
     "sourceIds": [
-      "coingecko-eth-2026-10-18-morning"
+      "cg-2026-10-18-evening"
     ],
-    "note": "Use the single textual CoinGecko market paragraph: -0.40% rolling24h and -3.40%7d. Asynchronous widgets differ. This is not an inter-run return or proof of a news cause."
+    "note": "Single textual CoinGecko paragraph reports -2.20% rolling24h and -7.10%7d. Other widgets are asynchronous; do not mix snapshots or infer an inter-run return or news cause."
   },
   "observations": [
     {
@@ -4107,6 +4107,115 @@
       ],
       "confirmed": false,
       "uncertainty": "Durable ETH monetary capture remains unproven; cyclical liquidity and structural fiscal risks remain separate."
+    },
+    {
+      "id": "eth-market-2026-10-18-evening",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH $2,363.02;-2.20%24h",
+      "summary": "The consistent paragraph reports $7.548B24h volume and $288.600B capitalization. The rolling daily decline remains below5%; seven-day weakness alone does not meet the daily-move alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "No buyer identity, liquidation cause or protocol failure inferred from price."
+    },
+    {
+      "id": "etf-session-2026-10-18-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "Latest table row October16:-$69.7M",
+      "summary": "October14–16 sessions total-$259.5M. The checked table adds no weekend trading session; this is a recheck of stored flows, not new buying or selling today.",
+      "sourceIds": [
+        "etf-2026-10-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Automated table may revise; durable future allocations unknown."
+    },
+    {
+      "id": "staking-review-2026-10-18-evening",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Display43,948,738ETH;35%;2.5%APR",
+      "summary": "Counters are unchanged and measurement time remains unverified. A historical page-update label and a fresh retrieval do not establish a new network measurement or realized return.",
+      "sourceIds": [
+        "stake-2026-10-18-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Do not promote access time to measurement time."
+    },
+    {
+      "id": "defi-tokenization-2026-10-18-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$49.105B;stablecoins$144.275B;RWA$13.922B",
+      "summary": "DefiLlama displays TVL-0.93%24h, stablecoins+0.09%7d, DEXvolume$572.01M24h/$7.936B7d(-15.90%) and net inflows-$126.83M. Large provider-defined balances are not measured ETH monetary demand.",
+      "sourceIds": [
+        "defi-2026-10-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD marks and RWA definitions differ; not interchangeable with bridged balances."
+    },
+    {
+      "id": "eth-capture-2026-10-18-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chainfees$227,398;revenue$25,78624h",
+      "summary": "ChainREV$374,807 differs from chain revenue; appfees$5.68M and apprevenue$1.18M are separate again. None should be relabeled automatically as ETH-holder cash flow or durable supply scarcity.",
+      "sourceIds": [
+        "defi-2026-10-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Sustained net burn and monetary premium not independently measured."
+    },
+    {
+      "id": "protocol-review-2026-10-18-evening",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF latest listing remains October16 Hoodi schedule",
+      "summary": "The already-recorded October26 future testnet milestone remains newest in the index. Mainnet date remains undecided; this recheck does not prove future activation or consensus health.",
+      "sourceIds": [
+        "ef-2026-10-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "No independent live client/network audit claimed."
+    },
+    {
+      "id": "regulatory-review-2026-10-18-evening",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC index still begins with October14 committee material",
+      "summary": "The October1 crypto-custody proposal remains a proposal. The bounded listing check establishes no new final broad ETH ruling, not exhaustive legal certainty.",
+      "sourceIds": [
+        "sec-2026-10-18-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Filings, courts and all regulator actions were not exhaustively searched."
+    },
+    {
+      "id": "china-technology-controls-2026-10-18-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "October16 consultation covers40 technologies; interim registration applies",
+      "summary": "MOFCOM proposes23AI,5biomedicine and12solar technology additions; consultation endsNovember15. Export-before-registration requirements apply pending catalogue revision, while proposed final bans/restrictions are not all effective rules. Certain public-domain and API/SaaS uses are outside the specified scope.",
+      "sourceIds": [
+        "china-2026-10-18-evening",
+        "china-qa-2026-10-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Trade friction may impede selected technology transfers; magnitude, final scope and ETH impact uncertain. Not a Fed decision."
+    },
+    {
+      "id": "structural-separation-2026-10-18-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "No new verified ETH reserve/collateral premium",
+      "summary": "Technology-transfer restrictions are trade policy, not debt monetization. Prior fiscal evidence remains unchanged and separately dated; neither protectionism nor infrastructure activity alone proves ETH captures a scarce-asset allocation.",
+      "sourceIds": [
+        "china-2026-10-18-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Structural ETH monetary capture remains unproven."
     }
   ],
   "sources": {
@@ -5354,15 +5463,55 @@
       "label": "Official Fed October calendar; event listing not a new policy decision",
       "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "accessedAt": "2026-10-18"
+    },
+    "cg-2026-10-18-evening": {
+      "label": "CoinGecko evening textual market snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-18"
+    },
+    "etf-2026-10-18-evening": {
+      "label": "Farside table checked October18 evening",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-18"
+    },
+    "defi-2026-10-18-evening": {
+      "label": "DefiLlama Ethereum evening display",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-18"
+    },
+    "stake-2026-10-18-evening": {
+      "label": "ethereum.org displayed counters; measurement time unknown",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-18"
+    },
+    "ef-2026-10-18-evening": {
+      "label": "EF index checked October18 evening",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-18"
+    },
+    "sec-2026-10-18-evening": {
+      "label": "SEC release index checked October18 evening",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-18"
+    },
+    "china-2026-10-18-evening": {
+      "label": "MOFCOM October16 technology export consultation and interim registration",
+      "url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2026/art_ccd0391072a94c809ae7e820abe2536b.html",
+      "accessedAt": "2026-10-18"
+    },
+    "china-qa-2026-10-18-evening": {
+      "label": "MOFCOM October16 scope and exemptions",
+      "url": "https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html",
+      "accessedAt": "2026-10-18"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "The sourced -0.40% rolling24h ETH move is below the unchanged absolute5% threshold.",
-      "The ETF session, staking display and Hoodi milestone are rechecks, not new events.",
-      "The reported sanctions-review horizon is a macro clarification, not independently a major ETH-specific or thesis-breaking event."
+      "The sourced absolute2.20%rolling24h move is below5%.",
+      "ETF flows and Hoodi schedule are rechecks, not additional events.",
+      "No independently established new major ETH-specific or thesis-breaking development; trade measures are macro context."
     ],
-    "confirmedVsUncertain": "Confirmed at retrieval: textual ETH quote, latest ETF row, displayed DeFi metrics, EF/SEC index contents, official waiver text and Reuters-attributed review remarks. Uncertain: staking measurement time, exhaustive legal/network state, any delivered economic relief, future policy and ETH monetary capture. Preserve all320 prior observations and every historical source; evaluation, thesis, probabilities, catalyst scores/colors, policy and UI remain byte-unchanged."
+    "confirmedVsUncertain": "Confirmed at retrieval: consistent textual quote, latest ETF row, displayed DeFi metrics, EF/SEC index contents and MOFCOM announcement/scope. Uncertain: staking-counter freshness, exhaustive legal/network health, final trade restrictions and durable ETH capture. Preserve329 prior observations and all historical sources; no evaluation, thesis, probability, score, policy or UI changes."
   }
 }
