@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-18T18:30:25Z",
-  "accessDate": "2026-10-18",
+  "researchedAt": "2026-10-19T05:11:22Z",
+  "accessDate": "2026-10-19",
   "market": {
-    "ethUsd": 2363.02,
-    "change24h": -2.2,
-    "marketCapUsd": 288599549461,
-    "volume24hUsd": 7547677933.58,
+    "ethUsd": 2421.01,
+    "change24h": 0.3,
+    "marketCapUsd": 295723011141,
+    "volume24hUsd": 9017368859.03,
     "sourceIds": [
-      "cg-2026-10-18-evening"
+      "cg-2026-10-19-morning"
     ],
-    "note": "Single textual CoinGecko paragraph reports -2.20% rolling24h and -7.10%7d. Other widgets are asynchronous; do not mix snapshots or infer an inter-run return or news cause."
+    "note": "Single CoinGecko textual paragraph reports +0.30% rolling24h and -4.60%7d. Other page widgets are asynchronous; do not combine snapshots or infer news causation."
   },
   "observations": [
     {
@@ -4216,6 +4216,116 @@
       ],
       "confirmed": false,
       "uncertainty": "Structural ETH monetary capture remains unproven."
+    },
+    {
+      "id": "eth-market-2026-10-19-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,421.01;+0.30%24h",
+      "summary": "The consistent textual snapshot reports $9.017B24h volume and $295.723B capitalization. The daily move is below5%; a different interval's return is not the alert measure.",
+      "sourceIds": [
+        "cg-2026-10-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No causal attribution, buyer identity or liquidation estimate established."
+    },
+    {
+      "id": "etf-session-2026-10-19-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "Latest completed table row October16:-$69.7M",
+      "summary": "October14–16 sum to-$259.5M. No new completed U.S. session appears at this early Monday check; do not label these prior-session withdrawals as Monday flows.",
+      "sourceIds": [
+        "etf-2026-10-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Automated table may revise; future allocation durability remains unknown."
+    },
+    {
+      "id": "staking-review-2026-10-19-morning",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Displayed43,948,738ETH;35%;2.5%APR",
+      "summary": "Counters remain unchanged and the page carries a February2025 update label. Access today does not establish that these are freshly measured network quantities or guaranteed realized yield.",
+      "sourceIds": [
+        "stake-2026-10-19-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Counter measurement time unverified."
+    },
+    {
+      "id": "defi-tokenization-2026-10-19-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$49.641B;stablecoins$144.458B;RWA$13.950B",
+      "summary": "Displayed TVL+0.38%24h; stablecoins-0.02%7d. DEXvolume$707.27M24h/$7.945B7d(-16.96%); net inflows-$210.45M. These provider-defined balances do not measure ETH monetary premium.",
+      "sourceIds": [
+        "defi-2026-10-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD price marks, active RWA AUM and bridged asset balances have different definitions."
+    },
+    {
+      "id": "eth-capture-2026-10-19-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chainfees$198,496;chainrevenue$28,38324h",
+      "summary": "ChainREV$345,905 is separate from chain revenue; appfees$5.58M/apprevenue$1.19M are also distinct. Ecosystem turnover is not automatically ETH-holder cash flow or durable supply scarcity.",
+      "sourceIds": [
+        "defi-2026-10-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Net burn and sustained collateral/monetary demand not independently established."
+    },
+    {
+      "id": "protocol-review-2026-10-19-morning",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF index latest remains October16 Hoodi announcement",
+      "summary": "The existing October26 future testnet milestone remains newest in the checked index; mainnet date is still undecided. Vitalik's site index still leads with September27, so recycled client-computation headlines are not established as a fresh proposal.",
+      "sourceIds": [
+        "ef-2026-10-19-morning",
+        "vitalik-2026-10-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Bounded index checks are not a live consensus/client audit or proof of future activation."
+    },
+    {
+      "id": "regulatory-review-2026-10-19-morning",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC index still leads with October14 committee release",
+      "summary": "The October1 custody item is still presented as a proposal. Bounded regulator and exchange searches establish no independently verified new broad final ETH ruling; absence from a release index is not exhaustive legal clearance.",
+      "sourceIds": [
+        "sec-2026-10-19-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "No exhaustive court, filing or jurisdiction search."
+    },
+    {
+      "id": "china-growth-2026-10-19-morning",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "China Q3GDP+4.5%y/y,+1.2%q/q;Q2+4.3%y/y",
+      "summary": "NBS preliminary October19 release reports September industrial output+5.5%y/y and retail+1.1%; January–September fixed investment-7.2%,property investment-20.6%. Inference: firmer aggregate growth coexists with weak domestic demand, not a synchronized demand boom or a Fed easing action.",
+      "sourceIds": [
+        "nbs-2026-10-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "GDP is preliminary; policy response and global demand transmission remain uncertain."
+    },
+    {
+      "id": "structural-separation-2026-10-19-morning",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "No newly verified ETH monetary/collateral premium",
+      "summary": "China's real-activity release concerns cyclical demand and does not establish debt monetization or an ETH reserve allocation. Keep prior dated fiscal evidence separate; large DeFi balances alone do not settle the $10K capture hurdle.",
+      "sourceIds": [
+        "nbs-2026-10-19-morning",
+        "defi-2026-10-19-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Structural ETH monetary capture remains unproven."
     }
   ],
   "sources": {
@@ -5503,15 +5613,55 @@
       "label": "MOFCOM October16 scope and exemptions",
       "url": "https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html",
       "accessedAt": "2026-10-18"
+    },
+    "cg-2026-10-19-morning": {
+      "label": "CoinGecko consistent morning market paragraph",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-19"
+    },
+    "etf-2026-10-19-morning": {
+      "label": "Farside completed-session table checked October19 morning",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-19"
+    },
+    "defi-2026-10-19-morning": {
+      "label": "DefiLlama Ethereum October19 metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-19"
+    },
+    "stake-2026-10-19-morning": {
+      "label": "ethereum.org counters; measurement timestamp unverified",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-19"
+    },
+    "ef-2026-10-19-morning": {
+      "label": "Ethereum Foundation index checked October19",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-19"
+    },
+    "vitalik-2026-10-19-morning": {
+      "label": "Vitalik website index checked October19",
+      "url": "https://vitalik.eth.limo/",
+      "accessedAt": "2026-10-19"
+    },
+    "sec-2026-10-19-morning": {
+      "label": "SEC release index checked October19",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-19"
+    },
+    "nbs-2026-10-19-morning": {
+      "label": "NBS preliminary first-three-quarters2026 release October19",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
+      "accessedAt": "2026-10-19"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "The sourced absolute2.20%rolling24h move is below5%.",
-      "ETF flows and Hoodi schedule are rechecks, not additional events.",
-      "No independently established new major ETH-specific or thesis-breaking development; trade measures are macro context."
+      "The sourced absolute0.30%rolling24h move is below5%.",
+      "Prior ETF flows and future Hoodi schedule are rechecks, not new events.",
+      "No independently verified new major ETH-specific or thesis-breaking development; China's new GDP release is macro context."
     ],
-    "confirmedVsUncertain": "Confirmed at retrieval: consistent textual quote, latest ETF row, displayed DeFi metrics, EF/SEC index contents and MOFCOM announcement/scope. Uncertain: staking-counter freshness, exhaustive legal/network health, final trade restrictions and durable ETH capture. Preserve329 prior observations and all historical sources; no evaluation, thesis, probability, score, policy or UI changes."
+    "confirmedVsUncertain": "Confirmed at retrieval: single-paragraph market snapshot, last ETF row, displayed DeFi quantities, EF/Vitalik/SEC index contents and preliminary NBS release. Uncertain: staking-counter freshness, exhaustive legal/network status, policy response and durable ETH capture. Preserve338 prior observations and all historical sources; evaluation, thesis, scores, probabilities, policy and UI remain unchanged."
   }
 }
