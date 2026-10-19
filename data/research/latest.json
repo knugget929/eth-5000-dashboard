@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-19T05:11:22Z",
+  "researchedAt": "2026-10-19T18:50:26Z",
   "accessDate": "2026-10-19",
   "market": {
-    "ethUsd": 2421.01,
-    "change24h": 0.3,
-    "marketCapUsd": 295723011141,
-    "volume24hUsd": 9017368859.03,
+    "ethUsd": 2397.3,
+    "change24h": 1.5,
+    "marketCapUsd": 292826049266,
+    "volume24hUsd": 10815893693.88,
     "sourceIds": [
-      "cg-2026-10-19-morning"
+      "cg-2026-10-19-evening"
     ],
-    "note": "Single CoinGecko textual paragraph reports +0.30% rolling24h and -4.60%7d. Other page widgets are asynchronous; do not combine snapshots or infer news causation."
+    "note": "One consistent textual CoinGecko paragraph reports +1.50%rolling24h and -4.60%7d. Do not mix asynchronous page widgets or infer news causation from this quote."
   },
   "observations": [
     {
@@ -4326,6 +4326,129 @@
       ],
       "confirmed": false,
       "uncertainty": "Structural ETH monetary capture remains unproven."
+    },
+    {
+      "id": "eth-market-2026-10-19-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH$2,397.30;+1.50%24h",
+      "summary": "Single-paragraph volume$10.816B and cap$292.826B accompany a daily move below5%. The dated rolling quote is not an inter-run return or proof of a news-driven rally.",
+      "sourceIds": [
+        "cg-2026-10-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Buyer identities and causation not established."
+    },
+    {
+      "id": "etf-session-2026-10-19-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October19 row incomplete; last completed October16-$69.7M",
+      "summary": "The new row has dashes for every fund but a computed0.0total. Treat it as unreported, not observed zero net flow. Prior October14–16 withdrawals remain-$259.5M.",
+      "sourceIds": [
+        "etf-2026-10-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Monday completed flows unknown; table may revise."
+    },
+    {
+      "id": "jpm-ethereum-2026-10-19-evening",
+      "catalyst": "tokenization",
+      "direction": "tailwind",
+      "value": "JPM Coin Ethereum go-live announced October19",
+      "summary": "JPMorgan's dated headline announces expansion onto a second public blockchain. Bloomberg and The Block corroborate institutional access to the USD deposit token following Base. This is significant bank settlement adoption, not a retail-access promise or demonstrated purchase of ETH.",
+      "sourceIds": [
+        "jpm-2026-10-19-evening",
+        "bloomberg-2026-10-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Announcement verified; independent contract/transaction audit, usage volumes, bank deposit inflows and durable ETH fee capture not established."
+    },
+    {
+      "id": "staking-review-2026-10-19-evening",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Counters unchanged; measurement timestamp unverified",
+      "summary": "The checked ethereum.org display remains43,948,738ETH,35%,2.5%APR with a historical page-update label. Retrieval today does not prove new staking participation or realized yield.",
+      "sourceIds": [
+        "stake-2026-10-19-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Do not replace measurement time with access time."
+    },
+    {
+      "id": "defi-tokenization-2026-10-19-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$49.496B;stablecoins$144.469B;RWA$13.919B",
+      "summary": "TVL+0.04%24h; stablecoins-0.01%7d. DEXvolume$900.08M24h/$7.951B7d(-16.89%); net inflows-$211.06M. These provider-defined balances differ from bridged asset counts and do not establish holder income.",
+      "sourceIds": [
+        "defi-2026-10-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD marks and RWA definitions differ; durable adoption requires longer observation."
+    },
+    {
+      "id": "eth-capture-2026-10-19-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chainfees$223,144;revenue$29,90124h",
+      "summary": "ChainREV$352,418 differs from chain revenue; appfees$5.67M and apprevenue$1.23M are separate again. Bank deposit-token adoption is not automatically reserve demand for ETH or proven sustained net burn.",
+      "sourceIds": [
+        "defi-2026-10-19-evening",
+        "jpm-2026-10-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "No independently established persistent monetary premium or ETH-holder cash flow."
+    },
+    {
+      "id": "protocol-review-2026-10-19-evening",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF latest remains October16 Hoodi schedule",
+      "summary": "Bounded index recheck retains October26 future Hoodi activation and undecided mainnet timing. No future activation or live network-health certification is implied.",
+      "sourceIds": [
+        "ef-2026-10-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "No exhaustive client/consensus audit."
+    },
+    {
+      "id": "regulatory-review-2026-10-19-evening",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC index still leads with October14 committee material",
+      "summary": "The October1 custody framework remains a proposal in the checked listing. No new broad final ETH regime is established by this bounded index review.",
+      "sourceIds": [
+        "sec-2026-10-19-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Not an exhaustive court, filing or legal search."
+    },
+    {
+      "id": "energy-risk-2026-10-19-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Renewed shipping/energy disruption reported October19",
+      "summary": "Reuters reports renewed attacks and Kpler-estimated lower Hormuz flows.",
+      "sourceIds": [
+        "oil-2026-10-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Reported estimates are not audited supply losses or a Fed decision."
+    },
+    {
+      "id": "structural-separation-2026-10-19-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Bank dollar-token use is distinct from ETH monetary capture",
+      "summary": "A dollar deposit token extends settlement utility but is not itself an ETH reserve allocation or debt monetization. Keep fiscal/debasement evidence separately dated and distinguish growing ecosystem use from a durable ETH monetary premium.",
+      "sourceIds": [
+        "jpm-2026-10-19-evening",
+        "bloomberg-2026-10-19-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Long-run ETH reserve, collateral and scarcity effects remain unproven."
     }
   ],
   "sources": {
@@ -5653,15 +5776,60 @@
       "label": "NBS preliminary first-three-quarters2026 release October19",
       "url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
       "accessedAt": "2026-10-19"
+    },
+    "cg-2026-10-19-evening": {
+      "label": "CoinGecko consistent evening paragraph",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-19"
+    },
+    "etf-2026-10-19-evening": {
+      "label": "Farside incomplete October19 ETF row checked evening",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-19"
+    },
+    "defi-2026-10-19-evening": {
+      "label": "DefiLlama Ethereum evening metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-19"
+    },
+    "stake-2026-10-19-evening": {
+      "label": "ethereum.org display; counter time unverified",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-19"
+    },
+    "ef-2026-10-19-evening": {
+      "label": "EF index checked October19 evening",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-19"
+    },
+    "sec-2026-10-19-evening": {
+      "label": "SEC index checked October19 evening",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-19"
+    },
+    "jpm-2026-10-19-evening": {
+      "label": "JPMorgan October19 Ethereum go-live headline; direct body403",
+      "url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum",
+      "accessedAt": "2026-10-19"
+    },
+    "bloomberg-2026-10-19-evening": {
+      "label": "Bloomberg October19 institutional deposit-token report",
+      "url": "https://news.bloomberglaw.com/banking-law/jpmorgan-brings-jpm-coin-to-ethereum-for-institutional-clients",
+      "accessedAt": "2026-10-19"
+    },
+    "oil-2026-10-19-evening": {
+      "label": "Reuters October19 updated energy and shipping report",
+      "url": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/",
+      "accessedAt": "2026-10-19"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "The sourced absolute0.30%rolling24h move is below5%.",
-      "Prior ETF flows and future Hoodi schedule are rechecks, not new events.",
-      "No independently verified new major ETH-specific or thesis-breaking development; China's new GDP release is macro context."
+      "JPMorgan's October19 announcement of JPM Coin on Ethereum is a major institutional adoption development.",
+      "The absolute1.50%rolling24h move does not independently meet the5% price threshold.",
+      "No thesis-breaking event established; Monday ETF figures remain unreported, not observed zero."
     ],
-    "confirmedVsUncertain": "Confirmed at retrieval: single-paragraph market snapshot, last ETF row, displayed DeFi quantities, EF/Vitalik/SEC index contents and preliminary NBS release. Uncertain: staking-counter freshness, exhaustive legal/network status, policy response and durable ETH capture. Preserve338 prior observations and all historical sources; evaluation, thesis, scores, probabilities, policy and UI remain unchanged."
+    "confirmedVsUncertain": "Confirmed: dated JPMorgan go-live headline, corroborating institutional deposit-token reporting, consistent market paragraph and displayed ETF/DeFi/index contents. Official JPMorgan body retrieval returned403, so no independent transaction audit or undisclosed metrics are claimed. Uncertain: realized bank-token usage, sustained ETH capture, staking-counter freshness, complete legal/network status and shipping estimates. Preserve347 historical observations and all sources; today's evaluation/thesis, probabilities, scores, policy and UI remain untouched."
   }
 }
