@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-20T05:08:47Z",
+  "researchedAt": "2026-10-20T18:27:58Z",
   "accessDate": "2026-10-20",
   "market": {
-    "ethUsd": 2410.93,
-    "change24h": -0.4,
-    "marketCapUsd": 294498570250,
-    "volume24hUsd": 9169691015.96,
+    "ethUsd": 2443.82,
+    "change24h": 1.9,
+    "marketCapUsd": 298540851519,
+    "volume24hUsd": 10854952071.77,
     "sourceIds": [
-      "cg-2026-10-20-morning"
+      "cg-2026-10-20-evening"
     ],
-    "note": "Use the internally consistent CoinGecko textual paragraph: -0.40%rolling24h,-3.80%7d. Other widgets differ; no mixed snapshots or claimed news causation."
+    "note": "One internally consistent CoinGecko textual paragraph reports+1.90%rolling24h and-2.60%7d. Do not combine asynchronous widgets; this checked snapshot is not an EOD close or proof of causation."
   },
   "observations": [
     {
@@ -4573,6 +4573,115 @@
       ],
       "confirmed": false,
       "uncertainty": "Long-run reserve/collateral demand and monetary premium remain unproven."
+    },
+    {
+      "id": "eth-market-2026-10-20-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH$2,443.82;+1.90%24h",
+      "summary": "The same textual paragraph gives volume$10.855B and cap$298.541B. The daily move is below5%; a rolling return is not an inter-run return or verified effect of an adoption announcement.",
+      "sourceIds": [
+        "cg-2026-10-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider quotes change continuously; buyer identity and causal attribution unknown."
+    },
+    {
+      "id": "etf-session-2026-10-20-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October20 row unreported;October19-$103.3M",
+      "summary": "Every October20 fund cell is a dash while the computed total is0.0. Treat this as incomplete, not a measured zero-flow session. Last completed October19 ETHA-95.4M,FETH-6.0M,ETHE-1.9M; prior four October14–19 sessions total-$362.8M.",
+      "sourceIds": [
+        "etf-2026-10-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "October20 completed session unknown; published fund figures may revise."
+    },
+    {
+      "id": "staking-review-2026-10-20-evening",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "43,948,738ETH;35%;2.5%APR unchanged display",
+      "summary": "The rechecked ethereum.org page retains the same counters and February12,2025 update label. Access today does not establish fresh staking participation or realized net yield.",
+      "sourceIds": [
+        "stake-2026-10-20-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Actual counter measurement timestamp and current net staking economics unverified."
+    },
+    {
+      "id": "defi-tokenization-2026-10-20-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$49.941B;stablecoins$143.745B;RWA$13.674B",
+      "summary": "DefiLlama October20 displays TVL+0.75%24h and stablecoins-0.52%7d. DEXvolume$971.6M24h/$7.779B7d(-19.96%);net inflows-$188.9M. Provider-defined balances and USD marks are not audited new capital subscriptions.",
+      "sourceIds": [
+        "defi-2026-10-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Different asset definitions/time windows; one-day balances do not prove durable ETH demand."
+    },
+    {
+      "id": "eth-capture-2026-10-20-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chainfees$274,266;revenue$61,00524h",
+      "summary": "ChainREV$440,717,appfees$8.01M and apprevenue$1.51M remain distinct measures. Increased ecosystem use or dollar-token settlement is not itself sustained ETH-holder income, reserve demand or net burn.",
+      "sourceIds": [
+        "defi-2026-10-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Persistent monetary premium and durable ETH-specific capture remain unproven."
+    },
+    {
+      "id": "protocol-review-2026-10-20-evening",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF latest remains October16 Hoodi schedule",
+      "summary": "The rechecked index retains future October26 Hoodi activation at17:42:48UTC and200Mgas;mainnet date undecided. No new activation or live network-health certification is established.",
+      "sourceIds": [
+        "ef-2026-10-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Bounded index review, not an exhaustive client/consensus audit."
+    },
+    {
+      "id": "regulatory-review-2026-10-20-evening",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC October20 cooperation releases;custody still proposal",
+      "summary": "The listing now includes SEC/AMF supervisory cooperation and SEC/FSA financial regulatory dialogue. These headlines do not establish a new final ETH custody or staking regime; October1 custody remains listed as a proposal.",
+      "sourceIds": [
+        "sec-2026-10-20-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Bounded release-index review is not exhaustive legal clearance."
+    },
+    {
+      "id": "housing-demand-2026-10-20-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "September single-family starts-4.6%;permits-4.0%m/m",
+      "summary": "Census October20 release estimates859,000 single-family starts and845,000 permits at seasonally adjusted annual rates. Total starts1.221M,-5.2% with an11.8-point sampling margin. Inference: residential investment faces downside risk, not proof of recession or a new Fed decision.",
+      "sourceIds": [
+        "census-2026-10-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Monthly starts have broad sampling uncertainty and revisions; total monthly confidence interval includes zero."
+    },
+    {
+      "id": "structural-separation-2026-10-20-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Cyclical housing weakness is not ETH reserve capture",
+      "summary": "Keep the new real-activity release separate from structural fiscal/debasement evidence. Large DeFi balances do not establish debt monetization, institutional ETH reserve allocation or a durable monetary premium. Retain prior fiscal sources with their original dates and qualifications.",
+      "sourceIds": [
+        "census-2026-10-20-evening",
+        "defi-2026-10-20-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Long-run fiscal transmission and ETH reserve/collateral demand remain uncertain."
     }
   ],
   "sources": {
@@ -5990,15 +6099,50 @@
       "label": "Reuters October20 Saudi claims and oil risk",
       "url": "https://www.reuters.com/business/energy/oil-eases-markets-assess-potential-waiver-russian-energy-middle-east-supply-2026-10-20/",
       "accessedAt": "2026-10-20"
+    },
+    "cg-2026-10-20-evening": {
+      "label": "CoinGecko consistent evening paragraph",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-20"
+    },
+    "etf-2026-10-20-evening": {
+      "label": "Farside October20 incomplete row checked evening",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-20"
+    },
+    "stake-2026-10-20-evening": {
+      "label": "ethereum.org display;measurement time unverified",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-20"
+    },
+    "defi-2026-10-20-evening": {
+      "label": "DefiLlama Ethereum evening metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-20"
+    },
+    "ef-2026-10-20-evening": {
+      "label": "EF index checked October20 evening",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-20"
+    },
+    "sec-2026-10-20-evening": {
+      "label": "SEC release index checked October20 evening",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-20"
+    },
+    "census-2026-10-20-evening": {
+      "label": "Census October20 September residential construction release",
+      "url": "https://www.census.gov/construction/nrc/current/index.html",
+      "accessedAt": "2026-10-20"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "Newly verified October19 Sparkassen/Deka phased launch including ETH is a major bank-distribution development; not nationwide access or proven ETH demand.",
-      "Absolute0.40%rolling daily price move does not meet5%; no new thesis-breaking event established.",
-      "Completed October19 ETF outflows replace the prior incomplete row; do not repeat yesterday's JPM Coin alert."
+      "Absolute1.90%rolling24h move is below5%.",
+      "No newly substantiated major ETH or thesis-breaking development beyond already-notified JPM Coin/Sparkassen announcements in bounded checks.",
+      "Newly incomplete October20 ETF row is unreported, not observed zero; housing release already covered in afternoon economic alert."
     ],
-    "confirmedVsUncertain": "Confirmed: consistent price paragraph, completed displayed ETF row, dated issuer notice opening and dpa report of phased bank access, and displayed DeFi/index contents. Uncertain: actual bank uptake/ETH purchases, issuer notice inaccessible remainder, stale staking counter timestamps, durable value capture and unverified Saudi attack claims. Preserve all357 prior observations and all prior sources; evaluation, thesis, scores, probabilities, policy and UI unchanged."
+    "confirmedVsUncertain": "Confirmed: consistent provider price paragraph, completed October19 ETF row, incomplete October20 row, displayed DeFi metrics and official release/index contents. Uncertain: current staking-counter time, completed Tuesday ETF flows, durable ETH capture, complete legal/network conditions and economic transmission. Preserve all367 historical observations and every prior source. Evaluation, thesis, scores, probabilities, policy and UI remain untouched; the earlier afternoon thesis candidate is not published by this research job."
   }
 }
