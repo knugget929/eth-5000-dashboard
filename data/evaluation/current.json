@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-19T14:21:09Z",
+  "evaluatedAt": "2026-10-20T13:50:06Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,9 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "sparkassen-rollout-2026-10-20-morning",
+      "etf-session-2026-10-20-morning",
+      "etf-session-2026-10-19-evening",
       "etf-session-2026-10-19-morning",
       "etf-session-2026-10-17-morning",
       "db-custody-rollout-2026-10-17-morning",
@@ -123,6 +126,8 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "energy-risk-2026-10-20-morning",
+      "energy-risk-2026-10-19-evening",
       "china-growth-2026-10-19-morning",
       "russia-waiver-2026-10-17-morning",
       "import-inflation-2026-10-16-evening",
@@ -144,6 +149,8 @@
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
+      "regulatory-review-2026-10-20-morning",
+      "regulatory-review-2026-10-19-evening",
       "regulatory-review-2026-10-19-morning",
       "us-regulatory-review-2026-10-17-morning",
       "eth-regulation-2026-10-16-morning",
@@ -154,6 +161,9 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "defi-tokenization-2026-10-20-morning",
+      "defi-tokenization-2026-10-19-evening",
+      "jpm-ethereum-2026-10-19-evening",
       "defi-tokenization-2026-10-19-morning",
       "defi-tokenization-2026-10-17-morning",
       "eth-adoption-2026-10-16-morning",
@@ -165,6 +175,8 @@
       "ethereum-rwa-2026-09-20"
     ],
     "staking": [
+      "staking-review-2026-10-20-morning",
+      "staking-review-2026-10-19-evening",
       "staking-review-2026-10-19-morning",
       "staking-display-2026-10-17-morning",
       "eth-staking-2026-10-16-morning",
@@ -178,6 +190,8 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
+      "protocol-review-2026-10-20-morning",
+      "protocol-review-2026-10-19-evening",
       "protocol-review-2026-10-19-morning",
       "glamsterdam-hoodi-2026-10-17-morning",
       "eth-protocol-2026-10-16-morning",
@@ -188,6 +202,8 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-10-20-morning",
+      "eth-market-2026-10-19-evening",
       "eth-market-2026-10-19-morning",
       "eth-market-2026-10-17-morning",
       "eth-market-2026-10-16-morning",
@@ -199,6 +215,8 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-10-20-morning",
+      "eth-capture-2026-10-19-evening",
       "eth-capture-2026-10-19-morning",
       "eth-capture-2026-10-17-morning",
       "eth-capture-2026-10-16-morning",
@@ -210,6 +228,8 @@
       "ecb-pontes-2026-09-21"
     ],
     "debasement": [
+      "structural-separation-2026-10-20-morning",
+      "structural-separation-2026-10-19-evening",
       "structural-separation-2026-10-19-morning",
       "structural-separation-2026-10-17-morning",
       "reported-fiscal-result-2026-10-16-evening",
@@ -221,5 +241,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Independently maintain $5K58% and $10K27%, all18 catalyst scores/colors and rounded weighted signals54/39. Evaluate canonical October19 05:11:22UTC research, not a live afternoon market quote. For $5K, substantial staking/DeFi/RWA footprint and dated Hoodi preparation support the moderate hurdle, but the$2,421.01(+0.30%24h) fallback remains below the lost$2.7K base, prior ETF withdrawals total$259.5M over October14–16, and daily net inflows remain negative. China's firmer preliminary growth is uneven and is not a Fed easing decision. For $10K, future testnet capacity and ecosystem balances do not satisfy explicit ETH capture: chainrevenue$28,383 versus appfees$5.58M is not demonstrated durable holder income or reserve demand. SEC proposals and stale staking counters supply no fresh score confirmation. Keep cyclical liquidity separate from structural debasement; retain prior fiscal attribution/forecast distinctions. Refresh evidence references, target-specific explanations and research-dated fallback only. Preserve October8 updatedAt, probability histories and all11 What Changed entries because no probability, score or color changes are warranted."
+  "decision": "Independently maintain $5K58% and $10K27%, all18 catalyst scores/colors and rounded weighted signals54/39. Evaluate the canonical October20 05:08:47UTC research, not a live afternoon quote. For $5K, JPM Coin's announced Ethereum launch and phased Sparkassen access improve distribution/settlement rails, but realized adoption and incremental ETH buying remain unverified; completed October19 ETF withdrawals of$103.3M bring four October14–19 sessions to-$362.8M, and the$2,410.93(-0.40%24h) snapshot remains below the lost$2.7K base. For $10K, bank dollar-token use and large ecosystem balances still fail the critical durable ETH-capture hurdle: chainrevenue$49,819 versus appfees$7.94M are distinct metrics, not ETH-holder income. TVL$49.34B,stablecoins$143.763B and RWA$13.74B coexist with-$177.98M daily net inflows and weaker weekly DEX activity. Future Hoodi scheduling, stale staking counters and an unrelated SEC AI-data roundtable do not justify score changes. Keep cyclical oil/financing risk separate from structural fiscal debasement and preserve uncertainty around Saudi attack claims. Refresh evidence references, target-specific explanations and the research-dated fallback. Preserve October8 updatedAt, both probability histories and all11 What Changed entries because no probability, score or color changes are warranted."
 }
