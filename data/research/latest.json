@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-19T18:50:26Z",
-  "accessDate": "2026-10-19",
+  "researchedAt": "2026-10-20T05:08:47Z",
+  "accessDate": "2026-10-20",
   "market": {
-    "ethUsd": 2397.3,
-    "change24h": 1.5,
-    "marketCapUsd": 292826049266,
-    "volume24hUsd": 10815893693.88,
+    "ethUsd": 2410.93,
+    "change24h": -0.4,
+    "marketCapUsd": 294498570250,
+    "volume24hUsd": 9169691015.96,
     "sourceIds": [
-      "cg-2026-10-19-evening"
+      "cg-2026-10-20-morning"
     ],
-    "note": "One consistent textual CoinGecko paragraph reports +1.50%rolling24h and -4.60%7d. Do not mix asynchronous page widgets or infer news causation from this quote."
+    "note": "Use the internally consistent CoinGecko textual paragraph: -0.40%rolling24h,-3.80%7d. Other widgets differ; no mixed snapshots or claimed news causation."
   },
   "observations": [
     {
@@ -4449,6 +4449,130 @@
       ],
       "confirmed": false,
       "uncertainty": "Long-run ETH reserve, collateral and scarcity effects remain unproven."
+    },
+    {
+      "id": "eth-market-2026-10-20-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH$2,410.93;-0.40%24h",
+      "summary": "One consistent market paragraph reports volume$9.170B,cap$294.499B and -3.80%7d. Absolute daily move remains below5%; a rolling daily return differs from the change since the prior run.",
+      "sourceIds": [
+        "cg-2026-10-20-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Continuously changing provider snapshots do not establish investor identities or price causation."
+    },
+    {
+      "id": "etf-session-2026-10-20-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October19 completed ETF net flow-$103.3M",
+      "summary": "Farside now replaces the previously all-dash row: ETHA-95.4M,FETH-6.0M,ETHE-1.9M; other funds0.0. Four completed October14–19 sessions sum-$362.8M. The former computed0.0 was unreported, not an observed flat session.",
+      "sourceIds": [
+        "etf-2026-10-20-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Published fund flows may revise; October20 session is not complete."
+    },
+    {
+      "id": "sparkassen-rollout-2026-10-20-morning",
+      "catalyst": "institutional",
+      "direction": "tailwind",
+      "value": "Phased Sparkassen crypto trading includes ETH",
+      "summary": "Dated October19 DekaBank issuer notice lists five assets and phased bank-by-bank introduction. Dpa reports initial participating banks live and a planned30–40 additional institutions monthly, not a nationwide launch. Inference: broader bank distribution lowers access friction.",
+      "sourceIds": [
+        "deka-2026-10-20-morning",
+        "dpa-2026-10-20-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No verified account uptake, transaction volumes or incremental ETH purchases. Planned rollout is not completed reach; issuer notice body is only partly accessible."
+    },
+    {
+      "id": "staking-review-2026-10-20-morning",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "43,948,738ETH;35%;2.5%APR displayed unchanged",
+      "summary": "The ethereum.org counters still show the same values with a February12,2025 page-update label. Access today does not establish a fresh staking measurement or realized yield.",
+      "sourceIds": [
+        "stake-2026-10-20-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Counter measurement time and effective net yield remain unverified."
+    },
+    {
+      "id": "defi-tokenization-2026-10-20-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$49.34B;stablecoins$143.763B;RWA$13.74B",
+      "summary": "DefiLlama October20 TVL-0.46%24h; stablecoins-0.50%7d. DEXvolume$965.14M24h/$7.779B7d(-19.96%),net inflows-$177.98M. These provider-defined balances are not distinct new capital subscriptions or holder cash flow.",
+      "sourceIds": [
+        "defi-2026-10-20-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD marks, asset definitions and time windows differ; persistence unproven."
+    },
+    {
+      "id": "eth-capture-2026-10-20-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chainfees$261,972;revenue$49,81924h",
+      "summary": "ChainREV$391,246, appfees$7.94M and apprevenue$1.49M are separate metrics. Bank access and ecosystem balances do not alone demonstrate durable ETH reserve demand or holder income.",
+      "sourceIds": [
+        "defi-2026-10-20-morning",
+        "deka-2026-10-20-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No audited persistent net burn, monetary premium or ETH-holder cash flow."
+    },
+    {
+      "id": "protocol-review-2026-10-20-morning",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF index still leads with October16 Hoodi announcement",
+      "summary": "Hoodi activation remains future October26 at17:42:48UTC;mainnet date undecided. Rechecked index supplies no newer activation confirmation or client/network health audit.",
+      "sourceIds": [
+        "ef-2026-10-20-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No exhaustive consensus/client review; future scheduled capacity is not live mainnet capacity."
+    },
+    {
+      "id": "regulatory-review-2026-10-20-morning",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC latest October19 AI-data roundtable notice",
+      "summary": "The index now includes machine-understandable-data roundtable material. October1 crypto custody remains a proposal; no broad new final ETH regime established by this bounded review.",
+      "sourceIds": [
+        "sec-2026-10-20-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Not an exhaustive legal/court/filing search; conference announcement is not a substantive final crypto rule."
+    },
+    {
+      "id": "energy-risk-2026-10-20-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Saudi infrastructure attacks claimed;oil risk persists",
+      "summary": "Reuters October20 reports Houthi claims against Saudi infrastructure; Saudi confirmation and independent verification absent. Brent$110.10 at03:19UTC. Inference: supply-risk premium can impede cyclical easing.",
+      "sourceIds": [
+        "oil-2026-10-20-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Claims are not verified infrastructure damage, production losses or a Fed decision."
+    },
+    {
+      "id": "structural-separation-2026-10-20-morning",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Distribution access is not ETH monetary capture",
+      "summary": "Sparkassen retail access concerns investability; it does not establish ETH reserve allocation, debt monetization or sustained scarcity. Preserve separately dated fiscal evidence and the independent $5K/$10K hurdles.",
+      "sourceIds": [
+        "deka-2026-10-20-morning",
+        "dpa-2026-10-20-morning",
+        "defi-2026-10-20-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Long-run reserve/collateral demand and monetary premium remain unproven."
     }
   ],
   "sources": {
@@ -5821,15 +5945,60 @@
       "label": "Reuters October19 updated energy and shipping report",
       "url": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/",
       "accessedAt": "2026-10-19"
+    },
+    "cg-2026-10-20-morning": {
+      "label": "CoinGecko consistent October20 market paragraph",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-20"
+    },
+    "etf-2026-10-20-morning": {
+      "label": "Farside completed October19 row checked October20",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-20"
+    },
+    "deka-2026-10-20-morning": {
+      "label": "DekaBank October19 issuer notice; accessible opening only",
+      "url": "https://www.lifepr.de/inaktiv/dekabank-deutsche-girozentrale/dekabank-startet-krypto-angebot-fr-sparkassen-kundinnen-und-kunden/boxid/1076711",
+      "accessedAt": "2026-10-20"
+    },
+    "dpa-2026-10-20-morning": {
+      "label": "Dpa October19 Sparkassen phased rollout report via t-online",
+      "url": "https://www.t-online.de/finanzen/krypto/id_101487864/kryptowaehrungen-sparkassen-starten-schrittweise-kryptohandel-mit-warnung.html",
+      "accessedAt": "2026-10-20"
+    },
+    "stake-2026-10-20-morning": {
+      "label": "ethereum.org counters; measurement time unverified",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-20"
+    },
+    "defi-2026-10-20-morning": {
+      "label": "DefiLlama Ethereum October20 metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-20"
+    },
+    "ef-2026-10-20-morning": {
+      "label": "Ethereum Foundation index checked October20",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-20"
+    },
+    "sec-2026-10-20-morning": {
+      "label": "SEC press release index checked October20",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-20"
+    },
+    "oil-2026-10-20-morning": {
+      "label": "Reuters October20 Saudi claims and oil risk",
+      "url": "https://www.reuters.com/business/energy/oil-eases-markets-assess-potential-waiver-russian-energy-middle-east-supply-2026-10-20/",
+      "accessedAt": "2026-10-20"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "JPMorgan's October19 announcement of JPM Coin on Ethereum is a major institutional adoption development.",
-      "The absolute1.50%rolling24h move does not independently meet the5% price threshold.",
-      "No thesis-breaking event established; Monday ETF figures remain unreported, not observed zero."
+      "Newly verified October19 Sparkassen/Deka phased launch including ETH is a major bank-distribution development; not nationwide access or proven ETH demand.",
+      "Absolute0.40%rolling daily price move does not meet5%; no new thesis-breaking event established.",
+      "Completed October19 ETF outflows replace the prior incomplete row; do not repeat yesterday's JPM Coin alert."
     ],
-    "confirmedVsUncertain": "Confirmed: dated JPMorgan go-live headline, corroborating institutional deposit-token reporting, consistent market paragraph and displayed ETF/DeFi/index contents. Official JPMorgan body retrieval returned403, so no independent transaction audit or undisclosed metrics are claimed. Uncertain: realized bank-token usage, sustained ETH capture, staking-counter freshness, complete legal/network status and shipping estimates. Preserve347 historical observations and all sources; today's evaluation/thesis, probabilities, scores, policy and UI remain untouched."
+    "confirmedVsUncertain": "Confirmed: consistent price paragraph, completed displayed ETF row, dated issuer notice opening and dpa report of phased bank access, and displayed DeFi/index contents. Uncertain: actual bank uptake/ETH purchases, issuer notice inaccessible remainder, stale staking counter timestamps, durable value capture and unverified Saudi attack claims. Preserve all357 prior observations and all prior sources; evaluation, thesis, scores, probabilities, policy and UI unchanged."
   }
 }
