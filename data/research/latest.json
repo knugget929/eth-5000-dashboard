@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-20T18:27:58Z",
-  "accessDate": "2026-10-20",
+  "researchedAt": "2026-10-21T05:42:27Z",
+  "accessDate": "2026-10-21",
   "market": {
-    "ethUsd": 2443.82,
-    "change24h": 1.9,
-    "marketCapUsd": 298540851519,
-    "volume24hUsd": 10854952071.77,
+    "ethUsd": 2439.26,
+    "change24h": 1.6,
+    "marketCapUsd": 297927475973,
+    "volume24hUsd": 11476793359.94,
     "sourceIds": [
-      "cg-2026-10-20-evening"
+      "cg-2026-10-21-morning"
     ],
-    "note": "One internally consistent CoinGecko textual paragraph reports+1.90%rolling24h and-2.60%7d. Do not combine asynchronous widgets; this checked snapshot is not an EOD close or proof of causation."
+    "note": "One internally consistent CoinGecko textual paragraph reports +1.60% rolling 24h and -2.80% 7d. Do not combine asynchronous widgets; this checked snapshot is not an EOD close or proof of causation."
   },
   "observations": [
     {
@@ -4682,6 +4682,115 @@
       ],
       "confirmed": false,
       "uncertainty": "Long-run fiscal transmission and ETH reserve/collateral demand remain uncertain."
+    },
+    {
+      "id": "eth-market-2026-10-21-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,439.26; +1.60% 24h",
+      "summary": "The same CoinGecko paragraph gives volume $11.477B, market cap $297.927B and a -2.80% seven-day change. The rolling daily move remains below the 5% alert threshold and does not establish a causal effect from institutional announcements.",
+      "sourceIds": [
+        "cg-2026-10-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider quotes change continuously; venue composition, rolling windows and buyer identity remain unknown."
+    },
+    {
+      "id": "etf-session-2026-10-21-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 20 U.S. spot ETH ETF net flow -$26.1M",
+      "summary": "Farside's previously incomplete October 20 row is now populated and totals a $26.1M outflow. The five completed sessions from October 14 through October 20 total -$388.9M, extending the recent institutional-demand headwind without proving a permanent allocation reversal.",
+      "sourceIds": [
+        "etf-2026-10-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "The automatically generated table can revise; fund flows do not identify ultimate buyers or predict future demand."
+    },
+    {
+      "id": "staking-review-2026-10-21-morning",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "43,948,738 ETH; 35%; 2.5% APR unchanged display",
+      "summary": "The rechecked ethereum.org page retains the same counters and February 12, 2025 page-update label. Access today does not establish a fresh measurement time, validator economics or realized net yield.",
+      "sourceIds": [
+        "stake-2026-10-21-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Actual counter measurement timestamp, validator exits, costs and current net staking economics are unverified."
+    },
+    {
+      "id": "defi-tokenization-2026-10-21-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL $50.221B; stablecoins $143.552B; RWA $13.695B",
+      "summary": "DefiLlama displays TVL +1.78% over 24 hours, stablecoin market cap -0.75% over seven days, DEX volume $1.132B over 24 hours and $7.484B over seven days (-7.33%), with $48.61M of net outflows. Provider-defined balances and USD marks are not audited new subscriptions.",
+      "sourceIds": [
+        "defi-2026-10-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Definitions and time windows differ across providers; one-day balance changes do not prove durable ETH demand."
+    },
+    {
+      "id": "eth-capture-2026-10-21-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chain fees $418,507; revenue $120,879 over 24h",
+      "summary": "DefiLlama also reports chain REV $584,958, app fees $7.09M and app revenue $1.5M. These are distinct measures: ecosystem activity and dollar-token settlement do not automatically become durable ETH-holder income, reserve demand or net burn.",
+      "sourceIds": [
+        "defi-2026-10-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily activity is volatile and persistent ETH-specific monetary capture remains unproven."
+    },
+    {
+      "id": "protocol-review-2026-10-21-morning",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "EF latest remains October 16 Hoodi schedule",
+      "summary": "The Ethereum Foundation index still points to the future October 26 Glamsterdam activation on Hoodi at 17:42:48 UTC. No new activation, mainnet date or live network-health certification was established by this bounded review.",
+      "sourceIds": [
+        "ef-2026-10-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Bounded official-index review, not an exhaustive client or consensus audit."
+    },
+    {
+      "id": "regulatory-review-2026-10-21-morning",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC latest releases remain October 20 cross-border cooperation items",
+      "summary": "The SEC index still lists the October 20 AMF memorandum and FSA regulatory dialogue above the October 1 crypto-custody proposal. No new final ETH custody, staking or offering regime was established by this bounded review.",
+      "sourceIds": [
+        "sec-2026-10-21-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "A press-release index is not exhaustive legal clearance; the custody item remains a proposal."
+    },
+    {
+      "id": "energy-risk-2026-10-21-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $110.38; at least 18 vessel attacks in two weeks",
+      "summary": "Reuters reports another $1-plus oil rise, Kpler's count of at least 18 vessel attacks over two weeks and U.S. Energy Department efforts with refiners to boost diesel output. This confirms elevated shipping and fuel stress, while physical Saudi production losses remain unestablished.",
+      "sourceIds": [
+        "oil-2026-10-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Kpler and API inventory figures are reported estimates; diplomatic claims, future supply losses and the Fed response remain uncertain."
+    },
+    {
+      "id": "structural-separation-2026-10-21-morning",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Cyclical energy stress is not ETH reserve capture",
+      "summary": "Keep the new oil and diesel shock separate from structural fiscal and debasement evidence. Higher nominal prices can tighten policy and hurt risk assets; neither large DeFi balances nor inflation risk proves institutional ETH reserve allocation or a durable monetary premium.",
+      "sourceIds": [
+        "oil-2026-10-21-morning",
+        "defi-2026-10-21-morning"
+      ],
+      "confirmed": false,
+      "uncertainty": "Long-run fiscal transmission and ETH reserve or collateral demand remain uncertain."
     }
   ],
   "sources": {
@@ -6134,6 +6243,41 @@
       "label": "Census October20 September residential construction release",
       "url": "https://www.census.gov/construction/nrc/current/index.html",
       "accessedAt": "2026-10-20"
+    },
+    "cg-2026-10-21-morning": {
+      "label": "CoinGecko consistent morning paragraph",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-21"
+    },
+    "etf-2026-10-21-morning": {
+      "label": "Farside finalized October 20 Ethereum ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-21"
+    },
+    "stake-2026-10-21-morning": {
+      "label": "ethereum.org display; measurement time unverified",
+      "url": "https://ethereum.org/staking/",
+      "accessedAt": "2026-10-21"
+    },
+    "defi-2026-10-21-morning": {
+      "label": "DefiLlama Ethereum October 21 metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-21"
+    },
+    "ef-2026-10-21-morning": {
+      "label": "Ethereum Foundation index checked October 21",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-21"
+    },
+    "sec-2026-10-21-morning": {
+      "label": "SEC press release index checked October 21",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-10-21"
+    },
+    "oil-2026-10-21-morning": {
+      "label": "Reuters October 21 oil, shipping and diesel-risk update",
+      "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/",
+      "accessedAt": "2026-10-21"
     }
   },
   "assessment": {
