@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-21T18:04:38Z",
-  "accessDate": "2026-10-21",
+  "researchedAt": "2026-10-22T05:36:50Z",
+  "accessDate": "2026-10-22",
   "market": {
-    "ethUsd": 2512,
-    "change24h": 2.6,
-    "marketCapUsd": 306972798621,
-    "volume24hUsd": 13463756164.55,
+    "ethUsd": 2443.45,
+    "change24h": -1.2,
+    "marketCapUsd": 298249226086,
+    "volume24hUsd": 13777880331,
     "sourceIds": [
-      "cg-2026-10-21-evening"
+      "cg-2026-10-22-morning"
     ],
-    "note": "One internally consistent CoinGecko textual paragraph reports +2.60% rolling 24h and +2.80% 7d. Do not combine asynchronous widgets; this checked snapshot is not an EOD close or proof of causation."
+    "note": "CoinGecko displayed $2,443.45 and +3.70% over seven days; the -1.2% figure compares this checked snapshot with CoinGecko's October 21 daily close of $2,472.68, not a synchronized exchange close or proof of causation."
   },
   "observations": [
     {
@@ -4924,6 +4924,42 @@
       ],
       "confirmed": false,
       "uncertainty": "Durable multi-allocator ETH monetary premium and long-run fiscal transmission remain unproven."
+    },
+    {
+      "id": "eth-market-2026-10-22-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,443.45; about -1.2% vs Oct. 21 CoinGecko close",
+      "summary": "CoinGecko displayed a $298.249B market capitalization, about $13.778B of current-day volume, and +3.70% over seven days. The move from its October 21 daily close remains below the 5% alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-22-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices and volumes move continuously; the percentage is a checked-snapshot comparison with the provider's prior daily close, not a synchronized rolling-24-hour exchange measure."
+    },
+    {
+      "id": "etf-session-2026-10-21-final",
+      "catalyst": "institutional",
+      "direction": "supportive",
+      "value": "+$14.9M U.S. spot ETH ETF net inflow",
+      "summary": "Farside finalized October 21 at a $14.9M net inflow, the first positive session since October 13. The small reversal follows five completed sessions from October 14 through October 20 totaling -$388.9M, so it does not yet establish renewed accumulation.",
+      "sourceIds": [
+        "etf-2026-10-22-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside can revise fund rows; one positive session is not a durable flow trend and does not identify ultimate buyers."
+    },
+    {
+      "id": "gulf-energy-risk-2026-10-22",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $110.75; WTI $98.58 after further Gulf attacks",
+      "summary": "Reuters reported Brent up 1.77% to $110.75 after fatal attacks at a Saudi airport and oil field, with additional Iranian claims involving vessels and mines. Higher energy inflation and yields remain a cyclical liquidity headwind for ETH, while actual Saudi production loss was not established.",
+      "sourceIds": [
+        "reuters-oil-2026-10-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "Market prices move continuously; responsibility, the Iranian vessel claims, future retaliation and physical supply losses remain uncertain."
     }
   ],
   "sources": {
@@ -6451,15 +6487,30 @@
       "label": "Reuters on ECB euro-area energy-shock assessment",
       "url": "https://www.reuters.com/business/finance/ecb-says-ai-greener-economy-help-euro-zone-weather-energy-shock-2026-10-21/",
       "accessedAt": "2026-10-21"
+    },
+    "cg-2026-10-22-morning": {
+      "label": "CoinGecko Ethereum checked morning snapshot and historical data",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-22"
+    },
+    "etf-2026-10-22-morning": {
+      "label": "Farside finalized October 21 Ethereum ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-22"
+    },
+    "reuters-oil-2026-10-22": {
+      "label": "Reuters October 22 oil and Gulf escalation update",
+      "url": "https://www.reuters.com/business/energy/oil-prices-climb-after-fresh-attacks-saudi-arabia-2026-10-22/",
+      "accessedAt": "2026-10-22"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "Absolute 2.60% rolling 24h move is below 5%.",
-      "BitMine's SEC-filed exhibit newly confirms 6.041M ETH held, a 12,535 ETH weekly purchase and 5.067M ETH staked; the 4.9%-of-supply concentration is major institutional evidence.",
-      "No new protocol activation, final U.S. ETH rule or thesis-breaking failure was established. The October 21 ETF row remains incomplete and must not be labeled zero."
+      "The checked ETH move is below the 5% market alert threshold.",
+      "October 21's $14.9M ETF inflow is a modest one-session reversal after $388.9M of outflows across the prior five completed sessions, not a durable trend change.",
+      "The Gulf energy escalation is a meaningful macro headwind covered by the economic alert, but this bounded review found no new ETH-specific thesis-breaking event, protocol failure or final regulatory change."
     ],
-    "confirmedVsUncertain": "Confirmed: the internally consistent provider market paragraph, BitMine's SEC-filed company disclosures, displayed DeFi metrics, unchanged ethereum.org counters and official release/index contents. Uncertain: current-session ETF flows, staking-counter measurement time, audited BitMine custody/revenue, durable ETH value capture, complete legal/network conditions and macro transmission. Preserve all prior observations and sources. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
+    "confirmedVsUncertain": "Confirmed: CoinGecko's checked price and historical close, Farside's finalized October 21 fund row, and Reuters-reported oil prices and acknowledged attacks. Uncertain: synchronized rolling-24-hour ETH performance, durable ETF accumulation, responsibility and physical supply losses from claimed vessel incidents, broader liquidity transmission and durable ETH value capture. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
   }
 }
