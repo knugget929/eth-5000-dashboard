@@ -97,8 +97,8 @@
       ],
       "path": [
         {
-          "label": "$2.44K",
-          "note": "Oct 21 stored research zone",
+          "label": "$2.40K",
+          "note": "Oct 23 stored research zone",
           "active": true
         },
         {
@@ -207,8 +207,8 @@
       ],
       "path": [
         {
-          "label": "$2.44K",
-          "note": "Oct 21 stored research zone",
+          "label": "$2.40K",
+          "note": "Oct 23 stored research zone",
           "active": true
         },
         {
@@ -350,9 +350,9 @@
           "status": "red",
           "score": 0.02,
           "weight": 15,
-          "short": "Oil and shipping stress keep liquidity hostile.",
+          "short": "Lower yields help, but oil above $113 keeps liquidity hostile.",
           "summary": "Restrictive liquidity is the clearest near-term headwind to the $5K path.",
-          "evidence": "Reuters reports Brent at $110.38, at least 18 vessel attacks over two weeks and U.S. efforts to lift diesel output. This confirms elevated energy and shipping stress without proving Saudi production losses. Higher inflation risk can keep policy restrictive; retain red.",
+          "evidence": "Reuters reports the largest one-day U.S. 10-year Treasury price rally since the 2023 SVB collapse, easing one rates headwind, while Brent above $113 and Gulf supply risk keep inflation and policy pressure high. The conflicting move does not establish durable easing; retain red.",
           "why": "ETH generally benefits when yields fall, the dollar weakens, and global liquidity expands.",
           "greenTrigger": "Hike risk fades, inflation trends lower, and markets price durable easing.",
           "redTrigger": "Additional hikes, higher real yields, or renewed dollar strength."
@@ -361,9 +361,9 @@
           "status": "red",
           "score": 0.01,
           "weight": 13,
-          "short": "No verified durable easing regime.",
+          "short": "A safety rally is not a verified durable easing regime.",
           "summary": "A durable $10K path likely needs materially easier liquidity or extraordinary ETH-specific demand.",
-          "evidence": "Oil, shipping and fuel stress reinforce the inflation/liquidity headwind. This is not a monetary-policy decision, but no new evidence establishes the multi-quarter easing, lower real-yield and weaker-dollar regime the stretch case needs. Keep cyclical liquidity distinct from structural fiscal/debasement judgments.",
+          "evidence": "The Treasury rally followed risk reduction, while elevated oil and conflict continue to threaten inflation. No new evidence establishes the multi-quarter easing, lower-real-yield and weaker-dollar regime the stretch case needs. Keep cyclical liquidity separate from structural debasement.",
           "why": "$10K likely needs a sustained regime of lower real yields, easier dollar liquidity, or genuine global monetary expansion.",
           "greenTrigger": "A multi-quarter easing cycle, falling real yields, a weaker dollar, and expanding global liquidity.",
           "redTrigger": "Structurally high real yields, renewed inflation, or repeated tightening cycles."
@@ -544,22 +544,22 @@
       "targets": {
         "5000": {
           "status": "green",
-          "score": 0.82,
+          "score": 0.76,
           "weight": 8,
-          "short": "Dated Hoodi progress persists; mainnet remains undecided.",
-          "summary": "Upcoming upgrades aim to improve throughput, wallet UX, and protocol efficiency.",
-          "evidence": "The October 21 EF index still points to the October 16 schedule: Hoodi October 26 at 17:42:48 UTC and 200M gas. This is future testnet progress, not verified activation or mainnet rollout. Retain $5K green.",
+          "short": "Hoodi delay trims execution confidence, but protocol remains supportive.",
+          "summary": "Roadmap execution remains supportive, but the Hoodi activation slipped while developers investigate a contract-interaction risk.",
+          "evidence": "The Ethereum Foundation removed the scheduled October 26 Glamsterdam activation and 200M gas-limit increase on Hoodi while developers investigate EIP-8037 interactions with mainnet smart contracts; no replacement date is set. This is prudent testnet containment, not a mainnet failure, but the open-ended delay trims the $5K protocol score while preserving green.",
           "why": "Successful upgrades make the network more useful and credible as long-term financial infrastructure.",
           "greenTrigger": "Major testnets and mainnet upgrades ship cleanly with measurable capacity gains.",
           "redTrigger": "Serious upgrade delays, instability, or persistent failure to improve value capture."
         },
         "10000": {
           "status": "yellow",
-          "score": 0.66,
+          "score": 0.62,
           "weight": 7,
-          "short": "Future testnet capacity is not stretch-target economics.",
-          "summary": "A $10K thesis assumes Ethereum can serve vastly more economic activity while preserving credible neutrality and security.",
-          "evidence": "Dated Hoodi preparation supports execution but does not demonstrate mainnet availability, successful activation or durable fee demand. Keep the $10K score below green until rollout and ETH-specific economic evidence warrant change.",
+          "short": "An open-ended testnet delay weakens stretch-target execution evidence.",
+          "summary": "The $10K case still needs reliable scaling delivery plus ETH-specific economics; Hoodi has not yet supplied that confirmation.",
+          "evidence": "The October 26 Hoodi activation and 200M gas-limit increase were removed pending investigation of EIP-8037 interactions, with no replacement date. The response shows prudent risk control, but neither successful testnet activation nor mainnet capacity is established; retain yellow at a lower score.",
           "why": "Technical success must include both throughput and a convincing economic relationship between L2 growth and ETH demand.",
           "greenTrigger": "Roadmap milestones ship reliably, UX improves, and L2 settlement creates durable L1 and ETH economics.",
           "redTrigger": "Scaling fragments liquidity, value accrues elsewhere, or complexity causes repeated instability."
@@ -586,9 +586,9 @@
           "status": "red",
           "score": 0.38,
           "weight": 7,
-          "short": "Stored ETH is $2.44K, below the lost $2.7K base.",
+          "short": "Stored ETH is $2.40K, below the lost $2.7K base.",
           "summary": "The near-term market path deteriorated and now requires a convincing reclaim before momentum can support $5K.",
-          "evidence": "Use the October 21 05:42:27 UTC research fallback: $2,439.26, +1.60% rolling 24h, $11.477B volume and $297.927B market cap. The quote remains below $2.7K and $3K/$3.5K confirmation levels. It is a stored morning snapshot, not a live afternoon quote or inter-run return; no sustained reversal is established.",
+          "evidence": "Use the October 23 05:48:48 UTC research fallback: $2,400.52, -1.60% rolling 24h, $12.292B volume and $293.237B market cap. The quote remains below $2.7K and $3K/$3.5K confirmation levels. It is a stored morning snapshot, not a live afternoon quote or inter-run return; no sustained reversal is established.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
@@ -599,7 +599,7 @@
           "weight": 6,
           "short": "Price and durable flows remain far from stretch confirmation.",
           "summary": "The market is not demonstrating willingness to value ETH near the stretch target.",
-          "evidence": "The stored $2.44K quote, five-session ETF withdrawals of $388.9M and negative daily net inflows do not establish a sustained $5K reclaim or durable spot-led discovery. The sub-5% daily move is neither a protocol failure nor a thesis-breaking event; retain red.",
+          "evidence": "The stored $2.40K quote, prior multi-session ETF withdrawals and an unconfirmed October 22 fund row do not establish a sustained $5K reclaim or durable spot-led discovery. The sub-5% daily move is neither a protocol failure nor a thesis-breaking event; retain red.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."

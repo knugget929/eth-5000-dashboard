@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-21T13:37:46Z",
+  "evaluatedAt": "2026-10-23T13:45:01Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
       "probability": 58,
       "trend": "down",
-      "weightedSignal": 54
+      "weightedSignal": 53
     },
     "10000": {
       "probability": 27,
       "trend": "down",
-      "weightedSignal": 39
+      "weightedSignal": 38
     }
   },
   "catalysts": {
@@ -68,11 +68,11 @@
     "protocol": {
       "5000": {
         "status": "green",
-        "score": 0.82
+        "score": 0.76
       },
       "10000": {
         "status": "yellow",
-        "score": 0.66
+        "score": 0.62
       }
     },
     "market": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "etf-session-2026-10-23-morning",
       "etf-session-2026-10-21-morning",
       "etf-session-2026-10-19-morning",
       "etf-session-2026-10-17-morning",
@@ -124,6 +125,7 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "macro-risk-2026-10-23-morning",
       "energy-risk-2026-10-21-morning",
       "china-growth-2026-10-19-morning",
       "russia-waiver-2026-10-17-morning",
@@ -183,6 +185,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
+      "glamsterdam-hoodi-postponed-2026-10-23",
       "protocol-review-2026-10-21-morning",
       "protocol-review-2026-10-19-morning",
       "glamsterdam-hoodi-2026-10-17-morning",
@@ -194,6 +197,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-10-23-morning",
       "eth-market-2026-10-21-morning",
       "eth-market-2026-10-19-morning",
       "eth-market-2026-10-17-morning",
@@ -230,5 +234,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Independently maintain $5K 58% and $10K 27%, all 18 catalyst scores/colors and rounded weighted signals 54/39. Evaluate canonical October 21 05:42:27 UTC research, not a live afternoon quote. For $5K, broad bank access, staking participation, substantial DeFi/RWA balances and dated Hoodi preparation support the moderate hurdle, but the $2,439.26 (+1.60% 24h) fallback remains below the lost $2.7K base, five completed ETF sessions from October 14–20 total -$388.9M, and daily net inflows remain negative. For $10K, future testnet capacity and ecosystem balances do not satisfy explicit ETH capture: chain revenue $120,879 versus app fees $7.09M is not demonstrated durable holder income or reserve demand. SEC custody remains proposed and staking counters have unverified measurement time. Brent at $110.38 and repeated shipping attacks reinforce the cyclical liquidity/inflation headwind; keep that separate from structural debasement. Refresh evidence references, target-specific explanations and the research-dated fallback only. Preserve October 8 updatedAt, probability histories and all 11 What Changed entries because no probability, score or color changes are warranted."
+  "decision": "Independently maintain $5K at 58% and $10K at 27%. The October 23 Ethereum Foundation notice postpones the planned October 26 Glamsterdam Hoodi activation while EIP-8037 interactions with mainnet smart contracts are investigated. This is a real execution delay with no replacement date, so protocol scores move from 0.82 to 0.76 for $5K and from 0.66 to 0.62 for $10K; statuses remain green/yellow and rounded weighted signals become 53/38. The delay is prudent testnet containment, not a mainnet failure or rollback. The latest stored market fallback is $2,400.52 (-1.60% over 24 hours), still below the lost $2.7K base. October 22 ETF data remains unconfirmed, the bond rally eases one liquidity pressure, and Brent above $113 sustains inflation risk. Preserve October 8 updatedAt, probability histories and all What Changed entries because no catalyst color or target probability changes are warranted."
 }
