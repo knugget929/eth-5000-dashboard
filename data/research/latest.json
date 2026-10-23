@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-23T05:48:48Z",
+  "researchedAt": "2026-10-23T18:39:26Z",
   "accessDate": "2026-10-23",
   "market": {
-    "ethUsd": 2400.52,
-    "change24h": -1.6,
-    "marketCapUsd": 293236956508,
-    "volume24hUsd": 12291858334.78,
+    "ethUsd": 2402.91,
+    "change24h": 1.1,
+    "marketCapUsd": 293499131557,
+    "volume24hUsd": 10919985054.92,
     "sourceIds": [
-      "cg-2026-10-23-morning"
+      "cg-2026-10-23-evening"
     ],
-    "note": "CoinGecko reports $2,400.52, -1.60% over 24 hours and -1.90% over seven days. Prices and rolling windows move continuously; this is not an end-of-day close."
+    "note": "CoinGecko reports $2,402.91, +1.10% over 24 hours and -0.90% over seven days. Prices and rolling windows move continuously; this is not an end-of-day close."
   },
   "observations": [
     {
@@ -5044,6 +5044,54 @@
       ],
       "confirmed": true,
       "uncertainty": "Rates, oil and risk assets move continuously; neither the duration of the bond rally nor the conflict's supply impact is established."
+    },
+    {
+      "id": "eth-market-2026-10-23-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,402.91; +1.10% 24h",
+      "summary": "CoinGecko reports ETH at $2,402.91 with $10.920B of 24-hour volume and a $293.499B market capitalization. The rolling move is well below the 5% price-alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-23-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows move continuously across venues."
+    },
+    {
+      "id": "etf-session-2026-10-23-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 22 U.S. spot ETH ETF net flow -$110.6M",
+      "summary": "Farside finalized October 22 U.S. spot ETH ETF flows at a $110.6M net outflow, reversing the prior day's $14.9M inflow. The October 23 row still shows dashes for every fund and a generated 0.0 total, so it remains unconfirmed rather than a measured flat session.",
+      "sourceIds": [
+        "etf-2026-10-23-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and can revise figures. October 23 remains incomplete, and fund flows do not identify ultimate buyers."
+    },
+    {
+      "id": "ethereum-defi-2026-10-23-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$49.629B TVL / $143.813B stablecoins / $987.41M DEX volume",
+      "summary": "DefiLlama reports $49.629B of Ethereum DeFi TVL, down 1.91% over 24 hours, with $143.813B of stablecoins and $987.41M of 24-hour DEX volume. The footprint remains large, but near-term activity and valuations are softer.",
+      "sourceIds": [
+        "defillama-2026-10-23-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and activity measures are price-sensitive and provider methodologies differ; ecosystem scale is not automatic ETH value capture."
+    },
+    {
+      "id": "energy-shock-2026-10-23-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $116.35; session high $117.45; WTI $102.97",
+      "summary": "Reuters reports Brent touched its highest since late April as Houthi attacks in Saudi Arabia intensified supply fears, while UAE authorities reported an offshore oil spill of unidentified cause and vessel. Rising energy and shipping risk reinforces the restrictive-liquidity backdrop even as ETH's own 24-hour move stayed modest.",
+      "sourceIds": [
+        "reuters-oil-2026-10-23-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "The spill is confirmed, but its cause, vessel and production impact are unidentified. Oil and crypto prices move continuously, and the duration of the conflict is unknown."
     }
   ],
   "sources": {
@@ -6620,6 +6668,26 @@
     "reuters-markets-2026-10-23-morning": {
       "label": "Reuters October 23 global markets, oil and Treasury update",
       "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-10-23/",
+      "accessedAt": "2026-10-23"
+    },
+    "cg-2026-10-23-evening": {
+      "label": "CoinGecko Ethereum checked evening snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-23"
+    },
+    "etf-2026-10-23-evening": {
+      "label": "Farside finalized October 22 and unconfirmed October 23 Ethereum ETF rows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-23"
+    },
+    "defillama-2026-10-23-evening": {
+      "label": "DefiLlama Ethereum chain metrics checked October 23",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-10-23"
+    },
+    "reuters-oil-2026-10-23-evening": {
+      "label": "Reuters October 23 oil, shipping and UAE spill update",
+      "url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
       "accessedAt": "2026-10-23"
     }
   },
