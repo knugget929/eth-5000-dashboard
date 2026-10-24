@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-24T05:11:11Z",
+  "researchedAt": "2026-10-24T18:55:56Z",
   "accessDate": "2026-10-24",
   "market": {
-    "ethUsd": 2378.92,
-    "change24h": -0.6,
-    "marketCapUsd": 290598652606,
-    "volume24hUsd": 9225866532.47,
+    "ethUsd": 2331.23,
+    "change24h": -2.9,
+    "marketCapUsd": 284850971448,
+    "volume24hUsd": 9785510133.81,
     "sourceIds": [
-      "cg-2026-10-24-morning"
+      "cg-2026-10-24-evening"
     ],
-    "note": "CoinGecko reports $2,378.92, -0.60% over 24 hours and -1.80% over seven days. Prices and rolling windows move continuously; this is not an end-of-day close."
+    "note": "CoinGecko reports $2,331.23, -2.90% over 24 hours and -3.30% over seven days. Prices and rolling windows move continuously; this is not an end-of-day close."
   },
   "observations": [
     {
@@ -5116,6 +5116,30 @@
       ],
       "confirmed": false,
       "uncertainty": "Several fund-level values remain unreported and the generated total may change as late reports arrive. ETF flows do not identify ultimate buyers."
+    },
+    {
+      "id": "eth-market-2026-10-24-evening",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH $2,331.23; -2.90% 24h",
+      "summary": "CoinGecko reports ETH at $2,331.23 with $9.786B of 24-hour volume and a $284.851B market capitalization. The rolling decline remains below the 5% price-alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-24-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows move continuously across venues."
+    },
+    {
+      "id": "etf-session-2026-10-24-evening",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "October 23 U.S. spot ETH ETF net flow +$4.4M",
+      "summary": "Farside finalized October 23 U.S. spot ETH ETF flows at a $4.4M net inflow, after October 22's $110.6M outflow. The small positive session offsets only a fraction of the preceding outflow and does not establish a durable accumulation trend.",
+      "sourceIds": [
+        "etf-2026-10-24-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and can revise figures. ETF flows do not identify ultimate buyers."
     }
   ],
   "sources": {
@@ -6722,6 +6746,16 @@
     "etf-2026-10-24-morning": {
       "label": "Farside October 23 Ethereum ETF row, partially reported",
       "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-24"
+    },
+    "cg-2026-10-24-evening": {
+      "label": "CoinGecko Ethereum checked evening snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-24"
+    },
+    "etf-2026-10-24-evening": {
+      "label": "Farside finalized October 23 Ethereum ETF row",
+      "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
       "accessedAt": "2026-10-24"
     }
   },
