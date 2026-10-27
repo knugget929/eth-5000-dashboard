@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-24T18:55:56Z",
-  "accessDate": "2026-10-24",
+  "researchedAt": "2026-10-27T19:53:34Z",
+  "accessDate": "2026-10-27",
   "market": {
-    "ethUsd": 2331.23,
-    "change24h": -2.9,
-    "marketCapUsd": 284850971448,
-    "volume24hUsd": 9785510133.81,
+    "ethUsd": 2344.75,
+    "change24h": 1.3,
+    "marketCapUsd": 286804545980,
+    "volume24hUsd": 9325860874.63,
     "sourceIds": [
-      "cg-2026-10-24-evening"
+      "cg-2026-10-27-evening"
     ],
-    "note": "CoinGecko reports $2,331.23, -2.90% over 24 hours and -3.30% over seven days. Prices and rolling windows move continuously; this is not an end-of-day close."
+    "note": "CoinGecko reports ETH at $2,344.75, up 1.30% over 24 hours and down 4.30% over seven days, with $9.326B of 24-hour volume and a $286.805B market capitalization. Prices and rolling windows move continuously; this is not an end-of-day close."
   },
   "observations": [
     {
@@ -5140,6 +5140,43 @@
       ],
       "confirmed": true,
       "uncertainty": "Farside updates automatically and can revise figures. ETF flows do not identify ultimate buyers."
+    },
+    {
+      "id": "eth-market-2026-10-27-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,344.75; +1.30% 24h",
+      "summary": "CoinGecko reports ETH at $2,344.75 with $9.326B of 24-hour volume and a $286.805B market capitalization. The rolling move remains well below the 5% price-alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-27-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows move continuously across venues."
+    },
+    {
+      "id": "etf-session-2026-10-27-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 26 U.S. spot ETH ETF net flow -$88.6M",
+      "summary": "Farside finalized October 26 U.S. spot ETH ETF flows at an $88.6M net outflow after October 23's $4.4M inflow. The renewed withdrawal reinforces weak institutional demand but does not alone establish a durable regime change.",
+      "sourceIds": [
+        "etf-2026-10-27-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and can revise figures. The October 27 row is unreported, and ETF flows do not identify ultimate buyers."
+    },
+    {
+      "id": "ras-tanura-2026-10-27-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Contained Ras Tanura fire; no supply impact reported",
+      "summary": "Saudi Arabia's Energy Ministry said debris from intercepted drones caused a limited fire at the Ras Tanura refinery. The fire was contained with no injuries and no impact on oil supplies. The incident sustains geopolitical and energy-risk pressure, but it does not confirm a physical supply loss.",
+      "sourceIds": [
+        "spa-ras-tanura-2026-10-27-evening",
+        "reuters-oil-2026-10-27-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "The duration of regional hostilities and future attacks remain uncertain. Oil prices and shipping conditions move continuously, and the incident has no demonstrated direct ETH value-capture effect."
     }
   ],
   "sources": {
@@ -6757,15 +6794,35 @@
       "label": "Farside finalized October 23 Ethereum ETF row",
       "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
       "accessedAt": "2026-10-24"
+    },
+    "cg-2026-10-27-evening": {
+      "label": "CoinGecko Ethereum checked evening snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-27"
+    },
+    "etf-2026-10-27-evening": {
+      "label": "Farside finalized October 26 Ethereum ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-27"
+    },
+    "spa-ras-tanura-2026-10-27-evening": {
+      "label": "Saudi Press Agency: Energy Ministry says limited Ras Tanura fire contained with no supply impact",
+      "url": "https://www.spa.gov.sa/en/N2526213",
+      "accessedAt": "2026-10-27"
+    },
+    "reuters-oil-2026-10-27-evening": {
+      "label": "Reuters: oil prices and renewed Houthi attacks amid diplomacy",
+      "url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/",
+      "accessedAt": "2026-10-27"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "The Ethereum Foundation postponed the scheduled October 26 Glamsterdam Hoodi activation while developers investigate EIP-8037 interactions with mainnet smart contracts; no replacement date is set.",
-      "This delays a protocol testing milestone but is not a mainnet failure, a rollback of chain history or an instruction for ETH holders to act.",
-      "ETH's checked -1.60% rolling 24-hour move is below the 5% price-alert threshold; ETF reporting for October 22 remains unconfirmed."
+      "ETH's checked +1.30% rolling 24-hour move is below the 5% price-alert threshold.",
+      "Farside finalized October 26 U.S. spot ETH ETF flows at -$88.6M after October 23's +$4.4M; this is an institutional headwind but not a thesis-breaking event by itself.",
+      "Saudi Arabia's Energy Ministry confirmed a contained Ras Tanura fire caused by intercepted-drone debris and reported no impact on oil supplies. Energy risk remains elevated without a verified new supply loss."
     ],
-    "confirmedVsUncertain": "Confirmed: the official Hoodi postponement, removal of the prior activation and gas-limit schedule, the checked CoinGecko snapshot, Farside's current display and Reuters-reported market moves. Uncertain: the investigation outcome, replacement activation date, completed October 22 ETF flows, duration of the bond rally, Gulf supply losses and any direct ETH value-capture effect. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
+    "confirmedVsUncertain": "Confirmed: the checked CoinGecko market snapshot, Farside's finalized October 26 ETF row, the still-unreported October 27 row, and Saudi Arabia's official statement that the Ras Tanura fire was contained with no supply impact. Uncertain: future ETF revisions, the duration of regional hostilities, replacement timing for the postponed Hoodi activation and any direct ETH value-capture effect. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
   }
 }
