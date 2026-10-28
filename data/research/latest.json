@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-28T06:19:12Z",
-  "accessDate": "2026-10-27",
+  "researchedAt": "2026-10-28T19:04:44Z",
+  "accessDate": "2026-10-28",
   "market": {
-    "ethUsd": 2354.51,
-    "change24h": 2,
-    "marketCapUsd": 287621800794,
-    "volume24hUsd": 9601093107.98,
+    "ethUsd": 2335.25,
+    "change24h": 0.1,
+    "marketCapUsd": 285259589468,
+    "volume24hUsd": 9165275220.13,
     "sourceIds": [
-      "cg-2026-10-28-morning"
+      "cg-2026-10-28-evening"
     ],
-    "note": "CoinGecko reports ETH at $2,354.51, up 2.00% over 24 hours and down 4.00% over seven days, with $9.601B of 24-hour volume and a $287.622B market capitalization. Prices and rolling windows move continuously; this is not an end-of-day close."
+    "note": "CoinGecko reports ETH at $2,335.25, up 0.10% over 24 hours and down 5.80% over seven days, with $9.165B of 24-hour volume and a $285.260B market capitalization. Prices and rolling windows move continuously; this is not an end-of-day close."
   },
   "observations": [
     {
@@ -5194,13 +5194,49 @@
       "id": "etf-session-2026-10-28-morning",
       "catalyst": "institutional",
       "direction": "mixed",
-      "value": "October 27 U.S. spot ETH ETF net flow +$33.1M",
-      "summary": "Farside finalized October 27 U.S. spot ETH ETF flows at a $33.1M net inflow after October 26's $88.6M outflow. The positive session offsets part of the prior outflow but does not establish a durable accumulation regime.",
+      "value": "Early October 27 ETF total +$33.1M; superseded by finalized -$60.2M",
+      "summary": "The early October 28 research snapshot recorded a generated +$33.1M October 27 total. Farside later populated BlackRock ETHA at -$93.3M, Fidelity FETH at +$28.6M and Grayscale ETH at +$4.5M, revising the finalized session to -$60.2M. Treat the earlier positive total as superseded.",
       "sourceIds": [
         "etf-2026-10-28-morning"
       ],
+      "confirmed": false,
+      "uncertainty": "The earlier total was incomplete and has been superseded by the finalized Farside row. ETF flows do not identify ultimate buyers."
+    },
+    {
+      "id": "eth-market-2026-10-28-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,335.25; +0.10% 24h",
+      "summary": "CoinGecko reports ETH at $2,335.25 with $9.165B of 24-hour volume and a $285.260B market capitalization. The rolling move remains far below the 5% price-alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-28-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows move continuously across venues."
+    },
+    {
+      "id": "etf-session-2026-10-28-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 27 U.S. spot ETH ETF net flow -$60.2M",
+      "summary": "Farside finalized October 27 U.S. spot ETH ETF flows at a $60.2M net outflow, led by BlackRock ETHA at -$93.3M and partly offset by Fidelity FETH at +$28.6M and Grayscale ETH at +$4.5M. Together with October 26's -$88.6M, the two-session withdrawal totals $148.8M and reinforces weak institutional demand without establishing a new thesis regime.",
+      "sourceIds": [
+        "etf-2026-10-28-evening"
+      ],
       "confirmed": true,
       "uncertainty": "Farside updates automatically and can revise figures. ETF flows do not identify ultimate buyers."
+    },
+    {
+      "id": "fed-decision-2026-10-28-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Fed held 3.75%-4.00%; 10-2 vote with two hike dissents",
+      "summary": "The Federal Reserve held its target range at 3.75% to 4.00%. It described economic activity as strong and inflation as elevated; two voters preferred a 25-basis-point increase. The decision preserves restrictive dollar liquidity and leaves further tightening possible, but it is not a new hike.",
+      "sourceIds": [
+        "fed-2026-10-28-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "The future rate path depends on incoming inflation and activity data. A policy hold does not establish durable easing, and market pricing can change quickly."
     }
   ],
   "sources": {
@@ -6852,6 +6888,21 @@
     "ef-2026-10-28-morning": {
       "label": "Ethereum Foundation index checked October 28; no post-postponement protocol update",
       "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-10-28"
+    },
+    "cg-2026-10-28-evening": {
+      "label": "CoinGecko Ethereum evening snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum?chart=type%3Dmarket_cap%26mode%3Dline%26timeframe%3Dh24",
+      "accessedAt": "2026-10-28"
+    },
+    "etf-2026-10-28-evening": {
+      "label": "Farside finalized October 27 Ethereum ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-28"
+    },
+    "fed-2026-10-28-evening": {
+      "label": "Federal Reserve: October 28 FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "accessedAt": "2026-10-28"
     }
   },
