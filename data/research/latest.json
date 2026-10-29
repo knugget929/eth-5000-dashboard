@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-28T19:04:44Z",
-  "accessDate": "2026-10-28",
+  "researchedAt": "2026-10-29T06:40:00Z",
+  "accessDate": "2026-10-29",
   "market": {
-    "ethUsd": 2335.25,
-    "change24h": 0.1,
-    "marketCapUsd": 285259589468,
-    "volume24hUsd": 9165275220.13,
+    "ethUsd": 2325.95,
+    "change24h": -1.1,
+    "marketCapUsd": 284216000000,
+    "volume24hUsd": 10807000000,
     "sourceIds": [
-      "cg-2026-10-28-evening"
+      "cg-2026-10-29-morning"
     ],
-    "note": "CoinGecko reports ETH at $2,335.25, up 0.10% over 24 hours and down 5.80% over seven days, with $9.165B of 24-hour volume and a $285.260B market capitalization. Prices and rolling windows move continuously; this is not an end-of-day close."
+    "note": "CoinGecko reports ETH at $2,325.95, down 1.10% over 24 hours, with $10.807B of 24-hour volume and a $284.216B market capitalization. The 24-hour range was $2,292.94–$2,384.72. Prices and rolling windows move continuously; this is not an end-of-day close."
   },
   "observations": [
     {
@@ -5237,6 +5237,44 @@
       ],
       "confirmed": true,
       "uncertainty": "The future rate path depends on incoming inflation and activity data. A policy hold does not establish durable easing, and market pricing can change quickly."
+    },
+    {
+      "id": "eth-market-2026-10-29-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH $2,325.95; -1.10% 24h",
+      "summary": "CoinGecko reports ETH at $2,325.95 with $10.807B of 24-hour volume and a $284.216B market capitalization. The rolling decline remains well below the 5% price-alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-29-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows move continuously across venues."
+    },
+    {
+      "id": "etf-session-2026-10-29-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 28 U.S. spot ETH ETF net flow -$21.4M; three sessions -$170.2M",
+      "summary": "Farside finalized October 28 U.S. spot ETH ETF flows at a $21.4M net outflow, led by BlackRock ETHA at -$44.8M and partly offset by Fidelity FETH at +$18.8M, Bitwise ETHW at +$1.0M and Grayscale ETH at +$3.6M. Together with October 26 and 27, the three-session withdrawal totals $170.2M and reinforces weak institutional demand without establishing a new thesis regime.",
+      "sourceIds": [
+        "etf-2026-10-29-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and can revise figures. ETF flows do not identify ultimate buyers."
+    },
+    {
+      "id": "client-security-2026-10-29-morning",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "Teku 26.10.3 and Besu 26.10.2 remove trust in eMudhra-linked roots from Docker images",
+      "summary": "Teku and Besu published recommended security updates after weak keys were found for eight eMudhra intermediate certificate authorities. Their latest Docker images remove trust in affected or precautionary roots. The releases reduce infrastructure risk, but operators using archives or their own JDK may still need to update the JDK trust store; this is client hardening rather than an Ethereum consensus or mainnet failure.",
+      "sourceIds": [
+        "teku-2026-10-29-morning",
+        "besu-2026-10-29-morning",
+        "emudhra-2026-10-29-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "eMudhra says the affected intermediates issued no publicly trusted end-entity certificates and that no infrastructure or customer-data compromise was found. The releases do not prove every operator has upgraded; exposure depends on deployment and Java trust-store configuration."
     }
   ],
   "sources": {
@@ -6904,15 +6942,40 @@
       "label": "Federal Reserve: October 28 FOMC statement",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "accessedAt": "2026-10-28"
+    },
+    "cg-2026-10-29-morning": {
+      "label": "CoinGecko Ethereum checked morning snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-29"
+    },
+    "etf-2026-10-29-morning": {
+      "label": "Farside finalized October 28 Ethereum ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-29"
+    },
+    "teku-2026-10-29-morning": {
+      "label": "Teku 26.10.3 release notes",
+      "url": "https://github.com/Consensys/teku/releases/tag/26.10.3",
+      "accessedAt": "2026-10-29"
+    },
+    "besu-2026-10-29-morning": {
+      "label": "Besu 26.10.2 release notes",
+      "url": "https://github.com/hyperledger/besu/releases/tag/26.10.2",
+      "accessedAt": "2026-10-29"
+    },
+    "emudhra-2026-10-29-morning": {
+      "label": "eMudhra certificate security incident update",
+      "url": "https://emudhra.com/en/post/certificate-security-incident",
+      "accessedAt": "2026-10-29"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "ETH's checked +2.00% rolling 24-hour move is below the 5% price-alert threshold.",
-      "Farside finalized October 27 U.S. spot ETH ETF flows at +$33.1M after October 26's -$88.6M; the partial recovery is constructive but not a thesis-changing accumulation signal.",
-      "The Ethereum Foundation index shows no new protocol announcement beyond the already-recorded Hoodi postponement."
+      "ETH's checked -1.10% rolling 24-hour move is below the 5% price-alert threshold.",
+      "Farside finalized October 28 U.S. spot ETH ETF flows at -$21.4M; the three-session -$170.2M withdrawal reinforces the existing institutional headwind but does not by itself change a catalyst color or target probability.",
+      "Teku 26.10.3 and Besu 26.10.2 harden Docker trust stores after the eMudhra CA incident. This is a relevant operator update, but the primary releases do not identify an Ethereum consensus failure or mainnet exploit."
     ],
-    "confirmedVsUncertain": "Confirmed: the checked CoinGecko market snapshot, Farside's finalized October 27 ETF row, and no newer Ethereum Foundation protocol post than the recorded Hoodi postponement. Uncertain: future ETF revisions, the timing of a replacement Hoodi activation, today's Federal Reserve decision and its liquidity effects, and whether one positive ETF session persists. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
+    "confirmedVsUncertain": "Confirmed: the checked CoinGecko market snapshot, Farside's finalized October 28 ETF row, the Teku 26.10.3 and Besu 26.10.2 release notes, and eMudhra's published incident update. Uncertain: future ETF revisions, whether all affected operators have upgraded, and deployment-specific exposure outside the updated Docker images. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
   }
 }
