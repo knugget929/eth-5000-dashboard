@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-29T19:45:00Z",
-  "accessDate": "2026-10-29",
+  "researchedAt": "2026-10-30T06:24:17Z",
+  "accessDate": "2026-10-30",
   "market": {
-    "ethUsd": 2318.35,
-    "change24h": -0.3,
-    "marketCapUsd": 283189497864,
-    "volume24hUsd": 10470698947.76,
+    "ethUsd": 2236.64,
+    "change24h": -3.6,
+    "marketCapUsd": 273234000000,
+    "volume24hUsd": 23722000000,
     "sourceIds": [
-      "cg-2026-10-29-evening"
+      "cg-2026-10-30-morning"
     ],
-    "note": "CoinGecko reports ETH at $2,318.35, down 0.30% over 24 hours, with $10.471B of 24-hour volume and a $283.189B market capitalization. The 24-hour range was $2,292.94–$2,384.72. Prices and rolling windows move continuously; this is not an end-of-day close."
+    "note": "CoinGecko reports ETH at $2,236.64, down 3.6% over 24 hours, with $23.722B of 24-hour volume and a $273.234B market capitalization. The 24-hour range was $2,178.62–$2,373.22. Prices and rolling windows move continuously; this is not an end-of-day close."
   },
   "observations": [
     {
@@ -5313,6 +5313,56 @@
       ],
       "confirmed": true,
       "uncertainty": "Future ECB decisions remain data dependent, and the successor process and policy implications are not yet known."
+    },
+    {
+      "id": "eth-market-2026-10-30-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH $2,236.64; -3.6% 24h",
+      "summary": "CoinGecko reports ETH at $2,236.64 with $23.722B of 24-hour volume and a $273.234B market capitalization. ETH reached a two-month low during the Binance security incident before partially recovering; the checked rolling decline remains below the 5% price-alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-30-morning",
+        "reuters-binance-2026-10-30-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows move continuously across venues; the market may reprice further as Binance's investigation develops."
+    },
+    {
+      "id": "etf-session-2026-10-30-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 29 U.S. spot ETH ETF net flow -$105.5M; four sessions -$275.7M",
+      "summary": "Farside finalized October 29 U.S. spot ETH ETF flows at a $105.5M net outflow, led by BlackRock ETHA at -$71.7M, BlackRock ETHB at -$15.6M, Grayscale ETHE at -$15.5M and Grayscale ETH at -$5.6M, partly offset by Fidelity FETH at +$2.9M. October 26–29 therefore removed $275.7M, reinforcing the existing institutional-demand headwind without independently changing the thesis regime.",
+      "sourceIds": [
+        "etf-2026-10-30-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and can revise figures. ETF flows do not identify ultimate buyers, and four sessions do not by themselves prove a durable structural shift."
+    },
+    {
+      "id": "binance-security-2026-10-30-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "Binance estimates $6.3B impact; about $3B frozen; deposits and withdrawals paused",
+      "summary": "Binance says a compromised DevOps engineer's laptop may have enabled unauthorized withdrawal transactions through a service container. It estimates total impact near $6.3B, reports roughly $3B frozen on-chain, temporarily suspended deposits and withdrawals, and says it will cover losses. The world's largest exchange facing the largest reported crypto breach is a major market-structure shock and drove broad crypto selling, but Binance reports no evidence of wallet-private-key leakage and says user funds are safe.",
+      "sourceIds": [
+        "binance-2026-10-30-morning",
+        "reuters-binance-2026-10-30-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "The incident is still under investigation; the final loss, recoverable amount, attacker identity, exact asset mix and timing of normal withdrawals remain unknown. Binance's no-key-leak and user-funds-safe claims are company statements pending a full post-mortem and updated proof of reserves."
+    },
+    {
+      "id": "hormuz-tanker-2026-10-30-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Brent $116.08; tanker struck by explosives in Strait of Hormuz",
+      "summary": "Reuters reports Brent at $116.08 as UK Maritime Trade Operations said a tanker in the Strait of Hormuz was struck by explosive devices attached to a small boat. No responsibility or confirmed supply loss was established. The incident reinforces the existing oil, inflation and restrictive-liquidity headwind for risk assets including ETH.",
+      "sourceIds": [
+        "reuters-oil-2026-10-30-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Responsibility, damage, cargo impact and any lasting effect on Hormuz traffic remain uncertain. The incident does not yet prove a physical oil-supply loss."
     }
   ],
   "sources": {
@@ -7030,16 +7080,41 @@
       "label": "ECB announcement of Christine Lagarde resignation",
       "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
       "accessedAt": "2026-10-29"
+    },
+    "cg-2026-10-30-morning": {
+      "label": "CoinGecko Ethereum checked morning snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-30"
+    },
+    "etf-2026-10-30-morning": {
+      "label": "Farside finalized October 29 Ethereum ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-30"
+    },
+    "binance-2026-10-30-morning": {
+      "label": "Binance security incident update",
+      "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7",
+      "accessedAt": "2026-10-30"
+    },
+    "reuters-binance-2026-10-30-morning": {
+      "label": "Reuters report on Binance security incident and crypto prices",
+      "url": "https://www.reuters.com/technology/bitcoin-cryptocurrency-prices-fall-after-binance-reports-security-issue-2026-10-30/",
+      "accessedAt": "2026-10-30"
+    },
+    "reuters-oil-2026-10-30-morning": {
+      "label": "Reuters report on Hormuz tanker strike and oil prices",
+      "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/",
+      "accessedAt": "2026-10-30"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "ETH's checked -0.30% rolling 24-hour move is below the 5% price-alert threshold.",
-      "Third-quarter U.S. GDP growth of 3.4% annualized and September PCE inflation of 3.6% year over year reinforce the existing higher-for-longer macro headwind but do not independently change an ETH catalyst color or target probability.",
-      "The ECB held rates and announced Christine Lagarde's February 2027 departure. This adds policy-transition uncertainty without a new rate move or Ethereum-specific thesis break.",
-      "No newer Ethereum Foundation protocol post or finalized U.S. spot ETH ETF session was found beyond the already recorded items."
+      "Binance disclosed an estimated $6.3B security incident, suspended deposits and withdrawals, and said roughly $3B had been frozen. The scale and market-wide reaction qualify as major crypto-market news.",
+      "ETH's checked -3.6% rolling 24-hour move remains below the separate 5% price-alert threshold.",
+      "October 29 U.S. spot ETH ETF outflows of $105.5M extend the October 26–29 withdrawal to $275.7M, reinforcing but not changing the existing institutional headwind.",
+      "The Hormuz tanker incident and Brent near $116 reinforce the existing restrictive macro backdrop without proving a new supply loss."
     ],
-    "confirmedVsUncertain": "Confirmed: the checked CoinGecko market snapshot, BEA's third-quarter GDP advance estimate, Reuters' September PCE figures, the ECB rate decision and the ECB's Lagarde announcement. Uncertain: revisions to advance GDP and rolling market data, the next U.S. and euro-area policy steps, and the implications of the ECB succession. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
+    "confirmedVsUncertain": "Confirmed: Binance's published incident update, the temporary deposit/withdrawal suspension, its stated $6.3B estimate and roughly $3B frozen; the checked CoinGecko market snapshot; Farside's finalized October 29 ETF row; and the reported tanker incident. Uncertain: Binance's final loss and recovery, the absence of private-key compromise pending a full post-mortem, short-term crypto repricing, ETF data revisions, tanker responsibility and any physical oil-supply impact. Evaluation, thesis, scores, probabilities, policy and UI remain untouched."
   }
 }
