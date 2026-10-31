@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-30T06:24:17Z",
-  "accessDate": "2026-10-30",
+  "researchedAt": "2026-10-31T06:06:19.547Z",
+  "accessDate": "2026-10-31",
   "market": {
-    "ethUsd": 2236.64,
-    "change24h": -3.6,
-    "marketCapUsd": 273234000000,
-    "volume24hUsd": 23722000000,
+    "ethUsd": 2244.71,
+    "change24h": 1.1,
+    "marketCapUsd": 274250000000,
+    "volume24hUsd": 14951000000,
     "sourceIds": [
-      "cg-2026-10-30-morning"
+      "cg-2026-10-31-morning"
     ],
-    "note": "CoinGecko reports ETH at $2,236.64, down 3.6% over 24 hours, with $23.722B of 24-hour volume and a $273.234B market capitalization. The 24-hour range was $2,178.62–$2,373.22. Prices and rolling windows move continuously; this is not an end-of-day close."
+    "note": "CoinGecko reports ETH at $2,244.71, up about 1.1% over 24 hours, with $14.951B of 24-hour volume and a $274.25B market capitalization. The 24-hour range was $2,204.46–$2,257.45. Prices and rolling windows move continuously; this is not an end-of-day close."
   },
   "observations": [
     {
@@ -5363,6 +5363,42 @@
       ],
       "confirmed": true,
       "uncertainty": "Responsibility, damage, cargo impact and any lasting effect on Hormuz traffic remain uncertain. The incident does not yet prove a physical oil-supply loss."
+    },
+    {
+      "id": "eth-market-2026-10-31-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $2,244.71; +1.1% 24h",
+      "summary": "CoinGecko reports ETH at $2,244.71 with $14.951B of 24-hour volume and a $274.25B market capitalization. The modest rebound follows the Binance-driven selloff and remains well below the 5% price-alert threshold.",
+      "sourceIds": [
+        "cg-2026-10-31-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows move continuously across venues; the market may reprice further as Binance's investigation and withdrawal restoration develop."
+    },
+    {
+      "id": "etf-session-2026-10-31-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "October 30 U.S. spot ETH ETF net flow -$155.7M; five sessions -$431.4M",
+      "summary": "Farside finalized October 30 U.S. spot ETH ETF flows at a $155.7M net outflow, led by BlackRock ETHA at -$76.6M, Grayscale ETH at -$34.1M, Grayscale ETHE at -$21.5M and BlackRock ETHB at -$19.5M. October 26–30 therefore removed $431.4M across five consecutive outflow sessions, deepening the existing institutional-demand headwind without independently changing the thesis regime.",
+      "sourceIds": [
+        "etf-2026-10-31-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Farside updates automatically and can revise figures. ETF flows do not identify ultimate buyers, and five sessions do not by themselves prove a durable structural shift."
+    },
+    {
+      "id": "binance-security-update-2026-10-31-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "Binance set aside >$6.34B; about 80% held in impacted assets; withdrawals still suspended",
+      "summary": "Binance's second incident update says it has set aside more than $6.34B, including $5B in the affected assets, to absorb the reported $6.3B loss; it says this covers roughly 80% of the impacted asset mix while it buys the remainder. The company says deposits remain operational, withdrawals remain suspended pending checks, additional breach points were found, a phased withdrawal restart is targeted in about 34 hours, and an initial proof-of-reserves result is due by Monday, November 2.",
+      "sourceIds": [
+        "binance-update2-2026-10-31-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "These are Binance statements pending independent verification, completed withdrawals, the promised proof-of-reserves result and a full post-mortem. The final recoverable amount, attack sequence and operational restoration timing remain uncertain."
     }
   ],
   "sources": {
@@ -7105,6 +7141,21 @@
       "label": "Reuters report on Hormuz tanker strike and oil prices",
       "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/",
       "accessedAt": "2026-10-30"
+    },
+    "cg-2026-10-31-morning": {
+      "label": "CoinGecko Ethereum checked morning snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-10-31"
+    },
+    "etf-2026-10-31-morning": {
+      "label": "Farside finalized October 30 Ethereum ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-10-31"
+    },
+    "binance-update2-2026-10-31-morning": {
+      "label": "Binance security incident update #2",
+      "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
+      "accessedAt": "2026-10-31"
     }
   },
   "assessment": {
