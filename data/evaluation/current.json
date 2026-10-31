@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-23T13:45:01Z",
+  "evaluatedAt": "2026-10-31T07:28:58Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 58,
+      "probability": 56,
       "trend": "down",
-      "weightedSignal": 53
+      "weightedSignal": 52
     },
     "10000": {
-      "probability": 27,
+      "probability": 26,
       "trend": "down",
-      "weightedSignal": 38
+      "weightedSignal": 37
     }
   },
   "catalysts": {
     "institutional": {
       "5000": {
         "status": "yellow",
-        "score": 0.62
+        "score": 0.57
       },
       "10000": {
         "status": "yellow",
-        "score": 0.45
+        "score": 0.4
       }
     },
     "macro": {
@@ -78,11 +78,11 @@
     "market": {
       "5000": {
         "status": "red",
-        "score": 0.38
+        "score": 0.26
       },
       "10000": {
         "status": "red",
-        "score": 0.19
+        "score": 0.12
       }
     },
     "value-capture": {
@@ -108,6 +108,8 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "etf-session-2026-10-31-morning",
+      "etf-session-2026-10-30-morning",
       "etf-session-2026-10-23-morning",
       "etf-session-2026-10-21-morning",
       "etf-session-2026-10-19-morning",
@@ -125,6 +127,9 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "hormuz-tanker-2026-10-30-morning",
+      "us-growth-inflation-2026-10-29-evening",
+      "ecb-policy-2026-10-29-evening",
       "macro-risk-2026-10-23-morning",
       "energy-risk-2026-10-21-morning",
       "china-growth-2026-10-19-morning",
@@ -197,6 +202,10 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "binance-security-update-2026-10-31-morning",
+      "eth-market-2026-10-31-morning",
+      "binance-security-2026-10-30-morning",
+      "eth-market-2026-10-30-morning",
       "eth-market-2026-10-23-morning",
       "eth-market-2026-10-21-morning",
       "eth-market-2026-10-19-morning",
@@ -234,5 +243,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Independently maintain $5K at 58% and $10K at 27%. The October 23 Ethereum Foundation notice postpones the planned October 26 Glamsterdam Hoodi activation while EIP-8037 interactions with mainnet smart contracts are investigated. This is a real execution delay with no replacement date, so protocol scores move from 0.82 to 0.76 for $5K and from 0.66 to 0.62 for $10K; statuses remain green/yellow and rounded weighted signals become 53/38. The delay is prudent testnet containment, not a mainnet failure or rollback. The latest stored market fallback is $2,400.52 (-1.60% over 24 hours), still below the lost $2.7K base. October 22 ETF data remains unconfirmed, the bond rally eases one liquidity pressure, and Brent above $113 sustains inflation risk. Preserve October 8 updatedAt, probability histories and all What Changed entries because no catalyst color or target probability changes are warranted."
+  "decision": "Reduce the $5K estimate from 58% to 56% and the $10K estimate from 27% to 26%. Five consecutive U.S. spot ETH ETF outflow sessions removed $431.4M through October 30, so institutional scores fall from 0.62 to 0.57 for $5K and from 0.45 to 0.40 for $10K while remaining yellow. ETH's October 31 stored snapshot is $2,244.71 (+1.1% over 24 hours), still below the lost $2.7K base after the Binance-driven two-month low. Binance says it reserved more than $6.34B against the reported $6.3B incident, but withdrawals remain suspended, additional breach points were found and independent proof of reserves is pending; market scores therefore fall from 0.38 to 0.26 for $5K and from 0.19 to 0.12 for $10K while remaining red. Rounded weighted signals become 52/37. Macro scores remain near their existing floor because sticky inflation, Brent near $116 and Hormuz risk reinforce rather than newly redefine the already-red regime. The probability reductions are deliberately smaller than October 8's regime change because no catalyst color changes and Binance states it has loss coverage; successful withdrawals, proof of reserves and a full post-mortem remain unverified."
 }

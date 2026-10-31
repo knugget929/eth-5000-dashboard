@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-31",
   "market": {
-    "price": 2439.26,
-    "change24h": 1.6,
-    "capturedAt": "2026-10-21T05:42:27Z",
+    "price": 2244.71,
+    "change24h": 1.1,
+    "capturedAt": "2026-10-31T06:06:19.547Z",
     "source": "CoinGecko snapshot (stored research fallback)"
   },
   "targets": {
     "5000": {
       "display": "$5K",
-      "probability": 58,
+      "probability": 56,
       "label": "$5K is plausible",
       "shortHorizon": "by end-2027",
       "horizon": "Touches $5,000 by Dec 31, 2027",
@@ -19,8 +19,8 @@
       "overallSignal": "Mixed, liquidity and fund-flow constrained",
       "trend": {
         "direction": "down",
-        "delta": -4,
-        "label": "ETF outflows and the yield shock broke the recent base"
+        "delta": -2,
+        "label": "ETF withdrawals and the Binance shock weakened the near-term path"
       },
       "methodology": "Weighted catalysts with a moderate hurdle. Institutional demand, execution, staking, and tokenization can support $5K even without full QE, but macro and market confirmation still matter.",
       "probabilityHistory": [
@@ -83,6 +83,11 @@
           "date": "2026-10-08",
           "probability": 58,
           "note": "Seven consecutive ETF-outflow sessions, a break below the recent $2.7K base, and a renewed yield/oil/dollar shock moved institutional demand to yellow and market structure to red."
+        },
+        {
+          "date": "2026-10-31",
+          "probability": 56,
+          "note": "Five consecutive ETF-outflow sessions and the unresolved Binance withdrawal suspension weakened the near-term path; Binance's stated reserve coverage limited the downgrade."
         }
       ],
       "sources": [
@@ -97,8 +102,8 @@
       ],
       "path": [
         {
-          "label": "$2.40K",
-          "note": "Oct 23 stored research zone",
+          "label": "$2.24K",
+          "note": "Oct 31 stored research zone",
           "active": true
         },
         {
@@ -120,7 +125,7 @@
     },
     "10000": {
       "display": "$10K",
-      "probability": 27,
+      "probability": 26,
       "label": "$10K needs a new regime",
       "shortHorizon": "by end-2029",
       "horizon": "Touches $10,000 by Dec 31, 2029",
@@ -129,8 +134,8 @@
       "overallSignal": "Weak, value capture and liquidity constrained",
       "trend": {
         "direction": "down",
-        "delta": -3,
-        "label": "Liquidity tightened while value capture stayed weak"
+        "delta": -1,
+        "label": "Fund outflows deepened while market confidence weakened"
       },
       "methodology": "A much higher hurdle than $5K. Institutional ownership must become durable, regulation must normalize on-chain finance, macro must stop fighting risk assets, and Ethereum activity must translate into clear ETH demand and value capture.",
       "probabilityHistory": [
@@ -193,6 +198,11 @@
           "date": "2026-10-08",
           "probability": 27,
           "note": "Persistent ETF distribution and a harsher liquidity regime weakened the stretch case, while explicit ETH value capture remained insufficient for a $1.2T valuation."
+        },
+        {
+          "date": "2026-10-31",
+          "probability": 26,
+          "note": "Five consecutive ETF-outflow sessions and unresolved Binance withdrawal and reserve verification risks further weakened a stretch case already constrained by value capture."
         }
       ],
       "sources": [
@@ -207,8 +217,8 @@
       ],
       "path": [
         {
-          "label": "$2.40K",
-          "note": "Oct 23 stored research zone",
+          "label": "$2.24K",
+          "note": "Oct 31 stored research zone",
           "active": true
         },
         {
@@ -260,22 +270,22 @@
       "targets": {
         "5000": {
           "status": "yellow",
-          "score": 0.62,
+          "score": 0.57,
           "weight": 18,
-          "short": "ETF withdrawals still offset broader bank access.",
+          "short": "Five-session ETF withdrawals outweigh broader access gains.",
           "summary": "Corporate accumulation remains supportive, while public-fund demand has turned decisively negative.",
-          "evidence": "Farside finalized October 20 at -$26.1M; the five completed sessions from October 14–20 total -$388.9M. Sparkassen's phased ETH access lowers distribution friction but supplies no verified account uptake or buying. The moderate $5K allocation case remains mixed.",
+          "evidence": "Farside finalized October 30 at -$155.7M; October 26–30 total -$431.4M across five consecutive outflow sessions. Bank access and corporate accumulation remain constructive, but the renewed fund distribution weakens the moderate $5K allocation case; reduce the score while retaining yellow.",
           "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
           "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
           "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
         },
         "10000": {
           "status": "yellow",
-          "score": 0.45,
+          "score": 0.4,
           "weight": 16,
           "short": "Access expands, but multi-year ownership is unproven.",
           "summary": "The stretch thesis needs broad, persistent institutional ownership across funds, treasuries, banks, and wealth channels.",
-          "evidence": "The same -$388.9M five-session withdrawal is adverse evidence. Phased bank distribution and custody rails do not establish persistent incremental ownership sufficient for $10K; retain yellow.",
+          "evidence": "The October 26–30 withdrawal totals -$431.4M across five sessions. Phased bank distribution and custody rails do not establish persistent incremental ownership sufficient for $10K; reduce the score to the yellow threshold.",
           "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
           "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
           "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
@@ -350,9 +360,9 @@
           "status": "red",
           "score": 0.02,
           "weight": 15,
-          "short": "Lower yields help, but oil above $113 keeps liquidity hostile.",
+          "short": "Sticky inflation and oil near $116 keep liquidity hostile.",
           "summary": "Restrictive liquidity is the clearest near-term headwind to the $5K path.",
-          "evidence": "Reuters reports the largest one-day U.S. 10-year Treasury price rally since the 2023 SVB collapse, easing one rates headwind, while Brent above $113 and Gulf supply risk keep inflation and policy pressure high. The conflicting move does not establish durable easing; retain red.",
+          "evidence": "October 29 research recorded firmer U.S. growth and sticky inflation alongside an ECB hold at 2.5%. Brent near $116 and the October 30 Hormuz tanker incident sustain inflation and supply-risk pressure. No durable easing regime is established; retain red.",
           "why": "ETH generally benefits when yields fall, the dollar weakens, and global liquidity expands.",
           "greenTrigger": "Hike risk fades, inflation trends lower, and markets price durable easing.",
           "redTrigger": "Additional hikes, higher real yields, or renewed dollar strength."
@@ -361,9 +371,9 @@
           "status": "red",
           "score": 0.01,
           "weight": 13,
-          "short": "A safety rally is not a verified durable easing regime.",
+          "short": "Growth, inflation and energy risk do not establish durable easing.",
           "summary": "A durable $10K path likely needs materially easier liquidity or extraordinary ETH-specific demand.",
-          "evidence": "The Treasury rally followed risk reduction, while elevated oil and conflict continue to threaten inflation. No new evidence establishes the multi-quarter easing, lower-real-yield and weaker-dollar regime the stretch case needs. Keep cyclical liquidity separate from structural debasement.",
+          "evidence": "Firmer U.S. growth, sticky inflation, the ECB's 2.5% hold and elevated oil do not establish the multi-quarter easing, lower-real-yield and weaker-dollar regime the stretch case needs. Keep cyclical market moves separate from structural debasement.",
           "why": "$10K likely needs a sustained regime of lower real yields, easier dollar liquidity, or genuine global monetary expansion.",
           "greenTrigger": "A multi-quarter easing cycle, falling real yields, a weaker dollar, and expanding global liquidity.",
           "redTrigger": "Structurally high real yields, renewed inflation, or repeated tightening cycles."
@@ -579,27 +589,31 @@
         {
           "label": "Farside Investors: U.S. Ethereum ETF flows",
           "url": "https://farside.co.uk/eth/"
+        },
+        {
+          "label": "Binance security incident update #2",
+          "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751"
         }
       ],
       "targets": {
         "5000": {
           "status": "red",
-          "score": 0.38,
+          "score": 0.26,
           "weight": 7,
-          "short": "Stored ETH is $2.40K, below the lost $2.7K base.",
+          "short": "ETH is $2.24K while Binance withdrawals remain suspended.",
           "summary": "The near-term market path deteriorated and now requires a convincing reclaim before momentum can support $5K.",
-          "evidence": "Use the October 23 05:48:48 UTC research fallback: $2,400.52, -1.60% rolling 24h, $12.292B volume and $293.237B market cap. The quote remains below $2.7K and $3K/$3.5K confirmation levels. It is a stored morning snapshot, not a live afternoon quote or inter-run return; no sustained reversal is established.",
+          "evidence": "Use the October 31 06:06:19 UTC stored snapshot: $2,244.71, +1.1% rolling 24h, $14.951B volume and $274.25B market cap. The modest rebound remains below the lost $2.7K base after a Binance-driven two-month low. Binance says it reserved more than $6.34B for the incident, but withdrawals remain suspended and independent proof of reserves is pending; reduce the score while retaining red.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
         },
         "10000": {
           "status": "red",
-          "score": 0.19,
+          "score": 0.12,
           "weight": 6,
-          "short": "Price and durable flows remain far from stretch confirmation.",
+          "short": "Price, flows and exchange confidence remain far from confirmation.",
           "summary": "The market is not demonstrating willingness to value ETH near the stretch target.",
-          "evidence": "The stored $2.40K quote, prior multi-session ETF withdrawals and an unconfirmed October 22 fund row do not establish a sustained $5K reclaim or durable spot-led discovery. The sub-5% daily move is neither a protocol failure nor a thesis-breaking event; retain red.",
+          "evidence": "The stored $2.24K quote, five consecutive ETF-outflow sessions and unresolved Binance withdrawal and reserve verification risks do not establish a sustained $5K reclaim or durable spot-led discovery. The +1.1% daily move is below the separate 5% alert threshold; reduce the score while retaining red.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
@@ -767,6 +781,40 @@
     }
   },
   "changes": [
+    {
+      "date": "2026-10-31",
+      "title": "ETF withdrawals and the Binance shock weakened both targets",
+      "summary": "Five consecutive U.S. spot ETH ETF sessions removed $431.4M through October 30 while the October 31 stored ETH snapshot remained at $2,244.71. Binance says it reserved more than $6.34B against the reported incident loss, but withdrawals remain suspended, additional breach points were found and independent proof of reserves is pending. Institutional scores fell from 0.62 to 0.57 for $5K and from 0.45 to 0.40 for $10K; market-structure scores fell from 0.38 to 0.26 and from 0.19 to 0.12. Catalyst colors did not change. The $5K probability fell from 58% to 56% and the $10K probability fell from 27% to 26%.",
+      "catalyst": "Institutional demand + market structure",
+      "targets": [
+        "5000",
+        "10000"
+      ],
+      "impact": {
+        "5000": {
+          "delta": -2,
+          "direction": "down"
+        },
+        "10000": {
+          "delta": -1,
+          "direction": "down"
+        }
+      },
+      "sources": [
+        {
+          "label": "Farside Ethereum ETF flows",
+          "url": "https://farside.co.uk/eth/"
+        },
+        {
+          "label": "CoinGecko Ethereum market data",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
+        },
+        {
+          "label": "Binance security incident update #2",
+          "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751"
+        }
+      ]
+    },
     {
       "date": "2026-10-08",
       "title": "ETF outflows and the yield shock broke the recent base",
