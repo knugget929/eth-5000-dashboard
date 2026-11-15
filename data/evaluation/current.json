@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-10-31T07:28:58Z",
+  "evaluatedAt": "2026-11-15T14:56:28Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 56,
+      "probability": 54,
       "trend": "down",
-      "weightedSignal": 52
+      "weightedSignal": 51
     },
     "10000": {
-      "probability": 26,
+      "probability": 25,
       "trend": "down",
       "weightedSignal": 37
     }
@@ -78,11 +78,11 @@
     "market": {
       "5000": {
         "status": "red",
-        "score": 0.26
+        "score": 0.16
       },
       "10000": {
         "status": "red",
-        "score": 0.12
+        "score": 0.07
       }
     },
     "value-capture": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "bny-figment-staking-2026-11-12",
       "etf-session-2026-10-31-morning",
       "etf-session-2026-10-30-morning",
       "etf-session-2026-10-23-morning",
@@ -202,6 +203,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-15-morning",
       "binance-security-update-2026-10-31-morning",
       "eth-market-2026-10-31-morning",
       "binance-security-2026-10-30-morning",
@@ -243,5 +245,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Reduce the $5K estimate from 58% to 56% and the $10K estimate from 27% to 26%. Five consecutive U.S. spot ETH ETF outflow sessions removed $431.4M through October 30, so institutional scores fall from 0.62 to 0.57 for $5K and from 0.45 to 0.40 for $10K while remaining yellow. ETH's October 31 stored snapshot is $2,244.71 (+1.1% over 24 hours), still below the lost $2.7K base after the Binance-driven two-month low. Binance says it reserved more than $6.34B against the reported $6.3B incident, but withdrawals remain suspended, additional breach points were found and independent proof of reserves is pending; market scores therefore fall from 0.38 to 0.26 for $5K and from 0.19 to 0.12 for $10K while remaining red. Rounded weighted signals become 52/37. Macro scores remain near their existing floor because sticky inflation, Brent near $116 and Hormuz risk reinforce rather than newly redefine the already-red regime. The probability reductions are deliberately smaller than October 8's regime change because no catalyst color changes and Binance states it has loss coverage; successful withdrawals, proof of reserves and a full post-mortem remain unverified."
+  "decision": "Reduce the $5K estimate from 56% to 54% and the $10K estimate from 26% to 25%. The latest stored research snapshot is $1,793.66, down 5.73% over 24 hours and roughly 20% below the October 31 $2,244.71 snapshot, so already-red market scores fall from 0.26 to 0.16 for $5K and from 0.12 to 0.07 for $10K. Figment's confirmed BNY custody-staking collaboration improves institutional access but does not disclose launch timing, supported assets, uptake or ETH flows, so institutional colors and scores stay yellow at 0.57/0.40. Rounded weighted signals become 51/37. No catalyst changes color, neither probability moves by 3 points, and no thesis-breaking protocol, regulatory or value-capture event is established."
 }
