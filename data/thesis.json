@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-15",
   "market": {
-    "price": 2244.71,
-    "change24h": 1.1,
-    "capturedAt": "2026-10-31T06:06:19.547Z",
+    "price": 1793.66,
+    "change24h": -5.73,
+    "capturedAt": "2026-11-15T06:53:17Z",
     "source": "CoinGecko snapshot (stored research fallback)"
   },
   "targets": {
     "5000": {
       "display": "$5K",
-      "probability": 56,
+      "probability": 54,
       "label": "$5K is plausible",
       "shortHorizon": "by end-2027",
       "horizon": "Touches $5,000 by Dec 31, 2027",
@@ -20,7 +20,7 @@
       "trend": {
         "direction": "down",
         "delta": -2,
-        "label": "ETF withdrawals and the Binance shock weakened the near-term path"
+        "label": "The $1.79K selloff deepened the near-term market headwind"
       },
       "methodology": "Weighted catalysts with a moderate hurdle. Institutional demand, execution, staking, and tokenization can support $5K even without full QE, but macro and market confirmation still matter.",
       "probabilityHistory": [
@@ -88,6 +88,11 @@
           "date": "2026-10-31",
           "probability": 56,
           "note": "Five consecutive ETF-outflow sessions and the unresolved Binance withdrawal suspension weakened the near-term path; Binance's stated reserve coverage limited the downgrade."
+        },
+        {
+          "date": "2026-11-15",
+          "probability": 54,
+          "note": "ETH fell to $1,793.66 with a -5.73% daily move; the BNY staking-access tailwind did not offset the deeper already-red market headwind."
         }
       ],
       "sources": [
@@ -125,7 +130,7 @@
     },
     "10000": {
       "display": "$10K",
-      "probability": 26,
+      "probability": 25,
       "label": "$10K needs a new regime",
       "shortHorizon": "by end-2029",
       "horizon": "Touches $10,000 by Dec 31, 2029",
@@ -135,7 +140,7 @@
       "trend": {
         "direction": "down",
         "delta": -1,
-        "label": "Fund outflows deepened while market confidence weakened"
+        "label": "Price weakness deepened an already-red stretch-target market signal"
       },
       "methodology": "A much higher hurdle than $5K. Institutional ownership must become durable, regulation must normalize on-chain finance, macro must stop fighting risk assets, and Ethereum activity must translate into clear ETH demand and value capture.",
       "probabilityHistory": [
@@ -203,6 +208,11 @@
           "date": "2026-10-31",
           "probability": 26,
           "note": "Five consecutive ETF-outflow sessions and unresolved Binance withdrawal and reserve verification risks further weakened a stretch case already constrained by value capture."
+        },
+        {
+          "date": "2026-11-15",
+          "probability": 25,
+          "note": "ETH's $1,793.66 snapshot and lack of breakout confirmation weakened a stretch case still constrained by value capture."
         }
       ],
       "sources": [
@@ -274,7 +284,7 @@
           "weight": 18,
           "short": "Five-session ETF withdrawals outweigh broader access gains.",
           "summary": "Corporate accumulation remains supportive, while public-fund demand has turned decisively negative.",
-          "evidence": "Farside finalized October 30 at -$155.7M; October 26–30 total -$431.4M across five consecutive outflow sessions. Bank access and corporate accumulation remain constructive, but the renewed fund distribution weakens the moderate $5K allocation case; reduce the score while retaining yellow.",
+          "evidence": "Farside finalized October 30 at -$155.7M; October 26–30 total -$431.4M across five consecutive outflow sessions. Figment's November 12 BNY collaboration adds another institutional custody-staking rail, but launch timing, supported assets, uptake and flows are undisclosed. Keep the score yellow at 0.57.",
           "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
           "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
           "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
@@ -285,7 +295,7 @@
           "weight": 16,
           "short": "Access expands, but multi-year ownership is unproven.",
           "summary": "The stretch thesis needs broad, persistent institutional ownership across funds, treasuries, banks, and wealth channels.",
-          "evidence": "The October 26–30 withdrawal totals -$431.4M across five sessions. Phased bank distribution and custody rails do not establish persistent incremental ownership sufficient for $10K; reduce the score to the yellow threshold.",
+          "evidence": "The October 26–30 withdrawal totals -$431.4M across five sessions. BNY's announced Figment-supported staking access is constructive infrastructure but does not yet prove persistent ownership, ETH-specific demand or value capture sufficient for $10K; retain yellow at 0.40.",
           "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
           "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
           "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
@@ -598,22 +608,22 @@
       "targets": {
         "5000": {
           "status": "red",
-          "score": 0.26,
+          "score": 0.16,
           "weight": 7,
-          "short": "ETH is $2.24K while Binance withdrawals remain suspended.",
-          "summary": "The near-term market path deteriorated and now requires a convincing reclaim before momentum can support $5K.",
-          "evidence": "Use the October 31 06:06:19 UTC stored snapshot: $2,244.71, +1.1% rolling 24h, $14.951B volume and $274.25B market cap. The modest rebound remains below the lost $2.7K base after a Binance-driven two-month low. Binance says it reserved more than $6.34B for the incident, but withdrawals remain suspended and independent proof of reserves is pending; reduce the score while retaining red.",
+          "short": "ETH at $1.79K keeps the $5K path in a red market regime.",
+          "summary": "The near-term market path weakened further and requires a durable reclaim before momentum can support $5K.",
+          "evidence": "Use the November 15 06:53:17 UTC stored snapshot: $1,793.66, -5.73% rolling 24h, about $20.337B volume and $219.512B market cap. This is roughly 20% below the October 31 stored price and far below the lost $2.7K base. A one-day move does not by itself prove a structural break, but it deepens the already-red market headwind; lower the score without changing color.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
         },
         "10000": {
           "status": "red",
-          "score": 0.12,
+          "score": 0.07,
           "weight": 6,
-          "short": "Price, flows and exchange confidence remain far from confirmation.",
+          "short": "Price remains far from breakout and stretch-target confirmation.",
           "summary": "The market is not demonstrating willingness to value ETH near the stretch target.",
-          "evidence": "The stored $2.24K quote, five consecutive ETF-outflow sessions and unresolved Binance withdrawal and reserve verification risks do not establish a sustained $5K reclaim or durable spot-led discovery. The +1.1% daily move is below the separate 5% alert threshold; reduce the score while retaining red.",
+          "evidence": "The November 15 stored $1.79K quote and -5.73% daily move weaken the already-red market signal. The evidence does not establish a sustained $5K reclaim, spot-led price discovery or durable demand; lower the score while retaining red.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
@@ -781,6 +791,36 @@
     }
   },
   "changes": [
+    {
+      "date": "2026-11-15",
+      "title": "The $1.79K selloff weakened both targets without a color change",
+      "summary": "ETH's stored snapshot fell to $1,793.66, down 5.73% over 24 hours and roughly 20% below October 31. Market scores fell from 0.26 to 0.16 for $5K and from 0.12 to 0.07 for $10K while remaining red. BNY's Figment-supported custody-staking collaboration is a constructive institutional-access signal, but it does not yet establish launch timing, supported assets, uptake, ETH flows or value capture. The $5K probability fell from 56% to 54%; the $10K probability fell from 26% to 25%.",
+      "catalyst": "Market structure + institutional access",
+      "targets": [
+        "5000",
+        "10000"
+      ],
+      "impact": {
+        "5000": {
+          "delta": -2,
+          "direction": "down"
+        },
+        "10000": {
+          "delta": -1,
+          "direction": "down"
+        }
+      },
+      "sources": [
+        {
+          "label": "CoinGecko Ethereum market data",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
+        },
+        {
+          "label": "Figment: BNY custody-staking collaboration",
+          "url": "https://www.figment.io/insights/figment-collaborates-with-bny-to-support-staking-on-bnys-digital-asset-custody-platform/"
+        }
+      ]
+    },
     {
       "date": "2026-10-31",
       "title": "ETF withdrawals and the Binance shock weakened both targets",
