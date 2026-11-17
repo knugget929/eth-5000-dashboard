@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-15T06:53:17Z",
-  "accessDate": "2026-11-15",
+  "researchedAt": "2026-11-17T06:54:56Z",
+  "accessDate": "2026-11-17",
   "market": {
-    "ethUsd": 1793.66,
-    "change24h": -5.73,
-    "marketCapUsd": 219512000000,
-    "volume24hUsd": 20337000000,
+    "ethUsd": 1816.08,
+    "change24h": 0.3,
+    "marketCapUsd": 221925897925,
+    "volume24hUsd": 11041943424.78,
     "sourceIds": [
-      "cg-2026-11-15-morning"
+      "cg-2026-11-17-morning"
     ],
-    "note": "The checked market snapshot put ETH at $1,793.66, down 5.73% over 24 hours. CoinGecko's live page showed market capitalization around $219.512B and 24-hour trading volume around $20.337B; all rolling figures can move materially between observations."
+    "note": "The checked CoinGecko snapshot put ETH at $1,816.08, up 0.30% over 24 hours but down 13.50% over seven days. Market capitalization was about $221.926B and 24-hour trading volume about $11.042B; rolling figures can move materially between observations."
   },
   "observations": [
     {
@@ -5423,6 +5423,32 @@
       ],
       "confirmed": true,
       "uncertainty": "The announcement does not disclose launch timing, supported-asset details, client uptake, staked balances or fee economics. Figment describes itself as serving Ethereum and Solana, but that does not establish the exact initial asset list for BNY."
+    },
+    {
+      "id": "eth-market-2026-11-17-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "ETH $1,816.08; +0.30% 24h; -13.50% 7d",
+      "summary": "ETH was roughly flat over the checked 24-hour window and did not cross the 5% price-alert threshold, but the 13.50% seven-day decline shows that the broader drawdown remains substantial.",
+      "sourceIds": [
+        "cg-2026-11-17-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Prices, volumes and rolling percentage windows change continuously and differ slightly across venues."
+    },
+    {
+      "id": "glamsterdam-gas-compatibility-2026-11-17-morning",
+      "catalyst": "protocol",
+      "direction": "headwind",
+      "value": "Hoodi fork delayed; EIP-8037/8038 compatibility findings under review; ACDE decision pending November 19",
+      "summary": "Ethereum core developers delayed the Glamsterdam Hoodi fork while reviewing how EIP-8037 and EIP-8038 change gas-accounting invariants used by deployed contracts. The November 16 ACDT agenda brought independent audit findings, application-team outreach and concrete Juicebox compatibility concerns together ahead of a November 19 execution-layer decision. This is a meaningful execution-risk and schedule headwind, but it is also evidence that the upgrade process is detecting compatibility problems before activation.",
+      "sourceIds": [
+        "ef-glamsterdam-8037-8038-2026-11-17",
+        "ethereum-pm-acdt-103-2026-11-17",
+        "chainsecurity-glamsterdam-gas-2026-11-17"
+      ],
+      "confirmed": true,
+      "uncertainty": "No final ACDE decision has been made. The specifications may be revised, the affected-contract scope remains under review, and a new Hoodi or mainnet activation date has not been set."
     }
   ],
   "sources": {
@@ -7190,15 +7216,35 @@
       "label": "Figment — collaboration with BNY to support staking through BNY Digital Asset Custody",
       "url": "https://www.figment.io/insights/figment-collaborates-with-bny-to-support-staking-on-bnys-digital-asset-custody-platform/",
       "accessedAt": "2026-11-15"
+    },
+    "cg-2026-11-17-morning": {
+      "label": "CoinGecko — Ethereum live price and market statistics",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-17"
+    },
+    "ef-glamsterdam-8037-8038-2026-11-17": {
+      "label": "Ethereum Foundation — EIP-8037/EIP-8038 Glamsterdam compatibility review",
+      "url": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038",
+      "accessedAt": "2026-11-17"
+    },
+    "ethereum-pm-acdt-103-2026-11-17": {
+      "label": "ethereum/pm — All Core Devs Testing #103 agenda and compatibility findings discussion",
+      "url": "https://github.com/ethereum/pm/issues/2299",
+      "accessedAt": "2026-11-17"
+    },
+    "chainsecurity-glamsterdam-gas-2026-11-17": {
+      "label": "ChainSecurity — Glamsterdam gas repricing impact and contract failure-handling risks",
+      "url": "https://www.chainsecurity.com/blog/glamsterdam-gas/",
+      "accessedAt": "2026-11-17"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "ETH fell 5.73% over the checked 24-hour window, crossing the job's 5% price-move threshold.",
-      "BNY's addition of Figment validator infrastructure is a confirmed institutional-access tailwind, but it does not establish immediate ETH demand or value capture.",
-      "No new evidence in this run independently proves a thesis-breaking protocol, regulatory or value-capture event."
+      "Glamsterdam's Hoodi activation remains delayed while core developers review EIP-8037/EIP-8038 compatibility findings affecting deployed-contract assumptions; this is major protocol-execution news.",
+      "ETH was $1,816.08 and up 0.30% over the checked 24-hour window, so the price itself did not cross the 5% alert threshold; the seven-day decline remained 13.50%.",
+      "No final specification or activation decision is confirmed; ACDE discussion is scheduled for November 19, so evaluation, catalyst states, scores and probabilities remain untouched."
     ],
-    "confirmedVsUncertain": "Confirmed: the checked market snapshot crossed the 5% move threshold; Figment announced the BNY custody-staking collaboration on November 12. Uncertain: the persistence and exact causes of the selloff, the BNY launch timing, supported assets, client uptake and resulting ETH flows. Evaluation, thesis, catalyst states, scores, probabilities, policy and UI remain untouched."
+    "confirmedVsUncertain": "Confirmed: Ethereum's Hoodi fork process was delayed; the November 16 ACDT review covered independent audits, application findings and concrete compatibility concerns; ETH was up 0.30% over the checked 24-hour window. Uncertain: the final affected-contract scope, whether EIP-8037/8038 will be revised, and the replacement Hoodi or mainnet date. Evaluation, thesis, catalyst states, scores, probabilities, policy and UI remain untouched."
   }
 }
