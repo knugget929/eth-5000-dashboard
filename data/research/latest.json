@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-17T06:54:56Z",
+  "researchedAt": "2026-11-17T19:16:28.639Z",
   "accessDate": "2026-11-17",
   "market": {
-    "ethUsd": 1816.08,
-    "change24h": 0.3,
-    "marketCapUsd": 221925897925,
-    "volume24hUsd": 11041943424.78,
+    "ethUsd": 1788.79,
+    "change24h": -1.8,
+    "marketCapUsd": 218638920591,
+    "volume24hUsd": 11426174388.56,
     "sourceIds": [
-      "cg-2026-11-17-morning"
+      "cg-2026-11-17-evening"
     ],
-    "note": "The checked CoinGecko snapshot put ETH at $1,816.08, up 0.30% over 24 hours but down 13.50% over seven days. Market capitalization was about $221.926B and 24-hour trading volume about $11.042B; rolling figures can move materially between observations."
+    "note": "Checked CoinGecko prose snapshot: $1,788.79, -1.80% 24h, -11.50% 7d. Live page subcomponents update asynchronously and showed different rolling statistics; these values use one internally paired prose snapshot, not a blend."
   },
   "observations": [
     {
@@ -5449,6 +5449,56 @@
       ],
       "confirmed": true,
       "uncertainty": "No final ACDE decision has been made. The specifications may be revised, the affected-contract scope remains under review, and a new Hoodi or mainnet activation date has not been set."
+    },
+    {
+      "id": "eth-market-2026-11-17-evening",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH $1,788.79; -1.80% 24h; -11.50% 7d",
+      "summary": "The checked ETH price remains below $1.8K, but its rolling daily change does not meet the 5% alert threshold. The broader drawdown persists without proving a structural thesis break.",
+      "sourceIds": [
+        "cg-2026-11-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Rolling quotes vary by venue and asynchronously refreshed page section; no buyer identity or causal driver is established by price alone."
+    },
+    {
+      "id": "eth-etf-2026-11-17-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 16 US spot ETH ETF flow: -$8.4M; November 17 incomplete",
+      "summary": "Farside's November 16 row shows -$5.0M, -$4.4M and +$1.0M among reporting products, totaling -$8.4M. November 13 was +$2.3M. The November 17 row contains dashes despite a displayed 0.0 total and is not a completed zero-flow session.",
+      "sourceIds": [
+        "farside-2026-11-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Rows may be revised; incomplete current-session data cannot establish a final flow or a durable demand regime."
+    },
+    {
+      "id": "us-macro-2026-11-17-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "October retail sales +0.2%; import prices +1.1%; manufacturing +0.3%, total IP -0.4%",
+      "summary": "Official November 17 releases show continuing nominal spending and manufacturing expansion alongside persistent import-price pressure. Retail sales are not inflation-adjusted and the headline monthly confidence interval includes zero. Total industrial production declined as utilities/mining fell. The mix offers no confirmed broad liquidity easing.",
+      "sourceIds": [
+        "census-2026-11-17-evening",
+        "bls-2026-11-17-evening",
+        "fed-g17-2026-11-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fed response is an inference, not an announced decision. Preliminary data may be revised. This cyclical inflation/liquidity evidence is separate from structural fiscal debasement."
+    },
+    {
+      "id": "eth-capture-2026-11-17-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "CoinGecko 24h fees $307,085; project revenue $77,571.69",
+      "summary": "The checked fee/revenue display gives a direct monetization observation, not proof that tokenization growth translates into a durable ETH monetary premium or a supported $10K valuation.",
+      "sourceIds": [
+        "cg-2026-11-17-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "These are provider-defined rolling metrics, not audited earnings or an independent staking-yield measurement. No new protocol final decision or direct primary validation of reported institutional 13F changes was obtained."
     }
   ],
   "sources": {
@@ -7236,15 +7286,40 @@
       "label": "ChainSecurity — Glamsterdam gas repricing impact and contract failure-handling risks",
       "url": "https://www.chainsecurity.com/blog/glamsterdam-gas/",
       "accessedAt": "2026-11-17"
+    },
+    "cg-2026-11-17-evening": {
+      "label": "CoinGecko Ethereum checked market/fee snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-17"
+    },
+    "farside-2026-11-17-evening": {
+      "label": "Farside US ETH ETF flows through November 16",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-17"
+    },
+    "census-2026-11-17-evening": {
+      "label": "Census October 2026 advance retail sales",
+      "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+      "accessedAt": "2026-11-17"
+    },
+    "bls-2026-11-17-evening": {
+      "label": "BLS October 2026 import/export prices",
+      "url": "https://www.bls.gov/news.release/ximpim.nr0.htm",
+      "accessedAt": "2026-11-17"
+    },
+    "fed-g17-2026-11-17-evening": {
+      "label": "Federal Reserve October industrial production",
+      "url": "https://www.federalreserve.gov/releases/g17/Current/",
+      "accessedAt": "2026-11-17"
     }
   },
   "assessment": {
-    "alertTriggered": true,
+    "alertTriggered": false,
     "reasons": [
-      "Glamsterdam's Hoodi activation remains delayed while core developers review EIP-8037/EIP-8038 compatibility findings affecting deployed-contract assumptions; this is major protocol-execution news.",
-      "ETH was $1,816.08 and up 0.30% over the checked 24-hour window, so the price itself did not cross the 5% alert threshold; the seven-day decline remained 13.50%.",
-      "No final specification or activation decision is confirmed; ACDE discussion is scheduled for November 19, so evaluation, catalyst states, scores and probabilities remain untouched."
+      "The checked -1.80% daily move is below 5%.",
+      "The pending Glamsterdam review was already reported this morning; no later final decision was verified.",
+      "The newly retrieved ETF, fee and macro records materially refresh evidence without establishing a major new Ethereum or thesis-breaking event."
     ],
-    "confirmedVsUncertain": "Confirmed: Ethereum's Hoodi fork process was delayed; the November 16 ACDT review covered independent audits, application findings and concrete compatibility concerns; ETH was up 0.30% over the checked 24-hour window. Uncertain: the final affected-contract scope, whether EIP-8037/8038 will be revised, and the replacement Hoodi or mainnet date. Evaluation, thesis, catalyst states, scores, probabilities, policy and UI remain untouched."
+    "confirmedVsUncertain": "Confirmed: checked market quote, November 16 ETF row, and official macro releases. Uncertain: current-day ETF totals, causal price drivers, later protocol decisions, reported Goldman 13F changes (not independently verified), and staking-specific economics. Broad public-source searches are not exhaustive; no score, probability, policy, evaluation or UI change."
   }
 }
