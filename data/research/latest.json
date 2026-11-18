@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-17T19:16:28.639Z",
-  "accessDate": "2026-11-17",
+  "researchedAt": "2026-11-18T06:59:56Z",
+  "accessDate": "2026-11-18",
   "market": {
-    "ethUsd": 1788.79,
-    "change24h": -1.8,
-    "marketCapUsd": 218638920591,
-    "volume24hUsd": 11426174388.56,
+    "ethUsd": 1809.97,
+    "change24h": -0.3,
+    "marketCapUsd": 221196470497,
+    "volume24hUsd": 11813851744.92,
     "sourceIds": [
-      "cg-2026-11-17-evening"
+      "cg-2026-11-18-morning"
     ],
-    "note": "Checked CoinGecko prose snapshot: $1,788.79, -1.80% 24h, -11.50% 7d. Live page subcomponents update asynchronously and showed different rolling statistics; these values use one internally paired prose snapshot, not a blend."
+    "note": "Checked CoinGecko internally paired prose snapshot: $1,809.97, -0.30% 24h and -12.20% 7d. Asynchronously refreshed page subcomponents differ; these values use one paired prose snapshot rather than blended rolling statistics."
   },
   "observations": [
     {
@@ -5499,6 +5499,43 @@
       ],
       "confirmed": true,
       "uncertainty": "These are provider-defined rolling metrics, not audited earnings or an independent staking-yield measurement. No new protocol final decision or direct primary validation of reported institutional 13F changes was obtained."
+    },
+    {
+      "id": "eth-market-2026-11-18-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "ETH $1,809.97; -0.30% 24h; -12.20% 7d",
+      "summary": "The checked rolling daily change remains below the 5% alert threshold despite continued weekly weakness. Price alone does not establish a new structural thesis break.",
+      "sourceIds": [
+        "cg-2026-11-18-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Quotes vary by venue and asynchronous page section. No causal driver or buyer identity is established by the quote."
+    },
+    {
+      "id": "eth-etf-2026-11-18-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 17 US spot ETH ETF flow: -$29.1M",
+      "summary": "The now-populated Farside November 17 row shows ETHA -$27.6M, ETHB -$2.8M and ETHW +$1.3M, with other components zero, totaling -$29.1M. This replaces the prior incomplete-session uncertainty; November 16 was -$8.4M and November 13 +$2.3M, so these rows do not support a five-consecutive-session outflow claim.",
+      "sourceIds": [
+        "farside-2026-11-18-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider rows may be revised. One completed outflow session does not establish a durable institutional demand regime, and no November 18 final flow is available."
+    },
+    {
+      "id": "eth-protocol-review-2026-11-18-morning",
+      "catalyst": "protocol",
+      "direction": "headwind",
+      "value": "Glamsterdam compatibility review remains pending; no later final decision verified",
+      "summary": "The official EIP-8037/EIP-8038 compatibility review remains the relevant execution-risk evidence. The scheduled November 19 core-developer discussion is not a completed decision. The underlying delay and compatibility risk were already reported November 17 and are not a new alert today.",
+      "sourceIds": [
+        "ef-glamsterdam-2026-11-18-morning",
+        "ethereum-pm-acdt-103-2026-11-17"
+      ],
+      "confirmed": true,
+      "uncertainty": "A later resolution, affected-contract scope and revised activation dates have not been verified. Broad searches across protocol, institutional, staking, regulatory and DeFi coverage are not exhaustive; no new independently verified staking-yield or structural ETH-capture claim is added."
     }
   ],
   "sources": {
@@ -7311,15 +7348,30 @@
       "label": "Federal Reserve October industrial production",
       "url": "https://www.federalreserve.gov/releases/g17/Current/",
       "accessedAt": "2026-11-17"
+    },
+    "cg-2026-11-18-morning": {
+      "label": "CoinGecko Ethereum checked morning prose snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-18"
+    },
+    "farside-2026-11-18-morning": {
+      "label": "Farside completed November 17 US spot Ethereum ETF flow row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-18"
+    },
+    "ef-glamsterdam-2026-11-18-morning": {
+      "label": "Ethereum Foundation EIP-8037/8038 compatibility review checked November 18",
+      "url": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038",
+      "accessedAt": "2026-11-18"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "The checked -1.80% daily move is below 5%.",
-      "The pending Glamsterdam review was already reported this morning; no later final decision was verified.",
-      "The newly retrieved ETF, fee and macro records materially refresh evidence without establishing a major new Ethereum or thesis-breaking event."
+      "The checked -0.30% daily move is below 5%.",
+      "The completed November 17 ETF flow materially updates evidence but does not establish a major new Ethereum or thesis-breaking event.",
+      "The pending Glamsterdam compatibility review was already reported November 17; no later final decision was verified."
     ],
-    "confirmedVsUncertain": "Confirmed: checked market quote, November 16 ETF row, and official macro releases. Uncertain: current-day ETF totals, causal price drivers, later protocol decisions, reported Goldman 13F changes (not independently verified), and staking-specific economics. Broad public-source searches are not exhaustive; no score, probability, policy, evaluation or UI change."
+    "confirmedVsUncertain": "Confirmed: internally paired market snapshot, populated November 17 ETF row, and existing official protocol-review evidence. Uncertain: November 18 final ETF flow, causal price drivers, later protocol decisions, unverified institutional filing claims, staking-specific economics, and whether broader ecosystem activity creates durable ETH value capture. Public-source retrieval is not exhaustive. No catalyst, score, probability, policy, evaluation, thesis or UI change."
   }
 }
