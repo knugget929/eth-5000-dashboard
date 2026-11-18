@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-18T06:59:56Z",
+  "researchedAt": "2026-11-18T19:19:30Z",
   "accessDate": "2026-11-18",
   "market": {
-    "ethUsd": 1809.97,
-    "change24h": -0.3,
-    "marketCapUsd": 221196470497,
-    "volume24hUsd": 11813851744.92,
+    "ethUsd": 1759.58,
+    "change24h": -1.6,
+    "marketCapUsd": 215114518184,
+    "volume24hUsd": 10424007062.52,
     "sourceIds": [
-      "cg-2026-11-18-morning"
+      "cg-2026-11-18-evening"
     ],
-    "note": "Checked CoinGecko internally paired prose snapshot: $1,809.97, -0.30% 24h and -12.20% 7d. Asynchronously refreshed page subcomponents differ; these values use one paired prose snapshot rather than blended rolling statistics."
+    "note": "One internally paired CoinGecko prose snapshot: $1,759.58, -1.60% 24h, -15.30% 7d. Live subcomponents update asynchronously; values are not blended across sections."
   },
   "observations": [
     {
@@ -5536,6 +5536,67 @@
       ],
       "confirmed": true,
       "uncertainty": "A later resolution, affected-contract scope and revised activation dates have not been verified. Broad searches across protocol, institutional, staking, regulatory and DeFi coverage are not exhaustive; no new independently verified staking-yield or structural ETH-capture claim is added."
+    },
+    {
+      "id": "eth-market-2026-11-18-evening",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$1,759.58; -1.60% 24h; -15.30% 7d",
+      "summary": "The paired checked prose snapshot remains in a weak weekly regime but below the 5% daily alert threshold. Price alone is not a new structural thesis break.",
+      "sourceIds": [
+        "cg-2026-11-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Rolling prices differ by venue and page section; no causal buyer/seller attribution."
+    },
+    {
+      "id": "eth-etf-2026-11-18-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November17 -$29.1M; November18 not reported",
+      "summary": "The completed November17 row remains -$29.1M. November18 contains dashes for all products despite a displayed0.0 aggregate; this is missing data, not zero flows.",
+      "sourceIds": [
+        "farside-2026-11-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Current US session is incomplete and rows can be revised; no new demand regime asserted."
+    },
+    {
+      "id": "eth-capture-2026-11-18-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Provider-defined 24h fees $287,441; revenue $79,657.45",
+      "summary": "The rolling fee display does not establish durable ETH monetary demand, sustained burn or a supported $10K valuation. Ecosystem adoption is not interchangeable with asset capture.",
+      "sourceIds": [
+        "cg-2026-11-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider-defined unaudited rolling metrics, not staking yield or holder cash flow."
+    },
+    {
+      "id": "binance-recovery-claims-2026-11-18-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "Reuters reports phased withdrawals and company recovery claims",
+      "summary": "Reuters reports Binance says withdrawals resumed in phases, with remaining networks targeted by the end of the week. This updates the October incident narrative but is not independent proof of solvency or completion.",
+      "sourceIds": [
+        "reuters-binance-2026-11-18-evening"
+      ],
+      "confirmed": false,
+      "uncertainty": "Company financial-soundness and replacement-asset claims are attributed, not independently audited; targets for reopening are forward-looking."
+    },
+    {
+      "id": "eth-protocol-regulation-2026-11-18-evening",
+      "catalyst": "protocol",
+      "direction": "headwind",
+      "value": "November19 ACDE pending; no later final decision verified",
+      "summary": "The official compatibility review remains unresolved. The afternoon thesis publisher already incorporated this risk; a scheduled discussion is not a completed resolution. SEC release-index checks did not establish a new ETH-specific final action.",
+      "sourceIds": [
+        "ef-2026-11-18-evening",
+        "sec-2026-11-18-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Index/public-source checks are not exhaustive. No newly verified staking yield, ETH-specific regulatory change or structural debasement/monetary-capture measurement was obtained; no claim of unchanged underlying conditions."
     }
   ],
   "sources": {
@@ -7363,15 +7424,40 @@
       "label": "Ethereum Foundation EIP-8037/8038 compatibility review checked November 18",
       "url": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038",
       "accessedAt": "2026-11-18"
+    },
+    "cg-2026-11-18-evening": {
+      "label": "CoinGecko checked evening paired prose and fee display",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-18"
+    },
+    "farside-2026-11-18-evening": {
+      "label": "Farside November 17 completed and November 18 unreported ETF rows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-18"
+    },
+    "ef-2026-11-18-evening": {
+      "label": "EF November6/9 compatibility review checked November18 evening",
+      "url": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038",
+      "accessedAt": "2026-11-18"
+    },
+    "reuters-binance-2026-11-18-evening": {
+      "label": "Reuters November18 Binance expansion and recovery claims",
+      "url": "https://www.reuters.com/business/finance/after-63-billion-crypto-heist-binance-plans-foray-into-5-asian-markets-2026-11-18/",
+      "accessedAt": "2026-11-18"
+    },
+    "sec-2026-11-18-evening": {
+      "label": "SEC release index checked November18 evening",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-11-18"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "The checked -0.30% daily move is below 5%.",
-      "The completed November 17 ETF flow materially updates evidence but does not establish a major new Ethereum or thesis-breaking event.",
-      "The pending Glamsterdam compatibility review was already reported November 17; no later final decision was verified."
+      "The checked -1.60% daily move is below5%.",
+      "Glamsterdam compatibility risk was already reported and reflected in the afternoon thesis; no later decision was verified.",
+      "ETF and fee observations refresh research; Binance recovery claims do not independently establish a new thesis-breaking event."
     ],
-    "confirmedVsUncertain": "Confirmed: internally paired market snapshot, populated November 17 ETF row, and existing official protocol-review evidence. Uncertain: November 18 final ETF flow, causal price drivers, later protocol decisions, unverified institutional filing claims, staking-specific economics, and whether broader ecosystem activity creates durable ETH value capture. Public-source retrieval is not exhaustive. No catalyst, score, probability, policy, evaluation, thesis or UI change."
+    "confirmedVsUncertain": "Confirmed: paired market snapshot, ETF reporting completeness, provider fee display and pending EF review. Uncertain: final November18 ETF flows, Binance financial/recovery assertions, live staking economics, causal price drivers and durable ETH value capture. Broad source retrieval is not exhaustive; no score, probability, policy, evaluation, thesis or UI edits."
   }
 }
