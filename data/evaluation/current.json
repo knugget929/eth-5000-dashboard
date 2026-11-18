@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-15T14:56:28Z",
+  "evaluatedAt": "2026-11-18T14:59:12Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
-      "probability": 54,
+      "probability": 52,
       "trend": "down",
-      "weightedSignal": 51
+      "weightedSignal": 50
     },
     "10000": {
-      "probability": 25,
+      "probability": 24,
       "trend": "down",
-      "weightedSignal": 37
+      "weightedSignal": 36
     }
   },
   "catalysts": {
@@ -67,12 +67,12 @@
     },
     "protocol": {
       "5000": {
-        "status": "green",
-        "score": 0.76
+        "status": "yellow",
+        "score": 0.64
       },
       "10000": {
         "status": "yellow",
-        "score": 0.62
+        "score": 0.52
       }
     },
     "market": {
@@ -109,6 +109,8 @@
   "evidenceRefs": {
     "institutional": [
       "bny-figment-staking-2026-11-12",
+      "eth-etf-2026-11-17-evening",
+      "eth-etf-2026-11-18-morning",
       "etf-session-2026-10-31-morning",
       "etf-session-2026-10-30-morning",
       "etf-session-2026-10-23-morning",
@@ -128,6 +130,7 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "us-macro-2026-11-17-evening",
       "hormuz-tanker-2026-10-30-morning",
       "us-growth-inflation-2026-10-29-evening",
       "ecb-policy-2026-10-29-evening",
@@ -191,6 +194,8 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
+      "glamsterdam-gas-compatibility-2026-11-17-morning",
+      "eth-protocol-review-2026-11-18-morning",
       "glamsterdam-hoodi-postponed-2026-10-23",
       "protocol-review-2026-10-21-morning",
       "protocol-review-2026-10-19-morning",
@@ -204,6 +209,9 @@
     ],
     "market": [
       "eth-market-2026-11-15-morning",
+      "eth-market-2026-11-17-morning",
+      "eth-market-2026-11-17-evening",
+      "eth-market-2026-11-18-morning",
       "binance-security-update-2026-10-31-morning",
       "eth-market-2026-10-31-morning",
       "binance-security-2026-10-30-morning",
@@ -221,6 +229,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-11-17-evening",
       "eth-capture-2026-10-21-morning",
       "eth-capture-2026-10-19-morning",
       "eth-capture-2026-10-17-morning",
@@ -245,5 +254,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Reduce the $5K estimate from 56% to 54% and the $10K estimate from 26% to 25%. The latest stored research snapshot is $1,793.66, down 5.73% over 24 hours and roughly 20% below the October 31 $2,244.71 snapshot, so already-red market scores fall from 0.26 to 0.16 for $5K and from 0.12 to 0.07 for $10K. Figment's confirmed BNY custody-staking collaboration improves institutional access but does not disclose launch timing, supported assets, uptake or ETH flows, so institutional colors and scores stay yellow at 0.57/0.40. Rounded weighted signals become 51/37. No catalyst changes color, neither probability moves by 3 points, and no thesis-breaking protocol, regulatory or value-capture event is established."
+  "decision": "Independently reduce the $5K subjective probability from 54% to 52% and the $10K probability from 25% to 24%. Broader deployed-contract compatibility findings and possible EIP-8037/8038 revisions weaken execution versus the October scheduling-delay assessment: protocol scores become 0.64/0.52, moving $5K green to yellow and retaining $10K yellow. The stored November 18 $1,809.97 market snapshot and -$29.1M November 17 ETF row do not justify reversing existing market or institutional scores. Weighted signals are 50/36. No mainnet failure or structural thesis break is established; November 19 ACDE is pending. Fed/liquidity remains separate from fiscal debasement; $10K value capture remains red. Other dated evidence and scores remain unchanged."
 }
