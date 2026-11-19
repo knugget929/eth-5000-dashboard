@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-18T19:19:30Z",
-  "accessDate": "2026-11-18",
+  "researchedAt": "2026-11-19T06:14:40Z",
+  "accessDate": "2026-11-19",
   "market": {
-    "ethUsd": 1759.58,
-    "change24h": -1.6,
-    "marketCapUsd": 215114518184,
-    "volume24hUsd": 10424007062.52,
+    "ethUsd": 1801.38,
+    "change24h": -0.5,
+    "marketCapUsd": 220249005502,
+    "volume24hUsd": 10648388962.69,
     "sourceIds": [
-      "cg-2026-11-18-evening"
+      "cg-2026-11-19-morning"
     ],
-    "note": "One internally paired CoinGecko prose snapshot: $1,759.58, -1.60% 24h, -15.30% 7d. Live subcomponents update asynchronously; values are not blended across sections."
+    "note": "One paired CoinGecko prose snapshot: $1,801.38, -0.50% 24h, -12.20% 7d. Other asynchronous page sections are not blended."
   },
   "observations": [
     {
@@ -5597,6 +5597,126 @@
       ],
       "confirmed": true,
       "uncertainty": "Index/public-source checks are not exhaustive. No newly verified staking yield, ETH-specific regulatory change or structural debasement/monetary-capture measurement was obtained; no claim of unchanged underlying conditions."
+    },
+    {
+      "id": "eth-market-2026-11-19-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$1,801.38; -0.50% 24h; -12.20% 7d",
+      "summary": "Weak weekly conditions persist; the paired daily move is below the 5% alert threshold.",
+      "sourceIds": [
+        "cg-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Rolling venue quotes differ; market causation is not verified."
+    },
+    {
+      "id": "eth-etf-2026-11-19-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November18 completed row: -$39.8M",
+      "summary": "ETHA -17.4, ETHB -5.4, ETHE -2.0 and ETH -15.0 million; other products report zero. This replaces the prior unreported row and makes three successive net-outflow sessions after November13 inflows.",
+      "sourceIds": [
+        "farside-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Automatically compiled flows may be revised. Not a five-day outflow streak."
+    },
+    {
+      "id": "coinshares-treasury-2026-11-19-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "Company reports sale of all corporate ETH and half corporate SOL; $19.3M combined proceeds",
+      "summary": "The November18 release links these corporate sales to an authorized share buyback of up to $40M. This is corporate treasury allocation, not liquidation of client ETF holdings.",
+      "sourceIds": [
+        "coinshares-q3-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Unaudited issuer disclosure; ETH-only proceeds, precise transaction dates and price causation are not established."
+    },
+    {
+      "id": "coinshares-staking-2026-11-19-morning",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Issuer reports lower staking revenue after redeploying ETH to lending",
+      "summary": "The release attributes its lower staking revenue to allocation toward lending. This is business-specific, not a current network staking APY or a system-wide demand measure.",
+      "sourceIds": [
+        "coinshares-q3-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Revenue depends on the issuer's allocations and token prices; no fresh network yield verified."
+    },
+    {
+      "id": "fed-minutes-2026-11-19-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "November18 minutes: almost all participants saw further tightening as likely appropriate",
+      "summary": "The October meeting record reinforces a restrictive liquidity outlook; a couple would consider more than 25bp at the next meeting if inflation data disappointed. It is not a new rate decision or guaranteed December outcome.",
+      "sourceIds": [
+        "fed-minutes-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Minutes reflect October information; future policy remains data-dependent."
+    },
+    {
+      "id": "eth-protocol-2026-11-19-morning",
+      "catalyst": "protocol",
+      "direction": "headwind",
+      "value": "November19 ACDE discussion pending; no precommitted decision",
+      "summary": "Official EF material continues to describe deployed-contract compatibility review and delayed Hoodi scheduling. No later final resolution was verified this morning; previously alerted risk is not re-alerted.",
+      "sourceIds": [
+        "ef-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "An agenda is not completed execution or a mainnet failure."
+    },
+    {
+      "id": "eth-regulation-2026-11-19-morning",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC FAQs remain staff guidance, last updated November2",
+      "summary": "The checked guidance expressly lacks legal force and is not a Commission rule. No new ETH-specific final rule or enactment was verified.",
+      "sourceIds": [
+        "sec-faq-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Limited public-source review is not exhaustive; do not date old guidance as new."
+    },
+    {
+      "id": "eth-capture-2026-11-19-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Checked provider-defined fees $287,441; revenue $79,657.45",
+      "summary": "Rolling provider figures do not prove sustainable burn, holder cash flow or durable asset capture. Ecosystem use and tokenization are not interchangeable with ETH valuation.",
+      "sourceIds": [
+        "cg-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Unaudited provider definitions; no fresh durable monetary-capture measurement."
+    },
+    {
+      "id": "eth-tokenization-debasement-review-2026-11-19-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "No new independently verified production tokenization metric",
+      "summary": "CoinShares describes integration and investment plans rather than a new Ethereum tokenization settlement milestone. No fresh metric is inferred from market headlines.",
+      "sourceIds": [
+        "coinshares-q3-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Source coverage limited; existing historical tokenization evidence retained."
+    },
+    {
+      "id": "eth-debasement-2026-11-19-morning",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "Cyclical tightening is not a new structural debasement result",
+      "summary": "The Fed meeting record concerns the policy/liquidity cycle; it does not establish ETH monetary demand or alter structural fiscal evidence.",
+      "sourceIds": [
+        "fed-minutes-2026-11-19-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No fresh structural fiscal or ETH monetary-capture measurement verified."
     }
   ],
   "sources": {
@@ -7449,15 +7569,45 @@
       "label": "SEC release index checked November18 evening",
       "url": "https://www.sec.gov/newsroom/press-releases",
       "accessedAt": "2026-11-18"
+    },
+    "cg-2026-11-19-morning": {
+      "label": "CoinGecko paired prose price/24h/volume/cap snapshot",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-19"
+    },
+    "farside-2026-11-19-morning": {
+      "label": "Farside completed November18 ETF row",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-19"
+    },
+    "ef-2026-11-19-morning": {
+      "label": "EF compatibility findings and pending November19 ACDE discussion",
+      "url": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038",
+      "accessedAt": "2026-11-19"
+    },
+    "fed-minutes-2026-11-19-morning": {
+      "label": "October27–28 FOMC minutes released November18, checked November19",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+      "accessedAt": "2026-11-19"
+    },
+    "coinshares-q3-2026-11-19-morning": {
+      "label": "CoinShares November18 unaudited Q3 release and corporate treasury sale",
+      "url": "https://investor.coinshares.com/pressreleases/coinshares-announces-third-quarter-2026-results",
+      "accessedAt": "2026-11-19"
+    },
+    "sec-faq-2026-11-19-morning": {
+      "label": "SEC staff crypto FAQs, updated November2; checked November19",
+      "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/faqs-crypto-assets",
+      "accessedAt": "2026-11-19"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [
-      "The checked -1.60% daily move is below5%.",
-      "Glamsterdam compatibility risk was already reported and reflected in the afternoon thesis; no later decision was verified.",
-      "ETF and fee observations refresh research; Binance recovery claims do not independently establish a new thesis-breaking event."
+      "The checked daily move is -0.50%, below5%.",
+      "The completed ETF row and a small issuer corporate treasury sale warrant evidence updates, not a new thesis-break alert.",
+      "Protocol risk was already reported; no completed November19 decision verified."
     ],
-    "confirmedVsUncertain": "Confirmed: paired market snapshot, ETF reporting completeness, provider fee display and pending EF review. Uncertain: final November18 ETF flows, Binance financial/recovery assertions, live staking economics, causal price drivers and durable ETH value capture. Broad source retrieval is not exhaustive; no score, probability, policy, evaluation, thesis or UI edits."
+    "confirmedVsUncertain": "Confirmed source observations: paired quote, completed ETF row, issuer disclosure, Fed minutes and pending protocol review. Uncertain: causal price drivers, ETH-only sale proceeds, live staking APY, structural monetary capture and future policy/protocol decisions. No score/probability/evaluation/thesis/policy/UI edits."
   }
 }
