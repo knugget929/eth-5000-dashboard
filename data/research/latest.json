@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-19T19:29:47Z",
-  "accessDate": "2026-11-19",
+  "researchedAt": "2026-11-20T19:19:30Z",
+  "accessDate": "2026-11-20",
   "market": {
-    "ethUsd": 1776.06,
-    "change24h": 0.4,
-    "marketCapUsd": 217121927878,
-    "volume24hUsd": 10296146597.71,
+    "ethUsd": 1627.27,
+    "change24h": -8.7,
+    "marketCapUsd": 198911284626,
+    "volume24hUsd": 16346681141.2,
     "sourceIds": [
-      "cg-2026-11-19-evening"
+      "cg-2026-11-20-evening"
     ],
-    "note": "One paired CoinGecko prose snapshot: $1,776.06,+0.40%24h,-11.70%7d. Asynchronous page sections not blended."
+    "note": "Paired prose quote accessed during November20 evening run; -15.50%7d. Rolling snapshot, not a closing price; asynchronous page sections not blended."
   },
   "observations": [
     {
@@ -5790,6 +5790,115 @@
       ],
       "confirmed": true,
       "uncertainty": "Intraday market report; specific attack claims are not independently verified and no closing prices assumed."
+    },
+    {
+      "id": "eth-market-2026-11-20-evening",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$1,627.27; -8.70%24h; -15.50%7d",
+      "summary": "Daily decline exceeds5% and triggers the research alert. Price weakness alone does not establish a protocol failure or thesis-breaking event.",
+      "sourceIds": [
+        "cg-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Rolling snapshot, not a fixed close. No single causal explanation independently established."
+    },
+    {
+      "id": "eth-etf-2026-11-20-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November19 net -$131.2M; November20 unreported",
+      "summary": "All November19 product cells are numeric; November20 components are dashes despite aggregate0.0. Preserve missing-versus-zero distinction.",
+      "sourceIds": [
+        "farside-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "November20 US session incomplete; provider data may be revised."
+    },
+    {
+      "id": "eth-staking-2026-11-20-evening",
+      "catalyst": "staking",
+      "direction": "mixed",
+      "value": "Display44,188,630ETH;35%;2.5%APR",
+      "summary": "Official educational page counters were retrieved, but no provider measurement timestamp is supplied. Do not infer a new yield improvement or independently dated staking increase.",
+      "sourceIds": [
+        "staking-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Page update label remains February12 2025; access date is not measurement date. APR not guaranteed."
+    },
+    {
+      "id": "eth-tokenization-2026-11-20-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "TVL$34.632B; stablecoins$129.187B; RWA active AUM$11.273B",
+      "summary": "Provider footprint figures are not audited subscriptions or proof of ETH monetary demand.",
+      "sourceIds": [
+        "defillama-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD marks move with prices; no separate net issuance/settlement milestone verified."
+    },
+    {
+      "id": "eth-capture-2026-11-20-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chain fees$264,144; revenue$127,256; REV$271,835/24h",
+      "summary": "Provider chain metrics differ from app fees$12.62M and app revenue$3.06M. Neither should be relabeled ETH-holder cash flow or durable monetary capture.",
+      "sourceIds": [
+        "defillama-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider-defined unaudited rolling metrics; cross-provider definitions differ."
+    },
+    {
+      "id": "eth-protocol-2026-11-20-evening",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "No new final protocol resolution verified",
+      "summary": "EF index and November19 forum summary do not establish a final Hoodi activation or resolved specification. Retain previously dated provisional plan and its transcript-verification limitation.",
+      "sourceIds": [
+        "ef-2026-11-20-evening",
+        "acde-249-2026-11-19-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Bounded review, not exhaustive. Tentative planning remains distinct from deployment."
+    },
+    {
+      "id": "eth-regulation-2026-11-20-evening",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "No new ETH-specific final regime verified",
+      "summary": "Checked SEC index remains headed by November19 fake-platform enforcement. Secondary custody-change headlines were not independently verified against exact filings and are not promoted to confirmed evidence.",
+      "sourceIds": [
+        "sec-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Bounded index review is not complete legal clearance; proposals/staff guidance remain separate."
+    },
+    {
+      "id": "eth-macro-2026-11-20-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "European close extends risk-off",
+      "summary": "Reuters reports STOXX600 down2% Friday and more than5.7% for the week. This is cyclical risk context, not evidence of monetary expansion.",
+      "sourceIds": [
+        "macro-europe-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Market close verified by reporting; economic/ETH causal transmission is inference."
+    },
+    {
+      "id": "eth-debasement-2026-11-20-evening",
+      "catalyst": "debasement",
+      "direction": "mixed",
+      "value": "No fresh structural fiscal/ETH monetary-capture measurement",
+      "summary": "A risk-off session cannot establish structural debt monetization or persistent reserve demand for ETH. Preserve earlier fiscal evidence with original dates.",
+      "sourceIds": [
+        "macro-europe-2026-11-20-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Do not turn cyclical liquidity commentary into a structural fiscal conclusion."
     }
   ],
   "sources": {
@@ -7702,14 +7811,49 @@
       "label": "Reuters November19 intraday global-market report",
       "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/",
       "accessedAt": "2026-11-19"
+    },
+    "cg-2026-11-20-evening": {
+      "label": "CoinGecko paired prose November20 evening",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-20"
+    },
+    "farside-2026-11-20-evening": {
+      "label": "Farside completed November19 and unreported November20 ETF rows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-20"
+    },
+    "staking-2026-11-20-evening": {
+      "label": "Ethereum.org staking display; measurement time unverified",
+      "url": "https://ethereum.org/en/staking/",
+      "accessedAt": "2026-11-20"
+    },
+    "defillama-2026-11-20-evening": {
+      "label": "DefiLlama Ethereum chain metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-20"
+    },
+    "ef-2026-11-20-evening": {
+      "label": "EF blog index checked November20",
+      "url": "https://blog.ethereum.org/",
+      "accessedAt": "2026-11-20"
+    },
+    "sec-2026-11-20-evening": {
+      "label": "SEC release index checked November20",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "accessedAt": "2026-11-20"
+    },
+    "macro-europe-2026-11-20-evening": {
+      "label": "Reuters November20 European close",
+      "url": "https://www.reuters.com/markets/europe/european-shares-head-steepest-weekly-drop-since-march-2026-11-20/",
+      "accessedAt": "2026-11-20"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "Material November19 protocol-call update: tentative path and continuing compatibility disagreement; clearly qualified as a posted summary rather than a final fork decision.",
-      "Daily price move+0.40% remains below5%; no thesis-breaking event established."
+      "Paired ETH daily decline-8.70% exceeds5% research threshold.",
+      "Latest completed ETF session is-$131.2M; November20 not reported. No independent thesis-breaking event established."
     ],
-    "confirmedVsUncertain": "Confirmed paired quote and ETF reporting completeness, provider fee display and public participant positions. Call-summary rough consensus and penciled dates remain provisional and not independently transcript-verified. Existing staking, tokenization and fiscal evidence retained with original dates; no new verified metric in those areas. No score/probability/evaluation/thesis/UI changes."
+    "confirmedVsUncertain": "Confirmed retrieved market/ETF/provider displays; mechanism and causation uncertain. Provisional protocol plan remains unconfirmed as activation. Staking measurement time unknown, tokenization footprint not ETH cash flow, fiscal evidence retained dated. No score, probability, policy, evaluation, thesis or UI changes."
   }
 }
