@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "market": {
-    "price": 1809.97,
-    "change24h": -0.3,
-    "capturedAt": "2026-11-18T06:59:56Z",
-    "source": "CoinGecko November 18 morning snapshot (stored research fallback, not a fresh afternoon quote)"
+    "price": 1776.06,
+    "change24h": 0.4,
+    "capturedAt": "2026-11-19T19:29:47Z",
+    "source": "CoinGecko November19 evening paired prose snapshot; latest canonical research fallback, not a fresh November20 quote"
   },
   "targets": {
     "5000": {
@@ -98,6 +98,11 @@
           "date": "2026-11-18",
           "probability": 52,
           "note": "Deployed-contract compatibility risk moves protocol green to yellow; modest price stabilization does not resolve execution and fund-flow uncertainty."
+        },
+        {
+          "date": "2026-11-20",
+          "probability": 52,
+          "note": "Probabilities maintained. Provisional November19 protocol path does not resolve compatibility risk; latest stored market and demand evidence do not establish recovery."
         }
       ],
       "sources": [
@@ -223,6 +228,11 @@
           "date": "2026-11-18",
           "probability": 24,
           "note": "Compatibility uncertainty lowers execution confidence; direct ETH value capture remains red and no structural confirmation is established."
+        },
+        {
+          "date": "2026-11-20",
+          "probability": 24,
+          "note": "Probabilities maintained. Provisional November19 protocol path does not resolve compatibility risk; latest stored market and demand evidence do not establish recovery."
         }
       ],
       "sources": [
@@ -294,7 +304,7 @@
           "weight": 18,
           "short": "Five-session ETF withdrawals outweigh broader access gains.",
           "summary": "Corporate accumulation remains supportive, while public-fund demand has turned decisively negative.",
-          "evidence": "Farside finalized October 30 at -$155.7M; October 26–30 total -$431.4M across five consecutive outflow sessions. Figment's November 12 BNY collaboration adds another institutional custody-staking rail, but launch timing, supported assets, uptake and flows are undisclosed. Keep the score yellow at 0.57. November 17's completed ETF row totals -$29.1M, following -$8.4M November 16 and +$2.3M November 13. This is a demand headwind but not a new sustained-flow regime; retain current scores.",
+          "evidence": "November19 stored research records a completed November18 ETF row of -$39.8M. The November19 session was unreported at that observation time; missing product cells are not zero. This remains a demand headwind without sufficient new evidence for an independent probability or color change.",
           "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
           "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
           "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
@@ -305,7 +315,7 @@
           "weight": 16,
           "short": "Access expands, but multi-year ownership is unproven.",
           "summary": "The stretch thesis needs broad, persistent institutional ownership across funds, treasuries, banks, and wealth channels.",
-          "evidence": "The October 26–30 withdrawal totals -$431.4M across five sessions. BNY's announced Figment-supported staking access is constructive infrastructure but does not yet prove persistent ownership, ETH-specific demand or value capture sufficient for $10K; retain yellow at 0.40. November 17's completed ETF row totals -$29.1M, following -$8.4M November 16 and +$2.3M November 13. This is a demand headwind but not a new sustained-flow regime; retain current scores.",
+          "evidence": "November19 stored research records a completed November18 ETF row of -$39.8M. The November19 session was unreported at that observation time; missing product cells are not zero. This remains a demand headwind without sufficient new evidence for an independent probability or color change.",
           "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
           "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
           "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
@@ -373,6 +383,14 @@
         {
           "label": "Reuters October 21 oil, shipping and diesel-risk update",
           "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/"
+        },
+        {
+          "label": "Reuters November19 intraday global-market report",
+          "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/"
+        },
+        {
+          "label": "October27–28 FOMC minutes released November18, checked November19",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
         }
       ],
       "targets": {
@@ -382,7 +400,7 @@
           "weight": 15,
           "short": "Sticky inflation and oil near $116 keep liquidity hostile.",
           "summary": "Restrictive liquidity is the clearest near-term headwind to the $5K path.",
-          "evidence": "October 29 research recorded firmer U.S. growth and sticky inflation alongside an ECB hold at 2.5%. Brent near $116 and the October 30 Hormuz tanker incident sustain inflation and supply-risk pressure. No durable easing regime is established; retain red.",
+          "evidence": "October meeting minutes released November18 reinforce a restrictive cyclical liquidity outlook. November19 intraday risk-off and shipping concerns do not establish a durable easing regime. Keep scores0.02/0.01 red, separately from structural fiscal/debasement evidence.",
           "why": "ETH generally benefits when yields fall, the dollar weakens, and global liquidity expands.",
           "greenTrigger": "Hike risk fades, inflation trends lower, and markets price durable easing.",
           "redTrigger": "Additional hikes, higher real yields, or renewed dollar strength."
@@ -393,7 +411,7 @@
           "weight": 13,
           "short": "Growth, inflation and energy risk do not establish durable easing.",
           "summary": "A durable $10K path likely needs materially easier liquidity or extraordinary ETH-specific demand.",
-          "evidence": "Firmer U.S. growth, sticky inflation, the ECB's 2.5% hold and elevated oil do not establish the multi-quarter easing, lower-real-yield and weaker-dollar regime the stretch case needs. Keep cyclical market moves separate from structural debasement.",
+          "evidence": "October meeting minutes released November18 reinforce a restrictive cyclical liquidity outlook. November19 intraday risk-off and shipping concerns do not establish a durable easing regime. Keep scores0.02/0.01 red, separately from structural fiscal/debasement evidence.",
           "why": "$10K likely needs a sustained regime of lower real yields, easier dollar liquidity, or genuine global monetary expansion.",
           "greenTrigger": "A multi-quarter easing cycle, falling real yields, a weaker dollar, and expanding global liquidity.",
           "redTrigger": "Structurally high real yields, renewed inflation, or repeated tightening cycles."
@@ -434,7 +452,7 @@
           "weight": 12,
           "short": "No new final ETH regime in the bounded official check.",
           "summary": "U.S. crypto policy is more workable for qualifying staking structures and functional networks, while comprehensive statutory clarity remains unresolved.",
-          "evidence": "The October 21 SEC index still lists October 20 cross-border cooperation items above the October 1 custody proposal. Earlier qualifying-staking guidance retains its stated scope. The bounded review is not exhaustive legal clearance and supplies no basis for a score/color change.",
+          "evidence": "Bounded November19 research identifies SEC fake-platform enforcement, not a new final Ethereum custody/staking/tokenization regime. Existing staff guidance remains distinct from binding rules; retain the current yellow scores.",
           "why": "Clearer treatment of staking and functional-network development lowers legal friction for Ethereum participation, while durable legislation still matters for broader institutional activity.",
           "greenTrigger": "CLARITY or equivalent legislation advances, and final rules make custody, staking, tokenization, and on-chain finance durably workable.",
           "redTrigger": "Agency guidance reverses, staking treatment becomes materially more restrictive, or broader legislation remains blocked while enforcement uncertainty rises."
@@ -445,7 +463,7 @@
           "weight": 10,
           "short": "Durable market-structure law remains unresolved.",
           "summary": "The $10K case gained useful staking clarity, while still needing comprehensive rules institutions can rely on across cycles.",
-          "evidence": "The latest stored release-index review supplies no newly verified broad final custody, staking or tokenization framework. The custody item remains proposed; proposals and nonbinding staff views are distinct from durable legal certainty required for $10K.",
+          "evidence": "Bounded November19 research identifies SEC fake-platform enforcement, not a new final Ethereum custody/staking/tokenization regime. Existing staff guidance remains distinct from binding rules; retain the current yellow scores.",
           "why": "A $1T+ valuation becomes easier if staking, custody, tokenization, and DeFi are normal regulated activities and ETH can be held as productive institutional collateral.",
           "greenTrigger": "Durable market-structure law plus workable final rules for custody, staking, tokenization, and on-chain finance.",
           "redTrigger": "Policy reversals, fragmented jurisdiction, or restrictions that push major activity offshore."
@@ -573,6 +591,14 @@
         {
           "label": "Ethereum Foundation: EIP-8037/EIP-8038 compatibility review and November 9 update; checked November 18",
           "url": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038"
+        },
+        {
+          "label": "Protocol-call forum meeting summary posted November19",
+          "url": "https://ethereum-magicians.org/t/all-core-devs-execution-acde-249-november-19-2026/30071"
+        },
+        {
+          "label": "Ethereum PM issue: Besu position and developer responses",
+          "url": "https://github.com/ethereum/pm/issues/2285"
         }
       ],
       "targets": {
@@ -581,8 +607,8 @@
           "score": 0.64,
           "weight": 8,
           "short": "Deployed-contract compatibility review offsets roadmap support.",
-          "summary": "Execution is mixed until compatibility and the delayed Hoodi path are resolved.",
-          "evidence": "The EF November 6 report and November 9 update identify deployed-contract compatibility risks from EIP-8037/8038, four affected-contract reports, independent audits and possible specification revisions. Hoodi remains delayed; the November 19 ACDE discussion has no pre-committed decision. This is testnet risk containment, not a demonstrated mainnet failure. Unlike the October 22 scheduling-only assessment, the broader deployed-contract review now offsets execution support. Lower the $5K execution score from 0.76 to 0.64 and move green to yellow.",
+          "summary": "A provisional testnet path is not final compatibility resolution or successful deployment.",
+          "evidence": "The November19 forum-posted call summary reports provisional support for the current Glamsterdam specification unless a viable alternative emerges and pencils in Hoodi for the week of December14, with final go/no-go deferred. Compatibility objections remain. The summary was not independently transcript-verified; no final fork commitment, specification resolution or mainnet date is established. Retain yellow at0.64 for $5K and0.52 for $10K.",
           "why": "Successful upgrades make the network more useful and credible as long-term financial infrastructure.",
           "greenTrigger": "Major testnets and mainnet upgrades ship cleanly with measurable capacity gains.",
           "redTrigger": "Serious upgrade delays, instability, or persistent failure to improve value capture."
@@ -592,8 +618,8 @@
           "score": 0.52,
           "weight": 7,
           "short": "Compatibility and scaling-delivery uncertainty remain a stretch-case hurdle.",
-          "summary": "The stretch target needs reliable scaling plus direct ETH economics; neither is supplied by a pending review.",
-          "evidence": "The EF November 6 report and November 9 update identify deployed-contract compatibility risks from EIP-8037/8038, four affected-contract reports, independent audits and possible specification revisions. Hoodi remains delayed; the November 19 ACDE discussion has no pre-committed decision. This is testnet risk containment, not a demonstrated mainnet failure. Unlike the October 22 scheduling-only assessment, the broader deployed-contract review now offsets execution support. Lower the $10K score from 0.62 to 0.52 while retaining yellow. ETH value capture remains a separate red hurdle.",
+          "summary": "A provisional testnet path is not final compatibility resolution or successful deployment.",
+          "evidence": "The November19 forum-posted call summary reports provisional support for the current Glamsterdam specification unless a viable alternative emerges and pencils in Hoodi for the week of December14, with final go/no-go deferred. Compatibility objections remain. The summary was not independently transcript-verified; no final fork commitment, specification resolution or mainnet date is established. Retain yellow at0.64 for $5K and0.52 for $10K.",
           "why": "Technical success must include both throughput and a convincing economic relationship between L2 growth and ETH demand.",
           "greenTrigger": "Roadmap milestones ship reliably, UX improves, and L2 settlement creates durable L1 and ETH economics.",
           "redTrigger": "Scaling fragments liquidity, value accrues elsewhere, or complexity causes repeated instability."
@@ -624,9 +650,9 @@
           "status": "red",
           "score": 0.16,
           "weight": 7,
-          "short": "ETH near $1.81K does not yet reverse the red market regime.",
+          "short": "Latest stored $1.78K snapshot does not establish recovery.",
           "summary": "The near-term market path weakened further and requires a durable reclaim before momentum can support $5K.",
-          "evidence": "Stored November 18 morning research snapshot: $1,809.97, -0.30% 24h and -12.20% 7d. This is roughly 0.9% above November 15 but does not establish a durable base reclaim or spot-led breakout. It is not a fresh afternoon quote. Retain the already-red market score.",
+          "evidence": "Latest canonical research fallback is November19 19:29UTC: $1,776.06,+0.40%24h,-11.70%7d. Not a fresh November20 price. No durable base reclaim or spot-led breakout is established; keep the already-red market scores0.16/0.07.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
@@ -635,9 +661,9 @@
           "status": "red",
           "score": 0.07,
           "weight": 6,
-          "short": "Price remains far from stretch-target confirmation.",
+          "short": "Latest stored $1.78K snapshot does not establish recovery.",
           "summary": "The market is not demonstrating willingness to value ETH near the stretch target.",
-          "evidence": "Stored November 18 morning research snapshot: $1,809.97, -0.30% 24h and -12.20% 7d. This is roughly 0.9% above November 15 but does not establish a durable base reclaim or spot-led breakout. It is not a fresh afternoon quote. Retain the already-red market score.",
+          "evidence": "Latest canonical research fallback is November19 19:29UTC: $1,776.06,+0.40%24h,-11.70%7d. Not a fresh November20 price. No durable base reclaim or spot-led breakout is established; keep the already-red market scores0.16/0.07.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
@@ -657,6 +683,10 @@
         {
           "label": "Blast: Official network wind-down announcement",
           "url": "https://x.com/blast/status/2106032805280891073"
+        },
+        {
+          "label": "CoinGecko paired prose snapshot and provider fee metrics",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
         }
       ],
       "targets": {
@@ -666,7 +696,7 @@
           "weight": 11,
           "short": "Usage is not yet proven durable ETH-holder capture.",
           "summary": "Ethereum adoption helps the $5K case, but not every unit of ecosystem growth becomes demand for ETH.",
-          "evidence": "October 21 research displays chain fees $418,507, chain revenue $120,879 and chain REV $584,958 over 24h; app fees $7.09M and app revenue $1.5M are distinct measures. Do not relabel them as interchangeable holder cash flow. No sustained burn or monetary premium is established; retain yellow. November 17's CoinGecko provider-defined fee/revenue display ($307,085/$77,571.69) still does not establish sustained burn or an ETH-holder monetary premium; these metrics are not interchangeable with prior provider measures.",
+          "evidence": "November19 provider-defined fee/revenue display of $252,439/$87,153.94 over24h does not establish sustainable burn or holder cash flow. Preserve provider-definition differences and the distinction between ecosystem adoption and ETH capture; keep $5K yellow0.47 and $10K red0.21.",
           "why": "$5K does not require perfect capture, but it does require investors to believe ETH retains monetary, collateral, and settlement value.",
           "greenTrigger": "Staking, collateral use, L1 settlement, blobs, and fee burn strengthen together as activity grows.",
           "redTrigger": "Usage grows while ETH demand, fee burn, collateral share, and monetary premium stagnate."
@@ -677,7 +707,7 @@
           "weight": 20,
           "short": "Explicit ETH value capture remains the critical red hurdle.",
           "summary": "Ethereum can win as infrastructure while ETH underperforms if the asset captures too little of the network’s economic value.",
-          "evidence": "Chain revenue $120,879 versus app fees $7.09M does not demonstrate recurring value accruing to ETH itself. Large DeFi balances and scheduled testnet scaling cannot substitute for sustained settlement/blob demand, collateral demand, scarcity and monetary premium. November 17's CoinGecko provider-defined fee/revenue display ($307,085/$77,571.69) still does not establish sustained burn or an ETH-holder monetary premium; these metrics are not interchangeable with prior provider measures.",
+          "evidence": "November19 provider-defined fee/revenue display of $252,439/$87,153.94 over24h does not establish sustainable burn or holder cash flow. Preserve provider-definition differences and the distinction between ecosystem adoption and ETH capture; keep $5K yellow0.47 and $10K red0.21.",
           "why": "$10K needs ETH to function as widely held productive capital: staked, used as institutional collateral, demanded for settlement, and valued for monetary premium.",
           "greenTrigger": "Rising settlement and blob demand, durable net burn or scarcity, expanding ETH collateral use, and institutional treatment as productive capital.",
           "redTrigger": "Ethereum becomes dominant infrastructure while fees, burn, collateral demand, and monetary premium accrue weakly to ETH."
@@ -805,6 +835,44 @@
     }
   },
   "changes": [
+    {
+      "date": "2026-11-20",
+      "title": "Provisional protocol path incorporated; both probabilities maintained",
+      "summary": "Maintain the independently assessed $5K probability at52% and $10K at24%, with weighted signals50/36 and all scores/colors unchanged. The November19 posted ACDE summary provides a provisional Hoodi week-of-December14 path but not final compatibility resolution, a final fork commitment or mainnet success; retain protocol yellow0.64/0.52. Latest canonical research is November19 evening: $1,776.06,+0.40%24h,-11.70%7d and November18 ETF -$39.8M; this remains weak market/demand evidence, not recovery. Morning November20 research did not publish, so no missing observations or fresh quote are invented. Fed/liquidity remains separate from structural fiscal pressure; $10K ETH value capture stays red0.21. Other dated evidence and scores remain unchanged.",
+      "catalyst": "Evidence review",
+      "targets": [
+        "5000",
+        "10000"
+      ],
+      "impact": {
+        "5000": {
+          "delta": 0,
+          "direction": "steady"
+        },
+        "10000": {
+          "delta": 0,
+          "direction": "steady"
+        }
+      },
+      "sources": [
+        {
+          "label": "Protocol-call forum meeting summary posted November19",
+          "url": "https://ethereum-magicians.org/t/all-core-devs-execution-acde-249-november-19-2026/30071"
+        },
+        {
+          "label": "Ethereum PM issue: Besu position and developer responses",
+          "url": "https://github.com/ethereum/pm/issues/2285"
+        },
+        {
+          "label": "CoinGecko paired prose snapshot and provider fee metrics",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
+        },
+        {
+          "label": "November18 completed and November19 unreported ETF rows",
+          "url": "https://farside.co.uk/eth/"
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "title": "Contract-compatibility risk moves $5K execution from green to yellow",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-18T14:59:12Z",
+  "evaluatedAt": "2026-11-20T14:23:10Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-2026-11-19-evening",
       "bny-figment-staking-2026-11-12",
       "eth-etf-2026-11-17-evening",
       "eth-etf-2026-11-18-morning",
@@ -130,6 +131,8 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "eth-macro-2026-11-19-evening",
+      "fed-minutes-2026-11-19-morning",
       "us-macro-2026-11-17-evening",
       "hormuz-tanker-2026-10-30-morning",
       "us-growth-inflation-2026-10-29-evening",
@@ -157,6 +160,7 @@
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
+      "eth-regulatory-2026-11-19-evening",
       "regulatory-review-2026-10-21-morning",
       "regulatory-review-2026-10-19-morning",
       "us-regulatory-review-2026-10-17-morning",
@@ -194,6 +198,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
+      "eth-acde-249-2026-11-19-evening",
       "glamsterdam-gas-compatibility-2026-11-17-morning",
       "eth-protocol-review-2026-11-18-morning",
       "glamsterdam-hoodi-postponed-2026-10-23",
@@ -208,6 +213,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-19-evening",
       "eth-market-2026-11-15-morning",
       "eth-market-2026-11-17-morning",
       "eth-market-2026-11-17-evening",
@@ -229,6 +235,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-11-19-evening",
       "eth-capture-2026-11-17-evening",
       "eth-capture-2026-10-21-morning",
       "eth-capture-2026-10-19-morning",
@@ -254,5 +261,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Independently reduce the $5K subjective probability from 54% to 52% and the $10K probability from 25% to 24%. Broader deployed-contract compatibility findings and possible EIP-8037/8038 revisions weaken execution versus the October scheduling-delay assessment: protocol scores become 0.64/0.52, moving $5K green to yellow and retaining $10K yellow. The stored November 18 $1,809.97 market snapshot and -$29.1M November 17 ETF row do not justify reversing existing market or institutional scores. Weighted signals are 50/36. No mainnet failure or structural thesis break is established; November 19 ACDE is pending. Fed/liquidity remains separate from fiscal debasement; $10K value capture remains red. Other dated evidence and scores remain unchanged."
+  "decision": "Maintain the independently assessed $5K probability at52% and $10K at24%, with weighted signals50/36 and all scores/colors unchanged. The November19 posted ACDE summary provides a provisional Hoodi week-of-December14 path but not final compatibility resolution, a final fork commitment or mainnet success; retain protocol yellow0.64/0.52. Latest canonical research is November19 evening: $1,776.06,+0.40%24h,-11.70%7d and November18 ETF -$39.8M; this remains weak market/demand evidence, not recovery. Morning November20 research did not publish, so no missing observations or fresh quote are invented. Fed/liquidity remains separate from structural fiscal pressure; $10K ETH value capture stays red0.21. Other dated evidence and scores remain unchanged."
 }
