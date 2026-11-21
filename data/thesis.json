@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "market": {
-    "price": 1776.06,
-    "change24h": 0.4,
-    "capturedAt": "2026-11-19T19:29:47Z",
-    "source": "CoinGecko November19 evening paired prose snapshot; latest canonical research fallback, not a fresh November20 quote"
+    "price": 1567.66,
+    "change24h": -9.9,
+    "capturedAt": "2026-11-21T06:51:51.868Z",
+    "source": "CoinGecko November 21 morning paired quote from canonical research; stored fallback, not a live price."
   },
   "targets": {
     "5000": {
@@ -103,6 +103,11 @@
           "date": "2026-11-20",
           "probability": 52,
           "note": "Probabilities maintained. Provisional November19 protocol path does not resolve compatibility risk; latest stored market and demand evidence do not establish recovery."
+        },
+        {
+          "date": "2026-11-21",
+          "probability": 52,
+          "note": "Maintained. Fresh selloff reinforces existing market and liquidity headwinds; reported fund-flow weakness is not a new durable regime."
         }
       ],
       "sources": [
@@ -117,8 +122,8 @@
       ],
       "path": [
         {
-          "label": "$2.24K",
-          "note": "Oct 31 stored research zone",
+          "label": "$1.57K",
+          "note": "Nov 21 stored research snapshot",
           "active": true
         },
         {
@@ -233,6 +238,11 @@
           "date": "2026-11-20",
           "probability": 24,
           "note": "Probabilities maintained. Provisional November19 protocol path does not resolve compatibility risk; latest stored market and demand evidence do not establish recovery."
+        },
+        {
+          "date": "2026-11-21",
+          "probability": 24,
+          "note": "Maintained independently. A one-day fee increase is not durable ETH value capture, and the institutional and macro hurdles remain."
         }
       ],
       "sources": [
@@ -247,8 +257,8 @@
       ],
       "path": [
         {
-          "label": "$2.24K",
-          "note": "Oct 31 stored research zone",
+          "label": "$1.57K",
+          "note": "Nov 21 stored research snapshot",
           "active": true
         },
         {
@@ -304,7 +314,7 @@
           "weight": 18,
           "short": "Five-session ETF withdrawals outweigh broader access gains.",
           "summary": "Corporate accumulation remains supportive, while public-fund demand has turned decisively negative.",
-          "evidence": "November19 stored research records a completed November18 ETF row of -$39.8M. The November19 session was unreported at that observation time; missing product cells are not zero. This remains a demand headwind without sufficient new evidence for an independent probability or color change.",
+          "evidence": "November 19 spot ETH ETF net outflow was $131.2M. The November 20 Farside subtotal was −$13.2M with ETHA, ETHB and FETH unreported. That is a continued demand headwind, not a final session total or evidence of a new multi-week institutional regime.",
           "why": "Persistent regulated-product demand creates marginal buy pressure and can help ETH reclaim its prior valuation range.",
           "greenTrigger": "Positive flows persist for 1–3 months and continue through ETH pullbacks.",
           "redTrigger": "A multi-week run of large ETF outflows or institutional de-risking."
@@ -315,7 +325,7 @@
           "weight": 16,
           "short": "Access expands, but multi-year ownership is unproven.",
           "summary": "The stretch thesis needs broad, persistent institutional ownership across funds, treasuries, banks, and wealth channels.",
-          "evidence": "November19 stored research records a completed November18 ETF row of -$39.8M. The November19 session was unreported at that observation time; missing product cells are not zero. This remains a demand headwind without sufficient new evidence for an independent probability or color change.",
+          "evidence": "November 19 spot ETH ETF net outflow was $131.2M. The November 20 Farside subtotal was −$13.2M with ETHA, ETHB and FETH unreported. That is a continued demand headwind, not a final session total or evidence of a new multi-week institutional regime.",
           "why": "$10K probably requires sustained ownership across ETFs, wealth platforms, pensions, corporate treasuries, and staking products—not just a strong quarter.",
           "greenTrigger": "ETF AUM compounds for years, staking-enabled products become standard, and major allocators publicly adopt ETH.",
           "redTrigger": "Flows prove cyclical, products stagnate, or BTC captures nearly all institutional crypto allocation."
@@ -391,6 +401,10 @@
         {
           "label": "October27–28 FOMC minutes released November18, checked November19",
           "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+        },
+        {
+          "label": "Reuters: November 20 U.S. market close",
+          "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/"
         }
       ],
       "targets": {
@@ -400,7 +414,7 @@
           "weight": 15,
           "short": "Sticky inflation and oil near $116 keep liquidity hostile.",
           "summary": "Restrictive liquidity is the clearest near-term headwind to the $5K path.",
-          "evidence": "October meeting minutes released November18 reinforce a restrictive cyclical liquidity outlook. November19 intraday risk-off and shipping concerns do not establish a durable easing regime. Keep scores0.02/0.01 red, separately from structural fiscal/debasement evidence.",
+          "evidence": "At the November 20 close, the S&P 500 fell 3.70% and the Nasdaq Composite 5.28%; the S&P 500 and Dow entered corrections. This reinforces the already-red risk backdrop but is not a new Fed decision or evidence of structural debasement.",
           "why": "ETH generally benefits when yields fall, the dollar weakens, and global liquidity expands.",
           "greenTrigger": "Hike risk fades, inflation trends lower, and markets price durable easing.",
           "redTrigger": "Additional hikes, higher real yields, or renewed dollar strength."
@@ -411,7 +425,7 @@
           "weight": 13,
           "short": "Growth, inflation and energy risk do not establish durable easing.",
           "summary": "A durable $10K path likely needs materially easier liquidity or extraordinary ETH-specific demand.",
-          "evidence": "October meeting minutes released November18 reinforce a restrictive cyclical liquidity outlook. November19 intraday risk-off and shipping concerns do not establish a durable easing regime. Keep scores0.02/0.01 red, separately from structural fiscal/debasement evidence.",
+          "evidence": "At the November 20 close, the S&P 500 fell 3.70% and the Nasdaq Composite 5.28%; the S&P 500 and Dow entered corrections. This reinforces the already-red risk backdrop but is not a new Fed decision or evidence of structural debasement.",
           "why": "$10K likely needs a sustained regime of lower real yields, easier dollar liquidity, or genuine global monetary expansion.",
           "greenTrigger": "A multi-quarter easing cycle, falling real yields, a weaker dollar, and expanding global liquidity.",
           "redTrigger": "Structurally high real yields, renewed inflation, or repeated tightening cycles."
@@ -496,7 +510,7 @@
           "weight": 11,
           "short": "Large ecosystem balances support $5K despite outflows.",
           "summary": "Stablecoins, tokenized assets, and DeFi remain one of Ethereum’s strongest structural adoption stories.",
-          "evidence": "October 21 research displays TVL $50.221B, stablecoins $143.552B and active RWA AUM $13.695B. DEX volume was $1.132B over 24h and $7.484B over 7d (-7.33%), with $48.61M of net outflows. JPM Coin's announced Ethereum go-live adds bank settlement adoption, but provider-defined balances and announcements do not establish ETH-holder income.",
+          "evidence": "DefiLlama November 21 Ethereum dashboard showed $33.885B DeFi TVL, $128.764B stablecoins and $11.199B active RWA AUM. The ecosystem base is substantial; USD valuations are price-sensitive and these balances do not establish direct ETH accumulation.",
           "why": "More financial activity on Ethereum and its L2s strengthens the network’s importance as settlement infrastructure.",
           "greenTrigger": "Large issuers launch meaningful tokenized funds, equities, credit, or payments on Ethereum rails.",
           "redTrigger": "Activity migrates elsewhere without meaningful Ethereum settlement or ETH demand."
@@ -507,7 +521,7 @@
           "weight": 11,
           "short": "Substantial activity still does not prove direct ETH capture.",
           "summary": "For $10K, Ethereum likely needs to become a dominant settlement layer for real financial assets at meaningful scale.",
-          "evidence": "The footprint remains large and JPM Coin's Ethereum launch is a meaningful adoption signal, yet negative daily net inflows and weaker weekly DEX activity do not demonstrate recurring ETH-denominated settlement or monetary demand. RWA active AUM is not interchangeable with audited new subscriptions; retain yellow.",
+          "evidence": "DefiLlama November 21 Ethereum dashboard showed $33.885B DeFi TVL, $128.764B stablecoins and $11.199B active RWA AUM. The ecosystem base is substantial; USD valuations are price-sensitive and these balances do not establish direct ETH accumulation.",
           "why": "Tokenization supports a much larger valuation only if activity creates recurring ETH demand through settlement, collateral, staking, fees, or monetary premium.",
           "greenTrigger": "Trillions in tokenized assets and stablecoins settle on Ethereum rails with clear ETH-denominated economic demand.",
           "redTrigger": "L2 and app growth explodes while ETH fee burn, collateral demand, and settlement value remain weak."
@@ -650,9 +664,9 @@
           "status": "red",
           "score": 0.16,
           "weight": 7,
-          "short": "Latest stored $1.78K snapshot does not establish recovery.",
+          "short": "$1.57K stored snapshot confirms the red market regime.",
           "summary": "The near-term market path weakened further and requires a durable reclaim before momentum can support $5K.",
-          "evidence": "Latest canonical research fallback is November19 19:29UTC: $1,776.06,+0.40%24h,-11.70%7d. Not a fresh November20 price. No durable base reclaim or spot-led breakout is established; keep the already-red market scores0.16/0.07.",
+          "evidence": "November 21 morning stored CoinGecko snapshot: $1,567.66, −9.90% over 24h and −17.90% over seven days; Coinbase corroborated the direction and magnitude. The lower quote confirms the existing red market regime, not a durable recovery or a protocol failure.",
           "why": "A sustained break above resistance can attract momentum, re-risking, and broader crypto rotation into ETH.",
           "greenTrigger": "ETH holds above $3K and then reclaims $3.5K on strong spot volume.",
           "redTrigger": "ETH loses the recent base while ETF demand weakens."
@@ -661,9 +675,9 @@
           "status": "red",
           "score": 0.07,
           "weight": 6,
-          "short": "Latest stored $1.78K snapshot does not establish recovery.",
+          "short": "$1.57K stored snapshot confirms the red market regime.",
           "summary": "The market is not demonstrating willingness to value ETH near the stretch target.",
-          "evidence": "Latest canonical research fallback is November19 19:29UTC: $1,776.06,+0.40%24h,-11.70%7d. Not a fresh November20 price. No durable base reclaim or spot-led breakout is established; keep the already-red market scores0.16/0.07.",
+          "evidence": "November 21 morning stored CoinGecko snapshot: $1,567.66, −9.90% over 24h and −17.90% over seven days; Coinbase corroborated the direction and magnitude. The lower quote confirms the existing red market regime, not a durable recovery or a protocol failure.",
           "why": "$10K likely requires ETH to clear its old high, sustain price discovery, and attract broad capital rotation rather than leverage alone.",
           "greenTrigger": "ETH clears $5K, consolidates above prior highs, and advances with strong spot and ETF demand.",
           "redTrigger": "Repeated failure near old highs or a widening performance gap versus BTC and competing chains."
@@ -696,7 +710,7 @@
           "weight": 11,
           "short": "Usage is not yet proven durable ETH-holder capture.",
           "summary": "Ethereum adoption helps the $5K case, but not every unit of ecosystem growth becomes demand for ETH.",
-          "evidence": "November19 provider-defined fee/revenue display of $252,439/$87,153.94 over24h does not establish sustainable burn or holder cash flow. Preserve provider-definition differences and the distinction between ecosystem adoption and ETH capture; keep $5K yellow0.47 and $10K red0.21.",
+          "evidence": "DefiLlama November 21 showed 24h chain fees of $576,208 and chain revenue of $409,308, distinct from app fees and app revenue. A one-day rise does not establish durable burn, collateral demand or a holder premium. Direct ETH capture remains a red hurdle for $10K.",
           "why": "$5K does not require perfect capture, but it does require investors to believe ETH retains monetary, collateral, and settlement value.",
           "greenTrigger": "Staking, collateral use, L1 settlement, blobs, and fee burn strengthen together as activity grows.",
           "redTrigger": "Usage grows while ETH demand, fee burn, collateral share, and monetary premium stagnate."
@@ -707,7 +721,7 @@
           "weight": 20,
           "short": "Explicit ETH value capture remains the critical red hurdle.",
           "summary": "Ethereum can win as infrastructure while ETH underperforms if the asset captures too little of the network’s economic value.",
-          "evidence": "November19 provider-defined fee/revenue display of $252,439/$87,153.94 over24h does not establish sustainable burn or holder cash flow. Preserve provider-definition differences and the distinction between ecosystem adoption and ETH capture; keep $5K yellow0.47 and $10K red0.21.",
+          "evidence": "DefiLlama November 21 showed 24h chain fees of $576,208 and chain revenue of $409,308, distinct from app fees and app revenue. A one-day rise does not establish durable burn, collateral demand or a holder premium. Direct ETH capture remains a red hurdle for $10K.",
           "why": "$10K needs ETH to function as widely held productive capital: staked, used as institutional collateral, demanded for settlement, and valued for monetary premium.",
           "greenTrigger": "Rising settlement and blob demand, durable net burn or scarcity, expanding ETH collateral use, and institutional treatment as productive capital.",
           "redTrigger": "Ethereum becomes dominant infrastructure while fees, burn, collateral demand, and monetary premium accrue weakly to ETH."
@@ -835,6 +849,44 @@
     }
   },
   "changes": [
+    {
+      "date": "2026-11-21",
+      "title": "Selloff evidence incorporated; both probabilities maintained",
+      "summary": "Maintain $5K at 52% (signal 50): the lower ETH price, ETF outflows and equity correction reinforce the existing red market and liquidity assessment; supportive staking and tokenization evidence has not reversed. Independently maintain $10K at 24% (signal 36): chain usage and a one-day fee increase do not establish sustained ETH value capture, and no new structural monetary-demand evidence was verified. Fed/liquidity and debasement stay separate. No catalyst color or score change. November 21 morning research replaces the stale stored price; incomplete ETF reporting remains provisional.",
+      "catalyst": "Evidence review",
+      "targets": [
+        "5000",
+        "10000"
+      ],
+      "impact": {
+        "5000": {
+          "delta": 0,
+          "direction": "steady"
+        },
+        "10000": {
+          "delta": 0,
+          "direction": "steady"
+        }
+      },
+      "sources": [
+        {
+          "label": "CoinGecko paired Ethereum quote, November 21 morning",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
+        },
+        {
+          "label": "Farside U.S. spot ETH ETF flows, accessed November 21",
+          "url": "https://farside.co.uk/eth/"
+        },
+        {
+          "label": "DefiLlama Ethereum daily dashboard, November 21",
+          "url": "https://defillama.com/chain/ethereum"
+        },
+        {
+          "label": "Reuters Friday U.S. equity close, November 20",
+          "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "title": "Provisional protocol path incorporated; both probabilities maintained",

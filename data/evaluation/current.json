@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-20T14:23:10Z",
+  "evaluatedAt": "2026-11-21T14:24:25.421Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-2026-11-21-morning",
       "eth-etf-2026-11-19-evening",
       "bny-figment-staking-2026-11-12",
       "eth-etf-2026-11-17-evening",
@@ -131,6 +132,7 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "eth-macro-2026-11-21-morning",
       "eth-macro-2026-11-19-evening",
       "fed-minutes-2026-11-19-morning",
       "us-macro-2026-11-17-evening",
@@ -172,6 +174,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "eth-tokenization-2026-11-21-morning",
       "defi-tokenization-2026-10-21-morning",
       "defi-tokenization-2026-10-19-morning",
       "defi-tokenization-2026-10-17-morning",
@@ -213,6 +216,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-21-morning",
       "eth-market-2026-11-19-evening",
       "eth-market-2026-11-15-morning",
       "eth-market-2026-11-17-morning",
@@ -235,6 +239,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-11-21-morning",
       "eth-capture-2026-11-19-evening",
       "eth-capture-2026-11-17-evening",
       "eth-capture-2026-10-21-morning",
@@ -261,5 +266,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Maintain the independently assessed $5K probability at52% and $10K at24%, with weighted signals50/36 and all scores/colors unchanged. The November19 posted ACDE summary provides a provisional Hoodi week-of-December14 path but not final compatibility resolution, a final fork commitment or mainnet success; retain protocol yellow0.64/0.52. Latest canonical research is November19 evening: $1,776.06,+0.40%24h,-11.70%7d and November18 ETF -$39.8M; this remains weak market/demand evidence, not recovery. Morning November20 research did not publish, so no missing observations or fresh quote are invented. Fed/liquidity remains separate from structural fiscal pressure; $10K ETH value capture stays red0.21. Other dated evidence and scores remain unchanged."
+  "decision": "Maintain $5K at 52% (signal 50): the lower ETH price, ETF outflows and equity correction reinforce the existing red market and liquidity assessment; supportive staking and tokenization evidence has not reversed. Independently maintain $10K at 24% (signal 36): chain usage and a one-day fee increase do not establish sustained ETH value capture, and no new structural monetary-demand evidence was verified. Fed/liquidity and debasement stay separate. No catalyst color or score change. November 21 morning research replaces the stale stored price; incomplete ETF reporting remains provisional."
 }
