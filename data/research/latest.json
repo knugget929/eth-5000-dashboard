@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-20T19:19:30Z",
-  "accessDate": "2026-11-20",
+  "researchedAt": "2026-11-21T06:51:51.868Z",
+  "accessDate": "2026-11-21",
   "market": {
-    "ethUsd": 1627.27,
-    "change24h": -8.7,
-    "marketCapUsd": 198911284626,
-    "volume24hUsd": 16346681141.2,
+    "ethUsd": 1567.66,
+    "change24h": -9.9,
+    "marketCapUsd": 191628753043,
+    "volume24hUsd": 22418749601.39,
     "sourceIds": [
-      "cg-2026-11-20-evening"
+      "cg-2026-11-21-morning",
+      "cb-2026-11-21-morning"
     ],
-    "note": "Paired prose quote accessed during November20 evening run; -15.50%7d. Rolling snapshot, not a closing price; asynchronous page sections not blended."
+    "note": "Primary figures come from one paired CoinGecko prose observation; 7d -17.90%. Coinbase separately showed $1,558.18 and about -10% over 24h. Provider snapshots differ; price and change were not mixed across sources. Rolling quotes, not closes."
   },
   "observations": [
     {
@@ -5899,6 +5900,67 @@
       ],
       "confirmed": true,
       "uncertainty": "Do not turn cyclical liquidity commentary into a structural fiscal conclusion."
+    },
+    {
+      "id": "eth-market-2026-11-21-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$1,567.66 / -9.90% 24h / -17.90% 7d",
+      "summary": "CoinGecko's paired quote showed a decline exceeding the 5% daily-move alert threshold. Coinbase independently showed a similar drop at a different quoted level.",
+      "sourceIds": [
+        "cg-2026-11-21-morning",
+        "cb-2026-11-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Asynchronous rolling quotes vary by venue and cache. Price weakness alone does not establish a change in protocol fundamentals."
+    },
+    {
+      "id": "eth-etf-2026-11-21-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 20 Farside partial -$13.2M; November 19 complete -$131.2M",
+      "summary": "Farside's November 20 visible total incorporates Grayscale ETHE -$4.5M and ETH -$8.7M, but ETHA, ETHB and FETH are unreported in that table. November 19 remains the latest complete row in the retrieved Farside table.",
+      "sourceIds": [
+        "farside-2026-11-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Incomplete funds are not zero and alternative feeds showed divergent totals. Do not treat the partial sum as the session's final net flow or as a causal explanation for ETH price."
+    },
+    {
+      "id": "eth-tokenization-2026-11-21-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "DeFi TVL $33.885B; stablecoins $128.764B; active RWA AUM $11.199B",
+      "summary": "DefiLlama's November 21 Ethereum dashboard updated its DeFi asset, stablecoin and RWA footprint measures.",
+      "sourceIds": [
+        "defillama-2026-11-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD TVL is price-sensitive; ecosystem assets do not measure ETH holder cash flow or institutional purchases of ETH."
+    },
+    {
+      "id": "eth-capture-2026-11-21-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chain fees $576,208; chain revenue $409,308 in 24h",
+      "summary": "Chain-level fees and revenue rose versus the last retrieved snapshot. App fees ($9.43M) and app revenue ($2.63M) are separately attributed by the dashboard.",
+      "sourceIds": [
+        "defillama-2026-11-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "A one-day variation is not a durable change in value capture. Application revenue is not interchangeable with chain revenue."
+    },
+    {
+      "id": "eth-macro-2026-11-21-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "November 20 close: S&P 500 -3.70%; Nasdaq Composite -5.28%; Dow -1.93%",
+      "summary": "The S&P 500 and Dow closed more than 10% below their record closing levels after a broad AI-led selloff. This is a more adverse risk backdrop than a regional equity decline alone.",
+      "sourceIds": [
+        "reuters-us-close-2026-11-21-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Equity weakness can weigh on risk appetite; concurrent moves do not prove why ETH fell or imply that the Fed has changed policy."
     }
   ],
   "sources": {
@@ -7846,14 +7908,39 @@
       "label": "Reuters November20 European close",
       "url": "https://www.reuters.com/markets/europe/european-shares-head-steepest-weekly-drop-since-march-2026-11-20/",
       "accessedAt": "2026-11-20"
+    },
+    "cg-2026-11-21-morning": {
+      "label": "CoinGecko paired Ethereum quote, November 21 morning",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-21"
+    },
+    "cb-2026-11-21-morning": {
+      "label": "Coinbase paired Ethereum quote, November 21 morning",
+      "url": "https://www.coinbase.com/price/ethereum",
+      "accessedAt": "2026-11-21"
+    },
+    "farside-2026-11-21-morning": {
+      "label": "Farside U.S. spot ETH ETF flows, accessed November 21",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-21"
+    },
+    "defillama-2026-11-21-morning": {
+      "label": "DefiLlama Ethereum daily dashboard, November 21",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-21"
+    },
+    "reuters-us-close-2026-11-21-morning": {
+      "label": "Reuters Friday U.S. equity close, November 20",
+      "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+      "accessedAt": "2026-11-21"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "Paired ETH daily decline-8.70% exceeds5% research threshold.",
-      "Latest completed ETF session is-$131.2M; November20 not reported. No independent thesis-breaking event established."
+      "Paired CoinGecko 24-hour ETH decline of 9.90% exceeds the 5% alert threshold and is corroborated in direction and magnitude by Coinbase.",
+      "November 20 ETF reporting is incomplete in Farside; Friday's U.S. equity close adds material cross-market risk context."
     ],
-    "confirmedVsUncertain": "Confirmed retrieved market/ETF/provider displays; mechanism and causation uncertain. Provisional protocol plan remains unconfirmed as activation. Staking measurement time unknown, tokenization footprint not ETH cash flow, fiscal evidence retained dated. No score, probability, policy, evaluation, thesis or UI changes."
+    "confirmedVsUncertain": "Observed price quotes, partial ETF data, reported U.S. close and DefiLlama displays. No independent thesis-breaking event established. Official staking display lacked a fresh measurement timestamp; no new ETH-specific final SEC regime or verified final Glamsterdam activation schedule was found. Fed minutes do not constitute a new rate decision; structural debasement evidence remains distinct from cyclical risk-off. Policy, probabilities, scores, evaluation, thesis, and UI are unchanged."
   }
 }
