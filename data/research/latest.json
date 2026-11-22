@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-22T06:54:53.931Z",
+  "researchedAt": "2026-11-22T19:46:42.001Z",
   "accessDate": "2026-11-22",
   "market": {
-    "ethUsd": 1660.71,
-    "change24h": 3.9,
-    "marketCapUsd": 203011043925,
-    "volume24hUsd": 12240433365.51,
+    "ethUsd": 1713.38,
+    "change24h": 1.9,
+    "marketCapUsd": 209447203948,
+    "volume24hUsd": 7874554241.85,
     "sourceIds": [
-      "cg-2026-11-22-morning",
-      "cb-2026-11-22-morning",
-      "cmc-2026-11-22-morning",
-      "kraken-2026-11-22-morning"
+      "cg-2026-11-22-evening",
+      "cb-2026-11-22-evening",
+      "cmc-2026-11-22-evening"
     ],
-    "note": "CoinGecko paired prose snapshot, seven-day change −8.80%. Coinbase $1,662.06 with approximately +8% over 24h; CoinMarketCap $1,654.84 with +5.77%; Kraken display showed +3.67%. Similar price levels but divergent rolling readings; no single market-wide change is asserted."
+    "note": "CoinGecko paired prose: -5.50% over 7 days. Coinbase $1,713.13/about +2%; CoinMarketCap $1,711.27/+1.68%. Prices are snapshots; 24-hour changes are rolling."
   },
   "observations": [
     {
@@ -6039,6 +6038,82 @@
       ],
       "confirmed": true,
       "uncertainty": "One rolling window does not establish durable value capture. Application and chain revenues remain distinct."
+    },
+    {
+      "id": "eth-market-2026-11-22-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$1,713.38 / +1.90% 24h / -5.50% 7d",
+      "summary": "Compared with the morning snapshot, ETH was higher, while the three evening provider returns were below 5%.",
+      "sourceIds": [
+        "cg-2026-11-22-evening",
+        "cb-2026-11-22-evening",
+        "cmc-2026-11-22-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider-specific rolling windows are not session returns. No causal link to reported DeFi events is established."
+    },
+    {
+      "id": "eth-tokenization-2026-11-22-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "DeFi TVL $36.165B; stablecoins $128.585B; active RWA AUM $11.288B",
+      "summary": "DefiLlama's evening readings show higher USD DeFi TVL and a similar stablecoin and RWA footprint.",
+      "sourceIds": [
+        "defillama-2026-11-22-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD valuation and coverage changes can affect balances; these are not capital flows."
+    },
+    {
+      "id": "eth-capture-2026-11-22-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "24h chain fees $151,189; chain revenue $54,771; app fees $8.3M",
+      "summary": "DeFi TVL rose from the morning display while L1 fees and reported chain revenue fell.",
+      "sourceIds": [
+        "defillama-2026-11-22-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "One rolling reading is not structural value capture; app fees are distinct from L1 economics."
+    },
+    {
+      "id": "eth-aave-usdc-cap-2026-11-20",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "Ethereum V3 Core USDC borrow cap 2.7B to 4.0B",
+      "summary": "The risk stewards documented the cap increase and contemporaneous reporting indicates it went into effect. More borrowing capacity comes with potential withdrawal liquidity sensitivity if demand rises and deposits do not.",
+      "sourceIds": [
+        "aave-v3-risk-2026-11-20",
+        "aave-cap-report-2026-11-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "A cap is not actual borrowing. Full utilization and constrained withdrawals are scenarios, not observed balances."
+    },
+    {
+      "id": "eth-chainflip-vault-2026-11-21",
+      "catalyst": "tokenization",
+      "direction": "headwind",
+      "value": "Chainflip services paused after approximately $4.86M outflow from its Ethereum vault",
+      "summary": "Bitquery identified a November 21 outflow of ETH, USDC and USDT from the application vault. CryptoSlate reported Chainflip disabled deposits, withdrawals, swaps and quotes across its own service.",
+      "sourceIds": [
+        "chainflip-bitquery-2026-11-22",
+        "chainflip-cryptoslate-2026-11-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "The estimate is for the Ethereum vault, not aggregate losses. Mechanism, restart and recovery were not independently verified. No Ethereum base-layer failure established."
+    },
+    {
+      "id": "eth-invesco-cboe-106904-2026-11-16",
+      "catalyst": "regulation",
+      "direction": "mixed",
+      "value": "SEC notice of immediate effectiveness for Cboe generic listing treatment",
+      "summary": "The November 16 SEC notice concerns existing Invesco Galaxy BTC and ETH ETF shares moving under Cboe BZX Rule 14.11(e)(4) generic standards; the exchange filed November 9.",
+      "sourceIds": [
+        "sec-cboe-106904-2026-11-22"
+      ],
+      "confirmed": true,
+      "uncertainty": "Not a new ETF approval, staking rule, capital flow, or wider change in ETH legal treatment."
     }
   ],
   "sources": {
@@ -8051,14 +8126,58 @@
       "label": "DefiLlama Ethereum dashboard November 22",
       "url": "https://defillama.com/chain/ethereum",
       "accessedAt": "2026-11-22"
+    },
+    "cg-2026-11-22-evening": {
+      "label": "CoinGecko paired evening quote",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-22"
+    },
+    "cb-2026-11-22-evening": {
+      "label": "Coinbase paired evening quote",
+      "url": "https://www.coinbase.com/price/ethereum",
+      "accessedAt": "2026-11-22"
+    },
+    "cmc-2026-11-22-evening": {
+      "label": "CoinMarketCap paired evening quote",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-22"
+    },
+    "defillama-2026-11-22-evening": {
+      "label": "DefiLlama Ethereum November 22 evening display",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-22"
+    },
+    "aave-v3-risk-2026-11-20": {
+      "label": "Aave governance risk stewards November 20",
+      "url": "https://governance.aave.com/t/risk-stewards-supply-and-borrow-cap-and-irm-changes-on-aave-v3-2026-11-20/26457",
+      "accessedAt": "2026-11-22"
+    },
+    "aave-cap-report-2026-11-22": {
+      "label": "CryptoSlate Aave USDC cap and liquidity sensitivity",
+      "url": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/",
+      "accessedAt": "2026-11-22"
+    },
+    "chainflip-bitquery-2026-11-22": {
+      "label": "Bitquery Ethereum vault on-chain observations",
+      "url": "https://bitquery.io/investigations/chainflip-hack",
+      "accessedAt": "2026-11-22"
+    },
+    "chainflip-cryptoslate-2026-11-22": {
+      "label": "CryptoSlate report on Chainflip full Safe Mode, November 22",
+      "url": "https://cryptoslate.com/chainflip-users-face-frozen-withdrawals-after-4-86-million-vanishes-from-ethereum-vault/",
+      "accessedAt": "2026-11-22"
+    },
+    "sec-cboe-106904-2026-11-22": {
+      "label": "SEC Release 34-106904 dated November 16",
+      "url": "https://www.sec.gov/files/rules/sro/cboebzx/2026/34-106904.pdf",
+      "accessedAt": "2026-11-22"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "Coinbase about +8% and CoinMarketCap +5.77% crossed 5%; CoinGecko +3.90% and Kraken's display +3.67% did not.",
-      "Near agreement on the spot level does not reconcile the providers' rolling readings."
+      "Newly verified sector-relevant Chainflip bridge-wide operational pause after November 21 Ethereum vault outflows; no evidence of an Ethereum network incident."
     ],
-    "confirmedVsUncertain": "Readings recorded separately. Farside November 20 remains partial; November 19 is the latest complete row retrieved. No newer final protocol/regulatory development or fresh timestamped staking economics verified. Cyclical Fed/liquidity and structural debasement are separate. No verified thesis break or thesis, evaluation, catalyst, probability or UI edits."
+    "confirmedVsUncertain": "Evening 24-hour provider readings were all below 5%. November 20 U.S. ETF row remains partial; November 19 is the latest complete retrieved row. Staking display lacked a newly dated comparable reading. SEC listing notice changes treatment for two existing products; no wider final regime change verified. No new official base-layer protocol milestone, monetary capture shift, or thesis break confirmed. Cyclical Fed/liquidity remains separate from structural debasement."
   }
 }
