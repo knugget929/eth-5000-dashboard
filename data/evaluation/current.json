@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-21T14:24:25.421Z",
+  "evaluatedAt": "2026-11-22T14:56:14Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -174,6 +174,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "eth-tokenization-2026-11-22-morning",
       "eth-tokenization-2026-11-21-morning",
       "defi-tokenization-2026-10-21-morning",
       "defi-tokenization-2026-10-19-morning",
@@ -216,6 +217,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-22-morning",
       "eth-market-2026-11-21-morning",
       "eth-market-2026-11-19-evening",
       "eth-market-2026-11-15-morning",
@@ -239,6 +241,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-11-22-morning",
       "eth-capture-2026-11-21-morning",
       "eth-capture-2026-11-19-evening",
       "eth-capture-2026-11-17-evening",
@@ -266,5 +269,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Maintain $5K at 52% (signal 50): the lower ETH price, ETF outflows and equity correction reinforce the existing red market and liquidity assessment; supportive staking and tokenization evidence has not reversed. Independently maintain $10K at 24% (signal 36): chain usage and a one-day fee increase do not establish sustained ETH value capture, and no new structural monetary-demand evidence was verified. Fed/liquidity and debasement stay separate. No catalyst color or score change. November 21 morning research replaces the stale stored price; incomplete ETF reporting remains provisional."
+  "decision": "Maintain $5K at 52% (weighted signal 50): the November 22 morning rebound did not establish durable demand or liquidity improvement. Providers differed on 24-hour returns; CoinGecko still showed a 7-day loss of 8.80%. Institutional, regulation, staking and protocol evidence does not warrant new scores. Independently maintain $10K at 24% (weighted signal 36): tokenization footprint was broadly steady while rolling L1 fees and revenue were below the prior snapshot. Neither one day's fees nor network adoption establishes durable ETH value capture; that score stays red. No new structural ETH monetary-demand evidence was verified; Fed/liquidity and debasement remain separate. Catalyst scores, colors and probabilities are unchanged. The refreshed stored fallback is the November 22 morning paired CoinGecko snapshot, not a live quote."
 }
