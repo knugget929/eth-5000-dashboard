@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-21T19:08:10.125Z",
-  "accessDate": "2026-11-21",
+  "researchedAt": "2026-11-22T06:54:53.931Z",
+  "accessDate": "2026-11-22",
   "market": {
-    "ethUsd": 1681.58,
-    "change24h": 3.5,
-    "marketCapUsd": 205555203739,
-    "volume24hUsd": 23009801722.98,
+    "ethUsd": 1660.71,
+    "change24h": 3.9,
+    "marketCapUsd": 203011043925,
+    "volume24hUsd": 12240433365.51,
     "sourceIds": [
-      "cg-2026-11-21-evening",
-      "cb-2026-11-21-evening"
+      "cg-2026-11-22-morning",
+      "cb-2026-11-22-morning",
+      "cmc-2026-11-22-morning",
+      "kraken-2026-11-22-morning"
     ],
-    "note": "CoinGecko paired prose snapshot, seven-day change −7.90%. Coinbase separately quoted $1,678.89 and approximately +3% over 24h. Rolling snapshots, not closes; no cross-source or cross-widget figures blended."
+    "note": "CoinGecko paired prose snapshot, seven-day change −8.80%. Coinbase $1,662.06 with approximately +8% over 24h; CoinMarketCap $1,654.84 with +5.77%; Kraken display showed +3.67%. Similar price levels but divergent rolling readings; no single market-wide change is asserted."
   },
   "observations": [
     {
@@ -5998,6 +6000,45 @@
       ],
       "confirmed": true,
       "uncertainty": "These are provider-defined rolling metrics; one snapshot does not establish sustained burn, collateral demand or a monetary premium. Application and chain revenue are not interchangeable."
+    },
+    {
+      "id": "eth-market-2026-11-22-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$1,660.71 / CoinGecko +3.90% 24h; Coinbase about +8%, CoinMarketCap +5.77%, Kraken +3.67%",
+      "summary": "The November 22 quotes broadly agree ETH was around US$1.66K. The 5% rolling threshold was crossed in two published snapshots but not the other displays. CoinGecko price and return are retained as a paired baseline.",
+      "sourceIds": [
+        "cg-2026-11-22-morning",
+        "cb-2026-11-22-morning",
+        "cmc-2026-11-22-morning",
+        "kraken-2026-11-22-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Venue, currency, aggregation and rolling reference differences can change percentage readings. CoinGecko still showed a 7-day decline."
+    },
+    {
+      "id": "eth-tokenization-2026-11-22-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "DeFi TVL $35.418B; stablecoins $128.532B; active RWA AUM $11.243B",
+      "summary": "The November 22 provider display stayed close to the prior absolute footprint; USD values may reflect asset prices and revisions rather than flows.",
+      "sourceIds": [
+        "defillama-2026-11-22-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL and tokenized assets do not by themselves measure direct ETH demand or holder income."
+    },
+    {
+      "id": "eth-capture-2026-11-22-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Chain fees $236,218; chain revenue $113,746 / 24h",
+      "summary": "Displayed rolling chain fees and revenue were materially lower than the prior evening snapshot.",
+      "sourceIds": [
+        "defillama-2026-11-22-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "One rolling window does not establish durable value capture. Application and chain revenues remain distinct."
     }
   ],
   "sources": {
@@ -7985,14 +8026,39 @@
       "label": "DefiLlama Ethereum network display, November 21 evening",
       "url": "https://defillama.com/chain/ethereum",
       "accessedAt": "2026-11-21"
+    },
+    "cg-2026-11-22-morning": {
+      "label": "CoinGecko paired ETH quote November 22 morning",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-22"
+    },
+    "cb-2026-11-22-morning": {
+      "label": "Coinbase paired ETH quote November 22 morning",
+      "url": "https://www.coinbase.com/price/ethereum",
+      "accessedAt": "2026-11-22"
+    },
+    "cmc-2026-11-22-morning": {
+      "label": "CoinMarketCap paired ETH quote November 22 morning",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-22"
+    },
+    "kraken-2026-11-22-morning": {
+      "label": "Kraken displayed rolling ETH change November 22 morning",
+      "url": "https://www.kraken.com/prices/ethereum",
+      "accessedAt": "2026-11-22"
+    },
+    "defillama-2026-11-22-morning": {
+      "label": "DefiLlama Ethereum dashboard November 22",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-22"
     }
   },
   "assessment": {
-    "alertTriggered": false,
+    "alertTriggered": true,
     "reasons": [
-      "Current paired 24-hour move +3.50% is below the 5% alert threshold.",
-      "The same-day rebound and ratio changes are research updates, not a verified major thesis-breaking event."
+      "Coinbase about +8% and CoinMarketCap +5.77% crossed 5%; CoinGecko +3.90% and Kraken's display +3.67% did not.",
+      "Near agreement on the spot level does not reconcile the providers' rolling readings."
     ],
-    "confirmedVsUncertain": "Current paired price and chain display recorded. November 20 Farside ETF row still partial and November 19 remains the latest complete row in that retrieved source. Official staking measurement time remains unverified; no newer final protocol activation or ETH-specific final SEC regime verified. Cyclical liquidity and structural debasement remain separate. No changes to scores, probability, policy, evaluation, thesis or UI."
+    "confirmedVsUncertain": "Readings recorded separately. Farside November 20 remains partial; November 19 is the latest complete row retrieved. No newer final protocol/regulatory development or fresh timestamped staking economics verified. Cyclical Fed/liquidity and structural debasement are separate. No verified thesis break or thesis, evaluation, catalyst, probability or UI edits."
   }
 }
