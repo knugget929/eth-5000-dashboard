@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-22T14:56:14Z",
+  "evaluatedAt": "2026-11-23T15:00:21.339Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-btcs-sec-aave-debt-2026-11-19",
       "eth-etf-2026-11-21-morning",
       "eth-etf-2026-11-19-evening",
       "bny-figment-staking-2026-11-12",
@@ -132,6 +133,7 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "eth-macro-2026-11-23-morning",
       "eth-macro-2026-11-21-morning",
       "eth-macro-2026-11-19-evening",
       "fed-minutes-2026-11-19-morning",
@@ -162,6 +164,7 @@
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
+      "eth-invesco-cboe-106904-2026-11-16",
       "eth-regulatory-2026-11-19-evening",
       "regulatory-review-2026-10-21-morning",
       "regulatory-review-2026-10-19-morning",
@@ -174,6 +177,9 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "eth-chainflip-scope-2026-11-23-morning",
+      "eth-tokenization-2026-11-23-morning",
+      "eth-aave-usdc-cap-2026-11-20",
       "eth-tokenization-2026-11-22-morning",
       "eth-tokenization-2026-11-21-morning",
       "defi-tokenization-2026-10-21-morning",
@@ -217,6 +223,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-23-morning",
       "eth-market-2026-11-22-morning",
       "eth-market-2026-11-21-morning",
       "eth-market-2026-11-19-evening",
@@ -241,6 +248,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-11-23-morning",
       "eth-capture-2026-11-22-morning",
       "eth-capture-2026-11-21-morning",
       "eth-capture-2026-11-19-evening",
@@ -269,5 +277,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Maintain $5K at 52% (weighted signal 50): the November 22 morning rebound did not establish durable demand or liquidity improvement. Providers differed on 24-hour returns; CoinGecko still showed a 7-day loss of 8.80%. Institutional, regulation, staking and protocol evidence does not warrant new scores. Independently maintain $10K at 24% (weighted signal 36): tokenization footprint was broadly steady while rolling L1 fees and revenue were below the prior snapshot. Neither one day's fees nor network adoption establishes durable ETH value capture; that score stays red. No new structural ETH monetary-demand evidence was verified; Fed/liquidity and debasement remain separate. Catalyst scores, colors and probabilities are unchanged. The refreshed stored fallback is the November 22 morning paired CoinGecko snapshot, not a live quote."
+  "decision": "Maintain $5K at 52% (weighted signal 50). The November 23 morning ETH rebound remains negative on the seven-day view; partial ETF reporting, Asian equity stress and company-specific BTCS financing exposure do not establish a durable change in demand or Fed/liquidity. Chainflip's wider vault losses are relevant to bridge risk but do not establish an Ethereum network failure. The SEC notice concerns generic listing treatment for existing products, not new inflows. Independently maintain $10K at 24% (weighted signal 36): rising USD DeFi balances alongside lower reported fees and revenue do not show durable ETH value capture. No new structural ETH monetary-demand evidence was verified; keep cyclical liquidity distinct from debasement. Catalyst scores, colors, histories and probabilities are unchanged. The stored market fallback is the paired November 23 morning CoinGecko capture, not a live quote."
 }
