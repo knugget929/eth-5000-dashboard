@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-22T19:46:42.001Z",
-  "accessDate": "2026-11-22",
+  "researchedAt": "2026-11-23T06:26:13.380Z",
+  "accessDate": "2026-11-23",
   "market": {
-    "ethUsd": 1713.38,
-    "change24h": 1.9,
-    "marketCapUsd": 209447203948,
-    "volume24hUsd": 7874554241.85,
+    "ethUsd": 1728.3,
+    "change24h": 4.2,
+    "marketCapUsd": 211232713648,
+    "volume24hUsd": 8469989962.48,
     "sourceIds": [
-      "cg-2026-11-22-evening",
-      "cb-2026-11-22-evening",
-      "cmc-2026-11-22-evening"
+      "cg-2026-11-23-morning",
+      "cb-2026-11-23-morning",
+      "cmc-2026-11-23-morning"
     ],
-    "note": "CoinGecko paired prose: -5.50% over 7 days. Coinbase $1,713.13/about +2%; CoinMarketCap $1,711.27/+1.68%. Prices are snapshots; 24-hour changes are rolling."
+    "note": "CoinGecko paired prose, week -4.80%; Coinbase $1,729.73/about +4%; CoinMarketCap $1,726.48/+4.02%."
   },
   "observations": [
     {
@@ -6114,6 +6114,81 @@
       ],
       "confirmed": true,
       "uncertainty": "Not a new ETF approval, staking rule, capital flow, or wider change in ETH legal treatment."
+    },
+    {
+      "id": "eth-market-2026-11-23-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$1,728.30 / +4.20% 24h / -4.80% 7d",
+      "summary": "The three morning providers agree on the broad price level and positive rolling return, below 5%; the weekly CoinGecko return is still negative.",
+      "sourceIds": [
+        "cg-2026-11-23-morning",
+        "cb-2026-11-23-morning",
+        "cmc-2026-11-23-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider captures are not simultaneous, realized returns vary, and the rebound does not establish durable demand."
+    },
+    {
+      "id": "eth-chainflip-scope-2026-11-23-morning",
+      "catalyst": "tokenization",
+      "direction": "headwind",
+      "value": "Chainflip Labs lists 122.86 BTC alongside ETH and stablecoin outflows; return deadline November 23 at 18:38 UTC",
+      "summary": "Official return notice adds Bitcoin-vault scope to the previously documented Ethereum-vault incident. Chainflip Labs is offering to let the recipient retain 10% if the balance is returned by the deadline.",
+      "sourceIds": [
+        "chainflip-recovery-2026-11-23"
+      ],
+      "confirmed": true,
+      "uncertainty": "Issuer-stated scope, not net unrecovered losses. No confirmed repayment, restart, network-level Ethereum disruption, or mechanism established in this review."
+    },
+    {
+      "id": "eth-btcs-sec-aave-debt-2026-11-19",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "BTCS disclosed about $54M Aave debt and $18M convertible notes as of November 19",
+      "summary": "The dated filing documents ETH-related financing exposure for one treasury company; borrowed balances are company-disclosed, not a confirmed liquidation.",
+      "sourceIds": [
+        "btcs-sec-2026-11-19-aave"
+      ],
+      "confirmed": true,
+      "uncertainty": "Not total industry leverage or a live collateral or liquidation threshold; collateral values and borrowing can change."
+    },
+    {
+      "id": "eth-tokenization-2026-11-23-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "DeFi TVL $36.51B; stablecoins $128.577B; 24h DEX volume $968.84M",
+      "summary": "Live provider display shows a modest increase in USD DeFi TVL from the prior check and broadly unchanged stablecoin footprint.",
+      "sourceIds": [
+        "defillama-2026-11-23-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD balances are price-sensitive and not necessarily net flows."
+    },
+    {
+      "id": "eth-capture-2026-11-23-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "24h L1 fees $140,054; chain revenue $48,171",
+      "summary": "Rolling chain fees and reported revenue were lower than the prior research snapshot while DeFi TVL rose.",
+      "sourceIds": [
+        "defillama-2026-11-23-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Do not equate network balance metrics or one day's fees with durable value capture."
+    },
+    {
+      "id": "eth-macro-2026-11-23-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Korea Exchange five-minute program-selling pause; U.S. futures rose in early trade",
+      "summary": "Yonhap reports the KOSPI sell-side sidecar as Asian technology shares sold off; Reuters reports mixed cross-market conditions, with U.S. futures rebounding and Asian selling continuing.",
+      "sourceIds": [
+        "yonhap-kospi-sidecar-2026-11-23",
+        "reuters-asian-liquidity-2026-11-23"
+      ],
+      "confirmed": true,
+      "uncertainty": "This is cyclical risk appetite, not verified balance-sheet stress, an official Fed decision, or a signal of structural dollar debasement."
     }
   ],
   "sources": {
@@ -8171,13 +8246,53 @@
       "label": "SEC Release 34-106904 dated November 16",
       "url": "https://www.sec.gov/files/rules/sro/cboebzx/2026/34-106904.pdf",
       "accessedAt": "2026-11-22"
+    },
+    "cg-2026-11-23-morning": {
+      "label": "CoinGecko paired Ethereum morning quote",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-23"
+    },
+    "cb-2026-11-23-morning": {
+      "label": "Coinbase paired Ethereum morning quote",
+      "url": "https://www.coinbase.com/price/ethereum",
+      "accessedAt": "2026-11-23"
+    },
+    "cmc-2026-11-23-morning": {
+      "label": "CoinMarketCap paired Ethereum morning quote",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-23"
+    },
+    "defillama-2026-11-23-morning": {
+      "label": "DefiLlama Ethereum morning display",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-23"
+    },
+    "chainflip-recovery-2026-11-23": {
+      "label": "Chainflip Labs official incident asset scope and recovery offer",
+      "url": "https://chainflip.io/return",
+      "accessedAt": "2026-11-23"
+    },
+    "btcs-sec-2026-11-19-aave": {
+      "label": "BTCS Form 8-K dated November 19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1436229/000149315226053286/form8-k.htm",
+      "accessedAt": "2026-11-23"
+    },
+    "yonhap-kospi-sidecar-2026-11-23": {
+      "label": "Yonhap citing KRX on Monday program-selling pause",
+      "url": "https://en.yna.co.kr/view/AEN20261123001900320",
+      "accessedAt": "2026-11-23"
+    },
+    "reuters-asian-liquidity-2026-11-23": {
+      "label": "Reuters November 23 Asian market and policy report",
+      "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-11-23/",
+      "accessedAt": "2026-11-23"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "Newly verified sector-relevant Chainflip bridge-wide operational pause after November 21 Ethereum vault outflows; no evidence of an Ethereum network incident."
+      "Official Chainflip notice newly corroborates Bitcoin-vault scope beyond the Ethereum-vault outflow and sets a November 23 return deadline; recovery remains unverified."
     ],
-    "confirmedVsUncertain": "Evening 24-hour provider readings were all below 5%. November 20 U.S. ETF row remains partial; November 19 is the latest complete retrieved row. Staking display lacked a newly dated comparable reading. SEC listing notice changes treatment for two existing products; no wider final regime change verified. No new official base-layer protocol milestone, monetary capture shift, or thesis break confirmed. Cyclical Fed/liquidity remains separate from structural debasement."
+    "confirmedVsUncertain": "Quotes remain below the 5% move trigger. November 20 Farside row remains partial; no new full session verified. No fresh comparable staking rate, hard-fork milestone, U.S. policy decision, structural ETH monetary-demand change, or thesis break verified. BTC loss is operator-disclosed and does not measure a loss at the Ethereum protocol level."
   }
 }
