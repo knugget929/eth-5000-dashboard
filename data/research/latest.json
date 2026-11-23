@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-23T06:26:13.380Z",
+  "researchedAt": "2026-11-23T19:20:07.311Z",
   "accessDate": "2026-11-23",
   "market": {
-    "ethUsd": 1728.3,
-    "change24h": 4.2,
-    "marketCapUsd": 211232713648,
-    "volume24hUsd": 8469989962.48,
+    "ethUsd": 1738.45,
+    "change24h": 1.49,
+    "marketCapUsd": 212516177442,
+    "volume24hUsd": 14778311127,
     "sourceIds": [
-      "cg-2026-11-23-morning",
-      "cb-2026-11-23-morning",
-      "cmc-2026-11-23-morning"
+      "cmc-2026-11-23-evening",
+      "cg-2026-11-23-evening"
     ],
-    "note": "CoinGecko paired prose, week -4.80%; Coinbase $1,729.73/about +4%; CoinMarketCap $1,726.48/+4.02%."
+    "note": "CoinMarketCap paired USD price, rolling return, cap and volume from a single display; CoinGecko corroborates the broad market level, with about $213.29B cap and a -4.40% weekly move. Market displays are not synchronized."
   },
   "observations": [
     {
@@ -6189,6 +6188,69 @@
       ],
       "confirmed": true,
       "uncertainty": "This is cyclical risk appetite, not verified balance-sheet stress, an official Fed decision, or a signal of structural dollar debasement."
+    },
+    {
+      "id": "eth-market-2026-11-23-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$1,738.45 / +1.49% 24h",
+      "summary": "CoinMarketCap's paired quote shows a positive rolling session below the 5% threshold, with the 24-hour gain smaller than in the morning capture.",
+      "sourceIds": [
+        "cmc-2026-11-23-evening",
+        "cg-2026-11-23-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "These are rolling samples. A positive short-window move does not establish a durable rerating."
+    },
+    {
+      "id": "eth-chainflip-report-2026-11-23-evening",
+      "catalyst": "tokenization",
+      "direction": "headwind",
+      "value": "Chainflip disclosed another approximately 10.48 BTC taken; swaps, deposits and withdrawals still paused in its report",
+      "summary": "November 23 operator update broadened the earlier report and said returns of free liquidity-provider balances on several unaffected chains had been initiated. The operator's same-day status did not establish general recovery or restart.",
+      "sourceIds": [
+        "chainflip-part-one-2026-11-23",
+        "chainflip-recovery-2026-11-23"
+      ],
+      "confirmed": true,
+      "uncertainty": "Operator-reported application-vault incident, not a failure of Ethereum consensus. Listed return deadline passed at 18:38 UTC; restitution, restart and total net losses after that were not verified."
+    },
+    {
+      "id": "eth-etf-2026-11-23-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 20 U.S. spot ETH ETF net flow -$97.3M",
+      "summary": "Farside's now complete Friday row revises the partial reading; each of the listed funds has a reported number. The Monday row is unreported at capture.",
+      "sourceIds": [
+        "farside-2026-11-23-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Friday flows are not Monday flows. Monday dashes are missing data, not zero or proof of a continuing outflow."
+    },
+    {
+      "id": "eth-defi-2026-11-23-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "Ethereum DeFi TVL $36.855B (+3.47% 24h on provider display)",
+      "summary": "DefiLlama pairs the total and change on its November 23 display; dollar-denominated balances rose.",
+      "sourceIds": [
+        "defillama-2026-11-23-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "TVL is sensitive to ETH and collateral prices and does not measure net deposits or new fee revenue."
+    },
+    {
+      "id": "eth-macro-2026-11-23-evening",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "U.S. flash composite PMI 54.6 from 55.9; 10-year Treasury yield about 4.936% in WSJ intraday capture",
+      "summary": "Preliminary survey shows U.S. activity was still expanding but more slowly; the contemporaneous rise in Treasury yields does not demonstrate easier dollar liquidity.",
+      "sourceIds": [
+        "reuters-pmi-2026-11-23",
+        "wsj-treasuries-2026-11-23"
+      ],
+      "confirmed": true,
+      "uncertainty": "Flash survey can be revised and yields are intraday; no confirmed central-bank policy change or structural debasement catalyst."
     }
   ],
   "sources": {
@@ -8286,13 +8348,48 @@
       "label": "Reuters November 23 Asian market and policy report",
       "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-11-23/",
       "accessedAt": "2026-11-23"
+    },
+    "cmc-2026-11-23-evening": {
+      "label": "CoinMarketCap paired ETH USD rolling capture",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-23"
+    },
+    "cg-2026-11-23-evening": {
+      "label": "CoinGecko ETH market comparison",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "accessedAt": "2026-11-23"
+    },
+    "chainflip-part-one-2026-11-23": {
+      "label": "Chainflip November 23 incident report and user-balance update",
+      "url": "https://chainflip.io/blog/incident-report-vault-exploit-21-november-2026-part-1",
+      "accessedAt": "2026-11-23"
+    },
+    "farside-2026-11-23-evening": {
+      "label": "Farside U.S. spot Ethereum ETF daily flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-23"
+    },
+    "defillama-2026-11-23-evening": {
+      "label": "DefiLlama Ethereum chain dashboard",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-23"
+    },
+    "reuters-pmi-2026-11-23": {
+      "label": "Reuters report of S&P Global preliminary U.S. PMI",
+      "url": "https://www.reuters.com/world/us/us-business-activity-growth-eases-further-november-survey-shows-2026-11-23/",
+      "accessedAt": "2026-11-23"
+    },
+    "wsj-treasuries-2026-11-23": {
+      "label": "WSJ market report of intraday Treasury yields",
+      "url": "https://www.wsj.com/finance/investing/u-s-european-bond-yields-rise-reversing-last-weeks-sharp-falls-9afadf09",
+      "accessedAt": "2026-11-23"
     }
   },
   "assessment": {
     "alertTriggered": true,
     "reasons": [
-      "Official Chainflip notice newly corroborates Bitcoin-vault scope beyond the Ethereum-vault outflow and sets a November 23 return deadline; recovery remains unverified."
+      "Chainflip's new primary report increased its disclosed BTC-vault loss scope and documented a limited return of free balances on unaffected chains while core operations remained paused."
     ],
-    "confirmedVsUncertain": "Quotes remain below the 5% move trigger. November 20 Farside row remains partial; no new full session verified. No fresh comparable staking rate, hard-fork milestone, U.S. policy decision, structural ETH monetary-demand change, or thesis break verified. BTC loss is operator-disclosed and does not measure a loss at the Ethereum protocol level."
+    "confirmedVsUncertain": "CoinMarketCap rolling move below 5%. Friday Farside flows complete; Monday data missing. Chainflip disclosures reflect application-level custody and do not establish an Ethereum network failure or a restart. No new protocol activation, material protocol-level break, staking policy change, or structural monetary shift verified."
   }
 }
