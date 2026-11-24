@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-24T06:45:10.435Z",
+  "researchedAt": "2026-11-24T20:02:07.325Z",
   "accessDate": "2026-11-24",
   "market": {
-    "ethUsd": 1702.04,
-    "change24h": -1.37,
-    "marketCapUsd": 208070565558,
-    "volume24hUsd": 16713096966,
+    "ethUsd": 1674.06,
+    "change24h": -2.97,
+    "marketCapUsd": 204650663695,
+    "volume24hUsd": 12203461693,
     "sourceIds": [
-      "cmc-2026-11-24-morning"
+      "cmc-2026-11-24-evening"
     ],
-    "note": "Price, rolling return, cap and volume from one CoinMarketCap capture. DefiLlama displayed about $1,705 at its separate capture."
+    "note": "CoinMarketCap pairs the USD price, rolling 24-hour move, market capitalization and volume in one capture. Farside's latest complete flow row is separate from this market capture."
   },
   "observations": [
     {
@@ -6312,6 +6312,78 @@
       ],
       "confirmed": true,
       "uncertainty": "One policymaker's comments are not an FOMC decision, a new liquidity operation, or structural debasement evidence."
+    },
+    {
+      "id": "eth-market-2026-11-24-evening",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$1,674.06 / -2.97% rolling 24h",
+      "summary": "Evening paired quote is lower than the morning capture. The rolling move did not cross the 5% threshold.",
+      "sourceIds": [
+        "cmc-2026-11-24-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Not a synchronized exchange close or evidence of a structural break."
+    },
+    {
+      "id": "eth-cftc-staff-26-31-2026-11-24-evening",
+      "catalyst": "regulation",
+      "direction": "tailwind",
+      "value": "CFTC staff advisory identifies ETH as eligible toward specified operating financial resources, subject to conditions",
+      "summary": "November 23 advisory applies to covered swap execution facilities, designated contract markets and derivatives clearing organizations. Staff describes an illustrative minimum haircut of 20% for ETH and BTC, with separate liquidity requirements. This clarifies a potential regulated balance-sheet use for ETH.",
+      "sourceIds": [
+        "cftc-26-31-2026-11-24"
+      ],
+      "confirmed": true,
+      "uncertainty": "Staff interpretation, not a new Commission rule or blanket treatment as cash, liquid securities, or universal margin collateral. No actual ETH purchases, position sizes or new staking rights verified."
+    },
+    {
+      "id": "eth-defi-2026-11-24-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "DeFi TVL $35.892B, stablecoins $128.763B, active RWA AUM $11.43B",
+      "summary": "Evening provider display shows lower dollar TVL versus this morning and $1.384B 24-hour DEX volume.",
+      "sourceIds": [
+        "defillama-2026-11-24-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Dollar metrics can reflect market prices and provider definitions rather than net flows."
+    },
+    {
+      "id": "eth-capture-2026-11-24-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "L1 fees $415,882; chain revenue $205,695 in 24h",
+      "summary": "The evening snapshot is near the morning fee level, not a durable increase.",
+      "sourceIds": [
+        "defillama-2026-11-24-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fees, revenue and ETH demand are distinct; a single rolling capture does not meet the stretch thesis hurdle."
+    },
+    {
+      "id": "eth-macro-2026-11-24-evening",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "U.S. November confidence 103.3 versus revised 91.9",
+      "summary": "Conference Board data show a sharp upside move in survey confidence. This is consistent with firmer cyclical demand expectations, not a Fed or liquidity action.",
+      "sourceIds": [
+        "conference-board-2026-11-24"
+      ],
+      "confirmed": true,
+      "uncertainty": "Survey sentiment does not prove spending, policy changes, or a structural debasement impulse."
+    },
+    {
+      "id": "eth-flow-status-2026-11-24-evening",
+      "catalyst": "institutional",
+      "direction": "mixed",
+      "value": "Last complete U.S. ETH ETF row: Nov 23, -$84.9M",
+      "summary": "Evening refresh confirms Nov 24 was still unreported at capture.",
+      "sourceIds": [
+        "farside-2026-11-24-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "The unreported row is not a zero session."
     }
   ],
   "sources": {
@@ -8469,11 +8541,38 @@
       "label": "Reuters on November 23 Williams remarks and policy outlook",
       "url": "https://www.reuters.com/business/fed-has-work-do-lower-inflation-williams-says-2026-11-23/",
       "accessedAt": "2026-11-24"
+    },
+    "cmc-2026-11-24-evening": {
+      "label": "CoinMarketCap paired ETH market quote",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-24"
+    },
+    "defillama-2026-11-24-evening": {
+      "label": "DefiLlama Ethereum metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-24"
+    },
+    "cftc-26-31-2026-11-24": {
+      "label": "CFTC staff advisory 26-31 dated November 23",
+      "url": "https://www.cftc.gov/csl/26-31/download",
+      "accessedAt": "2026-11-24"
+    },
+    "conference-board-2026-11-24": {
+      "label": "Conference Board November consumer confidence release",
+      "url": "https://www.conference-board.org/topics/consumer-confidence/",
+      "accessedAt": "2026-11-24"
+    },
+    "farside-2026-11-24-evening": {
+      "label": "Farside U.S. spot ETH ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-24"
     }
   },
   "assessment": {
-    "alertTriggered": false,
-    "reasons": [],
-    "confirmedVsUncertain": "Monday ETF flows are now reported. Rolling ETH move below 5%. No independently verified post-deadline Chainflip recovery or restart, new Ethereum activation, material staking/regulatory change, or thesis-breaking event verified in this review."
+    "alertTriggered": true,
+    "reasons": [
+      "CFTC staff issued specific clarification of ETH eligibility toward certain derivatives firms' operating financial-resource requirements."
+    ],
+    "confirmedVsUncertain": "Spot ETH move below 5%. Latest complete Farside row remains November 23, -$84.9M; November 24 dashes are unreported, not zero. Staff guidance does not prove adoption. No official Chainflip restart, new protocol activation, or thesis break verified."
   }
 }
