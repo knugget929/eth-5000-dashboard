@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-23T15:00:21.339Z",
+  "evaluatedAt": "2026-11-24T14:12:33.810Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,8 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-2026-11-24-morning",
+      "eth-etf-2026-11-23-evening",
       "eth-btcs-sec-aave-debt-2026-11-19",
       "eth-etf-2026-11-21-morning",
       "eth-etf-2026-11-19-evening",
@@ -133,6 +135,8 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "eth-macro-2026-11-24-morning",
+      "eth-macro-2026-11-23-evening",
       "eth-macro-2026-11-23-morning",
       "eth-macro-2026-11-21-morning",
       "eth-macro-2026-11-19-evening",
@@ -177,6 +181,8 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "eth-defi-2026-11-24-morning",
+      "eth-chainflip-report-2026-11-23-evening",
       "eth-chainflip-scope-2026-11-23-morning",
       "eth-tokenization-2026-11-23-morning",
       "eth-aave-usdc-cap-2026-11-20",
@@ -223,6 +229,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-24-morning",
       "eth-market-2026-11-23-morning",
       "eth-market-2026-11-22-morning",
       "eth-market-2026-11-21-morning",
@@ -248,6 +255,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-11-24-morning",
       "eth-capture-2026-11-23-morning",
       "eth-capture-2026-11-22-morning",
       "eth-capture-2026-11-21-morning",
@@ -277,5 +285,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Maintain $5K at 52% (weighted signal 50). The November 23 morning ETH rebound remains negative on the seven-day view; partial ETF reporting, Asian equity stress and company-specific BTCS financing exposure do not establish a durable change in demand or Fed/liquidity. Chainflip's wider vault losses are relevant to bridge risk but do not establish an Ethereum network failure. The SEC notice concerns generic listing treatment for existing products, not new inflows. Independently maintain $10K at 24% (weighted signal 36): rising USD DeFi balances alongside lower reported fees and revenue do not show durable ETH value capture. No new structural ETH monetary-demand evidence was verified; keep cyclical liquidity distinct from debasement. Catalyst scores, colors, histories and probabilities are unchanged. The stored market fallback is the paired November 23 morning CoinGecko capture, not a live quote."
+  "decision": "Maintain $5K by end-2027 at 52% (weighted signal 50). November 20 and November 23 U.S. spot ETH ETF flows were -$97.3M and -$84.9M, and the latest paired morning market capture was $1,702.04 (-1.37% over 24h). These reinforce existing weaknesses but do not establish a new institutional or market regime. Williams's data-dependent tightening remarks reinforce the existing cyclical liquidity headwind, not an FOMC action. Independently maintain $10K by end-2029 at 24% (weighted signal 36). DefiLlama's one-day increase in reported chain fees and revenue, alongside lower USD DeFi TVL, does not establish durable ETH value capture or monetary demand. Chainflip's disclosed bridge-vault loss is application-level risk, not a Layer 1 failure; no independently verified new protocol milestone or staking or regulatory regime change warrants reclassification. Keep structural debasement distinct from the Fed/liquidity cycle. No catalyst score/color or probability/history change; the dashboard market fallback is the paired November 24 morning canonical research snapshot, not a live quote."
 }
