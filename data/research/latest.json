@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-23T19:20:07.311Z",
-  "accessDate": "2026-11-23",
+  "researchedAt": "2026-11-24T06:45:10.435Z",
+  "accessDate": "2026-11-24",
   "market": {
-    "ethUsd": 1738.45,
-    "change24h": 1.49,
-    "marketCapUsd": 212516177442,
-    "volume24hUsd": 14778311127,
+    "ethUsd": 1702.04,
+    "change24h": -1.37,
+    "marketCapUsd": 208070565558,
+    "volume24hUsd": 16713096966,
     "sourceIds": [
-      "cmc-2026-11-23-evening",
-      "cg-2026-11-23-evening"
+      "cmc-2026-11-24-morning"
     ],
-    "note": "CoinMarketCap paired USD price, rolling return, cap and volume from a single display; CoinGecko corroborates the broad market level, with about $213.29B cap and a -4.40% weekly move. Market displays are not synchronized."
+    "note": "Price, rolling return, cap and volume from one CoinMarketCap capture. DefiLlama displayed about $1,705 at its separate capture."
   },
   "observations": [
     {
@@ -6251,6 +6250,68 @@
       ],
       "confirmed": true,
       "uncertainty": "Flash survey can be revised and yields are intraday; no confirmed central-bank policy change or structural debasement catalyst."
+    },
+    {
+      "id": "eth-market-2026-11-24-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$1,702.04 / -1.37% rolling 24h",
+      "summary": "The prior evening gain reversed in this rolling quote; source displays remain time-dependent.",
+      "sourceIds": [
+        "cmc-2026-11-24-morning",
+        "defillama-2026-11-24-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No 5% alert on the paired USD quote; rolling windows differ from daily close-to-close returns."
+    },
+    {
+      "id": "eth-etf-2026-11-24-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 23 U.S. spot ETH ETF net flow -$84.9M",
+      "summary": "Farside's Monday row is now populated: -$90.5M in ETHA, +$5.6M in ETH, and zeros for the other listed funds. This follows the reported -$97.3M Friday total.",
+      "sourceIds": [
+        "farside-2026-11-24-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Aggregate provider estimates may be revised; net fund outflow is not a direct measure of all institutional ETH demand."
+    },
+    {
+      "id": "eth-defi-2026-11-24-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$36.015B DeFi TVL; $128.758B in stablecoins; $11.68B active real-world asset AUM",
+      "summary": "DefiLlama showed lower DeFi TVL and $1.731B in trailing 24-hour DEX volume on November 24.",
+      "sourceIds": [
+        "defillama-2026-11-24-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Dollar TVL is price-sensitive and source categories do not imply net deposits."
+    },
+    {
+      "id": "eth-capture-2026-11-24-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$426,818 fees; $208,988 chain revenue over 24h",
+      "summary": "Trailing fee and revenue readings increased versus recent research while TVL fell; the metrics are separate measures.",
+      "sourceIds": [
+        "defillama-2026-11-24-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "One day of higher usage or fees is not durable ETH value capture."
+    },
+    {
+      "id": "eth-macro-2026-11-24-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Nov 23 Williams remarks: further tightening possible; no policy decision",
+      "summary": "New York Fed President Williams said more work was needed to return inflation to 2%. In subsequent media remarks he did not rule out moves at consecutive meetings.",
+      "sourceIds": [
+        "nyfed-williams-2026-11-23",
+        "reuters-williams-2026-11-23"
+      ],
+      "confirmed": true,
+      "uncertainty": "One policymaker's comments are not an FOMC decision, a new liquidity operation, or structural debasement evidence."
     }
   ],
   "sources": {
@@ -8383,13 +8444,36 @@
       "label": "WSJ market report of intraday Treasury yields",
       "url": "https://www.wsj.com/finance/investing/u-s-european-bond-yields-rise-reversing-last-weeks-sharp-falls-9afadf09",
       "accessedAt": "2026-11-23"
+    },
+    "cmc-2026-11-24-morning": {
+      "label": "CoinMarketCap paired ETH live USD and rolling return",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-24"
+    },
+    "farside-2026-11-24-morning": {
+      "label": "Farside posted U.S. spot ETH ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-24"
+    },
+    "defillama-2026-11-24-morning": {
+      "label": "DefiLlama Ethereum chain activity, November 24",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-24"
+    },
+    "nyfed-williams-2026-11-23": {
+      "label": "New York Fed November 23 Williams remarks",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil261123",
+      "accessedAt": "2026-11-24"
+    },
+    "reuters-williams-2026-11-23": {
+      "label": "Reuters on November 23 Williams remarks and policy outlook",
+      "url": "https://www.reuters.com/business/fed-has-work-do-lower-inflation-williams-says-2026-11-23/",
+      "accessedAt": "2026-11-24"
     }
   },
   "assessment": {
-    "alertTriggered": true,
-    "reasons": [
-      "Chainflip's new primary report increased its disclosed BTC-vault loss scope and documented a limited return of free balances on unaffected chains while core operations remained paused."
-    ],
-    "confirmedVsUncertain": "CoinMarketCap rolling move below 5%. Friday Farside flows complete; Monday data missing. Chainflip disclosures reflect application-level custody and do not establish an Ethereum network failure or a restart. No new protocol activation, material protocol-level break, staking policy change, or structural monetary shift verified."
+    "alertTriggered": false,
+    "reasons": [],
+    "confirmedVsUncertain": "Monday ETF flows are now reported. Rolling ETH move below 5%. No independently verified post-deadline Chainflip recovery or restart, new Ethereum activation, material staking/regulatory change, or thesis-breaking event verified in this review."
   }
 }
