@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-25T06:51:19.634Z",
+  "researchedAt": "2026-11-25T19:42:11Z",
   "accessDate": "2026-11-25",
   "market": {
-    "ethUsd": 1657.64,
-    "change24h": -2.4,
-    "marketCapUsd": 202647663104,
-    "volume24hUsd": 10432919861,
+    "ethUsd": 1683.22,
+    "change24h": 0.24,
+    "marketCapUsd": 205774566981,
+    "volume24hUsd": 12476381106,
     "sourceIds": [
-      "cmc-2026-11-25-morning"
+      "cmc-2026-11-25-evening"
     ],
-    "note": "Paired USD quote, rolling 24h return, volume and cap from CoinMarketCap; not a session close."
+    "note": "Paired USD quote, rolling 24-hour return, traded volume and cap from CoinMarketCap's prose snapshot; not a session close."
   },
   "observations": [
     {
@@ -6456,6 +6456,68 @@
       ],
       "confirmed": true,
       "uncertainty": "No finalized tariff remedy, new monetary-policy action, or structural shift in ETH monetary demand verified."
+    },
+    {
+      "id": "eth-market-2026-11-25-evening",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$1,683.22 / +0.24% over 24h",
+      "summary": "CoinMarketCap paired prose showed a higher quote than the November 25 morning capture and a small positive 24-hour change.",
+      "sourceIds": [
+        "cmc-2026-11-25-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Feed and timestamp differences apply; this is not a session close."
+    },
+    {
+      "id": "eth-institutional-2026-11-25-evening",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 24 net flow -$64.1M; November 25 not reported in the observed table",
+      "summary": "November 25 fund cells were dashes. The apparent zero total on the incomplete row is not verified zero flow.",
+      "sourceIds": [
+        "farside-2026-11-25-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Latest complete session remains November 24. Flow figures can be revised."
+    },
+    {
+      "id": "eth-tokenization-2026-11-25-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "DeFi TVL $35.995B / stablecoins $128.323B / active RWA AUM $11.357B",
+      "summary": "DefiLlama showed $1.293B of DEX volume over the rolling 24-hour window.",
+      "sourceIds": [
+        "defillama-2026-11-25-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "USD TVL moves with prices; changes are not net flows and do not directly establish ETH demand."
+    },
+    {
+      "id": "eth-value-capture-2026-11-25-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "24h Ethereum L1 fees $191,090 / chain revenue $75,295",
+      "summary": "The receipts are close to the morning dashboard readings; the application and settlement footprint does not directly translate to ETH-holder economics.",
+      "sourceIds": [
+        "defillama-2026-11-25-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Daily fee/revenue measures are volatile and are not comprehensive ETH capture."
+    },
+    {
+      "id": "eth-macro-2026-11-25-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "U.S. October core PCE 3.3% year over year; Q3 real GDP revised to 4.3% annualized",
+      "summary": "October headline PCE inflation was 3.8% year over year. Reuters reported proposed U.S. duties on 14 trading partners, still subject to public consultation. The policy mix leaves near-term liquidity uncertain.",
+      "sourceIds": [
+        "bea-pce-2026-11-25-evening",
+        "bea-gdp-2026-11-25-evening",
+        "reuters-tariffs-2026-11-25-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Neither a Fed decision nor a new effective tariff is established; cyclical liquidity is distinct from the longer-term debasement thesis."
     }
   ],
   "sources": {
@@ -8663,11 +8725,41 @@
       "label": "Reuters November 25 Asian markets and tariff risk",
       "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-11-25/",
       "accessedAt": "2026-11-25"
+    },
+    "cmc-2026-11-25-evening": {
+      "label": "CoinMarketCap paired ETH price and rolling 24-hour change",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-25"
+    },
+    "farside-2026-11-25-evening": {
+      "label": "Farside U.S. spot ETH ETF daily table",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-25"
+    },
+    "defillama-2026-11-25-evening": {
+      "label": "DefiLlama Ethereum on-chain dashboard",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-25"
+    },
+    "bea-pce-2026-11-25-evening": {
+      "label": "BEA October 2026 Personal Income and Outlays",
+      "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "accessedAt": "2026-11-25"
+    },
+    "bea-gdp-2026-11-25-evening": {
+      "label": "BEA third-quarter second estimate",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "accessedAt": "2026-11-25"
+    },
+    "reuters-tariffs-2026-11-25-evening": {
+      "label": "Reuters: proposed tariffs on 14 U.S. trading partners",
+      "url": "https://www.reuters.com/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/",
+      "accessedAt": "2026-11-25"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [],
-    "confirmedVsUncertain": "November 24 ETF outflow and fresh market/on-chain snapshots verified. No five-percent move, new mainnet activation, material policy change beyond the previously captured CFTC advisory, or operator-confirmed Chainflip restart. The Foundation recommendation is research, not an upgrade."
+    "confirmedVsUncertain": "Paired ETH move below 5%; U.S. inflation, GDP revision and proposed tariffs are fresh context. Latest completed ETF flow is November 24. No independent evidence of a new ETH-specific regime break, realized new regulation, or mainnet activation was verified."
   }
 }
