@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-24T20:02:07.325Z",
-  "accessDate": "2026-11-24",
+  "researchedAt": "2026-11-25T06:51:19.634Z",
+  "accessDate": "2026-11-25",
   "market": {
-    "ethUsd": 1674.06,
-    "change24h": -2.97,
-    "marketCapUsd": 204650663695,
-    "volume24hUsd": 12203461693,
+    "ethUsd": 1657.64,
+    "change24h": -2.4,
+    "marketCapUsd": 202647663104,
+    "volume24hUsd": 10432919861,
     "sourceIds": [
-      "cmc-2026-11-24-evening"
+      "cmc-2026-11-25-morning"
     ],
-    "note": "CoinMarketCap pairs the USD price, rolling 24-hour move, market capitalization and volume in one capture. Farside's latest complete flow row is separate from this market capture."
+    "note": "Paired USD quote, rolling 24h return, volume and cap from CoinMarketCap; not a session close."
   },
   "observations": [
     {
@@ -6384,6 +6384,78 @@
       ],
       "confirmed": true,
       "uncertainty": "The unreported row is not a zero session."
+    },
+    {
+      "id": "eth-market-2026-11-25-morning",
+      "catalyst": "market",
+      "direction": "headwind",
+      "value": "$1,657.64 / -2.40% over 24h",
+      "summary": "ETH was below the previous evening capture, but did not cross the 5% rolling move threshold.",
+      "sourceIds": [
+        "cmc-2026-11-25-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Feed and time-of-capture differences apply."
+    },
+    {
+      "id": "eth-etf-2026-11-25-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 24 U.S. spot ETH ETF net flow -$64.1M",
+      "summary": "Farside's previously missing November 24 row is now populated, following November 23 net outflow of $84.9M.",
+      "sourceIds": [
+        "farside-2026-11-25-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Reported fund-flow estimates may be revised and are not all institutional ETH demand."
+    },
+    {
+      "id": "eth-defi-2026-11-25-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "Ethereum DeFi TVL $35.653B; stablecoins $128.304B; active RWA AUM $11.416B",
+      "summary": "DefiLlama showed $1.275B in 24-hour DEX volume and lower dollar TVL than the prior evening.",
+      "sourceIds": [
+        "defillama-2026-11-25-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Dollar balances change with asset prices and are not direct net inflows."
+    },
+    {
+      "id": "eth-capture-2026-11-25-morning",
+      "catalyst": "value-capture",
+      "direction": "headwind",
+      "value": "$188,588 in 24-hour chain fees; $77,651 in chain revenue",
+      "summary": "Fee and revenue readings fell from the prior evening's $415,882 and $205,695.",
+      "sourceIds": [
+        "defillama-2026-11-25-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "One rolling-window fall does not establish a durable value-capture trend."
+    },
+    {
+      "id": "eth-protocol-2026-11-25-morning",
+      "catalyst": "protocol",
+      "direction": "mixed",
+      "value": "Ethereum Foundation research recommends Keccak-256 for future hash-based cryptography",
+      "summary": "The November 24 PQAI research note gives an engineering recommendation, with audited security margin and reuse of a hash already used in the execution layer.",
+      "sourceIds": [
+        "ef-pqai-2026-11-25-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Research direction, not a finalized fork decision, activation, or new mainnet security property."
+    },
+    {
+      "id": "eth-macro-2026-11-25-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Asian chip-heavy equities sold off again on November 25",
+      "summary": "Reuters reported renewed regional equity losses as an AI relief rally faded and traders weighed potential U.S. import duties.",
+      "sourceIds": [
+        "reuters-macro-2026-11-25-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "No finalized tariff remedy, new monetary-policy action, or structural shift in ETH monetary demand verified."
     }
   ],
   "sources": {
@@ -8566,13 +8638,36 @@
       "label": "Farside U.S. spot ETH ETF flows",
       "url": "https://farside.co.uk/eth/",
       "accessedAt": "2026-11-24"
+    },
+    "cmc-2026-11-25-morning": {
+      "label": "CoinMarketCap ETH market capture",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-25"
+    },
+    "farside-2026-11-25-morning": {
+      "label": "Farside U.S. spot Ethereum ETF flow",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-25"
+    },
+    "defillama-2026-11-25-morning": {
+      "label": "DefiLlama Ethereum chain metrics",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-25"
+    },
+    "ef-pqai-2026-11-25-morning": {
+      "label": "Ethereum Foundation PQAI research recommendation, November 24",
+      "url": "https://blog.ethereum.org/2026/11/24/pqai-1",
+      "accessedAt": "2026-11-25"
+    },
+    "reuters-macro-2026-11-25-morning": {
+      "label": "Reuters November 25 Asian markets and tariff risk",
+      "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-11-25/",
+      "accessedAt": "2026-11-25"
     }
   },
   "assessment": {
-    "alertTriggered": true,
-    "reasons": [
-      "CFTC staff issued specific clarification of ETH eligibility toward certain derivatives firms' operating financial-resource requirements."
-    ],
-    "confirmedVsUncertain": "Spot ETH move below 5%. Latest complete Farside row remains November 23, -$84.9M; November 24 dashes are unreported, not zero. Staff guidance does not prove adoption. No official Chainflip restart, new protocol activation, or thesis break verified."
+    "alertTriggered": false,
+    "reasons": [],
+    "confirmedVsUncertain": "November 24 ETF outflow and fresh market/on-chain snapshots verified. No five-percent move, new mainnet activation, material policy change beyond the previously captured CFTC advisory, or operator-confirmed Chainflip restart. The Foundation recommendation is research, not an upgrade."
   }
 }
