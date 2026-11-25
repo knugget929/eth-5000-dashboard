@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-24T14:12:33.810Z",
+  "evaluatedAt": "2026-11-25T14:45:53Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-2026-11-25-morning",
       "eth-etf-2026-11-24-morning",
       "eth-etf-2026-11-23-evening",
       "eth-btcs-sec-aave-debt-2026-11-19",
@@ -135,6 +136,7 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "eth-macro-2026-11-25-morning",
       "eth-macro-2026-11-24-morning",
       "eth-macro-2026-11-23-evening",
       "eth-macro-2026-11-23-morning",
@@ -168,6 +170,7 @@
       "fed-rate-hike-2026-09-16"
     ],
     "regulation": [
+      "eth-cftc-staff-26-31-2026-11-24-evening",
       "eth-invesco-cboe-106904-2026-11-16",
       "eth-regulatory-2026-11-19-evening",
       "regulatory-review-2026-10-21-morning",
@@ -181,6 +184,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "eth-defi-2026-11-25-morning",
       "eth-defi-2026-11-24-morning",
       "eth-chainflip-report-2026-11-23-evening",
       "eth-chainflip-scope-2026-11-23-morning",
@@ -214,6 +218,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "protocol": [
+      "eth-protocol-2026-11-25-morning",
       "eth-acde-249-2026-11-19-evening",
       "glamsterdam-gas-compatibility-2026-11-17-morning",
       "eth-protocol-review-2026-11-18-morning",
@@ -229,6 +234,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-25-morning",
       "eth-market-2026-11-24-morning",
       "eth-market-2026-11-23-morning",
       "eth-market-2026-11-22-morning",
@@ -255,6 +261,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-capture-2026-11-25-morning",
       "eth-capture-2026-11-24-morning",
       "eth-capture-2026-11-23-morning",
       "eth-capture-2026-11-22-morning",
@@ -285,5 +292,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Maintain $5K by end-2027 at 52% (weighted signal 50). November 20 and November 23 U.S. spot ETH ETF flows were -$97.3M and -$84.9M, and the latest paired morning market capture was $1,702.04 (-1.37% over 24h). These reinforce existing weaknesses but do not establish a new institutional or market regime. Williams's data-dependent tightening remarks reinforce the existing cyclical liquidity headwind, not an FOMC action. Independently maintain $10K by end-2029 at 24% (weighted signal 36). DefiLlama's one-day increase in reported chain fees and revenue, alongside lower USD DeFi TVL, does not establish durable ETH value capture or monetary demand. Chainflip's disclosed bridge-vault loss is application-level risk, not a Layer 1 failure; no independently verified new protocol milestone or staking or regulatory regime change warrants reclassification. Keep structural debasement distinct from the Fed/liquidity cycle. No catalyst score/color or probability/history change; the dashboard market fallback is the paired November 24 morning canonical research snapshot, not a live quote."
+  "decision": "Maintain $5K by end-2027 at 52% (weighted signal 50). The completed November 20, 23 and 24 U.S. spot ETH ETF sessions totaled -$246.3M; the November 25 canonical paired price was $1,657.64 (-2.40% over 24h). The latest outflow was smaller, but the three sessions and weaker price confirm existing institutional and market headwinds, not an independently established new regime. The renewed equity selloff reinforces the existing cyclical liquidity headwind; it is not FOMC action. Independently maintain $10K by end-2029 at 24% (weighted signal 36). The CFTC advisory is staff guidance, applies to specified operating resources subject to haircuts, and does not satisfy the separate liquidity requirement or prove incremental ETH demand. November 25 Ethereum activity and one-day L1 fees and revenue do not establish durable ETH-specific value capture; the Foundation's hash recommendation is research, not a network activation. No new staking evidence warrants repricing. Keep structural debasement distinct from the Fed/liquidity cycle. No score, color, probability, history or change-log update; dashboard price is the paired canonical research fallback, not a live quote."
 }
