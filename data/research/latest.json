@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-26T07:01:05Z",
+  "researchedAt": "2026-11-26T19:21:02Z",
   "accessDate": "2026-11-26",
   "market": {
-    "ethUsd": 1685.67,
-    "change24h": 2.01,
-    "marketCapUsd": 206079537350,
-    "volume24hUsd": 13639952571,
+    "ethUsd": 1700.61,
+    "change24h": 1.13,
+    "marketCapUsd": 207906419894,
+    "volume24hUsd": 8676780450,
     "sourceIds": [
-      "cmc-2026-11-26-morning"
+      "cmc-2026-11-26-evening"
     ],
     "note": "CoinMarketCap paired USD quote, rolling 24-hour return, traded volume and cap; not a session close."
   },
@@ -6554,6 +6554,42 @@
       ],
       "confirmed": true,
       "uncertainty": "The transmission to international risk assets is uncertain; cyclical liquidity is separate from structural debasement."
+    },
+    {
+      "id": "eth-usage-2026-11-26-evening",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$128.393B in Ethereum stablecoins, down 2.19% over seven days; $11.457B in active RWA AUM",
+      "summary": "DefiLlama also reports $36.614B in DeFi TVL and $1.192B in trailing 24-hour DEX volume.",
+      "sourceIds": [
+        "defillama-2026-11-26-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Provider coverage and USD marks can change; adoption does not imply an equivalent increase in ETH demand."
+    },
+    {
+      "id": "eth-value-capture-2026-11-26-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$180,993 in trailing 24-hour Ethereum chain fees and $61,638 in chain revenue",
+      "summary": "DefiLlama reports $7.43M in application fees over the same displayed window. Application fees are a separate metric and are not ETH burn or protocol revenue.",
+      "sourceIds": [
+        "defillama-2026-11-26-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "A rolling day is not a trend; categories can differ in coverage."
+    },
+    {
+      "id": "eth-macro-2026-11-26-evening",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "November 26 ECB account documents October concerns about persistent energy-driven inflation",
+      "summary": "The published account describes October deliberations, not a fresh rate decision or verified ETH demand or liquidity change.",
+      "sourceIds": [
+        "ecb-2026-11-26-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Policy and risk-asset implications depend on subsequent energy and inflation data."
     }
   ],
   "sources": {
@@ -8806,11 +8842,26 @@
       "label": "Bank of Korea monetary policy decision, November 26",
       "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400069&menuNo=400069&nttId=11067086&oldMenuNo=400007&programType=newsDataEng&relate=Y",
       "accessedAt": "2026-11-26"
+    },
+    "cmc-2026-11-26-evening": {
+      "label": "CoinMarketCap paired ETH price and rolling change",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-26"
+    },
+    "defillama-2026-11-26-evening": {
+      "label": "DefiLlama Ethereum chain usage and value capture",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-26"
+    },
+    "ecb-2026-11-26-evening": {
+      "label": "ECB account of the October 28–29 meeting, released November 26",
+      "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261126~ccf28c8071.ro.html",
+      "accessedAt": "2026-11-26"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [],
-    "confirmedVsUncertain": "November 25 ETF flow finalized in the observed Farside table. ETH rolling movement below 5%. The Bank of Korea decision is confirmed regional macro context; no verified Ethereum thesis-breaking event."
+    "confirmedVsUncertain": "Paired ETH rolling move stayed below 5%. The November 25 ETF outflow remains the latest completed Farside session observation; no completed November 26 row on the U.S. holiday. Ethereum usage and chain revenue are separate metrics; the ECB account is historical policy context, not a fresh decision. No verified thesis-breaking event."
   }
 }
