@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-25T14:45:53Z",
+  "evaluatedAt": "2026-11-26T14:43:15Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -108,6 +108,7 @@
   },
   "evidenceRefs": {
     "institutional": [
+      "eth-etf-2026-11-26-morning",
       "eth-etf-2026-11-25-morning",
       "eth-etf-2026-11-24-morning",
       "eth-etf-2026-11-23-evening",
@@ -136,6 +137,8 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "eth-macro-2026-11-26-morning",
+      "eth-macro-2026-11-25-evening",
       "eth-macro-2026-11-25-morning",
       "eth-macro-2026-11-24-morning",
       "eth-macro-2026-11-23-evening",
@@ -184,6 +187,7 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "eth-tokenization-2026-11-25-evening",
       "eth-defi-2026-11-25-morning",
       "eth-defi-2026-11-24-morning",
       "eth-chainflip-report-2026-11-23-evening",
@@ -234,6 +238,7 @@
       "ef-protocol-priorities-hegota-2026-09-07"
     ],
     "market": [
+      "eth-market-2026-11-26-morning",
       "eth-market-2026-11-25-morning",
       "eth-market-2026-11-24-morning",
       "eth-market-2026-11-23-morning",
@@ -261,6 +266,7 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-value-capture-2026-11-25-evening",
       "eth-capture-2026-11-25-morning",
       "eth-capture-2026-11-24-morning",
       "eth-capture-2026-11-23-morning",
@@ -292,5 +298,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Maintain $5K by end-2027 at 52% (weighted signal 50). The completed November 20, 23 and 24 U.S. spot ETH ETF sessions totaled -$246.3M; the November 25 canonical paired price was $1,657.64 (-2.40% over 24h). The latest outflow was smaller, but the three sessions and weaker price confirm existing institutional and market headwinds, not an independently established new regime. The renewed equity selloff reinforces the existing cyclical liquidity headwind; it is not FOMC action. Independently maintain $10K by end-2029 at 24% (weighted signal 36). The CFTC advisory is staff guidance, applies to specified operating resources subject to haircuts, and does not satisfy the separate liquidity requirement or prove incremental ETH demand. November 25 Ethereum activity and one-day L1 fees and revenue do not establish durable ETH-specific value capture; the Foundation's hash recommendation is research, not a network activation. No new staking evidence warrants repricing. Keep structural debasement distinct from the Fed/liquidity cycle. No score, color, probability, history or change-log update; dashboard price is the paired canonical research fallback, not a live quote."
+  "decision": "Maintain $5K by end-2027 at 52% (weighted signal 50). The completed November 24 and 25 U.S. spot ETH ETF sessions totaled -$132.6M, consistent with the existing demand headwind. The November 26 canonical paired quote was $1,685.67 (+2.01% over 24 hours); one rebound does not establish a reversal in the tape or fund flows. The U.S. inflation data and the Bank of Korea's 25-basis-point hike reinforce the existing cyclical liquidity caution, but the regional hike is not Fed action. Independently maintain $10K by end-2029 at 24% (weighted signal 36). The latest pinned activity and fee data are short-window readings, not proof of lasting ETH-specific collateral, fee or monetary demand. The existing staff advisory is limited and is not adoption, and the pinned protocol evidence does not establish a new activation. Staking and structural debasement assessments are unchanged; structural fiscal pressure is distinct from cyclical central-bank policy. No score, color, probability, history or change-log change. The stored market fallback is the November 26 morning canonical research capture, not a live quote."
 }
