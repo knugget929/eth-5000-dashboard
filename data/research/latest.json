@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-25T19:42:11Z",
-  "accessDate": "2026-11-25",
+  "researchedAt": "2026-11-26T07:01:05Z",
+  "accessDate": "2026-11-26",
   "market": {
-    "ethUsd": 1683.22,
-    "change24h": 0.24,
-    "marketCapUsd": 205774566981,
-    "volume24hUsd": 12476381106,
+    "ethUsd": 1685.67,
+    "change24h": 2.01,
+    "marketCapUsd": 206079537350,
+    "volume24hUsd": 13639952571,
     "sourceIds": [
-      "cmc-2026-11-25-evening"
+      "cmc-2026-11-26-morning"
     ],
-    "note": "Paired USD quote, rolling 24-hour return, traded volume and cap from CoinMarketCap's prose snapshot; not a session close."
+    "note": "CoinMarketCap paired USD quote, rolling 24-hour return, traded volume and cap; not a session close."
   },
   "observations": [
     {
@@ -6518,6 +6518,42 @@
       ],
       "confirmed": true,
       "uncertainty": "Neither a Fed decision nor a new effective tariff is established; cyclical liquidity is distinct from the longer-term debasement thesis."
+    },
+    {
+      "id": "eth-market-2026-11-26-morning",
+      "catalyst": "market",
+      "direction": "mixed",
+      "value": "$1,685.67 / +2.01% over 24h",
+      "summary": "CoinMarketCap's paired price, rolling change, volume and market cap show a modest positive rolling return, below the 5% threshold.",
+      "sourceIds": [
+        "cmc-2026-11-26-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "This is a provider capture, not a session close; reporting windows vary."
+    },
+    {
+      "id": "eth-etf-2026-11-26-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 25 U.S. spot ETH ETF net flow -$68.5M",
+      "summary": "The November 25 Farside row is now complete; ETHA accounts for the reported net outflow. November 24 was -$64.1M.",
+      "sourceIds": [
+        "farside-2026-11-26-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Fund-flow figures may be revised and are not a complete measure of institutional ETH demand."
+    },
+    {
+      "id": "eth-macro-2026-11-26-morning",
+      "catalyst": "macro",
+      "direction": "headwind",
+      "value": "Bank of Korea raised its base rate 25 basis points to 3.25% on November 26",
+      "summary": "This is a confirmed regional policy tightening decision. It is not a Federal Reserve action or an observation of ETH-specific demand.",
+      "sourceIds": [
+        "bok-2026-11-26-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "The transmission to international risk assets is uncertain; cyclical liquidity is separate from structural debasement."
     }
   ],
   "sources": {
@@ -8755,11 +8791,26 @@
       "label": "Reuters: proposed tariffs on 14 U.S. trading partners",
       "url": "https://www.reuters.com/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/",
       "accessedAt": "2026-11-25"
+    },
+    "cmc-2026-11-26-morning": {
+      "label": "CoinMarketCap paired ETH price and rolling change",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-26"
+    },
+    "farside-2026-11-26-morning": {
+      "label": "Farside Investors U.S. spot Ethereum ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-26"
+    },
+    "bok-2026-11-26-morning": {
+      "label": "Bank of Korea monetary policy decision, November 26",
+      "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400069&menuNo=400069&nttId=11067086&oldMenuNo=400007&programType=newsDataEng&relate=Y",
+      "accessedAt": "2026-11-26"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [],
-    "confirmedVsUncertain": "Paired ETH move below 5%; U.S. inflation, GDP revision and proposed tariffs are fresh context. Latest completed ETF flow is November 24. No independent evidence of a new ETH-specific regime break, realized new regulation, or mainnet activation was verified."
+    "confirmedVsUncertain": "November 25 ETF flow finalized in the observed Farside table. ETH rolling movement below 5%. The Bank of Korea decision is confirmed regional macro context; no verified Ethereum thesis-breaking event."
   }
 }
