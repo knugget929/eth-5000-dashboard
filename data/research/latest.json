@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-26T19:21:02Z",
-  "accessDate": "2026-11-26",
+  "researchedAt": "2026-11-27T06:17:34Z",
+  "accessDate": "2026-11-27",
   "market": {
-    "ethUsd": 1700.61,
-    "change24h": 1.13,
-    "marketCapUsd": 207906419894,
-    "volume24hUsd": 8676780450,
+    "ethUsd": 1738.55,
+    "change24h": 2.66,
+    "marketCapUsd": 212549192055,
+    "volume24hUsd": 8178428600,
     "sourceIds": [
-      "cmc-2026-11-26-evening"
+      "cmc-2026-11-27-morning"
     ],
     "note": "CoinMarketCap paired USD quote, rolling 24-hour return, traded volume and cap; not a session close."
   },
@@ -6590,6 +6590,43 @@
       ],
       "confirmed": true,
       "uncertainty": "Policy and risk-asset implications depend on subsequent energy and inflation data."
+    },
+    {
+      "id": "eth-usage-2026-11-27-morning",
+      "catalyst": "tokenization",
+      "direction": "mixed",
+      "value": "$128.796B in Ethereum stablecoins, down 0.25% over seven days; $11.558B in active RWA AUM",
+      "summary": "DefiLlama also reports $37.23B in DeFi TVL and $994.11M in trailing 24-hour DEX volume.",
+      "sourceIds": [
+        "defillama-2026-11-27-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Coverage and USD marks can change; adoption by itself does not measure incremental ETH demand."
+    },
+    {
+      "id": "eth-value-capture-2026-11-27-morning",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "$151,783 in trailing 24-hour Ethereum chain fees and $34,904 in chain revenue",
+      "summary": "DefiLlama separately reports $11.6M in application fees. Application fees are not ETH burn or protocol revenue. Chain revenue was below the prior observed rolling window.",
+      "sourceIds": [
+        "defillama-2026-11-27-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Overlapping rolling windows are not a long-run trend. Dollar marks and covered activity can differ."
+    },
+    {
+      "id": "eth-macro-2026-11-27-morning",
+      "catalyst": "macro",
+      "direction": "mixed",
+      "value": "November preliminary Tokyo core CPI rose 2.9% year over year, up from 2.6% in October; excluding fresh food and energy, it slowed to 2.5% from 2.6%",
+      "summary": "The November 27 local release informs expectations for Bank of Japan policy, but is not a new policy decision or a direct Federal Reserve or ETH-demand signal.",
+      "sourceIds": [
+        "tokyo-cpi-2026-11-27-morning",
+        "reuters-tokyo-cpi-2026-11-27-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Impact on global funding and ETH is uncertain; the structural debasement thesis is separate."
     }
   ],
   "sources": {
@@ -8857,11 +8894,31 @@
       "label": "ECB account of the October 28–29 meeting, released November 26",
       "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261126~ccf28c8071.ro.html",
       "accessedAt": "2026-11-26"
+    },
+    "cmc-2026-11-27-morning": {
+      "label": "CoinMarketCap paired ETH/USD quote and 24-hour statistics",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-27"
+    },
+    "defillama-2026-11-27-morning": {
+      "label": "DefiLlama Ethereum chain usage and value capture",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-27"
+    },
+    "tokyo-cpi-2026-11-27-morning": {
+      "label": "Japan Statistics Bureau November preliminary Tokyo consumer prices",
+      "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html",
+      "accessedAt": "2026-11-27"
+    },
+    "reuters-tokyo-cpi-2026-11-27-morning": {
+      "label": "Reuters Tokyo November inflation Report and BOJ context",
+      "url": "https://www.reuters.com/markets/asia/core-inflation-japans-capital-accelerates-november-2026-11-26/",
+      "accessedAt": "2026-11-27"
     }
   },
   "assessment": {
     "alertTriggered": false,
     "reasons": [],
-    "confirmedVsUncertain": "Paired ETH rolling move stayed below 5%. The November 25 ETF outflow remains the latest completed Farside session observation; no completed November 26 row on the U.S. holiday. Ethereum usage and chain revenue are separate metrics; the ECB account is historical policy context, not a fresh decision. No verified thesis-breaking event."
+    "confirmedVsUncertain": "CoinMarketCap's paired USD move is below 5%. November 25 was the latest completed U.S. ETF flow session observed; Thanksgiving has no separate trading session. Network usage should not be conflated with ETH value capture. Tokyo inflation is regional macro context, not a fresh rate decision or a structural debasement observation. No verified thesis-breaking event."
   }
 }
