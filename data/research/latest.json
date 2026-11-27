@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-27T06:17:34Z",
+  "researchedAt": "2026-11-27T19:10:37.846Z",
   "accessDate": "2026-11-27",
   "market": {
-    "ethUsd": 1738.55,
-    "change24h": 2.66,
-    "marketCapUsd": 212549192055,
-    "volume24hUsd": 8178428600,
+    "ethUsd": 1666.35,
+    "change24h": -1.87,
+    "marketCapUsd": 203722513452,
+    "volume24hUsd": 11680504970,
     "sourceIds": [
-      "cmc-2026-11-27-morning"
+      "cmc-2026-11-27-evening"
     ],
     "note": "CoinMarketCap paired USD quote, rolling 24-hour return, traded volume and cap; not a session close."
   },
@@ -6627,6 +6627,44 @@
       ],
       "confirmed": true,
       "uncertainty": "Impact on global funding and ETH is uncertain; the structural debasement thesis is separate."
+    },
+    {
+      "id": "eth-exchange-recovery-2026-11-27-evening",
+      "catalyst": "market",
+      "direction": "tailwind",
+      "value": "Binance says the October incident-related withdrawal restrictions have been lifted",
+      "summary": "The exchange reported recovery on November 26 and repeated it November 27. It lists separate routine pauses on some networks. The announced recovery reduces an exchange-access bottleneck; it is not evidence of a change to Ethereum's protocol.",
+      "sourceIds": [
+        "binance-recovery-2026-11-27-evening",
+        "reuters-binance-2026-11-27-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Confirmed that Binance made the announcement; no independent live withdrawal or reserve audit was performed."
+    },
+    {
+      "id": "eth-hoodi-2026-11-27-evening",
+      "catalyst": "protocol",
+      "direction": "tailwind",
+      "value": "Ethereum core developers scheduled Glamsterdam on Hoodi testnet for December 15 at 19:12 UTC",
+      "summary": "Progress toward public testnet deployment following the November 26 consensus call; no mainnet date confirmed.",
+      "sourceIds": [
+        "ethereum-acdc-2026-11-27-evening",
+        "ethereum-hoodi-2026-11-27-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "A testnet plan can change and does not resolve all application compatibility or mainnet activation risks."
+    },
+    {
+      "id": "eth-fees-2026-11-27-evening",
+      "catalyst": "value-capture",
+      "direction": "mixed",
+      "value": "Ethereum trailing 24-hour chain fees $183,898 and chain revenue $55,566",
+      "summary": "DefiLlama separately reports $11.62M in application fees and $940.41M of decentralized exchange volume. Application fees are not ETH burn or chain revenue.",
+      "sourceIds": [
+        "defillama-2026-11-27-evening"
+      ],
+      "confirmed": true,
+      "uncertainty": "Rolling windows are noisy and do not show durable token-level value capture."
     }
   ],
   "sources": {
@@ -8914,11 +8952,43 @@
       "label": "Reuters Tokyo November inflation Report and BOJ context",
       "url": "https://www.reuters.com/markets/asia/core-inflation-japans-capital-accelerates-november-2026-11-26/",
       "accessedAt": "2026-11-27"
+    },
+    "cmc-2026-11-27-evening": {
+      "label": "CoinMarketCap paired ETH/USD quote",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-27"
+    },
+    "defillama-2026-11-27-evening": {
+      "label": "DefiLlama Ethereum chain and application fees",
+      "url": "https://defillama.com/chain/ethereum",
+      "accessedAt": "2026-11-27"
+    },
+    "binance-recovery-2026-11-27-evening": {
+      "label": "Binance November 27 incident withdrawal restoration announcement",
+      "url": "https://www.binance.com/en/square/post/392614643875657",
+      "accessedAt": "2026-11-27"
+    },
+    "reuters-binance-2026-11-27-evening": {
+      "label": "Reuters: Binance announced withdrawal recovery completion",
+      "url": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/",
+      "accessedAt": "2026-11-27"
+    },
+    "ethereum-acdc-2026-11-27-evening": {
+      "label": "Ethereum All Core Devs consensus call 192",
+      "url": "https://github.com/ethereum/pm/issues/2305",
+      "accessedAt": "2026-11-27"
+    },
+    "ethereum-hoodi-2026-11-27-evening": {
+      "label": "The Block: developers schedule Glamsterdam Hoodi testnet",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
+      "accessedAt": "2026-11-27"
     }
   },
   "assessment": {
-    "alertTriggered": false,
-    "reasons": [],
-    "confirmedVsUncertain": "CoinMarketCap's paired USD move is below 5%. November 25 was the latest completed U.S. ETF flow session observed; Thanksgiving has no separate trading session. Network usage should not be conflated with ETH value capture. Tokyo inflation is regional macro context, not a fresh rate decision or a structural debasement observation. No verified thesis-breaking event."
+    "alertTriggered": true,
+    "reasons": [
+      "Major exchange access improvement: Binance reported restoring the withdrawals suspended after the October security incident."
+    ],
+    "confirmedVsUncertain": "The paired ETH move did not cross 5%. Recovery is a dated exchange report, not independent reserve or incident-loss verification. Hoodi is a scheduled testnet upgrade, not a confirmed mainnet fork. No thesis-breaking Ethereum event was verified."
   }
 }
