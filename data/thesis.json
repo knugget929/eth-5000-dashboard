@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "updatedAt": "2026-11-21",
   "market": {
-    "price": 1685.67,
-    "change24h": 2.01,
-    "capturedAt": "2026-11-26T07:01:05Z",
-    "source": "CoinMarketCap November 26 morning paired quote from canonical research; stored fallback, not a live quote."
+    "price": 1738.55,
+    "change24h": 2.66,
+    "capturedAt": "2026-11-27T06:17:34Z",
+    "source": "CoinMarketCap November 27 morning paired quote from canonical research; stored fallback, not a live quote."
   },
   "targets": {
     "5000": {

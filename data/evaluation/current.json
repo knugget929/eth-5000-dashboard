@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-26T14:43:15Z",
+  "evaluatedAt": "2026-11-27T14:28:35.011Z",
   "policyVersion": "2026-09-01",
   "targets": {
     "5000": {
@@ -137,6 +137,8 @@
       "bitmine-eth-holdings-2026-09-20"
     ],
     "macro": [
+      "eth-macro-2026-11-27-morning",
+      "eth-macro-2026-11-26-evening",
       "eth-macro-2026-11-26-morning",
       "eth-macro-2026-11-25-evening",
       "eth-macro-2026-11-25-morning",
@@ -187,6 +189,8 @@
       "sec-crypto-faq-liquid-staking-2026-09-25"
     ],
     "tokenization": [
+      "eth-usage-2026-11-27-morning",
+      "eth-usage-2026-11-26-evening",
       "eth-tokenization-2026-11-25-evening",
       "eth-defi-2026-11-25-morning",
       "eth-defi-2026-11-24-morning",
@@ -266,6 +270,8 @@
       "eth-market-2026-10-02-evening"
     ],
     "value-capture": [
+      "eth-value-capture-2026-11-27-morning",
+      "eth-value-capture-2026-11-26-evening",
       "eth-value-capture-2026-11-25-evening",
       "eth-capture-2026-11-25-morning",
       "eth-capture-2026-11-24-morning",
@@ -298,5 +304,5 @@
       "eth-monetary-capture"
     ]
   },
-  "decision": "Maintain $5K by end-2027 at 52% (weighted signal 50). The completed November 24 and 25 U.S. spot ETH ETF sessions totaled -$132.6M, consistent with the existing demand headwind. The November 26 canonical paired quote was $1,685.67 (+2.01% over 24 hours); one rebound does not establish a reversal in the tape or fund flows. The U.S. inflation data and the Bank of Korea's 25-basis-point hike reinforce the existing cyclical liquidity caution, but the regional hike is not Fed action. Independently maintain $10K by end-2029 at 24% (weighted signal 36). The latest pinned activity and fee data are short-window readings, not proof of lasting ETH-specific collateral, fee or monetary demand. The existing staff advisory is limited and is not adoption, and the pinned protocol evidence does not establish a new activation. Staking and structural debasement assessments are unchanged; structural fiscal pressure is distinct from cyclical central-bank policy. No score, color, probability, history or change-log change. The stored market fallback is the November 26 morning canonical research capture, not a live quote."
+  "decision": "Maintain the $5K end-2027 estimate at 52% (weighted signal 50). The $1,738.55 morning paired quote gained 2.66% over 24 hours, but the last two completed U.S. spot Ethereum ETF sessions remained net negative by $132.6M and the holiday yielded no newer flow. The rebound does not confirm a change in market structure or sustained demand; Tokyo inflation and the November 26 ECB account do not change the Fed/liquidity assessment. Independently maintain the $10K end-2029 estimate at 24% (weighted signal 36). Higher stablecoin and active real-world asset balances are not evidence of durable ETH demand: chain revenue fell to $34,904 in the latest rolling window despite $11.6M of application fees. No confirmed new staking, regulation, or protocol regime warrants rescoring; the long-term debasement thesis remains distinct from cyclical liquidity. No catalyst color, scores, probabilities, history or change log changed. The dashboard fallback now uses the November 27 morning canonical research snapshot."
 }
