@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-11-27T19:10:37.846Z",
-  "accessDate": "2026-11-27",
+  "researchedAt": "2026-11-28T06:25:08.950Z",
+  "accessDate": "2026-11-28",
   "market": {
-    "ethUsd": 1666.35,
-    "change24h": -1.87,
-    "marketCapUsd": 203722513452,
-    "volume24hUsd": 11680504970,
+    "ethUsd": 1655.8,
+    "change24h": -4.78,
+    "marketCapUsd": 202437441869,
+    "volume24hUsd": 10361185693,
     "sourceIds": [
-      "cmc-2026-11-27-evening"
+      "cmc-2026-11-28-morning"
     ],
     "note": "CoinMarketCap paired USD quote, rolling 24-hour return, traded volume and cap; not a session close."
   },
@@ -6665,6 +6665,18 @@
       ],
       "confirmed": true,
       "uncertainty": "Rolling windows are noisy and do not show durable token-level value capture."
+    },
+    {
+      "id": "eth-etf-2026-11-28-morning",
+      "catalyst": "institutional",
+      "direction": "headwind",
+      "value": "November 27 completed U.S. spot ETH ETF net flow −$69.4M, ninth consecutive net-outflow session",
+      "summary": "Farside’s completed row replaces yesterday's blank placeholder. ETHA accounted for $57.3M of the reported outflows. The nine completed sessions from November 16 through November 27 sum to $592.7M in net outflows.",
+      "sourceIds": [
+        "farside-2026-11-28-morning"
+      ],
+      "confirmed": true,
+      "uncertainty": "Aggregate ETF creation/redemption figures may be revised and do not measure all institutional demand."
     }
   ],
   "sources": {
@@ -8982,13 +8994,21 @@
       "label": "The Block: developers schedule Glamsterdam Hoodi testnet",
       "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
       "accessedAt": "2026-11-27"
+    },
+    "cmc-2026-11-28-morning": {
+      "label": "CoinMarketCap paired ETH/USD market capture",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "accessedAt": "2026-11-28"
+    },
+    "farside-2026-11-28-morning": {
+      "label": "Farside Investors completed November 27 U.S. spot ETH ETF flows",
+      "url": "https://farside.co.uk/eth/",
+      "accessedAt": "2026-11-28"
     }
   },
   "assessment": {
-    "alertTriggered": true,
-    "reasons": [
-      "Major exchange access improvement: Binance reported restoring the withdrawals suspended after the October security incident."
-    ],
-    "confirmedVsUncertain": "The paired ETH move did not cross 5%. Recovery is a dated exchange report, not independent reserve or incident-loss verification. Hoodi is a scheduled testnet upgrade, not a confirmed mainnet fork. No thesis-breaking Ethereum event was verified."
+    "alertTriggered": false,
+    "reasons": [],
+    "confirmedVsUncertain": "The paired 24-hour ETH move is a 4.78% decline, below the 5% threshold. Friday’s completed ETF outflow extends rather than changes the existing demand trend. The previously reported Binance restoration and Hoodi testnet plan are not fresh developments; no new thesis-breaking event was verified."
   }
 }
